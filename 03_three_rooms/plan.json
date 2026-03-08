@@ -1,0 +1,149 @@
+{
+  "canvas": {
+    "width": 256,
+    "height": 218
+  },
+  "scale": {
+    "px_per_m": 38.3268,
+    "m_per_px": 0.026091
+  },
+  "ceiling_elevation": 104,
+  "rooms": [
+    {
+      "id": "r1",
+      "name": "Living Room",
+      "left": 2,
+      "top": 111,
+      "width": 251,
+      "height": 104
+    },
+    {
+      "id": "r2",
+      "name": "Bedroom",
+      "left": 2,
+      "top": 2,
+      "width": 123,
+      "height": 104
+    },
+    {
+      "id": "r3",
+      "name": "Bathroom",
+      "left": 130,
+      "top": 2,
+      "width": 123,
+      "height": 104
+    }
+  ],
+  "obstacles": [
+    {
+      "id": "structure_0",
+      "left": 0,
+      "top": 0,
+      "width": 256,
+      "height": 2
+    },
+    {
+      "id": "structure_1",
+      "left": 0,
+      "top": 2,
+      "width": 2,
+      "height": 216
+    },
+    {
+      "id": "structure_2",
+      "left": 126,
+      "top": 2,
+      "width": 4,
+      "height": 109
+    },
+    {
+      "id": "structure_3",
+      "left": 254,
+      "top": 2,
+      "width": 2,
+      "height": 216
+    },
+    {
+      "id": "structure_4",
+      "left": 2,
+      "top": 107,
+      "width": 124,
+      "height": 4
+    },
+    {
+      "id": "structure_5",
+      "left": 130,
+      "top": 107,
+      "width": 124,
+      "height": 4
+    },
+    {
+      "id": "structure_6",
+      "left": 2,
+      "top": 215,
+      "width": 252,
+      "height": 3
+    },
+    {
+      "id": "door_o1_clearance",
+      "left": 2,
+      "top": 145,
+      "width": 31,
+      "height": 36
+    },
+    {
+      "id": "door_o2_clearance_r1",
+      "left": 48,
+      "top": 108,
+      "width": 32,
+      "height": 31
+    },
+    {
+      "id": "door_o2_clearance_r2",
+      "left": 48,
+      "top": 77,
+      "width": 32,
+      "height": 31
+    },
+    {
+      "id": "door_o3_clearance_r1",
+      "left": 175,
+      "top": 108,
+      "width": 32,
+      "height": 31
+    },
+    {
+      "id": "door_o3_clearance_r3",
+      "left": 175,
+      "top": 77,
+      "width": 32,
+      "height": 31
+    }
+  ],
+  "wall_features": [
+    {
+      "id": "window_o4",
+      "left": 241,
+      "top": 34,
+      "width": 12,
+      "height": 40,
+      "sill_elevation": 35
+    },
+    {
+      "id": "window_o5",
+      "left": 105,
+      "top": 202,
+      "width": 46,
+      "height": 12,
+      "sill_elevation": 35
+    },
+    {
+      "id": "window_o6",
+      "left": 44,
+      "top": 2,
+      "width": 40,
+      "height": 12,
+      "sill_elevation": 35
+    }
+  ]
+}

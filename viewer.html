@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Floor Plan Viewer</title>
+<style>
+  body { font-family: monospace; background: #f5f5f5; color: #333; margin: 20px; }
+  h2 { margin: 10px 0 5px; }
+  .plan-container { display: inline-block; margin: 0 30px 30px 0; vertical-align: top; }
+  .canvas {
+    position: relative;
+    width: 256px;
+    height: 256px;
+    background: #444;
+    border: 1px solid #ccc;
+  }
+  /* z-order: obstacles (0) → rooms (1) → doors/windows (2) */
+  .room       { position: absolute; background: #fff; box-sizing: border-box; z-index: 1; }
+  .canvas.highlight-rooms .room { outline: 1px dashed #888; outline-offset: -1px; }
+  .canvas.highlight-rooms .room[data-has-clip="1"] { outline: none; }
+  .room-polygon-outline {
+    display: none;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  .canvas.highlight-rooms .room .room-polygon-outline { display: block; }
+  .obstacle   { position: absolute; background: #444; box-sizing: border-box; z-index: 0; }
+  .canvas.highlight-obstacles .obstacle { border: 1px dashed #999; }
+  .canvas.highlight-obstacles .obstacle[data-has-clip="1"] { border: none; }
+  .obstacle-polygon-outline {
+    display: none;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  .canvas.highlight-obstacles .obstacle .obstacle-polygon-outline { display: block; }
+  .door       { position: absolute; background: rgba(255, 100, 100, 0.5); z-index: 2; }
+  .window     { position: absolute; background: rgba(100, 180, 255, 0.4); border: 1px solid rgba(100, 180, 255, 0.8); box-sizing: border-box; z-index: 2; }
+  .label      { position: absolute; font-size: 9px; color: #666; pointer-events: none; }
+  .tooltip    { display: none; position: fixed; background: #222; color: #fff; padding: 4px 8px; font-size: 11px; border-radius: 3px; pointer-events: none; z-index: 100; }
+  .legend     { margin: 8px 0; font-size: 11px; }
+  .legend span { display: inline-block; width: 12px; height: 12px; vertical-align: middle; margin-right: 4px; }
+</style>
+</head>
+<body>
+<h1>Floor Plan Viewer</h1>
+<div class="legend">
+  <span style="background:#fff;border:1px dashed #aaa"></span> Room
+  <span style="background:#444;margin-left:12px"></span> Structure
+  <span style="background:rgba(255,100,100,0.5);margin-left:12px"></span> Door clearance
+  <span style="background:rgba(100,180,255,0.4);border:1px solid rgba(100,180,255,0.8);margin-left:12px"></span> Window zone
+</div>
+<div id="plans"></div>
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+const PLANS = [
+  "01_single_room/01_single_room_plan.css",
+  "02_two_rooms/02_two_rooms_plan.css",
+  "03_three_rooms/03_three_rooms_plan.css",
+  "04_l_shaped/04_l_shaped_plan.css",
+  "05_five_rooms/05_five_rooms_plan.css",
+  "06_single_room_stubs/06_single_room_stubs_plan.css",
+  "07_two_rooms_stubs/07_two_rooms_stubs_plan.css",
+  "08_angled_bump_out/08_angled_bump_out_plan.css",
+  "09_pentagonal_room/09_pentagonal_room_plan.css",
+  "10_angled_shared_wall/10_angled_shared_wall_plan.css",
+];
+
+const tooltip = document.getElementById("tooltip");
+
+function px(v) { return v + "px"; }
+
+function parsePolygonPointsPx(clipPath, width, height, insetPx = 0) {
+  const m = clipPath && clipPath.match(/polygon\((.+)\)/i);
+  if (!m) return null;
+  const points = m[1]
+    .split(",")
+    .map(s => s.trim().split(/\s+/))
+    .filter(pair => pair.length >= 2)
+    .map(([x, y]) => {
+      const nx = parseFloat(x);
+      const ny = parseFloat(y);
+      if (!Number.isFinite(nx) || !Number.isFinite(ny)) return null;
+      const px = x.includes("%") ? (nx / 100) * width : nx;
+      const py = y.includes("%") ? (ny / 100) * height : ny;
+      return { x: px, y: py };
+    })
+    .filter(Boolean);
+  if (points.length < 3) return null;
+
+  if (insetPx > 0) {
+    const cx = points.reduce((sum, p) => sum + p.x, 0) / points.length;
+    const cy = points.reduce((sum, p) => sum + p.y, 0) / points.length;
+    for (const p of points) {
+      const dx = cx - p.x;
+      const dy = cy - p.y;
+      const len = Math.hypot(dx, dy);
+      if (len > 0.001) {
+        p.x += (dx / len) * insetPx;
+        p.y += (dy / len) * insetPx;
+      }
+    }
+  }
+
+  return points.map(p => `${p.x.toFixed(2)},${p.y.toFixed(2)}`).join(" ");
+}
+
+function parseCssPlan(text) {
+  // Parse the header comment for metadata
+  const headerMatch = text.match(/\/\*\s*(\d+)x(\d+)\s+grid\s*\|\s*1px\s*=\s*([\d.]+)m\s*\|\s*ceiling:\s*(\d+)px\s*\*\//);
+  const meta = headerMatch
+    ? { width: +headerMatch[1], height: +headerMatch[2], m_per_px: +headerMatch[3], ceiling: +headerMatch[4] }
+    : { width: 256, height: 256, m_per_px: 0, ceiling: 0 };
+
+  // Parse each CSS rule: #id.class { left: N; top: N; width: N; height: N; ... }
+  const ruleRe = /#([\w]+)\.(room|obstacle|door|window)\s*\{([^}]+)\}/g;
+  const items = [];
+  let m;
+  while ((m = ruleRe.exec(text)) !== null) {
+    const id = m[1], cls = m[2], body = m[3];
+    const props = {};
+    for (const pair of body.split(";")) {
+      const kv = pair.trim().match(/^([\w-]+)\s*:\s*(.+)/);
+      if (kv) props[kv[1]] = kv[2].trim();
+    }
+    // Extract comment
+    const commentMatch = body.match(/\/\*\s*(.+?)\s*\*\//);
+    const comment = commentMatch ? commentMatch[1] : "";
+    items.push({ id, cls, props, comment });
+  }
+  return { meta, items };
+}
+
+function makeDiv(cls, item) {
+  const el = document.createElement("div");
+  el.className = cls;
+  el.style.left   = px(item.left);
+  el.style.top    = px(item.top);
+  el.style.width  = px(item.width);
+  el.style.height = px(item.height);
+
+  const info = Object.entries(item).map(([k,v]) => `${k}: ${v}`).join("\n");
+  el.addEventListener("mouseenter", e => {
+    tooltip.textContent = info;
+    tooltip.style.display = "block";
+  });
+  el.addEventListener("mousemove", e => {
+    tooltip.style.left = (e.clientX + 12) + "px";
+    tooltip.style.top  = (e.clientY + 12) + "px";
+  });
+  el.addEventListener("mouseleave", () => { tooltip.style.display = "none"; });
+
+  if ((cls === "room" || cls === "obstacle") && item["clip-path"]) {
+    el.dataset.hasClip = "1";
+    const points = parsePolygonPointsPx(item["clip-path"], item.width, item.height, 0.75);
+    if (points) {
+      const svgNS = "http://www.w3.org/2000/svg";
+      const svg = document.createElementNS(svgNS, "svg");
+      svg.setAttribute("class", cls === "room" ? "room-polygon-outline" : "obstacle-polygon-outline");
+      svg.setAttribute("viewBox", `0 0 ${item.width} ${item.height}`);
+      svg.setAttribute("preserveAspectRatio", "none");
+
+      const poly = document.createElementNS(svgNS, "polygon");
+      poly.setAttribute("points", points);
+      poly.setAttribute("fill", "none");
+      poly.setAttribute("stroke", cls === "room" ? "#888" : "#999");
+      poly.setAttribute("stroke-width", "1");
+      poly.setAttribute("stroke-dasharray", "3 2");
+      poly.setAttribute("stroke-linecap", "butt");
+      poly.setAttribute("stroke-linejoin", "miter");
+      poly.setAttribute("vector-effect", "non-scaling-stroke");
+
+      svg.appendChild(poly);
+      el.appendChild(svg);
+    }
+  }
+
+  return el;
+}
+
+async function loadPlan(path) {
+  const resp = await fetch(path);
+  const text = await resp.text();
+  const { meta, items } = parseCssPlan(text);
+
+  const container = document.createElement("div");
+  container.className = "plan-container";
+
+  const title = document.createElement("h2");
+  title.textContent = path.split("/")[0];
+  container.appendChild(title);
+
+  const metaDiv = document.createElement("div");
+  metaDiv.style.fontSize = "11px";
+  metaDiv.style.marginBottom = "5px";
+  metaDiv.textContent = `${meta.width}x${meta.height}  |  ${meta.m_per_px} m/px  |  ceiling: ${meta.ceiling} px`;
+  container.appendChild(metaDiv);
+
+  const canvas = document.createElement("div");
+  canvas.className = "canvas";
+  canvas.style.width  = px(meta.width);
+  canvas.style.height = px(meta.height);
+
+  // Track rooms for labeling (first component per base room id)
+  const roomLabeled = new Set();
+
+  for (const item of items) {
+    const data = {
+      id: item.id,
+      left: +item.props.left,
+      top: +item.props.top,
+      width: +item.props.width,
+      height: +item.props.height,
+    };
+    if (item.props["--sill"]) data.sill = +item.props["--sill"];
+    if (item.props["clip-path"]) data["clip-path"] = item.props["clip-path"];
+    if (item.comment) data.name = item.comment;
+
+    const el = makeDiv(item.cls, data);
+    if (data["clip-path"]) el.style.clipPath = data["clip-path"];
+    if (item.cls === "room" || item.cls === "obstacle") {
+      const hlClass = item.cls === "room" ? "highlight-rooms" : "highlight-obstacles";
+      el.addEventListener("mouseenter", () => canvas.classList.add(hlClass));
+      el.addEventListener("mouseleave", () => canvas.classList.remove(hlClass));
+    }
+    canvas.appendChild(el);
+
+    // Add label for first component of each room
+    if (item.cls === "room") {
+      const baseId = item.id.replace(/_\d+$/, "");
+      if (!roomLabeled.has(baseId)) {
+        roomLabeled.add(baseId);
+        const label = document.createElement("div");
+        label.className = "label";
+        label.style.left = px(data.left + 4);
+        label.style.top  = px(data.top + 4);
+        label.textContent = item.comment.replace(/\s*\(\d+\/\d+\)$/, "");
+        canvas.appendChild(label);
+      }
+    }
+  }
+
+  container.appendChild(canvas);
+  document.getElementById("plans").appendChild(container);
+}
+
+PLANS.forEach(loadPlan);
+</script>
+</body>
+</html>

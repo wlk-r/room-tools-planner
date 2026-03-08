@@ -1,0 +1,21 @@
+{
+  "item_no": "90590490",
+  "name": "STOCKHOLM 2025 vase",
+  "color": "brown",
+  "price": "39.99",
+  "currency": "USD",
+  "description": "STOCKHOLM 2025 Vase - brown 7 ¾ \". A beautiful vase, but also a mouth-blown work of art created by a skilled glassblower that is guaranteed to be an eye-catcher with its irregular organic shape and brown color. This vase is extra scratch-resistant as the glass is colored through.",
+  "dimensions": {
+    "height": 0.2433,
+    "width": 0.241,
+    "depth": 0.1966,
+    "unit": "m"
+  },
+  "categories": [
+    "Home decor & accessories",
+    "Vases & decorating bowls"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/stockholm-2025-vase-brown__1359453_pe954188_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/90590490/PS01_S01_NV01/rqp3/glb_draco/77b71b060fb730e3deb914ef18f3f92d-90590490_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/stockholm-2025-vase-brown-90590490/"
+}

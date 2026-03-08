@@ -1,0 +1,22 @@
+{
+  "item_no": "60593782",
+  "name": "STOCKHOLM 2025 chair",
+  "color": "dark brown/leather",
+  "price": "225",
+  "currency": "USD",
+  "description": "STOCKHOLM 2025 Chair - dark brown/leather. Built for longevity with solid oak frame and genuine leather seat. The lacquered surface brings out the natural beauty of the wood, adding elegance to any room. An elegant accent whether in the dining room, kitchen, living room or bedroom.",
+  "dimensions": {
+    "height": 0.74,
+    "width": 0.56,
+    "depth": 0.5,
+    "unit": "m"
+  },
+  "categories": [
+    "Tables & chairs",
+    "Dining furniture",
+    "Dining chairs"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/stockholm-2025-chair-dark-brown-leather__1370460_pe958725_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/40590954/PS01_S01_NV_01/simple/glb/f72e832c5f379aa28b7333f39c624158-G-40590954-1cb993a23e07bc939f56a8f15b085b2931ab7b13-simple.glb",
+  "product_url": "https://www.ikea.com/us/en/p/stockholm-2025-chair-dark-brown-leather-60593782/"
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Floor Plan",
+  "type": "object",
+  "required": ["defaults", "rooms", "openings"],
+  "additionalProperties": false,
+  "properties": {
+    "defaults": {
+      "type": "object",
+      "required": ["exterior_wall_thickness", "ceiling_height"],
+      "additionalProperties": false,
+      "properties": {
+        "exterior_wall_thickness": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Default exterior wall thickness in meters"
+        },
+        "ceiling_height": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Default ceiling height in meters"
+        }
+      }
+    },
+    "rooms": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "interior_polygon"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^r\\d+$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "interior_polygon": {
+            "type": "array",
+            "minItems": 3,
+            "items": {
+              "type": "array",
+              "items": { "type": "number" },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "description": "Ordered [x, y] vertices defining the room interior boundary (meters)"
+          },
+          "ceiling_height": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Per-room ceiling height override (meters)"
+          }
+        }
+      }
+    },
+    "openings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "center", "width", "height"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^o\\d+$"
+          },
+          "center": {
+            "type": "array",
+            "items": { "type": "number" },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "Opening center point [x, y] in meters"
+          },
+          "width": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Opening width in meters"
+          },
+          "height": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Opening height in meters"
+          },
+          "elevation": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Bottom of opening above floor (meters, default 0)"
+          }
+        }
+      }
+    }
+  }
+}

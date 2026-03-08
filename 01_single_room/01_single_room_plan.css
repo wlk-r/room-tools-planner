@@ -1,0 +1,11 @@
+/* 256x256 grid | 1px = 0.022861m | ceiling: 119px */
+
+#r1.room                    { left:   3; top:   3; width: 250; height: 206; /* Studio */ }
+
+#structure_0.obstacle       { left:   0; top:   0; width: 256; height:   3; }
+#structure_1.obstacle       { left:   0; top:   3; width:   3; height: 253; }
+#structure_2.obstacle       { left: 253; top:   3; width:   3; height: 253; }
+#structure_3.obstacle       { left:   3; top: 209; width: 250; height:  47; }
+#door_o1_clearance.door     { left:   3; top:  86; width:  35; height:  40; }
+
+#window_o2.window           { left: 106; top: 194; width:  44; height:  14; --sill: 40; }

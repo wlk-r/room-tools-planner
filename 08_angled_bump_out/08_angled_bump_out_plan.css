@@ -1,0 +1,16 @@
+/* 256x256 grid | 1px = 0.024033m | ceiling: 113px */
+
+#r1_0.room                  { left:   3; top:   3; width: 208; height: 167; /* Studio (1/2) */ }
+#r1_1.room                  { left: 211; top:  86; width:  42; height:  63; clip-path: polygon(1% 1%, 1% 100%, 100% 100%); /* Studio (2/2) */ }
+
+#structure_0.obstacle       { left:   0; top:   0; width: 256; height:   3; }
+#structure_1.obstacle       { left:   0; top:   3; width:   3; height: 253; }
+#structure_2.obstacle       { left: 211; top:   3; width:  45; height:  84; }
+#structure_3.obstacle       { left: 253; top: 148; width:   3; height: 108; }
+#structure_4.obstacle       { left: 211; top: 149; width:  42; height: 107; }
+#structure_5.obstacle       { left:   3; top: 170; width: 208; height:  86; }
+#structure_6.obstacle       { left: 211; top:  86; width:  42; height:  63; clip-path: polygon(1% 1%, 100% 1%, 100% 100%); }
+#structure_7.obstacle       { left: 211; top: 149; width:  42; height: 107; }
+#door_o1_clearance.door     { left:   3; top:  65; width:  34; height:  38; }
+
+#window_o2.window           { left:  80; top: 156; width:  50; height:  13; --sill: 34; }

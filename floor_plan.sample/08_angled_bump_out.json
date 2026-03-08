@@ -1,0 +1,36 @@
+{
+  "defaults": {
+    "exterior_wall_thickness": 0.0762,
+    "ceiling_height": 2.7
+  },
+  "rooms": [
+    {
+      "id": "r1",
+      "name": "Studio",
+      "interior_polygon": [
+        [0.0381, 0.0381],
+        [5.0381, 0.0381],
+        [5.0381, 2.0381],
+        [6.0381, 3.5381],
+        [5.0381, 3.5381],
+        [5.0381, 4.0381],
+        [0.0381, 4.0381]
+      ]
+    }
+  ],
+  "openings": [
+    {
+      "id": "o1",
+      "center": [0.0381, 2.0],
+      "width": 0.9,
+      "height": 2.1
+    },
+    {
+      "id": "o2",
+      "center": [2.5, 4.0381],
+      "width": 1.2,
+      "height": 1.4,
+      "elevation": 0.8
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Furniture Placement",
+  "description": "LLM-generated furniture layout for a quantized floor plan. Coordinates are in grid pixels (unitless); multiply by m_per_px to convert to meters.",
+  "type": "object",
+  "required": ["plan", "gen", "m_per_px", "items"],
+  "additionalProperties": false,
+  "properties": {
+    "plan": {
+      "type": "string",
+      "description": "Name of the source floor plan (matches the plan CSS filename stem)"
+    },
+    "gen": {
+      "type": "string",
+      "pattern": "^\\d{8}-[0-9a-f]{4}-[a-z0-9]+$",
+      "description": "Generation ID: YYYYMMDD-<4 hex>-<model tag>. Model tags are short free-form identifiers (e.g. o4, s4, gpt4o, gem2)"
+    },
+    "m_per_px": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "description": "Meters per grid pixel — matches the plan CSS header scale"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["item_no", "room", "x", "y", "r"],
+        "additionalProperties": false,
+        "properties": {
+          "item_no": {
+            "type": "string",
+            "description": "Product item number (matches catalog and footprint snippet IDs)"
+          },
+          "room": {
+            "type": "string",
+            "pattern": "^r\\d+$",
+            "description": "Target room ID from the floor plan"
+          },
+          "x": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Horizontal center of placed item (grid pixels, from left)"
+          },
+          "y": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Vertical center of placed item (grid pixels, from top)"
+          },
+          "r": {
+            "type": "integer",
+            "enum": [0, 90, 180, 270],
+            "description": "Rotation in degrees clockwise. 0 = footprint as-is, 90 = rotated 90 degrees clockwise (width and height swap)"
+          }
+        }
+      }
+    }
+  }
+}

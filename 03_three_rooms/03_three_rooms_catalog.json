@@ -1,0 +1,59 @@
+{
+  "scale_px_per_m": 38.3268,
+  "products": [
+    {
+      "item_no": "90590490",
+      "name": "STOCKHOLM 2025 vase",
+      "color": "brown",
+      "categories": [
+        "Home decor & accessories",
+        "Vases & decorating bowls"
+      ]
+    },
+    {
+      "item_no": "70593814",
+      "name": "STOCKHOLM 2025 rug, flatwoven",
+      "color": "white/brown/light blue handwoven",
+      "categories": [
+        "Rugs & home textiles",
+        "Rugs"
+      ]
+    },
+    {
+      "item_no": "60586692",
+      "name": "STOCKHOLM 2025 glass-door cabinet",
+      "color": "oak veneer",
+      "categories": [
+        "Storage & organization",
+        "Display & storage cabinets"
+      ]
+    },
+    {
+      "item_no": "60593782",
+      "name": "STOCKHOLM 2025 chair",
+      "color": "dark brown/leather",
+      "categories": [
+        "Tables & chairs",
+        "Dining furniture",
+        "Dining chairs"
+      ]
+    },
+    {
+      "item_no": "40608242",
+      "name": "BERGSHYTTAN table",
+      "color": "dark brown ash veneer",
+      "categories": [
+        "Tables & chairs",
+        "Dining furniture",
+        "Dining tables"
+      ]
+    }
+  ],
+  "footprints": [
+    "#i90590490 { width: 10; height: 8; --elevation: 10; /* STOCKHOLM 2025 vase */ }",
+    "#i70593814 { width: 93; height: 1; --elevation: 135; /* STOCKHOLM 2025 rug, flatwoven */ }",
+    "#i60586692 { width: 33; height: 16; --elevation: 39; /* STOCKHOLM 2025 glass-door cabinet */ }",
+    "#i60593782 { width: 22; height: 20; --elevation: 29; /* STOCKHOLM 2025 chair */ }",
+    "#i40608242 { width: 36; height: 29; --elevation: 92; /* BERGSHYTTAN table */ }"
+  ]
+}
