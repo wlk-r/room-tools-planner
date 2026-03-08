@@ -1,5 +1,5 @@
-.glb
-.jpg
-.png
-.avif
-.blend
+*.glb
+*.jpg
+*.png
+*.avif
+*.blend
