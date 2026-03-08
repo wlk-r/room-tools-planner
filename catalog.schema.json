@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Product Catalog",
+  "description": "Product catalog for LLM furniture placement. Valid at three levels: (1) per-product template — single-item products + profiles arrays, stored alongside vendor files in catalog/<item_no>/template.json; (2) merged template — concatenated products + profiles from all per-product templates, plan-independent; (3) finalized catalog — merged template + scale_px_per_m + footprints, plan-specific. If footprints are present, scale_px_per_m is required.",
+  "type": "object",
+  "required": ["products", "profiles"],
+  "additionalProperties": false,
+  "if": {
+    "required": ["footprints"]
+  },
+  "then": {
+    "required": ["scale_px_per_m", "products", "profiles", "footprints"]
+  },
+  "properties": {
+    "scale_px_per_m": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "description": "Grid pixels per meter — matches the plan scale. Used by the pipeline for unit conversion, not by the LLM directly."
+    },
+    "products": {
+      "type": "array",
+      "description": "Factual product data sourced from the retailer.",
+      "items": {
+        "type": "object",
+        "required": ["item_no", "name", "color"],
+        "additionalProperties": false,
+        "properties": {
+          "item_no": {
+            "type": "string",
+            "description": "Unique product identifier"
+          },
+          "name": {
+            "type": "string",
+            "description": "Product name"
+          },
+          "color": {
+            "type": "string",
+            "description": "Color or finish description"
+          }
+        }
+      }
+    },
+    "profiles": {
+      "type": "array",
+      "description": "Generated/curated product classifications for placement logic. Separated from products because these are system-generated, not factual source data.",
+      "items": {
+        "type": "object",
+        "required": ["item_no", "tier"],
+        "additionalProperties": false,
+        "properties": {
+          "item_no": {
+            "type": "string",
+            "description": "Product identifier (matches products and footprints)"
+          },
+          "tier": {
+            "type": "string",
+            "enum": ["anchor", "accent", "fill"],
+            "description": "Placement priority. anchor: large structural pieces placed first (sofa, table, bed). accent: items placed relative to anchors (chairs, side tables). fill: decor and accessories placed last (vases, rugs, lighting)."
+          },
+          "categories": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Functional categories for placement reasoning (e.g. seating, surface, storage, decor). Free-form strings."
+          },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Style and vibe descriptors (e.g. japandi, cozy, minimal, organic, warm). Free-form strings."
+          }
+        }
+      }
+    },
+    "footprints": {
+      "type": "array",
+      "description": "CSS snippets defining each product's spatial footprint on the plan grid. Format: #i<item_no> { width: <px>; height: <px>; --elevation: <px>; /* <name> */ }. Width and height are the floor footprint; --elevation is object height above floor. All values in grid pixels (unitless).",
+      "items": {
+        "type": "string",
+        "pattern": "^#i\\d+\\s*\\{.*\\}$"
+      }
+    }
+  }
+}
