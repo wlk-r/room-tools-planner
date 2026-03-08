@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "60586692",
+      "name": "STOCKHOLM 2025 glass-door cabinet",
+      "color": "oak veneer"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "60586692",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "display cabinet"
+      ],
+      "tags": [
+        "scandinavian",
+        "japandi",
+        "warm",
+        "minimal",
+        "natural wood"
+      ]
+    }
+  ]
+}

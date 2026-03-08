@@ -1,0 +1,21 @@
+{
+  "item_no": "80270125",
+  "name": "LÖVBACKEN side table",
+  "color": "medium brown",
+  "price": "99.99",
+  "currency": "USD",
+  "description": "LÖVBACKEN Side table - medium brown 30 3/8x15 3/8 \". The distinctive grain pattern in the poplar veneer gives each table a unique character. The veneered surface is durable, stain resistant and easy to keep clean. Max load on table top: 11 lbs.",
+  "dimensions": {
+    "height": 0.7746,
+    "width": 0.5158,
+    "depth": 0.4393,
+    "unit": "m"
+  },
+  "categories": [
+    "Tables & chairs",
+    "Accent tables"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/loevbacken-side-table-medium-brown__0731794_pe738454_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/80270125/PS01_S01_NV01/rqp3/glb_draco/8b2cf9fbe6924f76bbe5ca654cc2fbcc-80270125_PS01_S01_NV01_RQP3_3.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/loevbacken-side-table-medium-brown-80270125/"
+}

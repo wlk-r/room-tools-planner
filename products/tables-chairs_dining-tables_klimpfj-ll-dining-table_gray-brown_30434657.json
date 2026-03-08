@@ -1,0 +1,22 @@
+{
+  "item_no": "30434657",
+  "name": "KLIMPFJÄLL dining table",
+  "color": "gray-brown",
+  "price": "699",
+  "currency": "USD",
+  "description": "KLIMPFJÄLL Dining table - gray-brown 94 1/2x37 3/8 \". The trestles and hardwood surface create a warm, traditional style that will soon make the double pedestal/trestle table the natural gathering place in your home. Seats 6-8.",
+  "dimensions": {
+    "height": 2.4004,
+    "width": 0.9498,
+    "depth": 0.7493,
+    "unit": "m"
+  },
+  "categories": [
+    "Tables & chairs",
+    "Dining furniture",
+    "Dining tables"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/klimpfjaell-dining-table-gray-brown__0976445_pe813230_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/30434657/PS01_S01_NV01/rqp3/glb_draco/0ae0a1dab35a4d2d8f979e33113eb9f3-30434657_PS01_S01_NV01_RQP3_3.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/klimpfjaell-dining-table-gray-brown-30434657/"
+}

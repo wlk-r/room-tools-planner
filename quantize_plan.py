@@ -24,7 +24,6 @@ DOOR_CLEARANCE_M = 0.8
 WINDOW_ZONE_DEPTH_M = 0.3
 GRID_SIZE = 256
 DEFAULT_PRODUCTS_DIR = "products"
-DEFAULT_CATALOG_DIR = "catalog"
 
 
 # ---------- Floor plan quantization ----------
@@ -489,11 +488,11 @@ def quantize_floor_plan(plan_path, grid_size=GRID_SIZE):
 
 # ---------- Product quantization ----------
 
-def merge_catalog_templates(catalog_dir):
+def merge_catalog_templates(products_dir):
     """Merge all per-product catalog templates into combined products + profiles."""
     products = []
     profiles = []
-    for template_path in sorted(Path(catalog_dir).glob("*/*_catalog.json")):
+    for template_path in sorted(Path(products_dir).glob("*.catalog.json")):
         with open(template_path) as f:
             t = json.load(f)
         products.extend(t["products"])
@@ -604,7 +603,6 @@ def main():
     )
     parser.add_argument("floor_plan", help="Path to floor plan JSON")
     parser.add_argument("--products", default=DEFAULT_PRODUCTS_DIR, help=f"Vendor metadata folder (default: {DEFAULT_PRODUCTS_DIR})")
-    parser.add_argument("--catalog", default=DEFAULT_CATALOG_DIR, help=f"Catalog templates folder (default: {DEFAULT_CATALOG_DIR})")
     args = parser.parse_args()
 
     plan_path = Path(args.floor_plan)
@@ -620,12 +618,12 @@ def main():
         f.write(format_plan_css(plan_result))
 
     # Merge catalog templates (products + profiles) and compute footprints
-    catalog_dir = Path(args.catalog)
-    products, profiles = merge_catalog_templates(catalog_dir)
+    products_dir = Path(args.products)
+    products, profiles = merge_catalog_templates(products_dir)
 
     if not products:
-        print(f"  No catalog templates found in {catalog_dir}/")
-        print(f"  Falling back to vendor metadata in {args.products}/ (no profile data)")
+        print(f"  No catalog templates found in {products_dir}/")
+        print(f"  Falling back to vendor metadata in {products_dir}/ (no profile data)")
         # Fallback: build products from vendor metadata (no profiles)
         products = []
         profiles = []

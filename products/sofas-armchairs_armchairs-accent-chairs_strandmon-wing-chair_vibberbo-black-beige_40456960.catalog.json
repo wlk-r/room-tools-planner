@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "40456960",
+      "name": "STRANDMON wing chair",
+      "color": "Vibberbo black/beige"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40456960",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "accent chair"
+      ],
+      "tags": [
+        "classic",
+        "houndstooth",
+        "cozy",
+        "traditional",
+        "scandinavian"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "40608242",
+      "name": "BERGSHYTTAN table",
+      "color": "dark brown ash veneer"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40608242",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining table",
+        "surface"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "warm",
+        "contemporary",
+        "dark wood"
+      ]
+    }
+  ]
+}

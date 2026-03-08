@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "30533493",
+      "name": "EKEN\u00c3\u201eSET armchair",
+      "color": "Kilanda light beige"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "30533493",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "accent-chair"
+      ],
+      "tags": [
+        "mid-century",
+        "scandinavian",
+        "warm",
+        "minimal",
+        "retro"
+      ]
+    }
+  ]
+}

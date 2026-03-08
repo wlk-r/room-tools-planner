@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "90565768",
+      "name": "SKANSN\u00c3\u201eS chair",
+      "color": "black beech"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90565768",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "dining"
+      ],
+      "tags": [
+        "scandinavian",
+        "organic",
+        "minimal",
+        "woven",
+        "contrast"
+      ]
+    }
+  ]
+}

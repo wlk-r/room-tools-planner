@@ -1,0 +1,22 @@
+{
+  "item_no": "00614532",
+  "name": "SKOGSTA table",
+  "color": "counter height acacia/black",
+  "price": "199.99",
+  "currency": "USD",
+  "description": "SKOGSTA Table - counter height acacia/black 29 1/8x29 1/8 \". Every table is unique, with varying grain pattern and natural color shifts that are part of the charm of solid wood. The furniture is made of acacia, a naturally durable and sturdy hardwood because of the high density of its wood fibres.",
+  "dimensions": {
+    "height": 0.92,
+    "width": 0.7402,
+    "depth": 0.7402,
+    "unit": "m"
+  },
+  "categories": [
+    "Tables & chairs",
+    "Dining furniture",
+    "Dining tables"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/skogsta-table-counter-height-acacia-black__1473054_pe997686_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/00614532/PS01_S01_NV01/rqp3/glb_draco/94f2f0261050bccabe3a3d6c9aa412c9-00614532_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/skogsta-table-counter-height-acacia-black-00614532/"
+}

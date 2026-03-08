@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "item_no": "40528467",
+      "name": "TONSTAD side table",
+      "color": "brown stained oak veneer"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40528467",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "accent table",
+        "storage",
+        "surface"
+      ],
+      "tags": [
+        "scandinavian",
+        "warm",
+        "natural",
+        "minimal",
+        "contemporary"
+      ]
+    }
+  ]
+}

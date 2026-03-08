@@ -45,7 +45,7 @@
       "description": "Generated/curated product classifications for placement logic. Separated from products because these are system-generated, not factual source data.",
       "items": {
         "type": "object",
-        "required": ["item_no", "tier"],
+        "required": ["item_no", "tier", "placement"],
         "additionalProperties": false,
         "properties": {
           "item_no": {
@@ -56,6 +56,11 @@
             "type": "string",
             "enum": ["anchor", "accent", "fill"],
             "description": "Placement priority. anchor: large structural pieces placed first (sofa, table, bed). accent: items placed relative to anchors (chairs, side tables). fill: decor and accessories placed last (vases, rugs, lighting)."
+          },
+          "placement": {
+            "type": "string",
+            "enum": ["floor", "wall", "surface"],
+            "description": "Placement mode. floor: placed on the ground plane. wall: must be placed along a structure edge. surface: placed on top of another item (within an anchor's bounding box)."
           },
           "categories": {
             "type": "array",

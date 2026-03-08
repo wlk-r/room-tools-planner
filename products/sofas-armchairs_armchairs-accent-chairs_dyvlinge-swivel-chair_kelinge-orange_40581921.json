@@ -1,0 +1,21 @@
+{
+  "item_no": "40581921",
+  "name": "DYVLINGE swivel chair",
+  "color": "Kelinge orange",
+  "price": "199",
+  "currency": "USD",
+  "description": "DYVLINGE Swivel chair - Kelinge orange. Part of the Nytillverkad collection where several IKEA classics have been given a new look. In the Nytillverkad collection, the easy chair's cross base has 5 legs instead of 4 to minimize the risk of tipping.",
+  "dimensions": {
+    "height": 0.75,
+    "width": 0.68,
+    "depth": 0.63,
+    "unit": "m"
+  },
+  "categories": [
+    "Sofas & armchairs",
+    "Armchairs & accent chairs"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/dyvlinge-swivel-chair-kelinge-orange__1322501_pe942192_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/00581918/PS01_S01_NV_01/simple/glb/09344222a1a6e31e11081fc4eb94375a-G-00581918-5cc72a57a7737ff37443914e8ad8dcde15ecc1f1-simple.glb",
+  "product_url": "https://www.ikea.com/us/en/p/dyvlinge-swivel-chair-kelinge-orange-40581921/"
+}

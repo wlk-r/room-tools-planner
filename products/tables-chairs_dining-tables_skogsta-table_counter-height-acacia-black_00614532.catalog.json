@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "00614532",
+      "name": "SKOGSTA table",
+      "color": "counter height acacia/black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "00614532",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining table",
+        "bar table"
+      ],
+      "tags": [
+        "rustic",
+        "industrial",
+        "scandinavian",
+        "natural wood",
+        "contrast"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "item_no": "30533493",
+  "name": "EKENÄSET armchair",
+  "color": "Kilanda light beige",
+  "price": "299",
+  "currency": "USD",
+  "description": "EKENÄSET Armchair - Kilanda light beige. Clean lines and supportive comfort, regardless if you’re reading, socializing with friends or just relaxing for a moment. The tall legs in solid wood make it easy to vacuum or reach things hiding under the armchair to avoid clutter. Stationary cover.",
+  "dimensions": {
+    "height": 0.78,
+    "width": 0.7602,
+    "depth": 0.6402,
+    "unit": "m"
+  },
+  "categories": [
+    "Sofas & armchairs",
+    "Armchairs & accent chairs"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/ekenaeset-armchair-kilanda-light-beige__1109687_pe870153_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/90533174/PS01_S01_NV_01/simple/glb/d22fea99b6cb9615d3c8e1e8e76eb03c-G-90533174-755c7f39e1c331314b0a5e1ccaed0e058898a21f-simple.glb",
+  "product_url": "https://www.ikea.com/us/en/p/ekenaeset-armchair-kilanda-light-beige-30533493/"
+}

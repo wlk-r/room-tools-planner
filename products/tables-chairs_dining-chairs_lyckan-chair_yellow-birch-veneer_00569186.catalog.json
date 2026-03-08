@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "00569186",
+      "name": "LYCKAN chair",
+      "color": "yellow/birch veneer"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "00569186",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "dining"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "bold",
+        "minimal",
+        "playful"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "90569097",
+      "name": "VIHALS extendable table",
+      "color": "white"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90569097",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining table",
+        "surface"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "contemporary",
+        "clean",
+        "white"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "item_no": "20593802",
+  "name": "SKOGSTA dining table",
+  "color": "acacia/black",
+  "price": "399.99",
+  "currency": "USD",
+  "description": "SKOGSTA Dining table - acacia/black 47 1/4 \". Every table is unique, with varying grain pattern and natural color shifts that are part of the charm of solid wood. The furniture is made of acacia, a naturally durable and sturdy hardwood because of the high density of its wood fibres. Seats 4.",
+  "dimensions": {
+    "height": 1.2006,
+    "width": 1.2,
+    "depth": 0.7402,
+    "unit": "m"
+  },
+  "categories": [
+    "Tables & chairs",
+    "Dining furniture",
+    "Dining tables"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/skogsta-dining-table-acacia-black__1542798_pe1018529_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/20593802/PS01_S01_NV01/rqp3/glb_draco/737328a6f31851aaf23e4672b4c4b2d3-20593802_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/skogsta-dining-table-acacia-black-20593802/"
+}

@@ -1,0 +1,21 @@
+{
+  "item_no": "80217072",
+  "name": "INGATORP extendable table",
+  "color": "black",
+  "price": "499.99",
+  "currency": "USD",
+  "description": "INGATORP Extendable table - black 43 1/4/61 \". It’s quick and easy to change the size of the table to suit your different needs. With the extra leaf stored under the table top you can extend the table to seat from 4 to 6 people. Can be easily extended by one person. Seats 4-6.",
+  "dimensions": {
+    "height": 1.1,
+    "width": 1.1,
+    "depth": 0.7432,
+    "unit": "m"
+  },
+  "categories": [
+    "Tables & chairs",
+    "Tables"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/ingatorp-extendable-table-black__0737088_pe740878_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/80217072/PS01_S01_NV01/rqp3/glb_draco/663732908bd7489aa28c775dfeb54c7e-80217072_PS01_S01_NV01_RQP3_3.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/ingatorp-extendable-table-black-80217072/"
+}

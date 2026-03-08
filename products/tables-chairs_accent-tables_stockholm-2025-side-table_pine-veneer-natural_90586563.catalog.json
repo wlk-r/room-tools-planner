@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "90586563",
+      "name": "STOCKHOLM 2025 side table",
+      "color": "pine veneer natural"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90586563",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "side table",
+        "surface"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "natural",
+        "warm",
+        "organic"
+      ]
+    }
+  ]
+}

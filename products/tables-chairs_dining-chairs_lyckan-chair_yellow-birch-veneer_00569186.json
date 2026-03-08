@@ -1,0 +1,22 @@
+{
+  "item_no": "00569186",
+  "name": "LYCKAN chair",
+  "color": "yellow/birch veneer",
+  "price": "130",
+  "currency": "USD",
+  "description": "LYCKAN Chair - yellow/birch veneer. The cantilever design offers a comfortable and relaxing seating experience. Its slight bounce and flexibility adapt effortlessly to your body shape and posture. Recommended for indoor use only.",
+  "dimensions": {
+    "height": 0.8298,
+    "width": 0.5282,
+    "depth": 0.51,
+    "unit": "m"
+  },
+  "categories": [
+    "Tables & chairs",
+    "Dining furniture",
+    "Dining chairs"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/lyckan-chair-yellow-birch-veneer__1370467_pe958731_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/00569186/PS01_S01_NV01/rqp3/glb_draco/060e5ab621714ef666b716797166ccc6-00569186_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/lyckan-chair-yellow-birch-veneer-00569186/"
+}

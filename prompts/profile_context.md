@@ -44,6 +44,7 @@ Enforced by `--json-schema` flag — constrains output structure automatically.
 ```json
 {
   "tier": "anchor | accent | fill",
+  "placement": "floor | wall | surface",
   "categories": ["string", "..."],
   "tags": ["string", "..."]
 }
@@ -58,6 +59,14 @@ Enforced by `--json-schema` flag — constrains output structure automatically.
   - **anchor**: large structural pieces placed first (define the room layout)
   - **accent**: placed relative to anchors (support/complement anchors)
   - **fill**: decor and accessories placed last (finishing touches)
+
+### placement
+
+- **Type**: enum — `floor`, `wall`, `surface`
+- **Purpose**: Placement mode — determines spatial constraints in the layout pipeline
+  - **floor**: placed on the ground plane (sofas, tables, chairs, rugs, floor lamps)
+  - **wall**: must be placed along a structure edge (wall cabinets, shelves, mirrors, wall art)
+  - **surface**: placed on top of another item within an anchor's bounding box (vases, candles, table lamps)
 
 ### categories
 

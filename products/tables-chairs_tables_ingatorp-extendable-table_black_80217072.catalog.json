@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "80217072",
+      "name": "INGATORP extendable table",
+      "color": "black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "80217072",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining table",
+        "surface"
+      ],
+      "tags": [
+        "traditional",
+        "classic",
+        "dark",
+        "formal",
+        "pedestal"
+      ]
+    }
+  ]
+}

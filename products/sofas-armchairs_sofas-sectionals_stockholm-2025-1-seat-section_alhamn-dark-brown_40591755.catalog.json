@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "40591755",
+      "name": "STOCKHOLM 2025 1-seat section",
+      "color": "Alhamn dark brown"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40591755",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "modular sofa"
+      ],
+      "tags": [
+        "contemporary",
+        "scandinavian",
+        "minimal",
+        "warm",
+        "geometric"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "item_no": "40586117",
+  "name": "STOCKHOLM 2025 loveseat",
+  "color": "Alhamn beige",
+  "price": "1259",
+  "currency": "USD",
+  "description": "STOCKHOLM 2025 Loveseat - Alhamn beige. Tactile, beautiful materials meet geometric shapes with well-balanced proportions, making this sofa the natural centerpiece of any room. The sofa adapts to your body when you sit down and quickly regains its shape and appearance when you get up.",
+  "dimensions": {
+    "height": 1.8045,
+    "width": 1.008,
+    "depth": 0.7101,
+    "unit": "m"
+  },
+  "categories": [
+    "Sofas & armchairs",
+    "Sofas & sectionals"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/stockholm-2025-loveseat-alhamn-beige__1362728_pe955306_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/30586108/PS01_S01_NV_01/simple/glb/9a26eb719fa20a71198d30b1bbf05689-G-30586108-01cb3080562141d3101ca5a853402ff0444055a8-simple.glb",
+  "product_url": "https://www.ikea.com/us/en/p/stockholm-2025-loveseat-alhamn-beige-40586117/"
+}

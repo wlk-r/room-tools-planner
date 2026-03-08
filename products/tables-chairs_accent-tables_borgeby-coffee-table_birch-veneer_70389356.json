@@ -1,0 +1,21 @@
+{
+  "item_no": "70389356",
+  "name": "BORGEBY coffee table",
+  "color": "birch veneer",
+  "price": "199.99",
+  "currency": "USD",
+  "description": "BORGEBY Coffee table - birch veneer 27 1/2 \". BORGEBY storage table has an elegant, simple and stylish design with a harmonious and balanced expression. The rounded airy shape, smooth surface and natural material make the table suitable for many different living situations and interior styles.",
+  "dimensions": {
+    "height": 0.7,
+    "width": 0.7,
+    "depth": 0.42,
+    "unit": "m"
+  },
+  "categories": [
+    "Tables & chairs",
+    "Accent tables"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/borgeby-coffee-table-birch-veneer__0987623_pe817609_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/70389356/PS01_S01_NV01/rqp3/glb_draco/5c339f0fc6cc472dbfd32ce29ab582f4-70389356_PS01_S01_NV01_RQP3_3.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/borgeby-coffee-table-birch-veneer-70389356/"
+}

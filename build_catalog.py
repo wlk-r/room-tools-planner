@@ -10,12 +10,13 @@ Usage:
     python build_catalog.py --model opus           # use a specific model
 
 Source files:  products/<stem>.{json,jpg,glb}
-Output:        catalog/<item_no>/<stem>_catalog.json
+Output:        products/<stem>.catalog.json (alongside vendor files)
 
 Templates are merged automatically by quantize_plan.py at plan quantization time.
 """
 
 import json
+import os
 import subprocess
 import sys
 import argparse
@@ -23,16 +24,19 @@ from pathlib import Path
 
 
 DEFAULT_SOURCE = "products"
-DEFAULT_OUTPUT = "catalog"
 
 PROFILE_SCHEMA = json.dumps({
     "type": "object",
-    "required": ["tier", "categories", "tags"],
+    "required": ["tier", "placement", "categories", "tags"],
     "additionalProperties": False,
     "properties": {
         "tier": {
             "type": "string",
             "enum": ["anchor", "accent", "fill"],
+        },
+        "placement": {
+            "type": "string",
+            "enum": ["floor", "wall", "surface"],
         },
         "categories": {
             "type": "array",
@@ -53,6 +57,8 @@ def find_products(source_dir):
     products = {}
     for json_file in sorted(source_dir.glob("*.json")):
         stem = json_file.stem
+        if stem.endswith(".catalog"):
+            continue
         item_no = stem.rsplit("_", 1)[-1]
         if not item_no.isdigit():
             continue
@@ -80,23 +86,27 @@ def extract_product(metadata_path):
 
 def generate_profile(metadata_path, image_path, item_no, model="sonnet"):
     """Call Claude Code CLI to generate a product profile from image + metadata."""
+    # Read metadata and inline it so the model only needs Read for the image
+    with open(metadata_path) as f:
+        metadata_content = f.read()
+
     prompt_template = PROMPT_PATH.read_text(encoding="utf-8")
     prompt = prompt_template.format(
         image_path=image_path.resolve(),
         metadata_path=metadata_path.resolve(),
+        metadata_content=metadata_content,
     )
 
     cmd = [
         "claude", "--print",
         "--model", model,
         "--allowedTools", "Read",
-        "--json-schema", PROFILE_SCHEMA,
-        prompt,
     ]
 
     try:
         result = subprocess.run(
             cmd,
+            input=prompt,
             capture_output=True,
             text=True,
             timeout=120,
@@ -106,30 +116,64 @@ def generate_profile(metadata_path, image_path, item_no, model="sonnet"):
         return None
 
     if result.returncode != 0:
-        print(f"  ERROR ({item_no}): {result.stderr.strip()[:200]}")
+        print(f"  ERROR ({item_no}) exit={result.returncode}")
+        print(f"    stderr: {result.stderr.strip()[:300]}")
+        print(f"    stdout: {result.stdout.strip()[:300]}")
         return None
 
     text = result.stdout.strip()
-    try:
-        return json.loads(text)
-    except json.JSONDecodeError:
-        # Try to extract JSON object from mixed output
-        start = text.find("{")
-        end = text.rfind("}") + 1
-        if start >= 0 and end > start:
-            try:
-                return json.loads(text[start:end])
-            except json.JSONDecodeError:
-                pass
-        print(f"  PARSE ERROR ({item_no}): {text[:200]}")
+    if not text:
+        print(f"  EMPTY RESPONSE ({item_no})")
+        print(f"    stderr: {result.stderr.strip()[:300]}")
         return None
 
+    def _extract_json(s):
+        """Try to parse JSON, or find a JSON object within a string."""
+        try:
+            return json.loads(s)
+        except (json.JSONDecodeError, TypeError):
+            pass
+        if isinstance(s, str):
+            start = s.find("{")
+            end = s.rfind("}") + 1
+            if start >= 0 and end > start:
+                try:
+                    return json.loads(s[start:end])
+                except json.JSONDecodeError:
+                    pass
+        return None
 
-def write_template(output_dir, item_no, stem, product, profile):
-    """Write per-product <stem>_catalog.json."""
-    item_dir = output_dir / item_no
-    item_dir.mkdir(parents=True, exist_ok=True)
+    parsed = _extract_json(text)
 
+    # --output-format json wraps in {"type":"result", "result": ...}
+    if isinstance(parsed, dict) and "result" in parsed and "tier" not in parsed:
+        inner = parsed["result"]
+        parsed = _extract_json(inner)
+
+    if parsed and isinstance(parsed, dict) and "tier" in parsed:
+        return parsed
+
+    # Last resort: scan the full text for a JSON object with "tier"
+    for candidate_start in range(len(text)):
+        if text[candidate_start] == "{":
+            for candidate_end in range(len(text), candidate_start, -1):
+                if text[candidate_end - 1] == "}":
+                    try:
+                        obj = json.loads(text[candidate_start:candidate_end])
+                        if isinstance(obj, dict) and "tier" in obj:
+                            return obj
+                    except json.JSONDecodeError:
+                        continue
+            break
+
+    print(f"  PARSE ERROR ({item_no})")
+    print(f"    stdout: {text[:300]}")
+    print(f"    stderr: {result.stderr.strip()[:300]}")
+    return None
+
+
+def write_template(source_dir, item_no, stem, product, profile):
+    """Write per-product <stem>_catalog.json alongside vendor files."""
     template = {
         "products": [product],
         "profiles": [{
@@ -138,7 +182,7 @@ def write_template(output_dir, item_no, stem, product, profile):
         }],
     }
 
-    path = item_dir / f"{stem}_catalog.json"
+    path = source_dir / f"{stem}.catalog.json"
     with open(path, "w") as f:
         json.dump(template, f, indent=2)
     return path
@@ -154,10 +198,6 @@ def main():
         help=f"Vendor files directory (default: {DEFAULT_SOURCE})",
     )
     parser.add_argument(
-        "--output", default=DEFAULT_OUTPUT,
-        help=f"Output catalog directory (default: {DEFAULT_OUTPUT})",
-    )
-    parser.add_argument(
         "--force", action="store_true",
         help="Regenerate templates even if they already exist",
     )
@@ -167,7 +207,6 @@ def main():
     )
     args = parser.parse_args()
 
-    output_dir = Path(args.output)
     source_dir = Path(args.source)
     if not source_dir.is_dir():
         print(f"Source directory not found: {source_dir}")
@@ -186,7 +225,7 @@ def main():
 
     for item_no, files in vendor_products.items():
         stem = files["stem"]
-        template_path = output_dir / item_no / f"{stem}_catalog.json"
+        template_path = source_dir / f"{stem}.catalog.json"
 
         if template_path.exists() and not args.force:
             print(f"  [{item_no}] skip (exists)")
@@ -219,10 +258,16 @@ def main():
             continue
 
         print(f" done")
-        print(f"    tier={profile['tier']}  categories={profile['categories']}  tags={profile['tags']}")
+        print(f"    raw: {json.dumps(profile)[:300]}")
+
+        # Unwrap if nested (e.g. --output-format json wraps in {"result": ...})
+        if "result" in profile and "tier" not in profile:
+            profile = profile["result"]
+
+        print(f"    tier={profile['tier']}  placement={profile['placement']}  categories={profile['categories']}  tags={profile['tags']}")
 
         # Write template
-        path = write_template(output_dir, item_no, stem, product, profile)
+        path = write_template(source_dir, item_no, stem, product, profile)
         print(f"    → {path}")
         built += 1
 

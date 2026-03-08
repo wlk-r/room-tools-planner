@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "60438550",
+      "name": "MUREN recliner",
+      "color": "Remmarn light gray"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "60438550",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "recliner"
+      ],
+      "tags": [
+        "contemporary",
+        "cozy",
+        "classic",
+        "neutral",
+        "upholstered"
+      ]
+    }
+  ]
+}

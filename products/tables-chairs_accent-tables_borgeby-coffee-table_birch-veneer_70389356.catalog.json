@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "item_no": "70389356",
+      "name": "BORGEBY coffee table",
+      "color": "birch veneer"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "70389356",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "coffee table",
+        "surface",
+        "storage"
+      ],
+      "tags": [
+        "scandinavian",
+        "natural",
+        "minimal",
+        "organic",
+        "warm"
+      ]
+    }
+  ]
+}

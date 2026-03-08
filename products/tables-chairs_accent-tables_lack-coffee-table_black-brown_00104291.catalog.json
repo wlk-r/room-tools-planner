@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "item_no": "00104291",
+      "name": "LACK coffee table",
+      "color": "black-brown"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "00104291",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "coffee table",
+        "surface",
+        "storage"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "dark",
+        "simple",
+        "scandinavian"
+      ]
+    }
+  ]
+}

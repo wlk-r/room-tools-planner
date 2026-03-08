@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "60554380",
+      "name": "DOMSTEN stool",
+      "color": "lilac/pine"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "60554380",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "accent"
+      ],
+      "tags": [
+        "scandinavian",
+        "retro",
+        "playful",
+        "colorful",
+        "minimal"
+      ]
+    }
+  ]
+}

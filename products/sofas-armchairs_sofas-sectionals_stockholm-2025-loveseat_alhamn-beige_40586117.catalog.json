@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "40586117",
+      "name": "STOCKHOLM 2025 loveseat",
+      "color": "Alhamn beige"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40586117",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "sofa"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "geometric",
+        "warm",
+        "minimal"
+      ]
+    }
+  ]
+}

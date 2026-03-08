@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "20593802",
+      "name": "SKOGSTA dining table",
+      "color": "acacia/black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "20593802",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining",
+        "surface"
+      ],
+      "tags": [
+        "rustic",
+        "organic",
+        "scandinavian",
+        "two-tone",
+        "natural-wood"
+      ]
+    }
+  ]
+}

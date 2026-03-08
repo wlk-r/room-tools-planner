@@ -1,0 +1,21 @@
+{
+  "item_no": "70597162",
+  "name": "HÅKANSKÄR coffee table",
+  "color": "outdoor/light brown stained",
+  "price": "119.99",
+  "currency": "USD",
+  "description": "HÅKANSKÄR Coffee table - outdoor/light brown stained 31 1/2x25 1/4 \". Can be used both as a low coffee table and as a high standing table or side table for plants, all depending on how you flip it. The combination of acacia wood and metal frame gives the table a sleek and modern look.",
+  "dimensions": {
+    "height": 0.8001,
+    "width": 0.6418,
+    "depth": 0.4257,
+    "unit": "m"
+  },
+  "categories": [
+    "Tables & chairs",
+    "Accent tables"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/hakanskaer-coffee-table-outdoor-light-brown-stained__1453921_pe991428_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/70597162/PS01_S01_NV01/rqp3/glb_draco/0c9e7551c879f960152f61c1d898f7ef-70597162_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/hakanskaer-coffee-table-outdoor-light-brown-stained-70597162/"
+}

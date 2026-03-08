@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "30434657",
+      "name": "KLIMPFJ\u00c3\u201eLL dining table",
+      "color": "gray-brown"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "30434657",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining",
+        "surface"
+      ],
+      "tags": [
+        "scandinavian",
+        "rustic",
+        "warm",
+        "natural",
+        "traditional"
+      ]
+    }
+  ]
+}

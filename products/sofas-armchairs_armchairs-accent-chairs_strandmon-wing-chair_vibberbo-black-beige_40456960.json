@@ -1,0 +1,21 @@
+{
+  "item_no": "40456960",
+  "name": "STRANDMON wing chair",
+  "color": "Vibberbo black/beige",
+  "price": "399",
+  "currency": "USD",
+  "description": "STRANDMON Wing chair - Vibberbo black/beige. You can really loosen up and relax in comfort because the high back on this chair provides extra support for your neck. 10 year Limited warranty. Read about the terms in the warranty brochure.",
+  "dimensions": {
+    "height": 1.0068,
+    "width": 0.97,
+    "depth": 0.8064,
+    "unit": "m"
+  },
+  "categories": [
+    "Sofas & armchairs",
+    "Armchairs & accent chairs"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/strandmon-wing-chair-vibberbo-black-beige__0761768_pe751434_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/20456956/PS01_S01_NV_01/simple/glb_draco/a24e85e6f9644e3fad4ebf8c3992e3db-G-20456956-a1cbda32c16bba1e882a0d37669c2d368413c136-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/strandmon-wing-chair-vibberbo-black-beige-40456960/"
+}

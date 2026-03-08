@@ -1,0 +1,20 @@
+{
+  "item_no": "60554380",
+  "name": "DOMSTEN stool",
+  "color": "lilac/pine",
+  "price": "29.99",
+  "currency": "USD",
+  "description": "DOMSTEN Stool - lilac/pine. Part of the Nytillverkad collection where several IKEA classics have been given a new look. First presented in the IKEA catalogue in 1973, but only in 1976 could it be bought as a flat package. This stool adds a splash of color wherever you choose to place it in your home",
+  "dimensions": {
+    "height": 0.4451,
+    "width": 0.3388,
+    "depth": 0.3388,
+    "unit": "m"
+  },
+  "categories": [
+    "Tables & chairs"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/domsten-stool-lilac-pine__1176289_pe894989_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/60554380/PS01_S01_NV01/rqp3/glb_draco/c08e883b4a28a7c689246b5cc57188f3-60554380_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/domsten-stool-lilac-pine-60554380/"
+}

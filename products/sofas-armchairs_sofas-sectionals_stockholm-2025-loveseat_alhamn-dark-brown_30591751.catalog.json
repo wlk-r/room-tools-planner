@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "30591751",
+      "name": "STOCKHOLM 2025 loveseat",
+      "color": "Alhamn dark brown"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "30591751",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "sofa"
+      ],
+      "tags": [
+        "contemporary",
+        "scandinavian",
+        "geometric",
+        "warm",
+        "minimal"
+      ]
+    }
+  ]
+}

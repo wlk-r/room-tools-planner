@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "70597162",
+      "name": "H\u00c3\u2026KANSK\u00c3\u201eR coffee table",
+      "color": "outdoor/light brown stained"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "70597162",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "accent table",
+        "surface"
+      ],
+      "tags": [
+        "industrial",
+        "outdoor",
+        "warm",
+        "contemporary",
+        "rustic"
+      ]
+    }
+  ]
+}

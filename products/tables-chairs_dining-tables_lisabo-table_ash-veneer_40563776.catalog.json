@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "40563776",
+      "name": "LISABO table",
+      "color": "ash veneer"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40563776",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining table",
+        "surface"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "warm",
+        "organic",
+        "natural wood"
+      ]
+    }
+  ]
+}

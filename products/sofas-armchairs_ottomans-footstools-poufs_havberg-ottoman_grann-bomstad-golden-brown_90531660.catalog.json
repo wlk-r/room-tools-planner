@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "90531660",
+      "name": "HAVBERG ottoman",
+      "color": "Grann/Bomstad golden brown"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90531660",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "ottoman"
+      ],
+      "tags": [
+        "mid-century",
+        "warm",
+        "leather",
+        "contemporary",
+        "tufted"
+      ]
+    }
+  ]
+}

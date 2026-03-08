@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "60593782",
+      "name": "STOCKHOLM 2025 chair",
+      "color": "dark brown/leather"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "60593782",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "dining"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "warm",
+        "organic",
+        "minimal"
+      ]
+    }
+  ]
+}

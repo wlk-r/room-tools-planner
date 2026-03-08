@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "80611884",
+      "name": "SKOGSTA table",
+      "color": "acacia"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "80611884",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining table",
+        "surface"
+      ],
+      "tags": [
+        "natural",
+        "rustic",
+        "organic",
+        "scandinavian",
+        "warm"
+      ]
+    }
+  ]
+}

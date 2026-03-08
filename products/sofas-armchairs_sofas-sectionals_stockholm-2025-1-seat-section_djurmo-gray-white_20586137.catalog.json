@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "20586137",
+      "name": "STOCKHOLM 2025 1-seat section",
+      "color": "Djurmo gray/white"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "20586137",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "modular"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "contemporary",
+        "soft",
+        "neutral"
+      ]
+    }
+  ]
+}

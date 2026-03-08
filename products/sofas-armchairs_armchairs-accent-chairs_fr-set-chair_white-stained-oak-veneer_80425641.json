@@ -1,0 +1,21 @@
+{
+  "item_no": "80425641",
+  "name": "FRÖSET chair",
+  "color": "white stained oak veneer",
+  "price": "129.99",
+  "currency": "USD",
+  "description": "FRÖSET Chair - white stained oak veneer. Comfort is built into the geometry of this easy chair – the generous and slightly bent seat, the rounded shape of the backrest and the angle between them that helps you to sit relaxed.",
+  "dimensions": {
+    "height": 0.7465,
+    "width": 0.616,
+    "depth": 0.593,
+    "unit": "m"
+  },
+  "categories": [
+    "Sofas & armchairs",
+    "Armchairs & accent chairs"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/froeset-chair-white-stained-oak-veneer__0824154_pe776005_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/80425641/PS01_S01_NV01/rqp3/glb_draco/3fb81f6f204148568a37dacfaac901cc-80425641_PS01_S01_NV01_RQP3_3.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/froeset-chair-white-stained-oak-veneer-80425641/"
+}

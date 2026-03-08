@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "80425641",
+      "name": "FR\u00c3\u2013SET chair",
+      "color": "white stained oak veneer"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "80425641",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "accent chair"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "organic",
+        "natural wood",
+        "mid-century"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "item_no": "90565768",
+  "name": "SKANSNÄS chair",
+  "color": "black beech",
+  "price": "125",
+  "currency": "USD",
+  "description": "SKANSNÄS Chair - black beech. The frame and backrest are made of solid beech and beech veneer, strong hardwood materials that age beautifully and add a natural, warm feel to the room. Black stained in layers and then clear lacquered for protection and wear resistance.",
+  "dimensions": {
+    "height": 0.7889,
+    "width": 0.517,
+    "depth": 0.4781,
+    "unit": "m"
+  },
+  "categories": [
+    "Tables & chairs",
+    "Dining furniture",
+    "Dining chairs"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/skansnaes-chair-black-beech__1327616_pe944523_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/90565768/PS01_S01_NV01/rqp3/glb/9ac30d1a01e9ad78be8b1bd76176dc25-90565768_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/skansnaes-chair-black-beech-90565768/"
+}

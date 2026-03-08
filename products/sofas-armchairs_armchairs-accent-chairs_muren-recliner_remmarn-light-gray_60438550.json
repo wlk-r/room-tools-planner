@@ -1,0 +1,21 @@
+{
+  "item_no": "60438550",
+  "name": "MUREN recliner",
+  "color": "Remmarn light gray",
+  "price": "479",
+  "currency": "USD",
+  "description": "MUREN Recliner - Remmarn light gray. Adjustable so that you can choose three positions, from upright sitting to reclining. When you lean backwards, the built-in footrest folds out. The high back provides good support for your neck.",
+  "dimensions": {
+    "height": 0.9782,
+    "width": 0.9761,
+    "depth": 0.8536,
+    "unit": "m"
+  },
+  "categories": [
+    "Sofas & armchairs",
+    "Armchairs & accent chairs"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/muren-recliner-remmarn-light-gray__0908542_pe783275_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/00438553/PS01_S01_NV_01/simple/glb_draco/02d12593aad0448395d24db097d49891-G-00438553-8ae3c78f870270f94ae4520a93e5815e2d7fe4da-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/muren-recliner-remmarn-light-gray-60438550/"
+}

@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "40581921",
+      "name": "DYVLINGE swivel chair",
+      "color": "Kelinge orange"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40581921",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "accent chair"
+      ],
+      "tags": [
+        "retro",
+        "mid-century",
+        "bold",
+        "warm",
+        "corduroy"
+      ]
+    }
+  ]
+}

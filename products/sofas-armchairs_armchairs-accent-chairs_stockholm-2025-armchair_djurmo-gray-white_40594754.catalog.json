@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "40594754",
+      "name": "STOCKHOLM 2025 armchair",
+      "color": "Djurmo gray/white"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40594754",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "accent chair"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "minimal",
+        "organic",
+        "cozy"
+      ]
+    }
+  ]
+}

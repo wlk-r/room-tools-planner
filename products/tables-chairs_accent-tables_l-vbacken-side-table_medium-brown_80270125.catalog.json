@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "80270125",
+      "name": "L\u00c3\u2013VBACKEN side table",
+      "color": "medium brown"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "80270125",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "accent table",
+        "surface"
+      ],
+      "tags": [
+        "mid-century",
+        "warm",
+        "organic",
+        "retro",
+        "minimal"
+      ]
+    }
+  ]
+}

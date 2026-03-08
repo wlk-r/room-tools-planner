@@ -1,0 +1,22 @@
+{
+  "item_no": "40563776",
+  "name": "LISABO table",
+  "color": "ash veneer",
+  "price": "199.99",
+  "currency": "USD",
+  "description": "LISABO Table - ash veneer 34 5/8x30 3/4 \". Smart construction and a handcrafted look made our LISABO table series a winner of the Red Dot Design Award in 2016. Easy to assemble as each leg has only one screw. Seats 2. Recommended for indoor use only.",
+  "dimensions": {
+    "height": 0.88,
+    "width": 0.7799,
+    "depth": 0.7446,
+    "unit": "m"
+  },
+  "categories": [
+    "Tables & chairs",
+    "Dining furniture",
+    "Dining tables"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/lisabo-table-ash-veneer__1265110_pe927512_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/40563776/PS01_S01_NV01/rqp3/glb_draco/8d077850686a4257b70f34caf577ac78-40563776_PS01_S01_NV01_RQP3_3.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/lisabo-table-ash-veneer-40563776/"
+}

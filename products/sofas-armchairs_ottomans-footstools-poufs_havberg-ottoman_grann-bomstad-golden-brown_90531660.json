@@ -1,0 +1,21 @@
+{
+  "item_no": "90531660",
+  "name": "HAVBERG ottoman",
+  "color": "Grann/Bomstad golden brown",
+  "price": "300",
+  "currency": "USD",
+  "description": "HAVBERG Ottoman - Grann/Bomstad golden brown. Complete HAVBERG swivel easy chair with this footstool in the same series, so you can rest your feet and sit even more comfortably. The footstool also works as an extra seat which is practical when you have friends visiting.",
+  "dimensions": {
+    "height": 0.6563,
+    "width": 0.6423,
+    "depth": 0.4413,
+    "unit": "m"
+  },
+  "categories": [
+    "Sofas & armchairs",
+    "Ottomans, footstools & poufs"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/havberg-ottoman-grann-bomstad-golden-brown__1085581_pe860178_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/10515107/PS01_S01_NV_01/simple/glb_draco/237af33272cc050b28c4d1ad8ed3b487-G-10515107-5f99798060b6ca695d3ac1921d5aaac86130a3ff-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/havberg-ottoman-grann-bomstad-golden-brown-90531660/"
+}

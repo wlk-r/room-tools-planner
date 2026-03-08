@@ -1,0 +1,21 @@
+{
+  "item_no": "00104291",
+  "name": "LACK coffee table",
+  "color": "black-brown",
+  "price": "49.99",
+  "currency": "USD",
+  "description": "LACK Coffee table - black-brown 46 1/2x30 3/4 \". Separate shelf for magazines, etc. helps you keep your things organized and the table top clear. Max load on table top: 44 lbs. Product is possible to recycle or use for energy recovery, if available in your community.",
+  "dimensions": {
+    "height": 1.1799,
+    "width": 0.7799,
+    "depth": 0.4502,
+    "unit": "m"
+  },
+  "categories": [
+    "Tables & chairs",
+    "Accent tables"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/lack-coffee-table-black-brown__57537_pe163119_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/00104291/PS01_S01_NV01/rqp3/glb_draco/1977280c7c8c4fedb51f4478a06e61de-00104291_PS01_S01_NV01_RQP3_3.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/lack-coffee-table-black-brown-00104291/"
+}

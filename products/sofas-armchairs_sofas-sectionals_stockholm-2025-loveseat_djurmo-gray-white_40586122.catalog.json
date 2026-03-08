@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "40586122",
+      "name": "STOCKHOLM 2025 loveseat",
+      "color": "Djurmo gray/white"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40586122",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "sofa"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "minimal",
+        "soft",
+        "boucle"
+      ]
+    }
+  ]
+}
