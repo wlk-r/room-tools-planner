@@ -4,49 +4,27 @@
     {
       "item_no": "90590490",
       "name": "STOCKHOLM 2025 vase",
-      "color": "brown",
-      "categories": [
-        "Home decor & accessories",
-        "Vases & decorating bowls"
-      ]
+      "color": "brown"
     },
     {
       "item_no": "70593814",
       "name": "STOCKHOLM 2025 rug, flatwoven",
-      "color": "white/brown/light blue handwoven",
-      "categories": [
-        "Rugs & home textiles",
-        "Rugs"
-      ]
+      "color": "white/brown/light blue handwoven"
     },
     {
       "item_no": "60586692",
       "name": "STOCKHOLM 2025 glass-door cabinet",
-      "color": "oak veneer",
-      "categories": [
-        "Storage & organization",
-        "Display & storage cabinets"
-      ]
+      "color": "oak veneer"
     },
     {
       "item_no": "60593782",
       "name": "STOCKHOLM 2025 chair",
-      "color": "dark brown/leather",
-      "categories": [
-        "Tables & chairs",
-        "Dining furniture",
-        "Dining chairs"
-      ]
+      "color": "dark brown/leather"
     },
     {
       "item_no": "40608242",
       "name": "BERGSHYTTAN table",
-      "color": "dark brown ash veneer",
-      "categories": [
-        "Tables & chairs",
-        "Dining furniture",
-        "Dining tables"
-      ]
+      "color": "dark brown ash veneer"
     }
   ],
   "footprints": [

@@ -24,6 +24,7 @@ DOOR_CLEARANCE_M = 0.8
 WINDOW_ZONE_DEPTH_M = 0.3
 GRID_SIZE = 256
 DEFAULT_PRODUCTS_DIR = "products"
+DEFAULT_CATALOG_DIR = "catalog"
 
 
 # ---------- Floor plan quantization ----------
@@ -488,40 +489,49 @@ def quantize_floor_plan(plan_path, grid_size=GRID_SIZE):
 
 # ---------- Product quantization ----------
 
-def quantize_product(product_data, scale):
-    d = product_data["dimensions"]
-    w = math.ceil(d["width"] * scale)
-    h = math.ceil(d["depth"] * scale)
-    elev = math.ceil(d["height"] * scale)
+def merge_catalog_templates(catalog_dir):
+    """Merge all per-product catalog templates into combined products + profiles."""
+    products = []
+    profiles = []
+    for template_path in sorted(Path(catalog_dir).glob("*/*_catalog.json")):
+        with open(template_path) as f:
+            t = json.load(f)
+        products.extend(t["products"])
+        profiles.extend(t["profiles"])
+    return products, profiles
 
-    info = {
-        "item_no": product_data["item_no"],
-        "name": product_data["name"],
-        "color": product_data.get("color", ""),
-        "categories": product_data["categories"],
-    }
 
-    footprint = (
-        f"#i{product_data['item_no']}"
+def compute_footprint(item_no, name, dimensions, scale):
+    """Compute a CSS footprint snippet from product dimensions at the given scale."""
+    w = math.ceil(dimensions["width"] * scale)
+    h = math.ceil(dimensions["depth"] * scale)
+    elev = math.ceil(dimensions["height"] * scale)
+    return (
+        f"#i{item_no}"
         f" {{ width: {w}; height: {h}; --elevation: {elev};"
-        f" /* {product_data['name']} */ }}"
+        f" /* {name} */ }}"
     )
 
-    return info, footprint
 
-
-def quantize_products(products_dir, scale):
-    products = []
-    footprints = []
+def build_footprints(products, products_dir, scale):
+    """Look up vendor metadata for each product and compute footprints."""
+    # Index vendor metadata by item_no
+    vendor = {}
     for path in sorted(Path(products_dir).glob("*.json")):
         with open(path) as f:
             data = json.load(f)
-        if "dimensions" not in data:
+        if "dimensions" in data and "item_no" in data:
+            vendor[data["item_no"]] = data
+
+    footprints = []
+    for p in products:
+        item_no = p["item_no"]
+        if item_no not in vendor:
+            print(f"  WARNING: no vendor metadata for {item_no}, skipping footprint")
             continue
-        info, footprint = quantize_product(data, scale)
-        products.append(info)
-        footprints.append(footprint)
-    return products, footprints
+        v = vendor[item_no]
+        footprints.append(compute_footprint(item_no, v["name"], v["dimensions"], scale))
+    return footprints
 
 
 # ---------- CSS formatting ----------
@@ -593,7 +603,8 @@ def main():
         description="Quantize a floor plan and product catalog to a 256-grid for LLM layout generation"
     )
     parser.add_argument("floor_plan", help="Path to floor plan JSON")
-    parser.add_argument("--products", default=DEFAULT_PRODUCTS_DIR, help=f"Products folder (default: {DEFAULT_PRODUCTS_DIR})")
+    parser.add_argument("--products", default=DEFAULT_PRODUCTS_DIR, help=f"Vendor metadata folder (default: {DEFAULT_PRODUCTS_DIR})")
+    parser.add_argument("--catalog", default=DEFAULT_CATALOG_DIR, help=f"Catalog templates folder (default: {DEFAULT_CATALOG_DIR})")
     args = parser.parse_args()
 
     plan_path = Path(args.floor_plan)
@@ -608,16 +619,39 @@ def main():
     with open(plan_out, "w") as f:
         f.write(format_plan_css(plan_result))
 
-    # Quantize products
-    products, footprints = quantize_products(args.products, scale)
+    # Merge catalog templates (products + profiles) and compute footprints
+    catalog_dir = Path(args.catalog)
+    products, profiles = merge_catalog_templates(catalog_dir)
+
+    if not products:
+        print(f"  No catalog templates found in {catalog_dir}/")
+        print(f"  Falling back to vendor metadata in {args.products}/ (no profile data)")
+        # Fallback: build products from vendor metadata (no profiles)
+        products = []
+        profiles = []
+        for path in sorted(Path(args.products).glob("*.json")):
+            with open(path) as f:
+                data = json.load(f)
+            if "dimensions" not in data:
+                continue
+            products.append({
+                "item_no": data["item_no"],
+                "name": data["name"],
+                "color": data.get("color", ""),
+            })
+
+    footprints = build_footprints(products, args.products, scale)
 
     catalog_out = output_dir / f"{stem}_catalog.json"
     with open(catalog_out, "w") as f:
-        json.dump({
+        catalog = {
             "scale_px_per_m": round(scale, 4),
             "products": products,
-            "footprints": footprints,
-        }, f, indent=2)
+        }
+        if profiles:
+            catalog["profiles"] = profiles
+        catalog["footprints"] = footprints
+        json.dump(catalog, f, indent=2)
 
     # Summary
     print(f"Output: {output_dir}/")
@@ -625,7 +659,9 @@ def main():
           f"{len(plan_result['rooms'])} rooms, "
           f"{len(plan_result['obstacles'])} obstacles, "
           f"{len(plan_result['wall_features'])} windows")
-    print(f"  {stem}_catalog.json  - {len(products)} products at {round(scale, 4)} px/m")
+    print(f"  {stem}_catalog.json  - {len(products)} products, "
+          f"{len(profiles)} profiles, "
+          f"{len(footprints)} footprints at {round(scale, 4)} px/m")
     print()
     for fp in footprints:
         print(f"    {fp}")
