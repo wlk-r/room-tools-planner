@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "80285909",
+      "name": "FEJKA artificial potted plant",
+      "color": "Orchid white"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "80285909",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "decor",
+        "plant"
+      ],
+      "tags": [
+        "minimal",
+        "elegant",
+        "organic",
+        "contemporary",
+        "scandinavian"
+      ]
+    }
+  ]
+}

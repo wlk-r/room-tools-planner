@@ -1,0 +1,21 @@
+{
+  "item_no": "20586255",
+  "name": "BÄSTBOLL gaming chair",
+  "color": "black/Mjuk black",
+  "price": "499.99",
+  "currency": "USD",
+  "description": "BÄSTBOLL Gaming chair - black/Mjuk black. Whether you’re sitting upright or leaning back, while you’re gaming the synchronized seat and back tilt follow your body movements and adapt effortlessly to your favorite gaming position. You sit comfortably since the chair is adjustable in height.",
+  "dimensions": {
+    "height": 1.2,
+    "width": 0.6901,
+    "depth": 0.69,
+    "unit": "m"
+  },
+  "categories": [
+    "Desks & desk chairs",
+    "Gaming furniture"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/baestboll-gaming-chair-black-mjuk-black__1457819_pe992811_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/10586251/PS01_S01_NV_01/simple/glb_draco/a9a9914aaa74d1b72221502a30c6bffa-G-10586251-5c93fcd939cad52abfebf1041e711aea8838f15f-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/baestboll-gaming-chair-black-mjuk-black-20586255/"
+}

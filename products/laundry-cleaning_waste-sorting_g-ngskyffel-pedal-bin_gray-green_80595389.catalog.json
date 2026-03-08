@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "80595389",
+      "name": "G\u00c3\u2026NGSKYFFEL pedal bin",
+      "color": "gray-green"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "80595389",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "waste-bin",
+        "storage"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "contemporary",
+        "muted",
+        "functional"
+      ]
+    }
+  ]
+}

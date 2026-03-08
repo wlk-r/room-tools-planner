@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "item_no": "90586638",
+      "name": "STOCKHOLM 2025 TV unit with sliding doors",
+      "color": "oak veneer"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90586638",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "tv-stand",
+        "tabletop"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "warm",
+        "natural",
+        "japandi"
+      ]
+    }
+  ]
+}

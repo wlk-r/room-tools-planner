@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "30532912",
+      "name": "GR\u00c3\u2013NFJ\u00c3\u201eLL office chair with armrests",
+      "color": "Letafors yellow-brown/black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "30532912",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "office-chair"
+      ],
+      "tags": [
+        "contemporary",
+        "ergonomic",
+        "minimal",
+        "warm",
+        "scandinavian"
+      ]
+    }
+  ]
+}

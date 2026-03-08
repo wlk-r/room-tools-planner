@@ -1,0 +1,22 @@
+{
+  "item_no": "40395288",
+  "name": "FEJKA artificial potted plant",
+  "color": "indoor/outdoor monstera",
+  "price": "69.99",
+  "currency": "USD",
+  "description": "FEJKA Artificial potted plant - indoor/outdoor monstera 7 ½ \". Lifelike, artificial plants that stay fresh year after year. Perfect if you can't have a live plant, but still want to enjoy the beauty of nature. Suitable for both indoor and outdoor use.",
+  "dimensions": {
+    "height": 0.8874,
+    "width": 0.5558,
+    "depth": 0.4657,
+    "unit": "m"
+  },
+  "categories": [
+    "Plants & planters",
+    "Plants and flowers",
+    "Artificial plants & flowers"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/fejka-artificial-potted-plant-indoor-outdoor-monstera__0614197_pe686822_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/40395288/PS01_S01_NV01/rqp3/glb/a19cb3cd47bc0429ddec37fe2b7c6608-40395288_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/fejka-artificial-potted-plant-indoor-outdoor-monstera-40395288/"
+}

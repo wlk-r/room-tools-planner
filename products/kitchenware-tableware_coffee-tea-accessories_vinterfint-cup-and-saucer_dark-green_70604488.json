@@ -1,0 +1,21 @@
+{
+  "item_no": "70604488",
+  "name": "VINTERFINT cup and saucer",
+  "color": "dark green",
+  "price": "9.99",
+  "currency": "USD",
+  "description": "VINTERFINT Cup and saucer - dark green 2 oz. The cup is the perfect size for mulled wine, espresso, and other hot beverages. The saucer is generously sized, so there's plenty of room for cookies and other treats to go with your drink. Wash this product before using it for the first time.",
+  "dimensions": {
+    "height": 0.1695,
+    "width": 0.1695,
+    "depth": 0.0485,
+    "unit": "m"
+  },
+  "categories": [
+    "Kitchenware & tableware",
+    "Coffee & tea accessories"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/vinterfint-cup-and-saucer-dark-green__1436257_pe984126_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/70604488/PS01_S01_NV_01/simple/glb/150a48aa19fe53e723f93a6765ef0c7a-G-70604488-8342736cbeb2ebf4c563428496a7543dc42a9e2b-simple.glb",
+  "product_url": "https://www.ikea.com/us/en/p/vinterfint-cup-and-saucer-dark-green-70604488/"
+}

@@ -1,0 +1,21 @@
+{
+  "item_no": "40586400",
+  "name": "UTVISNING gaming desk with shelf",
+  "color": "black",
+  "price": "179.99",
+  "currency": "USD",
+  "description": "UTVISNING Gaming desk with shelf - black 47 1/4x23 5/8 \". The height of the legs can be adjusted manually to six different heights from 27 to 30\", so that you can always sit at a comfortable height. The cable management tray helps you gather cables and sockets to keep the desk neat and tidy.",
+  "dimensions": {
+    "height": 1.2,
+    "width": 0.925,
+    "depth": 0.6215,
+    "unit": "m"
+  },
+  "categories": [
+    "Desks & desk chairs",
+    "Desks & computer desks"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/utvisning-gaming-desk-with-shelf-black__1336683_pe947436_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/40586400/PS01_S01_NV01/rqp3/glb/af87a566c5ebb3211074f24a59539dfe-40586400_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/utvisning-gaming-desk-with-shelf-black-40586400/"
+}

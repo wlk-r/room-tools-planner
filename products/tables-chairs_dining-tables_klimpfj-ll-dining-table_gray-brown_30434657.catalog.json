@@ -12,13 +12,13 @@
       "tier": "anchor",
       "placement": "floor",
       "categories": [
-        "dining",
-        "surface"
+        "dining-table",
+        "tabletop"
       ],
       "tags": [
         "scandinavian",
-        "rustic",
         "warm",
+        "rustic",
         "natural",
         "traditional"
       ]

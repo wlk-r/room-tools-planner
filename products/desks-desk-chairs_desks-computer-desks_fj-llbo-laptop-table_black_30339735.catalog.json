@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "30339735",
+      "name": "FJ\u00c3\u201eLLBO laptop table",
+      "color": "black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "30339735",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "tabletop",
+        "desk"
+      ],
+      "tags": [
+        "industrial",
+        "rustic",
+        "mixed-materials",
+        "dark",
+        "compact"
+      ]
+    }
+  ]
+}

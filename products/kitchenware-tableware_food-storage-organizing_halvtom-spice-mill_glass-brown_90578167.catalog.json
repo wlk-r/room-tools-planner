@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "item_no": "90578167",
+      "name": "HALVTOM spice mill",
+      "color": "glass/brown"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90578167",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "dining-accessory",
+        "kitchen",
+        "decor"
+      ],
+      "tags": [
+        "contemporary",
+        "scandinavian",
+        "minimal",
+        "warm",
+        "transparent"
+      ]
+    }
+  ]
+}

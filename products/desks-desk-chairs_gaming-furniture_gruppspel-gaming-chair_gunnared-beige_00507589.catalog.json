@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "00507589",
+      "name": "GRUPPSPEL gaming chair",
+      "color": "Gunnared beige"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "00507589",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "gaming-chair"
+      ],
+      "tags": [
+        "contemporary",
+        "warm",
+        "neutral",
+        "scandinavian",
+        "minimal"
+      ]
+    }
+  ]
+}

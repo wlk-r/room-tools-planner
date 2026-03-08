@@ -1,0 +1,21 @@
+{
+  "item_no": "30532912",
+  "name": "GRÖNFJÄLL office chair with armrests",
+  "color": "Letafors yellow-brown/black",
+  "price": "449.99",
+  "currency": "USD",
+  "description": "GRÖNFJÄLL Office chair with armrests - Letafors yellow-brown/black. 10-year limited warranty. Suitable for business use. Graceful design, built to provide exceptional ergonomic support and comfort. Seat and armrest covers are removable and washable. May be used with KOLON floor protector. Tilt lock.",
+  "dimensions": {
+    "height": 1.1171,
+    "width": 0.7013,
+    "depth": 0.6734,
+    "unit": "m"
+  },
+  "categories": [
+    "Desks & desk chairs",
+    "Desk chairs"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/groenfjaell-office-chair-with-armrests-letafors-yellow-brown-black__1273322_pe930001_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/90532909/PS01_S01_NV_01/simple/glb_draco/125f591d4f8e5421179878b99a6e221b-G-90532909-34d50d9c93deb79affce706ec59a61b38195e6ff-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/groenfjaell-office-chair-with-armrests-letafors-yellow-brown-black-30532912/"
+}

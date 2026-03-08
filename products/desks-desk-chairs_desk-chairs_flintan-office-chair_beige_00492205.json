@@ -1,0 +1,21 @@
+{
+  "item_no": "00492205",
+  "name": "FLINTAN office chair",
+  "color": "beige",
+  "price": "99.99",
+  "currency": "USD",
+  "description": "FLINTAN Office chair - beige. 10-year Warranty. Read about the terms in the warranty brochure. Suitable for business use. This ergonomic office chair has lots of functions that allow you to easily adapt the chair to your body. Lumbar support – Promotes good posture and reduces strain on lower back.",
+  "dimensions": {
+    "height": 1.0241,
+    "width": 0.7122,
+    "depth": 0.6774,
+    "unit": "m"
+  },
+  "categories": [
+    "Desks & desk chairs",
+    "Desk chairs"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/flintan-office-chair-beige__1007198_pe825954_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/70492202/PS01_S01_NV_01/simple/glb/3b3383cd6a87dea54ded5b2bfd1293c7-G-70492202-f82b0db17d427a1cc1ac3915e8d0139ac5ad2982-simple.glb",
+  "product_url": "https://www.ikea.com/us/en/p/flintan-office-chair-beige-00492205/"
+}

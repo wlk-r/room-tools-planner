@@ -12,15 +12,15 @@
       "tier": "anchor",
       "placement": "floor",
       "categories": [
-        "dining",
-        "surface"
+        "dining-table",
+        "tabletop"
       ],
       "tags": [
         "rustic",
         "organic",
+        "natural",
         "scandinavian",
-        "two-tone",
-        "natural-wood"
+        "mixed-material"
       ]
     }
   ]

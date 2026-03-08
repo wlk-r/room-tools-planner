@@ -1,0 +1,21 @@
+{
+  "item_no": "10464283",
+  "name": "SOLKLINT table lamp",
+  "color": "brass/gray clear glass",
+  "price": "29.99",
+  "currency": "USD",
+  "description": "SOLKLINT Table lamp - brass/gray clear glass 11 \". The lamp gives a soft light and creates a warm, cozy atmosphere in your room. Light bulb sold separately. IKEA recommends LED bulb E26 globe clear.",
+  "dimensions": {
+    "height": 0.28,
+    "width": 0.2346,
+    "depth": 0.1596,
+    "unit": "m"
+  },
+  "categories": [
+    "Lighting",
+    "Lamps & light fixtures"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/solklint-table-lamp-brass-gray-clear-glass__0842257_pe781832_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/70464275/PS01_S01_NV_01/simple/glb_draco/482aa2e1f86e421ca29332c09bccf668-G-70464275-ed7ec86885c24ecf8f04f4d91b5d8e7a31149010-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/solklint-table-lamp-brass-gray-clear-glass-10464283/"
+}

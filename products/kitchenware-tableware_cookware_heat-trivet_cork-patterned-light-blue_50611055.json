@@ -1,0 +1,21 @@
+{
+  "item_no": "50611055",
+  "name": "HEAT trivet",
+  "color": "cork patterned/light blue",
+  "price": "3.99",
+  "currency": "USD",
+  "description": "HEAT Trivet - cork patterned/light blue 7 \". This hardwearing pot stand protects the surface from heat marks and scratches. Cork is a natural material giving variations in color and appearance.",
+  "dimensions": {
+    "height": 0.1848,
+    "width": 0.1848,
+    "depth": 0.01,
+    "unit": "m"
+  },
+  "categories": [
+    "Kitchenware & tableware",
+    "Cookware"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/heat-trivet-cork-patterned-light-blue__1440277_pe985674_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/50611055/PS01_S01_NV01/rqp3/glb/5e46f612109b48960c840e3ab4b5dd34-50611055_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/heat-trivet-cork-patterned-light-blue-50611055/"
+}

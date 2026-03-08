@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "40610607",
+      "name": "FEJKA artificial potted plant",
+      "color": "indoor/outdoor/bamboo"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40610607",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "decor",
+        "plant"
+      ],
+      "tags": [
+        "natural",
+        "organic",
+        "japandi",
+        "tropical",
+        "minimal"
+      ]
+    }
+  ]
+}

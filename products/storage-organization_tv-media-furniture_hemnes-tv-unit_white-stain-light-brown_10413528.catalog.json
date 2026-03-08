@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "item_no": "10413528",
+      "name": "HEMNES TV unit",
+      "color": "white stain/light brown"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "10413528",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "tv-stand",
+        "storage",
+        "tabletop"
+      ],
+      "tags": [
+        "scandinavian",
+        "traditional",
+        "rustic",
+        "warm",
+        "classic"
+      ]
+    }
+  ]
+}

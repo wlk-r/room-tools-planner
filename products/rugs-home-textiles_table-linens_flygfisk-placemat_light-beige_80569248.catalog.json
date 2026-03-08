@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "item_no": "80569248",
+      "name": "FLYGFISK placemat",
+      "color": "light beige"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "80569248",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "table-linen",
+        "dining",
+        "decor"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "neutral",
+        "contemporary",
+        "light"
+      ]
+    }
+  ]
+}

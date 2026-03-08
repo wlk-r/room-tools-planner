@@ -1,0 +1,21 @@
+{
+  "item_no": "10367461",
+  "name": "ALEFJÄLL office chair",
+  "color": "Glose black",
+  "price": "399.99",
+  "currency": "USD",
+  "description": "ALEFJÄLL Office chair - Glose black. 10-year Warranty. Read about the terms in the warranty brochure. Suitable for business use. GLOSE cover is made of grain leather which is a very high-quality leather. As it ages it becomes softer and develops a darker tone and fine patina.",
+  "dimensions": {
+    "height": 0.845,
+    "width": 0.6845,
+    "depth": 0.6746,
+    "unit": "m"
+  },
+  "categories": [
+    "Desks & desk chairs",
+    "Desk chairs"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/alefjaell-office-chair-glose-black__0724715_pe734598_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/70367458/PS01_S01_NV_01/simple/glb_draco/3b6abc38dad24918a308b0881a2b3dc4-G-70367458-81e8bde55fc1ebaa5f4ae4646191701a7d3b5caf-simple.glb",
+  "product_url": "https://www.ikea.com/us/en/p/alefjaell-office-chair-glose-black-10367461/"
+}

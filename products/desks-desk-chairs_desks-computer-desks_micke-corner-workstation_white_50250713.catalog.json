@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "item_no": "50250713",
+      "name": "MICKE corner workstation",
+      "color": "white"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "50250713",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "desk",
+        "storage",
+        "tabletop"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "contemporary",
+        "clean",
+        "white"
+      ]
+    }
+  ]
+}

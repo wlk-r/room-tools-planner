@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "30578071",
+      "name": "FEJKA artificial potted plant",
+      "color": "indoor/outdoor Bird of paradise"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "30578071",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "decor",
+        "plant"
+      ],
+      "tags": [
+        "tropical",
+        "organic",
+        "natural",
+        "contemporary",
+        "bold"
+      ]
+    }
+  ]
+}

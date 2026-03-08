@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "70604488",
+      "name": "VINTERFINT cup and saucer",
+      "color": "dark green"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "70604488",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "tableware",
+        "decor"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "cozy",
+        "dark-green",
+        "seasonal"
+      ]
+    }
+  ]
+}

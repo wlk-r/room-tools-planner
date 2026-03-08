@@ -1,0 +1,1847 @@
+{
+  "scale_px_per_m": 41.6098,
+  "products": [
+    {
+      "item_no": "10367461",
+      "name": "ALEFJ\u00c3\u201eLL office chair",
+      "color": "Glose black"
+    },
+    {
+      "item_no": "00492205",
+      "name": "FLINTAN office chair",
+      "color": "beige"
+    },
+    {
+      "item_no": "90489029",
+      "name": "FLINTAN office chair",
+      "color": "black"
+    },
+    {
+      "item_no": "30532912",
+      "name": "GR\u00c3\u2013NFJ\u00c3\u201eLL office chair with armrests",
+      "color": "Letafors yellow-brown/black"
+    },
+    {
+      "item_no": "30339735",
+      "name": "FJ\u00c3\u201eLLBO laptop table",
+      "color": "black"
+    },
+    {
+      "item_no": "20541610",
+      "name": "GLADH\u00c3\u2013JDEN desk sit/stand",
+      "color": "light gray/anthracite"
+    },
+    {
+      "item_no": "90539166",
+      "name": "HUVUDSPELARE gaming desk",
+      "color": "black"
+    },
+    {
+      "item_no": "50250713",
+      "name": "MICKE corner workstation",
+      "color": "white"
+    },
+    {
+      "item_no": "10538203",
+      "name": "TONSTAD desk",
+      "color": "brown stained oak veneer"
+    },
+    {
+      "item_no": "20538207",
+      "name": "TONSTAD desk",
+      "color": "brown stained oak veneer"
+    },
+    {
+      "item_no": "40586400",
+      "name": "UTVISNING gaming desk with shelf",
+      "color": "black"
+    },
+    {
+      "item_no": "40396419",
+      "name": "FJ\u00c3\u201eLLBERGET conference chair with casters",
+      "color": "black stained ash veneer/Gunnared dark gray"
+    },
+    {
+      "item_no": "20586255",
+      "name": "B\u00c3\u201eSTBOLL gaming chair",
+      "color": "black/Mjuk black"
+    },
+    {
+      "item_no": "00507589",
+      "name": "GRUPPSPEL gaming chair",
+      "color": "Gunnared beige"
+    },
+    {
+      "item_no": "90590490",
+      "name": "STOCKHOLM 2025 vase",
+      "color": "brown"
+    },
+    {
+      "item_no": "70604488",
+      "name": "VINTERFINT cup and saucer",
+      "color": "dark green"
+    },
+    {
+      "item_no": "50611055",
+      "name": "HEAT trivet",
+      "color": "cork patterned/light blue"
+    },
+    {
+      "item_no": "80596176",
+      "name": "BRUGDHAJ jar with lid",
+      "color": "blue"
+    },
+    {
+      "item_no": "90578167",
+      "name": "HALVTOM spice mill",
+      "color": "glass/brown"
+    },
+    {
+      "item_no": "30531936",
+      "name": "NATTGIBBA laundry basket",
+      "color": "willow/handmade"
+    },
+    {
+      "item_no": "70503583",
+      "name": "SALUDING laundry basket",
+      "color": "handmade bamboo"
+    },
+    {
+      "item_no": "60460107",
+      "name": "DR\u00c3\u2013NJ\u00c3\u2013NS wastepaper basket",
+      "color": "white"
+    },
+    {
+      "item_no": "80595389",
+      "name": "G\u00c3\u2026NGSKYFFEL pedal bin",
+      "color": "gray-green"
+    },
+    {
+      "item_no": "20511217",
+      "name": "STABBEN step trash can",
+      "color": "stainless steel"
+    },
+    {
+      "item_no": "20494331",
+      "name": "ANKARSPEL floor/reading lamp with LED bulb",
+      "color": "pewter effect"
+    },
+    {
+      "item_no": "40494349",
+      "name": "ANKARSPEL work lamp",
+      "color": "pewter effect"
+    },
+    {
+      "item_no": "80520935",
+      "name": "BL\u00c3\u2026SVERK table lamp",
+      "color": "beige"
+    },
+    {
+      "item_no": "80568220",
+      "name": "H\u00c3\u2013GVIND table lamp",
+      "color": "nickel plated/gray glass"
+    },
+    {
+      "item_no": "70216544",
+      "name": "HEKTAR floor lamp",
+      "color": "dark gray"
+    },
+    {
+      "item_no": "10601204",
+      "name": "KUDDLAVA table lamp",
+      "color": "pleated white"
+    },
+    {
+      "item_no": "10464283",
+      "name": "SOLKLINT table lamp",
+      "color": "brass/gray clear glass"
+    },
+    {
+      "item_no": "40437702",
+      "name": "UPPVIND table lamp",
+      "color": "nickel plated/white"
+    },
+    {
+      "item_no": "40610607",
+      "name": "FEJKA artificial potted plant",
+      "color": "indoor/outdoor/bamboo"
+    },
+    {
+      "item_no": "30578071",
+      "name": "FEJKA artificial potted plant",
+      "color": "indoor/outdoor Bird of paradise"
+    },
+    {
+      "item_no": "60587154",
+      "name": "FEJKA artificial potted plant",
+      "color": "indoor/outdoor cactus"
+    },
+    {
+      "item_no": "40395288",
+      "name": "FEJKA artificial potted plant",
+      "color": "indoor/outdoor monstera"
+    },
+    {
+      "item_no": "80285909",
+      "name": "FEJKA artificial potted plant",
+      "color": "Orchid white"
+    },
+    {
+      "item_no": "40612319",
+      "name": "DOFTRIPS watering can",
+      "color": "stainless steel"
+    },
+    {
+      "item_no": "80586530",
+      "name": "BR\u00c3\u201eNNBOLL gaming rug",
+      "color": "black"
+    },
+    {
+      "item_no": "10556225",
+      "name": "PLANKORSNING rug, low pile",
+      "color": "gray/beige"
+    },
+    {
+      "item_no": "90560313",
+      "name": "RASTPLATS rug, flatwoven",
+      "color": "handmade beige/black"
+    },
+    {
+      "item_no": "80589576",
+      "name": "SPRETGR\u00c3\u201eS rug, high pile",
+      "color": "Mixdala"
+    },
+    {
+      "item_no": "10593812",
+      "name": "STOCKHOLM 2025 rug, flatwoven",
+      "color": "black/white/light green handwoven"
+    },
+    {
+      "item_no": "40593815",
+      "name": "STOCKHOLM 2025 rug, flatwoven",
+      "color": "white/brown/light blue handwoven"
+    },
+    {
+      "item_no": "70593814",
+      "name": "STOCKHOLM 2025 rug, flatwoven",
+      "color": "white/brown/light blue handwoven"
+    },
+    {
+      "item_no": "70607057",
+      "name": "T\u00c3\u2026GFORDON door mat",
+      "color": "black/dot pattern"
+    },
+    {
+      "item_no": "20560806",
+      "name": "TVERSTED rug, low pile",
+      "color": "beige"
+    },
+    {
+      "item_no": "80569248",
+      "name": "FLYGFISK placemat",
+      "color": "light beige"
+    },
+    {
+      "item_no": "40581921",
+      "name": "DYVLINGE swivel chair",
+      "color": "Kelinge orange"
+    },
+    {
+      "item_no": "30533493",
+      "name": "EKEN\u00c3\u201eSET armchair",
+      "color": "Kilanda light beige"
+    },
+    {
+      "item_no": "80425641",
+      "name": "FR\u00c3\u2013SET chair",
+      "color": "white stained oak veneer"
+    },
+    {
+      "item_no": "60438550",
+      "name": "MUREN recliner",
+      "color": "Remmarn light gray"
+    },
+    {
+      "item_no": "40594754",
+      "name": "STOCKHOLM 2025 armchair",
+      "color": "Djurmo gray/white"
+    },
+    {
+      "item_no": "40456960",
+      "name": "STRANDMON wing chair",
+      "color": "Vibberbo black/beige"
+    },
+    {
+      "item_no": "90531660",
+      "name": "HAVBERG ottoman",
+      "color": "Grann/Bomstad golden brown"
+    },
+    {
+      "item_no": "40591755",
+      "name": "STOCKHOLM 2025 1-seat section",
+      "color": "Alhamn dark brown"
+    },
+    {
+      "item_no": "20586137",
+      "name": "STOCKHOLM 2025 1-seat section",
+      "color": "Djurmo gray/white"
+    },
+    {
+      "item_no": "40586117",
+      "name": "STOCKHOLM 2025 loveseat",
+      "color": "Alhamn beige"
+    },
+    {
+      "item_no": "30591751",
+      "name": "STOCKHOLM 2025 loveseat",
+      "color": "Alhamn dark brown"
+    },
+    {
+      "item_no": "40586122",
+      "name": "STOCKHOLM 2025 loveseat",
+      "color": "Djurmo gray/white"
+    },
+    {
+      "item_no": "60586692",
+      "name": "STOCKHOLM 2025 glass-door cabinet",
+      "color": "oak veneer"
+    },
+    {
+      "item_no": "10413528",
+      "name": "HEMNES TV unit",
+      "color": "white stain/light brown"
+    },
+    {
+      "item_no": "50542750",
+      "name": "J\u00c3\u201eTTESTA TV unit",
+      "color": "white/light bamboo"
+    },
+    {
+      "item_no": "10542747",
+      "name": "SKRUVBY TV unit",
+      "color": "black-blue"
+    },
+    {
+      "item_no": "90586638",
+      "name": "STOCKHOLM 2025 TV unit with sliding doors",
+      "color": "oak veneer"
+    },
+    {
+      "item_no": "70389356",
+      "name": "BORGEBY coffee table",
+      "color": "birch veneer"
+    },
+    {
+      "item_no": "70597162",
+      "name": "H\u00c3\u2026KANSK\u00c3\u201eR coffee table",
+      "color": "outdoor/light brown stained"
+    },
+    {
+      "item_no": "80270125",
+      "name": "L\u00c3\u2013VBACKEN side table",
+      "color": "medium brown"
+    },
+    {
+      "item_no": "00104291",
+      "name": "LACK coffee table",
+      "color": "black-brown"
+    },
+    {
+      "item_no": "90586563",
+      "name": "STOCKHOLM 2025 side table",
+      "color": "pine veneer natural"
+    },
+    {
+      "item_no": "40528467",
+      "name": "TONSTAD side table",
+      "color": "brown stained oak veneer"
+    },
+    {
+      "item_no": "00569186",
+      "name": "LYCKAN chair",
+      "color": "yellow/birch veneer"
+    },
+    {
+      "item_no": "90565768",
+      "name": "SKANSN\u00c3\u201eS chair",
+      "color": "black beech"
+    },
+    {
+      "item_no": "60593782",
+      "name": "STOCKHOLM 2025 chair",
+      "color": "dark brown/leather"
+    },
+    {
+      "item_no": "40608242",
+      "name": "BERGSHYTTAN table",
+      "color": "dark brown ash veneer"
+    },
+    {
+      "item_no": "30434657",
+      "name": "KLIMPFJ\u00c3\u201eLL dining table",
+      "color": "gray-brown"
+    },
+    {
+      "item_no": "40563776",
+      "name": "LISABO table",
+      "color": "ash veneer"
+    },
+    {
+      "item_no": "20593802",
+      "name": "SKOGSTA dining table",
+      "color": "acacia/black"
+    },
+    {
+      "item_no": "80611884",
+      "name": "SKOGSTA table",
+      "color": "acacia"
+    },
+    {
+      "item_no": "00614532",
+      "name": "SKOGSTA table",
+      "color": "counter height acacia/black"
+    },
+    {
+      "item_no": "60554380",
+      "name": "DOMSTEN stool",
+      "color": "lilac/pine"
+    },
+    {
+      "item_no": "80217072",
+      "name": "INGATORP extendable table",
+      "color": "black"
+    },
+    {
+      "item_no": "90569097",
+      "name": "VIHALS extendable table",
+      "color": "white"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "10367461",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "office-chair"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "industrial",
+        "sleek",
+        "dark"
+      ]
+    },
+    {
+      "item_no": "00492205",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "office-chair"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "contemporary",
+        "neutral",
+        "ergonomic"
+      ]
+    },
+    {
+      "item_no": "90489029",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "office-chair"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "ergonomic",
+        "functional",
+        "black"
+      ]
+    },
+    {
+      "item_no": "30532912",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "office-chair"
+      ],
+      "tags": [
+        "contemporary",
+        "ergonomic",
+        "minimal",
+        "warm",
+        "scandinavian"
+      ]
+    },
+    {
+      "item_no": "30339735",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "tabletop",
+        "desk"
+      ],
+      "tags": [
+        "industrial",
+        "rustic",
+        "mixed-materials",
+        "dark",
+        "compact"
+      ]
+    },
+    {
+      "item_no": "20541610",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "desk",
+        "tabletop",
+        "workspace"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "industrial",
+        "two-tone",
+        "modern"
+      ]
+    },
+    {
+      "item_no": "90539166",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "tabletop",
+        "desk",
+        "gaming"
+      ],
+      "tags": [
+        "gaming",
+        "bold",
+        "industrial",
+        "contemporary",
+        "dark"
+      ]
+    },
+    {
+      "item_no": "50250713",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "desk",
+        "storage",
+        "tabletop"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "contemporary",
+        "clean",
+        "white"
+      ]
+    },
+    {
+      "item_no": "10538203",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "tabletop",
+        "storage"
+      ],
+      "tags": [
+        "scandinavian",
+        "warm",
+        "natural",
+        "minimal",
+        "organic"
+      ]
+    },
+    {
+      "item_no": "20538207",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "desk",
+        "tabletop",
+        "storage"
+      ],
+      "tags": [
+        "scandinavian",
+        "warm",
+        "minimal",
+        "natural",
+        "mid-century"
+      ]
+    },
+    {
+      "item_no": "40586400",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "tabletop",
+        "desk",
+        "shelving"
+      ],
+      "tags": [
+        "gaming",
+        "industrial",
+        "minimal",
+        "contemporary",
+        "dark"
+      ]
+    },
+    {
+      "item_no": "40396419",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "office-chair"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "minimal",
+        "dark",
+        "bentwood"
+      ]
+    },
+    {
+      "item_no": "20586255",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "gaming-chair"
+      ],
+      "tags": [
+        "gaming",
+        "contemporary",
+        "dark",
+        "technical",
+        "ergonomic"
+      ]
+    },
+    {
+      "item_no": "00507589",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "gaming-chair"
+      ],
+      "tags": [
+        "contemporary",
+        "warm",
+        "neutral",
+        "scandinavian",
+        "minimal"
+      ]
+    },
+    {
+      "item_no": "90590490",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "decor",
+        "vase"
+      ],
+      "tags": [
+        "scandinavian",
+        "organic",
+        "warm",
+        "contemporary",
+        "artisan"
+      ]
+    },
+    {
+      "item_no": "70604488",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "tableware",
+        "decor"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "cozy",
+        "dark-green",
+        "seasonal"
+      ]
+    },
+    {
+      "item_no": "50611055",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "decor",
+        "kitchen-accessory"
+      ],
+      "tags": [
+        "organic",
+        "natural",
+        "scandinavian",
+        "colorful",
+        "textured"
+      ]
+    },
+    {
+      "item_no": "80596176",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "storage",
+        "decor"
+      ],
+      "tags": [
+        "scandinavian",
+        "organic",
+        "artisan",
+        "glazed",
+        "coastal"
+      ]
+    },
+    {
+      "item_no": "90578167",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "dining-accessory",
+        "kitchen",
+        "decor"
+      ],
+      "tags": [
+        "contemporary",
+        "scandinavian",
+        "minimal",
+        "warm",
+        "transparent"
+      ]
+    },
+    {
+      "item_no": "30531936",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "laundry"
+      ],
+      "tags": [
+        "natural",
+        "organic",
+        "bohemian",
+        "handcrafted",
+        "warm"
+      ]
+    },
+    {
+      "item_no": "70503583",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "laundry"
+      ],
+      "tags": [
+        "natural",
+        "organic",
+        "bohemian",
+        "handcrafted",
+        "warm"
+      ]
+    },
+    {
+      "item_no": "60460107",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "waste-bin",
+        "storage"
+      ],
+      "tags": [
+        "minimal",
+        "scandinavian",
+        "contemporary",
+        "industrial",
+        "white"
+      ]
+    },
+    {
+      "item_no": "80595389",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "waste-bin",
+        "storage"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "contemporary",
+        "muted",
+        "functional"
+      ]
+    },
+    {
+      "item_no": "20511217",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "waste-bin",
+        "storage"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "industrial",
+        "sleek"
+      ]
+    },
+    {
+      "item_no": "20494331",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "lighting",
+        "floor-lamp"
+      ],
+      "tags": [
+        "industrial",
+        "contemporary",
+        "minimal",
+        "metallic"
+      ]
+    },
+    {
+      "item_no": "40494349",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "lighting",
+        "desk-lamp"
+      ],
+      "tags": [
+        "industrial",
+        "vintage",
+        "metal",
+        "classic",
+        "neutral"
+      ]
+    },
+    {
+      "item_no": "80520935",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "lighting",
+        "decor"
+      ],
+      "tags": [
+        "retro",
+        "mid-century",
+        "warm",
+        "scandinavian",
+        "cozy"
+      ]
+    },
+    {
+      "item_no": "80568220",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "lighting",
+        "decor"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "scandinavian",
+        "moody",
+        "artisan"
+      ]
+    },
+    {
+      "item_no": "70216544",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "lighting",
+        "floor-lamp"
+      ],
+      "tags": [
+        "industrial",
+        "minimal",
+        "contemporary",
+        "dark",
+        "modern"
+      ]
+    },
+    {
+      "item_no": "10601204",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "lighting",
+        "decor"
+      ],
+      "tags": [
+        "scandinavian",
+        "cozy",
+        "minimal",
+        "soft",
+        "contemporary"
+      ]
+    },
+    {
+      "item_no": "10464283",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "lighting",
+        "decor"
+      ],
+      "tags": [
+        "art-deco",
+        "vintage",
+        "warm",
+        "glam",
+        "contemporary"
+      ]
+    },
+    {
+      "item_no": "40437702",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "lighting",
+        "decor"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "scandinavian",
+        "warm",
+        "metallic"
+      ]
+    },
+    {
+      "item_no": "40610607",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "decor",
+        "plant"
+      ],
+      "tags": [
+        "natural",
+        "organic",
+        "japandi",
+        "tropical",
+        "minimal"
+      ]
+    },
+    {
+      "item_no": "30578071",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "decor",
+        "plant"
+      ],
+      "tags": [
+        "tropical",
+        "organic",
+        "natural",
+        "contemporary",
+        "bold"
+      ]
+    },
+    {
+      "item_no": "60587154",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "decor",
+        "plant"
+      ],
+      "tags": [
+        "minimal",
+        "scandinavian",
+        "organic",
+        "contemporary",
+        "natural"
+      ]
+    },
+    {
+      "item_no": "40395288",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "decor",
+        "plant"
+      ],
+      "tags": [
+        "tropical",
+        "organic",
+        "natural",
+        "contemporary",
+        "bold"
+      ]
+    },
+    {
+      "item_no": "80285909",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "decor",
+        "plant"
+      ],
+      "tags": [
+        "minimal",
+        "elegant",
+        "organic",
+        "contemporary",
+        "scandinavian"
+      ]
+    },
+    {
+      "item_no": "40612319",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "decor",
+        "plant-care"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "scandinavian",
+        "metallic",
+        "sleek"
+      ]
+    },
+    {
+      "item_no": "80586530",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "gaming"
+      ],
+      "tags": [
+        "bold",
+        "graphic",
+        "contemporary",
+        "monochrome",
+        "geometric"
+      ]
+    },
+    {
+      "item_no": "10556225",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile"
+      ],
+      "tags": [
+        "scandinavian",
+        "geometric",
+        "minimal",
+        "neutral",
+        "handwoven"
+      ]
+    },
+    {
+      "item_no": "90560313",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile"
+      ],
+      "tags": [
+        "geometric",
+        "bold",
+        "contemporary",
+        "handmade",
+        "monochrome"
+      ]
+    },
+    {
+      "item_no": "80589576",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile"
+      ],
+      "tags": [
+        "colorblock",
+        "contemporary",
+        "handwoven",
+        "warm",
+        "eclectic"
+      ]
+    },
+    {
+      "item_no": "10593812",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile"
+      ],
+      "tags": [
+        "bold",
+        "geometric",
+        "contemporary",
+        "scandinavian",
+        "graphic"
+      ]
+    },
+    {
+      "item_no": "40593815",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile"
+      ],
+      "tags": [
+        "geometric",
+        "bold",
+        "scandinavian",
+        "contemporary",
+        "warm"
+      ]
+    },
+    {
+      "item_no": "70593814",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile"
+      ],
+      "tags": [
+        "geometric",
+        "contemporary",
+        "scandinavian",
+        "warm",
+        "handwoven"
+      ]
+    },
+    {
+      "item_no": "70607057",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "doormat"
+      ],
+      "tags": [
+        "natural",
+        "playful",
+        "graphic",
+        "contemporary",
+        "minimal"
+      ]
+    },
+    {
+      "item_no": "20560806",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "neutral",
+        "geometric",
+        "cozy"
+      ]
+    },
+    {
+      "item_no": "80569248",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "table-linen",
+        "dining",
+        "decor"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "neutral",
+        "contemporary",
+        "light"
+      ]
+    },
+    {
+      "item_no": "40581921",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "accent-chair"
+      ],
+      "tags": [
+        "retro",
+        "mid-century",
+        "bold",
+        "warm",
+        "contemporary"
+      ]
+    },
+    {
+      "item_no": "30533493",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "accent-chair"
+      ],
+      "tags": [
+        "mid-century",
+        "scandinavian",
+        "warm",
+        "minimal"
+      ]
+    },
+    {
+      "item_no": "80425641",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "accent-chair",
+        "seating"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "organic",
+        "natural",
+        "japandi"
+      ]
+    },
+    {
+      "item_no": "60438550",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "recliner"
+      ],
+      "tags": [
+        "contemporary",
+        "cozy",
+        "neutral",
+        "classic",
+        "upholstered"
+      ]
+    },
+    {
+      "item_no": "40594754",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "accent-chair"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "organic",
+        "contemporary",
+        "cozy"
+      ]
+    },
+    {
+      "item_no": "40456960",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "accent-chair"
+      ],
+      "tags": [
+        "classic",
+        "houndstooth",
+        "cozy",
+        "traditional",
+        "scandinavian"
+      ]
+    },
+    {
+      "item_no": "90531660",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "ottoman",
+        "seating"
+      ],
+      "tags": [
+        "mid-century",
+        "warm",
+        "contemporary",
+        "leather",
+        "tufted"
+      ]
+    },
+    {
+      "item_no": "40591755",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "modular-sofa"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "minimal",
+        "warm",
+        "geometric"
+      ]
+    },
+    {
+      "item_no": "20586137",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "modular-sofa"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "minimal",
+        "cozy",
+        "boucl\u00c3\u00a9"
+      ]
+    },
+    {
+      "item_no": "40586117",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "sofa"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "minimal",
+        "warm",
+        "geometric"
+      ]
+    },
+    {
+      "item_no": "30591751",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "sofa"
+      ],
+      "tags": [
+        "contemporary",
+        "scandinavian",
+        "warm",
+        "minimal",
+        "geometric"
+      ]
+    },
+    {
+      "item_no": "40586122",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "sofa"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "minimal",
+        "soft",
+        "boucle"
+      ]
+    },
+    {
+      "item_no": "60586692",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "display-cabinet"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "warm",
+        "natural",
+        "contemporary"
+      ]
+    },
+    {
+      "item_no": "10413528",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "tv-stand",
+        "storage",
+        "tabletop"
+      ],
+      "tags": [
+        "scandinavian",
+        "traditional",
+        "rustic",
+        "warm",
+        "classic"
+      ]
+    },
+    {
+      "item_no": "50542750",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "tv-stand",
+        "storage",
+        "shelving"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "light-wood",
+        "contemporary",
+        "clean"
+      ]
+    },
+    {
+      "item_no": "10542747",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "tv-stand",
+        "storage",
+        "tabletop"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "minimal",
+        "two-tone",
+        "modern"
+      ]
+    },
+    {
+      "item_no": "90586638",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "tv-stand",
+        "tabletop"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "warm",
+        "natural",
+        "japandi"
+      ]
+    },
+    {
+      "item_no": "70389356",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "coffee-table",
+        "tabletop",
+        "storage"
+      ],
+      "tags": [
+        "scandinavian",
+        "natural",
+        "minimal",
+        "organic",
+        "warm"
+      ]
+    },
+    {
+      "item_no": "70597162",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "coffee-table",
+        "tabletop",
+        "side-table"
+      ],
+      "tags": [
+        "industrial",
+        "contemporary",
+        "warm",
+        "outdoor",
+        "natural-wood"
+      ]
+    },
+    {
+      "item_no": "80270125",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "side-table",
+        "tabletop"
+      ],
+      "tags": [
+        "mid-century",
+        "warm",
+        "organic",
+        "retro",
+        "contemporary"
+      ]
+    },
+    {
+      "item_no": "00104291",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "coffee-table",
+        "tabletop",
+        "shelving"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "scandinavian",
+        "dark",
+        "simple"
+      ]
+    },
+    {
+      "item_no": "90586563",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "side-table",
+        "tabletop"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "warm",
+        "natural",
+        "contemporary"
+      ]
+    },
+    {
+      "item_no": "40528467",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "side-table",
+        "tabletop",
+        "storage"
+      ],
+      "tags": [
+        "scandinavian",
+        "warm",
+        "natural",
+        "mid-century",
+        "minimal"
+      ]
+    },
+    {
+      "item_no": "00569186",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "dining-chair"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "bold",
+        "minimal",
+        "cheerful"
+      ]
+    },
+    {
+      "item_no": "90565768",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "dining-chair"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "organic",
+        "natural",
+        "contemporary"
+      ]
+    },
+    {
+      "item_no": "60593782",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "dining-chair",
+        "seating"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "minimal",
+        "warm",
+        "elegant"
+      ]
+    },
+    {
+      "item_no": "40608242",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining-table",
+        "tabletop"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "warm",
+        "minimal",
+        "dark-wood"
+      ]
+    },
+    {
+      "item_no": "30434657",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining-table",
+        "tabletop"
+      ],
+      "tags": [
+        "scandinavian",
+        "warm",
+        "rustic",
+        "natural",
+        "traditional"
+      ]
+    },
+    {
+      "item_no": "40563776",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining-table",
+        "tabletop"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "organic",
+        "warm",
+        "natural"
+      ]
+    },
+    {
+      "item_no": "20593802",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining-table",
+        "tabletop"
+      ],
+      "tags": [
+        "rustic",
+        "organic",
+        "natural",
+        "scandinavian",
+        "mixed-material"
+      ]
+    },
+    {
+      "item_no": "80611884",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining-table",
+        "tabletop"
+      ],
+      "tags": [
+        "natural",
+        "rustic",
+        "organic",
+        "scandinavian",
+        "warm"
+      ]
+    },
+    {
+      "item_no": "00614532",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining-table",
+        "tabletop"
+      ],
+      "tags": [
+        "rustic",
+        "industrial",
+        "scandinavian",
+        "natural",
+        "contrast"
+      ]
+    },
+    {
+      "item_no": "60554380",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "stool"
+      ],
+      "tags": [
+        "scandinavian",
+        "retro",
+        "colorful",
+        "playful",
+        "minimalist"
+      ]
+    },
+    {
+      "item_no": "80217072",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining-table",
+        "tabletop"
+      ],
+      "tags": [
+        "traditional",
+        "classic",
+        "dark",
+        "formal",
+        "pedestal"
+      ]
+    },
+    {
+      "item_no": "90569097",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "dining-table",
+        "tabletop"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "contemporary",
+        "clean",
+        "white"
+      ]
+    }
+  ],
+  "footprints": [
+    "#i10367461 { width: 29; height: 29; --elevation: 36; /* ALEFJ\u00c3\u201eLL office chair */ }",
+    "#i00492205 { width: 30; height: 29; --elevation: 43; /* FLINTAN office chair */ }",
+    "#i90489029 { width: 30; height: 29; --elevation: 43; /* FLINTAN office chair */ }",
+    "#i30532912 { width: 30; height: 29; --elevation: 47; /* GR\u00c3\u2013NFJ\u00c3\u201eLL office chair with armrests */ }",
+    "#i30339735 { width: 32; height: 16; --elevation: 43; /* FJ\u00c3\u201eLLBO laptop table */ }",
+    "#i20541610 { width: 42; height: 29; --elevation: 49; /* GLADH\u00c3\u2013JDEN desk sit/stand */ }",
+    "#i90539166 { width: 34; height: 32; --elevation: 59; /* HUVUDSPELARE gaming desk */ }",
+    "#i50250713 { width: 42; height: 42; --elevation: 59; /* MICKE corner workstation */ }",
+    "#i10538203 { width: 32; height: 25; --elevation: 32; /* TONSTAD desk */ }",
+    "#i20538207 { width: 32; height: 20; --elevation: 50; /* TONSTAD desk */ }",
+    "#i40586400 { width: 39; height: 26; --elevation: 50; /* UTVISNING gaming desk with shelf */ }",
+    "#i40396419 { width: 29; height: 28; --elevation: 32; /* FJ\u00c3\u201eLLBERGET conference chair with casters */ }",
+    "#i20586255 { width: 29; height: 29; --elevation: 50; /* B\u00c3\u201eSTBOLL gaming chair */ }",
+    "#i00507589 { width: 31; height: 29; --elevation: 48; /* GRUPPSPEL gaming chair */ }",
+    "#i90590490 { width: 11; height: 9; --elevation: 11; /* STOCKHOLM 2025 vase */ }",
+    "#i70604488 { width: 8; height: 3; --elevation: 8; /* VINTERFINT cup and saucer */ }",
+    "#i50611055 { width: 8; height: 8; --elevation: 1; /* HEAT trivet */ }",
+    "#i80596176 { width: 6; height: 6; --elevation: 6; /* BRUGDHAJ jar with lid */ }",
+    "#i90578167 { width: 8; height: 4; --elevation: 9; /* HALVTOM spice mill */ }",
+    "#i30531936 { width: 26; height: 17; --elevation: 27; /* NATTGIBBA laundry basket */ }",
+    "#i70503583 { width: 17; height: 17; --elevation: 27; /* SALUDING laundry basket */ }",
+    "#i60460107 { width: 11; height: 11; --elevation: 15; /* DR\u00c3\u2013NJ\u00c3\u2013NS wastepaper basket */ }",
+    "#i80595389 { width: 14; height: 13; --elevation: 15; /* G\u00c3\u2026NGSKYFFEL pedal bin */ }",
+    "#i20511217 { width: 18; height: 14; --elevation: 18; /* STABBEN step trash can */ }",
+    "#i20494331 { width: 35; height: 12; --elevation: 59; /* ANKARSPEL floor/reading lamp with LED bulb */ }",
+    "#i40494349 { width: 22; height: 10; --elevation: 27; /* ANKARSPEL work lamp */ }",
+    "#i80520935 { width: 12; height: 9; --elevation: 15; /* BL\u00c3\u2026SVERK table lamp */ }",
+    "#i80568220 { width: 10; height: 10; --elevation: 11; /* H\u00c3\u2013GVIND table lamp */ }",
+    "#i70216544 { width: 22; height: 15; --elevation: 77; /* HEKTAR floor lamp */ }",
+    "#i10601204 { width: 14; height: 12; --elevation: 14; /* KUDDLAVA table lamp */ }",
+    "#i10464283 { width: 10; height: 7; --elevation: 12; /* SOLKLINT table lamp */ }",
+    "#i40437702 { width: 15; height: 6; --elevation: 20; /* UPPVIND table lamp */ }",
+    "#i40610607 { width: 38; height: 31; --elevation: 71; /* FEJKA artificial potted plant */ }",
+    "#i30578071 { width: 47; height: 45; --elevation: 75; /* FEJKA artificial potted plant */ }",
+    "#i60587154 { width: 4; height: 3; --elevation: 6; /* FEJKA artificial potted plant */ }",
+    "#i40395288 { width: 24; height: 20; --elevation: 37; /* FEJKA artificial potted plant */ }",
+    "#i80285909 { width: 17; height: 11; --elevation: 25; /* FEJKA artificial potted plant */ }",
+    "#i40612319 { width: 10; height: 5; --elevation: 15; /* DOFTRIPS watering can */ }",
+    "#i80586530 { width: 82; height: 82; --elevation: 1; /* BR\u00c3\u201eNNBOLL gaming rug */ }",
+    "#i10556225 { width: 71; height: 100; --elevation: 1; /* PLANKORSNING rug, low pile */ }",
+    "#i90560313 { width: 71; height: 100; --elevation: 1; /* RASTPLATS rug, flatwoven */ }",
+    "#i80589576 { width: 71; height: 2; --elevation: 100; /* SPRETGR\u00c3\u201eS rug, high pile */ }",
+    "#i10593812 { width: 72; height: 101; --elevation: 1; /* STOCKHOLM 2025 rug, flatwoven */ }",
+    "#i40593815 { width: 71; height: 100; --elevation: 1; /* STOCKHOLM 2025 rug, flatwoven */ }",
+    "#i70593814 { width: 100; height: 146; --elevation: 1; /* STOCKHOLM 2025 rug, flatwoven */ }",
+    "#i70607057 { width: 25; height: 38; --elevation: 1; /* T\u00c3\u2026GFORDON door mat */ }",
+    "#i20560806 { width: 71; height: 100; --elevation: 1; /* TVERSTED rug, low pile */ }",
+    "#i80569248 { width: 13; height: 16; --elevation: 1; /* FLYGFISK placemat */ }",
+    "#i40581921 { width: 29; height: 27; --elevation: 32; /* DYVLINGE swivel chair */ }",
+    "#i30533493 { width: 32; height: 27; --elevation: 33; /* EKEN\u00c3\u201eSET armchair */ }",
+    "#i80425641 { width: 26; height: 25; --elevation: 32; /* FR\u00c3\u2013SET chair */ }",
+    "#i60438550 { width: 41; height: 36; --elevation: 41; /* MUREN recliner */ }",
+    "#i40594754 { width: 31; height: 29; --elevation: 33; /* STOCKHOLM 2025 armchair */ }",
+    "#i40456960 { width: 41; height: 34; --elevation: 42; /* STRANDMON wing chair */ }",
+    "#i90531660 { width: 27; height: 19; --elevation: 28; /* HAVBERG ottoman */ }",
+    "#i40591755 { width: 30; height: 30; --elevation: 42; /* STOCKHOLM 2025 1-seat section */ }",
+    "#i20586137 { width: 30; height: 30; --elevation: 42; /* STOCKHOLM 2025 1-seat section */ }",
+    "#i40586117 { width: 42; height: 30; --elevation: 76; /* STOCKHOLM 2025 loveseat */ }",
+    "#i30591751 { width: 43; height: 30; --elevation: 76; /* STOCKHOLM 2025 loveseat */ }",
+    "#i40586122 { width: 42; height: 29; --elevation: 75; /* STOCKHOLM 2025 loveseat */ }",
+    "#i60586692 { width: 36; height: 17; --elevation: 42; /* STOCKHOLM 2025 glass-door cabinet */ }",
+    "#i10413528 { width: 24; height: 21; --elevation: 62; /* HEMNES TV unit */ }",
+    "#i50542750 { width: 21; height: 17; --elevation: 67; /* J\u00c3\u201eTTESTA TV unit */ }",
+    "#i10542747 { width: 25; height: 17; --elevation: 66; /* SKRUVBY TV unit */ }",
+    "#i90586638 { width: 24; height: 18; --elevation: 75; /* STOCKHOLM 2025 TV unit with sliding doors */ }",
+    "#i70389356 { width: 30; height: 18; --elevation: 30; /* BORGEBY coffee table */ }",
+    "#i70597162 { width: 27; height: 18; --elevation: 34; /* H\u00c3\u2026KANSK\u00c3\u201eR coffee table */ }",
+    "#i80270125 { width: 22; height: 19; --elevation: 33; /* L\u00c3\u2013VBACKEN side table */ }",
+    "#i00104291 { width: 33; height: 19; --elevation: 50; /* LACK coffee table */ }",
+    "#i90586563 { width: 17; height: 17; --elevation: 18; /* STOCKHOLM 2025 side table */ }",
+    "#i40528467 { width: 19; height: 17; --elevation: 27; /* TONSTAD side table */ }",
+    "#i00569186 { width: 22; height: 22; --elevation: 35; /* LYCKAN chair */ }",
+    "#i90565768 { width: 22; height: 20; --elevation: 33; /* SKANSN\u00c3\u201eS chair */ }",
+    "#i60593782 { width: 24; height: 21; --elevation: 31; /* STOCKHOLM 2025 chair */ }",
+    "#i40608242 { width: 39; height: 32; --elevation: 100; /* BERGSHYTTAN table */ }",
+    "#i30434657 { width: 40; height: 32; --elevation: 100; /* KLIMPFJ\u00c3\u201eLL dining table */ }",
+    "#i40563776 { width: 33; height: 31; --elevation: 37; /* LISABO table */ }",
+    "#i20593802 { width: 50; height: 31; --elevation: 50; /* SKOGSTA dining table */ }",
+    "#i80611884 { width: 50; height: 31; --elevation: 50; /* SKOGSTA table */ }",
+    "#i00614532 { width: 31; height: 31; --elevation: 39; /* SKOGSTA table */ }",
+    "#i60554380 { width: 15; height: 15; --elevation: 19; /* DOMSTEN stool */ }",
+    "#i80217072 { width: 46; height: 31; --elevation: 46; /* INGATORP extendable table */ }",
+    "#i90569097 { width: 32; height: 31; --elevation: 35; /* VIHALS extendable table */ }"
+  ]
+}

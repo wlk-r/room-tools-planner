@@ -29,8 +29,9 @@ Determine the spatial mounting mode based on how the item physically occupies sp
 <field name="categories" type="string[]" count="1-3">
 Identify functional placement categories for spatial reasoning.
 - **CRITICAL**: Do NOT simply copy the vendor's merchandising categories from the metadata. You must generate your own functional categories based on how the item is used in a room.
-- Use short, lowercase strings.
-- Examples: seating, surface, storage, lighting, decor, tabletop, rug, shelving, textile.
+- Use short lowercase strings. Hyphenate compound terms (e.g. "dining-table" not "dining table", "accent-chair" not "accent chair", "side-table" not "side table").
+- Do NOT use "surface" as a category — it conflicts with the placement enum. Use "tabletop" for items that provide a usable top surface.
+- Examples: seating, tabletop, storage, lighting, decor, rug, shelving, textile, dining-table, dining-chair, accent-chair, side-table, coffee-table.
 </field>
 
 <field name="tags" type="string[]" count="2-5">

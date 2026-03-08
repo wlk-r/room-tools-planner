@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "40494349",
+      "name": "ANKARSPEL work lamp",
+      "color": "pewter effect"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40494349",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "lighting",
+        "desk-lamp"
+      ],
+      "tags": [
+        "industrial",
+        "vintage",
+        "metal",
+        "classic",
+        "neutral"
+      ]
+    }
+  ]
+}

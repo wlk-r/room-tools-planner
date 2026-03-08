@@ -1,0 +1,21 @@
+{
+  "item_no": "10601204",
+  "name": "KUDDLAVA table lamp",
+  "color": "pleated white",
+  "price": "17.99",
+  "currency": "USD",
+  "description": "KUDDLAVA Table lamp - pleated white 11 \". Creates a soft, cozy mood light in your home. Light bulb is sold separately. IKEA recommends LED bulb E12 globe opal white with a max. diameter of 1.75 inches.",
+  "dimensions": {
+    "height": 0.32,
+    "width": 0.32,
+    "depth": 0.28,
+    "unit": "m"
+  },
+  "categories": [
+    "Lighting",
+    "Lamps & light fixtures"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/kuddlava-table-lamp-pleated-white__1416209_pe975491_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/20492488/PS01_S01_NV_01/simple/glb_draco/87e240d546f38ae033c4069c138184f0-G-20492488-7e9eb8d9e7b965fa50e6e5d575355930caafd47c-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/kuddlava-table-lamp-pleated-white-10601204/"
+}

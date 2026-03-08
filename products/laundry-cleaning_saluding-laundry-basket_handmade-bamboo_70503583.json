@@ -1,0 +1,20 @@
+{
+  "item_no": "70503583",
+  "name": "SALUDING laundry basket",
+  "color": "handmade bamboo",
+  "price": "59.99",
+  "currency": "USD",
+  "description": "SALUDING Laundry basket - handmade bamboo 13 gallon. The lid's woven pattern is a tribute to traditional craftsmanship and makes it easy for you to drop laundry through the top. Skilled craftspeople have woven the basket by hand, so each basket is one of a kind. Holds up to 13 lbs of laundry.",
+  "dimensions": {
+    "height": 0.6402,
+    "width": 0.4,
+    "depth": 0.4,
+    "unit": "m"
+  },
+  "categories": [
+    "Laundry & cleaning"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/saluding-laundry-basket-handmade-bamboo__1025991_pe834285_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/70503583/PS01_S01_NV_01/simple/glb_draco/431e3b46415e4255a910a36d30f6b73e-G-70503583-38fbda2ecf3f694c08e916efe29c6399a4564abd-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/saluding-laundry-basket-handmade-bamboo-70503583/"
+}

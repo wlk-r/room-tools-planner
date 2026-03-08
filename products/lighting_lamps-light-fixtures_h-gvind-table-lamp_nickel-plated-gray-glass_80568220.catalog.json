@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "80568220",
+      "name": "H\u00c3\u2013GVIND table lamp",
+      "color": "nickel plated/gray glass"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "80568220",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "lighting",
+        "decor"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "scandinavian",
+        "moody",
+        "artisan"
+      ]
+    }
+  ]
+}

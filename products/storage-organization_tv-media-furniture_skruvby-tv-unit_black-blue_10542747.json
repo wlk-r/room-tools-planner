@@ -1,0 +1,21 @@
+{
+  "item_no": "10542747",
+  "name": "SKRUVBY TV unit",
+  "color": "black-blue",
+  "price": "99.99",
+  "currency": "USD",
+  "description": "SKRUVBY TV unit - black-blue 61 3/8x14 3/4x23 5/8 \". The furniture in the SKRUVBY series is designed to go well together. Combine and match them as you like or use each piece of furniture as a beautiful solitaire. The oak look of the top panel creates a warm and natural look.",
+  "dimensions": {
+    "height": 1.566,
+    "width": 0.6004,
+    "depth": 0.387,
+    "unit": "m"
+  },
+  "categories": [
+    "Storage & organization",
+    "TV & media furniture"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/skruvby-tv-unit-black-blue__1128170_pe876449_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/10520364/PS01_S01_NV_01/simple/glb_draco/c27775b4f73325ce1141b21d6707ef4a-G-10520364-e92ff5075cdb8f039a49cdbfd95a71362fa98069-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/skruvby-tv-unit-black-blue-10542747/"
+}

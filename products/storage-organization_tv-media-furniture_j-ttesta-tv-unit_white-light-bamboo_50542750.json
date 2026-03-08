@@ -1,0 +1,21 @@
+{
+  "item_no": "50542750",
+  "name": "JÄTTESTA TV unit",
+  "color": "white/light bamboo",
+  "price": "179.99",
+  "currency": "USD",
+  "description": "JÄTTESTA TV unit - white/light bamboo 63x15 3/4x19 1/4 \". Use this stylish TV bench to create an attractive TV corner in your home. It’s simple to keep cables from your TV and other equipment out of sight but close at hand, since the bench has a practical cable holder.",
+  "dimensions": {
+    "height": 1.6057,
+    "width": 0.4946,
+    "depth": 0.4031,
+    "unit": "m"
+  },
+  "categories": [
+    "Storage & organization",
+    "TV & media furniture"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/jaettesta-tv-unit-white-light-bamboo__1154959_pe886377_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/50538852/PS01_S01_NV_01/simple/glb_draco/70dac41d097d452599db81914093c1e3-G-50538852-b14685b168024e5bcd624cd860be4c3cc21e96ea-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/jaettesta-tv-unit-white-light-bamboo-50542750/"
+}

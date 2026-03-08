@@ -1,0 +1,21 @@
+{
+  "item_no": "10413528",
+  "name": "HEMNES TV unit",
+  "color": "white stain/light brown",
+  "price": "349.99",
+  "currency": "USD",
+  "description": "HEMNES TV unit - white stain/light brown 58 1/4x18 1/2x22 1/2 \". Solid wood has a natural feel. Large drawers make it easy to keep your things organized. The top panel of the TV bench is intended for a TV with a maximum weight of 55 lbs. Coordinates with other furniture in the HEMNES series.",
+  "dimensions": {
+    "height": 1.4775,
+    "width": 0.5707,
+    "depth": 0.4894,
+    "unit": "m"
+  },
+  "categories": [
+    "Storage & organization",
+    "TV & media furniture"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/hemnes-tv-unit-white-stain-light-brown__0583377_pe671187_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/50413526/PS01_S01_NV_01/simple/glb_draco/263922960bd942f882927591719e6e87-G-50413526-4c971121c69d03aa14aa2654f4990b565afa10d5-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/hemnes-tv-unit-white-stain-light-brown-10413528/"
+}

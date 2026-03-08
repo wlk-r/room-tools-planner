@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "30531936",
+      "name": "NATTGIBBA laundry basket",
+      "color": "willow/handmade"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "30531936",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "laundry"
+      ],
+      "tags": [
+        "natural",
+        "organic",
+        "bohemian",
+        "handcrafted",
+        "warm"
+      ]
+    }
+  ]
+}

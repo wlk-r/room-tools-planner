@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "10367461",
+      "name": "ALEFJ\u00c3\u201eLL office chair",
+      "color": "Glose black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "10367461",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "office-chair"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "industrial",
+        "sleek",
+        "dark"
+      ]
+    }
+  ]
+}

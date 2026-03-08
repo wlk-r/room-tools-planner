@@ -1,0 +1,21 @@
+{
+  "item_no": "30339735",
+  "name": "FJÄLLBO laptop table",
+  "color": "black",
+  "price": "109.99",
+  "currency": "USD",
+  "description": "FJÄLLBO Laptop table - black 39 3/8x14 1/8 \". With this rustic metal and solid wood desk you get a flexible and functional workspace which fits in a small space. Wood is a natural living material, and variations in the grain, color and texture makes each piece of wood furniture unique.",
+  "dimensions": {
+    "height": 1.0243,
+    "width": 0.7485,
+    "depth": 0.3726,
+    "unit": "m"
+  },
+  "categories": [
+    "Desks & desk chairs",
+    "Desks & computer desks"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/fjaellbo-laptop-table-black__0736007_pe740334_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/30339735/PS01_S01_NV01/rqp3/glb/57f7a26efb49536b3fa3a7cdafdb39af-30339735_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/fjaellbo-laptop-table-black-30339735/"
+}

@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "80596176",
+      "name": "BRUGDHAJ jar with lid",
+      "color": "blue"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "80596176",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "storage",
+        "decor"
+      ],
+      "tags": [
+        "scandinavian",
+        "organic",
+        "artisan",
+        "glazed",
+        "coastal"
+      ]
+    }
+  ]
+}

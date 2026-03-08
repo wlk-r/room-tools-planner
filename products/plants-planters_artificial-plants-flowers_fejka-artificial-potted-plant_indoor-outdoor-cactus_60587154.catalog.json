@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "60587154",
+      "name": "FEJKA artificial potted plant",
+      "color": "indoor/outdoor cactus"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "60587154",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "decor",
+        "plant"
+      ],
+      "tags": [
+        "minimal",
+        "scandinavian",
+        "organic",
+        "contemporary",
+        "natural"
+      ]
+    }
+  ]
+}

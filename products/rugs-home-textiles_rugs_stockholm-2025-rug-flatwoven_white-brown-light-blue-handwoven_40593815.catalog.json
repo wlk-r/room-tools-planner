@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "40593815",
+      "name": "STOCKHOLM 2025 rug, flatwoven",
+      "color": "white/brown/light blue handwoven"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40593815",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile"
+      ],
+      "tags": [
+        "geometric",
+        "bold",
+        "scandinavian",
+        "contemporary",
+        "warm"
+      ]
+    }
+  ]
+}

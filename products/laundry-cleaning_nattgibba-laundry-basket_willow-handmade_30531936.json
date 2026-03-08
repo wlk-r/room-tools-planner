@@ -1,0 +1,20 @@
+{
+  "item_no": "30531936",
+  "name": "NATTGIBBA laundry basket",
+  "color": "willow/handmade",
+  "price": "79.99",
+  "currency": "USD",
+  "description": "NATTGIBBA Laundry basket - willow/handmade 26 gallon. Skilled craftspeople have woven the basket by hand, which makes each basket is one of a kind. Easy to bring home since it’s lightweight and flat-packed. The material brings a piece of nature into your home and spreads a calm, warm feeling.",
+  "dimensions": {
+    "height": 0.6428,
+    "width": 0.6104,
+    "depth": 0.3944,
+    "unit": "m"
+  },
+  "categories": [
+    "Laundry & cleaning"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/nattgibba-laundry-basket-willow-handmade__1149878_pe884244_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/30531936/PS01_S01_NV_01/simple/glb/12ac0feed69d69c8869f91166e52f9b3-G-30531936-1903a8c55ec8bd6935da11077e935b207ac3af31-simple.glb",
+  "product_url": "https://www.ikea.com/us/en/p/nattgibba-laundry-basket-willow-handmade-30531936/"
+}

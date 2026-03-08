@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "item_no": "90539166",
+      "name": "HUVUDSPELARE gaming desk",
+      "color": "black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90539166",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "tabletop",
+        "desk",
+        "gaming"
+      ],
+      "tags": [
+        "gaming",
+        "bold",
+        "industrial",
+        "contemporary",
+        "dark"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "item_no": "40612319",
+  "name": "DOFTRIPS watering can",
+  "color": "stainless steel",
+  "price": "24.99",
+  "currency": "USD",
+  "description": "DOFTRIPS Watering can - stainless steel 51 oz. The long, narrow spout makes it easy to water gently and precisely. A both functional and decorative watering can that helps you take care of your plants. Made of stainless steel which provides good protection against rust.",
+  "dimensions": {
+    "height": 0.3539,
+    "width": 0.2218,
+    "depth": 0.1198,
+    "unit": "m"
+  },
+  "categories": [
+    "Plants & planters"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/doftrips-watering-can-stainless-steel__1461497_pe994153_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/40612319/PS01_S01_NV01/rqp3/glb/b82e50a20507c19f8b824eab01a2f146-40612319_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/doftrips-watering-can-stainless-steel-40612319/"
+}

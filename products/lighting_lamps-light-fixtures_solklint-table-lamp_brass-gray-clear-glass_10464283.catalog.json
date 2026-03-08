@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "10464283",
+      "name": "SOLKLINT table lamp",
+      "color": "brass/gray clear glass"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "10464283",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "lighting",
+        "decor"
+      ],
+      "tags": [
+        "art-deco",
+        "vintage",
+        "warm",
+        "glam",
+        "contemporary"
+      ]
+    }
+  ]
+}

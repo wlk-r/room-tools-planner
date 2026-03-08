@@ -12,14 +12,14 @@
       "tier": "anchor",
       "placement": "floor",
       "categories": [
-        "dining table",
-        "bar table"
+        "dining-table",
+        "tabletop"
       ],
       "tags": [
         "rustic",
         "industrial",
         "scandinavian",
-        "natural wood",
+        "natural",
         "contrast"
       ]
     }

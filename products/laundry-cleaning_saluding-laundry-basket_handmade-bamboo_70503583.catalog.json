@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "70503583",
+      "name": "SALUDING laundry basket",
+      "color": "handmade bamboo"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "70503583",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "laundry"
+      ],
+      "tags": [
+        "natural",
+        "organic",
+        "bohemian",
+        "handcrafted",
+        "warm"
+      ]
+    }
+  ]
+}

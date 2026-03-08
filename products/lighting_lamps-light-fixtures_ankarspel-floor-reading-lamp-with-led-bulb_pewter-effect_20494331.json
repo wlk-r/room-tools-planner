@@ -1,0 +1,21 @@
+{
+  "item_no": "20494331",
+  "name": "ANKARSPEL floor/reading lamp with LED bulb",
+  "color": "pewter effect",
+  "price": "99.99",
+  "currency": "USD",
+  "description": "ANKARSPEL Floor/reading lamp with LED bulb - pewter effect. You can easily direct the light where you want it because the lamp arm and head are adjustable. Provides a directed light that is great for reading. The height is adjustable to suit your lighting needs. LED light bulb included (E26).",
+  "dimensions": {
+    "height": 1.4053,
+    "width": 0.8203,
+    "depth": 0.2801,
+    "unit": "m"
+  },
+  "categories": [
+    "Lighting",
+    "Lamps & light fixtures"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/ankarspel-floor-reading-lamp-with-led-bulb-pewter-effect__1067377_pe852699_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/30490083/PS01_S01_NV_01/simple/glb_draco/0608b8beb52b46489a0a39c41893e2a0-G-30490083-312e90a798f86272460332a43576ff0b2bf9dfd5-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/ankarspel-floor-reading-lamp-with-led-bulb-pewter-effect-20494331/"
+}

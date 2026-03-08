@@ -1,0 +1,22 @@
+{
+  "item_no": "60587154",
+  "name": "FEJKA artificial potted plant",
+  "color": "indoor/outdoor cactus",
+  "price": "1.99",
+  "currency": "USD",
+  "description": "FEJKA Artificial potted plant - indoor/outdoor cactus 2 ¼ \". Lifelike artificial plant that remains looking fresh year after year. Perfect if you can't have a live plant, but still want to enjoy the beauty of nature. Nice as a decoration both indoors and outdoors.",
+  "dimensions": {
+    "height": 0.1318,
+    "width": 0.0749,
+    "depth": 0.0573,
+    "unit": "m"
+  },
+  "categories": [
+    "Plants & planters",
+    "Plants and flowers",
+    "Artificial plants & flowers"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/fejka-artificial-potted-plant-indoor-outdoor-cactus__1342001_pe948961_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/60587154/PS01_S01_NV01/rqp3/glb_draco/64852ebad38a5ee1b94f68239280076f-60587154_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/fejka-artificial-potted-plant-indoor-outdoor-cactus-60587154/"
+}

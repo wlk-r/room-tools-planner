@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "item_no": "10542747",
+      "name": "SKRUVBY TV unit",
+      "color": "black-blue"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "10542747",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "tv-stand",
+        "storage",
+        "tabletop"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "minimal",
+        "two-tone",
+        "modern"
+      ]
+    }
+  ]
+}

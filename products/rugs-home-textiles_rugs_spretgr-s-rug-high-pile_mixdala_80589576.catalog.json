@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "80589576",
+      "name": "SPRETGR\u00c3\u201eS rug, high pile",
+      "color": "Mixdala"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "80589576",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile"
+      ],
+      "tags": [
+        "colorblock",
+        "contemporary",
+        "handwoven",
+        "warm",
+        "eclectic"
+      ]
+    }
+  ]
+}

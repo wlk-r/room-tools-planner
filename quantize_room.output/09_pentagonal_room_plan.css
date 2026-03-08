@@ -1,0 +1,14 @@
+/* 256x256 grid | 1px = 0.02208m | ceiling: 127px */
+
+#r1_0.room                  { left:   3; top:   3; width: 182; height: 182; /* Sunroom (1/2) */ }
+#r1_1.room                  { left: 184; top:   3; width:  69; height: 182; clip-path: polygon(1% 0%, 99% 50%, 1% 100%); /* Sunroom (2/2) */ }
+
+#structure_0.obstacle       { left:   0; top:   0; width: 256; height:   3; }
+#structure_1.obstacle       { left:   0; top:   3; width:   3; height: 253; }
+#structure_2.obstacle       { left: 252; top:  93; width:   4; height: 163; }
+#structure_3.obstacle       { left:   3; top: 185; width: 182; height:  71; }
+#structure_4.obstacle       { left: 184; top:   3; width:  69; height:  92; clip-path: polygon(1% 0%, 99% 0%, 99% 99%); }
+#structure_5.obstacle       { left: 184; top:  94; width:  69; height:  91; clip-path: polygon(99% 0%, 99% 100%, 1% 100%); }
+#structure_6.obstacle       { left: 184; top: 185; width:  69; height:  71; }
+#door_o1_clearance.door     { left:   3; top:  71; width:  37; height:  42; }
+

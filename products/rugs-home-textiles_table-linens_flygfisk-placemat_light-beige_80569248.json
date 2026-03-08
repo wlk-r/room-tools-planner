@@ -1,0 +1,21 @@
+{
+  "item_no": "80569248",
+  "name": "FLYGFISK placemat",
+  "color": "light beige",
+  "price": "2.99",
+  "currency": "USD",
+  "description": "FLYGFISK Placemat - light beige 15x12 \". Made of polypropylene plastic, which is a durable material and offers great protection for your table. Mix and match these place mats, available in several colors, to create a unique table setting.",
+  "dimensions": {
+    "height": 0.3796,
+    "width": 0.299,
+    "depth": 0.0042,
+    "unit": "m"
+  },
+  "categories": [
+    "Rugs & home textiles",
+    "Table linens"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/flygfisk-placemat-light-beige__1196168_pe909062_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/80569248/PS01_S01_NV01/rqp3/glb/b8191ca6c659456bbe6fbd2ef4108c55-80569248_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/flygfisk-placemat-light-beige-80569248/"
+}

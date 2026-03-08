@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "40396419",
+      "name": "FJ\u00c3\u201eLLBERGET conference chair with casters",
+      "color": "black stained ash veneer/Gunnared dark gray"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40396419",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "office-chair"
+      ],
+      "tags": [
+        "scandinavian",
+        "contemporary",
+        "minimal",
+        "dark",
+        "bentwood"
+      ]
+    }
+  ]
+}

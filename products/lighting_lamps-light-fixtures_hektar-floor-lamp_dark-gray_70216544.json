@@ -1,0 +1,21 @@
+{
+  "item_no": "70216544",
+  "name": "HEKTAR floor lamp",
+  "color": "dark gray",
+  "price": "89.99",
+  "currency": "USD",
+  "description": "HEKTAR Floor lamp - dark gray. The oversized lamp head gives both a good concentrated light for reading and good general light for smaller areas. Light bulb sold separately. IKEA recommends LED bulb E26 globe opal white. May be completed with other lamps in the same series.",
+  "dimensions": {
+    "height": 1.8339,
+    "width": 0.5086,
+    "depth": 0.36,
+    "unit": "m"
+  },
+  "categories": [
+    "Lighting",
+    "Lamps & light fixtures"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/hektar-floor-lamp-dark-gray__0149974_pe308131_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/00215307/PS01_S01_NV_01/simple/glb_draco/1093cf35ae5742c48a431da3b9ba4301-G-00215307-cc4bf657d2112e5b46445423303805a00f2dd89c-simple.glb",
+  "product_url": "https://www.ikea.com/us/en/p/hektar-floor-lamp-dark-gray-70216544/"
+}

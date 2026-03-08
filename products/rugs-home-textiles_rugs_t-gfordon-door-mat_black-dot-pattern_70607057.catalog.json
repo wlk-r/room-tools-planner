@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "70607057",
+      "name": "T\u00c3\u2026GFORDON door mat",
+      "color": "black/dot pattern"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "70607057",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "doormat"
+      ],
+      "tags": [
+        "natural",
+        "playful",
+        "graphic",
+        "contemporary",
+        "minimal"
+      ]
+    }
+  ]
+}

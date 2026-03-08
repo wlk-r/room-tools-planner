@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "10538203",
+      "name": "TONSTAD desk",
+      "color": "brown stained oak veneer"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "10538203",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "tabletop",
+        "storage"
+      ],
+      "tags": [
+        "scandinavian",
+        "warm",
+        "natural",
+        "minimal",
+        "organic"
+      ]
+    }
+  ]
+}

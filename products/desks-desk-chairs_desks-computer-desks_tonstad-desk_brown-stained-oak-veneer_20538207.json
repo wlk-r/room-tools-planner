@@ -1,0 +1,21 @@
+{
+  "item_no": "20538207",
+  "name": "TONSTAD desk",
+  "color": "brown stained oak veneer",
+  "price": "279.99",
+  "currency": "USD",
+  "description": "TONSTAD Desk - brown stained oak veneer 47 1/4x18 1/2 \". The veneer surface is durable, stain resistant and easy to keep clean. The drawer helps keep things organized and within easy reach. The drawer closes silently and softly, thanks to the integrated soft-closing function.",
+  "dimensions": {
+    "height": 1.2008,
+    "width": 0.7503,
+    "depth": 0.4711,
+    "unit": "m"
+  },
+  "categories": [
+    "Desks & desk chairs",
+    "Desks & computer desks"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/tonstad-desk-brown-stained-oak-veneer__1329844_pe945274_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/20538207/LPT_S01_NV01/rqp3/glb_draco/4ea3eeaf593138f2f43b8816fa0d2c98-20538207_LPT_S01_NV01_RQP3_3.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/tonstad-desk-brown-stained-oak-veneer-20538207/"
+}

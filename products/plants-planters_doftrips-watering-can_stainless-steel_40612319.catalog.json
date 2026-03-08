@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "40612319",
+      "name": "DOFTRIPS watering can",
+      "color": "stainless steel"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40612319",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "decor",
+        "plant-care"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "scandinavian",
+        "metallic",
+        "sleek"
+      ]
+    }
+  ]
+}

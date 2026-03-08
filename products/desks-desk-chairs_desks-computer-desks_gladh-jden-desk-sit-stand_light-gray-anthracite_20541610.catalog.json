@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "item_no": "20541610",
+      "name": "GLADH\u00c3\u2013JDEN desk sit/stand",
+      "color": "light gray/anthracite"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "20541610",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "desk",
+        "tabletop",
+        "workspace"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "industrial",
+        "two-tone",
+        "modern"
+      ]
+    }
+  ]
+}

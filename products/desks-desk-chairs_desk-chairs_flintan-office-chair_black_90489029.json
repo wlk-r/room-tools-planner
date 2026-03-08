@@ -1,0 +1,21 @@
+{
+  "item_no": "90489029",
+  "name": "FLINTAN office chair",
+  "color": "black",
+  "price": "99.99",
+  "currency": "USD",
+  "description": "FLINTAN Office chair - black. 10-year Warranty. Read about the terms in the warranty brochure. Suitable for business use. This ergonomic office chair has lots of functions that allow you to easily adapt the chair to your body. Lumbar support – Promotes good posture and reduces strain on lower back.",
+  "dimensions": {
+    "height": 1.0241,
+    "width": 0.7115,
+    "depth": 0.6768,
+    "unit": "m"
+  },
+  "categories": [
+    "Desks & desk chairs",
+    "Desk chairs"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/flintan-office-chair-black__1007236_pe825956_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/10489028/PS01_S01_NV_01/simple/glb_draco/2e7146c5320ccf72c0c296fde8875ea9-G-10489028-3b9065ee8bba2ebb7dbf540a988d0740b0d52be9-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/flintan-office-chair-black-90489029/"
+}

@@ -1,0 +1,21 @@
+{
+  "item_no": "80520935",
+  "name": "BLÅSVERK table lamp",
+  "color": "beige",
+  "price": "19.99",
+  "currency": "USD",
+  "description": "BLÅSVERK Table lamp - beige 14 \". Spreads a soft light that creates a cosy atmosphere in the room. Light bulb sold separately. IKEA recommends LED bulb E12 globe opal white. Special waste handling may be required. Please contact your local authorities for more information.",
+  "dimensions": {
+    "height": 0.3595,
+    "width": 0.2843,
+    "depth": 0.1948,
+    "unit": "m"
+  },
+  "categories": [
+    "Lighting",
+    "Lamps & light fixtures"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/blasverk-table-lamp-beige__1150245_pe884435_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/70520926/PS01_S01_NV_01/simple/glb_draco/8e385b63112e435f9b65f3f6bbece841-G-70520926-b29199067bd81af073a0796e4a72ac26189aba53-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/blasverk-table-lamp-beige-80520935/"
+}

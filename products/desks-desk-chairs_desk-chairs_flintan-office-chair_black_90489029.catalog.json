@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "90489029",
+      "name": "FLINTAN office chair",
+      "color": "black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90489029",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "office-chair"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "ergonomic",
+        "functional",
+        "black"
+      ]
+    }
+  ]
+}

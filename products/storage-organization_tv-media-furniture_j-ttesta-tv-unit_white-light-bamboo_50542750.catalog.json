@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "item_no": "50542750",
+      "name": "J\u00c3\u201eTTESTA TV unit",
+      "color": "white/light bamboo"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "50542750",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "tv-stand",
+        "storage",
+        "shelving"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "light-wood",
+        "contemporary",
+        "clean"
+      ]
+    }
+  ]
+}

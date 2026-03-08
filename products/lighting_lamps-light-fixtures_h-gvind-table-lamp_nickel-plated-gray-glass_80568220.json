@@ -1,0 +1,21 @@
+{
+  "item_no": "80568220",
+  "name": "HÖGVIND table lamp",
+  "color": "nickel plated/gray glass",
+  "price": "59.99",
+  "currency": "USD",
+  "description": "HÖGVIND Table lamp - nickel plated/gray glass. Creates a soft, cozy mood light in your home. The glass lampshade is mouth blown by a skilled craftsperson. Light bulb sold separately. IKEA recommends LED bulb E12 globe opal white.",
+  "dimensions": {
+    "height": 0.25,
+    "width": 0.22,
+    "depth": 0.22,
+    "unit": "m"
+  },
+  "categories": [
+    "Lighting",
+    "Lamps & light fixtures"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/hoegvind-table-lamp-nickel-plated-gray-glass__1300598_pe937151_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/70568211/PS01_S01_NV_01/simple/glb_draco/087364ef08f659d3a683327fd8e5c04e-G-70568211-a731f68ce9d10667671fe1092609012f815770f4-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/hoegvind-table-lamp-nickel-plated-gray-glass-80568220/"
+}

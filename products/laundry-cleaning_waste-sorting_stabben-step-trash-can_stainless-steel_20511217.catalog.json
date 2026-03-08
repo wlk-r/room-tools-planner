@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "20511217",
+      "name": "STABBEN step trash can",
+      "color": "stainless steel"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "20511217",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "waste-bin",
+        "storage"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "industrial",
+        "sleek"
+      ]
+    }
+  ]
+}

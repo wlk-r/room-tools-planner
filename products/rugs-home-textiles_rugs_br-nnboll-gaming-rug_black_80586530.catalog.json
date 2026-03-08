@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "80586530",
+      "name": "BR\u00c3\u201eNNBOLL gaming rug",
+      "color": "black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "80586530",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "gaming"
+      ],
+      "tags": [
+        "bold",
+        "graphic",
+        "contemporary",
+        "monochrome",
+        "geometric"
+      ]
+    }
+  ]
+}

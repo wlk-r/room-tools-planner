@@ -1,0 +1,22 @@
+{
+  "item_no": "80285909",
+  "name": "FEJKA artificial potted plant",
+  "color": "Orchid white",
+  "price": "24.99",
+  "currency": "USD",
+  "description": "FEJKA Artificial potted plant - Orchid white 4 ¾ \". Lifelike artificial plant that remains looking fresh year after year. Suitable for indoor and outdoor use.",
+  "dimensions": {
+    "height": 0.5984,
+    "width": 0.3891,
+    "depth": 0.2497,
+    "unit": "m"
+  },
+  "categories": [
+    "Plants & planters",
+    "Plants and flowers",
+    "Artificial plants & flowers"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/fejka-artificial-potted-plant-orchid-white__0748880_pe745269_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/80285909/PS01_S01_NV_01/simple/glb/9ddeb30c8741e245849e52a5af58a790-G-80285909-8cc724cb2aa7e7a8d2ad93bb756c8863bd792489-simple.glb",
+  "product_url": "https://www.ikea.com/us/en/p/fejka-artificial-potted-plant-orchid-white-80285909/"
+}

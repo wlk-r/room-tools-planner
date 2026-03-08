@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "20494331",
+      "name": "ANKARSPEL floor/reading lamp with LED bulb",
+      "color": "pewter effect"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "20494331",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "lighting",
+        "floor-lamp"
+      ],
+      "tags": [
+        "industrial",
+        "contemporary",
+        "minimal",
+        "metallic"
+      ]
+    }
+  ]
+}

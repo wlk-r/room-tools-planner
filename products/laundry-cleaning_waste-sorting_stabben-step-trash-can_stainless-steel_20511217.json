@@ -1,0 +1,21 @@
+{
+  "item_no": "20511217",
+  "name": "STABBEN step trash can",
+  "color": "stainless steel",
+  "price": "59.99",
+  "currency": "USD",
+  "description": "STABBEN Step trash can - stainless steel 5 gallon. The lid closes slowly and softly, which reduces the risk of pinching your fingers. The 2 containers are easy to remove and carry since they have handles. The pedal bin is easy to move since it has a grip-friendly overhang on the back.",
+  "dimensions": {
+    "height": 0.4269,
+    "width": 0.4114,
+    "depth": 0.3155,
+    "unit": "m"
+  },
+  "categories": [
+    "Laundry & cleaning",
+    "Waste sorting"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/stabben-step-trash-can-stainless-steel__1029089_pe835659_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/20511217/PS01_S01_NV01/rqp3/glb_draco/ad5aad77e6eb488ea77b507cd5ece568-20511217_PS01_S01_NV01_RQP3_3.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/stabben-step-trash-can-stainless-steel-20511217/"
+}

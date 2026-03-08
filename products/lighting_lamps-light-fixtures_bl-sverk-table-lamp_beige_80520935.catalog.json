@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "80520935",
+      "name": "BL\u00c3\u2026SVERK table lamp",
+      "color": "beige"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "80520935",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "lighting",
+        "decor"
+      ],
+      "tags": [
+        "retro",
+        "mid-century",
+        "warm",
+        "scandinavian",
+        "cozy"
+      ]
+    }
+  ]
+}

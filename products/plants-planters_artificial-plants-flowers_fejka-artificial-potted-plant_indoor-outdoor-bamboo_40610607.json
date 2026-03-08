@@ -1,0 +1,22 @@
+{
+  "item_no": "40610607",
+  "name": "FEJKA artificial potted plant",
+  "color": "indoor/outdoor/bamboo",
+  "price": "89.99",
+  "currency": "USD",
+  "description": "FEJKA Artificial potted plant - indoor/outdoor/bamboo 8 ¼ \". Lifelike artificial plant that remains looking fresh year after year. Perfect if you can't have a live plant, but still want to enjoy the beauty of nature. Suitable for indoor and outdoor use.",
+  "dimensions": {
+    "height": 1.7,
+    "width": 0.9007,
+    "depth": 0.7252,
+    "unit": "m"
+  },
+  "categories": [
+    "Plants & planters",
+    "Plants and flowers",
+    "Artificial plants & flowers"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/fejka-artificial-potted-plant-indoor-outdoor-bamboo__1423297_pe979093_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/40610607/PS01_S01_NV_01/simple/glb_draco/ca7e81192963a00e9a712ae3eefc8cfd-G-40610607-4473b06e0b217bd029d0f73e7b7e734162359b83-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/fejka-artificial-potted-plant-indoor-outdoor-bamboo-40610607/"
+}

@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "20586255",
+      "name": "B\u00c3\u201eSTBOLL gaming chair",
+      "color": "black/Mjuk black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "20586255",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "gaming-chair"
+      ],
+      "tags": [
+        "gaming",
+        "contemporary",
+        "dark",
+        "technical",
+        "ergonomic"
+      ]
+    }
+  ]
+}

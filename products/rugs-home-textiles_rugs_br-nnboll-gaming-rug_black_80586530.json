@@ -1,0 +1,21 @@
+{
+  "item_no": "80586530",
+  "name": "BRÄNNBOLL gaming rug",
+  "color": "black",
+  "price": "99.99",
+  "currency": "USD",
+  "description": "BRÄNNBOLL Gaming rug - black 6 ' 5 \". The tightly stitched edging allows you to sense when you've reached the edge of the rug when using your VR device, so you can quickly get back to the middle to win the match. Made of durable, stain resistant synthetic fibers that are easy-care.",
+  "dimensions": {
+    "height": 1.955,
+    "width": 1.955,
+    "depth": 0.0191,
+    "unit": "m"
+  },
+  "categories": [
+    "Rugs & home textiles",
+    "Rugs"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/braennboll-gaming-rug-black__1315491_pe940490_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/80586530/PS01_S01_NV_01/simple/glb_draco/d86492f3ad06fbb376296d1ca267fc05-G-80586530-1261711b84e51e132b7a242420d3ef15426699ec-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/braennboll-gaming-rug-black-80586530/"
+}

@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "60460107",
+      "name": "DR\u00c3\u2013NJ\u00c3\u2013NS wastepaper basket",
+      "color": "white"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "60460107",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "waste-bin",
+        "storage"
+      ],
+      "tags": [
+        "minimal",
+        "scandinavian",
+        "contemporary",
+        "industrial",
+        "white"
+      ]
+    }
+  ]
+}

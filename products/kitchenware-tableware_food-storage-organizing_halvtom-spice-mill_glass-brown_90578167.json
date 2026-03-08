@@ -1,0 +1,21 @@
+{
+  "item_no": "90578167",
+  "name": "HALVTOM spice mill",
+  "color": "glass/brown",
+  "price": "14.99",
+  "currency": "USD",
+  "description": "HALVTOM Spice mill - glass/brown 7 ½ \". Inspired by trendy restaurant design – just as great to put on the dining table for guests as to use when you’re cooking up a feast in the kitchen. Use one spice mill with salt and the other with pepper or with different types of pepper and spice mixes.",
+  "dimensions": {
+    "height": 0.1954,
+    "width": 0.1897,
+    "depth": 0.0756,
+    "unit": "m"
+  },
+  "categories": [
+    "Kitchenware & tableware",
+    "Food storage & organizing"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/halvtom-spice-mill-glass-brown__1160942_pe889203_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/40523460/PS01_S01_NV_01/simple/glb_draco/4f38d6da73b37f4096bea6f15ee8648e-G-40523460-f656c5e622f33212149e4c8b42e3c55caefdb9c2-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/halvtom-spice-mill-glass-brown-90578167/"
+}

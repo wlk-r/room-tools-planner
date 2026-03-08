@@ -1,0 +1,21 @@
+{
+  "item_no": "80595389",
+  "name": "GÅNGSKYFFEL pedal bin",
+  "color": "gray-green",
+  "price": "34.99",
+  "currency": "USD",
+  "description": "GÅNGSKYFFEL Pedal bin - gray-green 2 gallon. The lid has soft-closing gas hinges, which prevents the risk of getting your fingers caught when closing it. Easy to empty and clean as the inner bucket can be removed. The bin is easy to move since it has a handle on the back.",
+  "dimensions": {
+    "height": 0.3552,
+    "width": 0.3199,
+    "depth": 0.2908,
+    "unit": "m"
+  },
+  "categories": [
+    "Laundry & cleaning",
+    "Waste sorting"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/gangskyffel-pedal-bin-gray-green__1432735_pe982874_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/80595389/PS01_S01_NV01/rqp3/glb/222fa5fc11c9145e15d026b9a194669c-80595389_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/gangskyffel-pedal-bin-gray-green-80595389/"
+}

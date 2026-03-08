@@ -1,0 +1,21 @@
+{
+  "item_no": "40494349",
+  "name": "ANKARSPEL work lamp",
+  "color": "pewter effect",
+  "price": "59.99",
+  "currency": "USD",
+  "description": "ANKARSPEL Work lamp - pewter effect. You can easily direct the light where you want it because the lamp arm and head are adjustable. Provides a directed light that is great for reading. Light bulb sold separately. IKEA recommends LED bulb E26 globe opal white.",
+  "dimensions": {
+    "height": 0.6263,
+    "width": 0.5101,
+    "depth": 0.2199,
+    "unit": "m"
+  },
+  "categories": [
+    "Lighting",
+    "Lamps & light fixtures"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/ankarspel-work-lamp-pewter-effect__1130984_pe877967_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/80490085/PS01_S01_NV_01/simple/glb_draco/76d15c29a06841689ff11262ae4149f5-G-80490085-fe058a50643e0148224630b5ac43aed3fe38a787-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/ankarspel-work-lamp-pewter-effect-40494349/"
+}

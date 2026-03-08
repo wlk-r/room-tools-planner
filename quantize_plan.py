@@ -501,10 +501,21 @@ def merge_catalog_templates(products_dir):
 
 
 def compute_footprint(item_no, name, dimensions, scale):
-    """Compute a CSS footprint snippet from product dimensions at the given scale."""
-    w = math.ceil(dimensions["width"] * scale)
-    h = math.ceil(dimensions["depth"] * scale)
-    elev = math.ceil(dimensions["height"] * scale)
+    """Compute a CSS footprint snippet from product dimensions at the given scale.
+
+    Floor footprint is width x depth, elevation is height.
+    Exception: flat objects (depth < 1 inch / 0.0254m) like rugs and mats —
+    depth is thickness, so swap depth and height for the footprint.
+    """
+    w_m = dimensions["width"]
+    d_m = dimensions["depth"]
+    h_m = dimensions["height"]
+    if d_m < 0.0254:
+        # Flat object: depth is thickness, height is the other floor dimension
+        d_m, h_m = h_m, d_m
+    w = math.ceil(w_m * scale)
+    h = math.ceil(d_m * scale)
+    elev = math.ceil(h_m * scale)
     return (
         f"#i{item_no}"
         f" {{ width: {w}; height: {h}; --elevation: {elev};"
@@ -597,18 +608,9 @@ def format_plan_css(plan_result):
 
 # ---------- Main ----------
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Quantize a floor plan and product catalog to a 256-grid for LLM layout generation"
-    )
-    parser.add_argument("floor_plan", help="Path to floor plan JSON")
-    parser.add_argument("--products", default=DEFAULT_PRODUCTS_DIR, help=f"Vendor metadata folder (default: {DEFAULT_PRODUCTS_DIR})")
-    args = parser.parse_args()
-
-    plan_path = Path(args.floor_plan)
+def process_plan(plan_path, products_dir, output_dir):
+    """Quantize a single floor plan and build its catalog. Files written flat into output_dir."""
     stem = plan_path.stem
-    output_dir = Path(stem)
-    output_dir.mkdir(parents=True, exist_ok=True)
 
     # Quantize floor plan
     plan_result, scale = quantize_floor_plan(plan_path)
@@ -618,16 +620,14 @@ def main():
         f.write(format_plan_css(plan_result))
 
     # Merge catalog templates (products + profiles) and compute footprints
-    products_dir = Path(args.products)
     products, profiles = merge_catalog_templates(products_dir)
 
     if not products:
         print(f"  No catalog templates found in {products_dir}/")
         print(f"  Falling back to vendor metadata in {products_dir}/ (no profile data)")
-        # Fallback: build products from vendor metadata (no profiles)
         products = []
         profiles = []
-        for path in sorted(Path(args.products).glob("*.json")):
+        for path in sorted(products_dir.glob("*.json")):
             with open(path) as f:
                 data = json.load(f)
             if "dimensions" not in data:
@@ -638,7 +638,7 @@ def main():
                 "color": data.get("color", ""),
             })
 
-    footprints = build_footprints(products, args.products, scale)
+    footprints = build_footprints(products, str(products_dir), scale)
 
     catalog_out = output_dir / f"{stem}_catalog.json"
     with open(catalog_out, "w") as f:
@@ -652,7 +652,6 @@ def main():
         json.dump(catalog, f, indent=2)
 
     # Summary
-    print(f"Output: {output_dir}/")
     print(f"  {stem}_plan.css      - {plan_result['canvas']['width']}x{plan_result['canvas']['height']} canvas, "
           f"{len(plan_result['rooms'])} rooms, "
           f"{len(plan_result['obstacles'])} obstacles, "
@@ -660,9 +659,39 @@ def main():
     print(f"  {stem}_catalog.json  - {len(products)} products, "
           f"{len(profiles)} profiles, "
           f"{len(footprints)} footprints at {round(scale, 4)} px/m")
-    print()
-    for fp in footprints:
-        print(f"    {fp}")
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Quantize floor plan(s) and product catalog to a 256-grid for LLM layout generation"
+    )
+    parser.add_argument("input", help="Floor plan JSON file, or folder of floor plan JSONs for batch mode")
+    parser.add_argument("--products", default=DEFAULT_PRODUCTS_DIR, help=f"Vendor metadata folder (default: {DEFAULT_PRODUCTS_DIR})")
+    parser.add_argument("--output", "-o", default=None, help="Output directory (default: current directory)")
+    args = parser.parse_args()
+
+    input_path = Path(args.input)
+    products_dir = Path(args.products)
+    output_dir = Path(args.output) if args.output else Path("quantize_room.output")
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    # Collect plan files
+    if input_path.is_dir():
+        plan_files = sorted(input_path.glob("*.json"))
+        if not plan_files:
+            print(f"No .json files found in {input_path}/")
+            sys.exit(1)
+        print(f"Batch mode: {len(plan_files)} plans in {input_path}/\n")
+    else:
+        plan_files = [input_path]
+
+    for plan_path in plan_files:
+        print(f"[{plan_path.stem}]")
+        try:
+            process_plan(plan_path, products_dir, output_dir)
+        except Exception as e:
+            print(f"  ERROR: {e}")
+        print()
 
 
 if __name__ == "__main__":

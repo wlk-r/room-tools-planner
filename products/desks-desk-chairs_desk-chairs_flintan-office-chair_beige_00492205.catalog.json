@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "00492205",
+      "name": "FLINTAN office chair",
+      "color": "beige"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "00492205",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "office-chair"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "contemporary",
+        "neutral",
+        "ergonomic"
+      ]
+    }
+  ]
+}

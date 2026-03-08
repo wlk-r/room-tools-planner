@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "50611055",
+      "name": "HEAT trivet",
+      "color": "cork patterned/light blue"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "50611055",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "decor",
+        "kitchen-accessory"
+      ],
+      "tags": [
+        "organic",
+        "natural",
+        "scandinavian",
+        "colorful",
+        "textured"
+      ]
+    }
+  ]
+}

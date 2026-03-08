@@ -1,0 +1,21 @@
+{
+  "item_no": "90539166",
+  "name": "HUVUDSPELARE gaming desk",
+  "color": "black",
+  "price": "129.99",
+  "currency": "USD",
+  "description": "HUVUDSPELARE Gaming desk - black 55 1/8x31 1/2 \". It should be comfortable to play, especially when a match drags on. That’s why the table top is deep – so you can position screens at a comfortable distance from your eyes. The large table top holds two 24-inch screens.",
+  "dimensions": {
+    "height": 1.4,
+    "width": 0.8009,
+    "depth": 0.7523,
+    "unit": "m"
+  },
+  "categories": [
+    "Desks & desk chairs",
+    "Desks & computer desks"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/huvudspelare-gaming-desk-black__1128040_pe876391_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/90539166/PS01_S01_NV01/rqp3/glb_draco/14213399ae75013d913ef17fa238431a-90539166_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/huvudspelare-gaming-desk-black-90539166/"
+}

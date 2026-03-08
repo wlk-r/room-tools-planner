@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "40395288",
+      "name": "FEJKA artificial potted plant",
+      "color": "indoor/outdoor monstera"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40395288",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "decor",
+        "plant"
+      ],
+      "tags": [
+        "tropical",
+        "organic",
+        "natural",
+        "contemporary",
+        "bold"
+      ]
+    }
+  ]
+}

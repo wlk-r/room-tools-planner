@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "item_no": "40586400",
+      "name": "UTVISNING gaming desk with shelf",
+      "color": "black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "40586400",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "tabletop",
+        "desk",
+        "shelving"
+      ],
+      "tags": [
+        "gaming",
+        "industrial",
+        "minimal",
+        "contemporary",
+        "dark"
+      ]
+    }
+  ]
+}

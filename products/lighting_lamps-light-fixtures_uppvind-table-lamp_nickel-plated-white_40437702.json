@@ -1,0 +1,21 @@
+{
+  "item_no": "40437702",
+  "name": "UPPVIND table lamp",
+  "color": "nickel plated/white",
+  "price": "79.99",
+  "currency": "USD",
+  "description": "UPPVIND Table lamp - nickel plated/white 19 \". The lamp gives a soft light and creates a warm, cozy atmosphere in your room. Use an opal light bulb if you have an ordinary lamp shade or lamp and want an even, diffused distribution of light.",
+  "dimensions": {
+    "height": 0.4657,
+    "width": 0.3603,
+    "depth": 0.1302,
+    "unit": "m"
+  },
+  "categories": [
+    "Lighting",
+    "Lamps & light fixtures"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/uppvind-table-lamp-nickel-plated-white__0957669_pe805081_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/geomagical/30430386/PS01_S01_NV_01/simple/glb_draco/1df9caa2b25444508a7a4b77bf1eb3c1-G-30430386-9d18b338639a489da56b8281812798977b4469b9-simple+draco.glb",
+  "product_url": "https://www.ikea.com/us/en/p/uppvind-table-lamp-nickel-plated-white-40437702/"
+}

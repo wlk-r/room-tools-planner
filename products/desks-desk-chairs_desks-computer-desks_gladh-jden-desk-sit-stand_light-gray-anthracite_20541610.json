@@ -1,0 +1,21 @@
+{
+  "item_no": "20541610",
+  "name": "GLADHÖJDEN desk sit/stand",
+  "color": "light gray/anthracite",
+  "price": "299.99",
+  "currency": "USD",
+  "description": "GLADHÖJDEN Desk sit/stand - light gray/anthracite 39 3/8x23 5/8 \". This sit/stand desk doesn't need electricity, so it can be placed anywhere and without messy cables. The gas spring and the stable steel base allow the desk to be raised/lowered quietly, quickly and safely to a comfortable height.",
+  "dimensions": {
+    "height": 1.155,
+    "width": 0.9998,
+    "depth": 0.6872,
+    "unit": "m"
+  },
+  "categories": [
+    "Desks & desk chairs",
+    "Desks & computer desks"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/gladhoejden-desk-sit-stand-light-gray-anthracite__1159426_pe888475_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/20541610/PS01_S01_NV01/rqp3/glb_draco/8c7fba3d2a9a121354158c449efac487-20541610_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/gladhoejden-desk-sit-stand-light-gray-anthracite-20541610/"
+}

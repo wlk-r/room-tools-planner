@@ -1,0 +1,21 @@
+{
+  "item_no": "60460107",
+  "name": "DRÖNJÖNS wastepaper basket",
+  "color": "white",
+  "price": "11.99",
+  "currency": "USD",
+  "description": "DRÖNJÖNS Wastepaper basket - white. The felt pads underneath protect the surface below against scratches. Protective pads underneath. Part of the DRÖNJÖNS series – practical desk accessories made of durable metal mesh.",
+  "dimensions": {
+    "height": 0.3521,
+    "width": 0.2601,
+    "depth": 0.2601,
+    "unit": "m"
+  },
+  "categories": [
+    "Laundry & cleaning",
+    "Waste sorting"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/droenjoens-wastepaper-basket-white__0778785_pe759132_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/60460107/PS01_S01_NV01/rqp3/glb/b84739242f949e1bc068a9260d62dea8-60460107_PS01_S01_NV01_RQP3_4.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/droenjoens-wastepaper-basket-white-60460107/"
+}

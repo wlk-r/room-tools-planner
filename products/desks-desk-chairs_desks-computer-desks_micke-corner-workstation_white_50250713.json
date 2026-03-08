@@ -1,0 +1,21 @@
+{
+  "item_no": "50250713",
+  "name": "MICKE corner workstation",
+  "color": "white",
+  "price": "299.99",
+  "currency": "USD",
+  "description": "MICKE Corner workstation - white 39 3/8x55 7/8 \". You can keep your desk clear of paper by writing your notes on the magnetic board on the back panel. Or attaching your to-do lists there with a magnet. You can mount the legs to the right or left, according to your space or preference.",
+  "dimensions": {
+    "height": 1.414,
+    "width": 0.9989,
+    "depth": 0.9989,
+    "unit": "m"
+  },
+  "categories": [
+    "Desks & desk chairs",
+    "Desks & computer desks"
+  ],
+  "image_url": "https://www.ikea.com/us/en/images/products/micke-corner-workstation-white__0734328_pe739442_s5.jpg",
+  "glb_url": "https://web-api.ikea.com/dimma/assets/1.2/50250713/PS01_S01_NV01/rqp3/glb_draco/3b47ab1efdbf4c519683f3039d3f63f0-50250713_PS01_S01_NV01_RQP3_3.0.glb",
+  "product_url": "https://www.ikea.com/us/en/p/micke-corner-workstation-white-50250713/"
+}

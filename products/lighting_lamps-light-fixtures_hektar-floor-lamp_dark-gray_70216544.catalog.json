@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "70216544",
+      "name": "HEKTAR floor lamp",
+      "color": "dark gray"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "70216544",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "lighting",
+        "floor-lamp"
+      ],
+      "tags": [
+        "industrial",
+        "minimal",
+        "contemporary",
+        "dark",
+        "modern"
+      ]
+    }
+  ]
+}

@@ -12,15 +12,15 @@
       "tier": "anchor",
       "placement": "floor",
       "categories": [
-        "dining table",
-        "surface"
+        "dining-table",
+        "tabletop"
       ],
       "tags": [
         "scandinavian",
         "minimal",
-        "warm",
         "organic",
-        "natural wood"
+        "warm",
+        "natural"
       ]
     }
   ]
