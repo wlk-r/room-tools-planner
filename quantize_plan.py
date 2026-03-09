@@ -317,11 +317,15 @@ def quantize_floor_plan(plan_path, grid_size=GRID_SIZE):
 
     scale = grid_size / max(total_w, total_h)
 
+    # Center the plan within the grid
+    offset_x = (grid_size - total_w * scale) / 2
+    offset_y = (grid_size - total_h * scale) / 2
+
     def to_gx(m):
-        return (m - outer_min_x) * scale
+        return (m - outer_min_x) * scale + offset_x
 
     def to_gy(m):
-        return (m - outer_min_y) * scale
+        return (outer_max_y - m) * scale + offset_y
 
     canvas_w = grid_size
     canvas_h = grid_size
@@ -336,13 +340,15 @@ def quantize_floor_plan(plan_path, grid_size=GRID_SIZE):
         ys = [p[1] for p in poly]
         gx_min = max(0, int(math.floor(to_gx(min(xs)))))
         gx_max = min(canvas_w, int(math.ceil(to_gx(max(xs)))))
-        gy_min = max(0, int(math.floor(to_gy(min(ys)))))
-        gy_max = min(canvas_h, int(math.ceil(to_gy(max(ys)))))
+        # Y is flipped: to_gy(max_y) gives min grid y, to_gy(min_y) gives max grid y
+        gy_vals = [to_gy(y) for y in ys]
+        gy_min = max(0, int(math.floor(min(gy_vals))))
+        gy_max = min(canvas_h, int(math.ceil(max(gy_vals))))
 
         for y in range(gy_min, gy_max):
-            my = (y + 0.5) / scale + outer_min_y
+            my = outer_max_y - (y + 0.5 - offset_y) / scale
             for x in range(gx_min, gx_max):
-                mx = (x + 0.5) / scale + outer_min_x
+                mx = (x + 0.5 - offset_x) / scale + outer_min_x
                 if point_in_polygon(mx, my, poly):
                     room_grid[y][x] = room_idx
 
@@ -407,14 +413,16 @@ def quantize_floor_plan(plan_path, grid_size=GRID_SIZE):
 
             for side_idx, (room, orientation, inward) in enumerate(hits):
                 suffix = f"_{room['id']}" if len(hits) > 1 else ""
+                # Flip inward for horizontal walls (Y is inverted in CSS)
+                css_inward = -inward if orientation == "horizontal" else inward
 
                 if orientation == "horizontal":
                     left = int(gcx - half_w_g)
-                    top = int(gcy) if inward > 0 else int(gcy - clearance_g)
+                    top = int(gcy) if css_inward > 0 else int(gcy - clearance_g)
                     w, h = half_w_g * 2, clearance_g
                 else:
                     top = int(gcy - half_w_g)
-                    left = int(gcx) if inward > 0 else int(gcx - clearance_g)
+                    left = int(gcx) if css_inward > 0 else int(gcx - clearance_g)
                     w, h = clearance_g, half_w_g * 2
 
                 left, top, w, h = clamp_box(left, top, w, h, canvas_w, canvas_h)
@@ -426,15 +434,16 @@ def quantize_floor_plan(plan_path, grid_size=GRID_SIZE):
         else:
             # Window — use first hit (windows are on one wall)
             room, orientation, inward = hits[0]
+            css_inward = -inward if orientation == "horizontal" else inward
             zone_g = math.ceil(WINDOW_ZONE_DEPTH_M * scale)
 
             if orientation == "horizontal":
                 left = int(gcx - half_w_g)
-                top = int(gcy) if inward > 0 else int(gcy - zone_g)
+                top = int(gcy) if css_inward > 0 else int(gcy - zone_g)
                 w, h = half_w_g * 2, zone_g
             else:
                 top = int(gcy - half_w_g)
-                left = int(gcx) if inward > 0 else int(gcx - zone_g)
+                left = int(gcx) if css_inward > 0 else int(gcx - zone_g)
                 w, h = zone_g, half_w_g * 2
 
             left, top, w, h = clamp_box(left, top, w, h, canvas_w, canvas_h)
