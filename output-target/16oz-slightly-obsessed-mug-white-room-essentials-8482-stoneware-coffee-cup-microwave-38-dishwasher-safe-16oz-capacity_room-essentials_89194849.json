@@ -1,0 +1,25 @@
+{
+  "tcin": "89194849",
+  "name": "16oz Slightly Obsessed Mug White - Room Essentials&#8482;: Stoneware Coffee Cup, Microwave &#38; Dishwasher Safe, 16oz Capacity",
+  "brand": "Room Essentials",
+  "price": "$5.25",
+  "currency": "USD",
+  "description": "Show off your coffee obsession while sipping your favorite beverage from the 16-Ounce Slightly Obsessed Mug from Room Essentials™. This printed mug features the message \"Slightly Obsessed,\" making it perfect for gifting. Great for serving hot or cold beverages, this stoneware mug is both microwave and dishwasher safe for convenient reheating and cleaning.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f49cc512-304f-49a4-9016-beec324442d0",
+  "glb_url": "https://digitalcontent.target.com/vault/1711238400/CLOUD_45f8e2c3-935f-4cc6-befa-293a72780405.glb",
+  "product_url": "https://www.target.com/p/-/A-89194849",
+  "dimensions": {
+    "height": 0.139,
+    "width": 0.0971,
+    "depth": 0.0962,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

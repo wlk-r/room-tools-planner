@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "89811867",
+      "name": "16qt Heavy Duty Latching Clear Storage Box - Brightroom&#8482;: Portable Plastic Bin, Universal Storage, Black, Lidded",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "89811867",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "storage"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "utilitarian",
+        "industrial"
+      ]
+    }
+  ]
+}

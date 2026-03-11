@@ -1,0 +1,25 @@
+{
+  "tcin": "94249795",
+  "name": "Dean Wall Sconce - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Create a warm and inviting ambiance with this Dean Wall Sconce from Room Essentials™. Made of metal, this cylindrical wall sconce features a brass finish that adds modern charm to your space. It comes with a non-removable integrated bulb with a 1-way setting that can be turned on and off by a remote control for ease of use. Install it on any wall in your living room or bedroom for a soft, warm glow. <br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Wall Lights",
+    "Wall Sconces"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_8b3f00c2-47b1-4286-8a30-9915604d0968",
+  "glb_url": "https://digitalcontent.target.com/vault/1757030400/CLOUD_c14db15b-577d-41d3-ae3d-c6af64030a7d.glb",
+  "product_url": "https://www.target.com/p/-/A-94249795",
+  "dimensions": {
+    "height": 0.127,
+    "width": 0.1178,
+    "depth": 0.0791,
+    "unit": "m",
+    "source": "glb"
+  }
+}

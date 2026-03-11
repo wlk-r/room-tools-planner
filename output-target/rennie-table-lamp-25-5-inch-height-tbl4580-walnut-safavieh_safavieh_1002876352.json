@@ -1,0 +1,26 @@
+{
+  "tcin": "1002876352",
+  "name": "Rennie Table Lamp - 25.5 Inch Height - TBL4580 - Walnut - Safavieh",
+  "brand": "Safavieh",
+  "price": "$132.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Rennie Table Lamp, a fusion of traditional warmth and contemporary design. This lamp features a sturdy wood body with a rich walnut finish, providing an inviting natural element to your home decor. Topped with a complementary fabric shade, the lamp emits a soft and cozy glow, perfect for reading nooks, office desks, or bedside tables. The lamp stands 25.5 inches tall and the shade measures 11 inches at its widest point, making it a versatile addition to any room. With a cord length of 60 inches, it offers flexibility in placement. Enrich your living environment with the functional beauty of the Rennie Table Lamp.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_36b45fd1-61fe-4b8c-bc77-f97506d4dbc1",
+  "glb_url": "https://digitalcontent.target.com/vault/1764028800/CLOUD_8ecbae1b-3d73-4307-adce-dbd3b7ad77d3.glb",
+  "product_url": "https://www.target.com/p/-/A-1002876352",
+  "color": "Walnut",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6479,
+    "width": 0.4154,
+    "depth": 0.4154,
+    "unit": "m",
+    "source": "glb"
+  }
+}

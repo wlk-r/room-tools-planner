@@ -5,7 +5,15 @@
       "Bash(do echo:*)",
       "Bash(grep:*)",
       "Bash(do python:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Read(//c/Users/Walker/Dev/**)",
+      "WebFetch(domain:localhost)",
+      "Bash(curl -s http://localhost:8080/test-room/index.html 2>/dev/null | head -20)",
+      "Bash(curl -s http://localhost:8080/test-room/index.html 2>/dev/null | wc -l)",
+      "Bash(curl -s http://localhost:8080/test-room/index.html 2>/dev/null > \"C:/Users/Walker/Dev/room-tools-planner/_tmp_index.html\")",
+      "Bash(ls \"C:/Users/Walker/Dev/modelviewer/model-viewer/test-room/gen-output/\" 2>/dev/null | head -10; echo \"---\"; curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8080/test-room/gen-output/02_two_rooms.glb 2>/dev/null)",
+      "Bash(file \"C:\\\\Users\\\\Walker\\\\Dev\\\\room-tools-planner\\\\output-target\"/*.jpg 2>/dev/null | head -5)",
+      "Bash(magick --version 2>/dev/null || convert --version 2>/dev/null)"
     ]
   }
 }

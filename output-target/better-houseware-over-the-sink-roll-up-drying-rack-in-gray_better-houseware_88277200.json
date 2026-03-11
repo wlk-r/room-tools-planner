@@ -1,0 +1,25 @@
+{
+  "tcin": "88277200",
+  "name": "Better Houseware Over-the-Sink Roll-up Drying Rack in Gray",
+  "brand": "Better Houseware",
+  "price": "$44.99",
+  "currency": "USD",
+  "description": "Better Houseware's Over-the-Sink Roll-up Drying rack is a bestselling space-saving, multifunctional, and sturdy drying rack made of nonslip silicone-coated steel. It straddles the sink to hold heavy cookware and other items, including rinsed fruits and vegetables, for drip-drying. Smaller spaces can be accommodated by rolling up just 1 end of the rack. The drying rack can also be used on the kitchen counter. It is the ideal solution for drying lots of stemware or glasses. The rack also doubles as an oversized heat trivet for cookware and bakeware. The rack rolls up easily for storage when not in use. It's heat-resistant to 400°F and dishwasher safe.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen Storage",
+    "Sink Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_fc624279-a458-4887-b20d-0b2be08bf03e",
+  "glb_url": "https://digitalcontent.target.com/vault/1717459200/CLOUD_8cd3d9ec-cb7e-45d9-a8ef-973f803a089d.glb",
+  "product_url": "https://www.target.com/p/-/A-88277200",
+  "dimensions": {
+    "height": 0.5207,
+    "width": 0.3302,
+    "depth": 0.0076,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "88117835",
+  "name": "24&#34; x 36&#34; Infinity Mantle Mirror Brass - Threshold&#8482;: Rust-Resistant, Wall Mount, Modern Decor",
+  "brand": "Threshold",
+  "price": "$63.00",
+  "currency": "USD",
+  "description": "Upgrade the look of your space with this Infinity Mantle Mirror from Threshold™. This mantle mirror features a rectangular shape with a rounded top for a clean, modern look. Set in a rust-resistant brass frame, it adds a touch of shine to your decor. Hang it above a console table, fireplace mantel or dresser for versatile, functional and elegant display.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Mirrors"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_065a2c46-7265-45fd-8703-1c02f8d17127",
+  "glb_url": "https://digitalcontent.target.com/vault/1683763200/CLOUD_4ae02a64-2da6-412c-be3d-985221fa6989.glb",
+  "product_url": "https://www.target.com/p/-/A-88117835",
+  "dimensions": {
+    "height": 0.9144,
+    "width": 0.6144,
+    "depth": 0.0296,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brass",
+  "color_source": "parsed"
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "94693407",
+  "name": "Ceramic Accent Table Natural Off-White - Threshold&#8482; designed with Studio McGee (Fully Assembled)",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$150.00",
+  "currency": "USD",
+  "description": "Elevate any corner of your home with this Ceramic Accent Table from Threshold™ designed with Studio McGee. Crafted from ceramic, this hexagonal table features a white base with floral print that brings clean, modern texture to your space. Its solid, one-piece construction makes it visually streamlined, while the compact size works beautifully beside a sofa, reading chair or even as a decorative stand.<br /><br />Threshold™: Looks like home, feels like you.<br /><br />Overall Width:  14.17 inches<br />Overall Height: 17.72 inches<br />Overall Depth:  14.17 inches",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "End & Side Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_31246864-e6f9-41a4-a095-2a96f6a0852c",
+  "glb_url": "https://digitalcontent.target.com/vault/1768521600/CLOUD_df6efc74-5e23-4c61-977c-8244d1ea27ed.glb",
+  "product_url": "https://www.target.com/p/-/A-94693407",
+  "dimensions": {
+    "height": 0.4501,
+    "width": 0.3599,
+    "depth": 0.3599,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Off-White",
+  "color_source": "parsed"
+}

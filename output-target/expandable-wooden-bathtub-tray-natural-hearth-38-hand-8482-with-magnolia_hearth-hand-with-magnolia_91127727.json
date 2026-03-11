@@ -1,0 +1,25 @@
+{
+  "tcin": "91127727",
+  "name": "Expandable Wooden Bathtub Tray Natural - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand with Magnolia",
+  "price": "$39.99",
+  "currency": "USD",
+  "description": "Elevate your self-care routine with this Expandable Wooden Bathtub Tray from Hearth & Hand™ with Magnolia. Made of rubberwood and stainless steel for a natural look, this tray expands up to 27.5 inches long to fit the sides of your bathtub. It features a dedicated space to hold your drink, along with a gold-hue, collapsible book stand so you can read and relax while you soak. You can wipe this wooden tray clean with a dry cloth for easy upkeep after use.<br /><br />Hearth & Hand™ with Magnolia: Gather • Create • Enjoy",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2af04d96-2a65-4889-8582-3ceec1ec1c69",
+  "glb_url": "https://digitalcontent.target.com/vault/1739145600/CLOUD_740b86de-384f-4f73-80e7-b9f5c2e93337.glb",
+  "product_url": "https://www.target.com/p/-/A-91127727",
+  "dimensions": {
+    "height": 0.6985,
+    "width": 0.2108,
+    "depth": 0.1626,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Natural",
+  "color_source": "parsed"
+}

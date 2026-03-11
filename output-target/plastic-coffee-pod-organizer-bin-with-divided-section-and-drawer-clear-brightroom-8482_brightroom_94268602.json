@@ -1,0 +1,25 @@
+{
+  "tcin": "94268602",
+  "name": "Plastic Coffee Pod Organizer Bin with Divided Section and Drawer Clear - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$10.00",
+  "currency": "USD",
+  "description": "Create a stylish coffee station with this Coffee Pod Organizer Bin with Divided Section and Drawer from Brightroom™. This organizer bin features a smooth tabletop surface with four divided sections underneath featuring a pull-out drawer mechanism to keep your coffee pods neatly sorted and easily accessible for your daily brewing routine. Crafted from clear plastic, this storage solution provides easy visibility to keep track of your coffee pod supply.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Kitchen & Dining",
+    "Countertop Storage",
+    "Coffee Pod Holders & Organizers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a51274cd-3f2e-46ef-b926-646dc3888845",
+  "glb_url": "https://digitalcontent.target.com/vault/1761004800/CLOUD_181835d2-d6de-4dcc-8d61-6f7676f9cfac.glb",
+  "product_url": "https://www.target.com/p/-/A-94268602",
+  "color": "Clear",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3,
+    "width": 0.1379,
+    "depth": 0.1239,
+    "unit": "m",
+    "source": "glb"
+  }
+}

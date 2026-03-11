@@ -1,0 +1,26 @@
+{
+  "tcin": "80970553",
+  "name": "Dagen Floor Lamp - FLL4073 - Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$114.99",
+  "currency": "USD",
+  "description": "Introducing the Dagen extendable floor lamp, where style meets versatility. Ranging from 58.5 to 62 inches, this lamp is designed to adapt to your space with ease. Crafted from brass and iron, its sleek construction adds a touch of sophistication to any room. The lamp's adjustable height offers functionality and flexibility, making it perfect for reading nooks or ambient lighting. The brass finish provides a warm glow, enhancing the aesthetic appeal of your decor. Whether you're updating your living room or enhancing an office, the Dagen floor lamp is a chic choice that merges design with practicality. Brighten up your home effortlessly with this elegant lighting solution.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_30d4cbfb-4007-428a-b44b-b6e6d8cc018c",
+  "glb_url": "https://digitalcontent.target.com/vault/1763942400/CLOUD_fb493d72-a9d4-4702-8297-cb9da90a49a6.glb",
+  "product_url": "https://www.target.com/p/-/A-80970553",
+  "dimensions": {
+    "height": 1.4617,
+    "width": 0.5934,
+    "depth": 0.2312,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brass",
+  "color_source": "parsed"
+}

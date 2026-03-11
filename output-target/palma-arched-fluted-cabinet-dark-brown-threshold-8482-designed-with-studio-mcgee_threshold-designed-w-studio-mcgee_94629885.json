@@ -1,0 +1,25 @@
+{
+  "tcin": "94629885",
+  "name": "Palma Arched Fluted Cabinet Dark Brown - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$400.00",
+  "currency": "USD",
+  "description": "Keep the small items organized out of sight with the Palma Arched Fluted Cabinet from Threshold™ designed with Studio McGee. This dark brown cabinet features an arched bottom with a fluted design at the front for a standout look. Designed with a wooden frame, this fluted cabinet has two knobs for easy opening and closing of the doors.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Storage Furniture"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_78d74439-2853-4381-899c-a23587f0846c",
+  "glb_url": "https://digitalcontent.target.com/vault/1752796800/CLOUD_1c4d29cb-9f3b-4c5c-9bb3-35679725fd81.glb",
+  "product_url": "https://www.target.com/p/-/A-94629885",
+  "color": "Dark Brown",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.797,
+    "width": 0.4458,
+    "depth": 0.4041,
+    "unit": "m",
+    "source": "glb"
+  }
+}

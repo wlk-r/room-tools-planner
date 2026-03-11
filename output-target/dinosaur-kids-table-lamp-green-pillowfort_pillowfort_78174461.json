@@ -1,0 +1,26 @@
+{
+  "tcin": "78174461",
+  "name": "Dinosaur Kids' Table Lamp Green - Pillowfort™",
+  "brand": "Pillowfort",
+  "price": "$35.00",
+  "currency": "USD",
+  "description": "Bring fun prehistoric figurines to their bedroom lighting with this Dinosaur Table Lamp from Pillowfort™. This ceramic table lamp makes a practical lighting accent. It showcases a sculpted dinosaur-shaped base in a bright green color for a fun themed look. The white drum shade lends a touch of crisp modern style, while the one-way push through switch makes operating the lamp a breeze. Just place it on their bedside, study desk or dresser to illuminate their space.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c3099ae3-00a7-4aa9-b6fe-6a8748dd249f",
+  "glb_url": "https://digitalcontent.target.com/vault/1634428800/CLOUD_4950e76c-83dc-4db0-ab38-00ad2918a539.glb",
+  "product_url": "https://www.target.com/p/-/A-78174461",
+  "dimensions": {
+    "height": 0.4381,
+    "width": 0.2413,
+    "depth": 0.2413,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Green",
+  "color_source": "parsed"
+}

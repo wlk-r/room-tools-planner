@@ -1,0 +1,26 @@
+{
+  "tcin": "91119539",
+  "name": "Arynn Table Lamp W/ USB Port - 19 Inch Height - TBL4457 - Black/Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$63.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Arynn table lamp. Standing 19 inches tall, this elegant black and brass lamp is crafted from sturdy iron, offering a sleek and modern touch to any room. Its contemporary design seamlessly combines style with practicality. The Arynn lamp includes a convenient USB port, making it easy to charge your devices while keeping your workspace organized. Whether it is your living room or office, this lamp is the perfect addition to your decor. Embrace the blend of form and function with a piece that enhances your everyday life.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c2df53fa-7721-4fba-8fbc-dfc02484528e",
+  "glb_url": "https://digitalcontent.target.com/vault/1765411200/CLOUD_4f59bee9-5bfa-447d-a483-ab112c3f7999.glb",
+  "product_url": "https://www.target.com/p/-/A-91119539",
+  "dimensions": {
+    "height": 0.4825,
+    "width": 0.3129,
+    "depth": 0.1609,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black/Brass",
+  "color_source": "parsed"
+}

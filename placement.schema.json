@@ -3,7 +3,7 @@
   "title": "Furniture Placement",
   "description": "LLM-generated furniture layout for a quantized floor plan. Coordinates are in grid pixels (unitless); multiply by m_per_px to convert to meters.",
   "type": "object",
-  "required": ["plan", "gen", "m_per_px", "items"],
+  "required": ["plan", "gen", "m_per_px", "curate_model", "arrange_model", "items"],
   "additionalProperties": false,
   "properties": {
     "plan": {
@@ -13,12 +13,24 @@
     "gen": {
       "type": "string",
       "pattern": "^\\d{8}-[0-9a-f]{4}-[a-z0-9]+$",
-      "description": "Generation ID: YYYYMMDD-<4 hex>-<model tag>. Model tags are short free-form identifiers (e.g. o4, s4, gpt4o, gem2)"
+      "description": "Generation ID: YYYYMMDD-<4 hex>-<model tag>. Tag reflects the arrange model"
     },
     "m_per_px": {
       "type": "number",
       "exclusiveMinimum": 0,
       "description": "Meters per grid pixel — matches the plan CSS header scale"
+    },
+    "curate_model": {
+      "type": "string",
+      "description": "Model used for curation stage (e.g. sonnet, opus)"
+    },
+    "arrange_model": {
+      "type": "string",
+      "description": "Model used for arrangement stage (e.g. haiku, sonnet)"
+    },
+    "curate_vibe": {
+      "type": "string",
+      "description": "Style brief passed to curation, if any"
     },
     "items": {
       "type": "array",

@@ -1,0 +1,26 @@
+{
+  "tcin": "83521606",
+  "name": "Metal Garment Rack Black - Brightroom&#8482;: Powder-Coated Metal Clothing &#38; Hanging Rack, Fixed Rod &#38; Shelf, 165 lb Capacity",
+  "brand": "Brightroom",
+  "price": "$40.00",
+  "currency": "USD",
+  "description": "Simple yet functional, this Metal Garment Rack from Brightroom™ makes a perfect choice to help keep your mudroom or bedroom clutter-free and the items you wear every day easily accessible. This tall garment rack includes one shelf and one hanging rod for organizing clothes, shoes, bins and more, and the shelf features a mesh design to promote airflow. Crafted with powder-coated metal, this garment rack lends modern, minimalist style to your space.<br /><br />Brightroom™: See your space in a new light.<br /><br />",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Closet Storage",
+    "Clothes Racks & Portable Closets"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_df134b3a-724b-4037-bafa-a3983cc6c86a",
+  "glb_url": "https://digitalcontent.target.com/vault/1638921600/CLOUD_8cc7d48f-2668-4425-a30f-b52188521930.glb",
+  "product_url": "https://www.target.com/p/-/A-83521606",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.6637,
+    "width": 1.0414,
+    "depth": 0.4572,
+    "unit": "m",
+    "source": "glb"
+  }
+}

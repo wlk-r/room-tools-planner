@@ -1,0 +1,26 @@
+{
+  "tcin": "1002879244",
+  "name": "Maddock Crystal Table Lamp - CTL1033 - Clear/Gold - Safavieh Couture",
+  "brand": "Safavieh",
+  "price": "$266.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Maddock crystal table lamp, an embodiment of elegance in clear and gold. This lamp seamlessly combines function with style, making it a perfect addition to any room. Crafted from sturdy iron and adorned with a gold finish, it exudes a sense of modern sophistication. The clear crystal base captures and reflects light beautifully, adding a touch of sparkle to any decor. Whether placed in a living room or a bedroom, its sleek design complements both contemporary and traditional interiors. With its refined look, the Maddock crystal table lamp is designed to enhance your home with a warm and inviting glow. Experience the art of illumination with this tasteful lighting accessory that effortlessly elevates your surroundings.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_df793d43-ef5c-41e6-8407-b1ef07556abe",
+  "glb_url": "https://digitalcontent.target.com/vault/1769040000/CLOUD_b3915ce8-9aa5-4b89-87d6-8d9425033c7e.glb",
+  "product_url": "https://www.target.com/p/-/A-1002879244",
+  "color": "Clear/Gold",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6477,
+    "width": 0.381,
+    "depth": 0.2032,
+    "unit": "m",
+    "source": "glb"
+  }
+}

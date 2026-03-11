@@ -1,0 +1,26 @@
+{
+  "tcin": "84679705",
+  "name": "Small Security Blanket Dinosaur - Pink - Cloud Island&#8482;",
+  "brand": "Cloud Island",
+  "price": "$9.99",
+  "currency": "USD",
+  "description": "This Small Security Blanket from cloud island™ makes a cute, dino-mite companion for your little one. Made with a soft faux-fur fabric, this cuddly baby accessory is a peach-colored handkerchief-shaped blanket with white spots and striped satin trim in a lighter shade. It is topped with a plush dinosaur head with three yellow spikes, a circular neck frame and adorable little arms that will instantly catch your little one's attention and encourage them to play and snuggle to their heart's desire.<br /><br />cloud island™: Designed with love. Made without compromise.",
+  "categories": [
+    "Baby",
+    "Nursery",
+    "Baby Bedding",
+    "Baby Blankets & Quilts"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0faad71b-ba1d-4107-8b01-eb17811a1919",
+  "glb_url": "https://digitalcontent.target.com/vault/1664150400/CLOUD_e0c7e123-5f7f-4d1b-9016-6de789cc752a.glb",
+  "product_url": "https://www.target.com/p/-/A-84679705",
+  "color": "Pink",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4298,
+    "width": 0.3556,
+    "depth": 0.1156,
+    "unit": "m",
+    "source": "glb"
+  }
+}

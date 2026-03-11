@@ -1,0 +1,25 @@
+{
+  "tcin": "94693417",
+  "name": "Metal and Marble Coffee Table White Carrara Marble/Dark Bronze - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$320.00",
+  "currency": "USD",
+  "description": "Bring timeless elegance to your living room or kitchen with this Metal and Marble Coffee Table Carrara Marble from Threshold™ designed with Studio McGee. The rectangular tabletop is crafted from white Carrara marble for a clean, refined look, while the dark bronze-finish steel frame adds warm contrast and support. Plus, a crisscross base lends structure and a touch of modern style.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Coffee Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7b8cdaf3-be8f-4bd0-9812-85ad1b7a0ee0",
+  "glb_url": "https://digitalcontent.target.com/vault/1766361600/CLOUD_46c5c694-8c45-4919-8c17-2aacf287778f.glb",
+  "product_url": "https://www.target.com/p/-/A-94693417",
+  "color": "Bronze",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.8834,
+    "width": 0.5877,
+    "depth": 0.4255,
+    "unit": "m",
+    "source": "glb"
+  }
+}

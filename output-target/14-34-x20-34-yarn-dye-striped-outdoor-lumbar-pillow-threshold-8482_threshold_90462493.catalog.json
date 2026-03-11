@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "90462493",
+      "name": "14&#34;x20&#34; Yarn Dye Striped Outdoor Lumbar Pillow - Threshold&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90462493",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "pillow",
+        "textile",
+        "decor"
+      ],
+      "tags": [
+        "striped",
+        "casual",
+        "bohemian",
+        "textured"
+      ]
+    }
+  ]
+}

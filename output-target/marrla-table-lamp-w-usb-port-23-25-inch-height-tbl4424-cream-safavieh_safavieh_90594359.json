@@ -1,0 +1,26 @@
+{
+  "tcin": "90594359",
+  "name": "Marrla Table Lamp W/ USB Port - 23.25 Inch Height - TBL4424 - Cream - Safavieh",
+  "brand": "Safavieh",
+  "price": "$85.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Marrla 23.5 inch cream resin table lamp. This lamp is more than just a light source; it is a stylish addition to any room. Its elegant cream hue complements a variety of decors, offering versatility and charm. Crafted from resin, the Marrla table lamp boasts a sleek and polished finish. \n\nOne of its standout features is the integrated USB port, providing a convenient solution for charging your devices while keeping your space clutter free. Whether this is placed on a bedside table, a desk, or in a living room, this lamp brings both beauty and functionality to your home. Embrace the perfect blend of style and convenience with Marrla.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_83f2cb76-ce60-4925-8fd1-7f0e3a1a8df9",
+  "glb_url": "https://digitalcontent.target.com/vault/1770940800/CLOUD_4219c3d5-6d98-45dc-a10e-ab0af6488a3e.glb",
+  "product_url": "https://www.target.com/p/-/A-90594359",
+  "color": "Cream",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5906,
+    "width": 0.3556,
+    "depth": 0.3556,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "tcin": "94639813",
+  "name": "Gingerbread House Pillow - Bullseye&#39;s Playground&#8482;",
+  "brand": "Bullseye's Playground",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Add a touch of whimsy to your home with the Gingerbread House Pillow from Bullseye's Playground. This novelty plush pillow, crafted entirely from polyester, features a charming shape that adds a playful element to any room. Its soft, plush construction ensures comfort, while the sewn seam closure keeps it intact. Perfect for indoor use, this brown pillow is a delightful addition to your decor, offering both style and coziness.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Throw Pillows"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b603e1bd-aef7-4954-8758-d6fc5194fb90",
+  "glb_url": "https://digitalcontent.target.com/vault/1762732800/CLOUD_76566a29-cafe-4b1f-8166-0e1efcf940a0.glb",
+  "product_url": "https://www.target.com/p/-/A-94639813",
+  "dimensions": {
+    "height": 0.3492,
+    "width": 0.3136,
+    "depth": 0.1017,
+    "unit": "m",
+    "source": "glb"
+  }
+}

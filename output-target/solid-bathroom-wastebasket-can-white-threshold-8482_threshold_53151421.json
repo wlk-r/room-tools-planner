@@ -1,0 +1,25 @@
+{
+  "tcin": "53151421",
+  "name": "Solid Bathroom Wastebasket Can White - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$23.00",
+  "currency": "USD",
+  "description": "Get rid of your bathroom waste in discreet style by adding this Solid Bathroom Wastebasket Can from Threshold™ to your bathroom or vanity space. Constructed from solid metal with a simple design, this solid bathroom wastebasket will last through the years, and its simple design makes it easy to incorporate with any decor styles. Complete with a matted exterior and smooth, shiny rim, this circular wastebasket can is sure to make a functional and sleek addition to any space. Coordinate with matching bathroom accessories for a coordinated look.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_ea49afa2-772d-4e0d-9328-b67da5ed884f",
+  "glb_url": "https://digitalcontent.target.com/vault/1663027200/CLOUD_c9c31b99-96b0-425c-b7b4-8b7ea98a186b.glb",
+  "product_url": "https://www.target.com/p/-/A-53151421",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.254,
+    "width": 0.2159,
+    "depth": 0.2159,
+    "unit": "m",
+    "source": "glb"
+  }
+}

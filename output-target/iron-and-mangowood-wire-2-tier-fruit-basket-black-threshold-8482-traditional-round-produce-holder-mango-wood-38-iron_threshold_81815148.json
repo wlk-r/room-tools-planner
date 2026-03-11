@@ -1,0 +1,25 @@
+{
+  "tcin": "81815148",
+  "name": "Iron and Mangowood Wire 2-Tier Fruit Basket Black - Threshold&#8482;: Traditional Round Produce Holder, Mango Wood &#38; Iron",
+  "brand": "Threshold",
+  "price": "$25.50",
+  "currency": "USD",
+  "description": "Display your favorite fruits in style with the Iron and Wooden Wire 2-Tier Fruit Basket from Threshold™. Made from metal, this fruit basket features a two-tier design with one small and one large round fruit bowl, each designed with a wooden base to let you store an ample amount of fruits or vegetables. Featuring a mesh design, this two-tier fruit basket allows for air to naturally ripen and keep fruits fresh. In a black finish, it features a classic wired design that easily coordinates with a variety of decor styles.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Countertop Storage",
+    "Fruit Baskets & Holders"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a608b794-c159-476c-bbfe-d409bb702b75",
+  "glb_url": "https://digitalcontent.target.com/vault/1656633600/CLOUD_09a1bd1d-1d1d-4994-9c59-87c21b9ccda9.glb",
+  "product_url": "https://www.target.com/p/-/A-81815148",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4115,
+    "width": 0.3048,
+    "depth": 0.3048,
+    "unit": "m",
+    "source": "glb"
+  }
+}

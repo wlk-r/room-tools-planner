@@ -1,0 +1,26 @@
+{
+  "tcin": "94407394",
+  "name": "Small Wood Crate Christmas Decorative Storage Bin Red - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$8.50",
+  "currency": "USD",
+  "description": "From toys to office supplies, keep your items organized and your space clean with this Small Wood Crate Decorative Storage Bin from Brightroom™. Made of wood, this red decorative storage bin adds a pop of color to your space, while the open top allows you to easily store and access the contents. Designed in a rectangular shape, this 481.95-cubic-inch storage bin is great for keeping books, small throws and much more. Plus, it features cutout handles for easy portability.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Holiday Shop",
+    "Christmas",
+    "Christmas Decorations",
+    "Christmas Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0f4ec60b-64ad-4dbd-b47c-ec043c0ed91b",
+  "glb_url": "https://digitalcontent.target.com/vault/1765756800/CLOUD_76473f3e-57f5-4578-b5de-466de885ec50.glb",
+  "product_url": "https://www.target.com/p/-/A-94407394",
+  "color": "Red",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3239,
+    "width": 0.16,
+    "depth": 0.1524,
+    "unit": "m",
+    "source": "glb"
+  }
+}

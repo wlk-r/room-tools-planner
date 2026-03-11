@@ -1,0 +1,26 @@
+{
+  "tcin": "91119062",
+  "name": "Branch Table Lamp (Set of 2) - 29 Inch Height - LIT4076 - Silver - Safavieh",
+  "brand": "Safavieh",
+  "price": "$140.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the exquisite silver branch table lamps featuring elegant white shades. Crafted with care from silver polyresin, these lamps add a touch of charm and sophistication to any room. The branch-inspired design brings an organic feel, seamlessly blending with various decor styles. The pristine white shades gently diffuse light, creating a warm and inviting ambiance. Ideal for living rooms, bedrooms, or studies, these lamps stand out as stunning accent pieces while providing functional lighting. Elevate your home decor with these unique table lamps, where contemporary design meets timeless appeal.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_caead6d2-8814-4f4d-afde-050bcba05151",
+  "glb_url": "https://digitalcontent.target.com/vault/1769558400/CLOUD_34da40c9-493a-47af-b04a-a913d4322950.glb",
+  "product_url": "https://www.target.com/p/-/A-91119062",
+  "dimensions": {
+    "height": 0.7366,
+    "width": 0.3556,
+    "depth": 0.3556,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Silver",
+  "color_source": "parsed"
+}

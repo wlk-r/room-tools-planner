@@ -1,0 +1,26 @@
+{
+  "tcin": "52415956",
+  "name": "Montreal Wren Small Lamp Base Blush - Threshold&#8482;: Ceramic, No Assembly, ETL Listed",
+  "brand": "Threshold",
+  "price": "$28.00",
+  "currency": "USD",
+  "description": "Add a charming upgrade to any living space with the Montreal Wren Lamp base from Threshold™. This ceramic lamp base features a stylish vase design with light-blue glaze that brings a gentle charm to any room that you are sure to love. This light-blue lamp base works with standard, medium-screw lightbulbs so you never have to look far for the right bulbs.<br /><br />Threshold™: Looks like home, feels like you.<br /><br />If you’re not satisfied with any Target Owned Brand item, return it within one year with a receipt for an exchange or a refund.<br />",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Lamp Bases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e7017b36-02d6-4c35-ada0-a757f9390806",
+  "glb_url": "https://digitalcontent.target.com/vault/1654041600/CLOUD_31110d45-589d-43be-8916-3aa45ebd28f8.glb",
+  "product_url": "https://www.target.com/p/-/A-52415956",
+  "color": "Blush",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3048,
+    "width": 0.1524,
+    "depth": 0.1524,
+    "unit": "m",
+    "source": "glb"
+  }
+}

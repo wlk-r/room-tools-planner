@@ -1,0 +1,26 @@
+{
+  "tcin": "89148953",
+  "name": "Metal Luxe Kids&#39; Wall Shelf Gold - Pillowfort&#8482;: Scalloped Floating Iron Wall Organizer, 24&#34; Wide",
+  "brand": "Pillowfort",
+  "price": "$20.00",
+  "currency": "USD",
+  "description": "Decorate and organize your kid's space with the Metal Luxe Kids' Wall Shelf from Pillowfort™. This rectangle wall shelf is made with metal and features scalloped edges for a decorative look. Easy to integrate into a wide variety of decor styles, this gold-tone wall shelf makes a attractive and practical addition to their space.",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Furniture",
+    "Kids’ Bookcases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_657fdad7-8b52-49f4-8c0a-e3d9dbd3b7ae",
+  "glb_url": "https://digitalcontent.target.com/vault/1704412800/CLOUD_15884dcf-1387-40f7-9560-a51a68dfac57.glb",
+  "product_url": "https://www.target.com/p/-/A-89148953",
+  "color": "Gold",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6095,
+    "width": 0.0942,
+    "depth": 0.0899,
+    "unit": "m",
+    "source": "glb"
+  }
+}

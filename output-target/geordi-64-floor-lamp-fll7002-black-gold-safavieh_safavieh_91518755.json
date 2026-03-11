@@ -1,0 +1,26 @@
+{
+  "tcin": "91518755",
+  "name": "Geordi 64\" Floor Lamp - FLL7002 - Black/Gold - Safavieh",
+  "brand": "Safavieh",
+  "price": "$107.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the striking Geordi floor lamp. Standing at an impressive 64 inches, this lamp features two lights that provide ample illumination while adding a touch of elegance to any room. Its sleek black and gold finish creates a stunning contrast, enhancing the aesthetic appeal of your decor. Crafted from sturdy metal, the Geordi lamp combines functionality with modern style. Its timeless design effortlessly complements any interior, making it an ideal addition to your living room, office, or bedroom. Transform your home with this stylish and versatile lighting solution.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0a3c4e6d-9634-44bc-b09a-41aa69bdd6dc",
+  "glb_url": "https://digitalcontent.target.com/vault/1764028800/CLOUD_7a8c0e7a-40d2-4f60-ae6d-00de494ee547.glb",
+  "product_url": "https://www.target.com/p/-/A-91518755",
+  "dimensions": {
+    "height": 1.6248,
+    "width": 0.6761,
+    "depth": 0.281,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black/Gold",
+  "color_source": "parsed"
+}

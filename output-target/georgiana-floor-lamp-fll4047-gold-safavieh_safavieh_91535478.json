@@ -1,0 +1,26 @@
+{
+  "tcin": "91535478",
+  "name": "Georgiana Floor Lamp - FLL4047 - Gold - Safavieh",
+  "brand": "Safavieh",
+  "price": "$116.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the elegance of the Georgiana floor lamp. Standing tall at 61.5 inches, this lamp combines the allure of gold with the sophistication of iron, crystal, and resin materials. Its striking design adds a radiant touch to any room, creating an inviting and stylish atmosphere. The gold finish provides a warm glow that seamlessly complements modern and classic decor. Whether placed in a living room, study, or bedroom, the Georgiana floor lamp serves as both a functional lighting solution and a statement piece. Bring a touch of refined beauty into your home with Georgiana, where style meets purpose effortlessly.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_492e3416-bfad-4733-b0aa-43b7988db10f",
+  "glb_url": "https://digitalcontent.target.com/vault/1763942400/CLOUD_e4412370-6049-4653-ab5b-8970ba51feaf.glb",
+  "product_url": "https://www.target.com/p/-/A-91535478",
+  "dimensions": {
+    "height": 1.5681,
+    "width": 0.3703,
+    "depth": 0.3703,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gold",
+  "color_source": "parsed"
+}

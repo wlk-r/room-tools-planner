@@ -1,0 +1,26 @@
+{
+  "tcin": "90594386",
+  "name": "Ventrus Table Lamp - 25 Inch Height - TBL4374 - White/Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$79.99",
+  "currency": "USD",
+  "description": "Introducing Ventrus, the perfect blend of elegance and functionality for any space. Standing at 25 inches, this ceramic table lamp offers a sleek and modern aesthetic in a timeless white and black color scheme. The harmonious combination of an 80 percent rein body with a 20 percent iron neck provides a striking contrast, making it a captivating addition to your decor.\n\nThe lamp?s design embodies simplicity and sophistication, easily enhancing both contemporary and classic interiors. Its neutral tones allow it to integrate seamlessly with various color palettes, providing versatility and style.\n\nIlluminate your home with this stunning Ventrus table lamp and experience the perfect balance of form and function. Whether in a living room, bedroom, or office, it adds a touch of refinement and warmth. Discover a new level of comfort and make a statement in your space with Ventrus.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a95a4011-ae4b-4fb3-a25b-4675a35e0d4c",
+  "glb_url": "https://digitalcontent.target.com/vault/1765238400/CLOUD_dd796dba-b6ad-4a08-9ffc-471f319bd7f0.glb",
+  "product_url": "https://www.target.com/p/-/A-90594386",
+  "color": "White/Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6229,
+    "width": 0.3251,
+    "depth": 0.3251,
+    "unit": "m",
+    "source": "glb"
+  }
+}

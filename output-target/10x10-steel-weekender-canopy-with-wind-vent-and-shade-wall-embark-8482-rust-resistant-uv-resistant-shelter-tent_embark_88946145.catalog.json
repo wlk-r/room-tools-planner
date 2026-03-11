@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "88946145",
+      "name": "10x10 Steel Weekender Canopy with Wind Vent and Shade Wall - Embark&#8482;: Rust-Resistant, UV-Resistant Shelter Tent",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "88946145",
+      "tier": "anchor",
+      "placement": "floor",
+      "categories": [
+        "canopy",
+        "outdoor-shelter"
+      ],
+      "tags": [
+        "contemporary",
+        "industrial",
+        "minimal",
+        "utilitarian"
+      ]
+    }
+  ]
+}

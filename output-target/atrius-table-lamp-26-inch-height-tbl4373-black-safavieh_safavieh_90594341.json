@@ -1,0 +1,26 @@
+{
+  "tcin": "90594341",
+  "name": "Atrius Table Lamp - 26 Inch Height - TBL4373 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$72.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Atrius 24 inch black table lamp. Designed with a blend of modern elegance and functional artistry, this lamp fits seamlessly into any decor. Crafted with care, its body combines 80 percent resin with a 20 percent iron neck, delivering both sleek design and durability. The black finish adds a touch of sophistication to every room, making it an ideal choice for your living room, bedroom, or office. Whether for reading, relaxing, or ambiance, the Atrius table lamp is the perfect addition to light up your life with style and grace.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4176655c-7633-4bac-ac76-8f0a4c0d3b99",
+  "glb_url": "https://digitalcontent.target.com/vault/1763683200/CLOUD_254e7cbd-360d-4f48-a223-5249ff9c54f9.glb",
+  "product_url": "https://www.target.com/p/-/A-90594341",
+  "dimensions": {
+    "height": 0.6542,
+    "width": 0.3747,
+    "depth": 0.3747,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

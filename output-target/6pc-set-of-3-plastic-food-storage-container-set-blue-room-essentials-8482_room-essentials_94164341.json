@@ -1,0 +1,25 @@
+{
+  "tcin": "94164341",
+  "name": "6pc (Set of 3) Plastic Food Storage Container Set Blue - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "This 6-Piece (Set of 3) Plastic Food Storage Container Set from Room Essentials™ is great for storing a variety of leftovers, snacks and more. This set includes three plastic food storage containers and three blue lids — two with a capacity of three cups and one with a five-cup capacity. Plus, the pieces are all dishwasher safe on the top rack for easy cleaning.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen Storage",
+    "Food Storage Containers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_bce85f58-cb49-48cc-9d75-07c0f6790aa5",
+  "glb_url": "https://digitalcontent.target.com/vault/1759881600/CLOUD_91a4b0aa-0ddb-46bf-aa50-fe83863d46b0.glb",
+  "product_url": "https://www.target.com/p/-/A-94164341",
+  "dimensions": {
+    "height": 0.357,
+    "width": 0.1619,
+    "depth": 0.0825,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

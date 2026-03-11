@@ -1,0 +1,26 @@
+{
+  "tcin": "85189366",
+  "name": "5&#39;x7&#39; Warm Bright Area Rug Indigo - Threshold&#8482; designed with Studio McGee: Floral Botanical Low Pile Indoor Rug",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$100.00",
+  "currency": "USD",
+  "description": "Dress up your floors with the striking style and soft comfort of this Warm Bright Area Rug from Threshold™ designed with Studio McGee. This rectangular area rug showcases a floral print in a distressed finish for a charming look that blends effortlessly with any decor style. The woven construction provides softness underfoot, while the cotton backing helps keep it in place. Place the low pile rug anywhere in your home for a quick update.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Area Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_73de8b1e-ec6e-4764-93fb-27cfeff5034e",
+  "glb_url": "https://digitalcontent.target.com/vault/1667433600/CLOUD_726b4ee3-f432-4146-ae15-18c0c82de864.glb",
+  "product_url": "https://www.target.com/p/-/A-85189366",
+  "dimensions": {
+    "height": 2.1336,
+    "width": 1.524,
+    "depth": 0.0177,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Indigo",
+  "color_source": "parsed"
+}

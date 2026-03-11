@@ -1,0 +1,26 @@
+{
+  "tcin": "92762532",
+  "name": "Ronny Table Lamp - 23.5 Inch Height - TBL4577 - Walnut/Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$76.99",
+  "currency": "USD",
+  "description": "Introducing the Ronny Table Lamp, a harmonious blend of walnut and brass that brings a warm, inviting ambiance to any space. Crafted with a sturdy metal and wood body, this elegant table lamp is complemented by a soft, fabric shade that diffuses light beautifully, creating a cozy atmosphere.\n\nThe lamp's dimensions ensure it is a perfect fit for a variety of settings. With an overall height of 23.5 inches, a shade diameter of 4.25 inches at the top, widening to 9.5 inches, and a base diameter of 7 inches, the Ronny fits seamlessly on end tables, nightstands, or office desks.\n\nEmbrace the Ronny's timeless design that pairs the natural texture of wood with the subtle gleam of brass accents. Its user-friendly pull chain adds a classic touch for easy operation, confirming that style and convenience can coexist effortlessly.\n\nWhether illuminating a quiet reading nook or adding a touch of sophistication to your living room, the Ronny Table Lamp stands out as a tasteful addition to your home or office decor.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c286b053-69cf-488e-bff0-4fb93840b556",
+  "glb_url": "https://digitalcontent.target.com/vault/1770336000/CLOUD_a2f9f883-8e79-4250-909c-3b8cd5da2788.glb",
+  "product_url": "https://www.target.com/p/-/A-92762532",
+  "color": "Walnut/Brass",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5969,
+    "width": 0.3429,
+    "depth": 0.3429,
+    "unit": "m",
+    "source": "glb"
+  }
+}

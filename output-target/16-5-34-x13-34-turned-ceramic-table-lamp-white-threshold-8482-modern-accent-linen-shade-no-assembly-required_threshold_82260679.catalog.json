@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "82260679",
+      "name": "16.5&#34;x13&#34; Turned Ceramic Table Lamp White - Threshold&#8482;: Modern Accent, Linen Shade, No Assembly Required",
+      "color": "White"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "82260679",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "lighting",
+        "decor"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "warm",
+        "organic"
+      ]
+    }
+  ]
+}

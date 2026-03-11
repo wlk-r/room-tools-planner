@@ -1,0 +1,25 @@
+{
+  "tcin": "89207301",
+  "name": "Faux Marble and Metal Console Table Gold - Threshold&#8482;: Sleek Two-Tiered, Rectangular Design, 30&#34; High",
+  "brand": "Threshold",
+  "price": "$200.00",
+  "currency": "USD",
+  "description": "Add stylish flair and functionality to your space with this Faux-Marble and Metal Accent Table from Threshold™. With a two-tiered rectangular silhouette on six sleek legs, this accent table looks stunning with its white faux-marble shelves and gleaming gold-tone metal frame. The long, rectangular open shelves provide ample display space for decor, books, photo frame or plants, elevating the overall aesthetic of your room. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Console Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_8907e6dd-549f-49a3-b0c7-c2f5ba7cc3e0",
+  "glb_url": "https://digitalcontent.target.com/vault/1714435200/CLOUD_4415de2a-dc25-42e1-b921-c8fc5043f135.glb",
+  "product_url": "https://www.target.com/p/-/A-89207301",
+  "dimensions": {
+    "height": 1.1684,
+    "width": 0.762,
+    "depth": 0.3048,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gold",
+  "color_source": "parsed"
+}

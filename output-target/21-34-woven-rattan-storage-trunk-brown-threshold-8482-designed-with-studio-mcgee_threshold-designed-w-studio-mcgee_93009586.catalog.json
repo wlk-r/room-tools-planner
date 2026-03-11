@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "93009586",
+      "name": "21&#34; Woven Rattan Storage Trunk Brown - Threshold&#8482; designed with Studio McGee",
+      "color": "Brown"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "93009586",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "decor"
+      ],
+      "tags": [
+        "vintage",
+        "organic",
+        "warm",
+        "rustic"
+      ]
+    }
+  ]
+}

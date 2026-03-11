@@ -1,0 +1,25 @@
+{
+  "tcin": "89194847",
+  "name": "16oz Stoneware I Woof You Mug White - Room Essentials&#8482;: Coffee Mug, Microwave &#38; Dishwasher Safe, Dorm Room Essential",
+  "brand": "Room Essentials",
+  "price": "$5.25",
+  "currency": "USD",
+  "description": "Showcase your bond with your pet with the 16-Ounce Stoneware 'I Woof You Mug' from Room Essentials™. This white mug features the message \"I Woof You\" along with an image of dog to show your pet love. Great for both hot or cold beverages, this stoneware mug is both microwave and dishwasher safe for quick reheating and cleaning.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3880ac6d-7d67-4045-ae04-41febb13567f",
+  "glb_url": "https://digitalcontent.target.com/vault/1709856000/CLOUD_2e2a6c2f-950a-4017-a8f8-a1f4b48b797c.glb",
+  "product_url": "https://www.target.com/p/-/A-89194847",
+  "dimensions": {
+    "height": 0.1402,
+    "width": 0.0975,
+    "depth": 0.0971,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "87294114",
+      "name": "11&#34; x 14&#34; Paris Framed Under Glass with Mat Dark Wood - Threshold&#8482; designed with Studio McGee: Modern Typography Wall Decor",
+      "color": "Dark Wood"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "87294114",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "wall-art"
+      ],
+      "tags": [
+        "modern",
+        "minimal",
+        "typography",
+        "neutral",
+        "sophisticated"
+      ]
+    }
+  ]
+}

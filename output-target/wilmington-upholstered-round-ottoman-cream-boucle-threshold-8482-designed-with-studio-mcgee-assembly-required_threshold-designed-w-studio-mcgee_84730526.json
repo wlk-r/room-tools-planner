@@ -1,0 +1,25 @@
+{
+  "tcin": "84730526",
+  "name": "Wilmington Upholstered Round Ottoman Cream Boucle - Threshold&#8482; designed with Studio McGee Assembly Required",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$187.00",
+  "currency": "USD",
+  "description": "Round out your family room, living room or bedroom in classic style with this Wilmington Upholstered Round Ottoman from Threshold™ designed with Studio McGee. Set atop a wooden frame and feet, this round ottoman is upholstered with a softly textured fabric for subtle dimensional appeal. Crafted in a versatile cream color, this upholstered ottoman features a two-tier design that adds a sophisticated look to your space. Plus, it’s a great piece for adding extra seating when you need it.<br /><br />Threshold™: Quality & Design / Casual classics for house and home.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Ottomans"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f34e00ae-50fa-48c1-87e0-df2535f91cfa",
+  "glb_url": "https://digitalcontent.target.com/vault/1654646400/CLOUD_749a2dc7-89b3-416a-9df8-d6bfaf1f7ec3.glb",
+  "product_url": "https://www.target.com/p/-/A-84730526",
+  "color": "Cream",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.762,
+    "width": 0.762,
+    "depth": 0.381,
+    "unit": "m",
+    "source": "glb"
+  }
+}

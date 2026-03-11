@@ -1,0 +1,25 @@
+{
+  "tcin": "94683225",
+  "name": "Wood and Cane 2 Drawer Nightstand Aged Oak - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand w/Magnolia Furniture",
+  "price": "$129.99",
+  "currency": "USD",
+  "description": "Finish off the look of your sleeping area with the 2-Piece Wood and Cane 2 Drawer Nightstands from Hearth & Hand™ with Magnolia. These two-piece of nightstands are designed in a rectangle shape with built-in drawers to give you enough space for your books, lamp and other essentials. Made of a wooden frame, this nightstand set fits nicely alongside your bed. <br /><br />Hearth & Hand™ with Magnolia: Gather • Create • Enjoy<br /><br />Overall Width: 23-5/8 inches<br />Overall Height: 24-1/4 inches<br />Overall Depth: 15-1/2 inches<br />Distance from floor to front rail: 4-3/8 inches<br />Thickness of top panel: 5/8 inches<br />Height of drawer front panel: 7-7/8 inches<br />Width of drawer front panel: 17-7/8 inches<br />Width of drawer box: 17 inches<br />Depth of drawer box: 11-3/4 inches  <br />Height of drawer box: 5-7/8 inches",
+  "categories": [
+    "Furniture",
+    "Bedroom Furniture",
+    "Nightstands"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_54c7ec17-49f5-4c0d-856f-c3aedb8726f0",
+  "glb_url": "https://digitalcontent.target.com/vault/1755648000/CLOUD_7e96d997-6b1e-4cb7-9514-7df23502025a.glb",
+  "product_url": "https://www.target.com/p/-/A-94683225",
+  "color": "Oak",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6159,
+    "width": 0.5999,
+    "depth": 0.3937,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "94688242",
+  "name": "16&#34;x12&#34; Spring Cottage Wall Art - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand with Magnolia",
+  "price": "$24.99",
+  "currency": "USD",
+  "description": "",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Wall Decor",
+    "Wall Art",
+    "Framed Wall Art"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c6418a2d-7552-4c88-9a54-03cc919e2e9d",
+  "glb_url": "https://digitalcontent.target.com/vault/1766361600/CLOUD_8f52b38e-0124-4a31-b748-ff03a5538063.glb",
+  "product_url": "https://www.target.com/p/-/A-94688242",
+  "dimensions": {
+    "height": 0.4064,
+    "width": 0.3048,
+    "depth": 0.0204,
+    "unit": "m",
+    "source": "glb"
+  }
+}

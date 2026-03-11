@@ -1,0 +1,25 @@
+{
+  "tcin": "91195515",
+  "name": "5&#34;x7&#34; Matted to 4&#34;x6&#34; Ornate Arch Table Frame Antique Brass - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$15.00",
+  "currency": "USD",
+  "description": "Add timeless elegance to your space with the 5\"x7\" Matted to 4\"x6\" Ornate Arch Table Frame Antique Brass from Threshold™. Featuring an intricate rectangular antique design, this resin frame showcases a rich gold finish that enhances any decor. Weighing 1.21 pounds, it holds a 4\"x6\" photo with a matted border for a sophisticated display. Suitable for vertical orientation, it includes an easel back and hanging triangle for versatile placement.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Picture Frames"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3d386c84-7063-488e-b3d1-cbafd12c2d80",
+  "glb_url": "https://digitalcontent.target.com/vault/1732406400/CLOUD_e128c636-5ff7-498e-a094-8d1cd5ebd328.glb",
+  "product_url": "https://www.target.com/p/-/A-91195515",
+  "dimensions": {
+    "height": 0.2406,
+    "width": 0.1806,
+    "depth": 0.1269,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brass",
+  "color_source": "parsed"
+}

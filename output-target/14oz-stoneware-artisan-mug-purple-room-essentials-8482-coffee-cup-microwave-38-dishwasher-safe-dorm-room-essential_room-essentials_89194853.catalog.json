@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "89194853",
+      "name": "14oz Stoneware Artisan Mug Purple - Room Essentials&#8482;: Coffee Cup, Microwave &#38; Dishwasher Safe, Dorm Room Essential",
+      "color": "Purple"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "89194853",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "tabletop"
+      ],
+      "tags": [
+        "ceramic",
+        "modern",
+        "minimalist",
+        "sculptural"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "tcin": "53288751",
+  "name": "Madison Washable Rug - Threshold&#153;",
+  "brand": "Threshold",
+  "price": "$10.00 - $35.00",
+  "currency": "USD",
+  "description": "Give your home decor a touch of simple and sophisticated style with this Rockbridge Washable Rug from Threshold™. This solid-color area rug features a complementary-colored solid border for easy, contrasting style that blends effortlessly with any existing decor. It's made from tufted fabric that feels soft under your feet, and it has skid-resistant latex backing that helps keep it in place. Best of all, since this rug is machine-washable — you can just pop it into the washing machine whenever it needs a quick refresh.<br /><br />Threshold™: Quality & Design / Casual classics for house and home.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Accent Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_10b9308d-e4c0-41b2-a99d-95e204928f93",
+  "glb_url": "https://digitalcontent.target.com/vault/1623715200/CLOUD_e05932ce-d2ad-482b-853a-f59d878e8b46.glb",
+  "product_url": "https://www.target.com/p/-/A-53288751",
+  "dimensions": {
+    "height": 2.1336,
+    "width": 1.5239,
+    "depth": 0.0127,
+    "unit": "m",
+    "source": "glb"
+  }
+}

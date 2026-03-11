@@ -1,0 +1,25 @@
+{
+  "tcin": "89203313",
+  "name": "Loring Console Table White - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$144.00",
+  "currency": "USD",
+  "description": "Add some contemporary charm to your entertainment space with this Loring Console Table from Threshold™. This media and storage stand features an elegant clean-lined silhouette. It has a white rectangular tabletop with two drawers below, paired with a contrast-color metal frame with sleek legs and a bottom rack with complementing metal slats. The pristine white surface invites decor accents, drawers offer concealed storage and the bottom rack provides additional display space.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Console Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_adb11593-5489-4233-9902-3d50102db24c",
+  "glb_url": "https://digitalcontent.target.com/vault/1708300800/CLOUD_e306fc3a-99be-4939-84ac-edc5baf3fb44.glb",
+  "product_url": "https://www.target.com/p/-/A-89203313",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.9721,
+    "width": 0.7728,
+    "depth": 0.3583,
+    "unit": "m",
+    "source": "glb"
+  }
+}

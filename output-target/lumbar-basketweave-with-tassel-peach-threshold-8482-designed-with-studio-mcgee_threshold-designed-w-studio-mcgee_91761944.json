@@ -1,0 +1,25 @@
+{
+  "tcin": "91761944",
+  "name": "Lumbar Basketweave with Tassel Peach - Threshold&#8482; Designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Add refreshing colors to your space with the Lumbar Basketweave with Tassel from Threshold™ Designed with Studio McGee. This peach lumbar pillow features a basketweave-like design with a tassel for textured appeal. Made with a 100% cotton exterior and polyester filling, this lumbar pillow feels soft and comfortable as you rest. The zipper helps create a finished look, while the removable cover allows for easy maintenance. <br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Throw Pillows"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_43099767-703b-47b2-be04-f7a0ebff46ef",
+  "glb_url": "https://digitalcontent.target.com/vault/1743120000/CLOUD_f61ab27c-33de-4424-b01d-b3bb71cc6f76.glb",
+  "product_url": "https://www.target.com/p/-/A-91761944",
+  "color": "Peach",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.539,
+    "width": 0.3048,
+    "depth": 0.2024,
+    "unit": "m",
+    "source": "glb"
+  }
+}

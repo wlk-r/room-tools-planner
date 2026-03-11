@@ -1,0 +1,26 @@
+{
+  "tcin": "92762493",
+  "name": "Zelda Glass Lamp - 25 Inch Height - LIT4051 - Clear - Safavieh",
+  "brand": "Safavieh",
+  "price": "$84.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Zelda, a 25-inch clear glass table lamp that exudes elegance and simplicity. Crafted with a sleek glass material, this lamp complements any decor with its transparent elegance. The clear design allows it to blend seamlessly into your living room, bedroom, or office, creating a harmonious atmosphere. Its graceful silhouette and understated presence make the Zelda an ideal choice for those who appreciate subtle sophistication. Whether placed on a side table or nightstand, it promises to enhance your ambient lighting and set a calming mood. Experience a touch of class in your home with the Zelda glass table lamp.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f0d0ff59-a959-48b7-a0f6-d1fd5e96513b",
+  "glb_url": "https://digitalcontent.target.com/vault/1764201600/CLOUD_06ab4db7-8ba3-411a-9099-4b1663fff082.glb",
+  "product_url": "https://www.target.com/p/-/A-92762493",
+  "color": "Clear",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6358,
+    "width": 0.3633,
+    "depth": 0.3632,
+    "unit": "m",
+    "source": "glb"
+  }
+}

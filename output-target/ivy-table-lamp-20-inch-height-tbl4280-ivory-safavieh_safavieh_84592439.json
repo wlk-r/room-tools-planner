@@ -1,0 +1,26 @@
+{
+  "tcin": "84592439",
+  "name": "Ivy Table Lamp - 20 Inch Height - TBL4280 - Ivory - Safavieh",
+  "brand": "Safavieh",
+  "price": "$59.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the IVY table lamp, a statement piece perfectly blending form and function. At 19 inches tall, this lamp features an elegant ivory finish that seamlessly complements any decor. The lamp's design artfully combines 50 percent resin with a 30 percent mosaic body and an iron neck, creating a unique and eye-catching structure. \n\nThe soft glow of the IVY table lamp sets a warm and inviting ambiance in any room. Whether in a living room, bedroom, or study, its versatile style is sure to enhance your environment. The thoughtfully crafted materials offer a sophisticated look that suits both modern and classic styles. \n\nAdd a touch of elegance and stylish flair to your home with the IVY table lamp, offering a gentle light that transforms any setting into a cozy retreat. Embrace simplicity and beauty with this timeless accent lamp that brings charm to your home.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_75aabbb5-f380-440f-9b0a-fd8230765565",
+  "glb_url": "https://digitalcontent.target.com/vault/1764201600/CLOUD_11724b7b-3b4d-4eda-858a-9e7d233355b8.glb",
+  "product_url": "https://www.target.com/p/-/A-84592439",
+  "color": "Ivory",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.508,
+    "width": 0.289,
+    "depth": 0.289,
+    "unit": "m",
+    "source": "glb"
+  }
+}

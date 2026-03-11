@@ -1,0 +1,26 @@
+{
+  "tcin": "94257802",
+  "name": "5&#39;x7&#39; Textured Knitted Area Rug Ivory - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$150.00",
+  "currency": "USD",
+  "description": "Revamp the look and feel of any room with this Textured Knitted Area Rug from Threshold™. This knitted area rug showcases a timeless textured pattern in an ivory hue to liven up the look of your space. Easy to clean, this rectangular medium-pile rug offers soft comfort underfoot.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Area Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a4223488-7106-4701-bf00-d8de636ccfb9",
+  "glb_url": "https://digitalcontent.target.com/vault/1755648000/CLOUD_ed2cc3fa-29bb-4cbf-8428-f85dd93d50b8.glb",
+  "product_url": "https://www.target.com/p/-/A-94257802",
+  "dimensions": {
+    "height": 2.1352,
+    "width": 1.5257,
+    "depth": 0.0058,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Ivory",
+  "color_source": "parsed"
+}

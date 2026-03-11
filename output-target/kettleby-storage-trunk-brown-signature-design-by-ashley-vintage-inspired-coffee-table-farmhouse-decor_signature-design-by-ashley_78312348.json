@@ -1,0 +1,25 @@
+{
+  "tcin": "78312348",
+  "name": "Kettleby Storage Trunk Brown - Signature Design by Ashley: Vintage-Inspired, Coffee Table, Farmhouse Decor",
+  "brand": "Signature Design by Ashley",
+  "price": "$355.99",
+  "currency": "USD",
+  "description": "Wooden it be nice? This vintage-inspired trunk is the ideal accent piece for your urban oasis, modern farmhouse or contemporary cottage. Need more convincing? This handsome storage piece does double duty as a casually cool coffee table. Signature Design by Ashley is a registered trademark of Ashley Furniture Industries, Inc.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Storage Furniture"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_245d18ec-9035-4f3b-941e-21c803fa7a07",
+  "glb_url": "https://digitalcontent.target.com/vault/1617840000/CLOUD_f32e56d4-1c47-45f2-9cc8-c8ab7501aea9.glb",
+  "product_url": "https://www.target.com/p/-/A-78312348",
+  "color": "Brown",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.882,
+    "width": 0.4801,
+    "depth": 0.4756,
+    "unit": "m",
+    "source": "glb"
+  }
+}

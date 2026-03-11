@@ -1,0 +1,26 @@
+{
+  "tcin": "84592389",
+  "name": "Ellaria Table Lamp (Set of 2) - 31 Inch Height - TBL4300 - Navy Blue - Safavieh",
+  "brand": "Safavieh",
+  "price": "$156.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the striking elegance of the Ellaria table lamp set. Standing at 31 inches, each lamp showcases a sleek navy blue finish that effortlessly complements modern and classic decor styles. Crafted with precision, the body combines 80 percent ceramic and 20 percent iron, delivering an exquisite design that captures attention. The 29.5-inch glass component adds a refined touch, while the E26 socket offers versatile lighting options for your home. Perfect for placing on bedside tables, desks, or living room consoles, these lamps bring a sophisticated glow to any setting. Elevate your interior with this set of two lamps, where functionality meets stylish design.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_559cfed9-039a-4a56-b612-b7a123896291",
+  "glb_url": "https://digitalcontent.target.com/vault/1764115200/CLOUD_7ce69496-2af4-4200-b9bc-a2188c3c66dc.glb",
+  "product_url": "https://www.target.com/p/-/A-84592389",
+  "dimensions": {
+    "height": 0.789,
+    "width": 0.3705,
+    "depth": 0.3705,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Navy Blue",
+  "color_source": "parsed"
+}

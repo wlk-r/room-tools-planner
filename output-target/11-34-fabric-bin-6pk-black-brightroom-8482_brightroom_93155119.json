@@ -1,0 +1,25 @@
+{
+  "tcin": "93155119",
+  "name": "11&#34; Fabric Bin 6pk - Black - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Keep clutter out of sight with the help of this 6-Pack of 11-Inch Fabric Bins from Brightroom™. This pack includes six fabric bins, each designed in rectangular silhouettes for stashing anything from everyday utilities, small stationery items, books, craft supplies and more. A wide open-top design allows easy access to the contents, and a side pull-on tab on each bin makes pulling or carrying easy. Best of all, the solid black hue is sure to complement a variety of decor styles. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Storage Bins & Boxes"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2d5bedcb-84d1-49d6-bbba-637436d1df78",
+  "glb_url": "https://digitalcontent.target.com/vault/1751932800/CLOUD_f2801307-8240-4293-bd02-eec25e36171b.glb",
+  "product_url": "https://www.target.com/p/-/A-93155119",
+  "dimensions": {
+    "height": 0.2794,
+    "width": 0.2667,
+    "depth": 0.2667,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "91119381",
+  "name": "Torence Table Lamp - 17.5 Inch Height - TBL4088 - Gold - Safavieh",
+  "brand": "Safavieh",
+  "price": "$56.99",
+  "currency": "USD",
+  "description": "Introducing the Torrence Table Lamp in Plated Gold, a striking addition to any room. Its gold hue exudes a sense of luxury, bringing warmth and elegance to your space. The lamp's design seamlessly blends modern aesthetics with timeless appeal, making it a versatile choice for both contemporary and traditional decor.\n\nCrafted with attention to detail, this lamp not only illuminates but also enhances the overall ambiance of your home. Its sleek form and polished finish make it a standout piece, whether placed on a bedside table, living room, or office desk.\n\nLet the Torrence Table Lamp be the centerpiece that transforms your space, offering a cozy and inviting atmosphere. Illuminate your surroundings with style and sophistication. Embrace the charm of gold and let this lamp add a touch of elegance to your daily life.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3a372375-1e0f-485a-9209-feada237cb8a",
+  "glb_url": "https://digitalcontent.target.com/vault/1771545600/CLOUD_d02afe92-75e9-4d03-8f07-a6f2c2cd16b6.glb",
+  "product_url": "https://www.target.com/p/-/A-91119381",
+  "color": "Gold",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4445,
+    "width": 0.254,
+    "depth": 0.254,
+    "unit": "m",
+    "source": "glb"
+  }
+}

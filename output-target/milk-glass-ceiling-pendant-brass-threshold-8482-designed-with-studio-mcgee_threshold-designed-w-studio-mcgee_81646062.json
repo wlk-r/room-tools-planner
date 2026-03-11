@@ -1,0 +1,27 @@
+{
+  "tcin": "81646062",
+  "name": "Milk Glass Ceiling Pendant Brass - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$105.00",
+  "currency": "USD",
+  "description": "Give your indoor space a cozy, inviting vibe with this Milk Glass Ceiling Pendant from Threshold™ designed with Studio McGee. Sleek and streamlined, this ceiling pendant features a milk glass shade attached to a steel body to bring a dash of modern style as it shines a light down on your space. Hang it over your dining area to direct concentrated light, or in the entryway for a functional and stylish lighting solution that's easy to match with an array of decor styles.<br /><br />Meet Shea McGee, the designer and stylist behind the brand Studio McGee. Founded alongside her husband, Syd, the studio is known for Shea’s design of beautifully elevated spaces that encourage clients to surround themselves with the things and people they love. Now she’s partnering with Threshold to offer Studio McGee’s classic design in a new collection for inspired homes, everywhere.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Ceiling Lights",
+    "Pendant Lighting"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b1a03ce9-c838-4de1-b7b7-69e1cdde7f12",
+  "glb_url": "https://digitalcontent.target.com/vault/1626652800/CLOUD_b06dd61d-6906-4d8d-a23e-a52ad0445db8.glb",
+  "product_url": "https://www.target.com/p/-/A-81646062",
+  "color": "Brass",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 2.9464,
+    "width": 0.4064,
+    "depth": 0.4064,
+    "unit": "m",
+    "source": "glb"
+  }
+}

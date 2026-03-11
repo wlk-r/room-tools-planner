@@ -1,0 +1,24 @@
+{
+  "tcin": "76440196",
+  "name": "Bedtime Originals Lamp with Shade &#38; Bulb (Includes CFL Light Bulb) - Rainbow Unicorn",
+  "brand": "Bedtime Originals",
+  "price": "$64.99",
+  "currency": "USD",
+  "description": "Add a soft glow to your child’s room with this adorable resin 2-dimensional Rainbow Unicorn lamp and shade.  Pearl, our sweet little unicorn is white with a pink mane, gold metallic hoofs and horn and is sitting on a pretty pink base.  The approximate height of the lamp and shade is 11”.  The lamp shade is on a white ground with pink, lavender, and gold stars.  A long-lasting energy efficient light bulb is included.  It is a 5-watt LED bulb equivalent to a 40-watt incandescent bulb.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_5cee9d02-6ebb-417d-aaa9-d6a693091842",
+  "glb_url": "https://digitalcontent.target.com/vault/1763078400/CLOUD_325d0f68-b290-4614-aa84-a61ffca2ed59.glb",
+  "product_url": "https://www.target.com/p/-/A-76440196",
+  "dimensions": {
+    "height": 0.362,
+    "width": 0.1785,
+    "depth": 0.1785,
+    "unit": "m",
+    "source": "glb"
+  }
+}

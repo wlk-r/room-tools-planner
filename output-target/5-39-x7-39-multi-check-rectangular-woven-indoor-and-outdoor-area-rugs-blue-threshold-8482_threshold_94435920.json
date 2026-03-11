@@ -1,0 +1,26 @@
+{
+  "tcin": "94435920",
+  "name": "5&#39;x7&#39; Multi Check Rectangular Woven Indoor and Outdoor Area Rugs Blue - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$70.00",
+  "currency": "USD",
+  "description": "Transform your indoor or outdoor decor with this Multi Check Rectangular Woven Area Rug from Threshold™. This rug features a multicolor pattern of assorted-size checks in brown, off-white, light blue and dark blue, adding a modern pop of color and style to your flooring. Designed with a flat-pile construction, it’s a great choice for high-traffic areas. Plus, it can be easily cleaned with a hose for effortless upkeep.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Area Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_397b88b1-2c33-4cee-9b8b-c6f6fe12302d",
+  "glb_url": "https://digitalcontent.target.com/vault/1767744000/CLOUD_8c5cb772-75e5-4ba6-88b1-3a703011f7ea.glb",
+  "product_url": "https://www.target.com/p/-/A-94435920",
+  "dimensions": {
+    "height": 2.1352,
+    "width": 1.5247,
+    "depth": 0.0058,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

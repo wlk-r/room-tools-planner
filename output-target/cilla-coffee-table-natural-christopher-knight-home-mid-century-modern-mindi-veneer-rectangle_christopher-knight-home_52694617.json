@@ -1,0 +1,25 @@
+{
+  "tcin": "52694617",
+  "name": "Cilla Coffee Table - Natural - Christopher Knight Home: Mid Century Modern, Mindi Veneer, Rectangle",
+  "brand": "Christopher Knight Home",
+  "price": "$88.99",
+  "currency": "USD",
+  "description": "This mid century modern Christopher Knight Home Cilla Coffee Table is the perfect addition to your home. Ideal for tying together your mid century modern furniture across multiple rooms, or as your only mid century modern piece, this coffee table is great for any room. The mindi veneer adds the perfect finish for this table, giving you a smooth surface for your coffee table. Spruce up your living room by adding this mid century modern Christopher Knight Home Cilla Coffee Table.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Coffee Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_37229194-e8eb-4853-ba28-aead29325ef1",
+  "glb_url": "https://digitalcontent.target.com/vault/1629849600/CLOUD_9c6d4715-b169-4e7a-a8c2-fab336dc3c71.glb",
+  "product_url": "https://www.target.com/p/-/A-52694617",
+  "dimensions": {
+    "height": 1.0037,
+    "width": 0.6027,
+    "depth": 0.4649,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Natural",
+  "color_source": "parsed"
+}

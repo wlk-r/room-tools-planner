@@ -1,0 +1,26 @@
+{
+  "tcin": "90594342",
+  "name": "Fowley Table Lamp W/ USB Port - 18.75 Inch Height - TBL4461 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$51.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the sleek and stylish Fowley table lamp. At 18.75 inches tall, this lamp is the perfect addition to any corner, offering both functionality and elegance. Its black iron finish adds a touch of modern sophistication, seamlessly blending into any decor style.\n\nThe Fowley table lamp is more than just a source of light; its integrated USB port provides the convenience of charging your devices right at your fingertips. Whether placed on a nightstand, desk, or side table, it combines practicality with a minimalist aesthetic that is sure to complement any room.\n\nDesigned with care, the Fowley table lamp stands out with its clean lines and sturdy construction. The iron material enhances its robust yet refined look, making it an ideal choice for any setting. Add the Fowley to your home or office and enjoy both form and function in one elegant package.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_deb3c16c-4ada-44aa-a1a1-aec416f7cc95",
+  "glb_url": "https://digitalcontent.target.com/vault/1769126400/CLOUD_e15375e1-7644-4bde-8d18-de380e60e395.glb",
+  "product_url": "https://www.target.com/p/-/A-90594342",
+  "dimensions": {
+    "height": 0.4763,
+    "width": 0.2032,
+    "depth": 0.2032,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

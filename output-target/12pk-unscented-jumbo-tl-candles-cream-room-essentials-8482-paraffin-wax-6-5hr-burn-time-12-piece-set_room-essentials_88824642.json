@@ -1,0 +1,26 @@
+{
+  "tcin": "88824642",
+  "name": "12pk Unscented Jumbo TL Candles Cream - Room Essentials&#8482;: Paraffin Wax, 6.5hr Burn Time, 12 Piece Set",
+  "brand": "Room Essentials",
+  "price": "$10.00",
+  "currency": "USD",
+  "description": "Create an illuminated ambiance with the 12pk Fragrance Free Jumbo TL Candles Cream from Room Essentials™. These little unscented candles bring a subtle, soft brightness to any setting. Crafted from paraffin wax, each candle is made with a single wick for an approximate burn time of 6.5 hours. With a dozen in each pack, you'll have plenty of light to spread around to create a cozy atmosphere for a romantic dinner or lounging in.<br /><br />Room Essentials™: Everyday value.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Candles & Home Fragrances",
+    "Candles"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_dfcfa3f7-5d1f-43fd-a361-f6cbacc6a180",
+  "glb_url": "https://digitalcontent.target.com/vault/1723766400/CLOUD_6e9ce168-e143-49e6-b3b2-149a74592ead.glb",
+  "product_url": "https://www.target.com/p/-/A-88824642",
+  "dimensions": {
+    "height": 0.1146,
+    "width": 0.1145,
+    "depth": 0.0579,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Cream",
+  "color_source": "parsed"
+}

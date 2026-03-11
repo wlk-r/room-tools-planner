@@ -1,0 +1,25 @@
+{
+  "tcin": "80432211",
+  "name": "4&#34; x 6&#34; Global Diamond Table Frame Natural/White - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$8.00",
+  "currency": "USD",
+  "description": "Frame your special memories in this Global Diamond Table Frame from Threshold™. The outer frame is a natural wood finish with debossed geometric patterns that add a new dimension to your framed picture. The rectangular photo frame comes with an easel back that enables easy vertical or horizontal display, and the glass front helps protect your photo from dust, dampness and damage. Place it on your console table or bedside table to add a personal touch to your best moments.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Picture Frames"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_dbe48839-9187-4588-a99a-8d4c73677e92",
+  "glb_url": "https://digitalcontent.target.com/vault/1610323200/CLOUD_1f6195dd-4de1-4f1b-bf76-490ae57c2024.glb",
+  "product_url": "https://www.target.com/p/-/A-80432211",
+  "dimensions": {
+    "height": 0.1963,
+    "width": 0.1455,
+    "depth": 0.1087,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Natural/White",
+  "color_source": "parsed"
+}

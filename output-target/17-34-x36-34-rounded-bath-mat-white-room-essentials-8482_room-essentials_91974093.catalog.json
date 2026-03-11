@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "91974093",
+      "name": "17&#34;x36&#34; Rounded Bath Mat White - Room Essentials&#8482;",
+      "color": "White"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "91974093",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "textured"
+      ]
+    }
+  ]
+}

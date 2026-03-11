@@ -1,0 +1,24 @@
+{
+  "tcin": "81488773",
+  "name": "Disney Baby Mickey Mouse Hello World Appliqued Throw Pillow - Navy/Gray/White",
+  "brand": "Disney",
+  "price": "$35.99",
+  "currency": "USD",
+  "description": "Mickey Mouse Hello World - Plush Decorative Pillow with message saying \"Imagination Makes Dreams Come True\". Complete the look of your Mickey Mouse nursery with this classic decorative pillow. Toss on a bed or rocker as a stylish accent. Our favorite Mickey Mouse peeking over the edge with a big \"Hello\"  in shades of navy, gray, white and black. The back of the pillow is a playful navy and white Mickey all-over print. This pillow measures 15\" x 15\" x 4\".",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Bedding",
+    "Kids’ Decorative Pillows"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a918ebe5-9212-4a88-adb3-22b0e7f5fa49",
+  "glb_url": "https://digitalcontent.target.com/vault/1617753600/CLOUD_ce7de995-da0c-4d5c-a10b-6cfe09374532.glb",
+  "product_url": "https://www.target.com/p/-/A-81488773",
+  "dimensions": {
+    "height": 0.381,
+    "width": 0.381,
+    "depth": 0.1524,
+    "unit": "m",
+    "source": "glb"
+  }
+}

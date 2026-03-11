@@ -1,0 +1,26 @@
+{
+  "tcin": "94257303",
+  "name": "5&#39;x7&#39; Handtufted Persian Area Rug Blue - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$200.00",
+  "currency": "USD",
+  "description": "Bring textural flair to your indoor setting with this Handtufted Persian Area Rug from Threshold™. This rectangular handtufted area rug showcases a Persian pattern on a blue backdrop for a timeless look that blends well with any decor aesthetic. Featuring a hooked wool construction for soft underfoot comfort, the medium-pile are rug is ideal for use in a variety of areas within your home.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Area Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0db006d2-7e06-4c8f-a58c-3510df98122c",
+  "glb_url": "https://digitalcontent.target.com/vault/1754870400/CLOUD_b23be237-0b98-4515-adec-8ea1204accda.glb",
+  "product_url": "https://www.target.com/p/-/A-94257303",
+  "dimensions": {
+    "height": 2.1352,
+    "width": 1.5257,
+    "depth": 0.0058,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

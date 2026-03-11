@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "83977716",
+      "name": "15oz Stoneware Hello Gorgeous Mug - Threshold&#8482;: Traditional White Coffee Mug, Dishwasher &#38; Microwave Safe, 1 Piece",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "83977716",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "tabletop",
+        "decor"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "casual",
+        "warm"
+      ]
+    }
+  ]
+}

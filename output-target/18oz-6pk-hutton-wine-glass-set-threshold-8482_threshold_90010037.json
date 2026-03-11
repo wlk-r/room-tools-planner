@@ -1,0 +1,23 @@
+{
+  "tcin": "90010037",
+  "name": "18oz 6pk Hutton Wine Glass Set - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$19.00",
+  "currency": "USD",
+  "description": "Relish the exquisite taste of your favorite wines with this 6-Pack Hutton Wine Glass Set from Threshold™. This pack includes six transparent clear wine glasses that beautifully showcase the color of your drinks. Designed with an 18-ounce capacity, these wine glasses are dishwasher safe for easy cleaning.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Wine Glasses"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_60b3853e-df37-4513-bef9-2e4afe0bc065",
+  "glb_url": "https://digitalcontent.target.com/vault/1721692800/CLOUD_b98436a9-85f9-4cd8-8a28-a68166ae9d3c.glb",
+  "product_url": "https://www.target.com/p/-/A-90010037",
+  "dimensions": {
+    "height": 0.2251,
+    "width": 0.0939,
+    "depth": 0.0939,
+    "unit": "m",
+    "source": "glb"
+  }
+}

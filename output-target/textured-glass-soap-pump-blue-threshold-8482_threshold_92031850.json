@@ -1,0 +1,25 @@
+{
+  "tcin": "92031850",
+  "name": "Textured Glass Soap Pump Blue - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$13.00",
+  "currency": "USD",
+  "description": "Add a luxurious and functional touch to your bathroom with this Textured Glass Soap Pump from Threshold™. Made of glass, this soap pump features a gold-tone base and dispenser for elegant charm, while the bubble-like raised design adds an aquatic touch. Compatible with lotions and liquid soaps, this 9.8-fluid-ounce soap pump in blue is a must-have addition to your bathroom. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_334b5cef-86d6-486c-9947-b2d3d70bb3ea",
+  "glb_url": "https://digitalcontent.target.com/vault/1749427200/CLOUD_ce7b153e-836d-46bf-9bf4-07b308b3d5c0.glb",
+  "product_url": "https://www.target.com/p/-/A-92031850",
+  "color": "Blue",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.1807,
+    "width": 0.089,
+    "depth": 0.0756,
+    "unit": "m",
+    "source": "glb"
+  }
+}

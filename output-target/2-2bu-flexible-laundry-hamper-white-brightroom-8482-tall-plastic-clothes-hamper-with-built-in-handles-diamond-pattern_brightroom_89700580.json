@@ -1,0 +1,26 @@
+{
+  "tcin": "89700580",
+  "name": "2.2bu Flexible Laundry Hamper White - Brightroom&#8482;: Tall Plastic Clothes Hamper with Built-In Handles, Diamond Pattern",
+  "brand": "Brightroom",
+  "price": "$8.00",
+  "currency": "USD",
+  "description": "Make laundry day as easy as can be with this Flexible Laundry Hamper from Brightroom™. Designed in a cylindrical shape, this laundry hamper showcases a deep design with an open top for convenient sorting and removal of laundry, and it has two side cutout handles for easy carrying around the house. Featuring diamond cutout holes for ventilation, it's designed a solid white hue for minimalist style.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Laundry Room Organization",
+    "Hampers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0cf51d29-cf77-4e63-8e9a-c6ad6ee01ab4",
+  "glb_url": "https://digitalcontent.target.com/vault/1726012800/CLOUD_5884a9eb-1dec-4a1e-9e31-232c7550c591.glb",
+  "product_url": "https://www.target.com/p/-/A-89700580",
+  "dimensions": {
+    "height": 0.6393,
+    "width": 0.4394,
+    "depth": 0.4369,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

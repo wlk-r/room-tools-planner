@@ -1,0 +1,24 @@
+{
+  "tcin": "86858912",
+  "name": "Blue Whale Security Blanket - S - Cloud Island&#8482;",
+  "brand": "Cloud Island",
+  "price": "$9.99",
+  "currency": "USD",
+  "description": "This Whale Crib Toy Security Blanket from cloud island™ is sure to be your little one's over-whale-mingly cute buddy to snuggle up with. Made of soft, fuzzy fabric, this white security blanket is designed in handkerchief style with light blue satin trim. Thanks to the soft blue whale attached to the top, your munchkin will be drawn to it right away. Perfectly sized for stroller rides and car trips, it makes a warm and cuddly companion to keep your child company while they play and beyond.<br /><br />cloud island™: Designed with love. Made without compromise.",
+  "categories": [
+    "Baby",
+    "Nursery",
+    "Baby Bedding",
+    "Baby Blankets & Quilts"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3cdee4af-a415-4ac2-b4e9-e17256a3a8e6",
+  "glb_url": "https://digitalcontent.target.com/vault/1678406400/CLOUD_3c865dbd-7730-406b-9439-d8cbdd86b36b.glb",
+  "product_url": "https://www.target.com/p/-/A-86858912",
+  "dimensions": {
+    "height": 0.2878,
+    "width": 0.2464,
+    "depth": 0.0762,
+    "unit": "m",
+    "source": "glb"
+  }
+}

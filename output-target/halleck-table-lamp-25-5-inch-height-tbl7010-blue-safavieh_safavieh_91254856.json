@@ -1,0 +1,26 @@
+{
+  "tcin": "91254856",
+  "name": "Halleck Table Lamp - 25.5 Inch Height - TBL7010 - Blue - Safavieh",
+  "brand": "Safavieh",
+  "price": "$91.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Halleck 25.5 inch blue ceramic table lamp. Perfect for adding a touch of sophistication, this lamp combines classic design with modern flair. The rich blue ceramic base brings a bold yet elegant statement to any room, seamlessly blending with various decor styles. Standing at 25.5 inches, it is the ideal height for side tables or nightstands, providing ample lighting for reading or relaxation.\n\nCrafted with care from ceramic, this lamp exudes timeless appeal and charm. Its smooth, glossy finish highlights the graceful curves of the design while the complementary lampshade softens the light for a warm, inviting glow. Whether you're updating a living room, bedroom, or office, the Halleck lamp enhances the ambiance with its artistic presence. Brighten up your home and redefine your decor effortlessly with this stunning table lamp, a piece that truly transforms any space into a stylish and cozy retreat.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_ee82f1d2-e212-451f-b2ed-3f0feabd82b8",
+  "glb_url": "https://digitalcontent.target.com/vault/1770595200/CLOUD_c794201c-cc47-4182-9e86-d5fad1d183ae.glb",
+  "product_url": "https://www.target.com/p/-/A-91254856",
+  "dimensions": {
+    "height": 0.6477,
+    "width": 0.3556,
+    "depth": 0.3556,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

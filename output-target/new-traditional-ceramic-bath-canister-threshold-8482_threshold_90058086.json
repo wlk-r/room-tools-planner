@@ -1,0 +1,23 @@
+{
+  "tcin": "90058086",
+  "name": "New Traditional Ceramic Bath Canister - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$13.00",
+  "currency": "USD",
+  "description": "Whether you're setting up a new bathroom or revamping an old one, you'll love adding the New Traditional Ceramic Bath Canister from Threshold™. This bath canister is designed in a jar-like shape with a lid to help keep your bath essentials neatly organized and contained. Made of ceramic, it makes a practical and stylish addition to your bath space. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b375c42f-affa-4349-ba24-5db694f5a1fd",
+  "glb_url": "https://digitalcontent.target.com/vault/1734566400/CLOUD_204faaa6-b618-4217-87b3-2d527013922b.glb",
+  "product_url": "https://www.target.com/p/-/A-90058086",
+  "dimensions": {
+    "height": 0.0978,
+    "width": 0.0978,
+    "depth": 0.0978,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "tcin": "84838369",
+  "name": "KitchenAid K400 Blender with Glass Jar - Hearth &#38; Hand&#8482; with Magnolia - KSB4026TPP: 5 Speeds, 1200W, Dishwasher-Safe",
+  "brand": "KitchenAid",
+  "price": "$299.99",
+  "currency": "USD",
+  "description": "Introducing the KitchenAid® K400 Blender with Glass Jar in Pebbled Palm, made by KitchenAid in partnership with Hearth & Hand™. The performance to deliver the perfect taste for every blend. The K400 variable speed blender's 3-part blending system easily blends even the toughest ingredients for a consistent texture. The ribbed jar design creates a powerful vortex, pulling ingredients into the unique asymmetric blade that cuts at four distinct angles, ensuring your ingredients are thoroughly blended. The Intelli-Speed® Motor Control then senses contents and maintains the optimal speed to power through all ingredients, from kale to almonds and more. Whether you're creating fruit smoothies or prepping a fresh marinade for a dinner party, control the taste and texture of your blends with the 5-speed variable speed dial, or use the 3 Preset Recipe Programs: Ice Crush, Icy Drinks, and Smoothie. Experience the power of the K400 for yourself under our 90-Day Money-Back Guarantee1*. *Receipt required. Visit www.kitchenaid.com/guarantee for terms and conditions.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen Appliances",
+    "Blenders"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_ca897132-f90c-4eee-8894-dd9371682a03",
+  "glb_url": "https://digitalcontent.target.com/vault/1669161600/CLOUD_147909d6-327c-4b21-baff-a96e9e05dd9a.glb",
+  "product_url": "https://www.target.com/p/-/A-84838369",
+  "dimensions": {
+    "height": 0.3937,
+    "width": 0.2291,
+    "depth": 0.1928,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "88657000",
+  "name": "Modern Textured Ceramic Round Vase White - Threshold&#8482;: Elegant Bud Vase for Tabletop, Spot Clean, 7.75&#34; Height",
+  "brand": "Threshold",
+  "price": "$20.00",
+  "currency": "USD",
+  "description": "Elevate any table display with this Ceramic Round Textured Vase from Threshold™. This round ceramic vase features a white textured finish to easily coordinate with any decor. The small round neck makes it perfect for displaying a few real or artificial blooms or dried stems. Set it atop your mantelpiece, console table, sideboard or shelf with other accent pieces to decorate your space.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Decorative Objects",
+    "Vases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e3852e62-4d4f-49ee-a96a-27161a99e87f",
+  "glb_url": "https://digitalcontent.target.com/vault/1698883200/CLOUD_422576db-06a3-4c8e-a10d-ffc47c527182.glb",
+  "product_url": "https://www.target.com/p/-/A-88657000",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.2032,
+    "width": 0.2032,
+    "depth": 0.1905,
+    "unit": "m",
+    "source": "glb"
+  }
+}

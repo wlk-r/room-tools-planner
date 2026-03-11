@@ -1,0 +1,25 @@
+{
+  "tcin": "54461417",
+  "name": "Wynnlow Two Drawer Nightstand Gray - Signature Design by Ashley: Modern Rustic, Metal Glides, USB Port, Distressed Finish",
+  "brand": "Signature Design by Ashley",
+  "price": "$199.99",
+  "currency": "USD",
+  "description": "This nightstand is sure to win your heart with its daring designer take on modern rustic. The nightstand's crisp, clean and minimalist-chic profile is enriched with a striking replicated oak grain with thick plank styling and a weathered gray finish for that much more authentic character. Large-scale hooded pulls gracing the flush-mount drawers add such a distinctive twist. Dual USB charger is discreetly placed and mighty handy. Signature Design by Ashley is a registered trademark of Ashley Furniture Industries, Inc.",
+  "categories": [
+    "Furniture",
+    "Bedroom Furniture",
+    "Nightstands"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a56b0342-1591-4d14-9419-bfcefbfd3c8a",
+  "glb_url": "https://digitalcontent.target.com/vault/1620000000/CLOUD_eff17c00-0ff3-4636-8313-ce9b17d662a1.glb",
+  "product_url": "https://www.target.com/p/-/A-54461417",
+  "color": "Gray",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6211,
+    "width": 0.6029,
+    "depth": 0.4126,
+    "unit": "m",
+    "source": "glb"
+  }
+}

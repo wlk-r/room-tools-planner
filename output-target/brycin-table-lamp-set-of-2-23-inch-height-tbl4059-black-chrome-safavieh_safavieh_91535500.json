@@ -1,0 +1,26 @@
+{
+  "tcin": "91535500",
+  "name": "Brycin Table Lamp (Set of 2) - 23 Inch Height - TBL4059 - Black/Chrome - Safavieh",
+  "brand": "Safavieh",
+  "price": "$226.99",
+  "currency": "USD",
+  "description": "Elevate your living space with the BRYCIN table lamp set. Standing at 23 inches tall, these lamps come in a striking black and chrome finish that suits any decor. Crafted from sturdy metal, they bring a sleek touch to both modern and classic interiors. Whether placed in the living room or bedroom, their presence is sure to enhance the ambiance. The combination of black and chrome provides a chic contrast, making them a versatile addition to your home. Illuminate your surroundings with style and refine the atmosphere of any room with these elegant lamps. Perfect for those who appreciate the fusion of minimalism and sophistication, the BRYCIN lamp set is not just lighting but a statement piece.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d969fce5-797c-49b3-b69f-553456ce135a",
+  "glb_url": "https://digitalcontent.target.com/vault/1770336000/CLOUD_48e7868e-64c5-4501-b1f2-b9b44eebace0.glb",
+  "product_url": "https://www.target.com/p/-/A-91535500",
+  "dimensions": {
+    "height": 0.5842,
+    "width": 0.4064,
+    "depth": 0.4064,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black/Chrome",
+  "color_source": "parsed"
+}

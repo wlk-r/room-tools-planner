@@ -1,0 +1,25 @@
+{
+  "tcin": "87389894",
+  "name": "Ribbed Glass Pitcher Clear - Threshold&#8482;: 40.5oz Dishwasher-Safe Beverage Server for Hot/Cold Drinks",
+  "brand": "Threshold",
+  "price": "$15.00",
+  "currency": "USD",
+  "description": "Offer refreshments to your guests with this Ribbed Glass Pitcher from Threshold™. This clear glass pitcher is great for everyday use or entertaining. Designed with an angular spout for easy pouring and a side handle, it features a ribbed design for a textured look. With a capacity of 40.5 ounces, this glass beverage container is perfect for serving juice, water, ice tea and hot beverages in style. Plus, it's safe to put in the dishwasher for easy cleaning<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Serveware",
+    "Pitchers & Carafes"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0f507060-2bbe-4b1b-95ba-f9c6a6a32254",
+  "glb_url": "https://digitalcontent.target.com/vault/1685318400/CLOUD_4d71a35f-16f5-4693-8342-0348d7ca37e6.glb",
+  "product_url": "https://www.target.com/p/-/A-87389894",
+  "color": "Clear",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.237,
+    "width": 0.1524,
+    "depth": 0.1016,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "94877692",
+  "name": "Ceramic Speckled Table Lamp White - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$105.00",
+  "currency": "USD",
+  "description": "Elevate your lighting with this Ceramic Speckled Table Lamp from Threshold™ designed with Studio McGee. Standing 24.5 inches high, this elegant table lamp features a white fabric drum shade atop a white speckled ceramic base in a graceful gourd shape. The convenient lamp pole rotary dimmer switch offers three-way light settings — low, medium and high — to create the perfect ambiance for any occasion, and the five-foot cord offers flexible placement. <br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_97f2d513-2144-43d8-8098-d534a25c7ad8",
+  "glb_url": "https://digitalcontent.target.com/vault/1766448000/CLOUD_86d31440-f4e3-425e-9ee6-3dfcb05589c2.glb",
+  "product_url": "https://www.target.com/p/-/A-94877692",
+  "dimensions": {
+    "height": 0.6488,
+    "width": 0.4068,
+    "depth": 0.4064,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

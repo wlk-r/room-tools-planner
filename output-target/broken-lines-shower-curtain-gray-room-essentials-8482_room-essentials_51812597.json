@@ -1,0 +1,26 @@
+{
+  "tcin": "51812597",
+  "name": "Broken Lines Shower Curtain Gray - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$9.00",
+  "currency": "USD",
+  "description": "The Broken Lines Shower Curtain from Room Essentials™ is the perfect decorative and functional piece for your bathroom. Sporting a neutral color palette that's easy to match with your existing decor, this printed shower curtain showcases an exciting display of broken lines that form various geometric patterns for stylish flair. The decorative shower curtain boasts a lightweight construction that's enhanced with waterproof qualities, making it effective in protecting your bathroom floor and keeping the water in the shower. Plus, it has a buttonhole top for easy installation.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Shower Curtains & Accessories",
+    "Shower Curtains"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_34bbcffe-eced-44cc-aa43-c5b19e0d6183",
+  "glb_url": "https://digitalcontent.target.com/vault/1647993600/CLOUD_f01661ea-5501-4b93-97eb-4cf579da1c13.glb",
+  "product_url": "https://www.target.com/p/-/A-51812597",
+  "dimensions": {
+    "height": 3.2827,
+    "width": 1.8288,
+    "depth": 1.8123,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

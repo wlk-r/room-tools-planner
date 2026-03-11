@@ -1,0 +1,26 @@
+{
+  "tcin": "87646704",
+  "name": "Ribbed Bath Tray White - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$8.00",
+  "currency": "USD",
+  "description": "Say goodbye to bathroom counter clutter with this Ribbed Bath Tray from Room Essentials™. Designed in a rectangular silhouette, this resin tray features raised edges that help keep small vanity items or bottles contained. Featuring an off-white hue and showcasing a ribbed finish on the sides, it's sure to bring sleek style to your bathroom decor. <br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Beauty",
+    "Hair Care",
+    "Hair Tools",
+    "Bathroom Storage & Hair Tool Organizers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_60f24702-64d0-41b9-b670-04973c26e114",
+  "glb_url": "https://digitalcontent.target.com/vault/1701043200/CLOUD_edeeb3f0-a190-47bf-97f3-94ac8e0b326f.glb",
+  "product_url": "https://www.target.com/p/-/A-87646704",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.2141,
+    "width": 0.1204,
+    "depth": 0.03,
+    "unit": "m",
+    "source": "glb"
+  }
+}

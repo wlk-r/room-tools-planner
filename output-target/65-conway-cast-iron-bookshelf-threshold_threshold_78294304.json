@@ -1,0 +1,23 @@
+{
+  "tcin": "78294304",
+  "name": "65\" Conway Cast Iron Bookshelf - Threshold™",
+  "brand": "Threshold",
+  "price": "$200.00",
+  "currency": "USD",
+  "description": "Rustic charm and industrial flair dominate this impressive Conway Cast Iron Bookcase from Threshold™. Crafted from a sturdy metal frame, this four-tiered tower bookcase lends form and functionality to your space, all in one go. The open-style design offers an airy appeal while displaying your books and collectibles to advantage. The centered X-accent at back adds functional flair to the whole, preventing books or essentials from spilling over. Wide wooden shelves provide ample storage space and can house anything — from books to media essentials and memorabilia — leaving your space neatly organized and clutter-free. Pop a lush green plant atop for a refreshing splash of greenery.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Home Office Furniture",
+    "Bookshelves & Bookcases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d0349aaa-50b6-4397-96be-2b7cd720995a",
+  "glb_url": "https://digitalcontent.target.com/vault/1621209600/CLOUD_0dae5618-07f3-4360-87b2-f05a583d879a.glb",
+  "product_url": "https://www.target.com/p/-/A-78294304",
+  "dimensions": {
+    "height": 1.651,
+    "width": 0.762,
+    "depth": 0.381,
+    "unit": "m",
+    "source": "glb"
+  }
+}

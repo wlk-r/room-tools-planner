@@ -1,0 +1,26 @@
+{
+  "tcin": "90594373",
+  "name": "Harlan Table Lamp - 22.75 Inch Height - TBL4184 - Bronze - Safavieh",
+  "brand": "Safavieh",
+  "price": "$82.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the HARLAN table lamp, an elegant addition that brings both style and function to any room. Standing at 22.75 inches, this lamp features a striking bronze finish that complements a variety of decor styles, from modern to classic. Crafted from sturdy iron, it combines durability with a sleek, contemporary design. The lamp's sophisticated presence makes it a perfect choice for your living room, bedroom, or office, offering a warm and inviting glow. Its minimalist silhouette and tasteful color ensure it seamlessly fits into any setting. Transform your environment with the HARLAN table lamp, where form meets function in a versatile masterpiece.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_24229347-3fcd-40c7-9571-46e7f4be9614",
+  "glb_url": "https://digitalcontent.target.com/vault/1769990400/CLOUD_6ba61e9f-c8a0-46f7-892a-496cea12eb81.glb",
+  "product_url": "https://www.target.com/p/-/A-90594373",
+  "dimensions": {
+    "height": 0.5778,
+    "width": 0.3556,
+    "depth": 0.2032,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Bronze",
+  "color_source": "parsed"
+}

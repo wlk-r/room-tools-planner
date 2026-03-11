@@ -1,0 +1,26 @@
+{
+  "tcin": "1002876337",
+  "name": "Jace Rechargeable Table Lamp - 13 Inch Height - TBL4614 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$68.99",
+  "currency": "USD",
+  "description": "Introducing the Jace 13 inch black metal table lamp, a sleek addition to any space. Crafted with a robust metal body and metal shade, this lamp offers a stylish blend of form and function. The sophisticated black finish complements both modern and traditional decor, making it an ideal choice for any room. Its compact 13 inch stature ensures that it fits perfectly on desks, side tables, or nightstands. Whether you are reading a book, working late into the evening, or simply creating an ambient glow, the Jace metal table lamp provides ample illumination to suit your needs. Its design echoes simplicity and elegance, emphasizing clean lines and understated charm. Elevate your home or office with this versatile lamp, effortlessly enhancing your space with its refined look. Embrace the blend of practicality and style with the Jace table lamp.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_283ab71c-7d61-4ece-b3a3-2e3b52cf650f",
+  "glb_url": "https://digitalcontent.target.com/vault/1763078400/CLOUD_fa0f88dc-e4a3-40b0-9693-d233e10d14de.glb",
+  "product_url": "https://www.target.com/p/-/A-1002876337",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3308,
+    "width": 0.2344,
+    "depth": 0.2344,
+    "unit": "m",
+    "source": "glb"
+  }
+}

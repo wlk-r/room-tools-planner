@@ -1,0 +1,26 @@
+{
+  "tcin": "91119551",
+  "name": "Rain Table Lamp - 18 Inch Height - TBL4523 - Smoke Grey/Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$99.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Rain table lamp. This 18 inch masterpiece in smoke grey and brass combines glass and metal for a look that is both modern and timeless. The subtle smoke grey glass offers a soft, diffused glow, while the brass base adds a touch of elegance to any room. Perfect for your living room, bedroom, or office, this lamp serves both as a functional piece and a stylish decor element. Its harmonious design complements various interiors, making it a versatile addition to your home. Experience the fusion of form and function with the Rain table lamp and create an inviting ambiance that suits any occasion.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_53a6f34b-b603-47c1-b96a-a0b86faea31a",
+  "glb_url": "https://digitalcontent.target.com/vault/1765411200/CLOUD_3cdb1862-58a5-4915-a147-9bef577c287a.glb",
+  "product_url": "https://www.target.com/p/-/A-91119551",
+  "color": "Grey/Brass",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4587,
+    "width": 0.2502,
+    "depth": 0.2502,
+    "unit": "m",
+    "source": "glb"
+  }
+}

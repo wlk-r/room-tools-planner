@@ -1,0 +1,23 @@
+{
+  "tcin": "92464569",
+  "name": "Non-Slip Rollup Desk Mat Beige/Tan - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$9.00",
+  "currency": "USD",
+  "description": "Enhance the aesthetics and functionality of your workstation with this Rollup Desk Mat from Brightroom™. Designed in a rectangular shape with rounded corners, this desk mat adds a touch of sophistication. The non-slip back provides better traction to keep objects in place, and the gray tone allows it to pair with various decor styles. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Back to School"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e11d386e-509e-4cf6-a6e6-7c053d5983e3",
+  "glb_url": "https://digitalcontent.target.com/vault/1754265600/CLOUD_549b0f6c-8281-44ea-824e-719d29f03934.glb",
+  "product_url": "https://www.target.com/p/-/A-92464569",
+  "color": "Beige/Tan",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6096,
+    "width": 0.3556,
+    "depth": 0.0038,
+    "unit": "m",
+    "source": "glb"
+  }
+}

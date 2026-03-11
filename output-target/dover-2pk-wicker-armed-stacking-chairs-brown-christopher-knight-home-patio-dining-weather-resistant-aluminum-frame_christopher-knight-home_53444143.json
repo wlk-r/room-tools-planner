@@ -1,0 +1,26 @@
+{
+  "tcin": "53444143",
+  "name": "Dover 2pk Wicker Armed Stacking Chairs - Brown - Christopher Knight Home: Patio Dining, Weather-Resistant Aluminum Frame",
+  "brand": "Christopher Knight Home",
+  "price": "$201.99",
+  "currency": "USD",
+  "description": "These Christopher Knight Home Dover 2 Pk Wicker Armed Stacking Chairs are a wonderful way to add extra seating to your patio without taking up all of your space. Made out of top quality wicker wrapped around an aluminum frame for a lightweight weather resistant chair. With the added benefit of being able to store these chairs stacked, you cannot go wrong with these chairs. Add extra seating to your patio with these Christopher Knight Home Dover 2 Pk Wicker Armed Stacking Chairs.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Chairs",
+    "Outdoor Dining Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3d3dd421-6be7-475e-84e9-479161e62cd0",
+  "glb_url": "https://digitalcontent.target.com/vault/1637020800/CLOUD_37d7016b-8633-455f-93fe-0bec8120b512.glb",
+  "product_url": "https://www.target.com/p/-/A-53444143",
+  "dimensions": {
+    "height": 0.8255,
+    "width": 0.6033,
+    "depth": 0.5715,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brown",
+  "color_source": "parsed"
+}

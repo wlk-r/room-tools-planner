@@ -1,0 +1,26 @@
+{
+  "tcin": "83026557",
+  "name": "Glass Patio Side Table - Black - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$40.00",
+  "currency": "USD",
+  "description": "Make a sleek and stylish addition to your patio with this Glass Patio Side Table from Room Essentials™. Showcasing a square glass tabletop, this patio side table is surrounded by a black metal frame for an attractive look that upgrades your space with modern style. Place this metal-frame side table alongside a patio sofa or chair to serve meals or showcase your faux floral arrangements and decorative figurines.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Tables",
+    "Outdoor Accent Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b736c494-25e6-47af-810c-a21f49cb4e1a",
+  "glb_url": "https://digitalcontent.target.com/vault/1632873600/CLOUD_1e58917f-e12c-4b57-9e8e-04449fb19595.glb",
+  "product_url": "https://www.target.com/p/-/A-83026557",
+  "dimensions": {
+    "height": 0.43,
+    "width": 0.4166,
+    "depth": 0.41,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

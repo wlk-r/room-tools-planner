@@ -1,0 +1,26 @@
+{
+  "tcin": "94501754",
+  "name": "Windsor Armless Patio Dining Stacking Chair Black - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$95.00",
+  "currency": "USD",
+  "description": "Sit back and enjoy delicious meals with friends and family with this Windsor Armless Patio Dining Stacking Chair from Threshold™. Crafted from weather- and rust-resistant metal frame to withstand the outdoor elements, this armless dining chair features a seat and fan-like spindle back for a comfortable seating experience. Plus, the stackable design allows them to easily place together when not in use.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Chairs",
+    "Outdoor Dining Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_bcef16da-8bef-4957-bb42-f92c0f8147bd",
+  "glb_url": "https://digitalcontent.target.com/vault/1767744000/CLOUD_fa276920-8579-4630-b650-d683b952db04.glb",
+  "product_url": "https://www.target.com/p/-/A-94501754",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.8688,
+    "width": 0.5884,
+    "depth": 0.5095,
+    "unit": "m",
+    "source": "glb"
+  }
+}

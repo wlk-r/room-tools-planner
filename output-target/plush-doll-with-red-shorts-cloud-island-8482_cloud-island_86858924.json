@@ -1,0 +1,24 @@
+{
+  "tcin": "86858924",
+  "name": "Plush Doll with Red Shorts - Cloud Island&#8482;",
+  "brand": "Cloud Island",
+  "price": "$16.99",
+  "currency": "USD",
+  "description": "Gift your little one a cute partner and bed buddy, the Plush Doll with Red Shorts from cloud island™. This plush doll comes wearing a striped short-sleeve tee and red shorts for an eye-catching look. Soft to cuddle, this doll toy is suggested for ages newborn and above.<br /><br />cloud island™: Designed with love. Made without compromise.",
+  "categories": [
+    "Baby",
+    "Gear & Activity",
+    "Baby Toys",
+    "Soft & Plush Toys"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3f943c88-6377-4ca4-b9ae-02406249432b",
+  "glb_url": "https://digitalcontent.target.com/vault/1677542400/CLOUD_ef4be8ee-1d47-4a53-b9ec-ded0e2465e92.glb",
+  "product_url": "https://www.target.com/p/-/A-86858924",
+  "dimensions": {
+    "height": 0.3302,
+    "width": 0.2159,
+    "depth": 0.0635,
+    "unit": "m",
+    "source": "glb"
+  }
+}

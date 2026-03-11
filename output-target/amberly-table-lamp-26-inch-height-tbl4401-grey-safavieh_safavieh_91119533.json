@@ -1,0 +1,26 @@
+{
+  "tcin": "91119533",
+  "name": "Amberly Table Lamp - 26 Inch Height - TBL4401 - Grey - Safavieh",
+  "brand": "Safavieh",
+  "price": "$67.99",
+  "currency": "USD",
+  "description": "Introducing the Amberly, a 26 inch grey ceramic table lamp that redefines elegance and style. This stunning piece is crafted to seamlessly fit into your living space, offering a subtle glow that enhances any room. Its refined grey hue complements diverse decor themes, making it an ideal choice for both modern and traditional settings. The ceramic construction brings a touch of artistry and sophistication, ensuring the Amberly is not just a lamp, but a statement piece. Whether placed in a living room, bedroom, or office, its sleek design and soft light create a welcoming ambiance. Illuminate your home with the Amberly and experience innovation in lighting.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_029ad9a0-3089-492c-b6d2-2395078e3c92",
+  "glb_url": "https://digitalcontent.target.com/vault/1764115200/CLOUD_3d9620b8-bc1e-4903-b796-4172f875a008.glb",
+  "product_url": "https://www.target.com/p/-/A-91119533",
+  "dimensions": {
+    "height": 0.6669,
+    "width": 0.3556,
+    "depth": 0.3556,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Grey",
+  "color_source": "parsed"
+}

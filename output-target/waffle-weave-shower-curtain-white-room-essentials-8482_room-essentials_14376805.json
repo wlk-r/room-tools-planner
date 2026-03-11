@@ -1,0 +1,26 @@
+{
+  "tcin": "14376805",
+  "name": "Waffle Weave Shower Curtain White - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$15.00",
+  "currency": "USD",
+  "description": "The Solid Shower Curtain from Room Essentials™  will fall gracefully around your bath or shower stall. Featuring dobby construction with a lovely waffle-weave pattern throughout for a touch of subtle texture, this decorative shower curtain is versatile enough to go with any decor style. The machine-washable shower curtain helps prevent water from spilling onto your floors while showering, and it's finished with a buttonhole top that allows for easy installation.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Shower Curtains & Accessories",
+    "Shower Curtains"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d8d657d5-13dc-4e5b-9288-5be165dc9b25",
+  "glb_url": "https://digitalcontent.target.com/vault/1648512000/CLOUD_c724fff5-9b56-411d-9583-a627003edf62.glb",
+  "product_url": "https://www.target.com/p/-/A-14376805",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 3.2827,
+    "width": 1.8288,
+    "depth": 1.8123,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94745087",
+      "name": "18.25 fl oz PolyPro Short Tumbler Transparent Blue - Room Essentials&#8482;",
+      "color": "Blue"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94745087",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "kitchen-accessory"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "clean",
+        "functional"
+      ]
+    }
+  ]
+}

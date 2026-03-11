@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "91190537",
+      "name": "1&#39;8&#34;x2&#39;10&#34; Rectangle Striped Rug - Room Essentials&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "91190537",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile"
+      ],
+      "tags": [
+        "pastel",
+        "striped",
+        "contemporary",
+        "minimal"
+      ]
+    }
+  ]
+}

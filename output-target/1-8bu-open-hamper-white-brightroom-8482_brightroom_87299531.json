@@ -1,0 +1,26 @@
+{
+  "tcin": "87299531",
+  "name": "1.8bu Open Hamper White - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$8.00",
+  "currency": "USD",
+  "description": "The Rectangular Open Hamper features a slim profile and a generous 1.8 bushel capacity, making it an ideal solution for large families looking to save some space. A symmetric rectangular hole pattern throughout the hamper provides ample ventilation for dirty laundry, while a wide opening allows for quick and easy access when loading and unloading clothes. This hamper features two through handles integrated into the reinforced rim that offer a comfortable grip surface for lifting and carrying. Its sleek, rectangular profile takes up minimal floor space, making it ideal for apartments, dorm rooms, or for transporting clothes between locations. The overall assembled dimensions of this item are 20\" L x 13 1/8\" W x 23 1/4\" H.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Laundry Room Organization",
+    "Hampers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3b0541b1-b5a3-4a75-846c-24b0a5fe2d53",
+  "glb_url": "https://digitalcontent.target.com/vault/1689897600/CLOUD_c3275f00-c1de-460d-b84f-f6162f60855f.glb",
+  "product_url": "https://www.target.com/p/-/A-87299531",
+  "dimensions": {
+    "height": 0.5887,
+    "width": 0.5087,
+    "depth": 0.333,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

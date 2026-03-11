@@ -1,0 +1,23 @@
+{
+  "tcin": "94742162",
+  "name": "Cake Pillow - Bullseye&#39;s Playground&#8482;",
+  "brand": "Bullseye's Playground",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Cuddle up with the delightful Cake Pillow from Bullseye's Playground™. With its soft polyester knit cover and whimsical light pink design, this novelty plush pillow adds a fun pop to any room. Its 10x10 size makes it perfect for a cozy accent on your favorite chair or bed. Enjoy its playful shape while resting indoors, and let its cozy polyester fill offer comfort with every touch.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Throw Pillows"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_854af596-aa51-47b2-9796-572856b62707",
+  "glb_url": "https://digitalcontent.target.com/vault/1768348800/CLOUD_9786dbde-0a60-42b5-b33f-c904a529d68d.glb",
+  "product_url": "https://www.target.com/p/-/A-94742162",
+  "dimensions": {
+    "height": 0.254,
+    "width": 0.2463,
+    "depth": 0.1675,
+    "unit": "m",
+    "source": "glb"
+  }
+}

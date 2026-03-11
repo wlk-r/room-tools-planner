@@ -1,0 +1,25 @@
+{
+  "tcin": "80789845",
+  "name": "Zebrina Wood Nightstand with Drawer Natural - Threshold&#8482;: Bohemian Style, Arched Design, Square Shape, Stained Finish",
+  "brand": "Threshold",
+  "price": "$144.00",
+  "currency": "USD",
+  "description": "Add traditional charm to your home with this Zebrina Wood Nightstand with Drawer from Threshold™. This square nightstand showcases a wooden construction in a distressed finish for adding classic appeal to your space. The curved corners add extra style while the built-in drawer and shelf offer ample space for your lamp, books and more.<br /><br />Threshold™: Looks like home, feels like you.<br /><br />Dimensions<br />Overall Height: 23 inches<br />Overall Width: 24 inches<br />Depth of top panel: 15.75 inches<br />Depth of handle: 0.75 inches<br />Width of drawer front panel: 20.9 inches<br />Width of drawer box: 20 inches<br />Height of drawer box: 3.1 inches<br />Height of drawer front: 4.9 inches<br />Depth of drawer box: 11.8 inches<br />Distance from floor to bottom panel: 4 inches",
+  "categories": [
+    "Furniture",
+    "Bedroom Furniture",
+    "Nightstands"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7c84e316-6d3b-45bb-88ce-76d5afa26d74",
+  "glb_url": "https://digitalcontent.target.com/vault/1613692800/CLOUD_8b92a5dc-d928-42df-ac1e-0fd59ece90c1.glb",
+  "product_url": "https://www.target.com/p/-/A-80789845",
+  "color": "Natural",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6096,
+    "width": 0.5842,
+    "depth": 0.4191,
+    "unit": "m",
+    "source": "glb"
+  }
+}

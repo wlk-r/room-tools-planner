@@ -1,0 +1,23 @@
+{
+  "tcin": "90010014",
+  "name": "5.7oz Ribbed Cassin Martini Glass - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$8.00",
+  "currency": "USD",
+  "description": "Elevate your cocktail hour with this Ribbed Cassin Martini Glass from Threshold™. Made of glass, this transparent martini glass features a ribbed texture that beautifully highlights your signature martinis and other cocktails. Dishwasher safe, this 5.7-fluid-ounce glass adds a touch of sophistication to every sip. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Cocktail Glasses"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_44d51222-5439-4128-9596-ff69d3a3d5b5",
+  "glb_url": "https://digitalcontent.target.com/vault/1716163200/CLOUD_1615ddde-e389-4b70-bc71-8ece17748b1a.glb",
+  "product_url": "https://www.target.com/p/-/A-90010014",
+  "dimensions": {
+    "height": 0.16,
+    "width": 0.0948,
+    "depth": 0.0948,
+    "unit": "m",
+    "source": "glb"
+  }
+}

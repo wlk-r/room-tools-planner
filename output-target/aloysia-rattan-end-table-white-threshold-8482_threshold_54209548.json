@@ -1,0 +1,25 @@
+{
+  "tcin": "54209548",
+  "name": "Aloysia Rattan End Table White - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$80.00",
+  "currency": "USD",
+  "description": "Add global-inspired style to your living space with the Aloysia Rattan End Table from Threshold™. Featuring an hourglass shape, this decorative end table is constructed with rattan poles to bring bohemian appeal to any space it's placed in, while the sleek round tabletop provides you with a stylish platform to showcase houseplants, vases or framed family photographs. Whether you place this white end table alongside a sofa or put it next to the mantel, it's sure to add a lovely accent to your home decor.<br /><br />Threshold™: Looks like home, feels like you.<br /><br />DIMENSIONAL DETAILS<br />Overall Diameter: 14.09\"<br />Overall Height: 21.98\"",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "End & Side Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_5a3ac757-1f6c-4d54-9dbc-817faa059114",
+  "glb_url": "https://digitalcontent.target.com/vault/1763078400/CLOUD_f781ed53-ca53-4f4d-97cc-2e5ce3143e1c.glb",
+  "product_url": "https://www.target.com/p/-/A-54209548",
+  "dimensions": {
+    "height": 0.551,
+    "width": 0.3628,
+    "depth": 0.3628,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

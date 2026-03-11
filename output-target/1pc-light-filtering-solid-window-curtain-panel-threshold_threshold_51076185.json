@@ -1,0 +1,24 @@
+{
+  "tcin": "51076185",
+  "name": "1pc Light Filtering Solid Window Curtain Panel - Threshold™",
+  "brand": "Threshold",
+  "price": "$30.00 - $35.00",
+  "currency": "USD",
+  "description": "Transform your living space with the Natural Solid Light-Filtering Curtain Panel from Threshold™. The 100% cotton curtain panel comes in a solid color with a natural slub-weave texture that mixes easily with a variety of decors, and the light-filtering fabric lets just the right amount of light in while enhancing privacy. The curtain is machine-washable for easy upkeep, and the metal grommets allow for simple slide-through installation on any curtain rod. Whether you hang it in your living room, den or three-season porch, you'll love the crisp look this slub panel adds to your space.<br /><br /><br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Window Treatments",
+    "Curtains"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e3c6955f-c0c1-4b23-88a5-ed17660d6b09",
+  "glb_url": "https://digitalcontent.target.com/vault/1633996800/CLOUD_d4c5c088-1889-4dda-91dd-c6cc12a9f25b.glb",
+  "product_url": "https://www.target.com/p/-/A-51076185",
+  "dimensions": {
+    "height": 2.1336,
+    "width": 1.59,
+    "depth": 0.1118,
+    "unit": "m",
+    "source": "glb"
+  }
+}

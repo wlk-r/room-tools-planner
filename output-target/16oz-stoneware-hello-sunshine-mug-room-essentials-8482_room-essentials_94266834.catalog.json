@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94266834",
+      "name": "16oz Stoneware HELLO SUNSHINE Mug - Room Essentials&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94266834",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "decor"
+      ],
+      "tags": [
+        "warm",
+        "cheerful",
+        "contemporary",
+        "playful"
+      ]
+    }
+  ]
+}

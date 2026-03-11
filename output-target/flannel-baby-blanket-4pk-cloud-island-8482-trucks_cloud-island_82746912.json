@@ -1,0 +1,24 @@
+{
+  "tcin": "82746912",
+  "name": "Flannel Baby Blanket 4pk - Cloud Island&#8482; Trucks",
+  "brand": "Cloud Island",
+  "price": "$8.49",
+  "currency": "USD",
+  "description": "The Flannel Baby Blankets from cloud island™ make a vibrant and versatile addition to your little one's nursery. This four-pack includes square blankets features green polka dots, rainbow checks, a multicolor truck print and timeless stripes, all helping to add a touch of adorable style to their snuggle time. Made from 100% cotton, the printed blankets are soft and gentle on baby's delicate skin, while their flannel construction helps keep your little one warm and comfy from tummy time to stroller rides. Super soft and cozy, these baby blankets are great for everyday use, and machine-washable for easy care and cleaning.<br /><br />cloud island™: Designed with love. Made without compromise.",
+  "categories": [
+    "Baby",
+    "Nursery",
+    "Baby Bedding",
+    "Baby Blankets & Quilts"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_05309a7f-5747-4a22-a8b9-a69fe8849409",
+  "glb_url": "https://digitalcontent.target.com/vault/1648080000/CLOUD_06420c7a-b8f0-4b40-825a-60d856f1164a.glb",
+  "product_url": "https://www.target.com/p/-/A-82746912",
+  "dimensions": {
+    "height": 0.381,
+    "width": 0.3048,
+    "depth": 0.08,
+    "unit": "m",
+    "source": "glb"
+  }
+}

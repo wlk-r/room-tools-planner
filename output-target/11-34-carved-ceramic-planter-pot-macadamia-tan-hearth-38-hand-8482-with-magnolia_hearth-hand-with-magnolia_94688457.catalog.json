@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94688457",
+      "name": "11&#34; Carved Ceramic Planter Pot Macadamia Tan - Hearth &#38; Hand&#8482; with Magnolia",
+      "color": "Tan"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94688457",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "planter",
+        "decor"
+      ],
+      "tags": [
+        "rustic",
+        "warm",
+        "earthy",
+        "artisanal"
+      ]
+    }
+  ]
+}

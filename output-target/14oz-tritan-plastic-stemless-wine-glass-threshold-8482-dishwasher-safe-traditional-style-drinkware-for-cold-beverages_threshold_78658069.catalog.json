@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "78658069",
+      "name": "14oz Tritan Plastic Stemless Wine Glass - Threshold&#8482;: Dishwasher-Safe, Traditional Style Drinkware for Cold Beverages",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "78658069",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "tabletop"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "elegant"
+      ]
+    }
+  ]
+}

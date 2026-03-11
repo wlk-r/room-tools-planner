@@ -1,0 +1,26 @@
+{
+  "tcin": "84592394",
+  "name": "Bixby Table Lamp - 26.5 Inch Height - TBL4265 - Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$83.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the stylish Bixby glass table lamp. Standing at 26.5 inches, this lamp offers a sleek and modern design that seamlessly complements any decor. The white glass body is beautifully contrasted by a brass finish, creating a striking yet elegant look. Made with a composition of 40 percent acrylic for a sleek finish and 60 percent iron for sturdy support, Bixby combines artistry with functional use.\n\nPerfect for a living room, bedroom, or office, this lamp not only provides great lighting but also serves as a stunning decorative piece. Its inviting glow and sophisticated presence set the mood for any occasion. Revamp your home ambiance effortlessly with the Bixby table lamp?where style meets function.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b2ad8e9d-fb69-4794-8d33-5e3b34ea9b8e",
+  "glb_url": "https://digitalcontent.target.com/vault/1764892800/CLOUD_2ae31400-2217-47f7-b5ba-238ae90df2fd.glb",
+  "product_url": "https://www.target.com/p/-/A-84592394",
+  "dimensions": {
+    "height": 0.655,
+    "width": 0.3361,
+    "depth": 0.3361,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brass",
+  "color_source": "parsed"
+}

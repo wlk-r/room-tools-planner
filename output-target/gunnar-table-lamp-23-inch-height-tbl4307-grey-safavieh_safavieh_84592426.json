@@ -1,0 +1,26 @@
+{
+  "tcin": "84592426",
+  "name": "Gunnar Table Lamp - 23 Inch Height - TBL4307 - Grey - Safavieh",
+  "brand": "Safavieh",
+  "price": "$62.99",
+  "currency": "USD",
+  "description": "Discover the chic GUNNAR table lamp that adds a touch of modern elegance to any space. With its sleek 23 inch frame, this grey ceramic lamp complements both contemporary and classic interiors. The body is crafted with 80 percent ceramic, showcasing smooth lines and a refined texture, while the iron neck adds a subtle contrast with its sturdy composition. Designed with versatility in mind, the lamp features an E26 socket, ready to illuminate your living room, bedroom, or office with warmth and style. Its ceramics offer an artistic vibe that blends effortlessly with any decor scheme, making it a perfect choice for enhancing your home. Illuminate your surroundings with the GUNNAR table lamp and transform any room into a bright, welcoming space.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_9777a50a-f6ee-49b6-947d-20a1f0b920ff",
+  "glb_url": "https://digitalcontent.target.com/vault/1764201600/CLOUD_afdd209f-54bf-41d0-8930-5abcd42551b0.glb",
+  "product_url": "https://www.target.com/p/-/A-84592426",
+  "dimensions": {
+    "height": 0.6068,
+    "width": 0.3136,
+    "depth": 0.3136,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Grey",
+  "color_source": "parsed"
+}

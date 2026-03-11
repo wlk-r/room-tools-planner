@@ -1,0 +1,26 @@
+{
+  "tcin": "92762510",
+  "name": "Azalea Table Lamp - 18.75 Inch Height - TBL3021 - White/Multi - Safavieh",
+  "brand": "Safavieh",
+  "price": "$175.99",
+  "currency": "USD",
+  "description": "Brighten up your space with the versatile charm of the Azalea Table Lamp. A harmonious blend of white and vibrant hues, this lamp features a sturdy terrazzo base, complemented by sleek iron detailing, bringing a dash of modernity to any room. Illuminate your surroundings with a lamp that's as practical as it is stylish?perfect for nightstands, workspaces, or as a contemporary statement piece in your living area. Light up your world with the eclectic flair of the Azalea Table Lamp, where functional design meets visual interest.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_79a55d59-57fe-4516-a19f-5a40cbf2aad3",
+  "glb_url": "https://digitalcontent.target.com/vault/1771372800/CLOUD_2263a2a2-c593-49cc-a0c8-0b93ea8771a4.glb",
+  "product_url": "https://www.target.com/p/-/A-92762510",
+  "dimensions": {
+    "height": 0.4762,
+    "width": 0.3048,
+    "depth": 0.3048,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White/Multi",
+  "color_source": "parsed"
+}

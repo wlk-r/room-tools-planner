@@ -1,0 +1,25 @@
+{
+  "tcin": "94266789",
+  "name": "16.8 fl oz Stoneware Latte Mug Blue Floral - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$6.80",
+  "currency": "USD",
+  "description": "Bring an artistic update to your mug collection with the Stoneware Latte Mug from Threshold™. This latte mug in a cream color features a blue floral pattern along the rim for eye-catching contrast. Suitable for serving hot beverages, the stoneware mug is both dishwasher and microwave safe for quick cleaning and easy reheating. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0aabc821-91f4-4e0f-9cef-84f9bde00753",
+  "glb_url": "https://digitalcontent.target.com/vault/1752710400/CLOUD_05bb3bb4-d47a-49c9-834f-dead40ae28e0.glb",
+  "product_url": "https://www.target.com/p/-/A-94266789",
+  "dimensions": {
+    "height": 0.1544,
+    "width": 0.1178,
+    "depth": 0.0716,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

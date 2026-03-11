@@ -1,0 +1,26 @@
+{
+  "tcin": "90594225",
+  "name": "Janice Table Lamp (Set of 2) - 31.5 Inch Height - LIT4397 - Clear/Off White - Safavieh",
+  "brand": "Safavieh",
+  "price": "$161.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Janice table lamp that offers both elegance and style. This lamp showcases a sleek design with a clear and off white color combination that perfectly complements modern interiors. Crafted with a mirrored surface, this piece reflects light beautifully and adds a touch of sophistication to any room. The clean lines and subtle hues provide a versatile look that can seamlessly fit into your home decor. Ideal for living rooms, bedrooms, or any setting that needs a gentle glow, the Janice table lamp is more than just a lighting solution; it is a statement accessory for your home. Brighten up your space with understated style and enjoy the inviting ambiance it creates.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_29e51876-e148-459d-87e8-39e835bed59b",
+  "glb_url": "https://digitalcontent.target.com/vault/1764201600/CLOUD_be4ea788-bb0a-4acc-8541-c09586cf1cf0.glb",
+  "product_url": "https://www.target.com/p/-/A-90594225",
+  "color": "Off White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.8001,
+    "width": 0.3928,
+    "depth": 0.3928,
+    "unit": "m",
+    "source": "glb"
+  }
+}

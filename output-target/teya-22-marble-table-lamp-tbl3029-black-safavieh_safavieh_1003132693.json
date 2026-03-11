@@ -1,0 +1,26 @@
+{
+  "tcin": "1003132693",
+  "name": "Teya 22\" Marble Table Lamp - TBL3029 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$153.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Teya Table Lamp, a stylish blend of elegance and modern design. This table lamp boasts a striking black marble body, bringing a touch of sophistication to any room. Its complementing fabric shade softens the glow, providing a warm and inviting ambiance. Perfect for your living room, bedroom, or study, the Teya lamp adds a tasteful accent to your decor. Its minimalist design makes it versatile, fitting seamlessly with various decor styles. Transform your lighting with the Teya table lamp - a fusion of art and utility, made to enhance your surroundings.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_ac600ec7-4993-49d0-b984-a7f54f81bc5d",
+  "glb_url": "https://digitalcontent.target.com/vault/1769126400/CLOUD_e9b6382d-300a-44ae-b1e2-2d7d1f27ce7c.glb",
+  "product_url": "https://www.target.com/p/-/A-1003132693",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5588,
+    "width": 0.3048,
+    "depth": 0.3048,
+    "unit": "m",
+    "source": "glb"
+  }
+}

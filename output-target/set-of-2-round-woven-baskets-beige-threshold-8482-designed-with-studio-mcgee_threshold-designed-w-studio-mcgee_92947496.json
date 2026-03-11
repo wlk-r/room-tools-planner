@@ -1,0 +1,25 @@
+{
+  "tcin": "92947496",
+  "name": "Set of 2 Round Woven Baskets Beige - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$33.00",
+  "currency": "USD",
+  "description": "Add vintage flair to your home decor with the Set of 2 Woven Baskets from Threshold™ designed with Studio McGee. These two baskets come in varying sizes to give you enough space for your blankets, throws, toys and more. Made of grass, this woven basket set comes with double handles for easy lifting and movement.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Storage Baskets"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a122d13c-00a4-4bbf-9442-19ae22a07745",
+  "glb_url": "https://digitalcontent.target.com/vault/1753228800/CLOUD_07f3e04d-a10f-44fb-aafe-7578ebcf93ad.glb",
+  "product_url": "https://www.target.com/p/-/A-92947496",
+  "color": "Beige",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.7837,
+    "width": 0.4064,
+    "depth": 0.3556,
+    "unit": "m",
+    "source": "glb"
+  }
+}

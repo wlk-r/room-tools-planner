@@ -1,0 +1,24 @@
+{
+  "tcin": "94747294",
+  "name": "Coastal Shell Table Lamp - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$70.00",
+  "currency": "USD",
+  "description": "Brighten your home with the coastal charm of this Coastal Shell Table Lamp from Threshold™ designed with Studio McGee. Crafted with a white ceramic base featuring a wave-inspired texture, this lamp features a white linen cone shade for a warm, diffused glow. The rotary knob switch offers easy on/off control, while the five-foot cord allows for versatile placement.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2cfcb8c5-d30b-48a2-b948-98c1e69b579b",
+  "glb_url": "https://digitalcontent.target.com/vault/1768176000/CLOUD_5aba7e9e-ca4d-411e-afba-4b09a5f8e87d.glb",
+  "product_url": "https://www.target.com/p/-/A-94747294",
+  "dimensions": {
+    "height": 0.4119,
+    "width": 0.381,
+    "depth": 0.3049,
+    "unit": "m",
+    "source": "glb"
+  }
+}

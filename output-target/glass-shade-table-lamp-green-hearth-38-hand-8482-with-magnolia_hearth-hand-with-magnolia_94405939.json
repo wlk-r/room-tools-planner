@@ -1,0 +1,26 @@
+{
+  "tcin": "94405939",
+  "name": "Glass Shade Table Lamp Green - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand with Magnolia",
+  "price": "$29.99",
+  "currency": "USD",
+  "description": "Style your space with the elegant look of this Glass Shade Table Lamp from Hearth & Hand™ with Magnolia. This table lamp features a brass pedestal base with a sleek body and a green pleated glass shade with scalloped edges that diffuse light for a soft, ambient glow. The three-way light setting allows you to adjust the level of lighting, and the base push button makes it easy to turn on and off.<br /><br />Hearth & Hand™ with Magnolia: Gather • Create • Enjoy",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_28020260-62f4-4258-97ea-1f4bdfd77e32",
+  "glb_url": "https://digitalcontent.target.com/vault/1760659200/CLOUD_928e9a0b-0bba-44ff-a536-207d7ac0ce46.glb",
+  "product_url": "https://www.target.com/p/-/A-94405939",
+  "dimensions": {
+    "height": 0.3048,
+    "width": 0.2946,
+    "depth": 0.2053,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Green",
+  "color_source": "parsed"
+}

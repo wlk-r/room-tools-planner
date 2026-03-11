@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "82707075",
+      "name": "15oz Stoneware Tilley Mug Dark Gray - Threshold&#8482;: Traditional Coffee Mug, Dishwasher &#38; Microwave Safe, 15.21oz Capacity",
+      "color": "Dark Gray"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "82707075",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "tabletop"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "organic",
+        "warm"
+      ]
+    }
+  ]
+}

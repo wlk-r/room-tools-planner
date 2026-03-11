@@ -1,0 +1,26 @@
+{
+  "tcin": "94426014",
+  "name": "Open Weave Outdoor Patio Dining Stacking Chair Green - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$90.00",
+  "currency": "USD",
+  "description": "Refresh your outdoor dining area with this Open-Weave Outdoor Patio Dining Stacking Chair from Threshold™. This patio chair features a green metal frame with fixed arms and an open-weave seat and backrest for modern style. The weather-resistant and rust-resistant construction makes it ideal for outdoor use, while the stacking design allows for easy storage when not in use. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Chairs",
+    "Outdoor Dining Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_04e6db67-fe31-4faf-900d-d771da9774cf",
+  "glb_url": "https://digitalcontent.target.com/vault/1762300800/CLOUD_b20a5397-4c07-48e6-9660-73bfe2b78011.glb",
+  "product_url": "https://www.target.com/p/-/A-94426014",
+  "color": "Green",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.8605,
+    "width": 0.6604,
+    "depth": 0.6253,
+    "unit": "m",
+    "source": "glb"
+  }
+}

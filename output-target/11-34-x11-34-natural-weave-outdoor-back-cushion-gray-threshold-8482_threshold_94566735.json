@@ -1,0 +1,25 @@
+{
+  "tcin": "94566735",
+  "name": "11&#34;x11&#34; Natural Weave Outdoor Back Cushion Gray - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$30.00",
+  "currency": "USD",
+  "description": "Make your outdoor space look stylish and cozy with this Natural Weave Outdoor Back Cushion from Threshold™. Made of 100% recycled polyester fabric with polyester filling, this back cushion offers plush comfort and extra support for a relaxed seating experience. The sewn-seam closure gives it a neat finish, while the natural weave pattern in a gray hue helps create a cozy ambiance. Suitable for outdoor use, this UV-resistant cushion stays fresh season after season. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Decor",
+    "Outdoor Cushions"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b6d2bf3a-3fab-4d08-aa15-5c5fcbeb2167",
+  "glb_url": "https://digitalcontent.target.com/vault/1758067200/CLOUD_8c3230d4-5bae-44d8-9941-5d840b37ee2e.glb",
+  "product_url": "https://www.target.com/p/-/A-94566735",
+  "dimensions": {
+    "height": 0.2794,
+    "width": 0.2794,
+    "depth": 0.2532,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

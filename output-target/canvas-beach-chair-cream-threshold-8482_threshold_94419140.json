@@ -1,0 +1,26 @@
+{
+  "tcin": "94419140",
+  "name": "Canvas Beach Chair Cream - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$55.00",
+  "currency": "USD",
+  "description": "The Canvas Beach Chair from Threshold™ adds the perfect blend of style and functionality to your outdoor space. Supported on a weather- and rust-resistant metal frame to withstand the outdoor elements, this beach chair features a canvas fabric seat and slatted back, along with wooden arms that offer comfortable seating experience. Plus, the beach chair folds compact for travel, complete with backpack straps for effortless carrying, <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Chairs",
+    "Beach Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e424c399-3e10-470e-a29c-066a30919ec8",
+  "glb_url": "https://digitalcontent.target.com/vault/1766534400/CLOUD_d280f7b8-f864-473f-8e69-fd2a54b90b55.glb",
+  "product_url": "https://www.target.com/p/-/A-94419140",
+  "dimensions": {
+    "height": 0.9017,
+    "width": 0.635,
+    "depth": 0.6339,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Cream",
+  "color_source": "parsed"
+}

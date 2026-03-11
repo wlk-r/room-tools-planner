@@ -1,0 +1,196 @@
+{
+  "defaults": {
+    "exterior_wall_thickness": 0.2,
+    "ceiling_height": 2.8
+  },
+  "rooms": [
+    {
+      "id": "r1",
+      "name": "Foyer",
+      "interior_polygon": [
+        [0, 0],
+        [2.2, 0],
+        [2.2, 2.2],
+        [0, 2.2]
+      ]
+    },
+    {
+      "id": "r2",
+      "name": "Hall",
+      "interior_polygon": [
+        [2.2, 0],
+        [4.2, 0],
+        [4.2, 6.0],
+        [2.2, 6.0]
+      ]
+    },
+    {
+      "id": "r3",
+      "name": "Bedroom 2",
+      "interior_polygon": [
+        [0, 2.2],
+        [2.2, 2.2],
+        [2.2, 6.0],
+        [0, 6.0]
+      ]
+    },
+    {
+      "id": "r4",
+      "name": "Bathroom",
+      "interior_polygon": [
+        [0, 6.0],
+        [4.2, 6.0],
+        [4.2, 8.6],
+        [0, 8.6]
+      ]
+    },
+    {
+      "id": "r5",
+      "name": "Living Dining",
+      "interior_polygon": [
+        [4.2, 0],
+        [10.2, 0],
+        [10.2, 2.0],
+        [11.4, 3.4],
+        [10.2, 4.8],
+        [10.2, 8.6],
+        [4.2, 8.6]
+      ]
+    },
+    {
+      "id": "r6",
+      "name": "Primary Bedroom",
+      "interior_polygon": [
+        [10.2, 4.8],
+        [14.0, 4.8],
+        [14.0, 8.6],
+        [10.2, 8.6]
+      ]
+    },
+    {
+      "id": "r7",
+      "name": "Ensuite",
+      "interior_polygon": [
+        [10.2, 2.0],
+        [14.0, 2.0],
+        [14.0, 4.8],
+        [10.2, 4.8]
+      ]
+    }
+  ],
+  "openings": [
+    {
+      "id": "o1",
+      "center": [1.1, 0],
+      "width": 0.95,
+      "height": 2.1
+    },
+    {
+      "id": "o2",
+      "center": [2.2, 1.1],
+      "width": 0.9,
+      "height": 2.1
+    },
+    {
+      "id": "o3",
+      "center": [2.2, 4.1],
+      "width": 0.85,
+      "height": 2.1
+    },
+    {
+      "id": "o4",
+      "center": [2.1, 6.0],
+      "width": 0.82,
+      "height": 2.1
+    },
+    {
+      "id": "o5",
+      "center": [4.2, 3.4],
+      "width": 1.3,
+      "height": 2.1
+    },
+    {
+      "id": "o6",
+      "center": [10.2, 6.6],
+      "width": 0.95,
+      "height": 2.1
+    },
+    {
+      "id": "o7",
+      "center": [10.2, 3.4],
+      "width": 0.82,
+      "height": 2.1
+    },
+    {
+      "id": "o8",
+      "center": [11.4, 3.4],
+      "width": 2.4,
+      "height": 1.6,
+      "elevation": 0.8
+    },
+    {
+      "id": "o9",
+      "center": [7.2, 8.6],
+      "width": 2.8,
+      "height": 1.5,
+      "elevation": 0.9
+    },
+    {
+      "id": "o10",
+      "center": [14.0, 6.7],
+      "width": 2.0,
+      "height": 1.5,
+      "elevation": 0.9
+    }
+  ],
+  "features": [
+    {
+      "id": "f1",
+      "anchor": "o1",
+      "type": "door",
+      "swing_dir": "r1",
+      "hinge": "left"
+    },
+    {
+      "id": "f2",
+      "anchor": "o2",
+      "type": "door",
+      "swing_dir": "r2",
+      "hinge": "left"
+    },
+    {
+      "id": "f3",
+      "anchor": "o3",
+      "type": "door",
+      "swing_dir": "r3",
+      "hinge": "right"
+    },
+    {
+      "id": "f4",
+      "anchor": "o4",
+      "type": "door",
+      "swing_dir": "r4",
+      "hinge": "left"
+    },
+    {
+      "id": "f5",
+      "anchor": "o5",
+      "type": "door",
+      "subtype": "cased-opening"
+    },
+    {
+      "id": "f6",
+      "anchor": "o6",
+      "type": "door",
+      "swing_dir": "r6",
+      "hinge": "left"
+    },
+    {
+      "id": "f7",
+      "anchor": "o7",
+      "type": "door",
+      "swing_dir": "r7",
+      "hinge": "right"
+    }
+  ]
+}

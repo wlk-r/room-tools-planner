@@ -73,12 +73,12 @@ def find_products(source_dir):
 
 def extract_product(metadata_path):
     """Deterministically extract product entry from vendor metadata."""
-    with open(metadata_path) as f:
+    with open(metadata_path, encoding="utf-8") as f:
         data = json.load(f)
     if "dimensions" not in data:
         return None, None
     return {
-        "item_no": data["item_no"],
+        "item_no": data.get("item_no") or data.get("tcin"),
         "name": data["name"],
         "color": data.get("color", ""),
     }, data

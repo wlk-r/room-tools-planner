@@ -1,0 +1,26 @@
+{
+  "tcin": "1002879266",
+  "name": "Genesis Alabaster Table Lamp - CTL1062 - Gold/White - Safavieh Couture",
+  "brand": "Safavieh",
+  "price": "$226.99",
+  "currency": "USD",
+  "description": "Add a touch of elegance to your home with the Genesis alabaster and metal table lamp. This striking piece combines the rich tones of gold with the serene beauty of alabaster, creating a stunning focal point for any room. The sleek iron frame offers durability while the alabaster provides a soft, inviting glow. Perfect for enhancing your living room, bedroom, or office, this lamp is both functional and stylish. Experience the perfect blend of modern design and classic charm with this unique table lamp. Let the harmonious hues of gold and white transform your space into a haven of sophistication and warmth. Embrace the art of illumination with the Genesis table lamp, designed to elevate your decor effortlessly.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2b6282ef-dad9-427b-8096-60fdbb8de864",
+  "glb_url": "https://digitalcontent.target.com/vault/1765152000/CLOUD_1af34d5d-0326-4546-935e-90f4bcbaea72.glb",
+  "product_url": "https://www.target.com/p/-/A-1002879266",
+  "dimensions": {
+    "height": 0.6608,
+    "width": 0.2293,
+    "depth": 0.2293,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gold/White",
+  "color_source": "parsed"
+}

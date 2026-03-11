@@ -1,0 +1,25 @@
+{
+  "tcin": "94174608",
+  "name": "5pc Kitchen Utensil Starter Set Gray - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Complete your cooking essentials with this 5-Piece Kitchen Utensil Starter Set from Room Essentials™. Crafted from nylon material in a versatile gray shade, the set includes a slotted turner, turner, pasta spoon, spoon, and slotted spoon for versatile cooking applications. Whether setting up your first kitchen or refreshing your current collection, these dishwasher-safe utensils are perfect for everyday cooking.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen Utensils & Gadgets",
+    "Kitchen Utensil Sets"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_734e2e82-d820-44d4-8724-5479d09f983a",
+  "glb_url": "https://digitalcontent.target.com/vault/1762300800/CLOUD_874674ce-d419-488c-bde6-fdca14afba6b.glb",
+  "product_url": "https://www.target.com/p/-/A-94174608",
+  "dimensions": {
+    "height": 0.4816,
+    "width": 0.4104,
+    "depth": 0.0371,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

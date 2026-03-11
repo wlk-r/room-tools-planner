@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "81306574",
+      "name": "15oz Stoneware Mama Bear Mug - Threshold&#8482;: Mom Coffee Cup, Microwave &#38; Dishwasher Safe, Hot Beverage Mugs",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "81306574",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "decor"
+      ],
+      "tags": [
+        "minimal",
+        "cozy",
+        "warm",
+        "contemporary"
+      ]
+    }
+  ]
+}

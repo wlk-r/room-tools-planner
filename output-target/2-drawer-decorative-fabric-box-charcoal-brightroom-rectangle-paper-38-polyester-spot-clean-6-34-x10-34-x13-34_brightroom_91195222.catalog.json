@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "91195222",
+      "name": "2 Drawer Decorative Fabric Box Charcoal - Brightroom: Rectangle, Paper &#38; Polyester, Spot Clean, 6&#34;x10&#34;x13&#34;",
+      "color": "Charcoal"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "91195222",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "storage",
+        "decor"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "scandinavian"
+      ]
+    }
+  ]
+}

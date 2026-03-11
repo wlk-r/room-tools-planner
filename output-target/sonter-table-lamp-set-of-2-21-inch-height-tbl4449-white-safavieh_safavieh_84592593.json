@@ -1,0 +1,26 @@
+{
+  "tcin": "84592593",
+  "name": "Sonter Table Lamp (Set of 2) - 21 Inch Height - TBL4449 - White - Safavieh",
+  "brand": "Safavieh",
+  "price": "$103.99",
+  "currency": "USD",
+  "description": "Elevate your home decor with the Sonter 21 inch white ceramic table lamp set of 2. These elegant lamps seamlessly blend functionality with style, making them an ideal choice for any room. The sleek white finish complements a variety of decor themes, ensuring versatility in placement. Crafted from durable polyresin, each lamp boasts a modern ceramic-like appearance while maintaining lightweight practicality. The lamps offer a warm, inviting glow that enhances the ambiance of any space. Whether placed on a bedside table or in a living room, the Sonter lamps add a touch of sophistication. Discover the perfect balance of design and illumination with this stylish set.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_300a2b5f-d5d2-45ac-a0a4-67747ca675a9",
+  "glb_url": "https://digitalcontent.target.com/vault/1769472000/CLOUD_6673ff6c-346b-4dd2-a450-9ac09d995e15.glb",
+  "product_url": "https://www.target.com/p/-/A-84592593",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5334,
+    "width": 0.3048,
+    "depth": 0.3048,
+    "unit": "m",
+    "source": "glb"
+  }
+}

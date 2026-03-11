@@ -1,0 +1,26 @@
+{
+  "tcin": "81410951",
+  "name": "Conway 2pk Wicker 30&#34; Bar Stools - Dark Brown - Christopher Knight Home: Patio High Chairs, Iron Frame",
+  "brand": "Christopher Knight Home",
+  "price": "$158.99",
+  "currency": "USD",
+  "description": "These wicker barstools are a great addition for any backyard or patio. Featuring top quality wicker and a powder coated iron frame, these sleek barstools not only looks good on their own, but also as part of any patio set you currently have. Perfect for all types of outdoor events, you can’t go wrong with these barstools.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Chairs",
+    "Outdoor Bar Stools"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b6daeaf4-cf90-4633-86b1-68f0d3d690b9",
+  "glb_url": "https://digitalcontent.target.com/vault/1660003200/CLOUD_1a844d80-5c9e-401e-8ab4-172586d54932.glb",
+  "product_url": "https://www.target.com/p/-/A-81410951",
+  "dimensions": {
+    "height": 1.1113,
+    "width": 0.508,
+    "depth": 0.4254,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Dark Brown",
+  "color_source": "parsed"
+}

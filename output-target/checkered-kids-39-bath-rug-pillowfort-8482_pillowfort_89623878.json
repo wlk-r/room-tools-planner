@@ -1,0 +1,24 @@
+{
+  "tcin": "89623878",
+  "name": "Checkered Kids&#39; Bath Rug - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$18.00",
+  "currency": "USD",
+  "description": "Bring a pop of color to their bath space with this Checkered Bath Rug from Pillowfort™. This medium-pile bath rug is made from 100% tufted cotton fabric to feel soft and  provide cozy comfort underfoot. Showcasing a multicolor checkered print, it's sure to add fun style to their bathroom decor.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Rugs & Mats",
+    "Bathroom Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c786f4ad-bffc-4155-8342-c84fd7077a84",
+  "glb_url": "https://digitalcontent.target.com/vault/1707955200/CLOUD_31e657a8-d3d0-4560-8cc4-aef80fe45a02.glb",
+  "product_url": "https://www.target.com/p/-/A-89623878",
+  "dimensions": {
+    "height": 0.8641,
+    "width": 0.5094,
+    "depth": 0.0071,
+    "unit": "m",
+    "source": "glb"
+  }
+}

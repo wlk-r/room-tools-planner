@@ -1,0 +1,26 @@
+{
+  "tcin": "84671974",
+  "name": "Floor Lamp (Includes LED Light Bulb) Black - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$190.00",
+  "currency": "USD",
+  "description": "Decorate your home in minimalist style by displaying this Floor Lamp from Threshold™ designed with Studio McGee. This floor lamp features a round base with an empire-shape shade supported by a thin rod for a modern look that works well with your existing decor. Designed with a socket pull chain for quick and easy lighting, this metal lamp has a one-way light setting for added convenience.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_6c7afd92-241e-421d-8adb-907f7c3bee23",
+  "glb_url": "https://digitalcontent.target.com/vault/1663200000/CLOUD_d7a3b703-241a-42cc-b509-dd1f6856fd38.glb",
+  "product_url": "https://www.target.com/p/-/A-84671974",
+  "dimensions": {
+    "height": 1.4732,
+    "width": 0.6096,
+    "depth": 0.6096,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

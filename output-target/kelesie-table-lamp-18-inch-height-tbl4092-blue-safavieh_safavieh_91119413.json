@@ -1,0 +1,26 @@
+{
+  "tcin": "91119413",
+  "name": "Kelesie Table Lamp - 18 Inch Height - TBL4092 - Blue - Safavieh",
+  "brand": "Safavieh",
+  "price": "$54.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the KELESIE table lamp in blue, where style meets function. Perfectly designed to complement any room, this lamp features a striking geometric base that effortlessly enhances your decor. Its soothing blue hue brings a touch of tranquility, while its contemporary silhouette adds a modern edge. An ideal piece for your bedside, living area, or workspace, the KELESIE table lamp provides inviting illumination for reading, relaxing, or entertaining. Its sleek form merges practicality with aesthetic appeal, making it a versatile choice for various settings. Elevate your home's ambiance and create a cozy atmosphere with the KELESIE table lamp in blue.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_db5b3569-405f-4741-846f-8a42518deb55",
+  "glb_url": "https://digitalcontent.target.com/vault/1765411200/CLOUD_164477f6-60f2-4239-b12e-401ab16104e7.glb",
+  "product_url": "https://www.target.com/p/-/A-91119413",
+  "color": "Blue",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4575,
+    "width": 0.2489,
+    "depth": 0.2489,
+    "unit": "m",
+    "source": "glb"
+  }
+}

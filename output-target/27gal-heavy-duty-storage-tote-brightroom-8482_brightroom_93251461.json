@@ -1,0 +1,23 @@
+{
+  "tcin": "93251461",
+  "name": "27gal Heavy Duty Storage Tote - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$10.00",
+  "currency": "USD",
+  "description": "The Brightroom™ 27 Gallon Garage Storage Tote is a rugged solution for everyday organization. This durable storage bin with reinforced, snap-fit lid keeps items contained and concealed. Comfort-grip handles make lifting and carrying easier and more secure. The grooved lid and built-in keyholes provide tie-down options for safe transport in the back of a pickup truck or most hitch-mounted cargo carriers. Deep recessed lids support stable stacking, while channeled walls add strength to resist crushing under heavier loads. This heavy-duty plastic storage container keeps tools, sporting equipment, and off-season gear organized and protected, making it ideal for garages, basements, and a variety of storage projects.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Garage Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_eb19e507-6e31-4a85-82d4-6b49a29c4050",
+  "glb_url": "https://digitalcontent.target.com/vault/1751328000/CLOUD_20e79192-bd46-488f-9df7-03b39ca3988b.glb",
+  "product_url": "https://www.target.com/p/-/A-93251461",
+  "dimensions": {
+    "height": 0.815,
+    "width": 0.4984,
+    "depth": 0.3937,
+    "unit": "m",
+    "source": "glb"
+  }
+}

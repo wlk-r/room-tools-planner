@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "89614839",
+      "name": "16&#34; Metal Bronze Wall Clock - Threshold&#8482; designed with Studio McGee: Modern Aluminum, Analog Display, Indoor Use",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "89614839",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "wall-clock",
+        "decor"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "scandinavian",
+        "warm"
+      ]
+    }
+  ]
+}

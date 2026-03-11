@@ -1,0 +1,26 @@
+{
+  "tcin": "91518812",
+  "name": "Urban Retro Floor Lamp - LIT4474 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$250.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the timeless flair of the Urban Retro Floor Lamp in black. Crafted from sturdy metal, this striking piece effortlessly blends vintage charm with modern design. Its sleek black finish offers a versatile look, making it a perfect fit for any room or decor style. Whether you are reading a book or creating a cozy atmosphere for your evening, this floor lamp stands tall and proud, providing the perfect glow. Easy to assemble and maintain, it is designed to elegantly complement your home. Transform your living area with the Urban Retro Floor Lamp and experience the perfect balance of style and functionality.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4066541c-3611-4c9b-ab2a-95db2c3dbfc1",
+  "glb_url": "https://digitalcontent.target.com/vault/1769126400/CLOUD_29f9a659-0dec-4d62-87fa-7c79fcf18385.glb",
+  "product_url": "https://www.target.com/p/-/A-91518812",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.7145,
+    "width": 0.6549,
+    "depth": 0.5797,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tcin": "82114916",
+  "name": "2pk 3&#34; x 6&#34; LED Candle - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$12.00",
+  "currency": "USD",
+  "description": "Illuminate and create a beautiful ambience to your space with these 3\" x 6\" LED Candles from Room Essentials. It can be used as a decorative piece to brighten up any occasion as it mimics the natural flame of a real candle. These candles are a great choice for any family with children or pets who want to make sure their little ones will stay safe.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Candles & Home Fragrances",
+    "Flameless Candles"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_9bb11db1-3895-465c-86d8-43b61a57c6eb",
+  "glb_url": "https://digitalcontent.target.com/vault/1675900800/CLOUD_9079b608-a64c-4399-930e-43a05c9edda2.glb",
+  "product_url": "https://www.target.com/p/-/A-82114916",
+  "dimensions": {
+    "height": 0.1524,
+    "width": 0.0762,
+    "depth": 0.0762,
+    "unit": "m",
+    "source": "glb"
+  }
+}

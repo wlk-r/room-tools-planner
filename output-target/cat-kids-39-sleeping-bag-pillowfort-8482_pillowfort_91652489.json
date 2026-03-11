@@ -1,0 +1,24 @@
+{
+  "tcin": "91652489",
+  "name": "Cat Kids&#39; Sleeping Bag - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$40.00",
+  "currency": "USD",
+  "description": "They'll enjoy camping outdoors with this Cat Sleeping Bag from Pillowfort™. Made from soft fabric with ample filling to keep them nice and snug, this rectangular sleeping bag features a pink and white checkered pattern and an attached cat pillow for a cute look. The sleeping bag is designed to fit kids up to 57 inches tall and is easy to pack for convenient carrying.",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Bedding",
+    "Nap Pads"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_ba545a69-10fe-43e7-b049-cdfe47e25687",
+  "glb_url": "https://digitalcontent.target.com/vault/1750032000/CLOUD_ba98ddaf-3748-4589-92d4-da62a0292678.glb",
+  "product_url": "https://www.target.com/p/-/A-91652489",
+  "dimensions": {
+    "height": 1.7668,
+    "width": 0.7064,
+    "depth": 0.1569,
+    "unit": "m",
+    "source": "glb"
+  }
+}

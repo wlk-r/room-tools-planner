@@ -1,0 +1,26 @@
+{
+  "tcin": "54613116",
+  "name": "Albion Persian Rug Cream/Black - Threshold&#153;",
+  "brand": "Threshold",
+  "price": "$500.00",
+  "currency": "USD",
+  "description": "<br />The Albion Persian Rug from Threshold™ offers a fresh take on a traditional design. This woven area rug is adorned with beautiful Persian-inspired motifs against a cream background, complete with a coordinating patterned border for an intricate, timeless look. Made with a low-pile construction, the rectangular rug is suitable for use in high-traffic areas and fits easily under any furniture for added convenience. Plus, the spray latex backing helps keep the rug in place. Whether used as a focal point or to tie together the look of your room, this Persian rug spruces up your interiors in an instant. It's great for your living room, home office, or any other space that needs a makeover.<br /><br />Threshold™: Quality & Design / Casual classics for house and home.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Area Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_eecf3880-36c3-4c0e-a71f-1e2d602ca520",
+  "glb_url": "https://digitalcontent.target.com/vault/1623369600/CLOUD_ea4ee93a-9a31-4921-80bc-b2c357180c76.glb",
+  "product_url": "https://www.target.com/p/-/A-54613116",
+  "dimensions": {
+    "height": 2.1336,
+    "width": 0.7112,
+    "depth": 0.0127,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Cream/Black",
+  "color_source": "parsed"
+}

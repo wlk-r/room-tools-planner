@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "89194852",
+      "name": "14oz Stoneware Artisan Mug White - Room Essentials&#8482;",
+      "color": "White"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "89194852",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware"
+      ],
+      "tags": [
+        "minimal",
+        "organic",
+        "scandinavian",
+        "contemporary"
+      ]
+    }
+  ]
+}

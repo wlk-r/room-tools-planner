@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94688466",
+      "name": "18&#34; Wood Plant Stand Side Table - Hearth &#38; Hand&#8482; with Magnolia",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94688466",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "side-table",
+        "plant-stand"
+      ],
+      "tags": [
+        "warm",
+        "organic",
+        "minimal",
+        "mid-century"
+      ]
+    }
+  ]
+}

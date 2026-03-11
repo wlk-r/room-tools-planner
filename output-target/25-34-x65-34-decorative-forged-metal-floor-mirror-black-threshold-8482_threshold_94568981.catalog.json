@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "94568981",
+      "name": "25&#34;x65&#34; Decorative Forged Metal Floor Mirror Black - Threshold&#8482;",
+      "color": "Black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94568981",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "mirror",
+        "decor"
+      ],
+      "tags": [
+        "contemporary",
+        "industrial",
+        "minimal"
+      ]
+    }
+  ]
+}

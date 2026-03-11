@@ -1,0 +1,26 @@
+{
+  "tcin": "90594337",
+  "name": "Rayna Table Lamp - 19 Inch Height - TBL4471 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$60.99",
+  "currency": "USD",
+  "description": "Illuminate your space with modern sophistication using the rayna 19.5 inch black iron table lamp. With its sleek design and bold black finish, this lamp adds a touch of elegance to any decor. The iron construction provides a timeless look that seamlessly blends with a variety of styles. Perfect for your living room, bedroom, or office, rayna delivers a subtle yet striking accent to your environment. The structure of the lamp ensures it stands securely, making it both a practical and stylish addition. Brighten up your surroundings with rayna where functional design meets contemporary flair. Add this distinctive piece to your collection and transform the ambiance of your space.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4bba82d8-8257-4201-9eda-ce7d03a8b339",
+  "glb_url": "https://digitalcontent.target.com/vault/1763683200/CLOUD_63a6915e-2a1b-48f8-b22c-6ec45984aefd.glb",
+  "product_url": "https://www.target.com/p/-/A-90594337",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4844,
+    "width": 0.2537,
+    "depth": 0.2537,
+    "unit": "m",
+    "source": "glb"
+  }
+}

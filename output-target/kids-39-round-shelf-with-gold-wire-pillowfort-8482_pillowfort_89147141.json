@@ -1,0 +1,24 @@
+{
+  "tcin": "89147141",
+  "name": "Kids&#39; Round Shelf with Gold Wire - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$35.00",
+  "currency": "USD",
+  "description": "Save space while helping decorate your kid's space with the Round Shelf with Gold Wire from Pillowfort™. This white wall shelf is designed in a round shape with gold-tone wire around the circumference for appealing contrast and easy pairing with their existing decor. Designed with a metal frame, it features two shelves to offer ample space for plants, books and other decorative items.",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Furniture",
+    "Kids’ Bookcases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_ec2ccd82-1e0c-4e4d-b407-c804be8a0ebe",
+  "glb_url": "https://digitalcontent.target.com/vault/1704931200/CLOUD_8a1666af-bc76-4035-be7a-053eddd97424.glb",
+  "product_url": "https://www.target.com/p/-/A-89147141",
+  "dimensions": {
+    "height": 0.5585,
+    "width": 0.5576,
+    "depth": 0.1267,
+    "unit": "m",
+    "source": "glb"
+  }
+}

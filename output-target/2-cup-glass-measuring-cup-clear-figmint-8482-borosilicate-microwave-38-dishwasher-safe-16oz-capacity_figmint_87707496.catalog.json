@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "87707496",
+      "name": "2 Cup Glass Measuring Cup Clear - Figmint&#8482;: Borosilicate, Microwave &#38; Dishwasher Safe, 16oz Capacity",
+      "color": "Clear"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "87707496",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "kitchenware",
+        "cooking-tool"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "functional",
+        "glass"
+      ]
+    }
+  ]
+}

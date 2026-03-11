@@ -1,0 +1,27 @@
+{
+  "tcin": "85310107",
+  "name": "Glass Flush Mount Ceiling Light White - Threshold&#8482;: ETL Listed, Modern Decor, Metal &#38; Glass, 2-Bulb Fixture",
+  "brand": "Threshold",
+  "price": "$100.00",
+  "currency": "USD",
+  "description": "Spruce up the look of your home decor in modern style with this Glass Flush Mount Ceiling Light from Threshold™. Crafted from metal, this ceiling light features a glass flush mount shade to provide eye-catching lighting to your space. The sleek design gets a little depth from the solid color, while the 1-way light setting makes for easy use. Whether you install it over your dining room table or in the living room, this flush mount ceiling light makes a stylish addition to your indoor spaces.<br /><br />Threshold™: Quality & Design / Casual classics for house and home.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Ceiling Lights",
+    "Flush Mount Lighting"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3e2fad62-f96f-4b15-b06b-c4fc773b72f6",
+  "glb_url": "https://digitalcontent.target.com/vault/1663891200/CLOUD_51df2632-140e-489e-ab1b-f9bcf2d28f67.glb",
+  "product_url": "https://www.target.com/p/-/A-85310107",
+  "dimensions": {
+    "height": 0.3048,
+    "width": 0.3048,
+    "depth": 0.1588,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

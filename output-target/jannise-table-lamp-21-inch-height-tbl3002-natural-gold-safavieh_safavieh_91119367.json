@@ -1,0 +1,26 @@
+{
+  "tcin": "91119367",
+  "name": "Jannise Table Lamp - 21 Inch Height - TBL3002 - Natural/Gold - Safavieh",
+  "brand": "Safavieh",
+  "price": "$138.99",
+  "currency": "USD",
+  "description": "Elevate your space with the Jannise 21-inch table lamp. Featuring a natural and gold finish, this lamp brings a touch of elegance and warmth to any room. The combination of concrete and iron provides a unique and stylish look that complements a variety of decor styles. Whether placed on a bedside table or a living room console, Jannise illuminates your space beautifully. The sturdy metal construction ensures a lasting presence in your home. Its understated yet sophisticated design makes it an ideal choice for anyone looking to enhance their lighting collection. Let Jannise be a beacon of refined design in your home.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b880abd9-157b-4bbb-a4ef-a357c16acea6",
+  "glb_url": "https://digitalcontent.target.com/vault/1769644800/CLOUD_5989b31a-dbf9-4e0f-8504-933b2dadd296.glb",
+  "product_url": "https://www.target.com/p/-/A-91119367",
+  "color": "Natural/Gold",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5334,
+    "width": 0.3048,
+    "depth": 0.3048,
+    "unit": "m",
+    "source": "glb"
+  }
+}

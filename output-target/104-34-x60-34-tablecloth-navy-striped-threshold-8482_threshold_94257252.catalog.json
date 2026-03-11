@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94257252",
+      "name": "104&#34;x60&#34; Tablecloth Navy Striped - Threshold&#8482;",
+      "color": "Navy"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94257252",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "tablecloth",
+        "textile"
+      ],
+      "tags": [
+        "striped",
+        "classic",
+        "nautical",
+        "minimal"
+      ]
+    }
+  ]
+}

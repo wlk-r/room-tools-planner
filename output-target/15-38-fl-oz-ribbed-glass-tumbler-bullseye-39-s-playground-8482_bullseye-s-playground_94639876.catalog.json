@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "94639876",
+      "name": "15.38 fl oz Ribbed Glass Tumbler - Bullseye&#39;s Playground&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94639876",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "tabletop",
+        "decor"
+      ],
+      "tags": [
+        "minimal",
+        "modern",
+        "organic",
+        "warm"
+      ]
+    }
+  ]
+}

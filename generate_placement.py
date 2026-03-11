@@ -216,17 +216,20 @@ def extract_room_css(plan_text, meta, rules, room_id):
 
 # ---------- Stages ----------
 
-def stage_curate(plan_css, catalog, model, verbose=False):
+def stage_curate(plan_css, catalog, model, verbose=False, vibe=""):
     """Stage 1: LLM curates products from catalog and assigns to rooms."""
     catalog_view = {
         "products": catalog["products"],
         "profiles": catalog.get("profiles", []),
     }
 
+    vibe_block = f"\n<style_brief>\n{vibe}\n</style_brief>\n" if vibe else ""
+
     prompt_template = (PROMPTS_DIR / "curate.md").read_text(encoding="utf-8")
     prompt = prompt_template.format(
         plan_css=plan_css,
         catalog_json=json.dumps(catalog_view, indent=2),
+        vibe=vibe_block,
     )
 
     print(f"  Stage 1: curating products ({len(prompt)} chars)...", end="", flush=True)
@@ -341,7 +344,7 @@ def build_room_items_json(curation, room_id, catalog):
 
 # ---------- Main ----------
 
-def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False):
+def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False, vibe=""):
     """Generate placement for a single plan. Returns True on success."""
     plan_css_path = output_dir / f"{plan_stem}_plan.css"
     catalog_path = output_dir / f"{plan_stem}_catalog.json"
@@ -374,7 +377,7 @@ def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False
     }
 
     # Stage 1: Curate
-    curation, s1_report = stage_curate(plan_css, catalog, model, verbose)
+    curation, s1_report = stage_curate(plan_css, catalog, model, verbose, vibe)
     report["stage1"] = s1_report
 
     if curation is None:
@@ -449,6 +452,7 @@ def main():
     parser.add_argument("input", help="Plan stem (e.g. 01_single_room) or output directory for batch mode")
     parser.add_argument("--output-dir", default=DEFAULT_OUTPUT_DIR, help=f"Output directory (default: {DEFAULT_OUTPUT_DIR})")
     parser.add_argument("--model", default="sonnet", help="Model for LLM calls (default: sonnet)")
+    parser.add_argument("--vibe", default="", help="Style brief for curation (e.g. 'warm scandinavian, earth tones')")
     parser.add_argument("--force", action="store_true", help="Regenerate existing placements")
     parser.add_argument("--verbose", "-v", action="store_true", help="Print raw LLM responses to console")
     parser.add_argument("--report", "-r", action="store_true", help="Write <stem>_report.json with full diagnostics")
@@ -480,7 +484,7 @@ def main():
             continue
 
         print(f"[{stem}]")
-        if process_plan(stem, output_dir, args.model, args.verbose, args.report):
+        if process_plan(stem, output_dir, args.model, args.verbose, args.report, args.vibe):
             done += 1
         else:
             failed += 1

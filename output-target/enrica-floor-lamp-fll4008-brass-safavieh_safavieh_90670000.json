@@ -1,0 +1,26 @@
+{
+  "tcin": "90670000",
+  "name": "Enrica Floor Lamp - FLL4008 - Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$151.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Enrica floor lamp, standing at an elegant 66 inches. Crafted with a brass finish base, its design offers both style and function. The warm brass hue enhances any decor, bringing a touch of sophistication to your home. Topped with a white linen shade, it casts a soft, welcoming glow, perfect for reading or unwinding. The blend of iron and glass materials ensures sturdy craftsmanship and timeless appeal. Whether placed in a living room, bedroom, or office, the Enrica floor lamp becomes a statement piece, adding height and light to your favorite spaces. Experience style with effortless elegance.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3276bb0c-e8c8-44ec-b405-6447f28b1710",
+  "glb_url": "https://digitalcontent.target.com/vault/1763337600/CLOUD_5a447a86-f906-4ae8-a4ac-2e9184b5d8b0.glb",
+  "product_url": "https://www.target.com/p/-/A-90670000",
+  "dimensions": {
+    "height": 1.6772,
+    "width": 0.6135,
+    "depth": 0.5982,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brass",
+  "color_source": "parsed"
+}

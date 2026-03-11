@@ -1,0 +1,25 @@
+{
+  "tcin": "94229214",
+  "name": "84&#34;x60&#34; Tablecloth Black/White Weave - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$22.00",
+  "currency": "USD",
+  "description": "Tie together your dining table decor with this Weave Tablecloth from Threshold™. The rectangular table runner is adorned with a subtle weave pattern in black and white for a lovely, textured look, making it perfect for everyday dining or casual entertaining. Made with 100% cotton, the rectangular tablecloth helps protect the table surface from scratches and spills, and it can be machine washed for easy upkeep.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen & Table Linens",
+    "Tablecloths"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_66e59654-4f98-43f6-ad6e-35d00ca79c7d",
+  "glb_url": "https://digitalcontent.target.com/vault/1759708800/CLOUD_6c5c599e-19e0-4712-ab27-2ec69ea6288f.glb",
+  "product_url": "https://www.target.com/p/-/A-94229214",
+  "dimensions": {
+    "height": 1.7818,
+    "width": 1.1372,
+    "depth": 0.7851,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black/White",
+  "color_source": "parsed"
+}

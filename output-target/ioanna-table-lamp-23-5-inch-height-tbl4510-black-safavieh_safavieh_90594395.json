@@ -1,0 +1,26 @@
+{
+  "tcin": "90594395",
+  "name": "Ioanna Table Lamp - 23.5 Inch Height - TBL4510 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$65.99",
+  "currency": "USD",
+  "description": "Introducing the Ioanna 23.5 inch black resin table lamp, a perfect addition to any living space. This lamp combines a sleek modern design with a touch of elegance, elevating your decor effortlessly. Crafted from resin, the base offers a sophisticated look that blends seamlessly into various interior styles. The striking black color adds a bold statement while providing a warm and inviting ambiance.\n\nIdeal for bedrooms, living rooms, or offices, the Ioanna lamp enhances any setting with its stylish presence and practical functionality. Its versatile size makes it a great fit for smaller spaces or larger areas needing that extra touch of light. Easy to incorporate, this lamp is designed to complement both contemporary and traditional furnishings.\n\nWhether you are reading your favorite book or unwinding after a long day, enjoy the perfect glow and create an inviting atmosphere with the Ioanna black resin table lamp. Transform your space and embrace the modern elegance this piece brings to your home.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_55fc4667-0d22-4db4-a304-dd5ed74a58ef",
+  "glb_url": "https://digitalcontent.target.com/vault/1765238400/CLOUD_5e2d261b-bee8-4b58-87a3-2e97b38e1606.glb",
+  "product_url": "https://www.target.com/p/-/A-90594395",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6211,
+    "width": 0.324,
+    "depth": 0.324,
+    "unit": "m",
+    "source": "glb"
+  }
+}

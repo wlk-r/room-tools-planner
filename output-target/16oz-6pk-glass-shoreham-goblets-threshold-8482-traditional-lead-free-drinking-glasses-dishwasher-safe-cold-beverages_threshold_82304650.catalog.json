@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "82304650",
+      "name": "16oz 6pk Glass Shoreham Goblets - Threshold&#8482;: Traditional Lead-Free Drinking Glasses, Dishwasher-Safe, Cold Beverages",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "82304650",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "glassware",
+        "drinkware"
+      ],
+      "tags": [
+        "traditional",
+        "classic",
+        "minimal",
+        "elegant"
+      ]
+    }
+  ]
+}

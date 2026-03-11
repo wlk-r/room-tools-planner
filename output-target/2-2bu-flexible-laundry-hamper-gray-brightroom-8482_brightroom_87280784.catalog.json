@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "87280784",
+      "name": "2.2bu Flexible Laundry Hamper Gray - Brightroom&#8482;",
+      "color": "Gray"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "87280784",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "laundry-storage"
+      ],
+      "tags": [
+        "minimalist",
+        "contemporary",
+        "practical",
+        "neutral"
+      ]
+    }
+  ]
+}

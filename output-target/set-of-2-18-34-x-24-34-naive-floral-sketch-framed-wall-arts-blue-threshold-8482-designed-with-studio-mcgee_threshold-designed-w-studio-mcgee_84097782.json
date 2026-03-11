@@ -1,0 +1,27 @@
+{
+  "tcin": "84097782",
+  "name": "(Set of 2) 18&#34; x 24&#34; Naive Floral Sketch Framed Wall Arts Blue - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$98.00",
+  "currency": "USD",
+  "description": "Add a rustic, chic vibe to your room with the (Set of 2) 18\" x 24\" Naive Floral Sketch Framed Wall Arts Blue from Threshold™ designed with Studio McGee. A set of beautiful wall arts, it features delicate flowers against a muted background. A visual treat indeed, use these naive floral sketch wall arts to express your style and spruce up your home decor.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Wall Decor",
+    "Wall Art",
+    "Framed Wall Art"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d00b2df0-6721-4ca2-a71f-0376fe82ced1",
+  "glb_url": "https://digitalcontent.target.com/vault/1646006400/CLOUD_18301b0c-309d-4048-9ccf-4808bcd48ad4.glb",
+  "product_url": "https://www.target.com/p/-/A-84097782",
+  "color": "Blue",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6096,
+    "width": 0.4572,
+    "depth": 0.0362,
+    "unit": "m",
+    "source": "glb"
+  }
+}

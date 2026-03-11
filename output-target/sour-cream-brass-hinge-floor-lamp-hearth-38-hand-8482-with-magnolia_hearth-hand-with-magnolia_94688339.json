@@ -1,0 +1,24 @@
+{
+  "tcin": "94688339",
+  "name": "Sour Cream/Brass Hinge Floor Lamp - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand with Magnolia",
+  "price": "$99.99",
+  "currency": "USD",
+  "description": "Add adjustable lighting to your space with this Hinge Floor Lamp from Hearth & Hand™ with Magnolia. Standing 62 inches tall, this hinged floor lamp features a white metal empire shade with vertical perforations on the rim, set on a brass-finish metal pole body on a round base. Plus, it showcases a movable arm for flexible positioning to direct light where you need it. With a six-foot cord and convenient turn knob rotary switch, this lamp works well in your living room, entryway or reading nook.<br /><br />Hearth & Hand™ with Magnolia: Gather • Create • Enjoy",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4ff20e4c-0350-4a19-af1b-20cbbca2f334",
+  "glb_url": "https://digitalcontent.target.com/vault/1768953600/CLOUD_305c27d9-50f3-4452-ab13-34efed7eb047.glb",
+  "product_url": "https://www.target.com/p/-/A-94688339",
+  "dimensions": {
+    "height": 1.5748,
+    "width": 0.8067,
+    "depth": 0.3937,
+    "unit": "m",
+    "source": "glb"
+  }
+}

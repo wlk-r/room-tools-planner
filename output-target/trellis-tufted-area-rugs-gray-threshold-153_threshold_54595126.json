@@ -1,0 +1,26 @@
+{
+  "tcin": "54595126",
+  "name": "Trellis Tufted Area Rugs Gray - Threshold&#153;",
+  "brand": "Threshold",
+  "price": "$429.00 - $599.00",
+  "currency": "USD",
+  "description": "Evoke a feeling of warmth and style in your living space with this Trellis Tufted Area Rug from Threshold™. Made from wool and featuring a trellis pattern in pale yellow on a contrasting gray, this handmade rug blends with a variety of decor styles to bring eye-catching flair to any room it's spread in. Soft underfoot, this decorative rug is designed with latex backing to prevent it from slipping, making it a great pick for high-traffic areas in your home. Plus, the low-pile construction makes cleaning a breeze.<br /><br />Threshold™: Quality & Design / Casual classics for house and home.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Accent Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_07e4adda-0ada-41c0-a804-3ff45764fa6b",
+  "glb_url": "https://digitalcontent.target.com/vault/1622764800/CLOUD_2d81234c-8f4d-4f36-b7c5-5c6ab7f25b90.glb",
+  "product_url": "https://www.target.com/p/-/A-54595126",
+  "color": "Gray",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.9144,
+    "width": 0.6096,
+    "depth": 0.0127,
+    "unit": "m",
+    "source": "glb"
+  }
+}

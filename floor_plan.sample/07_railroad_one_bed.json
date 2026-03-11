@@ -1,0 +1,162 @@
+{
+  "defaults": {
+    "exterior_wall_thickness": 0.2,
+    "ceiling_height": 2.75
+  },
+  "rooms": [
+    {
+      "id": "r1",
+      "name": "Entry",
+      "interior_polygon": [
+        [0, 0],
+        [1.8, 0],
+        [1.8, 2.0],
+        [0, 2.0]
+      ]
+    },
+    {
+      "id": "r2",
+      "name": "Bathroom",
+      "interior_polygon": [
+        [0, 2.0],
+        [1.8, 2.0],
+        [1.8, 4.4],
+        [0, 4.4]
+      ]
+    },
+    {
+      "id": "r3",
+      "name": "Kitchen Dining",
+      "interior_polygon": [
+        [1.8, 0],
+        [5.8, 0],
+        [5.8, 4.4],
+        [1.8, 4.4]
+      ]
+    },
+    {
+      "id": "r4",
+      "name": "Living Room",
+      "interior_polygon": [
+        [5.8, 0],
+        [10.4, 0],
+        [10.4, 4.4],
+        [5.8, 4.4]
+      ]
+    },
+    {
+      "id": "r5",
+      "name": "Bedroom",
+      "interior_polygon": [
+        [10.4, 0],
+        [14.2, 0],
+        [14.2, 4.4],
+        [10.4, 4.4]
+      ]
+    },
+    {
+      "id": "r6",
+      "name": "Laundry Closet",
+      "interior_polygon": [
+        [10.4, 4.4],
+        [12.2, 4.4],
+        [12.2, 5.8],
+        [10.4, 5.8]
+      ]
+    }
+  ],
+  "openings": [
+    {
+      "id": "o1",
+      "center": [0.9, 0],
+      "width": 0.95,
+      "height": 2.1
+    },
+    {
+      "id": "o2",
+      "center": [0.9, 2.0],
+      "width": 0.82,
+      "height": 2.1
+    },
+    {
+      "id": "o3",
+      "center": [1.8, 1.2],
+      "width": 0.9,
+      "height": 2.1
+    },
+    {
+      "id": "o4",
+      "center": [5.8, 2.2],
+      "width": 1.2,
+      "height": 2.1
+    },
+    {
+      "id": "o5",
+      "center": [10.4, 2.2],
+      "width": 1.0,
+      "height": 2.1
+    },
+    {
+      "id": "o6",
+      "center": [11.3, 4.4],
+      "width": 1.4,
+      "height": 2.1
+    },
+    {
+      "id": "o7",
+      "center": [14.2, 2.2],
+      "width": 1.8,
+      "height": 1.5,
+      "elevation": 0.85
+    },
+    {
+      "id": "o8",
+      "center": [8.1, 0],
+      "width": 2.4,
+      "height": 1.4,
+      "elevation": 0.9
+    }
+  ],
+  "features": [
+    {
+      "id": "f1",
+      "anchor": "o1",
+      "type": "door",
+      "swing_dir": "r1",
+      "hinge": "left"
+    },
+    {
+      "id": "f2",
+      "anchor": "o2",
+      "type": "door",
+      "swing_dir": "r2",
+      "hinge": "right"
+    },
+    {
+      "id": "f3",
+      "anchor": "o3",
+      "type": "door",
+      "swing_dir": "r3",
+      "hinge": "left"
+    },
+    {
+      "id": "f4",
+      "anchor": "o4",
+      "type": "door",
+      "subtype": "cased-opening"
+    },
+    {
+      "id": "f5",
+      "anchor": "o5",
+      "type": "door",
+      "swing_dir": "r5",
+      "hinge": "left"
+    },
+    {
+      "id": "f6",
+      "anchor": "o6",
+      "type": "door",
+      "subtype": "bifold"
+    }
+  ]
+}

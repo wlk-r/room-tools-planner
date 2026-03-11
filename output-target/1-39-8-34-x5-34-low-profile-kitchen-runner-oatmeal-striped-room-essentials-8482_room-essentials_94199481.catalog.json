@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94199481",
+      "name": "1&#39;8&#34;x5&#34; Low Profile Kitchen Runner Oatmeal Striped - Room Essentials&#8482;",
+      "color": "Oatmeal"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94199481",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug"
+      ],
+      "tags": [
+        "striped",
+        "minimal",
+        "contemporary",
+        "neutral",
+        "warm"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "93353685",
+  "name": "30ct Christmas Tissue Paper Gray/White - Wondershop&#8482;",
+  "brand": "Wondershop",
+  "price": "$3.00",
+  "currency": "USD",
+  "description": "Add a delightful finishing touch to your Christmas presents with the 7-Count Christmas Inline Tissue Paper from Wondershop™. This tissue paper pack includes both solid color and snowflake-print tissue paper sheets for a beautiful, festive look. They're great for stuffing in gift bags to instantly elevate your gift presentation.<br /><br />Welcome to the Wondershop™.<br /><br />Forest Stewardship Council® Certified - We’re committed to making products better for you, and the world. This product is certified by the Forest Stewardship Council, which promotes environmentally appropriate, socially beneficial, and economically viable management of the world’s forests. FSC-N003198",
+  "categories": [
+    "Party Supplies",
+    "Gift Wrap, Bags & Accessories",
+    "Tissue Paper"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_1f642024-9aeb-40d3-a834-31404476af45",
+  "glb_url": "https://digitalcontent.target.com/vault/1754438400/CLOUD_db8360b3-b0a3-4ae1-84a8-997d32f26835.glb",
+  "product_url": "https://www.target.com/p/-/A-93353685",
+  "dimensions": {
+    "height": 0.4199,
+    "width": 0.1908,
+    "depth": 0.0135,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray/White",
+  "color_source": "parsed"
+}

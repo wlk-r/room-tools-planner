@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "87280785",
+      "name": "1bu Flexible Diamond Round Laundry Basket Gray - Brightroom&#8482;: Polyethylene, 35.2L Capacity, Built-In Handles, Multipurpose",
+      "color": "Gray"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "87280785",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "laundry-hamper",
+        "storage"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "organic",
+        "functional"
+      ]
+    }
+  ]
+}

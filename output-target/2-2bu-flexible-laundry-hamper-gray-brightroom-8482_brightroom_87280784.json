@@ -1,0 +1,26 @@
+{
+  "tcin": "87280784",
+  "name": "2.2bu Flexible Laundry Hamper Gray - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$8.00",
+  "currency": "USD",
+  "description": "Brush aside laundry day blues with the help of this Flexible Laundry Hamper from Brightroom™. Featuring a deep cylindrical silhouette with an open top design, this laundry basket makes sorting through laundry a breeze. It's designed with two side cutout handles for easy lifting and carrying to the laundry room. Showcasing a diamond mesh design for ventilation, this laundry basket features a solid gray hue to coordinate with a variety of decor styles.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Laundry Room Organization",
+    "Hampers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f6f622a8-e532-4203-b63a-b37cdb8609c0",
+  "glb_url": "https://digitalcontent.target.com/vault/1689552000/CLOUD_11d7e63d-7651-4288-b3f8-2ec1bf3eeb19.glb",
+  "product_url": "https://www.target.com/p/-/A-87280784",
+  "dimensions": {
+    "height": 0.6338,
+    "width": 0.4446,
+    "depth": 0.4446,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

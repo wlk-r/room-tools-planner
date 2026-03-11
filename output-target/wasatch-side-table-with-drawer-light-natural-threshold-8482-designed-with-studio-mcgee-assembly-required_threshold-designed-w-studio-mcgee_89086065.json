@@ -1,0 +1,25 @@
+{
+  "tcin": "89086065",
+  "name": "Wasatch Side Table with Drawer Light Natural - Threshold&#8482; designed with Studio McGee Assembly Required",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$104.00",
+  "currency": "USD",
+  "description": "Make a practical addition to your home with the Wasatch Side Table with Drawer from Threshold™ designed with Studio McGee. This natural-shade side table is carved out of wood in a round shape with X-shaped leg base for a standout look. Designed with a built-in drawer, this wooden side table helps provide ample space for a lamp, books and other items.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "End & Side Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_6d3c1310-65ed-4035-9058-838c5a2fa80a",
+  "glb_url": "https://digitalcontent.target.com/vault/1704326400/CLOUD_ab26afef-d27b-4630-8352-7773085ce31e.glb",
+  "product_url": "https://www.target.com/p/-/A-89086065",
+  "color": "Natural",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5588,
+    "width": 0.5241,
+    "depth": 0.5241,
+    "unit": "m",
+    "source": "glb"
+  }
+}

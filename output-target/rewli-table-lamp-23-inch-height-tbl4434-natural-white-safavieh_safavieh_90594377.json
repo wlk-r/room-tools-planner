@@ -1,0 +1,26 @@
+{
+  "tcin": "90594377",
+  "name": "Rewli Table Lamp - 23 Inch Height - TBL4434 - Natural/White - Safavieh",
+  "brand": "Safavieh",
+  "price": "$98.99",
+  "currency": "USD",
+  "description": "Introducing the REWLI table lamp, a stunning accent for any space. Measuring 23.5 inches tall and featuring a harmonious blend of natural and white tones, this lamp brings a touch of elegance to your decor. Crafted from an enchanting mix of wood, iron, and bead materials, it offers a delightful interplay of textures. The neutral color palette complements a variety of styles, creating a charming focal point either on a bedside table or a living room console. With its graceful silhouette and unique design, the REWLI table lamp seamlessly fits into both contemporary and traditional settings. Elevate the ambiance of your home with this beautiful piece. Let the warm glow of the REWLI lamp illuminate your space, creating a cozy and inviting atmosphere perfect for relaxation or entertaining guests.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_eaad00db-2851-4bb3-aa92-442ddb21aa89",
+  "glb_url": "https://digitalcontent.target.com/vault/1771372800/CLOUD_fad468e9-0a04-449b-b295-05c4e92a2287.glb",
+  "product_url": "https://www.target.com/p/-/A-90594377",
+  "color": "Natural/White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5842,
+    "width": 0.381,
+    "depth": 0.381,
+    "unit": "m",
+    "source": "glb"
+  }
+}

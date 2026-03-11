@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "item_no": "91972527",
+      "name": "12&#34;x6&#34;x4&#34; Bin Organizer Clear - Brightroom&#8482;",
+      "color": "Clear"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "91972527",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "storage",
+        "organizer"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "89623879",
+  "name": "Kids&#39; Wave Printed Shower Liner Clear - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$6.00",
+  "currency": "USD",
+  "description": "Bring a clean look to your kid's bathroom with this Wave-Printed Shower Liner from Pillowfort™. This shower liner features a clear design with an allover wave pattern in white for fun, nautical style. Designed to keep the shower curtain dry, it features a grommet top for easy installation and can be spot cleaned or wiped clean as needed.",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Bath",
+    "Kids’ Shower Curtains"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f8639703-2711-48b9-ac9d-bf508e2c6f35",
+  "glb_url": "https://digitalcontent.target.com/vault/1725580800/CLOUD_f0ff1d1e-1271-40ad-9a7a-9e8f8724efe0.glb",
+  "product_url": "https://www.target.com/p/-/A-89623879",
+  "color": "Clear",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.8034,
+    "width": 1.2314,
+    "depth": 0.6823,
+    "unit": "m",
+    "source": "glb"
+  }
+}

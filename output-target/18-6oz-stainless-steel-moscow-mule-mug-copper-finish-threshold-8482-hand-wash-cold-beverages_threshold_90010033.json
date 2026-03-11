@@ -1,0 +1,25 @@
+{
+  "tcin": "90010033",
+  "name": "18.6oz Stainless Steel Moscow Mule Mug Copper Finish - Threshold&#8482;: Hand Wash, Cold Beverages",
+  "brand": "Threshold",
+  "price": "$8.00",
+  "currency": "USD",
+  "description": "Serve delicious cocktails and mocktails using this Stainless Steel Moscow Mule Mug from Threshold™. Made of stainless steel, this mule mug is design in a copper finish for a rustic look. With a capacity of 18.6 ounces, it's great for serving a variety of cold drinks at parties or casual hangouts.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c86cc403-d1b7-40a5-a0cb-8bd2d2032b85",
+  "glb_url": "https://digitalcontent.target.com/vault/1721606400/CLOUD_2f2cb922-333c-4881-81d3-7a4ca6b235dd.glb",
+  "product_url": "https://www.target.com/p/-/A-90010033",
+  "dimensions": {
+    "height": 0.1278,
+    "width": 0.0903,
+    "depth": 0.0896,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Copper Finish",
+  "color_source": "parsed"
+}

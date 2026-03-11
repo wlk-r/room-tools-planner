@@ -1,0 +1,26 @@
+{
+  "tcin": "89825663",
+  "name": "6 Outlet Wall Tap White - Dealworthy&#8482;",
+  "brand": "Dealworthy",
+  "price": "$5.99",
+  "currency": "USD",
+  "description": "The 6 Outlet Wall Tap White - Dealworthy™ is ideal for saving space and keeping your cords organized and tangle free in your home or office. This allows a maximum amperage of 15 amps. The white finish is perfect for matching any decor and the 6 outlets provide plenty of space for plugging in all your devices. This wall tap from Dealworthy™ is perfect for adding extra outlets to any room in your home.<br /><br />dealworthy™: Just what you need, priced just right.",
+  "categories": [
+    "Electronics",
+    "Home Office Electronics",
+    "Computer & Office Accessories",
+    "Cables, Cords & Adapters"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d1bb54fa-3b12-4894-8141-944c4f081b51",
+  "glb_url": "https://digitalcontent.target.com/vault/1722556800/CLOUD_3cb42c13-1241-4665-ab5b-5c4f760b93c8.glb",
+  "product_url": "https://www.target.com/p/-/A-89825663",
+  "dimensions": {
+    "height": 0.1813,
+    "width": 0.1278,
+    "depth": 0.0483,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

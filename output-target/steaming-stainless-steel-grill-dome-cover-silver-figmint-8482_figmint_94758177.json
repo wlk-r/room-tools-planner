@@ -1,0 +1,25 @@
+{
+  "tcin": "94758177",
+  "name": "Steaming Stainless Steel Grill Dome Cover Silver - Figmint&#8482;",
+  "brand": "Figmint",
+  "price": "$12.00",
+  "currency": "USD",
+  "description": "",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Grills & Outdoor Cooking",
+    "Grill Accessories & BBQ Tools"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d6d0db52-81b4-464c-9eb1-ff7c111d7144",
+  "glb_url": "https://digitalcontent.target.com/vault/1772064000/CLOUD_cb46c5e6-da3c-48db-b336-89be9c599290.glb",
+  "product_url": "https://www.target.com/p/-/A-94758177",
+  "color": "Silver",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.2286,
+    "width": 0.2286,
+    "depth": 0.1016,
+    "unit": "m",
+    "source": "glb"
+  }
+}

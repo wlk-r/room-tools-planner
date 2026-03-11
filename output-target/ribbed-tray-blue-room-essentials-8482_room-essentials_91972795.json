@@ -1,0 +1,26 @@
+{
+  "tcin": "91972795",
+  "name": "Ribbed Tray Blue - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$8.00",
+  "currency": "USD",
+  "description": "Add textural charm and a bit of style to your bath space or vanity with the Ribbed Tray from Room Essentials™. This blue tray is designed in a rectangle shape with raised sides to give you ample space for displaying your makeup brushes, cosmetics and other essentials. Showcasing a ribbed design allover, this rectangle tray should be hand washed for easy cleanup.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Beauty",
+    "Hair Care",
+    "Hair Tools",
+    "Bathroom Storage & Hair Tool Organizers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7e9396f7-3fa9-4e09-aceb-6603876881ba",
+  "glb_url": "https://digitalcontent.target.com/vault/1747958400/CLOUD_2c20fdea-f2d8-427d-acf9-e2a08a774646.glb",
+  "product_url": "https://www.target.com/p/-/A-91972795",
+  "color": "Blue",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.2032,
+    "width": 0.1312,
+    "depth": 0.027,
+    "unit": "m",
+    "source": "glb"
+  }
+}

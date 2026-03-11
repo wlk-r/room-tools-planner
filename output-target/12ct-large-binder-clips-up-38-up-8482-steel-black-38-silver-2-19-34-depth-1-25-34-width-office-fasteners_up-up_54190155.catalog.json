@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "54190155",
+      "name": "12ct Large Binder Clips - up&#38;up&#8482;: Steel, Black &#38; Silver, 2.19&#34; Depth, 1.25&#34; Width, Office Fasteners",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "54190155",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "office-supplies",
+        "desk-organizer"
+      ],
+      "tags": [
+        "industrial",
+        "minimal",
+        "contemporary",
+        "utilitarian"
+      ]
+    }
+  ]
+}

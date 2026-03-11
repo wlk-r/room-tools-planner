@@ -1,0 +1,26 @@
+{
+  "tcin": "92762515",
+  "name": "Lola Column Table Lamp - 30 Inch Height - LIT4150 - White - Safavieh",
+  "brand": "Safavieh",
+  "price": "$98.99",
+  "currency": "USD",
+  "description": "Introducing the Lola 30-inch white ceramic column table lamp, the perfect blend of elegance and functionality for your home decor. Its sleek white ceramic finish effortlessly complements any design style, whether modern or traditional, making it a versatile addition to any room. The thoughtfully crafted column design adds a touch of timeless sophistication, creating a warm and inviting atmosphere when illuminated. \n\nDesigned for today's discerning homeowner, Lola provides an ideal lighting solution for living rooms, bedrooms, or home offices. Its balanced silhouette not only makes it a striking visual feature but also ensures stability on any surface. Enhance your space with the serene glow of Lola and experience the transformative power of thoughtful design in your interior decor. Elevate your home's ambiance with this chic table lamp, and let it be the understated yet impactful detail your space has been yearning for. Discover how Lola can illuminate your life.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_bc61ccd9-df16-46eb-9220-24cad891b9fa",
+  "glb_url": "https://digitalcontent.target.com/vault/1770336000/CLOUD_6643d8e1-8637-45f2-871c-bf7765039add.glb",
+  "product_url": "https://www.target.com/p/-/A-92762515",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.762,
+    "width": 0.381,
+    "depth": 0.381,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tcin": "81068604",
+  "name": "Koala Kids&#39; Bean Bag Chair - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$70.00",
+  "currency": "USD",
+  "description": "Add a playful, whimsical look to their space with this Koala Bean Bag Chair from Pillowfort™. This upholstered bean bag chair gives them a fun spot for comfortable lounging as they enjoy their favorite activities. It features a cute character shape for an adorable look. The light and fluffy fill material helps to retain the shape and offers cushioned comfort, while the soft upholstery surrounds them in cozy style as they sit back to read a book, watch TV or just chill. Add this chair to their bedroom or playroom area and it will become a favorite koala friend in no time.",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Furniture",
+    "Kids’ Chairs & Seating"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2fd640ee-bccc-4eb6-ba9f-215c379d5cf2",
+  "glb_url": "https://digitalcontent.target.com/vault/1615334400/CLOUD_f71b2a8e-80dc-46ef-9597-2891deb5a8eb.glb",
+  "product_url": "https://www.target.com/p/-/A-81068604",
+  "dimensions": {
+    "height": 0.8868,
+    "width": 0.7175,
+    "depth": 0.6207,
+    "unit": "m",
+    "source": "glb"
+  }
+}

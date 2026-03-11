@@ -1,0 +1,27 @@
+{
+  "tcin": "91119348",
+  "name": "Navia 2 Light 17\" Wall Sconce - SCN4139 - Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$95.99",
+  "currency": "USD",
+  "description": "Introducing the Navia wall sconce, an elegant addition to any space. With its sleek brass finish and exquisite design, this two-light fixture brings a touch of sophistication to your home decor. Crafted from durable iron and glass, the Navia sconce combines functionality with a stylish aesthetic. Measuring 17 inches, it is the perfect size to make a statement without overpowering your room. The harmonious blend of brass and glass creates a warm and inviting ambiance, while the sturdy construction ensures it remains a timeless feature in your living space. Illuminate your surroundings with this beautifully crafted piece, designed to enhance both modern and classic interiors. Add the Navia sconce to your home for an instant touch of charm and refined elegance.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Wall Lights",
+    "Wall Sconces"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_6f466f10-2bca-4242-8109-e88603a64d12",
+  "glb_url": "https://digitalcontent.target.com/vault/1771977600/CLOUD_21193f29-49f3-45c4-95b2-4f35d9f6cf4c.glb",
+  "product_url": "https://www.target.com/p/-/A-91119348",
+  "color": "Brass",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.433,
+    "width": 0.3181,
+    "depth": 0.2214,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "94691332",
+  "name": "14oz Stoneware Love You More Hearts Stacking Mug White - Spritz&#8482;",
+  "brand": "Spritz",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Add a sweet charm to your drinkware with this Love You More Hearts Stacking Mug from Spritz™. Made of stoneware, this white mug features \"love you more\" text in red on the inside and a mini red hearts print on the bottom, making it perfect for serving and sharing your favorite drinks with loved ones. With a capacity of 14 fluid ounces, it's ideal for serving coffee, tea, hot chocolate and more. Plus, it's microwave and dishwasher safe for easy reheating and cleaning. ",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d551c477-8f05-495f-b62c-566183fc55d6",
+  "glb_url": "https://digitalcontent.target.com/vault/1769731200/CLOUD_074d72c4-9bc8-44e8-8ea5-d519ece428c3.glb",
+  "product_url": "https://www.target.com/p/-/A-94691332",
+  "dimensions": {
+    "height": 0.1229,
+    "width": 0.1021,
+    "depth": 0.0883,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

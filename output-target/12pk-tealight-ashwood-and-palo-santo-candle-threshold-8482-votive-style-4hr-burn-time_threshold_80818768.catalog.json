@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "80818768",
+      "name": "12pk Tealight Ashwood and Palo Santo Candle - Threshold&#8482;: Votive-Style, 4hr Burn Time",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "80818768",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "candles",
+        "decor"
+      ],
+      "tags": [
+        "cozy",
+        "warm",
+        "organic",
+        "natural"
+      ]
+    }
+  ]
+}

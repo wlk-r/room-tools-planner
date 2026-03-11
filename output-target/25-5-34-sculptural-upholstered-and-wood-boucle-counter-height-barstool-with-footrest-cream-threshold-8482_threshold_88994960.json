@@ -1,0 +1,25 @@
+{
+  "tcin": "88994960",
+  "name": "25.5&#34; Sculptural Upholstered and Wood Boucle Counter Height Barstool with Footrest Cream - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$160.00",
+  "currency": "USD",
+  "description": "Bring a touch of comfortable style to your eat-in kitchen or bar area with this Sculptural Upholstered Wooden Counter-Height Barstool from Threshold™. Supported on a wooden frame, this counter-height bar stool features a round upholstered seat with an open raised backrest with upholstery for comfort. Best of all, a built-in footrest lets you rest your feet comfortably while enjoying your meals or drinks. Showcasing a stained wooden finish with cream upholstery, it features sculptural accents for a touch of style. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Kitchen & Dining Furniture",
+    "Bar Furniture"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f7f7cfb9-d6b9-445d-b54a-e82975f49fd5",
+  "glb_url": "https://digitalcontent.target.com/vault/1721260800/CLOUD_813ccb33-5b3c-428b-8355-ae75e033e669.glb",
+  "product_url": "https://www.target.com/p/-/A-88994960",
+  "dimensions": {
+    "height": 0.8763,
+    "width": 0.508,
+    "depth": 0.4689,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Cream",
+  "color_source": "parsed"
+}

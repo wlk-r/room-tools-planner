@@ -1,0 +1,23 @@
+{
+  "tcin": "93251239",
+  "name": "All Purpose Clear Combination Set - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Simplify your home organization with this All-Purpose Clear Combination Set from Brightroom™. This set includes four sizes of containers that can be placed inside a large container with built-in handles. Designed in a clear hue, the set allows you to see what's inside for easy accessibility. It offers ample space to store various items, from laundry and cosmetics to stationery. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Garage Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0420431c-037e-4e49-8d0c-17f3845779f1",
+  "glb_url": "https://digitalcontent.target.com/vault/1750809600/CLOUD_411c2e9e-38f1-49ca-aaf6-4b3a73a68b11.glb",
+  "product_url": "https://www.target.com/p/-/A-93251239",
+  "dimensions": {
+    "height": 0.3048,
+    "width": 0.3048,
+    "depth": 0.2042,
+    "unit": "m",
+    "source": "glb"
+  }
+}

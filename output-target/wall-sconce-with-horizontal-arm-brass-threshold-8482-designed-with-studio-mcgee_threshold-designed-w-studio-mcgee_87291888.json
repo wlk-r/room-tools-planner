@@ -1,0 +1,27 @@
+{
+  "tcin": "87291888",
+  "name": "Wall Sconce with Horizontal Arm Brass - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$78.00",
+  "currency": "USD",
+  "description": "Create gorgeous lighting overhead with this Wall Sconce with Horizontal Arm from Threshold™ designed with Studio McGee. This wall sconce features a fixed wall-mounted design with a cotton shade and brass metal body for a sleek, modern look. The white shade diffuses a warm, cozy glow, while the horizontal arm can be adjusted for better lighting. Just mount it in the entryway or above the side table near your bed for a functional lighting solution that will complement a wide variety of furnishings and color palettes.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Wall Lights",
+    "Wall Sconces"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_217bda66-648f-4311-a021-5f2f31c1345e",
+  "glb_url": "https://digitalcontent.target.com/vault/1692662400/CLOUD_2f4ad4ff-b72d-4c71-be1b-6195fe64a494.glb",
+  "product_url": "https://www.target.com/p/-/A-87291888",
+  "color": "Brass",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4616,
+    "width": 0.4028,
+    "depth": 0.1969,
+    "unit": "m",
+    "source": "glb"
+  }
+}

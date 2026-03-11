@@ -1,0 +1,164 @@
+{
+  "defaults": {
+    "exterior_wall_thickness": 0.18,
+    "ceiling_height": 2.6
+  },
+  "rooms": [
+    {
+      "id": "r1",
+      "name": "Corridor",
+      "interior_polygon": [
+        [0, 0],
+        [12, 0],
+        [12, 1.5],
+        [0, 1.5]
+      ]
+    },
+    {
+      "id": "r2",
+      "name": "Office A",
+      "interior_polygon": [
+        [0, 1.5],
+        [4, 1.5],
+        [4, 5.5],
+        [0, 5.5]
+      ]
+    },
+    {
+      "id": "r3",
+      "name": "Office B",
+      "interior_polygon": [
+        [4, 1.5],
+        [8, 1.5],
+        [8, 5.5],
+        [4, 5.5]
+      ]
+    },
+    {
+      "id": "r4",
+      "name": "Conference Room",
+      "interior_polygon": [
+        [8, 1.5],
+        [12, 1.5],
+        [12, 5.5],
+        [8, 5.5]
+      ]
+    },
+    {
+      "id": "r5",
+      "name": "Storage",
+      "interior_polygon": [
+        [0, -3],
+        [4, -3],
+        [4, 0],
+        [0, 0]
+      ]
+    },
+    {
+      "id": "r6",
+      "name": "Restroom",
+      "interior_polygon": [
+        [4, -3],
+        [8, -3],
+        [8, 0],
+        [4, 0]
+      ]
+    }
+  ],
+  "openings": [
+    {
+      "id": "o1",
+      "center": [0, 0.75],
+      "width": 0.9,
+      "height": 2.1
+    },
+    {
+      "id": "o2",
+      "center": [2, 1.5],
+      "width": 0.9,
+      "height": 2.1
+    },
+    {
+      "id": "o3",
+      "center": [6, 1.5],
+      "width": 0.9,
+      "height": 2.1
+    },
+    {
+      "id": "o4",
+      "center": [10, 1.5],
+      "width": 1.2,
+      "height": 2.1
+    },
+    {
+      "id": "o5",
+      "center": [2, 0],
+      "width": 0.8,
+      "height": 2.1
+    },
+    {
+      "id": "o6",
+      "center": [6, 0],
+      "width": 0.8,
+      "height": 2.1
+    },
+    {
+      "id": "o7",
+      "center": [12, 3.5],
+      "width": 2.0,
+      "height": 1.6,
+      "elevation": 0.8
+    },
+    {
+      "id": "o8",
+      "center": [0, 3.5],
+      "width": 1.4,
+      "height": 1.4,
+      "elevation": 0.9
+    }
+  ],
+  "features": [
+    {
+      "id": "f1",
+      "anchor": "o1",
+      "type": "door",
+      "swing_dir": "r1",
+      "hinge": "left"
+    },
+    {
+      "id": "f2",
+      "anchor": "o2",
+      "type": "door",
+      "swing_dir": "r2",
+      "hinge": "right"
+    },
+    {
+      "id": "f3",
+      "anchor": "o3",
+      "type": "door",
+      "swing_dir": "r3",
+      "hinge": "left"
+    },
+    {
+      "id": "f4",
+      "anchor": "o4",
+      "type": "door",
+      "swing_dir": "r4",
+      "hinge": "right"
+    },
+    {
+      "id": "f5",
+      "anchor": "o5",
+      "type": "door",
+      "swing_dir": "r5",
+      "hinge": "left"
+    },
+    {
+      "id": "f6",
+      "anchor": "o6",
+      "type": "door",
+      "swing_dir": "r6",
+      "hinge": "right"
+    }
+  ]
+}

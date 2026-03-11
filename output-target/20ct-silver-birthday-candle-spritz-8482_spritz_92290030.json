@@ -1,0 +1,24 @@
+{
+  "tcin": "92290030",
+  "name": "20ct Silver Birthday Candle - Spritz&#8482;",
+  "brand": "Spritz",
+  "price": "$3.00",
+  "currency": "USD",
+  "description": "",
+  "categories": [
+    "Grocery",
+    "Pantry",
+    "Baking Staples",
+    "Sprinkles, Candles & Decorations"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_12fb0757-3a5d-40a0-b4c3-97f179e04cc0",
+  "glb_url": "https://digitalcontent.target.com/vault/1754524800/CLOUD_d409d7d1-152b-4061-a121-f25158bf47f1.glb",
+  "product_url": "https://www.target.com/p/-/A-92290030",
+  "dimensions": {
+    "height": 0.0587,
+    "width": 0.0046,
+    "depth": 0.0046,
+    "unit": "m",
+    "source": "glb"
+  }
+}

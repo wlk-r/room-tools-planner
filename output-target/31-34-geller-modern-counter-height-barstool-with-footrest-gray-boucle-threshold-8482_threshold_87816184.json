@@ -1,0 +1,25 @@
+{
+  "tcin": "87816184",
+  "name": "31&#34; Geller Modern Counter Height Barstool with Footrest Gray Boucle - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$285.00",
+  "currency": "USD",
+  "description": "Add a modern seating option to your kitchen or bar counter with the Geller Modern Counter-Height Barstool from Threshold™. Set on a wooden frame with slanted legs and a footrest, this counter-height barstool features an armless design for a boost of style. The soft fabric upholstery makes this Milano elephant barstool comfy to sit on, and it pairs well with a variety of decor styles.<br /><br />Threshold™: Looks like home, feels like you.<br /><br />Overall Width: 20 Inches <br />Overall Height: 43 Inches <br />Overall Depth: 22 Inches",
+  "categories": [
+    "Furniture",
+    "Kitchen & Dining Furniture",
+    "Bar Furniture"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d31cbcbf-824d-4647-9a79-7eddbece3ad9",
+  "glb_url": "https://digitalcontent.target.com/vault/1672185600/CLOUD_87ca835b-33c3-4673-ae65-9d7c46c9399a.glb",
+  "product_url": "https://www.target.com/p/-/A-87816184",
+  "dimensions": {
+    "height": 1.0922,
+    "width": 0.5588,
+    "depth": 0.508,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "84592375",
+  "name": "Jace Table Lamp (Set of 2) - 22 Inch Height - TBL4342 - Navy Blue - Safavieh",
+  "brand": "Safavieh",
+  "price": "$122.99",
+  "currency": "USD",
+  "description": "Transform your living space with the Jace 22 inch ceramic table lamp set. These navy blue lamps introduce a tasteful touch to any interior with their sleek design. Crafted with care, each lamp features a ceramic body and an iron neck, creating a harmonious blend of materials. The timeless navy blue finish adds a subtle yet striking element to your decor. Designed to fit a standard E26 socket, they provide ease of use alongside their stylish appearance. Whether placed in your bedroom or living room, these lamps offer an inviting atmosphere. Illuminate your home with elegance and charm, enhancing your decor effortlessly with this beautiful set of two lamps.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_93726f7c-e349-4bcd-ab96-50a2170f4f5b",
+  "glb_url": "https://digitalcontent.target.com/vault/1764720000/CLOUD_22276fb4-55e3-4a75-857b-07bace74b9da.glb",
+  "product_url": "https://www.target.com/p/-/A-84592375",
+  "color": "Navy Blue",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5602,
+    "width": 0.3277,
+    "depth": 0.3277,
+    "unit": "m",
+    "source": "glb"
+  }
+}

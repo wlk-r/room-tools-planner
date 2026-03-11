@@ -1,0 +1,23 @@
+{
+  "tcin": "92771120",
+  "name": "Womens Shiny Plastic Square Sunglasses - Universal Thread&#8482; Tortoise Brown: Scratch-Resistant, UV Protection",
+  "brand": "Universal Thread",
+  "price": "$12.75",
+  "currency": "USD",
+  "description": "Add a sleek, on-trend style to your accessories collection with the Shiny Plastic Square Sunglasses from Universal Thread™. These square sunglasses feature a tortoiseshell-print brown frame with gray lenses for an eye-catching look. The lenses have a UV protection feature to help keep your eyes shielded from harmful sun rays. Made of 100% recycled plastic frame for a lightweight feel, these tortoiseshell-print sunglasses fit most faces. <br /><br />Universal Thread™: Found exclusively at Target.",
+  "categories": [
+    "Clothing, Shoes & Accessories",
+    "Accessories",
+    "Sunglasses & Eyeglasses"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_dfe153ff-f25c-4a6d-bcd8-0ab772e0b70c",
+  "glb_url": "https://digitalcontent.target.com/vault/1736229600/CLOUD_1cb09bbb-5f40-484d-a564-4ff3d5538c31.glb",
+  "product_url": "https://www.target.com/p/-/A-92771120",
+  "dimensions": {
+    "height": 0.1712,
+    "width": 0.1442,
+    "depth": 0.0525,
+    "unit": "m",
+    "source": "glb"
+  }
+}

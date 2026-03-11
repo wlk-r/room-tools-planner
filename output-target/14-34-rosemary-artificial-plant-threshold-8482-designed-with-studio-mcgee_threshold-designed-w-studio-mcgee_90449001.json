@@ -1,0 +1,24 @@
+{
+  "tcin": "90449001",
+  "name": "14&#34; Rosemary Artificial Plant - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$30.00",
+  "currency": "USD",
+  "description": "Creating a serene ambience by adding this Rosemary Artificial Plant from Threshold™ designed with Studio McGee. This artificial plant features faux rosemary leaves, creating a realistic look, and comes in a ribbed ceramic pot with speckles for a raw, earthy finish. Designed for indoor use only, you can place it on a tabletop or entryway table for an eye-catching display. <br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Artificial Greenery",
+    "Artificial Plants"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_42b276ca-1ff4-4b3f-aad9-e6556db2f114",
+  "glb_url": "https://digitalcontent.target.com/vault/1729728000/CLOUD_31a7b70d-2114-4ed7-9408-dc0c2a106eb6.glb",
+  "product_url": "https://www.target.com/p/-/A-90449001",
+  "dimensions": {
+    "height": 0.3556,
+    "width": 0.2916,
+    "depth": 0.208,
+    "unit": "m",
+    "source": "glb"
+  }
+}

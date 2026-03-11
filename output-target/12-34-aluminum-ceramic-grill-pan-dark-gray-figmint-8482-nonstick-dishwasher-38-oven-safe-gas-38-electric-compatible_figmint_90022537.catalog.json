@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "90022537",
+      "name": "12&#34; Aluminum Ceramic Grill Pan Dark Gray - Figmint&#8482;: Nonstick, Dishwasher &#38; Oven-Safe, Gas &#38; Electric Compatible",
+      "color": "Dark Gray"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90022537",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "cookware",
+        "griddle"
+      ],
+      "tags": [
+        "contemporary",
+        "minimalist",
+        "modern"
+      ]
+    }
+  ]
+}

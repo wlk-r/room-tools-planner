@@ -1,0 +1,23 @@
+{
+  "tcin": "94234099",
+  "name": "Medium Ribbed Food Storage Canister - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$18.00",
+  "currency": "USD",
+  "description": "Store cookies, flour and more within easy reach in the Medium Ribbed Food Storage Canister from Threshold™. This medium food storage canister features a ribbed design and includes a lid with a gold-tone knob handle for an elegant look and easy use. Made of stoneware, this canister makes a stylish and functional addition to any kitchen.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen Storage",
+    "Food Storage Containers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3dc57b30-9ec7-4518-9ac9-191e9bd5a5aa",
+  "glb_url": "https://digitalcontent.target.com/vault/1753660800/CLOUD_c2054798-0107-41a4-acfa-cef1dcb30d40.glb",
+  "product_url": "https://www.target.com/p/-/A-94234099",
+  "dimensions": {
+    "height": 0.2031,
+    "width": 0.1604,
+    "depth": 0.1597,
+    "unit": "m",
+    "source": "glb"
+  }
+}

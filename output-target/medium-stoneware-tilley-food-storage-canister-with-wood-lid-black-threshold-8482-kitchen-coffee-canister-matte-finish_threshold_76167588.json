@@ -1,0 +1,25 @@
+{
+  "tcin": "76167588",
+  "name": "Medium Stoneware Tilley Food Storage Canister with Wood Lid Black - Threshold&#8482;: Kitchen Coffee Canister, Matte Finish",
+  "brand": "Threshold",
+  "price": "$17.00",
+  "currency": "USD",
+  "description": "The Stoneware Tilley Food Storage Canister with Wood Lid from Threshold™ makes it easy to organize your favorite foods. Made from durable stoneware, this decorative food storage canister comes with a wooden lid that helps maintain freshness and keeps food flavorful. Designed with a cylindrical silhouette, this stoneware food canister is great for storing flour, whole grains and coffee beans, as well as cookies, snacks and other munchies. Plus, the black matte finish makes it a great accent piece for your countertop or kitchen island.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen Storage",
+    "Food Storage Containers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2c3c4348-4d08-48a8-a6f6-a6f61062b546",
+  "glb_url": "https://digitalcontent.target.com/vault/1661731200/CLOUD_efe703eb-fe50-4c8c-87d3-593e2709bf80.glb",
+  "product_url": "https://www.target.com/p/-/A-76167588",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.1748,
+    "width": 0.1651,
+    "depth": 0.1651,
+    "unit": "m",
+    "source": "glb"
+  }
+}

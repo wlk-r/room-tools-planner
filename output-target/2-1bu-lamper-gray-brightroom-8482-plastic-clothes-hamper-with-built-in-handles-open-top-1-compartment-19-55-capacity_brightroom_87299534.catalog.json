@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "87299534",
+      "name": "2.1bu Lamper Gray - Brightroom&#8482;: Plastic Clothes Hamper with Built-In Handles, Open-Top, 1 Compartment, 19.55 Capacity",
+      "color": "Gray"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "87299534",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "laundry-hamper",
+        "storage"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "utilitarian",
+        "neutral"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "89925200",
+  "name": "Modern Turned Wood 2 Door Cabinet Brown - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$320.00",
+  "currency": "USD",
+  "description": "Utilize the space in your home with the beautiful storage of the Modern Turned Wood 2-Door Cabinet from Threshold™ designed with Studio McGee. This natural wood cabinet is designed with multiple shelves — one open and two inside the cabinet to help provide ample space for your decorative accents, vases, books and other items. Plus, this modern cabinet comes with turned wood accents to make a perfect addition to your home. <br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Storage Furniture"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_531eadea-3e79-4325-a20c-8946b5aa850e",
+  "glb_url": "https://digitalcontent.target.com/vault/1723680000/CLOUD_241d3e13-0c9a-4f03-ae0d-17f865d62da0.glb",
+  "product_url": "https://www.target.com/p/-/A-89925200",
+  "color": "Brown",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.9906,
+    "width": 0.762,
+    "depth": 0.4658,
+    "unit": "m",
+    "source": "glb"
+  }
+}

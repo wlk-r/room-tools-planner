@@ -1,0 +1,25 @@
+{
+  "tcin": "91563214",
+  "name": "Storage Bag with Wheels Pewter Aqua - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$12.00",
+  "currency": "USD",
+  "description": "Maximize your storage space with the help of this Storage Bag with Wheels from Brightroom™. This storage bag features a zipper closure for easy access, while the handles and spinner wheels allow easy maneuverability. With a capacity of 7360 cubic inches, this storage bag in a pewter aqua hue is great for storing your blankets, throw pillows and more. Best of all, it's collapsible for easy storage when not in use. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Garage Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_bb41506a-78e8-4e3a-a10c-a5b2208f8b70",
+  "glb_url": "https://digitalcontent.target.com/vault/1741564800/CLOUD_e26780a3-c250-4dfc-b9a6-e44543e008f3.glb",
+  "product_url": "https://www.target.com/p/-/A-91563214",
+  "color": "Aqua",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6808,
+    "width": 0.6095,
+    "depth": 0.4948,
+    "unit": "m",
+    "source": "glb"
+  }
+}

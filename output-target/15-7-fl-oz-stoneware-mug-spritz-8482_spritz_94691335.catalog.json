@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94691335",
+      "name": "15.7 fl oz Stoneware Mug - Spritz&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94691335",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "decor"
+      ],
+      "tags": [
+        "playful",
+        "colorful",
+        "whimsical",
+        "contemporary"
+      ]
+    }
+  ]
+}

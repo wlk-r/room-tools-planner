@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "93465827",
+      "name": "19&#34; Christmas Flocked Tree Round White Base - Wondershop&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "93465827",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "decor",
+        "seasonal"
+      ],
+      "tags": [
+        "festive",
+        "cozy",
+        "natural",
+        "minimal"
+      ]
+    }
+  ]
+}

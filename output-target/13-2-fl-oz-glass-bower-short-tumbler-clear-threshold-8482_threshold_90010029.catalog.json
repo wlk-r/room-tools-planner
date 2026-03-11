@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "90010029",
+      "name": "13.2 fl oz Glass Bower Short Tumbler Clear - Threshold&#8482;",
+      "color": "Clear"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90010029",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "clean",
+        "elegant"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "94686025",
+  "name": "Beaded Ceramic Planter Ivory - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$20.00",
+  "currency": "USD",
+  "description": "Elegantly display your favorite plants with this Beaded Ceramic Planter from Threshold™. Made of ceramic, this ivory planter features beaded detailing on the rim and ribbed edges for a sophisticated touch. Plus, it has a single drainage hole to remove excess water from the soil of any houseplant.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Lawn & Garden",
+    "Planters",
+    "Tabletop Planters"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_56139015-6688-4c5b-ae90-3dfc08e0952c",
+  "glb_url": "https://digitalcontent.target.com/vault/1764201600/CLOUD_e4fb6731-7e94-42d8-ac2e-645c20cad09d.glb",
+  "product_url": "https://www.target.com/p/-/A-94686025",
+  "dimensions": {
+    "height": 0.176,
+    "width": 0.1746,
+    "depth": 0.1548,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Ivory",
+  "color_source": "parsed"
+}

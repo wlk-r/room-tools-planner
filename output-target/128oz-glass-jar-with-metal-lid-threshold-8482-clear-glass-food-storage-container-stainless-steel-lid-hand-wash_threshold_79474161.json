@@ -1,0 +1,23 @@
+{
+  "tcin": "79474161",
+  "name": "128oz Glass Jar with Metal Lid - Threshold&#8482;: Clear Glass Food Storage Container, Stainless Steel Lid, Hand Wash",
+  "brand": "Threshold",
+  "price": "$8.50",
+  "currency": "USD",
+  "description": "Keep your contents fresh and dry with this Glass Jar with Metal Lid from Threshold™. This glass jar makes a must-have pantry or kitchen essential. It features a classic design that fits well with any color scheme or kitchen decor, and a clear construction for easy identification of stored contents. The practical container makes an ideal choice for storing a variety of food items and dry ingredients that are used in your kitchen. It includes a secure lid that helps to keep the contents fresh.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen Storage",
+    "Food Storage Containers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_370471af-ace5-49f1-8616-4b78f9f50519",
+  "glb_url": "https://digitalcontent.target.com/vault/1658102400/CLOUD_a2a26244-eaff-46df-bf06-faa402da0229.glb",
+  "product_url": "https://www.target.com/p/-/A-79474161",
+  "dimensions": {
+    "height": 0.2095,
+    "width": 0.1674,
+    "depth": 0.167,
+    "unit": "m",
+    "source": "glb"
+  }
+}

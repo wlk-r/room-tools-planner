@@ -1,0 +1,23 @@
+{
+  "tcin": "94280333",
+  "name": "Bat Halloween Baby Toy - Cloud Island&#8482;",
+  "brand": "Cloud Island",
+  "price": "$9.99",
+  "currency": "USD",
+  "description": "Bring Halloween fun to your little one's nursery with the Bat Plush Toy for Baby from Cloud Island™. This plush toy is designed as a bat with ears, nose, wings and eyes for an adorable look. Made of soft polyester fabric, this plush baby toy makes a perfect gift for baby showers or first birthdays.<br /><br />Cloud Island™: Designed with love. Made without compromise.",
+  "categories": [
+    "Toys",
+    "Learning & Educational Toys",
+    "Baby Learning Toys"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_9863657d-0cab-41de-9342-5003de715043",
+  "glb_url": "https://digitalcontent.target.com/vault/1772409600/CLOUD_709594b7-8ae3-4eb3-964f-7f88b1d00bcd.glb",
+  "product_url": "https://www.target.com/p/-/A-94280333",
+  "dimensions": {
+    "height": 0.3114,
+    "width": 0.2159,
+    "depth": 0.1556,
+    "unit": "m",
+    "source": "glb"
+  }
+}

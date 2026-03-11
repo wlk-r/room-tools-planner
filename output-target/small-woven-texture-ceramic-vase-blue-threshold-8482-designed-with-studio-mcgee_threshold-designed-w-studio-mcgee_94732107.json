@@ -1,0 +1,26 @@
+{
+  "tcin": "94732107",
+  "name": "Small Woven Texture Ceramic Vase Blue - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Elevate your space with the elegant look of this Small Woven-Texture Ceramic Vase from Threshold™ designed with Studio McGee. Featuring an all-over basket-weave pattern in blue, this vase adds an artisanal feel to any tabletop or shelf. The rounded body, narrow neck, and dual handles create a beautiful amphora-like shape, and the watertight construction allows you to fill it with fresh stems if desired.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Decorative Objects",
+    "Vases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_efece66c-38ee-4f4f-95e5-b4b0c4bd0303",
+  "glb_url": "https://digitalcontent.target.com/vault/1768521600/CLOUD_aca54d49-9d08-44cf-be5a-be324f6e93d6.glb",
+  "product_url": "https://www.target.com/p/-/A-94732107",
+  "color": "Blue",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.1778,
+    "width": 0.1759,
+    "depth": 0.1758,
+    "unit": "m",
+    "source": "glb"
+  }
+}

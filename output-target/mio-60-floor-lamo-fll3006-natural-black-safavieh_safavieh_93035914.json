@@ -1,0 +1,26 @@
+{
+  "tcin": "93035914",
+  "name": "Mio 60\" Floor Lamo - FLL3006 - Natural/Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$226.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Mio Floor Lamp, a stylish and functional piece designed to complement any room. This lamp combines the natural elegance of cane with the sleek durability of iron, presented in a sophisticated black finish. The Mio Floor Lamp brings a tasteful ambiance to your environment, blending seamlessly with both contemporary and traditional decors. The image provided showcases the lamp's attention to detail and craftsmanship with a sleek in-line switch, emphasizing its modern design. Add this versatile lighting option to your home or office and enjoy the blend of practicality and aesthetics it provides.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4067e79d-24c8-40db-9180-8fae7ac5ab33",
+  "glb_url": "https://digitalcontent.target.com/vault/1771804800/CLOUD_880dc18c-9a5d-4024-b726-72184ba51af4.glb",
+  "product_url": "https://www.target.com/p/-/A-93035914",
+  "color": "Natural/Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.4968,
+    "width": 0.3838,
+    "depth": 0.2543,
+    "unit": "m",
+    "source": "glb"
+  }
+}

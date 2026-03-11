@@ -121,8 +121,10 @@
 </div>
 <div class="placement-controls">
   <button class="choose-btn" onclick="document.getElementById('placement-input').click()">Choose folder</button>
+  <button class="choose-btn" onclick="document.getElementById('layout-input').click()">Add layout</button>
   <button class="chevron-btn" id="chevron-btn" onclick="toggleFilePanel()">&#9664;</button>
   <input type="file" id="placement-input" webkitdirectory style="display:none">
+  <input type="file" id="layout-input" accept=".json" style="display:none">
 </div>
 <div class="file-panel" id="file-panel">
   <div class="file-empty">No placements loaded</div>
@@ -133,16 +135,11 @@
 <script>
 const OUTPUT_DIR = "quantize_room.output";
 const PLAN_STEMS = [
-  "01_single_room",
-  "02_two_rooms",
-  "03_three_rooms",
-  "04_l_shaped",
-  "05_five_rooms",
-  "06_single_room_stubs",
-  "07_two_rooms_stubs",
-  "08_angled_bump_out",
-  "09_pentagonal_room",
-  "10_angled_shared_wall",
+  "corner_suite",
+  "cozy_cottage",
+  "gallery_hall",
+  "open_loft",
+  "townhouse",
 ];
 const PLANS = PLAN_STEMS.map(s => `${OUTPUT_DIR}/${s}_plan.css`);
 
@@ -349,7 +346,7 @@ function parseFootprint(snippet) {
   return { item_no, width: w ? +w[1] : 8, height: h ? +h[1] : 8, elevation: el ? +el[1] : 0 };
 }
 
-async function loadPlacement(json) {
+async function loadPlacement(json, { append = false } = {}) {
   const planStem = json.plan;
   const canvas = planCanvases[planStem];
   if (!canvas) {
@@ -357,8 +354,8 @@ async function loadPlacement(json) {
     return;
   }
 
-  // Clear previous placements on this canvas
-  canvas.querySelectorAll(".placement-item").forEach(el => el.remove());
+  // Clear previous placements on this canvas (unless appending)
+  if (!append) canvas.querySelectorAll(".placement-item").forEach(el => el.remove());
 
   // Load catalog for footprints + product info
   const catalogPath = `${OUTPUT_DIR}/${planStem}_catalog.json`;
@@ -395,7 +392,11 @@ async function loadPlacement(json) {
     genLabel.className = "placement-gen";
     container.insertBefore(genLabel, canvas);
   }
-  genLabel.textContent = `placement: ${json.gen}  (${json.items.length} items)`;
+  const models = json.curate_model && json.arrange_model
+    ? `curate: ${json.curate_model} → arrange: ${json.arrange_model}`
+    : json.gen.split("-").pop();
+  const vibe = json.curate_vibe ? `  vibe: "${json.curate_vibe}"` : "";
+  genLabel.textContent = `${json.gen}  ${models}  (${json.items.length} items)${vibe}`;
 
   // Render each placed item
   for (const item of json.items) {
@@ -497,6 +498,24 @@ document.getElementById("placement-input").addEventListener("change", async (e) 
       console.error(`Failed to parse ${file.name}:`, err);
     }
   }
+  updateActiveLabel();
+});
+
+// Single-file "Add layout" handler — appends to existing placements
+document.getElementById("layout-input").addEventListener("change", async (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  try {
+    const json = JSON.parse(await file.text());
+    if (json.items && json.plan) {
+      await loadPlacement(json, { append: true });
+      if (!loadedPlacements.includes(file.name)) loadedPlacements.push(file.name);
+      console.log(`Appended layout: ${json.gen} on ${json.plan}`);
+    }
+  } catch (err) {
+    console.error(`Failed to parse ${file.name}:`, err);
+  }
+  e.target.value = "";
   updateActiveLabel();
 });
 

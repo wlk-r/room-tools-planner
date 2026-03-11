@@ -1,0 +1,25 @@
+{
+  "tcin": "91264709",
+  "name": "Easter Throw Jacquard Floral Green - Threshold&#8482; Design with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$35.00",
+  "currency": "USD",
+  "description": "Get your home decor Easter ready with the Easter Throw from Threshold™ designed with Studio McGee. This multi-green throw is covered with floral jacquard weave pattern and fringe detailing along the ends for a beautiful look. Made of midweight fabric, this throw feels soft and cozy. <br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Bedding",
+    "Bed Blankets"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_733836d6-8f94-487a-a8b6-0097cc23f705",
+  "glb_url": "https://digitalcontent.target.com/vault/1740528000/CLOUD_55a8e5ee-57d0-482f-a2c3-5965ac0ee687.glb",
+  "product_url": "https://www.target.com/p/-/A-91264709",
+  "dimensions": {
+    "height": 1.5913,
+    "width": 1.346,
+    "depth": 0.1176,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Green",
+  "color_source": "parsed"
+}

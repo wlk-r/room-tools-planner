@@ -1,0 +1,26 @@
+{
+  "tcin": "94249788",
+  "name": "Stick Floor Lamp Black - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$40.00",
+  "currency": "USD",
+  "description": "Create a cozy atmosphere in any corner of your home with this Stick Floor Lamp from Room Essentials™. This stick lamp has a sleek metal body with a pedestal base in a black finish and a white pleated cone-shaped shade for modern style and a soft glow. The floor lamp also sports a pull chain for easy on/off, while the five-foot cord allows for versatile placement in any room.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_77d5e164-35a5-4300-865d-e32784a76537",
+  "glb_url": "https://digitalcontent.target.com/vault/1755043200/CLOUD_78b5abf5-1664-494f-9bfb-a05fc0c06213.glb",
+  "product_url": "https://www.target.com/p/-/A-94249788",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.5261,
+    "width": 0.4556,
+    "depth": 0.4554,
+    "unit": "m",
+    "source": "glb"
+  }
+}

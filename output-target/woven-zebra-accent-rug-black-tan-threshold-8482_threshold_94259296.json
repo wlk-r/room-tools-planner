@@ -1,0 +1,26 @@
+{
+  "tcin": "94259296",
+  "name": "Woven Zebra Accent Rug Black/Tan - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$40.00",
+  "currency": "USD",
+  "description": "Add the perfect finishing touch to any indoor space with this Woven Zebra Accent Rug from Threshold™. This rectangular accent rug features a zebra pattern on a woven backdrop in black and tan hues to elevate your space while blending effortlessly with a variety of decor styles. Easy to clean, this low-pile rug is highly versatile and suitable for high-traffic areas like your kitchen, living room or entryway.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Accent Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_1f16808a-b4a8-4c49-9da9-804139396b5f",
+  "glb_url": "https://digitalcontent.target.com/vault/1753747200/CLOUD_cfdc3e94-3305-488a-a965-2e8939e11822.glb",
+  "product_url": "https://www.target.com/p/-/A-94259296",
+  "color": "Black/Tan",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.916,
+    "width": 0.6116,
+    "depth": 0.0059,
+    "unit": "m",
+    "source": "glb"
+  }
+}

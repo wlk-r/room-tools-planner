@@ -1,0 +1,25 @@
+{
+  "tcin": "54364953",
+  "name": "Adjustable Storage Desk Black - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$90.00",
+  "currency": "USD",
+  "description": "Give your workspace or den a quick update with this sleek and simple Adjustable Storage Desk from Room Essentials™. Featuring a sturdy, metal frame with a matte-black finish and an espresso brown top, this versatile storage desk can be placed anywhere from your den to your entryway. The sleek silhouette and clean lines lend a modern, contemporary feel to your space, while the wide tabletop and open shelving unit on one side offers ample storage space. The adjustable shelves can be moved up or down for customized storage.<br /><br />Overall  Height:  30\" <br />Overall Width:  43\"<br />Overall Depth: 19\"<br />Chair Opening Height: 28.25\"<br />Chair Opening Width: 27.12\"<br />Shelf Width:  16.25\"<br />Shelf Depth: 16.25\"<br />Shelf opening – 15.55”",
+  "categories": [
+    "Furniture",
+    "Home Office Furniture",
+    "Desks"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_677d0a83-4e74-46b3-9fc4-35ee1a3c29b2",
+  "glb_url": "https://digitalcontent.target.com/vault/1763078400/CLOUD_4f80662e-e717-4ecf-b3d0-fb9c545f8cb2.glb",
+  "product_url": "https://www.target.com/p/-/A-54364953",
+  "dimensions": {
+    "height": 1.0922,
+    "width": 0.7658,
+    "depth": 0.4826,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

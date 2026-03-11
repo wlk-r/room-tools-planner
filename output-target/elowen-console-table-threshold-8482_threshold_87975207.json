@@ -1,0 +1,23 @@
+{
+  "tcin": "87975207",
+  "name": "Elowen Console Table - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$165.00",
+  "currency": "USD",
+  "description": "Go modern with the simple style of this Elowen Console Table from Threshold™. This rectangular console table features a laminated metal frame in a brass finish for a vintage look. The wooden tabletop and built-in bottom shelf complement the frame, and give you ample space for your books, framed photos, plants and more.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Console Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_40a158c9-0c90-442d-8263-2fa5a9f4adfe",
+  "glb_url": "https://digitalcontent.target.com/vault/1697587200/CLOUD_d0f0d64e-efc5-4b8e-aedc-bcab55cfaeb4.glb",
+  "product_url": "https://www.target.com/p/-/A-87975207",
+  "dimensions": {
+    "height": 0.9619,
+    "width": 0.765,
+    "depth": 0.4031,
+    "unit": "m",
+    "source": "glb"
+  }
+}

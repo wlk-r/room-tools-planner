@@ -1,0 +1,26 @@
+{
+  "tcin": "1003132702",
+  "name": "Solani 22\" Wood Table Lamp - TBL3025 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$98.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the understated elegance of the Solani Table Lamp. It is the perfect blend of form and function, offering a warm and inviting glow to any room. With its sophisticated wood body paired with a soft fabric shade, the Solani Table Lamp seamlessly complements both modern and traditional decor styles. The natural hues of the wood contrast beautifully with the sleek black finish, creating a striking visual appeal that enhances your home or office. Whether placed on a bedside table, desk, or sideboard, this versatile lamp adds a touch of refined style and ambiance to your environment.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_ca53f5c7-c609-4ef0-a1b4-3b33521da591",
+  "glb_url": "https://digitalcontent.target.com/vault/1770681600/CLOUD_0a6af1e7-5f0c-485b-970c-6427802f06e6.glb",
+  "product_url": "https://www.target.com/p/-/A-1003132702",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5588,
+    "width": 0.3048,
+    "depth": 0.3048,
+    "unit": "m",
+    "source": "glb"
+  }
+}

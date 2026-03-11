@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94434262",
+      "name": "10&#34; Ceramic Plant Stand Ivory - Threshold&#8482;",
+      "color": "Ivory"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94434262",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "plant-stand",
+        "decor"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "organic",
+        "sculptural"
+      ]
+    }
+  ]
+}

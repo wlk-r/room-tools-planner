@@ -1,0 +1,25 @@
+{
+  "tcin": "92033024",
+  "name": "Traditional 4 Drawer Dresser Classic White - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$199.00",
+  "currency": "USD",
+  "description": "Give your bedroom a stylish storage upgrade with this 4-Drawer Dresser from Room Essentials™. This wooden dresser features a sleek design for a clean, modern look, and the white color pairs easily with a variety of decor styles. The four spacious drawers with metal knobs provide ample storage space for clothing, accessories and more, while the flat top offers space to display a lamp, frame or other small decorative items. <br /><br />Room Essentials™: Everyday Value<br /><br />Detailed Dimensions:<br />Overall Width: 31.97 inches<br />Overall Height: 37.95 inches<br />Overall Depth: 20 inches<br />Distance from floor to bottom: 3.35  inches<br />Distance between front legs: 28.35 inches<br />Distance between front leg and back leg: 16.34 inches<br />Depth of drawer: 13.88 inches<br />Width of drawer front: 28.11 inches<br />Height of drawer front: 7.62 inches<br />Depth of drawer: 9.57 inches<br />Height of drawer: 5.28 inches<br />Width of drawer: 26.42 inches",
+  "categories": [
+    "Furniture",
+    "Bedroom Furniture",
+    "Dressers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_8f0ef4d4-787a-4e31-9522-b7ae5db770a6",
+  "glb_url": "https://digitalcontent.target.com/vault/1748563200/CLOUD_e2a7bda2-31ac-4728-a54d-3dbc027c9739.glb",
+  "product_url": "https://www.target.com/p/-/A-92033024",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.9656,
+    "width": 0.8146,
+    "depth": 0.5096,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "54146904",
+  "name": "7&#39;10&#34;x10&#39; Minnows Outdoor Rug Navy - Threshold&#8482;: Weather-Resistant, UV Protection, Woven",
+  "brand": "Threshold",
+  "price": "$140.00",
+  "currency": "USD",
+  "description": "Transform your deck, porch or patio into a ocean-inspired oasis with this Minnows Outdoor Rug from Threshold™. This navy and white outdoor rug is constructed from stain- and water-resistant polypropylene to stand up to heavy foot traffic, and features a sturdy backing to prevent shifting and sliding. Brimming with seaside style, this geometric area rug features an attention grabbing minnow pattern to enhance the look of any interior space or outdoor area.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Area Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b5c8d39f-cd6b-40a2-9844-977529aba82b",
+  "glb_url": "https://digitalcontent.target.com/vault/1650412800/CLOUD_f242f692-0f3b-4436-83c0-679c9e1cdbb6.glb",
+  "product_url": "https://www.target.com/p/-/A-54146904",
+  "dimensions": {
+    "height": 3.048,
+    "width": 2.3876,
+    "depth": 0.0381,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Navy",
+  "color_source": "parsed"
+}

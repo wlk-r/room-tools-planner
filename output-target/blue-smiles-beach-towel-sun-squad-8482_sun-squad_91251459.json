@@ -1,0 +1,23 @@
+{
+  "tcin": "91251459",
+  "name": "Blue Smiles Beach Towel - Sun Squad&#8482;",
+  "brand": "Sun Squad",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Bring extra cheer to your sunny days outdoors with this Blue Smiles Beach Towel from Sun Squad™. Made from 100% terry cotton, this lightweight beach towel feels soft against your skin and helps you dry off quickly. Perfectly suited to spread on the sand, a beach chair, or a chaise lounge, it features allover blue smiley face emojis for fun style.<br /><br />Sun Squad™: Ready for fun.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Beach Towels"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_ced60b0e-a02c-47fc-b17d-42abe2aaf94e",
+  "glb_url": "https://digitalcontent.target.com/vault/1743033600/CLOUD_d13ef414-5eb9-4847-8350-79f5cdaf7848.glb",
+  "product_url": "https://www.target.com/p/-/A-91251459",
+  "dimensions": {
+    "height": 1.4863,
+    "width": 0.7325,
+    "depth": 0.0059,
+    "unit": "m",
+    "source": "glb"
+  }
+}

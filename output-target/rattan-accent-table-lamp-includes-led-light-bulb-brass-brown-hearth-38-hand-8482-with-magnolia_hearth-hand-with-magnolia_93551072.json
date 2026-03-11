@@ -1,0 +1,26 @@
+{
+  "tcin": "93551072",
+  "name": "Rattan Accent Table Lamp (Includes LED Light Bulb) Brass/Brown - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand with Magnolia",
+  "price": "$39.99",
+  "currency": "USD",
+  "description": "Add a beautiful accent to your home and illuminate the space in a vintage style with the Rattan Accent Table Lamp (Includes LED Light Bulb) from Hearth & Hand™ with Magnolia. This accent table features a mushroom-like shape with a round metal base for a standout look you'll love. Made of rattan, this brown table lamp has a woven design for an artistic appeal. The three-way light setting allows you to customize the lighting according to your needs. Simply turn it on and off with the touch-activated sensor.<br /><br />Hearth & Hand™ with Magnolia: Gather • Create • Enjoy",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_1810657a-259f-444c-80c7-86809171461f",
+  "glb_url": "https://digitalcontent.target.com/vault/1765929600/CLOUD_1b3f06bd-af1d-4dc6-aa30-96aea34ed51e.glb",
+  "product_url": "https://www.target.com/p/-/A-93551072",
+  "color": "Brass/Brown",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3089,
+    "width": 0.254,
+    "depth": 0.2413,
+    "unit": "m",
+    "source": "glb"
+  }
+}

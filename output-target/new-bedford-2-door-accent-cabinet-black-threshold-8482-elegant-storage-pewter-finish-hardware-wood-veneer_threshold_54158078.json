@@ -1,0 +1,25 @@
+{
+  "tcin": "54158078",
+  "name": "New Bedford 2 Door Accent Cabinet Black - Threshold&#8482;: Elegant Storage, Pewter-Finish Hardware, Wood Veneer",
+  "brand": "Threshold",
+  "price": "$142.50",
+  "currency": "USD",
+  "description": "The New Bedford 2-Door Accent Cabinet from Threshold™ will make a stylish, functional accent to your decor. You'll love putting your favorite decorative objects on display, whether you place it in your living room, entryway or study. The double glass doors feature pewter-finish pulls to provide easy access while elevating the piece's traditionally charming design, which is topped off with a black wood finish, making it a natural choice for any home.<br /><br />Overall width: 31.1\" <br />Overall depth (at floor): 10.9\" <br />Overall height: 31.9\" <br />Depth of top panel: 13.4\" <br />Distance from floor to bottom of bottom panel: 5.7\" <br />Distance between bottom of adjustable shelf and bottom panel: 11.7\" <br />Distance between side panels: 28.5\" <br />Depth of bottom panel: 13\" <br />Depth of adjustable shelf: 11.7\" <br />Width of adjustable shelf: 29.1\" <br />Width of door: 14.1\" <br />Height of door: 23.7\" <br /><br />Maximum adjustable shelf weight: 35 lbs. <br />Maximum top panel weight: 45 lbs. <br />Maximum bottom panel weight: 35 lbs.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Storage Furniture"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7b771232-b482-45f1-866f-a7dfd8712f6a",
+  "glb_url": "https://digitalcontent.target.com/vault/1645747200/CLOUD_4af15fea-bea0-4df6-9b1a-fdcef2efce7c.glb",
+  "product_url": "https://www.target.com/p/-/A-54158078",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.8102,
+    "width": 0.7901,
+    "depth": 0.3485,
+    "unit": "m",
+    "source": "glb"
+  }
+}

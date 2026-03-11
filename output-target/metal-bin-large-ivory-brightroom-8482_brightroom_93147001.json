@@ -1,0 +1,25 @@
+{
+  "tcin": "93147001",
+  "name": "Metal Bin Large Ivory - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Upgrade your home storage with this Large Metal Bin from Brightroom™ . Designed in a square silhouette and featuring a deep design, this small metal bin is handy for stashing anything from small electronics and books to files, folders and more. The open-top design provides easy access to the contents, and the cutout handles make carrying it a breeze. Featuring a ribbed construction in an ivory hue, it's sure to integrate with different decor styles. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Storage Bins & Boxes"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b2bbfe9b-821e-4a89-81b6-33e2700898b7",
+  "glb_url": "https://digitalcontent.target.com/vault/1750723200/CLOUD_4c9d3e22-37a4-4b7b-9934-de8b84ec1f90.glb",
+  "product_url": "https://www.target.com/p/-/A-93147001",
+  "color": "Ivory",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3585,
+    "width": 0.3353,
+    "depth": 0.2846,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "86858840",
+  "name": "Wall Hook Shelf with Beading - White - Cloud Island&#8482;",
+  "brand": "Cloud Island",
+  "price": "$40.99",
+  "currency": "USD",
+  "description": "Curate a stylish wall display in your child’s room with this Wall Hook Shelf with Beading from cloud island™. This decorative wall shelf features beaded detailing and three peg hooks. A perfect blend of style and function, this decorative wall shelf provides you with a fresh accent that seamlessly integrates with a variety of decor styles. It can be mounted on any wall to provide a sleek platform to display framed photos, stuffed animals, small toys and more. <br /><br />cloud island™: Designed with love. Made without compromise.",
+  "categories": [
+    "Baby",
+    "Nursery",
+    "Nursery Furniture",
+    "Nursery Bookcases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a76659aa-75b5-46d0-8000-6e7e7f8e371b",
+  "glb_url": "https://digitalcontent.target.com/vault/1706140800/CLOUD_1e965822-850c-45bd-9b2c-e83b028822e6.glb",
+  "product_url": "https://www.target.com/p/-/A-86858840",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.508,
+    "width": 0.254,
+    "depth": 0.127,
+    "unit": "m",
+    "source": "glb"
+  }
+}

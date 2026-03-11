@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "87933127",
+      "name": "11&#34; x 14&#34; Female Portrait Framed Wall Art Canvas - Threshold&#8482; designed with Studio McGee",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "87933127",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "wall-art",
+        "decor"
+      ],
+      "tags": [
+        "elegant",
+        "neutral",
+        "classical",
+        "minimal"
+      ]
+    }
+  ]
+}

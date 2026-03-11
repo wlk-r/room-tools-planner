@@ -1,0 +1,24 @@
+{
+  "tcin": "94685965",
+  "name": "Climbing Monstera Plant - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$22.00",
+  "currency": "USD",
+  "description": "Elevate your home decor aesthetic with this Artificial Climbing Monstera Potted Plant from Threshold™. This artificial potted plant features a realistic-looking climbing monstera to bring a touch of nature to your indoor space, and it comes potted inside a black ceramic pot for easy display on any surface. Just place it in the entryway or living room along with other potted plants to transform your space into a charming oasis.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Artificial Greenery",
+    "Artificial Plants"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c72fc7f7-895f-432c-80d4-056b9048a42b",
+  "glb_url": "https://digitalcontent.target.com/vault/1766534400/CLOUD_22c03719-f630-4439-b7f9-9a1facaade29.glb",
+  "product_url": "https://www.target.com/p/-/A-94685965",
+  "dimensions": {
+    "height": 0.4373,
+    "width": 0.3349,
+    "depth": 0.325,
+    "unit": "m",
+    "source": "glb"
+  }
+}

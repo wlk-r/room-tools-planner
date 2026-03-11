@@ -1,0 +1,25 @@
+{
+  "tcin": "93155492",
+  "name": "Small Bin Labels 3pk Silver - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$10.00",
+  "currency": "USD",
+  "description": "Elegantly label small bins, boxes and more with the 3-Pack of Small Bin Labels from Brightroom™. This silver-tone label pack is designed in a rectangular shape with a silver frame and a clear space to label, making it easy to identify the contents. Made of metal, this bin label pack is excellent for everyday use.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "School & Office Supplies",
+    "Teacher Supplies & Classroom Decorations",
+    "Classroom Storage and Organization"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_5cf86fc6-2f43-421b-98f2-a3a0c30cdc60",
+  "glb_url": "https://digitalcontent.target.com/vault/1748476800/CLOUD_40754647-f60b-44f2-9a5b-3e9a6613a4a7.glb",
+  "product_url": "https://www.target.com/p/-/A-93155492",
+  "color": "Silver",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.0381,
+    "width": 0.0177,
+    "depth": 0.0033,
+    "unit": "m",
+    "source": "glb"
+  }
+}

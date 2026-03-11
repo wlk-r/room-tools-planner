@@ -1,0 +1,26 @@
+{
+  "tcin": "91254857",
+  "name": "Javert Table Lamp - 20.5 Inch Height - TBL7012 - White - Safavieh",
+  "brand": "Safavieh",
+  "price": "$90.99",
+  "currency": "USD",
+  "description": "Elevate your space with the Javert table lamp. Standing at 20.5 inches tall, this lamp is a masterpiece of design, blending functionality with sophistication. Its white ceramic body offers a versatile look that complements any decor, creating a warm ambiance in your living room, bedroom, or office. The elegant glass shade diffuses light beautifully, providing just the right touch of illumination for reading or relaxation. With its sleek form and timeless appeal, the Javert lamp is more than just a light source?it is a statement of style. Embrace the simplicity of modern elegance and let this exquisite piece transform your home environment. Perfect for those who appreciate understated beauty and well-crafted design, the Javert table lamp is an ideal choice for any space.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_6bf92890-757d-4212-ba54-1bf1e15d9a67",
+  "glb_url": "https://digitalcontent.target.com/vault/1768262400/CLOUD_7ece424d-46cf-4648-8354-e5a3c4046b78.glb",
+  "product_url": "https://www.target.com/p/-/A-91254857",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.527,
+    "width": 0.2884,
+    "depth": 0.2884,
+    "unit": "m",
+    "source": "glb"
+  }
+}

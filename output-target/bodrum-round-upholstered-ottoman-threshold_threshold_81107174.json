@@ -1,0 +1,23 @@
+{
+  "tcin": "81107174",
+  "name": "Bodrum Round Upholstered Ottoman - Threshold™",
+  "brand": "Threshold",
+  "price": "$90.00",
+  "currency": "USD",
+  "description": "Make a stylish addition to your living room or den with the Bodrum Round Upholstered Ottoman from Threshold™. This fabric-upholstered round ottoman comes in a beautiful jewel tone that adds a touch of dimension to your space, and the straightforward cylindrical design contrasts perfectly with the rich color. Standing at a height of 18 inches, this mod-inspired ottoman makes a perfect footrest or coffee-table stand-in, and the wood frame and padded seat provide a stable, comfy seat for guests. Whether you pair it with your couch or your favorite accent chair, you'll love the style and functionality it adds to your space.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Ottomans"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_df599837-a73a-4a1d-a98d-94e564adda9a",
+  "glb_url": "https://digitalcontent.target.com/vault/1617926400/CLOUD_e3dfb914-b4fb-43d4-be54-41003d187b3a.glb",
+  "product_url": "https://www.target.com/p/-/A-81107174",
+  "dimensions": {
+    "height": 0.4572,
+    "width": 0.4572,
+    "depth": 0.4572,
+    "unit": "m",
+    "source": "glb"
+  }
+}

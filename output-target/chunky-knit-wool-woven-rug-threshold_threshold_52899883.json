@@ -1,0 +1,24 @@
+{
+  "tcin": "52899883",
+  "name": "Chunky Knit Wool Woven Rug - Threshold™",
+  "brand": "Threshold",
+  "price": "$35.00 - $600.00",
+  "currency": "USD",
+  "description": "An understated, underfoot accent comes in the form of the Chunky Knit Wool Rug from Threshold™. Natural fibers are woven to create a chunky honeycomb appearance, which is at home in any room in your house, given the neutral colors. The subtle variation in colors and thickness gives this rug a depth and richness that will translate to whatever room it's in.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Accent Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_15030a80-bcd6-4e61-9fdd-c3b44e4ba199",
+  "glb_url": "https://digitalcontent.target.com/vault/1617753600/CLOUD_c3f7295f-5c19-4a78-bb10-e7f2b3a966da.glb",
+  "product_url": "https://www.target.com/p/-/A-52899883",
+  "dimensions": {
+    "height": 0.9144,
+    "width": 0.6096,
+    "depth": 0.0044,
+    "unit": "m",
+    "source": "glb"
+  }
+}

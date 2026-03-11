@@ -1,0 +1,26 @@
+{
+  "tcin": "80944956",
+  "name": "Mozelle Classic Gliding Power Recliner Beige - Christopher Knight Home: Upholstered Polyester, Wood Frame, 250lb Capacity",
+  "brand": "Christopher Knight Home",
+  "price": "$346.99",
+  "currency": "USD",
+  "description": "This easy to recline, classically designed, extra cushioned gliding recliner accent chair provides an incredibly high degree of comfort in an attractive package. Featuring plush, lightly tufted seat back paired perfectly with the easy to release lever allowing for high comfort with little effort. This recliner is sure to be the talk of the family with everyone vying for a turn relaxing on it.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Chairs",
+    "Recliners"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_73201813-9e55-4f4b-9ab9-d1b4116d5404",
+  "glb_url": "https://digitalcontent.target.com/vault/1658966400/CLOUD_5cb2dc6d-1a6c-4634-b0dc-df5f3192262c.glb",
+  "product_url": "https://www.target.com/p/-/A-80944956",
+  "color": "Beige",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.9904,
+    "width": 0.9903,
+    "depth": 0.8763,
+    "unit": "m",
+    "source": "glb"
+  }
+}

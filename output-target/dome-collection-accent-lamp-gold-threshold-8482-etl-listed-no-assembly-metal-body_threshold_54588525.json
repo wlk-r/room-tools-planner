@@ -1,0 +1,26 @@
+{
+  "tcin": "54588525",
+  "name": "Dome Collection Accent Lamp Gold - Threshold&#8482;: ETL Listed, No Assembly, Metal Body",
+  "brand": "Threshold",
+  "price": "$30.00",
+  "currency": "USD",
+  "description": "Illuminate any space in your home with modern style with this Dome Collection Accent Lamp Gold - Threshold™. This lamp features a golden metallic dome base with a drum shade for sophisticated flair. The white shade diffuses light for a soft, ambient glow, while the one-way light setting with a simple on/off switch allows for easy operation. Place it on the side table or console table in your entryway or living room for an inviting look.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_fcd26b83-2ee5-40e3-9a3d-bd4693094dad",
+  "glb_url": "https://digitalcontent.target.com/vault/1617926400/CLOUD_5fa6a29c-0a02-4b50-8eee-89ad526b2b08.glb",
+  "product_url": "https://www.target.com/p/-/A-54588525",
+  "dimensions": {
+    "height": 0.4348,
+    "width": 0.2413,
+    "depth": 0.2413,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gold",
+  "color_source": "parsed"
+}

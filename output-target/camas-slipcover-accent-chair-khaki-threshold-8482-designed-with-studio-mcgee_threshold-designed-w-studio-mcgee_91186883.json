@@ -1,0 +1,26 @@
+{
+  "tcin": "91186883",
+  "name": "Camas Slipcover Accent Chair Khaki - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$336.00",
+  "currency": "USD",
+  "description": "Add sophisticated style to your seating ensemble with the Camas Slipcover Accent Chair from Threshold™ designed with Studio McGee. This khaki slipcover accent chair features an upholstered design with removable polyester cushions filled with polyurethane foam for comfortable sitting. The polyester-linen blend slipcover includes side ties for easy attachment to the chair. Made with a rubberwood and plywood frame in a lacquered finish, this accent chair is great for your living area, study room or any other space.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Chairs",
+    "Accent Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b64c5a2e-f1f5-45af-91ab-f1d300bfc292",
+  "glb_url": "https://digitalcontent.target.com/vault/1741737600/CLOUD_94796db0-08ae-466a-8a08-ad30a4c5939a.glb",
+  "product_url": "https://www.target.com/p/-/A-91186883",
+  "dimensions": {
+    "height": 0.9398,
+    "width": 0.8528,
+    "depth": 0.7799,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Khaki",
+  "color_source": "parsed"
+}

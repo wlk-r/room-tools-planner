@@ -1,0 +1,26 @@
+{
+  "tcin": "87713749",
+  "name": "12qt Stainless Steel Stock Pot Silver - Figmint&#8482;",
+  "brand": "Figmint",
+  "price": "$46.00",
+  "currency": "USD",
+  "description": "Making homemade stocks or soups is easy with this 12-Quart Stainless Steel Stock Pot from Figmint™. Featuring an aluminum core fully surrounded by two layers of stainless steel for quick and even heat distribution, this silver-finish stock pot can be used with all utensil types, from wood to silicone to stainless steel. The pot is induction, gas and electric stove compatible and comes with a clear lid, and it's also oven safe up to 450 degrees Fahrenheit. <br /><br />Figmint™: Mixing up a taste of adventure everyday.",
+  "categories": [
+    "Kitchen & Dining",
+    "Cookware",
+    "Pots & Pans",
+    "Skillets & Fry Pans"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_584d22ed-135e-4bea-89ad-3fca3497eda6",
+  "glb_url": "https://digitalcontent.target.com/vault/1717632000/CLOUD_5198b34e-b02e-4e00-9891-95ebe61d6def.glb",
+  "product_url": "https://www.target.com/p/-/A-87713749",
+  "dimensions": {
+    "height": 0.2799,
+    "width": 0.2106,
+    "depth": 0.1984,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Silver",
+  "color_source": "parsed"
+}

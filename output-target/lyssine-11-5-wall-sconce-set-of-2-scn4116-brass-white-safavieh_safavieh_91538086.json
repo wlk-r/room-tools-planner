@@ -1,0 +1,27 @@
+{
+  "tcin": "91538086",
+  "name": "Lyssine 11.5\" Wall Sconce (Set of 2) - SCN4116 - Brass/White - Safavieh",
+  "brand": "Safavieh",
+  "price": "$126.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the elegance of the Lyssine wall sconce set. Each 11.5 inch sconce combines the warmth of brass with the smooth finish of alabaster for a truly distinctive look. The metal body adds durability while the metal canopy complements the design. A fabric shade softly diffuses light to create an inviting atmosphere in any room. This set of two offers both practicality and style, making it a perfect addition to your home decor. The classic brass and white color scheme easily complements various interior styles, providing a touch of sophistication. Transform your living space with a lighting solution that blends form and function seamlessly.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Wall Lights",
+    "Wall Sconces"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c551b0f6-586d-443d-8525-c765fde8e347",
+  "glb_url": "https://digitalcontent.target.com/vault/1770336000/CLOUD_d6b5820e-4e53-4a3e-80e3-9b0510c6a90d.glb",
+  "product_url": "https://www.target.com/p/-/A-91538086",
+  "color": "Brass/White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3302,
+    "width": 0.2921,
+    "depth": 0.1524,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "83279859",
+      "name": "12&#39;&#39; x 12&#39;&#39; x 2&#34; All Purpose Storage Tray - Brightroom&#8482;: Clear Plastic Bathroom Organizer Tray",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "83279859",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "storage",
+        "organizer"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "functional"
+      ]
+    }
+  ]
+}

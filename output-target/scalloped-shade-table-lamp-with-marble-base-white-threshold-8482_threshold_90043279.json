@@ -1,0 +1,26 @@
+{
+  "tcin": "90043279",
+  "name": "Scalloped Shade Table Lamp with Marble Base White - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$65.00",
+  "currency": "USD",
+  "description": "Style your space with the Scalloped Shade Table Lamp with Marble Base from Threshold™. This white table lamp features a white scalloped shade that complements the gold-tone body and round marble base for a modern look. Designed with a one-way light setting, this table lamp has an in-line (cord) rotary switch for quick on and off.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_02733eef-6d16-4e5a-90ba-8d9c0109ddad",
+  "glb_url": "https://digitalcontent.target.com/vault/1725840000/CLOUD_2f7cb330-3e65-4274-84c8-959062176e41.glb",
+  "product_url": "https://www.target.com/p/-/A-90043279",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.566,
+    "width": 0.5461,
+    "depth": 0.3957,
+    "unit": "m",
+    "source": "glb"
+  }
+}

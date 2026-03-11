@@ -1,0 +1,24 @@
+{
+  "tcin": "79682821",
+  "name": "Pouf Ottoman - Cloud Island&#8482; Mint",
+  "brand": "Cloud Island",
+  "price": "$34.99",
+  "currency": "USD",
+  "description": "Bring fun, function and style to your little one's room or nursery with the Mint Pouf Ottoman from cloud island™. In a pouf-like style with a refreshing minty hue, this pouf ottoman has a knitted design that creates stylish texture and a soft exterior. The soft cotton fabric and rounded shape is great for little ones learning to crawl and toddle around with it's lack of hard surfaces or sharp edges, while the compact and lightweight design lets you easily move it around a nursery or child's playroom when they need more space. ",
+  "categories": [
+    "Baby",
+    "Nursery",
+    "Nursery Furniture",
+    "Gliders & Ottomans"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_605b7511-0045-4811-b7da-c89c3ba114cd",
+  "glb_url": "https://digitalcontent.target.com/vault/1617148800/CLOUD_8cd51311-9083-4818-885b-a0ebb0a72610.glb",
+  "product_url": "https://www.target.com/p/-/A-79682821",
+  "dimensions": {
+    "height": 0.4064,
+    "width": 0.4064,
+    "depth": 0.3048,
+    "unit": "m",
+    "source": "glb"
+  }
+}

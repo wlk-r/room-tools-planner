@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "83345800",
+      "name": "16&#34; x 20&#34; Ancient Fresco Linen Framed Wall Art Print - Threshold&#8482; designed with Studio McGee",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "83345800",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "wall-art"
+      ],
+      "tags": [
+        "warm",
+        "organic",
+        "contemporary",
+        "earthy"
+      ]
+    }
+  ]
+}

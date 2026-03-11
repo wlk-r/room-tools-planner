@@ -1,0 +1,25 @@
+{
+  "tcin": "91188470",
+  "name": "Corallina Upholstered Wooden Bench Natural Wood/Dark Brown - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$180.00",
+  "currency": "USD",
+  "description": "Bring a comfy seating experience to your entryway or sleeping quarters with this Corallina Upholstered Wooden Bench from Threshold™ designed with Studio McGee. This rectangular bench features natural wooden legs and brown-hue, padded upholstery to help you sit in comfort, blending effortlessly with any decor style. Give it a home in front of your bed or keep it in the entryway for a resting place you're sure to appreciate.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Benches"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_fe5364be-a494-42e6-b5d8-4d083e2cac9d",
+  "glb_url": "https://digitalcontent.target.com/vault/1740614400/CLOUD_97807559-fac6-4e0a-a4ec-ed981e40dd14.glb",
+  "product_url": "https://www.target.com/p/-/A-91188470",
+  "dimensions": {
+    "height": 1.1684,
+    "width": 0.4706,
+    "depth": 0.4318,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Dark Brown",
+  "color_source": "parsed"
+}

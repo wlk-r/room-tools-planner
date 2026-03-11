@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "91972524",
+      "name": "2 Tier Corner Shelf Clear - Brightroom&#8482;",
+      "color": "Clear"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "91972524",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "corner-shelving",
+        "storage"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "functional",
+        "utilitarian"
+      ]
+    }
+  ]
+}

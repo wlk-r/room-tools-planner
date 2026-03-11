@@ -1,0 +1,26 @@
+{
+  "tcin": "94817386",
+  "name": "Disco Hearts Wave Beach Chair White - Roller Rabbit x Target",
+  "brand": "Roller Rabbit x Target",
+  "price": "$30.00",
+  "currency": "USD",
+  "description": "Get ready for your summer getaway with this Beach Chair from Roller Rabbit x Target. This beach chair features a steel frame with recycled polyester seat and back cushions for comfy seating. Weather resistant for lasting outdoor use, it can be spot cleaned or wiped clean as needed.<br /><br />Beloved for their colorful prints and uplifting styles, Roller Rabbit adds more joy to any journey. Now, they’re joining Target to celebrate travel, friendship and togetherness in this limited-edition collection designed to inspire your ultimate spring adventure.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Chairs",
+    "Beach Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_38980d1f-5e95-4a80-9131-d47e115ec464",
+  "glb_url": "https://digitalcontent.target.com/vault/1764547200/CLOUD_d811fd5a-09b0-4e0c-8914-c1917d9dd8b0.glb",
+  "product_url": "https://www.target.com/p/-/A-94817386",
+  "dimensions": {
+    "height": 0.5816,
+    "width": 0.5591,
+    "depth": 0.5362,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

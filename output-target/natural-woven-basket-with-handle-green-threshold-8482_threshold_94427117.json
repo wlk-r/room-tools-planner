@@ -1,0 +1,25 @@
+{
+  "tcin": "94427117",
+  "name": "Natural Woven Basket with Handle Green - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$10.00",
+  "currency": "USD",
+  "description": "Keep your space clean and organized with the help of this Natural Woven Basket with Handle from Threshold™. This oval basket is woven from rattan in a green hue to add an elegant and functional touch to your space. The open top lets you easily store and access the contents, while the top handle offers easy portability. You can place it in the living room, bedroom or your kid's nursery to store a variety of daily essentials. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Storage Baskets"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_6526a152-162f-499b-b734-6aaff605fbc7",
+  "glb_url": "https://digitalcontent.target.com/vault/1753747200/CLOUD_89f509df-f707-4f40-a20d-aec0700445cb.glb",
+  "product_url": "https://www.target.com/p/-/A-94427117",
+  "color": "Green",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.2691,
+    "width": 0.2032,
+    "depth": 0.172,
+    "unit": "m",
+    "source": "glb"
+  }
+}

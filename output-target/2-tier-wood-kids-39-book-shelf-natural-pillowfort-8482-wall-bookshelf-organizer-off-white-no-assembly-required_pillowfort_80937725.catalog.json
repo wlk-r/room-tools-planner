@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "80937725",
+      "name": "2 Tier Wood Kids&#39; Book Shelf Natural - Pillowfort&#8482;: Wall Bookshelf Organizer, Off-White, No Assembly Required",
+      "color": "Natural"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "80937725",
+      "tier": "accent",
+      "placement": "wall",
+      "categories": [
+        "shelving",
+        "storage"
+      ],
+      "tags": [
+        "minimal",
+        "natural",
+        "warm",
+        "organic"
+      ]
+    }
+  ]
+}

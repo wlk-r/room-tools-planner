@@ -1,0 +1,26 @@
+{
+  "tcin": "93087171",
+  "name": "Scripted Structured Collapsible Hamper - Black - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$11.00",
+  "currency": "USD",
+  "description": "Bring style and function to your laundry room with this Scripted Structured Collapsible Hamper from Brightroom™. Made of lightweight polyester in black with the word \"Laundry\" in white, this 3900-cubic-inch capacity hamper features an open top and handles for convenient carrying, and the collapsible design allows for easy storage when not in use. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Laundry Room Organization",
+    "Hampers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4ef5d91d-7d7c-47a4-8666-ac5739eb7da2",
+  "glb_url": "https://digitalcontent.target.com/vault/1757462400/CLOUD_ff740bd8-40df-4f57-9a72-495fea4c20ae.glb",
+  "product_url": "https://www.target.com/p/-/A-93087171",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.635,
+    "width": 0.4041,
+    "depth": 0.3497,
+    "unit": "m",
+    "source": "glb"
+  }
+}

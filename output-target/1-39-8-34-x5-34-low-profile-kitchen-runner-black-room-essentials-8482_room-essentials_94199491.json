@@ -1,0 +1,26 @@
+{
+  "tcin": "94199491",
+  "name": "1&#39;8&#34;x5&#34; Low Profile Kitchen Runner Black - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$24.00",
+  "currency": "USD",
+  "description": "Create a stylish look in the busiest room of your house with the Low Profile Kitchen Runner from Room Essentials™. This rectangular kitchen runner comes in a black hue for a stylish look that blends well with any decor. The polyurethane material provides soft underfoot comfort, while a flat pile height makes it suitable for high-traffic areas within your home.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Area Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2284dad5-19a8-4659-a305-5bb07843c10a",
+  "glb_url": "https://digitalcontent.target.com/vault/1751846400/CLOUD_0e90648a-4e15-4fe1-a250-3b41a9ed35f7.glb",
+  "product_url": "https://www.target.com/p/-/A-94199491",
+  "dimensions": {
+    "height": 1.5252,
+    "width": 0.5098,
+    "depth": 0.0058,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

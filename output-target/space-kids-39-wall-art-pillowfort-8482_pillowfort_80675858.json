@@ -1,0 +1,25 @@
+{
+  "tcin": "80675858",
+  "name": "Space Kids&#39; Wall Art - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Brighten up their space with the colorful and creative Space Wall Art from Pillowfort™. Showcasing our solar system with the sun and planets along with cool rocket and spaceship art in bright hues, this decorative wall art makes a cool addition to your child's space. The colorful orbiting planets popping against a starry night backdrop inspire their imagination, and the natural frame will look great on any wall. Place it in their study area or the playroom for a personalized touch.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Wall Decor",
+    "Wall Art",
+    "Canvas Wall Art"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_1d765469-f46d-4019-b7f9-b2716c1a2727",
+  "glb_url": "https://digitalcontent.target.com/vault/1610409600/CLOUD_1de5cd3a-7455-4929-a02e-1cd7ea3dab79.glb",
+  "product_url": "https://www.target.com/p/-/A-80675858",
+  "dimensions": {
+    "height": 0.6096,
+    "width": 0.4572,
+    "depth": 0.0422,
+    "unit": "m",
+    "source": "glb"
+  }
+}

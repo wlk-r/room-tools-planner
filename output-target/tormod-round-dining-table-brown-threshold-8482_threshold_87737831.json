@@ -1,0 +1,25 @@
+{
+  "tcin": "87737831",
+  "name": "Tormod Round Dining Table Brown - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$396.00",
+  "currency": "USD",
+  "description": "Upgrade your dining space with the Tormod Round Dining Table from Threshold™. This brown dining table features a round tabletop and a hexagonal base with allover caned design for an attractive look. Designed with a wooden frame, this round dining table complements your existing decor well — simply add coordinating chairs and dine in elegance. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Kitchen & Dining Furniture",
+    "Dining Room Sets & Collections"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d9baddf8-df55-4add-87d2-37c71c89922d",
+  "glb_url": "https://digitalcontent.target.com/vault/1697587200/CLOUD_dbb25473-61d6-4845-b691-4905a2144d11.glb",
+  "product_url": "https://www.target.com/p/-/A-87737831",
+  "color": "Brown",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.1684,
+    "width": 1.1684,
+    "depth": 0.762,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "94598562",
+  "name": "Battery/Solar LED Outdoor Touch Accent Table Lamp Blue - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Light up and decorate your space in modern style with this Battery/Solar LED Outdoor Accent Table Lamp from Threshold™. Designed with an integrated LED bulb, this compact lamp delivers soft, ambient lighting that’s perfect for patios, balconies or outdoor side tables. The dual power option lets you switch between solar and battery use for added convenience, while the touch-activated sensor makes operation effortless. Crafted with a weather-resistant, freezeproof metal body, this lamp is built to handle outdoor conditions.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Lighting",
+    "Outdoor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_058c6bae-51f7-497e-acf4-707ad7519d95",
+  "glb_url": "https://digitalcontent.target.com/vault/1762473600/CLOUD_0621a35e-e43d-4b34-9d3f-cc9e78a6aa1d.glb",
+  "product_url": "https://www.target.com/p/-/A-94598562",
+  "dimensions": {
+    "height": 0.3048,
+    "width": 0.1524,
+    "depth": 0.1524,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "81891922",
+  "name": "Estilo Column Lamp (Set of 2) - 36 Inch Height - LIT4304 - Dark Grey - Safavieh",
+  "brand": "Safavieh",
+  "price": "$154.99",
+  "currency": "USD",
+  "description": "Illuminate your home with the timeless elegance of the Estilo column lamps. These stunning dark grey lamps are crafted from metal, blending seamlessly into any decor with their sleek design. Perfect for adding a touch of sophistication to your living space, these lamps provide a warm and inviting ambiance. Whether placed in a living room, study, or bedroom, their understated charm complements both modern and traditional interiors. The Estilo column lamps are more than just a source of light; they are a statement piece that enhances the beauty of your home. Discover the ideal balance of style and function, making every moment spent at home more delightful. Let the Estilo column lamps be the centerpiece of your room, radiating a sense of calm and refinement.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_eb7688cf-6447-4b9a-adb3-d508f2823aef",
+  "glb_url": "https://digitalcontent.target.com/vault/1764115200/CLOUD_d9ff00ca-c380-4a19-930d-c09cfd0cff9a.glb",
+  "product_url": "https://www.target.com/p/-/A-81891922",
+  "dimensions": {
+    "height": 0.9147,
+    "width": 0.3759,
+    "depth": 0.3759,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Dark Grey",
+  "color_source": "parsed"
+}

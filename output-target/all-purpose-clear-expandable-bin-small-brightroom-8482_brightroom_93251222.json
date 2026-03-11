@@ -1,0 +1,23 @@
+{
+  "tcin": "93251222",
+  "name": "All Purpose Clear Expandable Bin Small - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$13.00",
+  "currency": "USD",
+  "description": "This Small All Purpose Clear Expandable Bin from Brightroom™ will keep your home organized and clutter-free. Featuring a clear hue, this storage bin lets you see the stored contents, while the expandable design provides extra space for storing large items. With cut-out handles for easy portability, this 256-cubic-inches bin is ideal for storing throws, pillows, and other frequently used items. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Garage Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_cd754f06-6db1-44cc-bdb4-cccb872714c5",
+  "glb_url": "https://digitalcontent.target.com/vault/1751068800/CLOUD_65ca6bfa-554e-400a-be8c-3f536790a393.glb",
+  "product_url": "https://www.target.com/p/-/A-93251222",
+  "dimensions": {
+    "height": 0.2032,
+    "width": 0.1999,
+    "depth": 0.1606,
+    "unit": "m",
+    "source": "glb"
+  }
+}

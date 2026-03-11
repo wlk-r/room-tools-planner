@@ -1,0 +1,26 @@
+{
+  "tcin": "79137638",
+  "name": "Bath Body Wrap Gray - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$10.00",
+  "currency": "USD",
+  "description": "A great alternative to a bath towel, you're sure to appreciate the convenience and comfort this Bath Body Wrap from Room Essentials™ brings to your morning schedule or nighttime wind-down routine. Made from 100% terry cotton, this bath body wrap feels soft against your skin, allowing you to dry off comfortably as you take your time getting dressed. It features a hook-and-loop closure that holds it in place and lets you customize the fit, while the just over three-foot length offers plenty of coverage. <br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Home",
+    "Bath",
+    "Towels",
+    "Bath Towels"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_65581892-05a4-47bf-93a1-e5eb2b80dbfd",
+  "glb_url": "https://digitalcontent.target.com/vault/1740528000/CLOUD_013d4218-1ad5-4969-9d15-8211df4e6a60.glb",
+  "product_url": "https://www.target.com/p/-/A-79137638",
+  "dimensions": {
+    "height": 0.9398,
+    "width": 0.6896,
+    "depth": 0.066,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

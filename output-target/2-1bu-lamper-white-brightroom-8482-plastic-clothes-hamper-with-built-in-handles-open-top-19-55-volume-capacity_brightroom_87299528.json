@@ -1,0 +1,26 @@
+{
+  "tcin": "87299528",
+  "name": "2.1bu Lamper White - Brightroom&#8482;: Plastic Clothes Hamper with Built-In Handles, Open-Top, 19.55 Volume Capacity",
+  "brand": "Brightroom",
+  "price": "$11.00",
+  "currency": "USD",
+  "description": "For breezing effortlessly through laundry days, choose this Lamper from Brightroom™. Featuring a deep rectangular silhouette with an open top design, this laundry hamper makes sorting through laundry a breeze. It's designed with one handle on each side for easy lifting and carrying from different rooms to the laundry room. Showcasing a mesh design for ventilation, this laundry basket features a solid white hue to coordinate with a variety of decor styles.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Laundry Room Organization",
+    "Hampers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7e718454-08fb-4e71-9aa9-f5c9115f3e07",
+  "glb_url": "https://digitalcontent.target.com/vault/1690416000/CLOUD_982670c6-9d25-404c-b790-4c5168410d46.glb",
+  "product_url": "https://www.target.com/p/-/A-87299528",
+  "dimensions": {
+    "height": 0.5663,
+    "width": 0.4773,
+    "depth": 0.4613,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

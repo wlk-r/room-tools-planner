@@ -1,0 +1,26 @@
+{
+  "tcin": "94257310",
+  "name": "2&#39;x3&#39; Laurel Comfort Mat Accent Rug Blue - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$20.00",
+  "currency": "USD",
+  "description": "Add garden-inspired charm to your floor with this 2-Foot x 3-Foot Laurel Comfort Mat Accent Rug from Threshold™. This woven accent rug is adorned with a soft multicolor floral pattern on a light blue backdrop, adding a refreshing touch to any indoor space. Plus, it features a low-pile construction and machine-washable design for enhanced convenience. Use it to highlight specific areas, such as in front of a reading chair or small desk, or keep it at the foot of your bed or inside your entryway for a welcoming touch.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Accent Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b55f78c4-6598-462f-8053-4d60c82d28d4",
+  "glb_url": "https://digitalcontent.target.com/vault/1751932800/CLOUD_00571f54-eb10-488d-bf7e-028738ecf6c0.glb",
+  "product_url": "https://www.target.com/p/-/A-94257310",
+  "dimensions": {
+    "height": 0.9158,
+    "width": 0.6112,
+    "depth": 0.0059,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

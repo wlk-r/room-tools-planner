@@ -1,0 +1,26 @@
+{
+  "tcin": "94817400",
+  "name": "Floral Vines Patio Umbrella Blue - Roller Rabbit x Target",
+  "brand": "Roller Rabbit x Target",
+  "price": "$100.00",
+  "currency": "USD",
+  "description": "Upgrade your outdoor oasis with this Patio Umbrella from Roller Rabbit x Target. Designed with a steel frame and a fabric canopy with fringe. It requires a centered pole umbrella base (not included) and the weather-resistant construction promotes lasting outdoor use.<br /><br />Beloved for their colorful prints and uplifting styles, Roller Rabbit adds more joy to any journey. Now, they’re joining Target to celebrate travel, friendship and togetherness in this limited-edition collection designed to inspire your ultimate spring adventure.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Shade & Structures",
+    "Patio Umbrellas",
+    "Market Umbrellas"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a881a408-baf7-46d9-92de-232c7695067b",
+  "glb_url": "https://digitalcontent.target.com/vault/1771891200/CLOUD_89fe47a0-ae63-49e0-9034-e493a3165f45.glb",
+  "product_url": "https://www.target.com/p/-/A-94817400",
+  "dimensions": {
+    "height": 2.6736,
+    "width": 2.3495,
+    "depth": 2.225,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

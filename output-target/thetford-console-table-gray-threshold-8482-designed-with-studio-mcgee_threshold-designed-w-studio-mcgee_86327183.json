@@ -1,0 +1,25 @@
+{
+  "tcin": "86327183",
+  "name": "Thetford Console Table Gray - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$308.00",
+  "currency": "USD",
+  "description": "Display your decor items or potted plants in your entryway, hallway or in the living room on this Thetford Console Table from Threshold™ designed with Studio McGee. This console table features a rectangle shape with an arched design in between the legs for added flair. The off-white wood finish easily coordinates with any decor, and you can simply spot clean for easy care.<br /><br />Overall Width: 48 inches<br />Overall Height: 30 inches<br />Overall Depth: 13 inches<br />Distance between front legs: 42.5 inches<br />Distance between front leg and back leg: 7.5 inches<br />Table top thickness: 0.75 inches",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Console Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0a159bdc-ab1d-42b8-8a3c-b111dc295b8e",
+  "glb_url": "https://digitalcontent.target.com/vault/1675900800/CLOUD_afc32f20-ed77-4238-a0bb-486071a3ec36.glb",
+  "product_url": "https://www.target.com/p/-/A-86327183",
+  "color": "Gray",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.2192,
+    "width": 0.7747,
+    "depth": 0.3666,
+    "unit": "m",
+    "source": "glb"
+  }
+}

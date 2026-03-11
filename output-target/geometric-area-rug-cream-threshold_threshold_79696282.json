@@ -1,0 +1,26 @@
+{
+  "tcin": "79696282",
+  "name": "Geometric Area Rug Cream - Threshold™",
+  "brand": "Threshold",
+  "price": "$200.00",
+  "currency": "USD",
+  "description": "Liven up your indoor space with the global-inspired design of this Cream geometric Area Rug from Threshold™. Showcasing intricate geometric motifs in a vibrant color palette against a solid cream base for an eye-catching flair, and a woven design for soft comfort underfoot, this cream geo area rug will add delightful flair and comfort to your room. With a no-backing design for fuss-free maintenance and a medium-pile height that adds an additional layer of comfort underfoot, this rectangular area rug makes a wonderful addition to any space.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Area Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7fea103b-fd5d-4564-b25d-48b8fa193d72",
+  "glb_url": "https://digitalcontent.target.com/vault/1623369600/CLOUD_63c39b22-b7aa-44c5-b473-ea61662a81fc.glb",
+  "product_url": "https://www.target.com/p/-/A-79696282",
+  "dimensions": {
+    "height": 2.1336,
+    "width": 1.524,
+    "depth": 0.0192,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Cream",
+  "color_source": "parsed"
+}

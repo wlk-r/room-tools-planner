@@ -1,0 +1,25 @@
+{
+  "tcin": "89207297",
+  "name": "Faux Marble Accent Table White - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$115.00",
+  "currency": "USD",
+  "description": "This Faux Marble Accent Table from Threshold™ brings modern style to your living space. Made from white faux marble with a black pattern, it showcases an inverted L-shape and a C cutout base for a unique look. Place this accent table next to a sofa in your living room or between two chairs to hold a cup of coffee, a flower vase and your latest read, or use it as an end table anywhere in your home.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "End & Side Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d31dde11-8623-4d09-8906-168e1b5ff9b5",
+  "glb_url": "https://digitalcontent.target.com/vault/1712188800/CLOUD_de9fac22-2261-4735-b30d-5c0ae38d8263.glb",
+  "product_url": "https://www.target.com/p/-/A-89207297",
+  "dimensions": {
+    "height": 0.6096,
+    "width": 0.4572,
+    "depth": 0.4572,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

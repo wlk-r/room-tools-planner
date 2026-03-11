@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "89602781",
+      "name": "24&#34; Lightly Flocked Pine Artificial Christmas Wreath with Pinecones and Red Berries Green - Wondershop&#8482;",
+      "color": "Green"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "89602781",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "wreath",
+        "wall-decor"
+      ],
+      "tags": [
+        "festive",
+        "rustic",
+        "natural",
+        "warm"
+      ]
+    }
+  ]
+}

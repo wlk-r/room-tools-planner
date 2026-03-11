@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94860129",
+      "name": "16&#34; Pattern Woven Decorative Basket with Curved Handle Black/Natural - Threshold&#8482;",
+      "color": "Black/Natural"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94860129",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "decor"
+      ],
+      "tags": [
+        "rustic",
+        "organic",
+        "warm",
+        "minimal"
+      ]
+    }
+  ]
+}

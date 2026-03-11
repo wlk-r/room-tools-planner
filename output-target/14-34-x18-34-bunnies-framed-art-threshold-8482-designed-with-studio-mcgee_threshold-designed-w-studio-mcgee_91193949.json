@@ -1,0 +1,25 @@
+{
+  "tcin": "91193949",
+  "name": "14&#34;x18&#34; Bunnies Framed Art - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$38.00",
+  "currency": "USD",
+  "description": "Get your home decorating with the 14\"x18\" Bunnies Framed Art from Threshold™ designed with Studio McGee. This stunning piece features a beautiful neutral bunny prints, perfect for bringing a touch of nature charm to your home. Made from durable material, the frame adds a sleek and modern look. Ideal for any room, it’s great for creating a relaxing and serene atmosphere. Whether you're decorating your living room or bedroom, this framed canvas is a simple way to enjoy the beauty of the art every day.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Wall Decor",
+    "Wall Art",
+    "Canvas Wall Art"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_643be250-1d4b-460b-8a79-91cc0f140461",
+  "glb_url": "https://digitalcontent.target.com/vault/1738886400/CLOUD_46345132-6b64-4f34-b5d9-123d1f317530.glb",
+  "product_url": "https://www.target.com/p/-/A-91193949",
+  "dimensions": {
+    "height": 0.4572,
+    "width": 0.3557,
+    "depth": 0.0271,
+    "unit": "m",
+    "source": "glb"
+  }
+}

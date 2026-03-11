@@ -1,0 +1,26 @@
+{
+  "tcin": "90594322",
+  "name": "Belford Table Lamp - 18.5 Inch Height - TBL4093 - White - Safavieh",
+  "brand": "Safavieh",
+  "price": "$50.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Belford Table Lamp in a refreshing white finish. This lamp brings a touch of elegance with its clean and crisp design. The ceramic base offers a textured yet sleek look, making it a versatile addition to any room. Whether placed in a living room, bedroom, or office, the Belford Table Lamp complements a wide range of decor styles. The soft light diffused through its stylish shade creates a cozy atmosphere, perfect for reading or relaxation. Easy to use and maintain, this lamp is an ideal choice for those looking to enhance their home with simple yet stylish lighting solutions. Update your home decor with the subtle charm of the Belford Table Lamp and enjoy a welcoming ambiance in your favorite spaces.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_326c0b37-d9eb-4918-9be3-eced10271c19",
+  "glb_url": "https://digitalcontent.target.com/vault/1763337600/CLOUD_040f5a2e-9718-4424-a4f4-8a787c921255.glb",
+  "product_url": "https://www.target.com/p/-/A-90594322",
+  "dimensions": {
+    "height": 0.4698,
+    "width": 0.2803,
+    "depth": 0.2803,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

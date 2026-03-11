@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94257314",
+      "name": "2&#39;x3&#39; Comfort Mat Floral Accent Rug Sage Green - Threshold&#8482;",
+      "color": "Sage Green"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94257314",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile"
+      ],
+      "tags": [
+        "floral",
+        "cozy",
+        "botanical",
+        "warm"
+      ]
+    }
+  ]
+}

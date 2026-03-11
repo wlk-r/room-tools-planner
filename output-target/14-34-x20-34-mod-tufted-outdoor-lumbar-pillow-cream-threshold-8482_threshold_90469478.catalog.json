@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "90469478",
+      "name": "14&#34;x20&#34; Mod Tufted Outdoor Lumbar Pillow Cream - Threshold&#8482;",
+      "color": "Cream"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90469478",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "pillow",
+        "textile"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "geometric",
+        "quilted"
+      ]
+    }
+  ]
+}

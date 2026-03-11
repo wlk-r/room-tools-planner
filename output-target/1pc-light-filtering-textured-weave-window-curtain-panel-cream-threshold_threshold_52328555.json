@@ -1,0 +1,26 @@
+{
+  "tcin": "52328555",
+  "name": "1pc Light Filtering Textured Weave Window Curtain Panel Cream - Threshold™",
+  "brand": "Threshold",
+  "price": "$25.00 - $30.00",
+  "currency": "USD",
+  "description": "The Textured Weave Back-Tab Window Curtain Panel from Threshold™ will instantly give your home a soft and inviting feel. The soft fabric-blend curtain panel comes in a solid color with a textured-weave pattern that mixes easily with a variety of decors, and the light-filtering fabric lets just the right amount of light in while enhancing privacy. The rod pocket design lets you pair it with your choice of curtain rod for versatile styling. Whether you hang it in your living room, den or three-season porch, you'll love the crisp look this panel adds to your space.<br /><br />Threshold™: Quality & Design / Casual classics for house and home.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Window Treatments",
+    "Curtains"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_dc3a7755-ad48-4abf-997f-e32fc8d854fc",
+  "glb_url": "https://digitalcontent.target.com/vault/1634515200/CLOUD_ce834ceb-9830-4843-856d-b39d2ad676ee.glb",
+  "product_url": "https://www.target.com/p/-/A-52328555",
+  "dimensions": {
+    "height": 2.1336,
+    "width": 1.6039,
+    "depth": 0.1156,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Cream",
+  "color_source": "parsed"
+}

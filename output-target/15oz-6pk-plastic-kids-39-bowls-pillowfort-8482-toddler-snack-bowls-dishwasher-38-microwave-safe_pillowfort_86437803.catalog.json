@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "86437803",
+      "name": "15oz 6pk Plastic Kids&#39; Bowls - Pillowfort&#8482;: Toddler Snack Bowls, Dishwasher &#38; Microwave Safe",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "86437803",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "dining-bowl",
+        "tabletop"
+      ],
+      "tags": [
+        "playful",
+        "colorful",
+        "contemporary",
+        "minimal"
+      ]
+    }
+  ]
+}

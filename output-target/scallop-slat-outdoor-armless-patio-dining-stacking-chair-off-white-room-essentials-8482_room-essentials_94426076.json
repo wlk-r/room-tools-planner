@@ -1,0 +1,26 @@
+{
+  "tcin": "94426076",
+  "name": "Scallop Slat Outdoor Armless Patio Dining Stacking Chair Off-White - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$65.00",
+  "currency": "USD",
+  "description": "",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Chairs",
+    "Outdoor Dining Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0d23add1-f413-4d1f-bd6e-edba8ca94741",
+  "glb_url": "https://digitalcontent.target.com/vault/1770508800/CLOUD_a0420913-ead5-4967-8a71-9c1606808c0c.glb",
+  "product_url": "https://www.target.com/p/-/A-94426076",
+  "color": "Off-White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.8546,
+    "width": 0.5787,
+    "depth": 0.4457,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "88507635",
+  "name": "16oz Moira Ceramic Mug Cream - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$8.00",
+  "currency": "USD",
+  "description": "Bring an elegant refresh to your drinkware collection with this Moira Ceramic Mug from Threshold™. This stoneware coffee mug features a ribbed design in cream with a glazed finish for elevated style, while a D-shaped handle makes it easy to hold in hand as you sip your favorite beverage. Suitable for serving both hot and cold beverages, it features a microwave- and dishwasher-safe construction for easy reheating and cleaning. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f646e9fd-7a3a-420d-bbf1-cd583d23137f",
+  "glb_url": "https://digitalcontent.target.com/vault/1698192000/CLOUD_425d38a6-38c3-4c0c-b185-82d1e3161431.glb",
+  "product_url": "https://www.target.com/p/-/A-88507635",
+  "dimensions": {
+    "height": 0.1159,
+    "width": 0.1021,
+    "depth": 0.0862,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Cream",
+  "color_source": "parsed"
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "94712679",
+  "name": "37&#34;x1.5&#34; Outdoor Bench Cushion Black - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$35.00",
+  "currency": "USD",
+  "description": "This Outdoor Bench Cushion from Room Essentials™ instantly elevate the look and feel of your seating space. Made of 100% recycled polyester with foam filling for plush comfort, this bench cushion is designed in a solid black for a modern, minimal charm. The sewn-seam closure with knife edges and round corners lend a sleek look, while the side ties allow easy attachment. Plus, this water-repellant cushion is resistant to weather and UV rays, making it a perfect choice for patio or garden sofas. <br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Decor",
+    "Outdoor Cushions"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_55b19f0d-b625-4d85-b6d5-8537311effd4",
+  "glb_url": "https://digitalcontent.target.com/vault/1763424000/CLOUD_fb61b2bf-496e-4669-9968-1cde27ab1347.glb",
+  "product_url": "https://www.target.com/p/-/A-94712679",
+  "dimensions": {
+    "height": 0.9398,
+    "width": 0.4922,
+    "depth": 0.0561,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

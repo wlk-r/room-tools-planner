@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "82325798",
+      "name": "12pc Glass Potomac Double Old-Fashioned Assorted Tumbler Set - Threshold&#8482;: Recycled Glassware Set, Dishwasher-Safe",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "82325798",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "glassware",
+        "decor"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "clean",
+        "traditional"
+      ]
+    }
+  ]
+}

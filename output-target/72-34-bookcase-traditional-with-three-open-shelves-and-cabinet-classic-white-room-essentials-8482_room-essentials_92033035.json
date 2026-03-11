@@ -1,0 +1,25 @@
+{
+  "tcin": "92033035",
+  "name": "72&#34; Bookcase Traditional With Three Open Shelves and Cabinet Classic White - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$140.00",
+  "currency": "USD",
+  "description": "Bring a touch of vintage charm to your study or living room with this Open-Top Bookcase with Storage from Room Essentials™. Supported by a wooden frame, this rectangular bookcase has four open shelves to store books, magazines and more, and it also has a lower two-door cabinet to store a variety of everyday items. Plus, the white finish makes it easy to integrate into any room's decor scheme.<br /><br />Room Essentials™: Everyday Value<br /><br />Detailed Dimensions:<br />Overall Width: 30 inches<br />Overall Height: 72.17 inches<br />Overall Depth: 13.98 inches<br />Height of closed storage: 28.94 inches<br />Height of open storage: 43.23 inches<br />Distance from floor to bottom: 3.35  inches<br />Distance between front legs: 26.38 inches<br />Distance between front leg and back leg: 10.75 inches<br />Width of door: 13.01 inches<br />Height of door: 23.35 inches<br />Distance from shelf to bottom in storage: 11.45 inches<br />Distance from shelf to top in storage: 11.45 inches<br />Distance from upper shelf to top: 12.99 inches<br />Distance between two upper shelves: 13.11 inches<br />Distance from lower shelf to middle shelf: 15.23 inches<br />",
+  "categories": [
+    "Furniture",
+    "Home Office Furniture",
+    "Bookshelves & Bookcases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e90cb77e-347a-4cc6-9ffb-8b2e3366a53f",
+  "glb_url": "https://digitalcontent.target.com/vault/1748563200/CLOUD_f0302397-2f89-4287-a48e-2a390afcdf2a.glb",
+  "product_url": "https://www.target.com/p/-/A-92033035",
+  "dimensions": {
+    "height": 1.8226,
+    "width": 0.7607,
+    "depth": 0.3691,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

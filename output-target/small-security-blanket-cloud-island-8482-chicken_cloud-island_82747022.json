@@ -1,0 +1,24 @@
+{
+  "tcin": "82747022",
+  "name": "Small Security Blanket - Cloud Island&#8482; Chicken",
+  "brand": "Cloud Island",
+  "price": "$9.99",
+  "currency": "USD",
+  "description": "The Small Security Blanket from cloud island™ makes an im-peck-able addition to baby's nursery decor. Made with a soft, fuzzy fabric, this cuddly baby accessory is a handkerchief-shaped blanket designed in a yellow hue and accented with coordinating satin trimming. It's topped with a plush chicken with a red beak and crest and polka-dotted wings, which will instantly catch your little one's attention and encourage them to play and snuggle to their heart's desire. This chicken-themed security blanket is sure to become their constant companion and will provide soothing comfort during car rides, playtime and beyond. Plus, it's also machine washable, making cleanup and maintenance a breeze.<br /><br />cloud island™: Designed with love. Made without compromise.",
+  "categories": [
+    "Baby",
+    "Nursery",
+    "Baby Bedding",
+    "Baby Blankets & Quilts"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_34be841a-ccbc-4ae3-9ee1-dae46bf5ba0b",
+  "glb_url": "https://digitalcontent.target.com/vault/1648771200/CLOUD_d2a2fada-eca2-4064-8fe0-f0cbd42c05e6.glb",
+  "product_url": "https://www.target.com/p/-/A-82747022",
+  "dimensions": {
+    "height": 0.3556,
+    "width": 0.2997,
+    "depth": 0.0965,
+    "unit": "m",
+    "source": "glb"
+  }
+}

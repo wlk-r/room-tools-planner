@@ -1,0 +1,26 @@
+{
+  "tcin": "81068680",
+  "name": "Bly Kids&#39; Activity Table White - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$125.00",
+  "currency": "USD",
+  "description": "They'll love reading books, drawing pictures and enjoying a variety of other activities at this cute and convenient Bly Kids' Activity Table from Pillowfort™. Designed with a long, rectangular tabletop and trestle base, this kids' desk is perfect for creating a designated area for them to do homework or get creative with arts and crafts. The white finish on the wood veneer coordinates easily with a wide variety of room decor, while the sides and two built-in open storage cubbies boast a contrasting accent color with their natural wood finish. Style it solo with a lamp and chair, or coordinate with other pieces from the Pillowfort Bly Kids' Collection for a tidy matching look.<br /><br />Overall Width: 23.75 inches<br />Overall Height: 24 inches<br />Overall Depth: 48.125 inches<br />Width of Top: 46.06 inches<br />Depth of Top: 23.6 inches<br />Height of Shelf: 3.55 inches<br />Width of Cubbie: 22.15 inches<br />Depth of Cubbie: 18.11 inches<br />Length of Metal Tube: 47 inches<br />Diameter of Metal Tube: 1 inch",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Furniture",
+    "Kids’ Table & Chair Sets"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_5402507b-ca35-47e5-a37e-cbabeaec1c8e",
+  "glb_url": "https://digitalcontent.target.com/vault/1616544000/CLOUD_a1108168-cd2d-43a8-9a15-6aa76c740b21.glb",
+  "product_url": "https://www.target.com/p/-/A-81068680",
+  "dimensions": {
+    "height": 1.22,
+    "width": 0.6101,
+    "depth": 0.6101,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

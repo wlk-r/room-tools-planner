@@ -1,0 +1,24 @@
+{
+  "tcin": "82214701",
+  "name": "Multi Dot Kids' Rug - Pillowfort™",
+  "brand": "Pillowfort",
+  "price": "$55.00 - $85.00",
+  "currency": "USD",
+  "description": "Liven up the decor of your kiddo's room with the Multi-Dot Rug from Pillowfort™. This rectangular accent rug is adorned with vibrant polka dots that pop from the gray background with a bright look. Crafted from a soft and lightweight material, this tufted rug features a medium-pile construction to add an additional layer of comfort underfoot, and it boasts a latex backing to help keep the rug in place. Whether they lie on it with their fave read, or relax on it to play board games or watch TV, this decorative rug makes a fun and functional addition to your child’s playroom or bedroom.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Area Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_97055be3-43ad-4765-b49f-ddf4f8683e5a",
+  "glb_url": "https://digitalcontent.target.com/vault/1629072000/CLOUD_0834c9ac-bfb8-4dbb-b661-3845b0cb75e9.glb",
+  "product_url": "https://www.target.com/p/-/A-82214701",
+  "dimensions": {
+    "height": 1.6764,
+    "width": 1.2192,
+    "depth": 0.0181,
+    "unit": "m",
+    "source": "glb"
+  }
+}

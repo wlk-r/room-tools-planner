@@ -1,0 +1,26 @@
+{
+  "tcin": "91535524",
+  "name": "Soline Table Lamp - 24 Inch Height - TBL4563 - Antique Brown - Safavieh",
+  "brand": "Safavieh",
+  "price": "$114.99",
+  "currency": "USD",
+  "description": "Introducing the SOLINE TABLE LAMP, an exquisite piece that seamlessly blends functionality with aesthetic appeal. With dimensions carefully crafted for balance and presence, the lamp sports a height of 24 6/16 inches, offering an ideal size for a variety of spaces.\n\nThe body of this distinctive table lamp is fashioned from ceramic, flaunting a gorgeous grey washed finish that exudes a sense of subtle sophistication. This finish not only brings a touch of serene elegance to any room but also harmonizes with different interior palettes.\n\nCradling the light, the shade made from a gentle fabric crowns the lamp. This crisp white shade measures 12 5/32 inches in height and tapers from a width of 5.5 inches at the top to a broader base, casting an ambient glow that is both soft and ample for your lighting needs.\n\nThe lamp's base diameter is a modest 4.75 inches, ensuring stability on your table or desk without demanding excessive space. Furthermore, the length of the cord extends to a generous 60 inches, providing ample reach to your nearest outlet for easy placement within your living space.\n\nThe SOLINE TABLE LAMP is an artful addition that subtly enchants the ambiance of any environment, whether placed in a living room, bedroom, or study. Its serene coloration and smooth contours offer a tasteful touch. Please note, imagery and further details for this product are available on the server, allowing for a complete understanding of its aesthetics and dimensions.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_cd440eae-c536-44cf-8b88-bf73c4a62359",
+  "glb_url": "https://digitalcontent.target.com/vault/1765411200/CLOUD_7e70a6bb-a260-4358-9784-00a90846c40a.glb",
+  "product_url": "https://www.target.com/p/-/A-91535524",
+  "color": "Antique Brown",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6061,
+    "width": 0.4265,
+    "depth": 0.4265,
+    "unit": "m",
+    "source": "glb"
+  }
+}

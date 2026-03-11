@@ -1,0 +1,23 @@
+{
+  "tcin": "52733591",
+  "name": "Skyline Furniture 25\" Velvet Parsons Counter Height Barstool Wood",
+  "brand": "Threshold",
+  "price": "$194.99 - $274.99",
+  "currency": "USD",
+  "description": "Bring modern appeal to your home bar area with this Velvet Parsons Counter-Height Barstool from Skyline Furniture. This armless counter-height bar stool features a well-padded seat and backrest along with built-in footrest bars for additional sitting comfort. The plush solid-color velvet upholstery goes easily with a range of decor styles, while the wood frame and legs offer a classic, elegant base.",
+  "categories": [
+    "Furniture",
+    "Kitchen & Dining Furniture",
+    "Bar Furniture"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e263c005-4d3f-46b5-95ce-9100f1e95045",
+  "glb_url": "https://digitalcontent.target.com/vault/1628208000/CLOUD_8d8a7455-8f08-4c62-a506-60fde3224294.glb",
+  "product_url": "https://www.target.com/p/-/A-52733591",
+  "dimensions": {
+    "height": 1.016,
+    "width": 0.6096,
+    "depth": 0.4826,
+    "unit": "m",
+    "source": "glb"
+  }
+}

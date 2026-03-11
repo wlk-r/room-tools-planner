@@ -1,0 +1,25 @@
+{
+  "tcin": "89194853",
+  "name": "14oz Stoneware Artisan Mug Purple - Room Essentials&#8482;: Coffee Cup, Microwave &#38; Dishwasher Safe, Dorm Room Essential",
+  "brand": "Room Essentials",
+  "price": "$8.00",
+  "currency": "USD",
+  "description": "Add a touch of artisanal style to your drinkware with the 14-Ounce Stoneware Artisan Mug from Room Essentials™. This purple mug features a round ridged design for an appealing look. Great for hot or cold beverages, this stoneware mug boasts a microwave- and dishwasher-safe design for quick reheating and cleaning. <br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_df5f0a1e-198e-4169-9a36-3133ed4925df",
+  "glb_url": "https://digitalcontent.target.com/vault/1704153600/CLOUD_7b05dd45-7ab6-4305-9ef3-4f99ccbff4d4.glb",
+  "product_url": "https://www.target.com/p/-/A-89194853",
+  "dimensions": {
+    "height": 0.1296,
+    "width": 0.1016,
+    "depth": 0.0832,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Purple",
+  "color_source": "parsed"
+}

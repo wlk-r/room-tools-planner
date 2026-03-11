@@ -1,0 +1,25 @@
+{
+  "tcin": "82261089",
+  "name": "Traditional Wall Sconce Brass (Includes LED Light Bulb) - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$65.00",
+  "currency": "USD",
+  "description": "Add classic style while brightening your space with the Traditional Wall Sconce (Includes LED Light Bulb) from Threshold™. This wall sconce features a fixed wall-mounted design with an uncluttered metal body for a minimalist look. The white fabric shade diffuses light with a warm, cozy glow, while the one-way light setting with an on/off switch allows for easy function. Just mount it above the side table near your bed to illuminate your space while reading before drifting off to sleep.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Wall Lights",
+    "Wall Sconces"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_69d04fab-e3da-42c5-a009-a98e0de1fda1",
+  "glb_url": "https://digitalcontent.target.com/vault/1628726400/CLOUD_ab7bb152-a92e-4dbd-971d-c19758afb136.glb",
+  "product_url": "https://www.target.com/p/-/A-82261089",
+  "dimensions": {
+    "height": 0.3556,
+    "width": 0.1758,
+    "depth": 0.1476,
+    "unit": "m",
+    "source": "glb"
+  }
+}

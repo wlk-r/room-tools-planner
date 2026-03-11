@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "88117832",
+      "name": "24&#34; x 36&#34; Infinity Mantle Wall Mirror Black - Threshold&#8482;: Rust-Resistant, Rounded Top, Wall Mount",
+      "color": "Black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "88117832",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "mirror",
+        "wall-decor"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "sleek"
+      ]
+    }
+  ]
+}

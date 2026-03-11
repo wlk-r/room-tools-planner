@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "93355083",
+      "name": "10pc White Assorted Christmas Gift Boxes - Wondershop&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "93355083",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "seasonal-decor"
+      ],
+      "tags": [
+        "minimal",
+        "white",
+        "seasonal",
+        "contemporary"
+      ]
+    }
+  ]
+}

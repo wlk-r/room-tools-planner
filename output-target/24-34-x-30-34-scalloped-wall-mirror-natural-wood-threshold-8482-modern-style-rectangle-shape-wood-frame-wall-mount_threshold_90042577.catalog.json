@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "90042577",
+      "name": "24&#34;x 30&#34; Scalloped Wall Mirror Natural Wood - Threshold&#8482;: Modern Style, Rectangle Shape, Wood Frame, Wall Mount",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90042577",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "mirror",
+        "wall-art"
+      ],
+      "tags": [
+        "contemporary",
+        "organic",
+        "warm",
+        "elegant"
+      ]
+    }
+  ]
+}

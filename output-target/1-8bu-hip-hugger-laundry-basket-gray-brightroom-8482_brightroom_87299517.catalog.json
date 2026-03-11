@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "87299517",
+      "name": "1.8bu Hip Hugger Laundry Basket Gray - Brightroom&#8482;",
+      "color": "Gray"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "87299517",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "laundry-hamper",
+        "storage"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "functional"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "90594392",
+  "name": "Solyn Table Lamp - 21.5 Inch Height - TBL4514 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$61.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Solyn ceramic table lamp. With a sleek 21.5 inch design, this elegant black piece adds a touch of sophistication to any room. The ceramic base, combined with durable iron, creates a striking silhouette that effortlessly complements your decor. Topped with a soft cotton shade, the Solyn lamp produces a warm and inviting glow, perfect for cozy evenings or focused work sessions. The classic black finish blends seamlessly into various settings, making it ideal for both modern and traditional interiors. Enhance your home with this stylish and functional lighting solution, offering the perfect balance of form and function.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3737065a-4bd1-40a3-b791-9c9bcbc4038f",
+  "glb_url": "https://digitalcontent.target.com/vault/1763683200/CLOUD_02839e2d-87dd-4b88-8ad9-69a21d773fda.glb",
+  "product_url": "https://www.target.com/p/-/A-90594392",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5363,
+    "width": 0.2885,
+    "depth": 0.2885,
+    "unit": "m",
+    "source": "glb"
+  }
+}

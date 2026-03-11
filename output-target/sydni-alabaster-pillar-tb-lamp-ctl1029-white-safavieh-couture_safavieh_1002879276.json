@@ -1,0 +1,26 @@
+{
+  "tcin": "1002879276",
+  "name": "Sydni Alabaster Pillar Tb Lamp - CTL1029 - White - Safavieh Couture",
+  "brand": "Safavieh",
+  "price": "$333.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the SYDNI alabaster pillar table lamp in a classic white finish. This elegant lamp seamlessly blends style and functionality, making it a versatile addition to any home or office. Constructed from sturdy iron and bronze, its sleek design exudes timeless charm. The neutral hue complements various decor styles, from modern minimalism to traditional elegance. Whether placed on a side table or a bedside, the SYDNI table lamp adds a touch of sophistication and warmth. Embrace the harmonious blend of form and function with a lighting solution that enhances both ambiance and aesthetic appeal. Perfect for those who appreciate the allure of subtle yet impactful decor elements, this lamp is ready to elevate your interior spaces.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_78d77c05-3905-4e08-9085-3feef1e7261f",
+  "glb_url": "https://digitalcontent.target.com/vault/1769644800/CLOUD_fc036140-0e07-43a6-9246-9c35b58d8e30.glb",
+  "product_url": "https://www.target.com/p/-/A-1002879276",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.7493,
+    "width": 0.381,
+    "depth": 0.381,
+    "unit": "m",
+    "source": "glb"
+  }
+}

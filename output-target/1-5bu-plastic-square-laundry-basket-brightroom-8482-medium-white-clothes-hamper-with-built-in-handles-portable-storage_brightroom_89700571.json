@@ -1,0 +1,24 @@
+{
+  "tcin": "89700571",
+  "name": "1.5bu Plastic Square Laundry Basket - Brightroom&#8482;: Medium White Clothes Hamper with Built-In Handles, Portable Storage",
+  "brand": "Brightroom",
+  "price": "$7.00",
+  "currency": "USD",
+  "description": "Make laundry day a breeze with the 1.5 Bushel Rectangular Laundry Basket! This basket’s compact design occupies less floor space and it’s square shape allows for quick and comfortable loading and unloading of sorted or folded laundry. It offers a modern, contemporary look and feel with a polished finish that is easy to clean. The reinforced rim and durable design ensures fully loaded baskets will not bend or break, while the stylish rectangular hole pattern enhances airflow. Two durable handles integrated into the rim allow for comfortable carrying, making it easy to transport loads to and from the laundry room. The overall assembled dimensions of this item are 19 1/4\" L x 18 3/4\" W x 13 1/2\" H.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Laundry Room Organization",
+    "Hampers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_6fec2e20-540b-420f-bd7d-a760121bad65",
+  "glb_url": "https://digitalcontent.target.com/vault/1718150400/CLOUD_f8834f05-863e-451a-943d-54efa1f2e576.glb",
+  "product_url": "https://www.target.com/p/-/A-89700571",
+  "dimensions": {
+    "height": 0.4889,
+    "width": 0.4762,
+    "depth": 0.3429,
+    "unit": "m",
+    "source": "glb"
+  }
+}

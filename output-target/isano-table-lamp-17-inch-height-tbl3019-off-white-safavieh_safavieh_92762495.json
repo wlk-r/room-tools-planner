@@ -1,0 +1,26 @@
+{
+  "tcin": "92762495",
+  "name": "Isano Table Lamp - 17 Inch Height - TBL3019 - Off White - Safavieh",
+  "brand": "Safavieh",
+  "price": "$131.99",
+  "currency": "USD",
+  "description": "Elevate your space with the ISANO Table Lamp, a tastefully designed piece that blends the natural warmth of wood with the enduring strength of metal. This versatile lamp features an off-white fabric shade that casts a soft, welcoming glow perfect for any room in your home. The bodys unique wood and metal combination creates a harmonious balance between rustic charm and contemporary chic.\n\nWith a sculptural wooden base finished in a subtle hue, this table lamp complements a variety of interior color palettes and decor styles. The sturdy metal accents provide stability and a touch of elegance, enhancing the overall aesthetic appeal. The ISANO Table Lamp is more than a source of light; its a statement piece that brings personality and style to your bedside, living room, or office.\n\nExplore the ensemble of images on the server to find inspiration on how to integrate this charming table lamp into your living space. The soft contours and understated design ensure that this table lamp will be an attractive addition, illuminating your home with a cozy ambiance.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_bd57a65e-b87b-4803-afa3-4b6a86d2620d",
+  "glb_url": "https://digitalcontent.target.com/vault/1771372800/CLOUD_8356c20b-9912-4de5-af4a-f76394e91946.glb",
+  "product_url": "https://www.target.com/p/-/A-92762495",
+  "color": "Off White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4318,
+    "width": 0.3048,
+    "depth": 0.3048,
+    "unit": "m",
+    "source": "glb"
+  }
+}

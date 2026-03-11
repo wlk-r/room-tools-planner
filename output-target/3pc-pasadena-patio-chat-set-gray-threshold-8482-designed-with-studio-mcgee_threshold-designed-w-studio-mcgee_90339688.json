@@ -1,0 +1,26 @@
+{
+  "tcin": "90339688",
+  "name": "3pc Pasadena Patio Chat Set Gray - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$350.00",
+  "currency": "USD",
+  "description": "Kick back and relax on your patio with a friend or loved one with this 3-Piece Pasadena Patio Chat Set from Threshold™ designed with Studio McGee. This patio seating set includes two armchairs and an accent table, all designed in natural brown colors. The chairs have wicker-weave seats and backs and come with loose seat and back cushions, while the accent table features a round, slatted tabletop. Best of all, all three pieces are designed with a weather-resistant construction that makes them suitable for year-round use.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Furniture Sets",
+    "Conversation Sets"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_74d99cff-d828-489e-868d-d05813b749d2",
+  "glb_url": "https://digitalcontent.target.com/vault/1729209600/CLOUD_b0617f9e-54ca-4077-8782-b1d73f7f1476.glb",
+  "product_url": "https://www.target.com/p/-/A-90339688",
+  "dimensions": {
+    "height": 1.7248,
+    "width": 0.9111,
+    "depth": 0.8949,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

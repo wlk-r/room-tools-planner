@@ -1,0 +1,26 @@
+{
+  "tcin": "91518808",
+  "name": "Brewster Floor Lamp - LIT4341 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$97.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Brewster Floor Lamp. With its sleek Black finish, this lamp adds a touch of elegance and sophistication to any room. Crafted from sturdy metal, it stands as a stylish piece that seamlessly complements various interior styles. Perfect for a cozy reading nook or as an accent in your living room, the Brewster Floor Lamp not only provides great lighting but also enhances the ambiance of your home. Its well-designed structure ensures it fits effortlessly into corners or beside your favorite chair, providing both function and style. Add the Brewster Floor Lamp to your decor and enjoy the warm, inviting glow it brings to your space. Whether for reading, relaxation, or adding depth to your decor, this lamp is a brilliant choice for any room. Discover the balance of tasteful design and practicality with the Brewster Floor Lamp in Black.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_548aa4e9-c05e-4145-872a-36ded17b515b",
+  "glb_url": "https://digitalcontent.target.com/vault/1763683200/CLOUD_217c4622-f59d-464b-b37d-30cbf383c870.glb",
+  "product_url": "https://www.target.com/p/-/A-91518808",
+  "dimensions": {
+    "height": 1.5622,
+    "width": 0.3894,
+    "depth": 0.3894,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

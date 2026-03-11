@@ -1,0 +1,26 @@
+{
+  "tcin": "91119386",
+  "name": "Marine Table Lamp - 21 Inch Height - TBL4041 - Blue/Charcoal - Safavieh",
+  "brand": "Safavieh",
+  "price": "$45.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the charming marine table lamp in blue and chrome. This exquisite piece combines sophisticated design with a touch of coastal elegance, making it an ideal addition to any decor. The blue and charcoal hues create a serene atmosphere, enhancing both traditional and modern interiors. Crafted with attention to detail, this lamp brings a harmonious blend of style and functionality to your living room, bedroom, or office. The vibrant finish complements the smooth chrome accents, resulting in a timeless look. Perfect for adding a splash of color and a hint of sparkle to any room, this lamp is designed to captivate and inspire. Elevate your home decor with the unique appeal of this elegant lighting accessory.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_023455fe-7a9b-4e53-9836-1afa17045393",
+  "glb_url": "https://digitalcontent.target.com/vault/1770681600/CLOUD_8a1976ad-748d-4c58-a447-10a7bbc38f74.glb",
+  "product_url": "https://www.target.com/p/-/A-91119386",
+  "color": "Blue/Charcoal",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5334,
+    "width": 0.254,
+    "depth": 0.254,
+    "unit": "m",
+    "source": "glb"
+  }
+}

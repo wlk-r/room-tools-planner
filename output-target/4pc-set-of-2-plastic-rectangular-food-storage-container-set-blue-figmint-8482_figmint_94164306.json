@@ -1,0 +1,25 @@
+{
+  "tcin": "94164306",
+  "name": "4pc (Set of 2) Plastic Rectangular Food Storage Container Set Blue - Figmint&#8482;",
+  "brand": "Figmint",
+  "price": "$6.00",
+  "currency": "USD",
+  "description": "The 4-Piece (Set of 2) 3-Cup Plastic Rectangular Food Storage Container Set from Figmint™ is the perfect solution for storing leftovers, cut fruits and veggies, hard-boiled eggs and more. Made from plastic, this set comes with two rectangular food storage containers, each with a three-cup capacity, plus two solid blue lids. The containers are dishwasher and freezer safe for easy cleaning and storage, and they're also microwave safe for reheating without the lids.<br /><br />Figmint™: Mixing up a taste of adventure every day.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen Storage",
+    "Food Storage Containers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0b547b33-9c83-4dc4-8e69-ed461fda78eb",
+  "glb_url": "https://digitalcontent.target.com/vault/1759104000/CLOUD_424a3a69-552c-48bd-a166-7e7fe41eb8c4.glb",
+  "product_url": "https://www.target.com/p/-/A-94164306",
+  "dimensions": {
+    "height": 0.1909,
+    "width": 0.1377,
+    "depth": 0.0505,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

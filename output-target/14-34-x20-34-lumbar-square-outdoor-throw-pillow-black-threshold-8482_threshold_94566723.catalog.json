@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "94566723",
+      "name": "14&#34;x20&#34; Lumbar Square Outdoor Throw Pillow Black - Threshold&#8482;",
+      "color": "Black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94566723",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "textile",
+        "decor"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "geometric"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "87536952",
+  "name": "Natural Wicker Storage Bench Brown - Threshold&#8482; designed with Studio McGee: Metal Frame, Fish Scale Pattern, No Assembly Required",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$200.00",
+  "currency": "USD",
+  "description": "Add a classic seating option to your home while getting a convenient spot for the extras with this Natural Woven Storage Bench from Threshold™ designed with Studio McGee. This rectangle bench features a woven design to bring textured charm to your space. The rectangular silhouette with a lid on top elevates the look and provides ample space for your throws, blankets and more. You can place this natural-shade storage bench in your living room, entryway or any other room.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Benches"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_49747bc4-cb34-4a23-862b-ae6c69e87e77",
+  "glb_url": "https://digitalcontent.target.com/vault/1692230400/CLOUD_e327561b-f19d-4366-918d-5053083861d0.glb",
+  "product_url": "https://www.target.com/p/-/A-87536952",
+  "color": "Brown",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.9652,
+    "width": 0.4801,
+    "depth": 0.43,
+    "unit": "m",
+    "source": "glb"
+  }
+}

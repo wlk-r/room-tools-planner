@@ -1,0 +1,26 @@
+{
+  "tcin": "90594138",
+  "name": "Sterling Ginger Jar Lamp (Set of 2) - 27.5 Inch Height - LIT4147 - Silver - Safavieh",
+  "brand": "Safavieh",
+  "price": "$168.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the stunning sterling ginger jar table lamp set. Standing at 27.5 inches, these silver ceramic lamps bring a touch of elegance to any room. The sleek design effortlessly complements both modern and traditional decors, making it a versatile choice for your home. Their refined silver finish catches the light beautifully, casting a warm, inviting glow perfect for living rooms, bedrooms, or study areas. The ceramic base is thoughtfully crafted to offer not just functionality but also visual appeal. This lamp set provides an easy way to enhance the ambiance of your space while adding a stylish focal point. Transform your environment with these exquisite table lamps, a testament to tasteful design and graceful presence in any setting.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c0500b8e-6a96-40ad-ae0d-0a56109a7c80",
+  "glb_url": "https://digitalcontent.target.com/vault/1769126400/CLOUD_0c5f882e-5c9b-4aa3-b9e4-5f3cc4dc51f2.glb",
+  "product_url": "https://www.target.com/p/-/A-90594138",
+  "color": "Silver",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6985,
+    "width": 0.4064,
+    "depth": 0.4064,
+    "unit": "m",
+    "source": "glb"
+  }
+}

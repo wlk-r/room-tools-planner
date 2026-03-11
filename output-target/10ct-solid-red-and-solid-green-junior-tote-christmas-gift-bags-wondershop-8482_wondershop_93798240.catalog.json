@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "93798240",
+      "name": "10ct Solid Red and Solid Green Junior Tote Christmas Gift Bags - Wondershop&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "93798240",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "seasonal-decor",
+        "storage"
+      ],
+      "tags": [
+        "minimal",
+        "festive",
+        "warm",
+        "contemporary"
+      ]
+    }
+  ]
+}

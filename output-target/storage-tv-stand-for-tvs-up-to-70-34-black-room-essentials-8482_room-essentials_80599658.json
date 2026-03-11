@@ -1,0 +1,25 @@
+{
+  "tcin": "80599658",
+  "name": "Storage TV Stand for TVs up to 70&#34; Black - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$75.00",
+  "currency": "USD",
+  "description": "Equip your entertainment space with this TV Stand with Storage for TV's up to 70\" from Room Essentials™. This TV stand with storage makes a practical addition to your living room or entertainment area. It features a sleek rectangular shape to bring modern style to your interior, and a neutral color that coordinates with any decor. The six open shelves provide plenty of room for storage of media essentials and decorative accents, while the flat tabletop offers the ideal space for a television up to 70-inches. Plus, the two holes on the back of the unit offer easy cable management for your media players. For help with assembly, please refer to the assembly video that can be found within the image carousel above.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "TV Stands & Entertainment Centers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a2e18952-a016-490b-985d-de9384d7cdab",
+  "glb_url": "https://digitalcontent.target.com/vault/1615161600/CLOUD_ed9437c1-b050-481a-b834-003a7de9e65c.glb",
+  "product_url": "https://www.target.com/p/-/A-80599658",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.524,
+    "width": 0.508,
+    "depth": 0.381,
+    "unit": "m",
+    "source": "glb"
+  }
+}

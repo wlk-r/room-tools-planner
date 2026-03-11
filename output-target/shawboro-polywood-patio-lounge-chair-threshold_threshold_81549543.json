@@ -1,0 +1,24 @@
+{
+  "tcin": "81549543",
+  "name": "Shawboro POLYWOOD Patio Lounge Chair - Threshold™",
+  "brand": "Threshold",
+  "price": "$229.00",
+  "currency": "USD",
+  "description": "Add style and sophistication to your patio with the Shawboro Patio Lounge Chair by POLYWOOD. This weather-resistant lounger features a wide seat and a reclined silhouette that lets you fully relax in any season. Pair this chair with other pieces from the Shawboro Collection to create a cozy nook you'll enjoy season after season.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Chairs",
+    "Outdoor Club Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e9886a42-8104-4823-85af-db35d60517a3",
+  "glb_url": "https://digitalcontent.target.com/vault/1623715200/CLOUD_3a9f4373-954f-473b-8550-fce4777e4c8e.glb",
+  "product_url": "https://www.target.com/p/-/A-81549543",
+  "dimensions": {
+    "height": 0.762,
+    "width": 0.7557,
+    "depth": 0.7493,
+    "unit": "m",
+    "source": "glb"
+  }
+}

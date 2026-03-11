@@ -1,0 +1,24 @@
+{
+  "tcin": "1003132701",
+  "name": "Sola 24\" Resin Table Lamp - TBL4609 - Black/Camel - Safavieh",
+  "brand": "Safavieh",
+  "price": "$83.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Sola Table Lamp, a stunning blend of modern style and timeless design. This lamp features a bold black and camel contrast that adds intriguing depth to any room. Crafted with a refined resin body and topped with a smooth paper shade, the Sola Table Lamp effortlessly enhances any decor scheme. Its soft lighting creates a cozy atmosphere, perfect for reading or unwinding. Transform your living area or bedroom with this captivating piece that exudes warmth and grace.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c8531b98-948d-4a7b-9be4-722b2fdce032",
+  "glb_url": "https://digitalcontent.target.com/vault/1770249600/CLOUD_36b1c4a7-7d33-4df3-a3e6-e592fc71d1c6.glb",
+  "product_url": "https://www.target.com/p/-/A-1003132701",
+  "dimensions": {
+    "height": 0.6096,
+    "width": 0.4318,
+    "depth": 0.4318,
+    "unit": "m",
+    "source": "glb"
+  }
+}

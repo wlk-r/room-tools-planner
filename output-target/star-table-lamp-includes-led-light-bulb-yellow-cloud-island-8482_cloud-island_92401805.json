@@ -1,0 +1,26 @@
+{
+  "tcin": "92401805",
+  "name": "Star Table Lamp (Includes LED Light Bulb) - Yellow - Cloud Island&#8482;",
+  "brand": "Cloud Island",
+  "price": "$35.69",
+  "currency": "USD",
+  "description": "Create a delightful scene in your kid's space by lighting up the Figural Lamp from Cloud Island™. This white table lamp showcases a drum-shape shade and a star-shaped ceramic base for a decorative look you and your kid will love. Designed with a one-way (on and off) light setting, this table lamp has a base turn knob rotary switch for easy operation.<br /><br />Cloud Island™: Designed with love. Made without compromise.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3bdbf877-0517-46f1-9814-9f21bbe85d19",
+  "glb_url": "https://digitalcontent.target.com/vault/1771200000/CLOUD_ac24f5d1-682f-4f61-99b2-5b826218c39b.glb",
+  "product_url": "https://www.target.com/p/-/A-92401805",
+  "color": "Yellow",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4002,
+    "width": 0.2773,
+    "depth": 0.2286,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "94687054",
+      "name": "2.4oz Stoneware Stoneware Espresso Cup with Saucer - Room Essentials&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94687054",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimalist",
+        "contemporary",
+        "timeless"
+      ]
+    }
+  ]
+}

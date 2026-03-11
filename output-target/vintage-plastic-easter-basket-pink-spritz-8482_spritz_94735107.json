@@ -1,0 +1,24 @@
+{
+  "tcin": "94735107",
+  "name": "Vintage Plastic Easter Basket Pink - Spritz&#8482;",
+  "brand": "Spritz",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Add a touch of charm to your Easter celebrations with this delightful Vintage Plastic Easter Basket Pink - Spritz™. Crafted from durable polyethylene, it features a round shape with a spacious 12-inch depth and width, making it perfect for holding treats or decorative items. Its vibrant color adds a cheerful accent to any setting, while the 6.5-inch height ensures it's easy to carry for little hands during egg hunts.<br /><br />Spritz™ Pops of joy that make the moment™.",
+  "categories": [
+    "Party Supplies",
+    "Novelty Gifts"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7333c080-cce4-4d85-a310-11701e63ede0",
+  "glb_url": "https://digitalcontent.target.com/vault/1767139200/CLOUD_6f5e78c5-a15d-465f-ae72-66898ef88bd4.glb",
+  "product_url": "https://www.target.com/p/-/A-94735107",
+  "color": "Pink",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3048,
+    "width": 0.3033,
+    "depth": 0.301,
+    "unit": "m",
+    "source": "glb"
+  }
+}

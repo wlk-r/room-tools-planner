@@ -1,0 +1,25 @@
+{
+  "tcin": "86327595",
+  "name": "23&#34; x 36&#34; Metal Curved Top Mirror Gold - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$98.00",
+  "currency": "USD",
+  "description": "Add instant glamour and interest to your space with this Metal Curved Top Mirror from Threshold™ designed with Studio McGee. This wall-mount mirror has a sleek novelty silhouette with a curved top for added intrigue, and it's encased in a aluminum metal frame for a touch of glam shine. Plus, it comes ready for mounting with included hardware. Try adding this sleek modern novelty mirror above a console table in your home's entryway, or surround it with framed photos and art as part of a living room gallery wall.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Mirrors"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2560ec79-f95e-4037-8fba-d04b5abf0570",
+  "glb_url": "https://digitalcontent.target.com/vault/1671494400/CLOUD_583aaf49-f293-4179-80eb-862c228fa62d.glb",
+  "product_url": "https://www.target.com/p/-/A-86327595",
+  "dimensions": {
+    "height": 0.9144,
+    "width": 0.5842,
+    "depth": 0.0279,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gold",
+  "color_source": "parsed"
+}

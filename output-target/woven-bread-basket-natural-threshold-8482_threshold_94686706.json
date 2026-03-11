@@ -1,0 +1,25 @@
+{
+  "tcin": "94686706",
+  "name": "Woven Bread Basket Natural - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$15.00",
+  "currency": "USD",
+  "description": "Store your homemade goodies stylishly while keeping them easily accessible with this Woven Bread Basket from Threshold™. Made of water hyacinth material in a natural hue, this round bread basket features a woven design for charming appeal. The open top lets you easily store and access a variety of items, while the lightweight design makes it easy to move around your home.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Serveware",
+    "Serving Bowls"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_9833d88b-d560-49ca-9358-4734c5b15b75",
+  "glb_url": "https://digitalcontent.target.com/vault/1764201600/CLOUD_7f5b1104-862e-4601-abef-f6bd095c88ae.glb",
+  "product_url": "https://www.target.com/p/-/A-94686706",
+  "color": "Natural",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.223,
+    "width": 0.2224,
+    "depth": 0.0762,
+    "unit": "m",
+    "source": "glb"
+  }
+}

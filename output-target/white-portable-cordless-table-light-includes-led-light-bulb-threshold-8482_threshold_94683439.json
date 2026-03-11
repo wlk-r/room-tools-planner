@@ -1,0 +1,24 @@
+{
+  "tcin": "94683439",
+  "name": "White Portable Cordless Table Light (Includes LED Light Bulb) - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Liven up your home decor with this Portable Cordless Table Light from Threshold™. This table light features an empire shade crafted from cotton-polyester blend fabric and a white polyresin body with ornate detailing for elegant charm. The touch-activated sensor ensures ease of operation, while the 3-way low-medium-high light settings lets you tailor the ambiance to suit any mood. Plus, the non-removable battery is easy to recharge with the included USB charging cable.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f8e25b22-28ca-4b52-83e7-e7145cf6920e",
+  "glb_url": "https://digitalcontent.target.com/vault/1762646400/CLOUD_ad3f750f-6eb2-4c93-8ed3-48e128b3a02a.glb",
+  "product_url": "https://www.target.com/p/-/A-94683439",
+  "dimensions": {
+    "height": 0.3027,
+    "width": 0.1709,
+    "depth": 0.1699,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "79585748",
+  "name": "Medium Modern Industrial Assembled Table Lamp Black - Threshold&#8482;: UL Listed, Cotton-Linen Shade, Metal Body, No Bulb Included",
+  "brand": "Threshold",
+  "price": "$65.00",
+  "currency": "USD",
+  "description": "Instantly illuminate any room of your house with the Medium Modern Industrial Assembled Table Lamp from Threshold™. At 20.25 inches tall, this accent lamp stands atop a tapered open-frame metal base in black for industrial flair, while the drum-style fabric shade adds a cozy feel. Place on an end table or nightstand to complete the look of your space.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a21e00e0-240e-4a43-9222-46ee08f4d307",
+  "glb_url": "https://digitalcontent.target.com/vault/1763164800/CLOUD_2bb6786f-c698-498b-a5f1-16669709a6e9.glb",
+  "product_url": "https://www.target.com/p/-/A-79585748",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.508,
+    "width": 0.4064,
+    "depth": 0.2794,
+    "unit": "m",
+    "source": "glb"
+  }
+}

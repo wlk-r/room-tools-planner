@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94568980",
+      "name": "24&#34;x36&#34; Metal Tube Wall Mirror Gold - Threshold&#8482;",
+      "color": "Gold"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94568980",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "mirror",
+        "decor"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "warm",
+        "elegant"
+      ]
+    }
+  ]
+}

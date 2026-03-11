@@ -1,0 +1,25 @@
+{
+  "tcin": "90058103",
+  "name": "Colored Glass Bath Canister Blue - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$13.00",
+  "currency": "USD",
+  "description": "Create an amazing look in your bath space with the Colored Glass Bath Canister from Threshold™. This blue bath canister is designed in a round shape with lid to help keep the contents covered. Made of colored glass, this bath canister makes a stunning addition to your bath space. Add coordinating soap pump and bath tray to create a blue-themed bath space.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c8c12400-230c-4317-89d6-070b8e301b1d",
+  "glb_url": "https://digitalcontent.target.com/vault/1736380800/CLOUD_a2ba7933-6721-4b18-9bc5-5042a62859c3.glb",
+  "product_url": "https://www.target.com/p/-/A-90058103",
+  "dimensions": {
+    "height": 0.113,
+    "width": 0.095,
+    "depth": 0.095,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

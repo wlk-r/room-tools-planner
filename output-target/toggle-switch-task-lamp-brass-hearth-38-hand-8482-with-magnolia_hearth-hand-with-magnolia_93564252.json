@@ -1,0 +1,26 @@
+{
+  "tcin": "93564252",
+  "name": "Toggle Switch Task Lamp Brass - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand with Magnolia",
+  "price": "$49.99",
+  "currency": "USD",
+  "description": "Decorate and illuminate your space with elegance using the Toggle Switch Brass Task Lamp from Hearth & Hand™ with Magnolia. This stunning task lamp features a bowl-shaped shade and a pedestal base, both joined by a brass rod. It's made with iron in a brass golden finish to complement your existing decor, and the on/off light setting with a base rocker switch allows for easy operation. Add this lamp to your home office or living room to study, work, or read in style.<br /><br />Hearth & Hand™ with Magnolia: Gather • Create • Enjoy",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_12f83287-c99e-428c-9b69-ae7402d1b992",
+  "glb_url": "https://digitalcontent.target.com/vault/1754611200/CLOUD_44d249cd-c08c-4a28-980f-179897a49df0.glb",
+  "product_url": "https://www.target.com/p/-/A-93564252",
+  "color": "Brass",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4386,
+    "width": 0.338,
+    "depth": 0.2476,
+    "unit": "m",
+    "source": "glb"
+  }
+}

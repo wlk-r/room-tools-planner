@@ -1,0 +1,25 @@
+{
+  "tcin": "90010038",
+  "name": "12pk Mixed Bower Tumbler Set Gray - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$35.00",
+  "currency": "USD",
+  "description": "Refresh your drinkware collection with this 12-Pack Mixed Bower Tumbler Set from Threshold™. This kitchen glass set includes twelve mixed glasses — six with a 12.5-ounce capacity and six that hold 18.6 ounces — giving you options to serve drinks of all kinds. Designed in solid gray, these glasses are dishwasher safe for easy cleaning.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Drinking Glasses"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3b4600c8-37ea-438a-8324-2dc97360ed9a",
+  "glb_url": "https://digitalcontent.target.com/vault/1720396800/CLOUD_d6a4e765-c510-43ab-acdf-f280b00a28d2.glb",
+  "product_url": "https://www.target.com/p/-/A-90010038",
+  "dimensions": {
+    "height": 0.179,
+    "width": 0.123,
+    "depth": 0.0901,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

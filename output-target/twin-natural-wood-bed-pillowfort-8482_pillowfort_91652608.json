@@ -1,0 +1,23 @@
+{
+  "tcin": "91652608",
+  "name": "Twin Natural Wood Bed - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$400.00",
+  "currency": "USD",
+  "description": "Accentuate the look of your kid's bedroom with this Twin Natural Wood Bed from Pillowfort™. Built on a wooden frame in a stained finish, this twin bed features a comfortable low profile and raised headboard with thin rods to offer comfort as they lean or recline back to read or relax in bed. The solid-color bed easily integrates into any decor style or color scheme — just add a mattress to complete the look.",
+  "categories": [
+    "Furniture",
+    "Bedroom Furniture",
+    "Beds"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_fa12baf3-b829-4893-8bd9-6efab4b20c42",
+  "glb_url": "https://digitalcontent.target.com/vault/1742947200/CLOUD_8569af4b-8f58-4e8e-8747-14b774ff7b3f.glb",
+  "product_url": "https://www.target.com/p/-/A-91652608",
+  "dimensions": {
+    "height": 2.0193,
+    "width": 1.0796,
+    "depth": 0.9937,
+    "unit": "m",
+    "source": "glb"
+  }
+}

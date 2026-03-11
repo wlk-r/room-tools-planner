@@ -1,0 +1,25 @@
+{
+  "tcin": "89972643",
+  "name": "Upholstered Storage Ottoman Natural/Brown - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand w/Magnolia Furniture",
+  "price": "$129.99",
+  "currency": "USD",
+  "description": "Create a comfy arrangement for resting your feet with this Upholstered Storage Ottoman from Hearth & Hand™ with Magnolia. Featuring a wooden frame, this upholstered ottoman in natural hues is paired with wooden legs and foam padding for a standout look. Plus, the hinged lid offers additional storage in your home.<br /><br />Hearth & Hand™ with Magnolia: Gather • Create • Enjoy",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Ottomans"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a1f00447-692f-43cf-9888-a15387dfdb08",
+  "glb_url": "https://digitalcontent.target.com/vault/1723593600/CLOUD_0e46a773-0854-4693-8593-ef8c6ca52217.glb",
+  "product_url": "https://www.target.com/p/-/A-89972643",
+  "color": "Natural/Brown",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5588,
+    "width": 0.4547,
+    "depth": 0.4253,
+    "unit": "m",
+    "source": "glb"
+  }
+}

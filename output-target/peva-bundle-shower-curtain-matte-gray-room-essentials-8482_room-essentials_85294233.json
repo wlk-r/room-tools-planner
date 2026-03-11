@@ -1,0 +1,26 @@
+{
+  "tcin": "85294233",
+  "name": "PEVA Bundle Shower Curtain Matte Gray - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$11.00",
+  "currency": "USD",
+  "description": "Bring minimalist style to your bathroom decor with this Shower Curtain with Rings from Room Essentials™. Crafted from 100% PEVA material, this decorative shower curtain features a buttonhole top for easy installation. Featuring a white grid pattern on a brown background, it brings simple style to your bathroom decor. Best of all, it comes with 12 plastic shower rings for immediate installation. Coordinate it with the bath accessories of your choice to give your bathroom a stunning makeover.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Home",
+    "Bath",
+    "Shower Curtains & Accessories",
+    "Shower Curtains"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_608fe515-60ce-428e-8296-cf2e04922c6e",
+  "glb_url": "https://digitalcontent.target.com/vault/1673395200/CLOUD_4e2865d0-2af7-402a-9a55-24ccd63c876e.glb",
+  "product_url": "https://www.target.com/p/-/A-85294233",
+  "color": "Gray",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 3.2591,
+    "width": 1.8288,
+    "depth": 1.8123,
+    "unit": "m",
+    "source": "glb"
+  }
+}

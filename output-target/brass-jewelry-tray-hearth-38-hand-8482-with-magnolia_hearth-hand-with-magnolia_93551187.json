@@ -1,0 +1,24 @@
+{
+  "tcin": "93551187",
+  "name": "Brass Jewelry Tray - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand with Magnolia",
+  "price": "$9.99",
+  "currency": "USD",
+  "description": "Keep your precious jewelry secured with this Brass Jewelry Tray from Hearth & Hand™ with Magnolia. This circular tray is designed in a brass finish and features a ribbed design that adds a textured look to your dressing table. Made of metal, this tray features two compartments and boasts a velvet lining to securely hold your earrings, rings, pendants, and other small pieces of jewelry. <br /><br />Hearth & Hand™ with Magnolia: Gather • Create • Enjoy",
+  "categories": [
+    "Clothing, Shoes & Accessories",
+    "Accessories",
+    "Jewelry",
+    "Jewelry Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_bbc7bbf0-382f-4d2c-a75a-3680c3b02745",
+  "glb_url": "https://digitalcontent.target.com/vault/1753833600/CLOUD_49a7df8b-fe1f-4600-961e-7668f5d149bd.glb",
+  "product_url": "https://www.target.com/p/-/A-93551187",
+  "dimensions": {
+    "height": 0.1139,
+    "width": 0.1137,
+    "depth": 0.0305,
+    "unit": "m",
+    "source": "glb"
+  }
+}

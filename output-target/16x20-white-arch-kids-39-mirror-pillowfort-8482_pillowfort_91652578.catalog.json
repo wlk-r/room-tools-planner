@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "91652578",
+      "name": "16x20 White Arch Kids&#39; Mirror - Pillowfort&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "91652578",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "mirror",
+        "wall-decor"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "geometric",
+        "playful"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "91119483",
+  "name": "Bilston Table Lamp - 20 Inch Height - TBL4127 - Black/Gold - Safavieh",
+  "brand": "Safavieh",
+  "price": "$68.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the elegant Bilston iron table lamp. Standing at 20 inches, it features a chic black and gold finish that perfectly complements any decor style. Crafted from durable iron, this lamp is not just a source of light but a statement piece. Its sleek design enhances your living room, bedroom, or study with a touch of modern sophistication. The balanced combination of black and gold lends a sense of luxury, making it an ideal addition to any room. Whether you're reading, working, or relaxing, the Bilston table lamp provides ample light with style. Transform your space with this beautiful accessory that reflects your taste and decor vision. Choose the Bilston lamp to bring warmth and elegance to your home.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f7693e6c-df1e-4d4f-82b4-270cb49c311a",
+  "glb_url": "https://digitalcontent.target.com/vault/1765411200/CLOUD_94c0354d-f4a8-4735-9332-6f750dec1a38.glb",
+  "product_url": "https://www.target.com/p/-/A-91119483",
+  "dimensions": {
+    "height": 0.5091,
+    "width": 0.3487,
+    "depth": 0.1679,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black/Gold",
+  "color_source": "parsed"
+}

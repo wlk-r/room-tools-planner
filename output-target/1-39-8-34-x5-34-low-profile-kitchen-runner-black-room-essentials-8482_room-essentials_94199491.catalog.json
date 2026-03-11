@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "94199491",
+      "name": "1&#39;8&#34;x5&#34; Low Profile Kitchen Runner Black - Room Essentials&#8482;",
+      "color": "Black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94199491",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "runner",
+        "textile"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "practical"
+      ]
+    }
+  ]
+}

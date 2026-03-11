@@ -1,0 +1,26 @@
+{
+  "tcin": "84691872",
+  "name": "Ceramic Speckled Table Lamp (Includes LED Light Bulb) White - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$105.00",
+  "currency": "USD",
+  "description": "A great combination of functionality and modern style, this Ceramic Speckled Table Lamp from Threshold™ designed with Studio McGee makes an elegant addition to your home. This table lamp stands on a ceramic base designed in a pot-like shape with elegant curves and speckled hues, and it comes complete with a drum-shape shade for an unique, attractive look. Suitable for a variety of spaces, this ceramic table lamp features a dimmable light setting to help you adjust the light according to your need with the pole rotary dimmer switch.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_1ed5563b-9107-478d-889f-f7c6f44327e3",
+  "glb_url": "https://digitalcontent.target.com/vault/1666137600/CLOUD_29579e83-d0e5-4076-bd69-b0bf89b7b66d.glb",
+  "product_url": "https://www.target.com/p/-/A-84691872",
+  "dimensions": {
+    "height": 0.6286,
+    "width": 0.4064,
+    "depth": 0.4064,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "94302631",
+  "name": "42&#34; Clarksburg Round Dining Table Medium Brown - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$250.00",
+  "currency": "USD",
+  "description": "Set up a stylish dining setting with this Clarksburg Round Dining Table from Threshold™. Standing at a 30-inch height, this dining table has a round tabletop atop four pointed legs in a brown finish that lends both support and visual appeal to your entertainment space. Simply add coordinating chairs to create a perfect setup for intimate dinners or family meals.<br /><br />Threshold™: Looks like home, feels like you.<br /><br />Overall Width: 42.1 inches<br />Overall Height: 29.9 inches<br />Overall Depth: 42.1 inches<br />Diameter of table top: 42.1 inches<br />Thickness of  table top: 1.2 inches<br />Distance between floor to under table top: 28.6 inches<br />Distance between two adjacent legs : 22.7 inches<br />Distance between between two symmetrical legs: 37.4 inches<br />Minimum gap between the leg and the floor: 7.9 inches",
+  "categories": [
+    "Furniture",
+    "Kitchen & Dining Furniture",
+    "Dining Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4d7e7ac9-6b4f-4bf2-b03b-76425acd513c",
+  "glb_url": "https://digitalcontent.target.com/vault/1744848000/CLOUD_cc46c4d3-f735-492f-9c9f-79f7ef24ad4a.glb",
+  "product_url": "https://www.target.com/p/-/A-94302631",
+  "dimensions": {
+    "height": 1.0682,
+    "width": 1.0682,
+    "depth": 0.7579,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brown",
+  "color_source": "parsed"
+}

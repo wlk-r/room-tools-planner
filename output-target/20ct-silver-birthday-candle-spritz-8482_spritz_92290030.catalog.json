@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "92290030",
+      "name": "20ct Silver Birthday Candle - Spritz&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "92290030",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "candle",
+        "decor",
+        "party-supply"
+      ],
+      "tags": [
+        "metallic",
+        "contemporary",
+        "minimal"
+      ]
+    }
+  ]
+}

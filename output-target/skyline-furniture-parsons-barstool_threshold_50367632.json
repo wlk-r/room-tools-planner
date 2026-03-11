@@ -1,0 +1,23 @@
+{
+  "tcin": "50367632",
+  "name": "Skyline Furniture Parsons Barstool",
+  "brand": "Threshold",
+  "price": "$285.99 - $313.99",
+  "currency": "USD",
+  "description": "You'll love sitting on the Parsons Barstool Wood from Skyline Furniture as you enjoy Sunday brunch or freshly made cocktails with friends and family. This elegant stool features a hardwood construction for long-lasting use, while padding on the seat and back ensures you stay comfortable. The seat and back of this wood barstool are upholstered in attention-grabbing fabric, adding charm and elegance to your decor.<br><br>Overall Width: 19 inches<br>Overall Height: 44 inches<br>Overall Depth: 22 inches<br>Seat Height: 31 inches<br>Seat Depth: 17 inches<br>Seat Width: 19 inches<br>Inside Back Height: 17 inches<br>Inside Back Width: 17.5 inches<br>Leg Height: 25.25 inches",
+  "categories": [
+    "Furniture",
+    "Kitchen & Dining Furniture",
+    "Bar Furniture"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3b700bc6-2dee-480c-ab2c-d79f2278ac0d",
+  "glb_url": "https://digitalcontent.target.com/vault/1627603200/CLOUD_28a2424a-5ef2-4c0f-89a1-9bb2813e512d.glb",
+  "product_url": "https://www.target.com/p/-/A-50367632",
+  "dimensions": {
+    "height": 1.143,
+    "width": 0.6096,
+    "depth": 0.4826,
+    "unit": "m",
+    "source": "glb"
+  }
+}

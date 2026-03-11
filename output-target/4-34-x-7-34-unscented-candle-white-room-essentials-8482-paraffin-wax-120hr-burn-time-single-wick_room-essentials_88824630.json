@@ -1,0 +1,26 @@
+{
+  "tcin": "88824630",
+  "name": "4&#34; x 7&#34; Unscented Candle White - Room Essentials&#8482;: Paraffin Wax, 120hr Burn Time, Single Wick",
+  "brand": "Room Essentials",
+  "price": "$14.00",
+  "currency": "USD",
+  "description": "Illuminate your space with the 4\" x 7\" Fragrance Free Candle White from Room Essentials™. This unscented candle is great for setting a minimal, bright ambiance. Crafted from paraffin wax, it's designed to go on for longer with an approximate burn time of 120 hours. With a single wick, this versatile pillar candle is ideal for setting the table for dinner parties or enjoying a quiet night in.<br /><br />Room Essentials™: Everyday value.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Candles & Home Fragrances",
+    "Candles"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7c4ef73c-36a5-4ab5-919c-b17634b02426",
+  "glb_url": "https://digitalcontent.target.com/vault/1723161600/CLOUD_f64bef20-e911-4f03-ad9f-0ed44f5af918.glb",
+  "product_url": "https://www.target.com/p/-/A-88824630",
+  "dimensions": {
+    "height": 0.1778,
+    "width": 0.1016,
+    "depth": 0.1016,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "81068607",
+  "name": "XL Fuzzy Kids&#39; Bean Bag Cream - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$85.00",
+  "currency": "USD",
+  "description": "This Fuzzy Bean Bag from Pillowfort™ is sure to become their favorite seat in the house. Wrapped in a fuzzy upholstery that feels soft to the touch, this kids' bean bag features soft filling to keep them comfy as they sit back and watch their favorite cartoons or movies, read a story book, play games or simply relax. Designed with a handle at the top for effortless movement from one spot to another, it features a removable cover that you can toss in the washing machine for easy cleaning whenever needed. In a solid cream hue, it's easy to coordinate this bean bag seat with their existing room decor.<br /><br />Diameter: 40 inches<br />Overall Height: 16 inches",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Furniture",
+    "Kids’ Chairs & Seating"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_398a4dea-2a9c-40a7-b1d6-cffe74ec90c9",
+  "glb_url": "https://digitalcontent.target.com/vault/1617926400/CLOUD_74b495cd-fcee-4f96-9617-bfbcded2ea00.glb",
+  "product_url": "https://www.target.com/p/-/A-81068607",
+  "color": "Cream",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.9501,
+    "width": 0.9475,
+    "depth": 0.4045,
+    "unit": "m",
+    "source": "glb"
+  }
+}

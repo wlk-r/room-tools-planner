@@ -1,0 +1,25 @@
+{
+  "tcin": "92947524",
+  "name": "5&#34; Decorative Lacquer Box Blue - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$17.00",
+  "currency": "USD",
+  "description": "Bring decorative flair to your shelf with this Lacquer Box from Threshold™ designed with Studio McGee. This hexagonal decorative box is made from metal and has a lacquered finish that adds a touch of bling. It has a blue hue and adds a minimalist look to your home decor. Plus, the removable lid gives you the flexibility to store various items. <br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Storage Bins & Boxes"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_5349e4f0-ab5d-44ca-9261-2b2f4f09a8e7",
+  "glb_url": "https://digitalcontent.target.com/vault/1750723200/CLOUD_daa2addb-0f06-4c86-b0c3-f0aedbd50480.glb",
+  "product_url": "https://www.target.com/p/-/A-92947524",
+  "dimensions": {
+    "height": 0.1412,
+    "width": 0.1404,
+    "depth": 0.1396,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

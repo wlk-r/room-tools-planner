@@ -1,0 +1,26 @@
+{
+  "tcin": "87115135",
+  "name": "Puffs Shower Curtain Green - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$15.00",
+  "currency": "USD",
+  "description": "Add a contemporary aesthetic to your bath space with this Puffs Shower Curtain from Room Essentials™. Made of a year-round fabric, the green shower curtain showcases an oversized illustration of a woman with double buns and aqua-color shades to beautifully enclose a bathtub or shower stall for added privacy with a playful vibe. The decorative shower curtain features a buttonhole top for easy installation, and is machine washable for a quick refresh whenever needed.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Home",
+    "Bath",
+    "Shower Curtains & Accessories",
+    "Shower Curtains"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d89b6ad1-0994-4c7b-a482-7c2e8504a3ae",
+  "glb_url": "https://digitalcontent.target.com/vault/1693958400/CLOUD_ae00bcfa-9386-4054-be0f-25c56f257f3f.glb",
+  "product_url": "https://www.target.com/p/-/A-87115135",
+  "color": "Green",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 2.2359,
+    "width": 1.5332,
+    "depth": 0.8905,
+    "unit": "m",
+    "source": "glb"
+  }
+}

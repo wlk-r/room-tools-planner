@@ -1,0 +1,24 @@
+{
+  "tcin": "94686010",
+  "name": "Valentine&#39;s Day Glass Vase - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$11.25",
+  "currency": "USD",
+  "description": "Add a charming seasonal touch to your decor with this Valentine's Day Glass Vase from Threshold™. Designed in a compact size, this vase is made from glass with a watertight construction that’s perfect for displaying fresh flowers, faux stems or simple greenery. Its clean shape and festive appeal make it an easy fit for entryway tables, nightstands, mantels or dining centerpieces.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Decorative Objects",
+    "Vases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e5110907-d59a-4689-a8e0-140755f67fc8",
+  "glb_url": "https://digitalcontent.target.com/vault/1762992000/CLOUD_c21bdf5b-39de-463d-8360-9825321bccf2.glb",
+  "product_url": "https://www.target.com/p/-/A-94686010",
+  "dimensions": {
+    "height": 0.1908,
+    "width": 0.1101,
+    "depth": 0.1091,
+    "unit": "m",
+    "source": "glb"
+  }
+}

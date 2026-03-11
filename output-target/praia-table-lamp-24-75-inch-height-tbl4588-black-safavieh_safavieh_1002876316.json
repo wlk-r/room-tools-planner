@@ -1,0 +1,26 @@
+{
+  "tcin": "1002876316",
+  "name": "Praia Table Lamp - 24.75 Inch Height - TBL4588 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$81.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the elegant Praia table lamp, standing at 24.75 inches. This black resin lamp seamlessly combines modern aesthetics with a classic touch. Its sleek design features a sturdy resin body and a fabric shade, creating a subtle yet striking contrast. Whether placed on a bedside table or an office desk, it enhances any setting with warmth and style. The Praia lamp is not just a lighting solution; it is a statement piece that complements your decor beautifully. Let this lamp be the perfect addition to your home, offering both function and charm in its design.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7c35c8f5-fe8e-48be-9bc2-9a74256bbc85",
+  "glb_url": "https://digitalcontent.target.com/vault/1770336000/CLOUD_6b82842e-8bdf-45d8-8dfa-85d22f591c28.glb",
+  "product_url": "https://www.target.com/p/-/A-1002876316",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6286,
+    "width": 0.4161,
+    "depth": 0.3556,
+    "unit": "m",
+    "source": "glb"
+  }
+}

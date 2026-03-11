@@ -1,0 +1,25 @@
+{
+  "tcin": "91127726",
+  "name": "Fluted Glass Bathroom Soap Pump Light Green - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand with Magnolia",
+  "price": "$9.99",
+  "currency": "USD",
+  "description": "Decorate your bathroom sink area with this Fluted Glass Bathroom Soap Pump from Hearth & Hand™ with Magnolia. This fluted container features a see-through design in light green with a brass-hue pump for an elegant aesthetic. Made of glass and plastic, it boasts a 9.4-ounce capacity and can be filled and refilled with gel soaps and lotions.<br /><br />Hearth & Hand™ with Magnolia: Gather • Create • Enjoy",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_63dc4f5b-bce4-4f6d-825e-2568eaee4eb7",
+  "glb_url": "https://digitalcontent.target.com/vault/1743552000/CLOUD_03caf58f-0ab4-4473-8fe0-7e2e71aa3433.glb",
+  "product_url": "https://www.target.com/p/-/A-91127726",
+  "dimensions": {
+    "height": 0.1778,
+    "width": 0.08,
+    "depth": 0.0607,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Light Green",
+  "color_source": "parsed"
+}

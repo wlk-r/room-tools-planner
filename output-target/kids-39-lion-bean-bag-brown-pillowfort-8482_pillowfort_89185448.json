@@ -1,0 +1,26 @@
+{
+  "tcin": "89185448",
+  "name": "Kids&#39; Lion Bean Bag Brown - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$75.00",
+  "currency": "USD",
+  "description": "Give your child a special spot to perch in their room with this Kids' Lion Bean Bag from Pillowfort™. This upholstered bean bag chair features soft beads enveloped by a soft fabric to offer them a comfortable seat as they sit and relax, watch television or read. Designed in a brown hue, it features a lion face on the back cushion with lion mane accents for fun style.",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Furniture",
+    "Kids’ Chairs & Seating"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0d9ccc79-1bc4-4aef-b2ae-25c7f231b1bd",
+  "glb_url": "https://digitalcontent.target.com/vault/1712275200/CLOUD_4e770ac4-c071-4f64-bb89-7f81f3f76672.glb",
+  "product_url": "https://www.target.com/p/-/A-89185448",
+  "color": "Brown",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.9282,
+    "width": 0.7184,
+    "depth": 0.6379,
+    "unit": "m",
+    "source": "glb"
+  }
+}

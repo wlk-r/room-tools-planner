@@ -1,0 +1,22 @@
+{
+  "tcin": "92289919",
+  "name": "Target Mini Shopping Basket - Spritz&#8482;",
+  "brand": "Spritz",
+  "price": "$3.00",
+  "currency": "USD",
+  "description": "Bring the fun of a Target run to your home with this Target Mini Shopping Basket - Spritz™. Perfect for little shoppers, this mini version of the classic red basket is great for pretend play, storage, or even a cute display piece. Lightweight and easy to carry, it’s just the right size for tiny hands or fun decor. A must-have for Target fans of all ages.<br /><br />Spritz™: Pops of joy that make the moment™<br />",
+  "categories": [
+    "Party Supplies",
+    "Kids’ Birthday Party Supplies"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_1d3d5861-ffd2-4d32-8a11-c7e873597a9b",
+  "glb_url": "https://digitalcontent.target.com/vault/1769472000/CLOUD_c7d675da-1f57-462c-bb0e-4926dcd9e056.glb",
+  "product_url": "https://www.target.com/p/-/A-92289919",
+  "dimensions": {
+    "height": 0.175,
+    "width": 0.0976,
+    "depth": 0.0895,
+    "unit": "m",
+    "source": "glb"
+  }
+}

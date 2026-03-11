@@ -1,0 +1,26 @@
+{
+  "tcin": "92762544",
+  "name": "Lou Table Lamp - 15.25 Inch Height - TBL4591 - White/Nickel - Safavieh",
+  "brand": "Safavieh",
+  "price": "$75.99",
+  "currency": "USD",
+  "description": "Introducing the elegant Lou Table Lamp, a sophisticated addition to any space that seeks to enhance its ambiance with a touch of class. The lamp boasts a striking white fabric shade paired beautifully with a sturdy marble base finished in a sleek nickel color. The blend of materials strikes a perfect balance between modern style and classic charm.\n\nThe Lou Table Lamp stands at an overall height of 15.25 inches, with the shade dimension stretching to 8.5/12.5 inches in height and 5 inches in width at the top. The base, crafted from exquisite marble, measures an exact 5 inches by 5 inches, giving it a substantial presence without overpowering your table or desk. A convenient 60-inch cord allows for flexible placement in your room, ensuring that this chic luminary can be enjoyed in a variety of settings.\n\nPerfect for those who appreciate refined details and a minimalist approach to interior design, the Lou Table Lamp will illuminate your space with a warm, inviting glow. Whether you're looking to brighten a dim nook, add functionality to your office desk, or infuse your living room with a soft, diffused light, this lamp is poised to deliver both function and flair.\n\nInvite the Lou Table Lamp to become a harmonious part of your home or office decor for a polished look that gracefully complements any interior.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_90db4321-1c4f-465c-99a7-b82b091ba0fd",
+  "glb_url": "https://digitalcontent.target.com/vault/1767916800/CLOUD_e637f4b8-b3ab-4e05-a460-5a603fb57284.glb",
+  "product_url": "https://www.target.com/p/-/A-92762544",
+  "color": "White/Nickel",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3875,
+    "width": 0.2038,
+    "depth": 0.2038,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tcin": "82421371",
+  "name": "Gallerie II Red Gnome Christmas Xmas Shelf Sitter",
+  "brand": "Gallerie II",
+  "price": "$14.99",
+  "currency": "USD",
+  "description": "Red Gnome Shelf Sitter",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Decorative Objects",
+    "Sculptures & Figurines"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_35deaf69-48e5-46f5-a134-80283b2a25ed",
+  "glb_url": "https://digitalcontent.target.com/vault/1718841600/CLOUD_1c0ed35c-0723-456c-93a3-68dafa4fd008.glb",
+  "product_url": "https://www.target.com/p/-/A-82421371",
+  "dimensions": {
+    "height": 0.5468,
+    "width": 0.1737,
+    "depth": 0.1416,
+    "unit": "m",
+    "source": "glb"
+  }
+}

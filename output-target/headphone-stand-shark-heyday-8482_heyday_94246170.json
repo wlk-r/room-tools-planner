@@ -1,0 +1,23 @@
+{
+  "tcin": "94246170",
+  "name": "Headphone Stand Shark - heyday&#8482;",
+  "brand": "Heyday",
+  "price": "$9.99",
+  "currency": "USD",
+  "description": "The Headphone Stand Shark from heyday™ is a practical accessory designed to keep your headphones organized. Standing at 11.77 inches tall, it provides a stable base for your headphones with a width of 4.76 inches and a depth of 4.54 inches. Lightweight, this multicolored stand adds a playful touch to your desk or entertainment area. The compact design ensures it fits easily into various spaces, making it a functional addition to your setup.<br /><br />heyday™: Let your style speak volumes.",
+  "categories": [
+    "Electronics",
+    "Tech Accessories",
+    "Headphone Cases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_9ac3f85b-0b0f-4db9-9380-53a3f4bbeec3",
+  "glb_url": "https://digitalcontent.target.com/vault/1755820800/CLOUD_40ba9ad5-6e33-4233-82a6-db2e86114a04.glb",
+  "product_url": "https://www.target.com/p/-/A-94246170",
+  "dimensions": {
+    "height": 0.2912,
+    "width": 0.1165,
+    "depth": 0.111,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "tcin": "91918684",
+  "name": "Silver Buffalo Sanrio Hello Kitty Mushrooms Single Stackable Ceramic Mug | Holds 13 Ounces",
+  "brand": "Hello Kitty",
+  "price": "$9.99",
+  "currency": "USD",
+  "description": "Enjoy your favorite beverage in style with this fun Sanrio Hello Kitty mug! Fun and functional, this mug is great for using around the house, at the office, parties, and more! Officially licensed. Produced by Silver Buffalo, a trendsetting housewares and home decor company based in the heart of New York City. A Toynk exclusive!",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0e6d29f3-3372-4456-b370-c77b2ab15797",
+  "glb_url": "https://digitalcontent.target.com/vault/1717718400/CLOUD_33c5b646-b407-403a-830a-01bd8e06abeb.glb",
+  "product_url": "https://www.target.com/p/-/A-91918684",
+  "dimensions": {
+    "height": 0.1578,
+    "width": 0.1118,
+    "depth": 0.1057,
+    "unit": "m",
+    "source": "glb"
+  }
+}

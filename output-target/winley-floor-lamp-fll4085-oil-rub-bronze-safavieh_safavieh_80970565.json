@@ -1,0 +1,26 @@
+{
+  "tcin": "80970565",
+  "name": "Winley Floor Lamp - FLL4085 - Oil Rub Bronze - Safavieh",
+  "brand": "Safavieh",
+  "price": "$87.99",
+  "currency": "USD",
+  "description": "Elevate your space with the Winley extendable floor lamp, designed to blend seamlessly into any decor. Crafted from sturdy iron, this lamp features a sleek oil rubbed bronze finish that adds an elegant touch to your living environment. Its adjustable height, extending from 58 to 65 inches, offers versatile lighting options to fit your needs. Whether you are brightening up your reading nook or adding ambiance to your living room, the Winley floor lamp provides the perfect balance of form and function. Its timeless design coupled with modern functionality makes it a stylish addition to any home. Bring home the Winley floor lamp and illuminate your world with style and grace.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4f0f483f-78d9-46ed-88ec-0b64740ab872",
+  "glb_url": "https://digitalcontent.target.com/vault/1768435200/CLOUD_531946bb-fe3e-4791-9856-4cc290c8dc76.glb",
+  "product_url": "https://www.target.com/p/-/A-80970565",
+  "color": "Bronze",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.4732,
+    "width": 0.4214,
+    "depth": 0.3265,
+    "unit": "m",
+    "source": "glb"
+  }
+}

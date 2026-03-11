@@ -1,0 +1,26 @@
+{
+  "tcin": "85590382",
+  "name": "Small Pleated Lamp Shade White - Threshold&#8482;: Empire Shape, Cotton/Nylon, 7&#34; H",
+  "brand": "Threshold",
+  "price": "$8.40",
+  "currency": "USD",
+  "description": "Add a decorative hint of dimension to your table lamp with this Small Pleated Lamp Shade from Threshold™. This empire-shaped lamp shade features allover knife pleating for a refined classic look. This white fabric shade diffuses light with a soft glow, and easily coordinates with any lamp base or decor scheme. Simply pair it with a small-sized lamp base to cast and warm and welcoming glow.<br /><br />Threshold™: Quality & Design / Casual classics for house and home.<br /><br />Lamp Shade Bottom Diameter: 10 inches<br />Lamp Shade Top Diameter: 5.5 inches<br />Lamp Shade Height: 7 inches",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Lamp Shades"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a01bb097-310d-4c78-bcf0-f348d8748a07",
+  "glb_url": "https://digitalcontent.target.com/vault/1661385600/CLOUD_f48d4f28-dad0-4a50-8f98-2e43c53c5ac6.glb",
+  "product_url": "https://www.target.com/p/-/A-85590382",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.254,
+    "width": 0.254,
+    "depth": 0.1778,
+    "unit": "m",
+    "source": "glb"
+  }
+}

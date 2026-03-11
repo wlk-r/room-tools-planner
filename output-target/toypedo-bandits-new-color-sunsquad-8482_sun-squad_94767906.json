@@ -1,0 +1,24 @@
+{
+  "tcin": "94767906",
+  "name": "Toypedo Bandits New Color - Sunsquad&#8482;",
+  "brand": "Sun Squad",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Dive into fun with the toypedo bandits from Sun Squad™. These colorful dive toys are perfect for pool games, offering a playful challenge for swimmers. Made from PVC, each piece is designed to glide smoothly through water, making them a hit with kids and adults alike. With four pieces in a set, they're great for group play or solo practice, adding excitement to any pool day.<br /><br />Sun Squad™: Ready for fun. ",
+  "categories": [
+    "Toys",
+    "Outdoor Toys",
+    "Water Toys",
+    "Pool Toys"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b1be8c96-0786-4803-9923-13e678bb44cb",
+  "glb_url": "https://digitalcontent.target.com/vault/1769040000/CLOUD_83565256-b01b-45ba-8d1a-07462958324d.glb",
+  "product_url": "https://www.target.com/p/-/A-94767906",
+  "dimensions": {
+    "height": 0.0602,
+    "width": 0.0462,
+    "depth": 0.014,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "item_no": "94229249",
+      "name": "120&#34;x60&#34; Tablecloth White - Threshold&#8482;",
+      "color": "White"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94229249",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "textile",
+        "table-linen",
+        "decor"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "clean",
+        "natural",
+        "scandinavian"
+      ]
+    }
+  ]
+}

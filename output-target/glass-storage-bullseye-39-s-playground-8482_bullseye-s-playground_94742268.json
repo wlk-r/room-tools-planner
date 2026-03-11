@@ -1,0 +1,24 @@
+{
+  "tcin": "94742268",
+  "name": "Glass Storage - Bullseye&#39;s Playground&#8482;",
+  "brand": "Bullseye's Playground",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Discover the convenience of Glass Storage from Bullseye's Playground™, perfect for adding a touch of functionality to your space. Crafted from clear glass, this decorative jar stands at 8.71 inches tall and weighs 2.2 pounds, making it a sturdy addition to your home. The generous width of 5.9 inches offers ample space for storing small items, making it a great choice for your household needs. ",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Decorative Objects",
+    "Decorative Jars & Containers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0b3de008-9bf4-4a56-b778-d57db2cc18c9",
+  "glb_url": "https://digitalcontent.target.com/vault/1770940800/CLOUD_b10961ae-4b5a-41b2-b420-90103484581b.glb",
+  "product_url": "https://www.target.com/p/-/A-94742268",
+  "dimensions": {
+    "height": 0.2212,
+    "width": 0.1679,
+    "depth": 0.1516,
+    "unit": "m",
+    "source": "glb"
+  }
+}

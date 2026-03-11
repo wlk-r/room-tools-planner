@@ -1,0 +1,26 @@
+{
+  "tcin": "84592438",
+  "name": "Resler Table Lamp - 25 Inch Height - TBL4377 - Brown/White - Safavieh",
+  "brand": "Safavieh",
+  "price": "$74.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the resler 25 inch table lamp, an elegant addition that blends style with functionality. Crafted from 80 percent resin and 20 percent iron, this lamp showcases a harmonious brown and white color palette that complements any decor. The resin body offers a smooth finish while the iron neck adds a touch of sleek sophistication. Designed to be both a focal point and a subtle enhancer of ambience, the resler lamp stands as a testament to craftsmanship. Its classic design paired with modern materials creates a versatile piece that adds warmth and charm to any room. Whether placed on a bedside table or used as an accent in your living area, its presence is sure to invite a sense of tranquility and style.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_9bf086a0-defa-4247-943d-3a2909145b19",
+  "glb_url": "https://digitalcontent.target.com/vault/1764201600/CLOUD_b6dc0099-edb6-4685-a665-5fc3434e0ed7.glb",
+  "product_url": "https://www.target.com/p/-/A-84592438",
+  "color": "Brown/White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6353,
+    "width": 0.3497,
+    "depth": 0.3497,
+    "unit": "m",
+    "source": "glb"
+  }
+}

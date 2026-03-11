@@ -1,0 +1,25 @@
+{
+  "tcin": "91536142",
+  "name": "Modular Storage Medium Green - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$3.00",
+  "currency": "USD",
+  "description": "Keep your space neat and tidy with the help of this Medium Modular Storage from Brightroom™. Featuring a semi-transparent design in a green hue, this rectangular modular storage basket comes in handy for stashing anything from notepads, stationery items, craft supplies, small everyday household items and more. This storage basket features a removable lid with an indexed design for easy carrying, and the stackable design lets you stack multiple same-sized baskets on top of each other for space-efficient storage. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Garage Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_442890fc-44e8-4d58-9b41-018711f6ed37",
+  "glb_url": "https://digitalcontent.target.com/vault/1739923200/CLOUD_f6868ce2-f09a-40ed-a664-b29c7efd3eac.glb",
+  "product_url": "https://www.target.com/p/-/A-91536142",
+  "color": "Green",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3,
+    "width": 0.3,
+    "depth": 0.1279,
+    "unit": "m",
+    "source": "glb"
+  }
+}

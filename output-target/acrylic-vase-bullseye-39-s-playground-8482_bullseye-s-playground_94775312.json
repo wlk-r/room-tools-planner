@@ -1,0 +1,24 @@
+{
+  "tcin": "94775312",
+  "name": "Acrylic Vase - Bullseye&#39;s Playground&#8482;",
+  "brand": "Bullseye's Playground",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Add a touch of elegance to your home with the Acrylic Vase from Bullseye's Playground. Crafted from clear acrylic, this bud vase is perfect for showcasing your favorite blooms on any tabletop. Its compact size, with a height of 2.5 inches and width of 8 inches, makes it an ideal decorative piece for small spaces. Lightweight yet sturdy, it offers a simple way to enhance your decor with a modern flair.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Decorative Objects",
+    "Vases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_09c41425-9810-4c5b-b8a3-5ab2ea6694c3",
+  "glb_url": "https://digitalcontent.target.com/vault/1767830400/CLOUD_18c64eb9-ef23-45cb-9c4d-7813f370a0b2.glb",
+  "product_url": "https://www.target.com/p/-/A-94775312",
+  "dimensions": {
+    "height": 0.2032,
+    "width": 0.174,
+    "depth": 0.0568,
+    "unit": "m",
+    "source": "glb"
+  }
+}

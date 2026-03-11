@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "91048668",
+      "name": "13&#34; Trailing Plant in Wood Planter - Threshold&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "91048668",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "potted-plant",
+        "decor"
+      ],
+      "tags": [
+        "organic",
+        "botanical",
+        "contemporary",
+        "natural"
+      ]
+    }
+  ]
+}

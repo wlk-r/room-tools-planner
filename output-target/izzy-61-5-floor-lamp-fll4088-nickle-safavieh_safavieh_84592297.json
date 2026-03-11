@@ -1,0 +1,24 @@
+{
+  "tcin": "84592297",
+  "name": "Izzy 61.5\" Floor Lamp - FLL4088 - Nickle - Safavieh",
+  "brand": "Safavieh",
+  "price": "$89.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Izzy floor lamp, standing at 61.5 inches tall. Crafted in nickel, this lamp brings a contemporary touch to any room. Its sleek iron construction is complemented by 60 acrylic components, creating a subtle blend of materials that enhance its modern appeal. The Izzy floor lamp features an E26 socket, making it compatible with a variety of bulbs to achieve your desired ambiance. The composition includes 80 percent iron and 20 percent acrylic, ensuring a robust and stylish structure. This lamp is the perfect addition for those looking to add a unique and practical piece to their home decor. Its design ensures it blends seamlessly into any setting, providing both function and style.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0f3fc58f-018a-48b9-99b3-a3069babf8b7",
+  "glb_url": "https://digitalcontent.target.com/vault/1770768000/CLOUD_137c3c01-f13d-4922-b41f-d7ad9306cbf5.glb",
+  "product_url": "https://www.target.com/p/-/A-84592297",
+  "dimensions": {
+    "height": 1.5513,
+    "width": 0.4288,
+    "depth": 0.2775,
+    "unit": "m",
+    "source": "glb"
+  }
+}

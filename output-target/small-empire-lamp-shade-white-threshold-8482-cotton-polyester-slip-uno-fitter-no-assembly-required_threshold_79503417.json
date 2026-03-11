@@ -1,0 +1,26 @@
+{
+  "tcin": "79503417",
+  "name": "Small Empire Lamp Shade White - Threshold&#8482;: Cotton Polyester, Slip Uno Fitter, No Assembly Required",
+  "brand": "Threshold",
+  "price": "$15.00",
+  "currency": "USD",
+  "description": "The Empire Lampshade from Threshold™ will transform the look and feel of your lamp with the simple switch of a shade. Featuring an elegant empire shape, this white fabric lampshade will work with a variety of styles and decors, and it features a slip uno fitter construction to attach to your lamp harp. Plus, it's suitable for table lamps, floor lamps, accent lamps and more.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Lamp Shades"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4f166e69-1005-4267-ae54-d50fe0a73511",
+  "glb_url": "https://digitalcontent.target.com/vault/1606521600/CLOUD_6417b2f6-2438-47ed-b5c2-d9f1c10647a7.glb",
+  "product_url": "https://www.target.com/p/-/A-79503417",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.2794,
+    "width": 0.2794,
+    "depth": 0.1778,
+    "unit": "m",
+    "source": "glb"
+  }
+}

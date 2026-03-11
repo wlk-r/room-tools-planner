@@ -1,0 +1,26 @@
+{
+  "tcin": "89148955",
+  "name": "Kids&#39; Accent Lamp Gold - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$20.00",
+  "currency": "USD",
+  "description": "Light up your kid's space in elegant style with this Accent Lamp from Pillowfort™. This gold-tone lamp features a drum-shaped white shade with scalloped edges and a gold-tone metal body for appealing contrast. Designed with a socket push-through switch, this accent lamp is designed with a one-way light setting for easy on and off.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c62961df-8878-49a4-9a33-78f633f55490",
+  "glb_url": "https://digitalcontent.target.com/vault/1723420800/CLOUD_165a4607-871b-4afc-9d04-5656ac8963ed.glb",
+  "product_url": "https://www.target.com/p/-/A-89148955",
+  "color": "Gold",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4242,
+    "width": 0.381,
+    "depth": 0.1715,
+    "unit": "m",
+    "source": "glb"
+  }
+}

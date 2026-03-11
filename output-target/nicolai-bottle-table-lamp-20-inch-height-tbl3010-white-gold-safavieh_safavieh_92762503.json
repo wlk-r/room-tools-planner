@@ -1,0 +1,26 @@
+{
+  "tcin": "92762503",
+  "name": "Nicolai Bottle Table Lamp - 20 Inch Height - TBL3010 - White/Gold - Safavieh",
+  "brand": "Safavieh",
+  "price": "$192.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the elegant and stylish Nicolai Table Lamp. This exquisite piece features a robust terrazzo base with charming specks of color that bring an artful aesthetic to any room. Supported by a lustrous gold metal body, the lamp exudes a subtle touch of sophistication and warmth. Topped with a classic fabric shade in a crisp white finish, the Nicolai Table Lamp casts a gentle and inviting glow, making it an ideal addition to your nightstand, end table, or office desk. Its unique combination of materials and its visually pleasing color scheme offer a perfect balance of functionality and decorative appeal. Embrace a touch of luxury and grace in your lighting collection with this beautifully crafted table lamp.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_ac0b8d72-2933-4916-bc0f-885acf3b258d",
+  "glb_url": "https://digitalcontent.target.com/vault/1770076800/CLOUD_4d7d1f1a-d6be-435f-9b62-a68a6e66001b.glb",
+  "product_url": "https://www.target.com/p/-/A-92762503",
+  "color": "White/Gold",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.508,
+    "width": 0.254,
+    "depth": 0.254,
+    "unit": "m",
+    "source": "glb"
+  }
+}

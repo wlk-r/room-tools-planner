@@ -1,0 +1,23 @@
+{
+  "tcin": "93307840",
+  "name": "Microwave Storage Cart - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$45.00",
+  "currency": "USD",
+  "description": "Efficiently manage your kitchen or pantry space with this Microwave Storage Cart from Brightroom™. Made of metal, this microwave cart has a top shelf to place the microwave or oven and two wired shelves to store instant foods, snacks, biscuits, plates, bowls, and more. Plus, this black storage cart features inbuilt handles and four castor wheels for easy portability from one room to another. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Carts & Drawer Units"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_629d9f5d-e8d0-49b6-a2d1-5d228f4c2189",
+  "glb_url": "https://digitalcontent.target.com/vault/1750723200/CLOUD_c8f739e9-23bc-49d1-b42d-53f4ae609922.glb",
+  "product_url": "https://www.target.com/p/-/A-93307840",
+  "dimensions": {
+    "height": 0.875,
+    "width": 0.6551,
+    "depth": 0.4001,
+    "unit": "m",
+    "source": "glb"
+  }
+}

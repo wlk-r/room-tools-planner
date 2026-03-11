@@ -1,0 +1,23 @@
+{
+  "tcin": "94253450",
+  "name": "Fridge Water Bottle Organizer - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$12.00",
+  "currency": "USD",
+  "description": "Keep water bottles organized in one spot with the Fridge Water Bottle Organizer from Brightroom™. This water bottle organizer features an open front and top for easy bottle storage. It is tall enough to hold two layers of water bottles and has a stackable design to provide extra space for an additional organizer on top. Made of BPA-free plastic, this water bottle organizer is freezer safe and should be handwashed.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen Storage",
+    "Refrigerator Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d2e8e20b-b9f8-44b7-b3db-c88f995e48ca",
+  "glb_url": "https://digitalcontent.target.com/vault/1758758400/CLOUD_28ff207d-ace5-453a-aa41-a84c1e670236.glb",
+  "product_url": "https://www.target.com/p/-/A-94253450",
+  "dimensions": {
+    "height": 0.3711,
+    "width": 0.2309,
+    "depth": 0.127,
+    "unit": "m",
+    "source": "glb"
+  }
+}

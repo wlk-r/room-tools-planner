@@ -1,0 +1,25 @@
+{
+  "tcin": "88198327",
+  "name": "Esker Recycled Resin Outdoor Patio Loveseat Brown - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$600.00",
+  "currency": "USD",
+  "description": "Enjoy relaxing moments with a loved one by sitting on the Esker Outdoor Patio Loveseat from Threshold™. Designed with a wooden frame, this outdoor loveseat features neutral-shade upholstery to complement a variety of porch or patio decor. It boasts a weather-resistant design to help you enjoy all the seasons outdoors in comfort, and you can add a coordinating slatted table to create a perfect sitting arrangement for two or pair it with extra seats to accommodate other family members or guests.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Sofas & Loveseats"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_5afc5da1-629d-43c2-8014-245974f926a0",
+  "glb_url": "https://digitalcontent.target.com/vault/1701993600/CLOUD_a0800d80-87ed-439d-b9b7-d66ec4156949.glb",
+  "product_url": "https://www.target.com/p/-/A-88198327",
+  "dimensions": {
+    "height": 1.3599,
+    "width": 0.8499,
+    "depth": 0.7699,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brown",
+  "color_source": "parsed"
+}

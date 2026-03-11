@@ -1,0 +1,25 @@
+{
+  "tcin": "76168064",
+  "name": "Stainless Steel Paper Towel Holder White - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$18.70",
+  "currency": "USD",
+  "description": "Keep paper towels handy with the Stainless Steel Paper Towel Holder from Threshold™. Standing on a weighted, circular base, this paper towel holder features a main column that accommodates an entire roll, while the short bar lets you tear off the required quantity of paper towel effortlessly. Made from stainless steel for durability and lasting use, it features a simple design that seamlessly blends with all decor styles, bringing functionality and style to your kitchen, vanity or bathroom counters.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Countertop Storage",
+    "Napkin & Paper Towel Holders"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7e18ba6a-823f-4bd5-9f57-d40f42ff348e",
+  "glb_url": "https://digitalcontent.target.com/vault/1657670400/CLOUD_780371c7-4dfb-44b4-81b0-7c12a0c3f439.glb",
+  "product_url": "https://www.target.com/p/-/A-76168064",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3404,
+    "width": 0.193,
+    "depth": 0.193,
+    "unit": "m",
+    "source": "glb"
+  }
+}

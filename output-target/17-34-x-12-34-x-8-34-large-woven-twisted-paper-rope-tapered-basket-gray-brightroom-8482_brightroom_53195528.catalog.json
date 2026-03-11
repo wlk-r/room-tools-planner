@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "53195528",
+      "name": "17&#34; x 12&#34; x 8&#34; Large Woven Twisted Paper Rope Tapered Basket Gray - Brightroom&#8482;",
+      "color": "Gray"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "53195528",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "basket"
+      ],
+      "tags": [
+        "organic",
+        "scandinavian",
+        "cozy",
+        "minimal"
+      ]
+    }
+  ]
+}

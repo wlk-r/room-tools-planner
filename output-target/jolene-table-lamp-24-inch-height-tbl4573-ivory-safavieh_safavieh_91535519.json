@@ -1,0 +1,26 @@
+{
+  "tcin": "91535519",
+  "name": "Jolene Table Lamp - 24 Inch Height - TBL4573 - Ivory - Safavieh",
+  "brand": "Safavieh",
+  "price": "$141.99",
+  "currency": "USD",
+  "description": "Introducing the Jolene Table Lamp?a sophisticated and elegant addition to any interior space. This lamp features an ivory travertine body that exudes a sense of natural charm. The lamp is paired with a fabric shade that casts a warm, inviting glow, perfect for creating a tranquil atmosphere in your home or office.\n\nCrafted with meticulous attention to detail, the lamp's travertine base showcases subtle patterns and variations that are inherent to the stone, ensuring that each piece is unique. Its dimensions are thoughtfully proportioned, featuring a body width of 4.375 inches (11 cm) and a height of 24 inches (61 cm), making it an ideal size for a variety of settings.\n\nThe lamp's shade, with a 14-inch (35.5 cm) diameter, harmonizes beautifully with its base, resulting in a balanced design that draws the eye without overwhelming your decor. The lamp's cord extends to 60 inches (152 cm), offering ample length for placement flexibility.\n\nElevate the ambience of any room with the Jolene Table Lamp?a testament to understated elegance and refined taste.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b04a4794-2675-40dc-882e-1670974a1957",
+  "glb_url": "https://digitalcontent.target.com/vault/1765411200/CLOUD_06b1aa59-1618-4413-b6f9-ae9f0c497ade.glb",
+  "product_url": "https://www.target.com/p/-/A-91535519",
+  "color": "Ivory",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6107,
+    "width": 0.373,
+    "depth": 0.373,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "90553998",
+      "name": "12ct Holiday Wax Melt Fresh Fraser, Festive Spice &#38; Cozy Cashmere - Threshold&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90553998",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "fragrance",
+        "decor",
+        "accessory"
+      ],
+      "tags": [
+        "cozy",
+        "warm",
+        "festive",
+        "natural"
+      ]
+    }
+  ]
+}

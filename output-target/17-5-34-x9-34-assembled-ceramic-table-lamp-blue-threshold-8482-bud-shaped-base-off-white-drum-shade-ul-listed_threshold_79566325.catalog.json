@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "79566325",
+      "name": "17.5&#34;x9&#34; Assembled Ceramic Table Lamp Blue - Threshold&#8482;: Bud-Shaped Base, Off-White Drum Shade, UL Listed",
+      "color": "Blue"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "79566325",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "table-lamp",
+        "decor"
+      ],
+      "tags": [
+        "contemporary",
+        "geometric",
+        "warm"
+      ]
+    }
+  ]
+}

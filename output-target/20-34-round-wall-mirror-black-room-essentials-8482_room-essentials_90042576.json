@@ -1,0 +1,25 @@
+{
+  "tcin": "90042576",
+  "name": "20&#34; Round Wall Mirror Black - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$20.00",
+  "currency": "USD",
+  "description": "Upgrade the look of your wall space with this Round Wall Mirror from Room Essentials™. This wall mirror is designed in a round shape and features a glossy-finish polyethylene frame for modern appeal. Easy to mount on any wall, this mirror gives you space a welcoming look and makes it easy to check your reflection.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Mirrors"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_601596f5-abcf-4992-923e-0166fc8b81d8",
+  "glb_url": "https://digitalcontent.target.com/vault/1721260800/CLOUD_ada34547-357e-41b1-96fb-6162fcb5d081.glb",
+  "product_url": "https://www.target.com/p/-/A-90042576",
+  "dimensions": {
+    "height": 0.5067,
+    "width": 0.5067,
+    "depth": 0.0359,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

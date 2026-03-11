@@ -1,0 +1,27 @@
+{
+  "tcin": "88503407",
+  "name": "Fabric Shade Wall Sconce Black/Cream - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand with Magnolia",
+  "price": "$47.99",
+  "currency": "USD",
+  "description": "Enhance your indoor lighting with this Fabric Shade Wall Sconce from Hearth & Hand™ with Magnolia. This wall sconce features a black metal body and comes with a cream bell-shaped fabric shade for a chic contrasting look. The 1-way light setting with turn knob rotary switch allows for easy operation. Just fix it in your bedroom, hallway, or any other living area in your home for effective lighting with the help of included mounting hardware. <br /><br />Hearth & Hand™ with Magnolia: Gather • Create • Enjoy",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Wall Lights",
+    "Wall Sconces"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_28083e8d-d14f-46cd-9835-36f075b6a3b6",
+  "glb_url": "https://digitalcontent.target.com/vault/1706054400/CLOUD_9c927b7d-524a-4522-ae56-14a6e1278dfd.glb",
+  "product_url": "https://www.target.com/p/-/A-88503407",
+  "dimensions": {
+    "height": 0.4508,
+    "width": 0.2159,
+    "depth": 0.1588,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black/Cream",
+  "color_source": "parsed"
+}

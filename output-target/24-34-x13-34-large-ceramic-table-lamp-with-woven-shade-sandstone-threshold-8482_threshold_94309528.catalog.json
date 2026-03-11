@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94309528",
+      "name": "24&#34;x13&#34; Large Ceramic Table Lamp with Woven Shade Sandstone - Threshold&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94309528",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "lighting",
+        "decor"
+      ],
+      "tags": [
+        "warm",
+        "rustic",
+        "organic",
+        "artisan"
+      ]
+    }
+  ]
+}

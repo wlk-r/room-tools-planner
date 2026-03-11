@@ -1,0 +1,26 @@
+{
+  "tcin": "90594338",
+  "name": "Rino Table Lamp W/ USB Port - 23 Inch Height - TBL4294 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$82.99",
+  "currency": "USD",
+  "description": "Introducing the Rino table lamp, a sleek and functional addition to any space. Standing at 23 inches, this black metal lamp combines modern design with practicality. Crafted from a composition of 80 percent iron and 20 percent glass, the Rino lamp offers durability with a touch of elegance. The E26 socket accommodates a variety of bulb types, allowing you to customize the lighting to suit your mood or decor.\n\nA built-in USB port enhances the functionality of this stylish lamp, making it a convenient choice for your workspace or bedside table. Whether you are reading a book or working late, Rino provides the illumination you need while keeping your devices charged and within reach.\n\nDesigned for those who appreciate both form and function, the Rino table lamp is more than just a lighting solution. It is a statement piece that elevates the aesthetic of your home. Add a touch of sophistication and practicality to your room with the Rino table lamp.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_ab3792fc-e952-4b8f-bfcf-18eba3f6aa05",
+  "glb_url": "https://digitalcontent.target.com/vault/1769126400/CLOUD_2bedd999-66f2-413f-bb15-ec70ba5000c5.glb",
+  "product_url": "https://www.target.com/p/-/A-90594338",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5842,
+    "width": 0.3429,
+    "depth": 0.1808,
+    "unit": "m",
+    "source": "glb"
+  }
+}

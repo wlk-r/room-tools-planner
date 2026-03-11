@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94283697",
+      "name": "13oz Stoneware FAVORITE TEACHER Camper Mug - Room Essentials&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94283697",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "decor"
+      ],
+      "tags": [
+        "minimal",
+        "warm",
+        "neutral",
+        "contemporary"
+      ]
+    }
+  ]
+}

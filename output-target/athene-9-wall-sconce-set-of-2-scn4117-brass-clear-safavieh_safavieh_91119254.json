@@ -1,0 +1,27 @@
+{
+  "tcin": "91119254",
+  "name": "Athene 9\" Wall Sconce (Set of 2) - SCN4117 - Brass/Clear - Safavieh",
+  "brand": "Safavieh",
+  "price": "$125.99",
+  "currency": "USD",
+  "description": "Elevate your space with the Athene wall sconce set of 2, a perfect union of style and functionality. These sconces feature a sleek 9 inch design that combines the elegance of brass with the clarity of clear elements. Made from sturdy iron and adorned with acrylic, they are set to bring a touch of modern sophistication to any room. The warm brass color complements a variety of interiors, adding both charm and practicality. Whether enhancing your hallway or living room, Athene wall sconces add an inviting glow to your decor. Each piece in this set is crafted to seamlessly blend with contemporary themes, offering both decorative appeal and effective lighting. Illuminate your home with Athene, where design meets functionality in the most stylish way.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Wall Lights",
+    "Wall Sconces"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b8801c20-17a7-488d-92ff-ebd970e2ed4b",
+  "glb_url": "https://digitalcontent.target.com/vault/1770076800/CLOUD_a5d377bd-1c1f-44a3-aaaf-9713d366878b.glb",
+  "product_url": "https://www.target.com/p/-/A-91119254",
+  "dimensions": {
+    "height": 0.6604,
+    "width": 0.2758,
+    "depth": 0.2286,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brass/Clear",
+  "color_source": "parsed"
+}

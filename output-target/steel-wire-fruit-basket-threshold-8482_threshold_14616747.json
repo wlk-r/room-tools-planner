@@ -1,0 +1,23 @@
+{
+  "tcin": "14616747",
+  "name": "Steel Wire Fruit Basket - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$22.10",
+  "currency": "USD",
+  "description": "Storing your fresh fruits and vegetables just got stylish and hassle-free with the Steel Wire Fruit Basket from Threshold. Your little minions can now spot their favorite fruit, providing extra storage in form of an added banana hook. The steel material design adds a touch of modern look to any decor.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Countertop Storage",
+    "Fruit Baskets & Holders"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_6fda77b6-ca75-43c4-a239-32df1dae2dba",
+  "glb_url": "https://digitalcontent.target.com/vault/1657670400/CLOUD_6e1424d4-c3bd-4e40-899b-0664f30c4ee6.glb",
+  "product_url": "https://www.target.com/p/-/A-14616747",
+  "dimensions": {
+    "height": 0.4064,
+    "width": 0.3048,
+    "depth": 0.3048,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "89300481",
+  "name": "Medium Decorative Basket - Pink - Cloud Island&#8482;",
+  "brand": "Cloud Island",
+  "price": "$26.99",
+  "currency": "USD",
+  "description": "Add extra storage to your newborn's nursery with this Medium Decorative Basket from cloud island™. This decorative storage basket features a light pink and cream woven construction adorned with circular fuzzy tufts for a sweet, textured look. Designed with attached handles for easy portability, this round basket is great for stowing toys, blankets, diapers, baby clothes and more, and it's easy to spot clean.<br /><br />cloud island™: Designed with love. Made without compromise.",
+  "categories": [
+    "Baby",
+    "Nursery",
+    "Nursery Decor",
+    "Nursery Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_32f47b02-2afa-406c-b158-f916f927f7a5",
+  "glb_url": "https://digitalcontent.target.com/vault/1717113600/CLOUD_d38f35cf-c8e5-491b-a5f0-496a078b6430.glb",
+  "product_url": "https://www.target.com/p/-/A-89300481",
+  "color": "Pink",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3703,
+    "width": 0.3148,
+    "depth": 0.3132,
+    "unit": "m",
+    "source": "glb"
+  }
+}

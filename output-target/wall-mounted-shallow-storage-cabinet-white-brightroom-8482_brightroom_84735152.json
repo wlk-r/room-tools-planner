@@ -1,0 +1,25 @@
+{
+  "tcin": "84735152",
+  "name": "Wall Mounted Shallow Storage Cabinet White - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$100.00",
+  "currency": "USD",
+  "description": "Maintain your home in modern style while keeping your essentials organized with this Shallow Storage Cabinet from Brightroom™. Made with wood, this storage cabinet features multiple shelves to provide plenty of space for your items, while the doors with handles help keep them organized out of sight. This white storage cabinet complements a variety of decor styles and works well in a variety of spaces for functional storage. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Garage Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_9e735bb6-3649-4c3b-a36c-5b077dd91c3d",
+  "glb_url": "https://digitalcontent.target.com/vault/1663200000/CLOUD_d477b5bd-7f32-4e03-838d-914d9e7ad473.glb",
+  "product_url": "https://www.target.com/p/-/A-84735152",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.524,
+    "width": 0.7351,
+    "depth": 0.1669,
+    "unit": "m",
+    "source": "glb"
+  }
+}

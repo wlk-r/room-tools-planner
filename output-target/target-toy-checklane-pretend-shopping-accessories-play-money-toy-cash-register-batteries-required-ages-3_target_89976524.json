@@ -1,0 +1,23 @@
+{
+  "tcin": "89976524",
+  "name": "Target Toy Checklane: Pretend Shopping Accessories, Play Money, Toy Cash Register, Batteries Required, Ages 3+",
+  "brand": "Target",
+  "price": "$164.99",
+  "currency": "USD",
+  "description": "Enjoy shopping and pretend purchasing with your very own Target Checklane! The free-standing 360-degree play space allows for browsing shelves, ringing up your items, and then paying with pretend money or swiping your credit card to complete the purchase! Realistic features include a beeping scanner, a hand-crank conveyor belt with lights and sound, a credit card swiping machine, and a working cash register with keypad/calculator and microphone. The play space comes with a variety of Target accessory essentials so that kids can be sure to find everything on their Target shopping list!<br /><br />Mindfully designed for imaginative & nurturing pretend-play, your little ones will have so much fun scanning items with the handheld scanner and totaling up groceries with the real working calculator. Set comes complete with play money, and swipe-able credit card. Durable & easy-to-wipe clean.",
+  "categories": [
+    "Toys",
+    "Dress Up & Pretend Play",
+    "Pretend Play"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4d8e0427-c168-4c4b-9feb-14780c72d618",
+  "glb_url": "https://digitalcontent.target.com/vault/1738713600/CLOUD_113c3d76-a219-4363-bf53-523c98062799.glb",
+  "product_url": "https://www.target.com/p/-/A-89976524",
+  "dimensions": {
+    "height": 1.2945,
+    "width": 1.0685,
+    "depth": 0.6927,
+    "unit": "m",
+    "source": "glb"
+  }
+}

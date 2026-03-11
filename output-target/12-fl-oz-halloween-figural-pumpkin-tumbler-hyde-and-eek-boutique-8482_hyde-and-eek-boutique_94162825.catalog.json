@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "94162825",
+      "name": "12 fl oz Halloween Figural Pumpkin Tumbler - Hyde and EEK! Boutique&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94162825",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware"
+      ],
+      "tags": [
+        "halloween",
+        "playful",
+        "festive",
+        "whimsical"
+      ]
+    }
+  ]
+}

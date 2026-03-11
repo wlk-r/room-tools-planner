@@ -1,0 +1,25 @@
+{
+  "tcin": "90010030",
+  "name": "13.2 fl oz Glass Bower Short Tumbler Gray - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$3.00",
+  "currency": "USD",
+  "description": "Enhance your cocktail or mocktail experience with this Glass Bower Short Tumbler from Threshold™. Made of glass, this tumbler is designed in a gray color for a classic look. The 13.2 fluid--ounce tumbler is great for serving a range of cold beverages and can be tossed in the dishwasher after use for quick and easy cleaning.                                                                                                        Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Drinking Glasses"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_82d129d5-3c8b-4f57-8f61-2026d3ede001",
+  "glb_url": "https://digitalcontent.target.com/vault/1720396800/CLOUD_41477918-7698-46cd-8bd1-37cfbeb1853f.glb",
+  "product_url": "https://www.target.com/p/-/A-90010030",
+  "dimensions": {
+    "height": 0.092,
+    "width": 0.0901,
+    "depth": 0.0901,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

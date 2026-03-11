@@ -1,0 +1,24 @@
+{
+  "tcin": "80938361",
+  "name": "Canvas Kids' Bean Bag Chair - Pillowfort™",
+  "brand": "Pillowfort",
+  "price": "$70.00",
+  "currency": "USD",
+  "description": "Provide your kiddo a comfy spot to perch with the Canvas Bean Bag Chair from Pillowfort™. Draped in a soft fabric and filled full with soft beads, this kids bean bag chair offers them complete sitting comfort. Featuring a solid hue with piped detailing for a finished look, it brings a pop of their favorite color to their room, while two side flap pockets provide them a safe spot to stash candy, card games, books and other knickknacks. Plus, it's designed with a fabric tote handle at the top that makes carrying it from one room to another child's play!",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Furniture",
+    "Kids’ Chairs & Seating"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_bad1293f-66b4-4cf9-be2f-dafdb25955bd",
+  "glb_url": "https://digitalcontent.target.com/vault/1632355200/CLOUD_2b96fe21-83b0-4284-a737-5070517355f7.glb",
+  "product_url": "https://www.target.com/p/-/A-80938361",
+  "dimensions": {
+    "height": 0.762,
+    "width": 0.762,
+    "depth": 0.6065,
+    "unit": "m",
+    "source": "glb"
+  }
+}

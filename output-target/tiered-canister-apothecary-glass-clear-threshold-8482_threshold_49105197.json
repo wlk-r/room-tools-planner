@@ -1,0 +1,25 @@
+{
+  "tcin": "49105197",
+  "name": "Tiered Canister Apothecary Glass Clear - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$15.00",
+  "currency": "USD",
+  "description": "Add stylish storage to your bathroom countertop with the Tiered Canister Apothecary Glass Clear from Threshold™. This glass bath canister comes in a tiered design, with three clear canisters stacked on top of each other. The lid with glass knob is easy to lift on and off while protecting the items inside from dust and moisture. Thanks to the clear glass construction, it's easy to keep track of your cotton balls, cosmetics, bath salts and whatever else you have stashed inside.  <br /><br /><br />If you’re not satisfied with any Target Owned Brand item, return it within one year with a receipt for an exchange or a refund.<br /><br />Threshold™: Casual classics for house and home.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c2b46fcc-71f1-4217-a735-12f4b4ae6a2d",
+  "glb_url": "https://digitalcontent.target.com/vault/1662681600/CLOUD_64a12904-a017-47fa-93f1-2697cbb2b14f.glb",
+  "product_url": "https://www.target.com/p/-/A-49105197",
+  "color": "Clear",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.2169,
+    "width": 0.11,
+    "depth": 0.11,
+    "unit": "m",
+    "source": "glb"
+  }
+}

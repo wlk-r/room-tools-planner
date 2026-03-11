@@ -1,0 +1,24 @@
+{
+  "tcin": "81898696",
+  "name": "Sensory Friendly Kids' Chair with Ottoman - Pillowfort™",
+  "brand": "Pillowfort",
+  "price": "$110.00",
+  "currency": "USD",
+  "description": "Add a comfy, cute seating option for your kiddo to kick back with the Sensory-Friendly Chair with Ottoman from Pillowfort™. This kids sensory-friendly chair features a velvet covering that lends a soft feel they'll love, with a cushioned construction offering ample comfort as they read a book, watch TV, play a game or just hang out.  The included ottoman is great to prop up legs, but it can also be used as additional seating on its own. A side pocket on the chair provides a convenient spot for your little one to keep books or small essentials close at hand, and you'll appreciate that both pieces are designed in a simple, modern style that will fit right in with the rest of their room decor.",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Furniture",
+    "Kids’ Chairs & Seating"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2881bdc6-d094-4cec-bb39-519e3a6a85ab",
+  "glb_url": "https://digitalcontent.target.com/vault/1632700800/CLOUD_af203b71-72c6-4a1e-8c04-8717a45b538d.glb",
+  "product_url": "https://www.target.com/p/-/A-81898696",
+  "dimensions": {
+    "height": 0.992,
+    "width": 0.635,
+    "depth": 0.508,
+    "unit": "m",
+    "source": "glb"
+  }
+}

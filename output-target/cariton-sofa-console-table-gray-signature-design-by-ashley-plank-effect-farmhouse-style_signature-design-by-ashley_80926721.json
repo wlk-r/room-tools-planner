@@ -1,0 +1,25 @@
+{
+  "tcin": "80926721",
+  "name": "Cariton Sofa/Console Table Gray - Signature Design by Ashley: Plank-Effect, Farmhouse Style",
+  "brand": "Signature Design by Ashley",
+  "price": "$195.99",
+  "currency": "USD",
+  "description": "This designer sofa or console table masters the art of simplicity. Bold, blocky profile is enriched with plank-effect styling and a textured grayish brown finish for a look that’s cool and contemporary and a vibe that’s warm and inviting. Stylish and affordable furniture and accessories are more than a dream. For more than 70 years, Ashley Furniture has furnished millions of homes, one beautiful piece at a time. We design and build furniture, then test it for lasting quality and functionality—so you’ll love the look and the price. Signature Design by Ashley is a registered trademark of Ashley Furniture Industries, Inc.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Console Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_9df44e4a-4cfb-4d2c-bcc7-831b050cb0a1",
+  "glb_url": "https://digitalcontent.target.com/vault/1620086400/CLOUD_1b1b8a3c-35f9-4a09-a805-82c4f2487df9.glb",
+  "product_url": "https://www.target.com/p/-/A-80926721",
+  "dimensions": {
+    "height": 1.6289,
+    "width": 0.8446,
+    "depth": 0.4097,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "86715727",
+      "name": "24&#34; Olivine Rounded Back Rattan Counter Height Barstool with Metal Legs and Footrest Natural - Threshold&#8482;",
+      "color": "Natural"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "86715727",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "bar-stool"
+      ],
+      "tags": [
+        "boho",
+        "organic",
+        "industrial",
+        "warm"
+      ]
+    }
+  ]
+}

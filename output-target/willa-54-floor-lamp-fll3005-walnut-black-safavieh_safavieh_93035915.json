@@ -1,0 +1,26 @@
+{
+  "tcin": "93035915",
+  "name": "Willa 54\" Floor Lamp - FLL3005 - Walnut/Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$251.99",
+  "currency": "USD",
+  "description": "Elevate the ambiance of your living space with the Willa Floor Lamp. Exquisitely crafted from a combination of natural mango wood and sturdy iron, this lamp stands as a testament to masterful design, bridging the gap between classic elegance and modern simplicity. Its walnut-colored base and sleek black pole provide a subtle contrast that complements any decor theme with ease.\r\n\r\nThe Willa's slender profile makes it a versatile addition to your room, whether it's placed beside a lounge chair as a reading light, or as a standalone piece that enhances the warmth and allure of your space. With fine workmanship visible in every detail, this floor lamp is not just a light fixture but a statement piece that lends an inviting glow to your favorite nooks.\r\n\r\nCreate a cozy and stylish atmosphere with the Willa Floor Lamp?a timeless piece for those who appreciate the understated beauty of natural materials and chic design.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b2921950-7a60-439a-b682-4b0d499df281",
+  "glb_url": "https://digitalcontent.target.com/vault/1765497600/CLOUD_fbb39e9d-3acc-4a81-8b5e-823feb5f902e.glb",
+  "product_url": "https://www.target.com/p/-/A-93035915",
+  "color": "Walnut/Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.397,
+    "width": 0.4699,
+    "depth": 0.4699,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tcin": "87922467",
+  "name": "Torchiere Floor Lamp - Room Essentials™",
+  "brand": "Room Essentials",
+  "price": "$14.00",
+  "currency": "USD",
+  "description": "Provide ambient lighting to any room in your home with this Torchiere Floor Lamp from Room Essentials™. This tall torchiere floor lamp brings a touch of sleek, minimalist style to your space. It features an upward-facing white bowl shade that's attached to a slim metal stand with a pedestal base. The turn knob rotary switch with on/off light setting offers easy function.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d7162db4-ade0-40f0-963b-9e538ca20cbb",
+  "glb_url": "https://digitalcontent.target.com/vault/1693526400/CLOUD_3f923637-a2ad-4f7a-a30f-8c92e00fe4df.glb",
+  "product_url": "https://www.target.com/p/-/A-87922467",
+  "dimensions": {
+    "height": 1.8161,
+    "width": 0.5604,
+    "depth": 0.3756,
+    "unit": "m",
+    "source": "glb"
+  }
+}

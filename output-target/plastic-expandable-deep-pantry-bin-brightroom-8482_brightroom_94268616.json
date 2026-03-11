@@ -1,0 +1,23 @@
+{
+  "tcin": "94268616",
+  "name": "Plastic Expandable Deep Pantry Bin - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$10.00",
+  "currency": "USD",
+  "description": "Add extra storage space in your pantry with the Plastic Expandable Deep Pantry Bin from Brightroom™. This pantry bin is designed in a rectangle shape with a deep design and an open top to help neatly organize the contents. Made of plastic in a clear design, this pantry bin also has side cutout handles for easy handling. Plus, the expandable design lets you adjust the bin for even more storage space.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen Storage",
+    "Cabinet & Drawer Organization"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_dfcb2d0f-3507-48fc-bc3f-2d4e3fcc43ea",
+  "glb_url": "https://digitalcontent.target.com/vault/1761091200/CLOUD_d72c95de-ab3d-44d2-94ef-5ec4e262224c.glb",
+  "product_url": "https://www.target.com/p/-/A-94268616",
+  "dimensions": {
+    "height": 0.254,
+    "width": 0.1819,
+    "depth": 0.1524,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tcin": "79802693",
+  "name": "Harper Faux Fur Slipper Chair - Threshold™",
+  "brand": "Threshold",
+  "price": "$240.00",
+  "currency": "USD",
+  "description": "Add unique style and comfort to your seating space with this Harper Faux-Fur Slipper Chair from Threshold™. This modern slipper chair is covered faux-fur to bring an on-trend look and cozy feel to your home. The sleek design comes together perfectly with angled wood legs and an armless silhouette. Simply place it in your living room or use it as an accent chair anywhere in your home for a comfortable place to sit and unwind.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Chairs",
+    "Accent Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e82602e4-85f6-4b27-bb45-55c21620abc4",
+  "glb_url": "https://digitalcontent.target.com/vault/1617926400/CLOUD_23ff8dd5-8c45-4ed9-9b8b-29dc1ce7c48c.glb",
+  "product_url": "https://www.target.com/p/-/A-79802693",
+  "dimensions": {
+    "height": 0.7747,
+    "width": 0.7493,
+    "depth": 0.555,
+    "unit": "m",
+    "source": "glb"
+  }
+}

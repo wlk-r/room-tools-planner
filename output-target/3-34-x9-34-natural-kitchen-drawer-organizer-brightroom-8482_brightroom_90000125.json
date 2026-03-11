@@ -1,0 +1,23 @@
+{
+  "tcin": "90000125",
+  "name": "3&#34;x9&#34; Natural Kitchen Drawer Organizer - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$6.00",
+  "currency": "USD",
+  "description": "Keep your kitchen drawers organized with the Bamboo Kitchen Drawer Organizer from Brightroom™. This kitchen drawer organizer is designed in a rectangular shape with an open top for easy organization. Made of bamboo, it makes a practical addition to your home and blends seamlessly with the rest of your decor.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen Storage",
+    "Cabinet & Drawer Organization"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a677c567-8e1c-4e7e-b3b1-5359c9a914eb",
+  "glb_url": "https://digitalcontent.target.com/vault/1727222400/CLOUD_7f56e907-ab24-4b83-bae5-d7200c745e90.glb",
+  "product_url": "https://www.target.com/p/-/A-90000125",
+  "dimensions": {
+    "height": 0.2286,
+    "width": 0.0762,
+    "depth": 0.0699,
+    "unit": "m",
+    "source": "glb"
+  }
+}

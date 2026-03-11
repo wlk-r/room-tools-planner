@@ -1,0 +1,23 @@
+{
+  "tcin": "90058088",
+  "name": "Colored Glass Tortoise Bath Canister - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$13.00",
+  "currency": "USD",
+  "description": "Add functional and elegant style to your bath space with the Colored Glass Tortoise Bath Canister from Threshold™. Covered with tortoiseshell print, this bath canister is designed in a jar-like shape with a lid to help keep the contents neatly contained. Made of glass, it's great for helping organize your bath essentials.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_fb51d47f-02e3-492f-b7ac-105b18104bf4",
+  "glb_url": "https://digitalcontent.target.com/vault/1736812800/CLOUD_4b95ab53-7254-45db-a4dd-e096e8a3a6c4.glb",
+  "product_url": "https://www.target.com/p/-/A-90058088",
+  "dimensions": {
+    "height": 0.1016,
+    "width": 0.095,
+    "depth": 0.095,
+    "unit": "m",
+    "source": "glb"
+  }
+}

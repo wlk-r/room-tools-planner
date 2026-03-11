@@ -1,0 +1,23 @@
+{
+  "tcin": "79653304",
+  "name": "2pk Linden Modified Windsor Wood Dining Chair - Threshold™ designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$208.00",
+  "currency": "USD",
+  "description": "Give a touch of chic style to your dining space with this Linden Modified Windsor Wood Dining Chair from Threshold™ designed with Studio McGee. Built of solid rubberwood for durability and lasting beauty, this wooden dining chair features bar accents along the slatted back and tapered legs for added interest — allowing you and your guests to fully relax while enjoying meals. This chair is striking, yet simple enough to fit in with a wide variety of decor styles and tables, ensuring a place in just about any home.<br /><br />Meet Shea McGee, the designer and stylist behind the brand Studio McGee. Founded alongside her husband, Syd, the studio is known for Shea’s design of beautifully elevated spaces that encourage clients to surround themselves with the things and people they love. Now she’s partnering with Threshold to offer Studio McGee’s classic design in a new collection for inspired homes, everywhere.",
+  "categories": [
+    "Furniture",
+    "Kitchen & Dining Furniture",
+    "Dining Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2db44c3b-25d5-46cf-b85b-75893c4d79df",
+  "glb_url": "https://digitalcontent.target.com/vault/1628640000/CLOUD_78da82e9-ff2b-4de3-9975-bee65ce33274.glb",
+  "product_url": "https://www.target.com/p/-/A-79653304",
+  "dimensions": {
+    "height": 0.8509,
+    "width": 0.508,
+    "depth": 0.4445,
+    "unit": "m",
+    "source": "glb"
+  }
+}

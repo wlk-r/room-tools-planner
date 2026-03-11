@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "81785398",
+      "name": "24&#34; x 30&#34; Neutral Abstract Lines Framed Canvas - Threshold&#8482; designed with Studio McGee",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "81785398",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "wall-art"
+      ],
+      "tags": [
+        "minimal",
+        "abstract",
+        "neutral",
+        "contemporary"
+      ]
+    }
+  ]
+}

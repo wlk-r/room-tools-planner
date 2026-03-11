@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "88666754",
+      "name": "24&#34;x15&#34; Arch Wall Mirror with Shelf and Pegs Brown/Black - Threshold&#8482;: Modern Style, Horizontal Orientation, Includes Mounting Hardware",
+      "color": "Brown/Black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "88666754",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "mirror",
+        "shelving"
+      ],
+      "tags": [
+        "modern",
+        "scandinavian",
+        "minimal",
+        "warm"
+      ]
+    }
+  ]
+}

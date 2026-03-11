@@ -1,0 +1,23 @@
+{
+  "tcin": "86774853",
+  "name": "Marble Drink Table - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$75.00",
+  "currency": "USD",
+  "description": "The Marble Drink Table from Threshold™ makes a stunning addition to your home. Standing on a beautiful marble-look metal base and featuring a sleek silhouette, the stand-alone table is sure to bring chic mid-century modern style to your decor. It makes an eye-catching accent standing beside a sofa or chair, and the 10-inch round surface is the perfect size for holding a drink or a book.<br /><br />Threshold™: Quality & Design / Casual classics for house and home.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "End & Side Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_34157185-5062-453a-8988-e2bee52e367c",
+  "glb_url": "https://digitalcontent.target.com/vault/1674172800/CLOUD_85fe688d-04f5-4976-b854-bdf195f5084e.glb",
+  "product_url": "https://www.target.com/p/-/A-86774853",
+  "dimensions": {
+    "height": 0.6166,
+    "width": 0.254,
+    "depth": 0.254,
+    "unit": "m",
+    "source": "glb"
+  }
+}

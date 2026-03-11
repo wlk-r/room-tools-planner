@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "52273903",
+      "name": "18oz Plastic Tall Textured Tumbler - Threshold&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "52273903",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "decor"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "textured",
+        "clean"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "91309355",
+  "name": "Upholstered Adjustable Height Office Chair Cream - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$180.00",
+  "currency": "USD",
+  "description": "Work in leisure by sitting on the Upholstered Adjustable-Height Office Chair from Threshold™ designed with Studio McGee. This cream-hue office chair features an upholstered design with fixed arms and an adjustable height for comfortable sitting. Made with a wooden frame, this upholstered office chair also features swivels for convenient movement.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Home Office Furniture",
+    "Office Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d224fb01-115c-4000-99c8-ec6d89de4357",
+  "glb_url": "https://digitalcontent.target.com/vault/1740700800/CLOUD_431cf5b0-cc49-4d01-97b4-4f88804518b7.glb",
+  "product_url": "https://www.target.com/p/-/A-91309355",
+  "color": "Cream",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.8339,
+    "width": 0.5493,
+    "depth": 0.5456,
+    "unit": "m",
+    "source": "glb"
+  }
+}

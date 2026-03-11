@@ -1,0 +1,24 @@
+{
+  "tcin": "91049691",
+  "name": "Umbrella Artificial Plant - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$30.00",
+  "currency": "USD",
+  "description": "Bring nature-inspired elegance to your home with this Umbrella Artificial Plant from Threshold™. This faux umbrella plant is housed in a white pot made from stoneware. Filled with faux soil and styrofoam, it features a cluster of leaves and branches originating from a single stem to mimic the real plant. Designed for indoor use, you can place it on a tabletop, or shelf anywhere in your home.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Artificial Greenery",
+    "Artificial Plants"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b3e4b60a-17ff-439f-824f-8ecda75edf32",
+  "glb_url": "https://digitalcontent.target.com/vault/1729209600/CLOUD_1cd148b0-cc6b-4443-97c1-5a74e21aa19f.glb",
+  "product_url": "https://www.target.com/p/-/A-91049691",
+  "dimensions": {
+    "height": 0.8604,
+    "width": 0.5072,
+    "depth": 0.4754,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "tcin": "89255665",
+  "name": "Clear Divided Bin with Drawer - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$20.00",
+  "currency": "USD",
+  "description": "Transform your bathroom organization with this Clear Divided Bin with Drawer from Brightroom™. The plastic bin has a rectangular two-tier silhouette and boasts a transparent construction for better visibility, identification, and maintaining a neat appearance on your vanity counter or shelf. It features an open-top design with a divider for neat sorting of toiletries and cosmetics, and a bottom drawer with a cut-out pull for additional storage space for your essentials with easy access.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Bathroom Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_db8d03c4-9d7a-4067-875d-8b56c1c9e566",
+  "glb_url": "https://digitalcontent.target.com/vault/1718755200/CLOUD_c07104fd-c146-4b49-951e-2fac391ac1f3.glb",
+  "product_url": "https://www.target.com/p/-/A-89255665",
+  "dimensions": {
+    "height": 0.3048,
+    "width": 0.1524,
+    "depth": 0.1524,
+    "unit": "m",
+    "source": "glb"
+  }
+}

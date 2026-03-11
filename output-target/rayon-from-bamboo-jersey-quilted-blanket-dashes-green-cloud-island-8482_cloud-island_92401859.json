@@ -1,0 +1,26 @@
+{
+  "tcin": "92401859",
+  "name": "Rayon from Bamboo Jersey Quilted Blanket - Dashes - Green - Cloud Island&#8482;",
+  "brand": "Cloud Island",
+  "price": "$19.99",
+  "currency": "USD",
+  "description": "Get your baby cuddled up and comfortable at home or on the go with the Rayon from Bamboo Jersey Quilted Blanket from Cloud Island™. The rayon from bamboo fabric with added spandex is soft to the touch, sure to help your baby stay cool and comfortable whether you lay them down for tummy time or a ride in the stroller. Adorned with an allover dash pattern on a quilted backdrop, it makes a cute addition to your baby's nursery decor.<br /><br />Cloud Island™: Designed with love. Made without compromise.",
+  "categories": [
+    "Baby",
+    "Nursery",
+    "Baby Bedding",
+    "Baby Blankets & Quilts"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f7b6ded4-39e4-49f2-a932-bbe772c7a1d4",
+  "glb_url": "https://digitalcontent.target.com/vault/1770163200/CLOUD_ba759e96-7ca3-4c07-9b85-3c0618d410be.glb",
+  "product_url": "https://www.target.com/p/-/A-92401859",
+  "color": "Green",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.016,
+    "width": 0.7585,
+    "depth": 0.064,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "88025656",
+      "name": "2&#39;x3&#39; Handloom Mixed Fibre Rug Black/White - Threshold&#8482;: Indoor Outdoor Diamond Pattern, Jute &#38; Cotton",
+      "color": "Black/White"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "88025656",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug"
+      ],
+      "tags": [
+        "geometric",
+        "minimal",
+        "contemporary",
+        "organic"
+      ]
+    }
+  ]
+}

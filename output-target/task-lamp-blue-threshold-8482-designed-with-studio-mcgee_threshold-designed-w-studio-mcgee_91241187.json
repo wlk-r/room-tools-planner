@@ -1,0 +1,26 @@
+{
+  "tcin": "91241187",
+  "name": "Task Lamp Blue - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$45.50",
+  "currency": "USD",
+  "description": "Beautifully illuminate your workspace with this Task Lamp from Threshold™ designed with Studio McGee. Crafted from metal, this task lamp features a neat, round pedestal base with a round shade, making it the perfect addition to your desktop. With a flexible neck to focus the light where you need it the most, this task lamp is perfect to use in your home office or as an accent in your living room.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7c40d0a6-b55e-431b-b2f1-c1307473edf3",
+  "glb_url": "https://digitalcontent.target.com/vault/1739232000/CLOUD_ff2fabc9-dcfa-430b-b5ad-54b6460efeb9.glb",
+  "product_url": "https://www.target.com/p/-/A-91241187",
+  "color": "Blue",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6672,
+    "width": 0.4826,
+    "depth": 0.2105,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "80970604",
+  "name": "Navo Table Lamp - 13.25 Inch Height - TBL4234 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$42.63",
+  "currency": "USD",
+  "description": "Illuminate your space with the elegant NAVO table lamp. Standing at 13.25 inches, this sleek lamp adds a modern touch to any room. Crafted from sturdy iron, its black finish provides a versatile look that complements any decor. The NAVO table lamp is perfect for your bedside, office, or living room, providing a warm and inviting atmosphere. Its compact and stylish design makes it a standout piece that seamlessly fits into smaller spaces. Transform your home or workspace with this beautiful lighting solution and enjoy the ambient glow it provides.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a284d3e8-9028-4f33-ab74-ec1fb1118df7",
+  "glb_url": "https://digitalcontent.target.com/vault/1763251200/CLOUD_b6ea7692-e33f-4984-8d5a-79657c2b91c0.glb",
+  "product_url": "https://www.target.com/p/-/A-80970604",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3384,
+    "width": 0.1388,
+    "depth": 0.1388,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tcin": "54393432",
+  "name": "Salt/Pepper Shag Rug - Threshold™",
+  "brand": "Threshold",
+  "price": "$149.00",
+  "currency": "USD",
+  "description": "The Salt/Pepper Shag Rug from Threshold™ is sure to impress with its distressed detailing and comfortable feel underfoot. This neutral rug showcases a unique light-on-dark speckled pattern for eye-catching style, and the loomed construction adds texture. Plus, the polypropylene backing helps the rug stay in place on surfaces like tile and hardwood floors.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Area Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b4fa92e5-d565-42ff-b91e-a6a3b3457ac2",
+  "glb_url": "https://digitalcontent.target.com/vault/1617840000/CLOUD_6233df76-25b5-45cc-aba1-8c03708da497.glb",
+  "product_url": "https://www.target.com/p/-/A-54393432",
+  "dimensions": {
+    "height": 5.4102,
+    "width": 4.064,
+    "depth": 0.0254,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "87713749",
+      "name": "12qt Stainless Steel Stock Pot Silver - Figmint&#8482;",
+      "color": "Silver"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "87713749",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "cookware",
+        "pot"
+      ],
+      "tags": [
+        "industrial",
+        "contemporary",
+        "minimalist"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "tcin": "93179226",
+  "name": "6&#39; Twig Tree Christmas Artificial Tree Brown - Wondershop&#8482;",
+  "brand": "Wondershop",
+  "price": "$115.00",
+  "currency": "USD",
+  "description": "Get into the Christmas spirit by decorating your home with this Twig Tree Christmas Artificial Tree from Wondershop™. Made from polyethylene, this artificial Christmas tree features a twig design with prelit branches to cast a warm, festive glow. Plus, it comes with an attached base for quick and easy display on any flat surface. <br /><br />Welcome to the Wondershop™.",
+  "categories": [
+    "Holiday Shop",
+    "Christmas"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3d2c6bc1-ade5-4bc2-b6ac-d77f332bd603",
+  "glb_url": "https://digitalcontent.target.com/vault/1755216000/CLOUD_ee184fc7-97c0-42c1-98c5-cbe4140d41f9.glb",
+  "product_url": "https://www.target.com/p/-/A-93179226",
+  "dimensions": {
+    "height": 1.8292,
+    "width": 0.6605,
+    "depth": 0.3846,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brown",
+  "color_source": "parsed"
+}

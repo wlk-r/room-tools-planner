@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "89194849",
+      "name": "16oz Slightly Obsessed Mug White - Room Essentials&#8482;: Stoneware Coffee Cup, Microwave &#38; Dishwasher Safe, 16oz Capacity",
+      "color": "White"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "89194849",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "decor"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "casual",
+        "playful"
+      ]
+    }
+  ]
+}

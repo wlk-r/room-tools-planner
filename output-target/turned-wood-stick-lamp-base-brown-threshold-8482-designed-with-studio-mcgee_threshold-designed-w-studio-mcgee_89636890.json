@@ -1,0 +1,26 @@
+{
+  "tcin": "89636890",
+  "name": "Turned Wood Stick Lamp Base Brown - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$40.00",
+  "currency": "USD",
+  "description": "Create a beautiful interior with the Turned Wood Stick Lamp Base from Threshold™ designed with Studio McGee. This brown lamp base features a round base with turned wood design for a standout look. Designed with a socket turn knob rotary switch, the lamp base has a one-way light setting for easy on and off. Just add a light bulb and lamp shade of your choice to light up your space in style.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Lamp Bases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_fe47d859-4c25-4c8f-a5cf-e3c14ec14781",
+  "glb_url": "https://digitalcontent.target.com/vault/1717977600/CLOUD_88c0faed-c43d-41df-baa2-1ca780a870eb.glb",
+  "product_url": "https://www.target.com/p/-/A-89636890",
+  "color": "Brown",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3683,
+    "width": 0.3084,
+    "depth": 0.1651,
+    "unit": "m",
+    "source": "glb"
+  }
+}

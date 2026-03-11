@@ -1,0 +1,26 @@
+{
+  "tcin": "87280785",
+  "name": "1bu Flexible Diamond Round Laundry Basket Gray - Brightroom&#8482;: Polyethylene, 35.2L Capacity, Built-In Handles, Multipurpose",
+  "brand": "Brightroom",
+  "price": "$7.00",
+  "currency": "USD",
+  "description": "Eliminate laundry day blues with the help of this Flexible Diamond Round Laundry Basket from Brightroom™. Featuring a deep round silhouette with an open top design, this laundry basket makes sorting through laundry a breeze. It's designed with two side cutout handles for easy lifting and carrying to the laundry room. Showcasing a diamond mesh design for ventilation, this laundry basket features a solid gray hue to coordinate with a variety of decor styles.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Laundry Room Organization",
+    "Hampers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_86ddb47c-b30a-49a9-9bfa-f4e52b943f00",
+  "glb_url": "https://digitalcontent.target.com/vault/1690502400/CLOUD_52fbbaf0-7bfd-4c18-b8bd-a81921da084a.glb",
+  "product_url": "https://www.target.com/p/-/A-87280785",
+  "dimensions": {
+    "height": 0.4171,
+    "width": 0.4055,
+    "depth": 0.3705,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

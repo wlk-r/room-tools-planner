@@ -1,0 +1,24 @@
+{
+  "tcin": "82531871",
+  "name": "Chevron Area Kids' Rug - Pillowfort™",
+  "brand": "Pillowfort",
+  "price": "$65.00 - $95.00",
+  "currency": "USD",
+  "description": "Elevate the look of your child's indoor space with the Chevron Area Rug from Pillowfort™. This rectangular accent rug is adorned with a white chevron pattern set on a solid-hued, contrasting background for a look that's easy to match with any decor style and color palette. Crafted from a soft and lightweight material, this tufted rug features a high-pile construction to add a luxurious layer of comfort underfoot, and it boasts a latex backing to help keep the rug in place on the floor. Whether they lie on it to enjoy a storybook, play board games or watch TV, the decorative rug makes a fun and functional addition to your kiddo’s bedroom or playroom.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Area Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_553a7ce1-3f64-4160-9a58-bd427fbc582c",
+  "glb_url": "https://digitalcontent.target.com/vault/1629676800/CLOUD_b6bd31f7-639c-4f41-a0bc-bce3196c820f.glb",
+  "product_url": "https://www.target.com/p/-/A-82531871",
+  "dimensions": {
+    "height": 1.6764,
+    "width": 1.2192,
+    "depth": 0.0051,
+    "unit": "m",
+    "source": "glb"
+  }
+}

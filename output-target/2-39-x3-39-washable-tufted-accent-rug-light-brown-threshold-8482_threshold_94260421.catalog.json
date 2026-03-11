@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "94260421",
+      "name": "2&#39;x3&#39; Washable Tufted Accent Rug Light Brown - Threshold&#8482;",
+      "color": "Light Brown"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94260421",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "decor",
+        "textile"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "organic",
+        "warm"
+      ]
+    }
+  ]
+}

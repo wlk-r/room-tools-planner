@@ -1,0 +1,26 @@
+{
+  "tcin": "90594376",
+  "name": "Nadav Table Lamp W/ USB Port - 16 Inch Height - TBL4454 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$56.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the NADAV 16 inch black iron table lamp. This sleek and modern lamp combines functionality with style to create the perfect addition to your home or office. The sturdy iron construction ensures durability and its elegant black finish adds a touch of sophistication to any room. Designed to meet contemporary needs, the NADAV lamp features a convenient USB port to keep your devices charged and within reach while you work or relax. Its compact size makes it ideal for desks, bedside tables, and small spaces where you need focused lighting. Experience effortless style and practicality with this versatile table lamp. Make the NADAV lamp a part of your decor and enjoy the seamless blend of aesthetics and convenience.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_35cd6807-6269-4f34-bf5e-de63b3312867",
+  "glb_url": "https://digitalcontent.target.com/vault/1763337600/CLOUD_9d5e60f3-d342-4e55-b2f4-e3756a5984ae.glb",
+  "product_url": "https://www.target.com/p/-/A-90594376",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4041,
+    "width": 0.2531,
+    "depth": 0.136,
+    "unit": "m",
+    "source": "glb"
+  }
+}

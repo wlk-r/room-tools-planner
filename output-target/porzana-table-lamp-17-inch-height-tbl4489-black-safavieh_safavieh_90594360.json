@@ -1,0 +1,26 @@
+{
+  "tcin": "90594360",
+  "name": "Porzana Table Lamp - 17 Inch Height - TBL4489 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$43.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the distinct charm of the porzana iron table lamp. Standing at 18.25 inches, this piece marries form and function effortlessly. Its sleek black iron design offers a striking contrast to the refined cotton shade, creating a look that complements any room decor. Whether placed on a side table or used as a bedside lamp, its understated elegance enhances the ambiance, providing a welcoming glow for reading or relaxing. The durable iron frame ensures stability while the soft cotton shade diffuses light gently, crafting an inviting atmosphere. Transform your environment with this stylish lighting solution, perfect for elevating your home aesthetic.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_79264a23-87c2-4741-9ed0-ccc259232f0c",
+  "glb_url": "https://digitalcontent.target.com/vault/1765238400/CLOUD_470e6483-a533-4ba1-9204-c84ee0c8b074.glb",
+  "product_url": "https://www.target.com/p/-/A-90594360",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4323,
+    "width": 0.2194,
+    "depth": 0.2194,
+    "unit": "m",
+    "source": "glb"
+  }
+}

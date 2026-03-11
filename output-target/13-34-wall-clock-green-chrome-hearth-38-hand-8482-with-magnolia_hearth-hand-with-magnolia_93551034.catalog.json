@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "93551034",
+      "name": "13&#34; Wall Clock Green/Chrome - Hearth &#38; Hand&#8482; with Magnolia",
+      "color": "Green/Chrome"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "93551034",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "wall-clock",
+        "decor"
+      ],
+      "tags": [
+        "classic",
+        "farmhouse",
+        "minimal",
+        "warm"
+      ]
+    }
+  ]
+}

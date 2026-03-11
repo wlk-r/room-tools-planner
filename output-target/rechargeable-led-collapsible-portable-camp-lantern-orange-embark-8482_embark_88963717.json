@@ -1,0 +1,25 @@
+{
+  "tcin": "88963717",
+  "name": "Rechargeable LED Collapsible Portable Camp Lantern Orange - Embark&#8482;️",
+  "brand": "Embark",
+  "price": "$21.00",
+  "currency": "USD",
+  "description": "This Rechargeable LED Collapsible Lantern from Embark™ is a handy companion for camping, spelunking and other outdoor adventures. Featuring a convenient collapsible design that makes it easy to pack and take on the go, this LED lantern has a solar-rechargeable battery with a solar panel on the top. It has high, medium and low light modes and a maximum light distance of nine meters, and a top handle makes it easy to carry. You can also charge your own devices with the USB-C port. Best of all, the water- and impact-resistant construction promotes lasting outdoor use.<br /><br />Embark™: Find wonder as you wander.",
+  "categories": [
+    "Sports & Outdoors",
+    "Camping Gear",
+    "Headlamps, Flashlights & Lanterns"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_1fc1b385-f94c-43de-9663-43e86a16cf3e",
+  "glb_url": "https://digitalcontent.target.com/vault/1727222400/CLOUD_bbc35e64-6b1d-4d11-88c0-0d918460c71f.glb",
+  "product_url": "https://www.target.com/p/-/A-88963717",
+  "color": "Orange",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.1439,
+    "width": 0.1293,
+    "depth": 0.1016,
+    "unit": "m",
+    "source": "glb"
+  }
+}

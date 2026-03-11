@@ -1,0 +1,26 @@
+{
+  "tcin": "91119500",
+  "name": "Davion Table Lamp - 16 Inch Height - TBL4128 - Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$64.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Davion Table Lamp, a piece that brings elegance and warmth to any room. Featuring a sleek brass finish, this lamp adds a touch of sophistication to your decor. Its chic yet straightforward design makes it a versatile addition to both modern and classic settings.\n\nThe Davion Table Lamp stands at an ideal height, providing ample lighting while complementing your furnishings. Perfect for a bedside table or a living room accent, this lamp enhances your environment with its understated charm. Its sturdy construction ensures it remains a staple in your home lighting collection. \n\nEnhance your evenings with the inviting glow of the Davion Table Lamp, a stylish choice for those who appreciate simplicity and beauty in every detail.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_41fdab4f-9667-40f3-b765-fc287ab5ceb2",
+  "glb_url": "https://digitalcontent.target.com/vault/1763683200/CLOUD_4386bce6-0bfb-4c6b-83c6-c38db01f2075.glb",
+  "product_url": "https://www.target.com/p/-/A-91119500",
+  "dimensions": {
+    "height": 0.4063,
+    "width": 0.202,
+    "depth": 0.202,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brass",
+  "color_source": "parsed"
+}

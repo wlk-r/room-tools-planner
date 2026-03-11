@@ -1,0 +1,25 @@
+{
+  "tcin": "93342271",
+  "name": "Oversized Lumbar Woven Pillow Blue - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Bring a splash of texture to your couch with this Oversized Lumbar Woven Throw Pillow from Threshold™. This oblong pillow showcases a dobby-surface front in textured blue with a beige reverse for a pop of contrast. Featuring a soft blend exterior of cotton, acrylic and linen and a well-filled interior, the oversized throw pillow adds ample comfort and style to your home.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Throw Pillows"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_65787730-d588-43df-8dae-d034c17f91d0",
+  "glb_url": "https://digitalcontent.target.com/vault/1739750400/CLOUD_0efe17b4-27b6-426f-9948-f0594c20b29a.glb",
+  "product_url": "https://www.target.com/p/-/A-93342271",
+  "color": "Blue",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5754,
+    "width": 0.3096,
+    "depth": 0.1641,
+    "unit": "m",
+    "source": "glb"
+  }
+}

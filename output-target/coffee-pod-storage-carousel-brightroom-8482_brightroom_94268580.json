@@ -1,0 +1,23 @@
+{
+  "tcin": "94268580",
+  "name": "Coffee Pod Storage Carousel - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$16.00",
+  "currency": "USD",
+  "description": "Elevate your coffee corner with this Coffee Pod Storage Carousel from Brightroom™. Crafted from powder-coated steel in a sleek black finish, this coffee pod carousel adds a space-saving accent to your kitchen counter or coffee station. It features a rotating design that allows you to easily spin and select from your collection while keeping pods neatly organized and within reach for your daily brewing routine.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Kitchen & Dining",
+    "Countertop Storage",
+    "Coffee Pod Holders & Organizers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c16147af-1b5d-48f3-8871-b5911c94eeb4",
+  "glb_url": "https://digitalcontent.target.com/vault/1759795200/CLOUD_2c1a292b-39fd-4057-bb22-8e0b9e4d5042.glb",
+  "product_url": "https://www.target.com/p/-/A-94268580",
+  "dimensions": {
+    "height": 0.3429,
+    "width": 0.1613,
+    "depth": 0.1613,
+    "unit": "m",
+    "source": "glb"
+  }
+}

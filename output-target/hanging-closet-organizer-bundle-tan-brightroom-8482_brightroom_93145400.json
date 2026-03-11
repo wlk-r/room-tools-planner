@@ -1,0 +1,26 @@
+{
+  "tcin": "93145400",
+  "name": "Hanging Closet Organizer Bundle Tan - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Optimize the space of your closet and beyond with this Hanging Closet Organizer Bundle from Brightroom™. This bundle includes three organizers — one standard organizer, one shallow organizer, and one shoe organizer. They can store clothes, scarves, shoes, and other accessories. Plus, they feature top loops to hang over the closet rod easily. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Closet Storage",
+    "Closet Shelves, Hooks & Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_55e54853-b78f-4f2a-825e-a079c198ad4e",
+  "glb_url": "https://digitalcontent.target.com/vault/1753228800/CLOUD_c54e9944-3d89-4101-ad50-b88f9d21066c.glb",
+  "product_url": "https://www.target.com/p/-/A-93145400",
+  "dimensions": {
+    "height": 1.3208,
+    "width": 0.9471,
+    "depth": 0.2252,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Tan",
+  "color_source": "parsed"
+}

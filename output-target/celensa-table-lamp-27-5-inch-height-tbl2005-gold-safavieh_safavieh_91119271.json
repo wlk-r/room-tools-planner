@@ -1,0 +1,26 @@
+{
+  "tcin": "91119271",
+  "name": "Celensa Table Lamp - 27.5 Inch Height - TBL2005 - Gold - Safavieh",
+  "brand": "Safavieh",
+  "price": "$154.99",
+  "currency": "USD",
+  "description": "Elevate your living space with the Celensa 27.5 inch gold glass table lamp. Crafted with precision, this lamp brings a touch of elegance that complements any decor. Its sleek gold finish and smooth glass material create a captivating focal point, blending seamlessly with a variety of styles.\n\nWhether placed in a living room, bedroom, or study, the Celensa lamp adds both beauty and function. Its warm glow illuminates your space, creating a welcoming and cozy atmosphere. Designed with attention to detail, this lamp is an ideal choice for those seeking to enhance their interior with sophistication.\n\nTransform your home into a sanctuary of style with this captivating gold glass lamp. Discover how the Celensa table lamp can redefine your space with a unique charm and modern allure.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_235eed7f-4b7b-466f-ba1e-8352d5de5c16",
+  "glb_url": "https://digitalcontent.target.com/vault/1769558400/CLOUD_117e3130-cef4-454a-9c96-c5c8f9e75ac2.glb",
+  "product_url": "https://www.target.com/p/-/A-91119271",
+  "dimensions": {
+    "height": 0.6985,
+    "width": 0.4318,
+    "depth": 0.254,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gold",
+  "color_source": "parsed"
+}

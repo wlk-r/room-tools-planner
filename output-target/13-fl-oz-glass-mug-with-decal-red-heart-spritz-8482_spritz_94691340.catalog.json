@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94691340",
+      "name": "13 fl oz Glass Mug with Decal Red Heart - Spritz&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94691340",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "decor"
+      ],
+      "tags": [
+        "romantic",
+        "whimsical",
+        "contemporary",
+        "playful"
+      ]
+    }
+  ]
+}

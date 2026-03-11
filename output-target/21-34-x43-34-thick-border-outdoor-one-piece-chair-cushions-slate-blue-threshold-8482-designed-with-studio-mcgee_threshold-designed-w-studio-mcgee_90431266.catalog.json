@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "90431266",
+      "name": "21&#34;x43&#34; Thick Border Outdoor One Piece Chair Cushions Slate Blue - Threshold&#8482; designed with Studio McGee",
+      "color": "Slate Blue"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90431266",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "cushion",
+        "seating",
+        "textile"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "coastal"
+      ]
+    }
+  ]
+}

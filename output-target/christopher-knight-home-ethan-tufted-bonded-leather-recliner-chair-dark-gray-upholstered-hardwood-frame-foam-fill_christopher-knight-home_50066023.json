@@ -1,0 +1,24 @@
+{
+  "tcin": "50066023",
+  "name": "Christopher Knight Home Ethan Tufted Bonded Leather Recliner Chair - Dark Gray: Upholstered, Hardwood Frame, Foam Fill",
+  "brand": "Christopher Knight Home",
+  "price": "$297.99",
+  "currency": "USD",
+  "description": "This Christopher Knight Home Ethan Tufted Bonded Leather Recliner Chair allows users to relax in style. Constructed in soft bonded leather with a tufted back, this comfortable reclining chair is great for small spaces and functions as a great place to take a nap or read a book. Its sleek style will fit in nicely with any of your existing living room furniture. Place it in your bedroom to create a quiet retreat that you can relax in after a long day. This Christopher Knight Home Ethan Tufted Bonded Leather Recliner Chair will quickly become your favorite chair.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Chairs",
+    "Recliners"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_fd003a62-ca32-4a97-8b25-bfac91127710",
+  "glb_url": "https://digitalcontent.target.com/vault/1636070400/CLOUD_ed89191c-8020-477d-852d-11f05d21a59d.glb",
+  "product_url": "https://www.target.com/p/-/A-50066023",
+  "dimensions": {
+    "height": 0.9275,
+    "width": 0.8845,
+    "depth": 0.701,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "91961780",
+  "name": "Upholstered Bench Rust Boucle - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$51.00",
+  "currency": "USD",
+  "description": "Add a touch of textural charm to your seating ensemble with the Upholstered Bench Rust Boucle from Room Essentials™. This rectangle bench stands on four legs designed with a wooden frame to make it a functional addition to your home. Showcasing an upholstered design, this bench is a stylish addition to your home decor or dorm furniture.<br /><br /><br />Room Essentials™: Everyday Value<br /><br />Overall Width: 36.2 inches<br />Overall Height: 17.5 inches<br />Overall Depth: 17.3 inches<br />Distance from floor to bottom of seat: 12.2 inches",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Benches"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_49e17d24-a875-4249-8fff-fa6341e2655a",
+  "glb_url": "https://digitalcontent.target.com/vault/1739404800/CLOUD_433ca4b0-e215-4174-92da-ad9bee39af0a.glb",
+  "product_url": "https://www.target.com/p/-/A-91961780",
+  "color": "Rust",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.8955,
+    "width": 0.452,
+    "depth": 0.4234,
+    "unit": "m",
+    "source": "glb"
+  }
+}

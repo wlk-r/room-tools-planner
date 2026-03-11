@@ -1,0 +1,23 @@
+{
+  "tcin": "51956472",
+  "name": "Skyline Furniture Parsons Counter Height Barstool",
+  "brand": "Skyline Furniture",
+  "price": "$250.99 - $266.99",
+  "currency": "USD",
+  "description": "Perfect for adding to a kitchen counter, this Parsons Print Counter Stool adds a bold touch to your decor. This elegant patterned stool features a hardwood construction for long-lasting use, while padding on the seat and back ensures you remain comfortable while seated. The stool features a printed upholstered design for a look you're sure to love. With four sturdy square legs for stability, this wood counter stool will make a great addition to any table or counter.",
+  "categories": [
+    "Furniture",
+    "Kitchen & Dining Furniture",
+    "Bar Furniture"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a0590a17-51f1-4daa-b119-46bb810c088d",
+  "glb_url": "https://digitalcontent.target.com/vault/1627603200/CLOUD_4b3b1ab3-6998-47b7-a42d-52a478bee18d.glb",
+  "product_url": "https://www.target.com/p/-/A-51956472",
+  "dimensions": {
+    "height": 1.016,
+    "width": 0.6096,
+    "depth": 0.4826,
+    "unit": "m",
+    "source": "glb"
+  }
+}

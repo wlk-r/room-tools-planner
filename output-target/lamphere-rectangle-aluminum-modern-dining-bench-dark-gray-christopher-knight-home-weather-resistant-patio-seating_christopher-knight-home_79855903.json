@@ -1,0 +1,25 @@
+{
+  "tcin": "79855903",
+  "name": "Lamphere Rectangle Aluminum Modern Dining Bench Dark Gray - Christopher Knight Home: Weather-Resistant, Patio Seating",
+  "brand": "Christopher Knight Home",
+  "price": "$211.99",
+  "currency": "USD",
+  "description": "Give your outdoor dining set a convenient companion that will give your guests ample seating space. Made from aluminum, this Christopher Knight Home Lamphere Rectangle Aluminum Modern Dining Bench offers reassuring durability and a polished look to your home, making this the perfect accent piece to your dining set. The legs are finished with a beautiful X-shape, bringing a rustic influence to this modern design that gives any backyard or patio space a sleek upgrade. Finished with a gorgeous slat design, this Christopher Knight Home Lamphere Rectangle Aluminum Modern Dining Bench allows you to effortlessly enjoy endless summer days.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Benches"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f6b23b9c-7313-4707-b388-4ce6b2031da8",
+  "glb_url": "https://digitalcontent.target.com/vault/1647302400/CLOUD_7f1738f8-fd91-45f5-8029-f56bb9840086.glb",
+  "product_url": "https://www.target.com/p/-/A-79855903",
+  "color": "Dark Gray",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.4986,
+    "width": 0.4318,
+    "depth": 0.4001,
+    "unit": "m",
+    "source": "glb"
+  }
+}

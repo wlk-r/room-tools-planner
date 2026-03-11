@@ -1,0 +1,26 @@
+{
+  "tcin": "90594236",
+  "name": "Alphie Floor Lamp - LIT4344 - Ebony - Safavieh",
+  "brand": "Safavieh",
+  "price": "$101.99",
+  "currency": "USD",
+  "description": "Introducing the Alphie Floor Lamp, a stunning addition to your living space that combines sleek design with functionality. Crafted from robust metal, it stands tall with elegance and charm. The ebony color provides a touch of sophistication, perfectly complementing any decor style. Its modern silhouette makes it a versatile piece, ideal for both contemporary and classic interiors. Designed to illuminate your room with a warm glow, the Alphie Floor Lamp creates a cozy atmosphere for relaxation or productive evenings. Simple to assemble and easy to position, it integrates seamlessly into your home. Transform your space with the subtle allure and timeless appeal of the Alphie Floor Lamp, where form meets function in the most charming way.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_cdaa9b44-341c-4c19-b2c1-851e81cac612",
+  "glb_url": "https://digitalcontent.target.com/vault/1763683200/CLOUD_ef24b635-5bf8-40db-9070-14809f6db73b.glb",
+  "product_url": "https://www.target.com/p/-/A-90594236",
+  "dimensions": {
+    "height": 1.5529,
+    "width": 0.3814,
+    "depth": 0.3814,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Ebony",
+  "color_source": "parsed"
+}

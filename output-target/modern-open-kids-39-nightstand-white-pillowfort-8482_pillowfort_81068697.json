@@ -1,0 +1,25 @@
+{
+  "tcin": "81068697",
+  "name": "Modern Open Kids&#39; Nightstand White - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$100.00",
+  "currency": "USD",
+  "description": "Even small rooms can get an instant upgrade with the convenience of this simple yet stylish Modern Open Nightstand from Pillowfort™. Featuring a square shape with an open front and four legs, this white and natural wood nightstand is perfect for placing next to their bed with a lamp on top and their favorite bedtime stories or stuffed animals inside. The open design lets you display decorative items while also providing easy access to contents. Plus, the clean lines, slender legs and white color palette coordinate easily with a wide variety of bedroom decor.<br /><br />Overall Width: 16.57 inches<br />Overall Depth: 13.6 inches<br />Overall Height: 22.87 inches<br />Distance from Floor to Bottom of Nightstand: 8.58 inches<br />Interior Width of Cubby: 15 inches<br />Interior Depth of Cubby: 13 inches<br />Interior Height of Cubby: 13 inches",
+  "categories": [
+    "Furniture",
+    "Bedroom Furniture",
+    "Nightstands"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_34c06649-4f09-480c-a281-9e62d7006807",
+  "glb_url": "https://digitalcontent.target.com/vault/1615507200/CLOUD_8ece0f02-2365-46e7-a8c2-6cf2982c0830.glb",
+  "product_url": "https://www.target.com/p/-/A-81068697",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5809,
+    "width": 0.4209,
+    "depth": 0.3459,
+    "unit": "m",
+    "source": "glb"
+  }
+}

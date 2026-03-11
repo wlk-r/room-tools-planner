@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "item_no": "89700571",
+      "name": "1.5bu Plastic Square Laundry Basket - Brightroom&#8482;: Medium White Clothes Hamper with Built-In Handles, Portable Storage",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "89700571",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "hamper"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "utilitarian"
+      ]
+    }
+  ]
+}

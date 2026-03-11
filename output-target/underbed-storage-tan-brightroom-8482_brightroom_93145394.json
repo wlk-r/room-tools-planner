@@ -1,0 +1,25 @@
+{
+  "tcin": "93145394",
+  "name": "Underbed Storage Tan - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Store clothing, bedding and other essentials under the bed with the Underbed Storage from Brightroom™. This tan storage features a clear top to help you easily see the contents. It's made of plastic and has a zipper closure to help keep the contents nicely contained, while the side handles make it easy to move. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Storage Bags & Cases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_55785231-f4a9-4d83-8fb3-1890e33b6d42",
+  "glb_url": "https://digitalcontent.target.com/vault/1764028800/CLOUD_0f4b6389-8367-41e5-9f18-656dde92fa66.glb",
+  "product_url": "https://www.target.com/p/-/A-93145394",
+  "color": "Tan",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.7366,
+    "width": 0.5917,
+    "depth": 0.1397,
+    "unit": "m",
+    "source": "glb"
+  }
+}

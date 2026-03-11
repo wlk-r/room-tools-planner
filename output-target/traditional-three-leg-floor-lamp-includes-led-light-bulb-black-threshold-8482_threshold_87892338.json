@@ -1,0 +1,26 @@
+{
+  "tcin": "87892338",
+  "name": "Traditional Three Leg Floor Lamp (Includes LED Light Bulb) Black  - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$140.00",
+  "currency": "USD",
+  "description": "Light up your home in traditional style with the Traditional Three-Leg Floor Lamp in Black (Includes LED Light Bulb) from Threshold™. This black floor lamp features three gold-tone legs and a drum-shape shade in a neutral color, and a black rod base to complement the classic look. Made with metal, this traditional floor lamp can be placed near a sofa, chair or any other seating ensemble for gorgeous lighting. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_6ab41647-54cd-49de-a8a8-c2eaae2ecc13",
+  "glb_url": "https://digitalcontent.target.com/vault/1699574400/CLOUD_bb3a2e0f-585c-479f-9808-ff490693b351.glb",
+  "product_url": "https://www.target.com/p/-/A-87892338",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4382,
+    "width": 0.1524,
+    "depth": 0.127,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "tcin": "91536122",
+  "name": "Narrow Wood Bin - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$10.00",
+  "currency": "USD",
+  "description": "Organize with ease using this Narrow Wood Bin from Brightroom™. Made of wood, this open-top bin has slats on the sides plus cutouts for easy holding. Designed in a rectangular shape, this wooden bin has a capacity of 418 cubic inches, giving you plenty of space for storing toys, clothes, books and more. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Garage Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_883b1f54-80e9-451e-af27-d68292c3dcca",
+  "glb_url": "https://digitalcontent.target.com/vault/1739491200/CLOUD_eb437479-7ae3-469e-bd64-56ce5d9e1f17.glb",
+  "product_url": "https://www.target.com/p/-/A-91536122",
+  "dimensions": {
+    "height": 0.3163,
+    "width": 0.16,
+    "depth": 0.1559,
+    "unit": "m",
+    "source": "glb"
+  }
+}

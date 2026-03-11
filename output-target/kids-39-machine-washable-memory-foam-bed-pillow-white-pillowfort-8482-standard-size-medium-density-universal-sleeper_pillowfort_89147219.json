@@ -1,0 +1,26 @@
+{
+  "tcin": "89147219",
+  "name": "Kids&#39; Machine Washable Memory Foam Bed Pillow White - Pillowfort&#8482;: Standard Size, Medium Density, Universal Sleeper",
+  "brand": "Pillowfort",
+  "price": "$15.00",
+  "currency": "USD",
+  "description": "Add a cozy finishing touch to your child's bedspread with this Bed Pillow from Pillowfort™. This medium-density pillow is made from soft microfiber fabric with 100% memory foam filling for a plush feel. Suitable for all sleep types, it's designed in a solid white hue that makes it easy to pair with a variety of printed or solid sheet sets, throws and other pillows.",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Bedding",
+    "Kids’ Decorative Pillows"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7513bc1c-2166-4061-9c33-87d8785cc666",
+  "glb_url": "https://digitalcontent.target.com/vault/1723248000/CLOUD_c8bacc4a-8ecc-41b1-8c85-77e9a0b93980.glb",
+  "product_url": "https://www.target.com/p/-/A-89147219",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6096,
+    "width": 0.4572,
+    "depth": 0.1524,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "94748486",
+  "name": "XL Tuscan Ceramic Vase Blue - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$50.00",
+  "currency": "USD",
+  "description": "Elevate the decor in any room with this Tuscan Ceramic Vase from Threshold™. Made of ceramic, this Tuscan vase is designed in blue with shiny finish for a luxe look. You can fill this watertight vase with fresh flowers, green stems or faux florals to add character and charm to any space.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Decorative Objects",
+    "Vases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_9ff6d160-23fe-4e85-95c7-2ea8c7e7545b",
+  "glb_url": "https://digitalcontent.target.com/vault/1765411200/CLOUD_2374fc1b-eae5-42e7-8055-6770d2463c97.glb",
+  "product_url": "https://www.target.com/p/-/A-94748486",
+  "color": "Blue",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3948,
+    "width": 0.2937,
+    "depth": 0.2914,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "86858850",
+  "name": "Quilted Fabric Cube Storage Bin - Light Pink - Cloud Island&#8482;",
+  "brand": "Cloud Island",
+  "price": "$12.99",
+  "currency": "USD",
+  "description": "Add extra storage to your little one's space with this Quilted Fabric Cube Storage Bin from cloud island™. This decorative cube storage bin features a light pink quilted fabric construction with wavy texture for fun style. Designed with attached handles for easy portability, this sturdy square-shaped basket is great for stowing toys, blankets and more. Plus, it can be spot cleaned for easy care.<br /><br />cloud island™: Designed with love. Made without compromise.",
+  "categories": [
+    "Baby",
+    "Nursery",
+    "Nursery Decor",
+    "Nursery Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_17cd3980-cac4-4069-bb72-b5cb6b0206a7",
+  "glb_url": "https://digitalcontent.target.com/vault/1678233600/CLOUD_c0c3a05f-3dde-41e2-9790-4624dd618445.glb",
+  "product_url": "https://www.target.com/p/-/A-86858850",
+  "color": "Light Pink",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3683,
+    "width": 0.3302,
+    "depth": 0.3302,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "90345444",
+  "name": "Sling Stacking Chair Tan/Black - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$50.00",
+  "currency": "USD",
+  "description": "Create a perfect place to sit and relax with this Sling Stacking Chair from Room Essentials™. Supported by a metal frame, this sling chair features a woven back and seat for breathability and has wide arms for extra support. This stackable chair is designed in a tan hue and is resistant to weather and rust, making it perfect for outdoor use. <br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Chairs",
+    "Outdoor Dining Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_9220d8d8-fa87-4fb3-bc46-99c11d328dce",
+  "glb_url": "https://digitalcontent.target.com/vault/1733961600/CLOUD_ab87c424-eed7-4ba7-ba0e-cac3155fbdbe.glb",
+  "product_url": "https://www.target.com/p/-/A-90345444",
+  "color": "Tan/Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.9818,
+    "width": 0.7422,
+    "depth": 0.5628,
+    "unit": "m",
+    "source": "glb"
+  }
+}

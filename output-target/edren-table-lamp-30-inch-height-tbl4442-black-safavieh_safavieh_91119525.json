@@ -1,0 +1,26 @@
+{
+  "tcin": "91119525",
+  "name": "Edren Table Lamp - 30 Inch Height - TBL4442 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$95.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the EDREN 30 inch black rattan table lamp. This stunning piece combines modern design with functional elegance. Standing tall at 30 inches, its black aluminum frame delivers a bold statement, making it an ideal addition to any room decor. The intricate rattan weaving adds a touch of natural beauty while maintaining a sleek, contemporary vibe. Perfectly versatile, this lamp complements both minimalist and eclectic styles, enhancing any setting with warm, inviting light. Whether placed on a bedside table or as a focal point in your living room, the EDREN table lamp embodies style and functional charm. Brighten your home with a touch of modern sophistication and let your interior shine with personality.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a4c4efe2-ebf6-49e9-8f82-284fd6b31861",
+  "glb_url": "https://digitalcontent.target.com/vault/1771459200/CLOUD_056cf8c6-2eb8-46eb-a41c-8f806dabcdf8.glb",
+  "product_url": "https://www.target.com/p/-/A-91119525",
+  "dimensions": {
+    "height": 0.8169,
+    "width": 0.4445,
+    "depth": 0.4445,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

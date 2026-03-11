@@ -1,0 +1,26 @@
+{
+  "tcin": "52580449",
+  "name": "Cape Coral Square Aluminum and Wicker Bar Table - Gray - Christopher Knight Home",
+  "brand": "Christopher Knight Home",
+  "price": "$219.99",
+  "currency": "USD",
+  "description": "This outdoor Christopher Knight Home Cape Coral Square Aluminum and Wicker Bar Table is a great addition to any backyard or patio. The table features a durable wicker top and a light weight aluminum frame. The wicker top is able to endure the elements and survive the harshest backyard weather so you can have some fun in the yard all year long with this bar table. Place some stools around the table to create an intimate dining area or you can use the table as a place for your guests to set their drinks. Whichever way you use this Christopher Knight Home Cape Coral Square Aluminum and Wicker Bar Table you will not regret this purchase.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Tables",
+    "Outdoor Dining Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_848618a3-5960-44da-b4df-93dcdc949828",
+  "glb_url": "https://digitalcontent.target.com/vault/1623110400/CLOUD_6caa220c-329f-46dd-9334-50e7199a2d77.glb",
+  "product_url": "https://www.target.com/p/-/A-52580449",
+  "dimensions": {
+    "height": 1.0922,
+    "width": 0.7,
+    "depth": 0.7,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

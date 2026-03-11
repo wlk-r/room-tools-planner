@@ -1,0 +1,26 @@
+{
+  "tcin": "84592506",
+  "name": "Yani Table Lamp - 24.5 Inch Height - TBL4361 - Dark Green - Safavieh",
+  "brand": "Safavieh",
+  "price": "$85.99",
+  "currency": "USD",
+  "description": "Introducing Yani, the 24.5 inch dark green ceramic table lamp that brings a touch of elegance to any room. The smooth lines of its ceramic body, composing 80 percent of the structure, are perfectly complemented by the sleek 20 percent iron neck. This lamp effortlessly blends form and function, offering a visually appealing centerpiece for your home or office.\n\nThe deep, rich tone of dark green adds sophistication and calm to your space, creating a soothing atmosphere for relaxation or focused work. Its thoughtful design makes it a versatile addition to both contemporary and classic interiors. \n\nPlace Yani on a side table, bedside, or in your favorite reading nook, and enjoy how its presence transforms your environment. Perfect for those who appreciate craftsmanship and style, this lamp is more than just illumination; it is an expression of taste and personality. Add a touch of charm to your decor with Yani, and let your space shine.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_1832a155-ad8d-4ab7-8023-8b0dd744c85c",
+  "glb_url": "https://digitalcontent.target.com/vault/1769040000/CLOUD_3f96f5c4-5ff3-473c-b951-ca06f7286d67.glb",
+  "product_url": "https://www.target.com/p/-/A-84592506",
+  "color": "Dark Green",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6223,
+    "width": 0.3556,
+    "depth": 0.3556,
+    "unit": "m",
+    "source": "glb"
+  }
+}

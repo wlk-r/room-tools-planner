@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "83228400",
+      "name": "14oz Glass Candle with Cork Lid Cucumber Water and Mint - Threshold&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "83228400",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "candle",
+        "decor"
+      ],
+      "tags": [
+        "botanical",
+        "organic",
+        "minimal",
+        "contemporary",
+        "cozy"
+      ]
+    }
+  ]
+}

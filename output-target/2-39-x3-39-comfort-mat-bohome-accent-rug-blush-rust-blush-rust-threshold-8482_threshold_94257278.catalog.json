@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "94257278",
+      "name": "2&#39;x3&#39; Comfort Mat Bohome Accent Rug Blush/Rust Blush/Rust - Threshold&#8482;",
+      "color": "Blush/Rust"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94257278",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug"
+      ],
+      "tags": [
+        "boho",
+        "warm",
+        "cozy",
+        "rustic"
+      ]
+    }
+  ]
+}

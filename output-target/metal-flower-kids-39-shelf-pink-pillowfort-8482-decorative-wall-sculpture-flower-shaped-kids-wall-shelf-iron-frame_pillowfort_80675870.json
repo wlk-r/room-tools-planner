@@ -1,0 +1,26 @@
+{
+  "tcin": "80675870",
+  "name": "Metal Flower Kids&#39; Shelf Pink - Pillowfort&#8482;: Decorative Wall Sculpture, Flower Shaped Kids Wall Shelf, Iron Frame",
+  "brand": "Pillowfort",
+  "price": "$35.00",
+  "currency": "USD",
+  "description": "Keep their stuff organized the fun way with this Pink Metal Flower Shelf from Pillowfort™. This wall shelf brings decorative and functional storage to their space. Designed with a fixed center shelf, it features a flower shape for a charming look, and a soft pink color to add a pretty touch to their decor. The shelf is made from metal and it's great for storing books, potted plants and decor items. Plus, it can be hung in a horizontal orientation for easy display.",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Decor",
+    "Kids’ Wall Decor"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0ecb488a-2d4b-4830-a481-e40e978b7462",
+  "glb_url": "https://digitalcontent.target.com/vault/1631836800/CLOUD_a4136102-6f76-4515-a941-ff1fa2ba79b1.glb",
+  "product_url": "https://www.target.com/p/-/A-80675870",
+  "color": "Pink",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4572,
+    "width": 0.4572,
+    "depth": 0.1143,
+    "unit": "m",
+    "source": "glb"
+  }
+}

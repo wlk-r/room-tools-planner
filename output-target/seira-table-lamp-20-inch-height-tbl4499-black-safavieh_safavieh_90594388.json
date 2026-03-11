@@ -1,0 +1,26 @@
+{
+  "tcin": "90594388",
+  "name": "Seira Table Lamp - 20 Inch Height - TBL4499 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$59.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the bold elegance of the Seira table lamp. Standing at 20 inches, this lamp offers a striking design with its black resin and iron base that adds a touch of modern sophistication to any room. The cotton shade softly diffuses light, creating a warm and inviting ambiance. Whether for your living room, bedroom, or office, the Seira lamp effortlessly complements a variety of decor styles. Its sleek, artful design makes it more than just a light source; it is a statement piece that enhances your home with grace and charm. Embrace the beauty and functionality of the Seira black resin table lamp and transform your environment into a haven of style and comfort.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_474d8987-0130-4c32-8f8b-92d5c40f5b7e",
+  "glb_url": "https://digitalcontent.target.com/vault/1769472000/CLOUD_c619c8b8-4dc6-43a7-a77f-f80d3e01f90a.glb",
+  "product_url": "https://www.target.com/p/-/A-90594388",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.508,
+    "width": 0.254,
+    "depth": 0.254,
+    "unit": "m",
+    "source": "glb"
+  }
+}

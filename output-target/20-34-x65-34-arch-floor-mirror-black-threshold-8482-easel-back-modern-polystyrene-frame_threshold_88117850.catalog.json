@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "88117850",
+      "name": "20&#34;x65&#34; Arch Floor Mirror Black - Threshold&#8482;: Easel Back, Modern Polystyrene Frame",
+      "color": "Black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "88117850",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "mirror",
+        "full-length",
+        "decor"
+      ],
+      "tags": [
+        "modern",
+        "minimal",
+        "sleek",
+        "contemporary"
+      ]
+    }
+  ]
+}

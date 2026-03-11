@@ -1,0 +1,26 @@
+{
+  "tcin": "82259922",
+  "name": "Climbing Floral Shower Curtain Pink - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Bring a touch of nature to your bath routine with this Botanical Floral Shower Curtain from Threshold™. Made from 100% cotton that not only feels soft to the touch, but also makes it easy to maintain, this printed shower curtain can be tossed in the washing machine for a quick refresh whenever needed. Plus, the buttonhole top makes it easy to hang around your bathtub or shower stall. In a white hue, this decorative shower curtain is adorned with allover floral prints to bring sweet style to your bathroom decor. Complete your bathroom decor with floral bath or hand towels, and a matching floral bath rug for a coordinated look.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Shower Curtains & Accessories",
+    "Shower Curtains"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_39e2380d-b9c3-4e0e-b1b7-f61c78252793",
+  "glb_url": "https://digitalcontent.target.com/vault/1664496000/CLOUD_80988ae6-1a00-4b40-9cc9-cb5051e255cb.glb",
+  "product_url": "https://www.target.com/p/-/A-82259922",
+  "dimensions": {
+    "height": 3.2827,
+    "width": 1.8288,
+    "depth": 1.8123,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Pink",
+  "color_source": "parsed"
+}

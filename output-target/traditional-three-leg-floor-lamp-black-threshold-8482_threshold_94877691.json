@@ -1,0 +1,26 @@
+{
+  "tcin": "94877691",
+  "name": "Traditional Three Leg Floor Lamp Black - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$140.00",
+  "currency": "USD",
+  "description": "Create the perfect ambiance with this Traditional Three-Leg Floor Lamp from Threshold™. Standing 62 inches high, this sleek floor lamp showcases a white cotton fabric shade in a drum shape atop a black metal pole body with a gold-tone base featuring three legs for a standout look. The convenient turn knob rotary switch offers one-way on/off control for easy operation, and the six-foot cord provides flexible placement. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_1cba6290-3a20-4f14-a65a-9af9e7da883e",
+  "glb_url": "https://digitalcontent.target.com/vault/1763078400/CLOUD_1e1c4657-4176-4690-866f-4a3a92a4f412.glb",
+  "product_url": "https://www.target.com/p/-/A-94877691",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.5826,
+    "width": 0.9432,
+    "depth": 0.4589,
+    "unit": "m",
+    "source": "glb"
+  }
+}

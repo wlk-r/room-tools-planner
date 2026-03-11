@@ -1,0 +1,26 @@
+{
+  "tcin": "80818831",
+  "name": "Table Top Ironing Board Gray - Room Essentials&#8482;: Portable Small Steel Countertop, 30&#34; x 12&#34; Solid Pattern",
+  "brand": "Room Essentials",
+  "price": "$15.00",
+  "currency": "USD",
+  "description": "Conveniently iron your clothes with the Tabletop Ironing Board from Room Essentials™. This tabletop ironing board features a metal mesh ironing design with a padded cover to offer you a smooth ironing surface, and it's balanced on a metal frame to ensure less slipping or sliding while ironing. Featuring a foldable design for easy storage, it also has a loop at the back for hanging from a hook behind the door or in the closet for space-efficient storage.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Laundry Room Organization",
+    "Laundry Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_9d9186ae-2d3a-4895-bc7e-4abbdde1e5dd",
+  "glb_url": "https://digitalcontent.target.com/vault/1647561600/CLOUD_93bd2444-f14e-4d8f-b6e7-35070b82fa92.glb",
+  "product_url": "https://www.target.com/p/-/A-80818831",
+  "color": "Gray",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.762,
+    "width": 0.3048,
+    "depth": 0.1588,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "87299531",
+      "name": "1.8bu Open Hamper White - Brightroom&#8482;",
+      "color": "White"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "87299531",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "hamper"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "scandinavian"
+      ]
+    }
+  ]
+}

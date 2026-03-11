@@ -1,0 +1,25 @@
+{
+  "tcin": "53177818",
+  "name": "Bathroom Plastic 9 Slot Mixed Cosmetic Vanity Organizer Clear - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$10.00",
+  "currency": "USD",
+  "description": "Create a home for your bathroom and beauty essentials with the Bathroom 9-Slot Mixed Cosmetic Organizer from Brightroom™. The clear design means you can easily see what’s inside, and the shatter-resistant plastic construction offers lasting use. This nine-slot cosmetic organizer features a modular design with differently sized compartments for conveniently storing nail polish, makeup and more. No more digging through a drawer for cosmetics, and it’s easy to wipe clean, making for a practical and attractive bathroom storage piece.<br /><br />Brightroom™ started with a simple truth: When you’ve got it together, you feel better. Our versatile designs reveal the possibility in every closet, cupboard and drawer, and work together to create brilliant ways to organize your every day.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Bathroom Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e54db1b9-aa4b-406f-abce-6b7de3f1bcd1",
+  "glb_url": "https://digitalcontent.target.com/vault/1658880000/CLOUD_5a71fc3a-76f7-459d-8ed3-402893fce7db.glb",
+  "product_url": "https://www.target.com/p/-/A-53177818",
+  "dimensions": {
+    "height": 0.2032,
+    "width": 0.097,
+    "depth": 0.0749,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Clear",
+  "color_source": "parsed"
+}

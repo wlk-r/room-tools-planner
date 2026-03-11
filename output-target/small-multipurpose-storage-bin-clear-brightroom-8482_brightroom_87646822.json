@@ -1,0 +1,25 @@
+{
+  "tcin": "87646822",
+  "name": "Small Multipurpose Storage Bin Clear - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$6.00",
+  "currency": "USD",
+  "description": "Bring additional storage space into your home with this Small Multipurpose Storage Bin from Brightroom™. The plastic storage bin features a spacious design to provide ample space for universal storage, and the clear construction makes it an easy pairing with other decor. Complete with side cutouts for easy carrying from room to room, this small multipurpose bin is great for stowing away books and magazines to keep your home looking neat and tidy. <br /><br />Brightroom™: See your space in a new light.<br /><br />Overall Width: 13 inches<br />Overall Height: 9.75 inches<br />Overall Depth:  3.56 inches<br />Interior Width:  12.9 inches<br />Interior Depth:  3.4 inches<br />Bottom Width: 12.25 inches<br />Bottom Depth: 2.82 inches",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Garage Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7d4d2d02-441d-4b6e-a4f9-bb445babf33a",
+  "glb_url": "https://digitalcontent.target.com/vault/1685923200/CLOUD_42c8bb83-9437-4cbd-af61-338b64fd6247.glb",
+  "product_url": "https://www.target.com/p/-/A-87646822",
+  "color": "Clear",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3302,
+    "width": 0.2476,
+    "depth": 0.0922,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "item_no": "17471567",
+      "name": "16oz Stoneware Coupe Coffee Mug Gray - Threshold&#8482;: Modern Microwave &#38; Dishwasher-Safe Drinkware, Cadmium-Free",
+      "color": "Gray"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "17471567",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware"
+      ],
+      "tags": [
+        "modern",
+        "minimal",
+        "cozy"
+      ]
+    }
+  ]
+}

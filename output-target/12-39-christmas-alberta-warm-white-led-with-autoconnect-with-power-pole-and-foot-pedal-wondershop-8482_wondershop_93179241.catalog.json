@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "93179241",
+      "name": "12&#39; Christmas Alberta Warm White Led with Autoconnect with Power Pole and Foot Pedal - Wondershop&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "93179241",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "tree",
+        "lighting"
+      ],
+      "tags": [
+        "warm",
+        "elegant",
+        "traditional",
+        "cozy"
+      ]
+    }
+  ]
+}

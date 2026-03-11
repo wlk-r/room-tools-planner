@@ -1,0 +1,25 @@
+{
+  "tcin": "90006190",
+  "name": "30ct Christmas Tissue Paper White/Blue/Navy - Wondershop&#8482;",
+  "brand": "Wondershop",
+  "price": "$3.00",
+  "currency": "USD",
+  "description": "This 30-Count Banded Christmas Gift Tissue Paper from Wondershop™ will take your gift packaging to the next level. This pack includes 30 sheets of banded tissue paper, each measuring 16.5 inches x 24 inches. Designed in solid blue, white and navy hues, they're great for filling gift bags for Christmas or any other occasion.<br /><br />Welcome to the Wondershop™.",
+  "categories": [
+    "Party Supplies",
+    "Gift Wrap, Bags & Accessories",
+    "Tissue Paper"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_fd6b791d-5434-4835-887c-69d45e4fc103",
+  "glb_url": "https://digitalcontent.target.com/vault/1761609600/CLOUD_8ec27692-99ce-4760-82f3-6df4b5c73687.glb",
+  "product_url": "https://www.target.com/p/-/A-90006190",
+  "dimensions": {
+    "height": 0.4191,
+    "width": 0.1892,
+    "depth": 0.0089,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White/Blue/Navy",
+  "color_source": "parsed"
+}

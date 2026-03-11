@@ -1,0 +1,26 @@
+{
+  "tcin": "94817406",
+  "name": "Wicker Round Patio Table Blue/White - Roller Rabbit x Target",
+  "brand": "Roller Rabbit x Target",
+  "price": "$250.00",
+  "currency": "USD",
+  "description": "This Wicker Round Patio Table from Roller Rabbit x Target is a practical and stylish addition to your patio space. Crafted with a steel frame and all-weather woven wicker, this patio table has a round tabletop. Plus, it's rust- and weather-resistant construction for year-round use.<br /><br />Beloved for their colorful prints and uplifting styles, Roller Rabbit adds more joy to any journey. Now, they’re joining Target to celebrate travel, friendship and togetherness in this limited-edition collection designed to inspire your ultimate spring adventure.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Tables",
+    "Outdoor Dining Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_956dbd8f-9955-416c-9c4c-73dc7ee3f03b",
+  "glb_url": "https://digitalcontent.target.com/vault/1761004800/CLOUD_91d7c5d4-c13d-445d-bbe8-bbe4e2db197b.glb",
+  "product_url": "https://www.target.com/p/-/A-94817406",
+  "color": "Blue/White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.738,
+    "width": 0.738,
+    "depth": 0.4539,
+    "unit": "m",
+    "source": "glb"
+  }
+}

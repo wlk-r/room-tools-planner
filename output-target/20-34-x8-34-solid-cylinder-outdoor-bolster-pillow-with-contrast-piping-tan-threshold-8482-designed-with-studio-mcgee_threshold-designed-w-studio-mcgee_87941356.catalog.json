@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "87941356",
+      "name": "20&#34;x8&#34; Solid Cylinder Outdoor Bolster Pillow with Contrast Piping Tan - Threshold&#8482; designed with Studio McGee",
+      "color": "Tan"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "87941356",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "pillow",
+        "textile",
+        "outdoor"
+      ],
+      "tags": [
+        "contemporary",
+        "minimalist",
+        "warm",
+        "geometric"
+      ]
+    }
+  ]
+}

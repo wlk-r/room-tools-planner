@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "89450612",
+      "name": "20&#34;x28&#34; Invisigrid Foam Poster Board White - up&#38;up&#8482;",
+      "color": "White"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "89450612",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "wall-art",
+        "decor"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "clean"
+      ]
+    }
+  ]
+}

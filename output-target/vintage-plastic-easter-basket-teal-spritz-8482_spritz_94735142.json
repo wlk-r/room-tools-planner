@@ -1,0 +1,24 @@
+{
+  "tcin": "94735142",
+  "name": "Vintage Plastic Easter Basket Teal - Spritz&#8482;",
+  "brand": "Spritz",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Brighten up your Easter celebrations with this Vintage Plastic Easter Basket Teal - Spritz™. Crafted from durable polyethylene, it features a round shape and a generous size, perfect for holding treats or decorative items. Its vibrant teal green color adds a cheerful touch to your holiday decor. With a height of 6.5 inches and a 12-inch width and depth, it's both practical and stylish for your seasonal needs.<br /><br />Spritz™: Pops of joy that make the moment™",
+  "categories": [
+    "Party Supplies",
+    "Novelty Gifts"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e4d081dc-dfc3-4086-8954-8ef8897114e1",
+  "glb_url": "https://digitalcontent.target.com/vault/1768176000/CLOUD_7b7ea5bf-31c7-415a-897e-682f3663ca33.glb",
+  "product_url": "https://www.target.com/p/-/A-94735142",
+  "color": "Teal",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3048,
+    "width": 0.3033,
+    "depth": 0.301,
+    "unit": "m",
+    "source": "glb"
+  }
+}

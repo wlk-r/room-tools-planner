@@ -1,0 +1,25 @@
+{
+  "tcin": "93145404",
+  "name": "Stackable Single Shoe Rack Black - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$7.00",
+  "currency": "USD",
+  "description": "Keep your footwear organized with the Stackable Single Shoe Rack from Brightroom™. This black shoe rack has a single, open shelf that holds two pair of shoes to help maintain a clean space. Made of a metal frame, this shoe rack is stackable to help you save space, and fits nicely along your entryway. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Shoe Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b52b3c4d-4cb7-4ea9-a05a-4b9992cb3b5c",
+  "glb_url": "https://digitalcontent.target.com/vault/1748304000/CLOUD_59864a27-f5c9-4b09-80e6-8959277b7450.glb",
+  "product_url": "https://www.target.com/p/-/A-93145404",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5841,
+    "width": 0.2655,
+    "depth": 0.1975,
+    "unit": "m",
+    "source": "glb"
+  }
+}

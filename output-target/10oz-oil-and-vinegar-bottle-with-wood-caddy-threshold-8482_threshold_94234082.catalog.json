@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94234082",
+      "name": "10oz Oil and Vinegar Bottle with Wood Caddy - Threshold&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94234082",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "storage",
+        "decor"
+      ],
+      "tags": [
+        "rustic",
+        "organic",
+        "warm",
+        "farmhouse"
+      ]
+    }
+  ]
+}

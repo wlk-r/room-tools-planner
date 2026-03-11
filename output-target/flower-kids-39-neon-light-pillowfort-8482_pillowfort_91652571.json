@@ -1,0 +1,24 @@
+{
+  "tcin": "91652571",
+  "name": "Flower Kids&#39; Neon Light - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$35.00",
+  "currency": "USD",
+  "description": "Keep your kid's space glowing bright and beautiful with the Flower Neon Light from Pillowfort™. This neon light is designed in the shape of a flower with integrated LED bulbs for a fun and whimsical look and gentle illumination. Made of acrylic, this light has an inline (cord) rocker switch for quick and easy operation.",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Decor",
+    "Kids’ Lamps & Lighting"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b9de0d61-0956-4f5f-aa32-9ec0b33e1c33",
+  "glb_url": "https://digitalcontent.target.com/vault/1742515200/CLOUD_bdac997b-4d8c-4d19-96dd-e95bcb310a7a.glb",
+  "product_url": "https://www.target.com/p/-/A-91652571",
+  "dimensions": {
+    "height": 0.3048,
+    "width": 0.279,
+    "depth": 0.0185,
+    "unit": "m",
+    "source": "glb"
+  }
+}

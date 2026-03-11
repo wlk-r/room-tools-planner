@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "88824642",
+      "name": "12pk Unscented Jumbo TL Candles Cream - Room Essentials&#8482;: Paraffin Wax, 6.5hr Burn Time, 12 Piece Set",
+      "color": "Cream"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "88824642",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "lighting",
+        "decor"
+      ],
+      "tags": [
+        "cozy",
+        "warm",
+        "ambient",
+        "minimal",
+        "contemporary"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "93670820",
+  "name": "Modular Storage Drawer Set Pink - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$16.00",
+  "currency": "USD",
+  "description": "Easily organize your desk with the help of this Modular Storage Drawer Set from Brightroom™. This modular storage drawer set features four drawers in three different sizes that come in handy for storing anything from craft supplies, small stationery items and more. This plastic storage drawer helps maximize vertical storage, while the compact size makes it great for stashing over a table or on any shelf. Plus, the pink and cream hue adds sweet style to your space.<br /><br />Brightroom™: See your space in a new light.<br /><br />Small Drawer Width: 6.15 inches<br />Small Drawer Height: 3.1 inches<br />Small Drawer Depth: 10.4 inches<br />Medium Drawer Width: 6.15 inches<br />Medium Drawer Height: 6.2 inches<br />Medium Drawer Depth: 10.4 inches<br />Large Drawer Width: 12.3 inches<br />Large Drawer Height: 3.1 inches<br />Large Drawer Depth: 10.4 inches<br />Overall Width: 12.3 inches<br />Overall Height: 9.3 inches<br />Overall Depth: 10.4 inches",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Carts & Drawer Units"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_614c623e-d367-436c-ad87-3a951fe3c131",
+  "glb_url": "https://digitalcontent.target.com/vault/1752451200/CLOUD_1eb74d14-789b-43e9-abe6-d32d0b7d631a.glb",
+  "product_url": "https://www.target.com/p/-/A-93670820",
+  "color": "Pink",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3097,
+    "width": 0.2971,
+    "depth": 0.2452,
+    "unit": "m",
+    "source": "glb"
+  }
+}

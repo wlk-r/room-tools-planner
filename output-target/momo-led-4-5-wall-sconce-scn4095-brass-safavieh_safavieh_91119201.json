@@ -1,0 +1,27 @@
+{
+  "tcin": "91119201",
+  "name": "Momo Led 4.5\" Wall Sconce - SCN4095 - Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$87.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the sophisticated Momo wall sconce. This 4.5 inch LED light presents a stunning combination of brass and acrylic for a contemporary look that blends seamlessly into any room. Its sleek design is versatile enough to complement a variety of interior styles, while the brass finish adds a touch of elegance. Crafted from durable acrylic and iron, the Momo sconce is ideal for enhancing the ambiance of your home. Whether placed in a hallway, living room, or bedroom, this fixture delivers both style and functionality. Discover the warmth and allure that the Momo wall sconce brings to your decor, creating an inviting atmosphere with every glow.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Wall Lights",
+    "Wall Sconces"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f22fe579-f650-44f6-8493-a03f76393984",
+  "glb_url": "https://digitalcontent.target.com/vault/1765324800/CLOUD_ff06bdac-4f32-4cde-8f97-a1c883c53fb9.glb",
+  "product_url": "https://www.target.com/p/-/A-91119201",
+  "color": "Brass",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.1157,
+    "width": 0.0334,
+    "depth": 0.0272,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "88677053",
+  "name": "60&#34; Laguna Nigel Fluted Wooden Console Table Brown - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$330.00",
+  "currency": "USD",
+  "description": "Give your living space a functional piece with stunning style with this Laguna Nigel Fluted Wooden Console Table from Threshold™ designed with Studio McGee. Crafted from wood, this rectangular console table features a spacious tabletop to showcase framed photos, potted plants and more, while the built-in bottom shelf provides extra space for storage or display. In a solid brown hue with fluted design, this console table easily blends into a variety of settings, whether you place it in your living room, entryway or any other area.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Console Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e05c880e-c2a3-4447-a24a-4207f560bc6d",
+  "glb_url": "https://digitalcontent.target.com/vault/1701734400/CLOUD_30ebc830-0f45-4351-b108-3624f06e55bd.glb",
+  "product_url": "https://www.target.com/p/-/A-88677053",
+  "dimensions": {
+    "height": 1.5235,
+    "width": 0.8241,
+    "depth": 0.4693,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brown",
+  "color_source": "parsed"
+}

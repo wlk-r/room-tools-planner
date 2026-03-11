@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94685444",
+      "name": "20&#34;x30&#34; Avery Plaid Handloom Woven Bath Rug Ivory/Green - Threshold&#8482;",
+      "color": "Ivory/Green"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94685444",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "bath-rug",
+        "textile"
+      ],
+      "tags": [
+        "organic",
+        "handwoven",
+        "scandinavian",
+        "warm"
+      ]
+    }
+  ]
+}

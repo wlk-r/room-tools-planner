@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "89709805",
+      "name": "13.25&#34; Pre-lit Angel Christmas Tree Topper Gold/White - Wondershop&#8482;",
+      "color": "Gold/White"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "89709805",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "tree-topper",
+        "decor"
+      ],
+      "tags": [
+        "festive",
+        "warm",
+        "traditional",
+        "elegant"
+      ]
+    }
+  ]
+}

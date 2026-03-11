@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "93145385",
+      "name": "15 Pocket Over-the-Door Hanging Shoe Storage Tan - Brightroom&#8482;",
+      "color": "Tan"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "93145385",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "storage",
+        "closet-organizer"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "functional"
+      ]
+    }
+  ]
+}

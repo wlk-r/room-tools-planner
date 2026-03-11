@@ -1,0 +1,24 @@
+{
+  "tcin": "93058897",
+  "name": "Butterfly Chair Faux Shearling Cream - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$43.00",
+  "currency": "USD",
+  "description": "This Butterfly Chair from Room Essentials™ lends an eye-catching accent to your home. This accent chair has a black steel frame with a stylish star-like design and is topped with a soft faux-shearling butterfly seat with tufting, creating a cozy spot to kick back and relax. Plus, the sleek metal frame can collapse flat, and the fuzzy seat can be removed, making it easy to store and carry wherever you need an instant touch of comfort and style.<br /><br />Room Essentials™: Everyday Value<br /><br />Detailed Dimensions:<br />Overall Width: 31.9 inches<br />Overall Height: 34.4 inches<br />Overall Depth: 26.2 inches<br />Distance from floor to bottom of chair: 16.1 inches<br />Depth of seat: 16.5 inches<br />",
+  "categories": [
+    "Furniture",
+    "Best Furniture"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_9e4c28d4-fbe8-41d5-b7fd-af79abf97e93",
+  "glb_url": "https://digitalcontent.target.com/vault/1748304000/CLOUD_0ba487f2-ec9a-45b0-b34d-31320b2e22d6.glb",
+  "product_url": "https://www.target.com/p/-/A-93058897",
+  "dimensions": {
+    "height": 0.8738,
+    "width": 0.828,
+    "depth": 0.6985,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Cream",
+  "color_source": "parsed"
+}

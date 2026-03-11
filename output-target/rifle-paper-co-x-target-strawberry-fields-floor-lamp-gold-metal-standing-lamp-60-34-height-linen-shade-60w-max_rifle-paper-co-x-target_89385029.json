@@ -1,0 +1,24 @@
+{
+  "tcin": "89385029",
+  "name": "Rifle Paper Co. x Target Strawberry Fields Floor Lamp: Gold Metal Standing Lamp, 60&#34; Height, Linen Shade, 60W Max",
+  "brand": "Rifle Paper Co. x Target",
+  "price": "$140.00",
+  "currency": "USD",
+  "description": "This Strawberry Fields Floor Lamp from Rifle Paper Co. x Target is an elegant way to illuminate your space. This floor lamp features a brass-tone metal base and a pleated linen shade with an allover floral print. It has a five-foot power cord for versatile placement, and the turn knob rotary switch with a one-way light setting offers easy operation. The lamp requires one E26 bulb (not included) to fill your foyer or living room with a soft, warm glow. <br /><br />Rifle Paper Co. is a stationery and lifestyle brand based in Winter Park, Florida, founded in 2009 by husband-wife team Nathan and Anna Bond. Anna’s hand-painted illustrations and distinctive color palette are at the heart of the brand, and their goal is to create products that bring beauty to the everyday. They’re teaming up with Target for a limited-edition collaboration to bring their signature prints to furniture and décor for every room of the home.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b29fe9d2-4c50-4bce-9671-4e6bce38d377",
+  "glb_url": "https://digitalcontent.target.com/vault/1705449600/CLOUD_23c87257-3730-4726-a645-73355646193f.glb",
+  "product_url": "https://www.target.com/p/-/A-89385029",
+  "dimensions": {
+    "height": 1.524,
+    "width": 0.6312,
+    "depth": 0.6305,
+    "unit": "m",
+    "source": "glb"
+  }
+}

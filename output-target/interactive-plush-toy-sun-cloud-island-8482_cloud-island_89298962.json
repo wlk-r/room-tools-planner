@@ -1,0 +1,23 @@
+{
+  "tcin": "89298962",
+  "name": "Interactive Plush Toy - Sun - Cloud Island&#8482;",
+  "brand": "Cloud Island",
+  "price": "$18.99",
+  "currency": "USD",
+  "description": "Let the sun rise on your kid's entertainment with the Interactive Plush Toy from cloud island™. Designed in the shape of a sun, this plush toy features multiple modes of play with a hanging cloud, a star, a loop and more. The soft fabric construction makes it a perfect gift for your little one and best of all, the toy focuses on sensory development. You can easily hang it anywhere with the built-in loop. <br /><br />cloud island™: Designed with love. Made without compromise.",
+  "categories": [
+    "Toys",
+    "Learning & Educational Toys",
+    "Baby Learning Toys"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_829b6598-9336-4a64-a345-2b056ccf0d4e",
+  "glb_url": "https://digitalcontent.target.com/vault/1715558400/CLOUD_b57e60ef-4ad9-494e-a9bf-6331b22a2ab9.glb",
+  "product_url": "https://www.target.com/p/-/A-89298962",
+  "dimensions": {
+    "height": 0.3852,
+    "width": 0.2641,
+    "depth": 0.0783,
+    "unit": "m",
+    "source": "glb"
+  }
+}

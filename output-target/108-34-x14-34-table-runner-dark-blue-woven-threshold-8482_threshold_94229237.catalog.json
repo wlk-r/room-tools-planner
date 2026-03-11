@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94229237",
+      "name": "108&#34;x14&#34; Table Runner Dark Blue Woven - Threshold&#8482;",
+      "color": "Dark Blue"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94229237",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "table-runner",
+        "textile"
+      ],
+      "tags": [
+        "striped",
+        "woven",
+        "coastal",
+        "casual"
+      ]
+    }
+  ]
+}

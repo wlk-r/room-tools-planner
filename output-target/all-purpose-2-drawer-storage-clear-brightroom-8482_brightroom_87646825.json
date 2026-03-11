@@ -1,0 +1,25 @@
+{
+  "tcin": "87646825",
+  "name": "All Purpose 2 Drawer Storage Clear - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$16.00",
+  "currency": "USD",
+  "description": "Keep a variety of items neatly organized and easily accessible with the help of this All Purpose 2 Drawer Storage from Brightroom™. This all-purpose storage includes two bins for storing different types of items, from hats to accessories and more. A slide-out design makes it easy to pull open no matter where you place it, and the clear construction matches any color scheme while also letting you see what you've stored inside. Whether organizing your closet or home office, this all-purpose drawer organizer is a smart and practical pick. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Carts & Drawer Units"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e9ffe9bc-fd49-4425-8016-3481be034cba",
+  "glb_url": "https://digitalcontent.target.com/vault/1678233600/CLOUD_dadc04b4-1bfa-4130-b489-622eda72a994.glb",
+  "product_url": "https://www.target.com/p/-/A-87646825",
+  "dimensions": {
+    "height": 0.3251,
+    "width": 0.3099,
+    "depth": 0.2235,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Clear",
+  "color_source": "parsed"
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "94199479",
+  "name": "1&#39;8&#34;x2&#39;6&#34; Low Profile Kitchen Mat Gray - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$20.00",
+  "currency": "USD",
+  "description": "Bring function and style to your indoor space with the Low-Profile Kitchen Mat from Room Essentials™. This rectangular kitchen mat comes in a gray hue for a stylish look that blends well with any decor. The polyurethane material provides soft underfoot comfort, while a flat pile height makes it suitable for high-traffic areas within your home.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Accent Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_8bcb0dd4-8dbb-46c6-a225-6892b8d9f627",
+  "glb_url": "https://digitalcontent.target.com/vault/1752192000/CLOUD_21e714d8-043b-4667-bbd4-047e6744ffe7.glb",
+  "product_url": "https://www.target.com/p/-/A-94199479",
+  "dimensions": {
+    "height": 0.762,
+    "width": 0.508,
+    "depth": 0.0056,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

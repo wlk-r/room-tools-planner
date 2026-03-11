@@ -1,0 +1,25 @@
+{
+  "tcin": "90058097",
+  "name": "Colored Glass Bath Canister Pink - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$13.00",
+  "currency": "USD",
+  "description": "Find a convenient spot to keep your cotton balls and other bathroom essentials organized with the Colored Glass Bath Canister from Threshold™. This pink bath canister features a jar-like shape with a removable lid to help keep the contents neatly covered. Made of colored glass, it makes a practical addition to your bath space.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_5eeb3d05-7be0-4e79-b28f-cb27478b8392",
+  "glb_url": "https://digitalcontent.target.com/vault/1735084800/CLOUD_11196f5b-bdd0-4100-9f6d-14808768741f.glb",
+  "product_url": "https://www.target.com/p/-/A-90058097",
+  "dimensions": {
+    "height": 0.1031,
+    "width": 0.1011,
+    "depth": 0.1011,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Pink",
+  "color_source": "parsed"
+}

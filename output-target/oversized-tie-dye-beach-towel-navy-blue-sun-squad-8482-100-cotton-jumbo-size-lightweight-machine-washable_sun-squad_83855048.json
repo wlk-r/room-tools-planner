@@ -1,0 +1,25 @@
+{
+  "tcin": "83855048",
+  "name": "Oversized Tie-Dye Beach Towel Navy Blue - Sun Squad&#8482;: 100% Cotton, Jumbo Size, Lightweight, Machine Washable",
+  "brand": "Sun Squad",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Enjoy lounging in the sun and sand with this Oversized Tie-Dye Beach Towel from Sun Squad™. Showcasing a navy blue tie-dye pattern with fringe edges, this beach towel adds a touch of style to your waterside activities. The lightweight oversized beach towel is made of cotton in a terry weave that's perfect for spreading out on the sand or drying off at the pool.<br /><br />Sun Squad™: Ready for fun.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Beach Towels"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f1abdabf-f0c8-4b22-bd24-def2c63dc059",
+  "glb_url": "https://digitalcontent.target.com/vault/1741651200/CLOUD_3473734e-5af7-43f8-8d77-e3f7a0eae027.glb",
+  "product_url": "https://www.target.com/p/-/A-83855048",
+  "color": "Navy Blue",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.8288,
+    "width": 1.524,
+    "depth": 0.0368,
+    "unit": "m",
+    "source": "glb"
+  }
+}

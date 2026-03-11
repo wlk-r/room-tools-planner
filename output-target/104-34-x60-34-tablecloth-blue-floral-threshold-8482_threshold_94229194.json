@@ -1,0 +1,25 @@
+{
+  "tcin": "94229194",
+  "name": "104&#34;x60&#34; Tablecloth Blue Floral - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$24.00",
+  "currency": "USD",
+  "description": "This Blue Floral Tablecloth from Threshold™ brings artistic flair to your tablescape. Made from 100% cotton, this rectangular tablecloth offers protection against spills, stains, and scratches. Adorned with allover floral print on a blue background, this decorative tablecloth brings sweet charm to your space, while the machine-washable design makes cleaning a breeze.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen & Table Linens",
+    "Tablecloths"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_51d3c366-e246-4b31-8834-350ad008c820",
+  "glb_url": "https://digitalcontent.target.com/vault/1758672000/CLOUD_92040a58-984b-4396-b05c-8def439eceea.glb",
+  "product_url": "https://www.target.com/p/-/A-94229194",
+  "dimensions": {
+    "height": 2.1881,
+    "width": 1.1674,
+    "depth": 0.7731,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

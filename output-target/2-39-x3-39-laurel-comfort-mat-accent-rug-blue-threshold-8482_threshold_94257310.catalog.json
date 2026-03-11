@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "94257310",
+      "name": "2&#39;x3&#39; Laurel Comfort Mat Accent Rug Blue - Threshold&#8482;",
+      "color": "Blue"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94257310",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug"
+      ],
+      "tags": [
+        "floral",
+        "botanical",
+        "cozy",
+        "traditional"
+      ]
+    }
+  ]
+}

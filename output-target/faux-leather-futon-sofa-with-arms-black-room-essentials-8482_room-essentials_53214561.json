@@ -1,0 +1,25 @@
+{
+  "tcin": "53214561",
+  "name": "Faux Leather Futon Sofa with Arms Black - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$300.00",
+  "currency": "USD",
+  "description": "Make moments shared with friends and family more precious with this Black Faux-Leather Futon Sofa with Arms from Room Essentials™. Upholstered in a black faux-leather fabric, this sleek contemporary sofa has arms for comfortable support and easily converts into a bed with its click-clack technology so you can accommodate overnight guests. With this stylish and functional futon sofa, you'll love sitting, relaxing and chatting for longer in your updated living space.<br /><br />If you’re not satisfied with any Target Owned Brand item, return it within one year with a receipt for an exchange or a refund.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Futons"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_98c53ddc-9677-4c18-a550-2b45c599948b",
+  "glb_url": "https://digitalcontent.target.com/vault/1763078400/CLOUD_1281c71b-8a5c-41d5-b7d8-e987f55724c7.glb",
+  "product_url": "https://www.target.com/p/-/A-53214561",
+  "dimensions": {
+    "height": 1.9609,
+    "width": 0.8611,
+    "depth": 0.8306,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

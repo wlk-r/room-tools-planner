@@ -1,0 +1,25 @@
+{
+  "tcin": "89198190",
+  "name": "Swivel Gaming Chair Gray - Room Essentials&#8482;: Upholstered Computer Desk Chair, Adjustable, Fixed Arms",
+  "brand": "Room Essentials",
+  "price": "$130.00",
+  "currency": "USD",
+  "description": "From gaming marathons to working from home, sit comfortably in this Swivel Gaming Chair from Room Essentials™. This upholstered chair is crafted with a wooden base and features soft fabric upholstery with padded seat, back and armrests for sitting comfort. The swivel mechanism lets you revolve the chair 360 degrees, while the casters at the base allow for easy maneuverability. Best of all, the adjustable height lets you adjust the height from the floor to find the best viewing angle.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Furniture",
+    "Gaming Furniture",
+    "Gaming Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_6e0a3e65-f953-441b-a422-fb3c6483b79c",
+  "glb_url": "https://digitalcontent.target.com/vault/1712534400/CLOUD_87fc1fc4-5fe4-4e6e-964f-43ec114d44f7.glb",
+  "product_url": "https://www.target.com/p/-/A-89198190",
+  "color": "Gray",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.1741,
+    "width": 0.7881,
+    "depth": 0.7297,
+    "unit": "m",
+    "source": "glb"
+  }
+}

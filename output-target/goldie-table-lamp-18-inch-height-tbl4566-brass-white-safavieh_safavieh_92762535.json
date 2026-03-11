@@ -1,0 +1,26 @@
+{
+  "tcin": "92762535",
+  "name": "Goldie Table Lamp - 18 Inch Height - TBL4566 - Brass/White - Safavieh",
+  "brand": "Safavieh",
+  "price": "$62.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the elegant and sophisticated design of the Goldie Inch Table Lamp. This stylish lamp features a sleek metal body and shade, gracefully combined in a classic brass and white color scheme. With dimensions thoughtfully crafted to enhance any room, the lamp boasts a height of 18.5 inches (47 cm), a shade diameter of 10 inches (25.5 cm), and a base diameter of 6.25 inches (16 cm).\n\nThe seamless integration of the white dome shade and the striking brass finish of the body adds a touch of refinement to your desk, bedside table, or living area. The 60-inch (152 cm) power cord provides ample length for versatile placement options. Whether you're setting the mood in a quiet corner or highlighting your favorite reading spot, the Goldie Inch Table Lamp is an inviting addition to your decor, delivering both functionality and style.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2bd47497-78fd-4500-8e70-6f5ca01e60e2",
+  "glb_url": "https://digitalcontent.target.com/vault/1769126400/CLOUD_f4e46482-521d-4170-b919-3ccdd9853d54.glb",
+  "product_url": "https://www.target.com/p/-/A-92762535",
+  "dimensions": {
+    "height": 0.4572,
+    "width": 0.254,
+    "depth": 0.254,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brass/White",
+  "color_source": "parsed"
+}

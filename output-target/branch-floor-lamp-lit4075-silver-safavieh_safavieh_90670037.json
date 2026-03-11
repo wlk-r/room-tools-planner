@@ -1,0 +1,26 @@
+{
+  "tcin": "90670037",
+  "name": "Branch Floor Lamp - LIT4075 - Silver - Safavieh",
+  "brand": "Safavieh",
+  "price": "$147.99",
+  "currency": "USD",
+  "description": "Introducing the Silver Branch floor lamp, a striking addition to your home decor. Standing elegantly at 58 inches, this exquisite piece embodies modern design with its sleek silver finish. Crafted from silver polyresin, the lamp offers a perfect blend of style and functionality. Its unique branch-like structure captivates the eye, turning an everyday lamp into a conversation starter. Whether placed in the living room or a cozy corner, the warm glow it emits will create an inviting atmosphere. Transform your space into a contemporary haven with the Silver Branch floor lamp, where design meets illumination in the most sophisticated way.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_55fdbf90-5905-457e-a824-83a456baa9a4",
+  "glb_url": "https://digitalcontent.target.com/vault/1769990400/CLOUD_3e66e0a0-6d44-4dc2-9e92-8d7eab212fc1.glb",
+  "product_url": "https://www.target.com/p/-/A-90670037",
+  "dimensions": {
+    "height": 1.4732,
+    "width": 0.381,
+    "depth": 0.381,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Silver",
+  "color_source": "parsed"
+}

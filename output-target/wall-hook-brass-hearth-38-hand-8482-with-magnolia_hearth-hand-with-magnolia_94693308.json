@@ -1,0 +1,26 @@
+{
+  "tcin": "94693308",
+  "name": "Wall Hook Brass - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand with Magnolia",
+  "price": "$5.99",
+  "currency": "USD",
+  "description": "Keep your home organized with this Wall Hook Brass from Hearth & Hand™ with Magnolia. Made of metal with a brass finish, this hook boasts a circular mounting plate with a concentric ring design for a classic look. It features an upper arm extending outwards and a lower curved arm to hang a variety of items, and it comes with two screws and wall plugs for easy installation. <br /><br />Hearth & Hand™ with Magnolia: Gather • Create • Enjoy",
+  "categories": [
+    "Home",
+    "Home Improvement",
+    "Hardware",
+    "Wall Hooks & Hook Racks"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c4a6a681-5162-4bee-8182-1f687fb62055",
+  "glb_url": "https://digitalcontent.target.com/vault/1767916800/CLOUD_26cd860f-6451-498e-b2c0-581f7efd904f.glb",
+  "product_url": "https://www.target.com/p/-/A-94693308",
+  "color": "Brass",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.2158,
+    "width": 0.1163,
+    "depth": 0.1016,
+    "unit": "m",
+    "source": "glb"
+  }
+}

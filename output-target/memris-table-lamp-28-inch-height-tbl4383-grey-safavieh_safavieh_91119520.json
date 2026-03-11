@@ -1,0 +1,26 @@
+{
+  "tcin": "91119520",
+  "name": "Memris Table Lamp - 28 Inch Height - TBL4383 - Grey - Safavieh",
+  "brand": "Safavieh",
+  "price": "$70.99",
+  "currency": "USD",
+  "description": "Elevate your living space with the Memris 28.5 inch grey glass table lamp. This striking piece combines style and sophistication with a design that stands out. The elegant grey hue effortlessly complements any decor, adding a touch of modern charm to your room. Crafted with a glass body that forms 80 percent of the lamp, it brings a subtle gleam that catches the eye. The iron neck, comprising 20 percent, adds strength and a sleek finish. Perfect for your bedside or living room table, this lamp provides the ideal blend of form and function. Illuminate your space with this tasteful addition and set the perfect ambiance for your home. Make the Memris table lamp your go-to choice for an exquisite lighting solution that speaks volumes without saying a word.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_683a5533-ef9a-4a06-84e1-c21ae8366e90",
+  "glb_url": "https://digitalcontent.target.com/vault/1769558400/CLOUD_2ad7015c-a09b-456e-9bcd-9bd2648656b9.glb",
+  "product_url": "https://www.target.com/p/-/A-91119520",
+  "color": "Grey",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.7112,
+    "width": 0.3556,
+    "depth": 0.3556,
+    "unit": "m",
+    "source": "glb"
+  }
+}

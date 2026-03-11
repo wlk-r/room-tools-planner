@@ -1,0 +1,26 @@
+{
+  "tcin": "79566326",
+  "name": "17.5&#34;x11&#34; Assembled Ceramic Table Lamp Gray - Threshold&#8482;: Bud-Shaped Base, No Assembly Required, UL Listed",
+  "brand": "Threshold",
+  "price": "$40.00",
+  "currency": "USD",
+  "description": "Lighten up your space with this Gray Medium Assembled Ceramic Table Lamp from Threshold™. This ceramic table lamp makes a welcome addition to your indoor lighting. It features a glossy bud-shaped base with a gray speckled design for sophisticated, chic flair. The white drum shade diffuses light for a soft, ambient glow, while the one-way light setting with a simple on/off switch allows for easy operation. Place it on the side table next to your sofa or console in your living room for an inviting look.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0700a6fe-1ee0-418a-a106-7aed9047ebb0",
+  "glb_url": "https://digitalcontent.target.com/vault/1601251200/CLOUD_9aaa5955-e289-4a20-8a2a-60aac4daf538.glb",
+  "product_url": "https://www.target.com/p/-/A-79566326",
+  "dimensions": {
+    "height": 0.4381,
+    "width": 0.2885,
+    "depth": 0.2616,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

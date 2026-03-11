@@ -1,0 +1,24 @@
+{
+  "tcin": "94688463",
+  "name": "Woven Lounge Chair - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand w/Magnolia Furniture",
+  "price": "$249.99",
+  "currency": "USD",
+  "description": "Add a touch of rustic charm to your home with this Simple Rustic Woven Lounge Chair from Hearth & Hand™ with Magnolia. This armchair features a rectangular seat and back with a distinctive woven design that bring textured style to your space. With a light bronn silhouette and a rubberwood frame, this lounge chair fits easily into your living room, study, or any cozy corner where you want to relax. <br /><br />Hearth & Hand™ with Magnolia: Gather • Create • Enjoy<br /><br />Overall Width: 26 inches<br />Overall Height: 31.8 inches<br />Overall Depth: 29.9 inches<br />Distance from floor to top of arm: 23.2 inches<br />Distance from floor to top of seat: 16.2  inches<br />Distance between front legs: 22.8 inches<br />Distance between front leg and back leg: 24.7 inches<br />Seat depth: 20.8 inches",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Chairs",
+    "Accent Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_6e111c18-e63d-4b3a-a544-ee4468b4cbbd",
+  "glb_url": "https://digitalcontent.target.com/vault/1772496000/CLOUD_fb8555de-7f90-4b2c-8b2e-da1240c36c80.glb",
+  "product_url": "https://www.target.com/p/-/A-94688463",
+  "dimensions": {
+    "height": 0.8001,
+    "width": 0.7239,
+    "depth": 0.6599,
+    "unit": "m",
+    "source": "glb"
+  }
+}

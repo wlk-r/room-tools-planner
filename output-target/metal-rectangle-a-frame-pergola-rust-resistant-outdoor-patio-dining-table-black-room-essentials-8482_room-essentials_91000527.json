@@ -1,0 +1,26 @@
+{
+  "tcin": "91000527",
+  "name": "Metal Rectangle A-Frame Pergola Rust Resistant Outdoor Patio Dining Table Black - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$200.00",
+  "currency": "USD",
+  "description": "Create a beautiful dining space surrounded with your favorite plants with the Rectangle A-Frame Pergola Patio Dining Table from Room Essentials™. This rectangle dining table features an A-frame with hooks for holding planters. Made of steel in a powder-coated finish, this patio dining table has a slatted tabletop with an umbrella hole to keep you all shaded, and it's rust resistant for lasting outdoor use.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Tables",
+    "Outdoor Dining Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c0936b73-2772-487b-9cc6-191e7c9d3378",
+  "glb_url": "https://digitalcontent.target.com/vault/1726185600/CLOUD_2af81950-436a-4e07-86cb-a9d459840425.glb",
+  "product_url": "https://www.target.com/p/-/A-91000527",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.9864,
+    "width": 1.7854,
+    "depth": 1.0141,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "90009982",
+  "name": "13.52 fl oz Stoneware Tilley Mug Olive Green - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Add textured charm to your mug collection with the 13.52-Fluid-Ounce Stoneware Tilley Mug from Threshold™. This olive green mug showcases a textured design with a contrasting rim in a neutral shade for a beautiful look. Suitable for both hot and cold beverages, this stoneware mug allows quick reheating and can be tossed in the dishwasher with its microwave- and dishwasher-safe design.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_8ad9e576-7ce9-4bb9-ba8c-b635c119b798",
+  "glb_url": "https://digitalcontent.target.com/vault/1717372800/CLOUD_935e9d09-2cc6-410c-baf5-30b52a1426f4.glb",
+  "product_url": "https://www.target.com/p/-/A-90009982",
+  "dimensions": {
+    "height": 0.1287,
+    "width": 0.0942,
+    "depth": 0.0892,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Olive Green",
+  "color_source": "parsed"
+}

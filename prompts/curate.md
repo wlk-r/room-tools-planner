@@ -11,6 +11,7 @@ Given a floor plan and product catalog, select products that create a cohesive, 
 <catalog>
 {catalog_json}
 </catalog>
+{vibe}
 </inputs>
 
 <output>
@@ -40,6 +41,7 @@ Array of item_no strings from the catalog that could fill this role. Rank best m
 - Do NOT consider footprint dimensions — just focus on style, function, and category fit.
 - Cast a wide net: for each role, provide 2-4 candidate item_nos ranked by fit. The placement stage will narrow down based on spatial constraints.
 - Think holistically: ensure stylistic coherence across all rooms. Prefer items with compatible tags.
+- If a style brief is provided, prioritize candidates that match the described aesthetic. Deprioritize items that clash with the brief.
 - Be practical: every room needs functional anchors first (seating, tables, desks), then accents (side tables, chairs), then fill (rugs, lamps, decor).
 - Do not assign surface-placement items (vases, lamps, small decor) unless the room has an anchor they can sit on.
 - A product can be a candidate for multiple roles/rooms if it makes sense.

@@ -1,0 +1,25 @@
+{
+  "tcin": "49174664",
+  "name": "Whitesburg Rectangular Dining Room Table Wood/Brown/Cottage White - Signature Design by Ashley: Non-Extension, Seats 6",
+  "brand": "Signature Design by Ashley",
+  "price": "$319.99",
+  "currency": "USD",
+  "description": "Incorporate cottage-cool warmth in your dining space with the Whitesburg dining room table. A two-tone finish serves up twice the charm and character. Made with select veneers and hardwood solids in a two-tone finish. Table is finished in a burnished brown color. The table base is finished in cottage white paint. Signature Design by Ashley is a registered trademark of Ashley Furniture Industries, Inc.",
+  "categories": [
+    "Furniture",
+    "Kitchen & Dining Furniture",
+    "Dining Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4456c4f5-69de-4e94-a08b-5092e6a23fb5",
+  "glb_url": "https://digitalcontent.target.com/vault/1617840000/CLOUD_eaa56360-de3e-411c-ac62-ec4577c35dc3.glb",
+  "product_url": "https://www.target.com/p/-/A-49174664",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.522,
+    "width": 0.9064,
+    "depth": 0.7615,
+    "unit": "m",
+    "source": "glb"
+  }
+}

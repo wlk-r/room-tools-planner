@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "91761901",
+      "name": "16&#34; Round Pillow Chambray with Floral Gusset Orange - Threshold&#8482; Design with Studio McGee",
+      "color": "Orange"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "91761901",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "pillow",
+        "textile",
+        "decor"
+      ],
+      "tags": [
+        "warm",
+        "contemporary",
+        "cozy",
+        "textured"
+      ]
+    }
+  ]
+}

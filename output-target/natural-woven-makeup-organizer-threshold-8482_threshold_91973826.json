@@ -1,0 +1,23 @@
+{
+  "tcin": "91973826",
+  "name": "Natural Woven Makeup Organizer - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$20.00",
+  "currency": "USD",
+  "description": "Accent any space in your home in an artistic way with the Natural Woven Makeup Organizer from Threshold™. This natural-shade organizer showcases a woven design to add a textured appeal to your vanity. Designed with a metal frame, this woven makeup organizer comes with multiple divided compartments to help keep makeup, brushes and other cosmetics separate and handy.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_027fd177-56c8-436e-983f-5d00958f26b1",
+  "glb_url": "https://digitalcontent.target.com/vault/1758499200/CLOUD_e673cfa2-15d2-4d36-ae0a-5322fad40e7e.glb",
+  "product_url": "https://www.target.com/p/-/A-91973826",
+  "dimensions": {
+    "height": 0.5194,
+    "width": 0.2956,
+    "depth": 0.2567,
+    "unit": "m",
+    "source": "glb"
+  }
+}

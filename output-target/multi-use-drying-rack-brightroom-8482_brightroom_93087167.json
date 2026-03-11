@@ -1,0 +1,24 @@
+{
+  "tcin": "93087167",
+  "name": "Multi-use Drying Rack - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$15.00",
+  "currency": "USD",
+  "description": "Take good care of your garments with this Multi-Use Drying Rack from Brightroom™. Made from plastic and metal, this efficient rack holds up to 26 pounds and offers 76.01 square feet of drying space. Its versatile uses include air-drying delicates as well as storing and organizing them.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Laundry Room Organization",
+    "Clothes Drying"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2bcc724f-af94-4073-ac82-3f9fe9284f73",
+  "glb_url": "https://digitalcontent.target.com/vault/1751587200/CLOUD_6664fe3c-a633-4900-9655-fb8341a79c1e.glb",
+  "product_url": "https://www.target.com/p/-/A-93087167",
+  "dimensions": {
+    "height": 1.6063,
+    "width": 0.793,
+    "depth": 0.6672,
+    "unit": "m",
+    "source": "glb"
+  }
+}

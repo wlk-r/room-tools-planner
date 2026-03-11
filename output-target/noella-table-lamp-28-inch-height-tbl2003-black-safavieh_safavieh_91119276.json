@@ -1,0 +1,26 @@
+{
+  "tcin": "91119276",
+  "name": "Noella Table Lamp - 28 Inch Height - TBL2003 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$169.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the NOELLA 28-inch black aluminum table lamp, a seamless blend of style and functionality. Crafted with precision, this lamp features a sleek black iron structure that adds an elegant touch to any room. The NOELLA lamps minimalist design effortlessly complements both modern and classic decor, making it a versatile addition to your home. Its 28-inch stature provides the ideal height for reading and creating a warm ambiance. The lamp's sturdy construction ensures it remains a staple in your living space. Transform your home with the NOELLA table lamp and enjoy a perfect balance of form and function. Its black finish and thoughtful design make it an essential element of style, offering you endless possibilities to enhance your interior.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_da758933-6b2b-4f44-9cc7-9d24dcb2fa5e",
+  "glb_url": "https://digitalcontent.target.com/vault/1764115200/CLOUD_24677b2d-766f-4e00-8fe2-2b72a6e80bee.glb",
+  "product_url": "https://www.target.com/p/-/A-91119276",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.7396,
+    "width": 0.3814,
+    "depth": 0.3814,
+    "unit": "m",
+    "source": "glb"
+  }
+}

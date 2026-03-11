@@ -1,0 +1,23 @@
+{
+  "tcin": "94427468",
+  "name": "Pinata Dog Plush Toy - Boots &#38; Barkley&#8482;",
+  "brand": "Boots & Barkley",
+  "price": "$4.99",
+  "currency": "USD",
+  "description": "Make your furry friend's playtime fun and exciting with this Pinata Dog Plush Toy from Boots & Barkley™. This plush dog toy features vibrant colors and comes with a knotted tail to keep them happily engaged. Made of polyester fabric, the toy is designed as a pinata and is great for fetching and chewing.<br /><br />Boots & Barkley™: Because pets are just the best.",
+  "categories": [
+    "Pets",
+    "Dog Supplies",
+    "Dog Toys"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e855941a-06f6-4297-a912-641359dfca01",
+  "glb_url": "https://digitalcontent.target.com/vault/1770940800/CLOUD_648b6b59-a541-474f-8c51-c40dd3f97c8e.glb",
+  "product_url": "https://www.target.com/p/-/A-94427468",
+  "dimensions": {
+    "height": 0.1778,
+    "width": 0.1778,
+    "depth": 0.0972,
+    "unit": "m",
+    "source": "glb"
+  }
+}

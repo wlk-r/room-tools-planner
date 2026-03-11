@@ -1,0 +1,24 @@
+{
+  "tcin": "94685964",
+  "name": "Easter Woven Standing Bunny - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$15.00",
+  "currency": "USD",
+  "description": "Bring rustic style to your Easter setup with this Easter Woven Standing Bunny from Threshold™. Woven from grass with foam filling, this standing bunny also features a pink fabric ribbon around the neck for a charming touch of contrast. Intended for indoor use only, you can place it on any shelf or table alongside other spring- or Easter-themed decor.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Decorative Objects",
+    "Sculptures & Figurines"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_533cbfef-5c76-4c18-89b1-235d306f3894",
+  "glb_url": "https://digitalcontent.target.com/vault/1766707200/CLOUD_208bae3c-6b38-4ded-9610-fb20cdfc500a.glb",
+  "product_url": "https://www.target.com/p/-/A-94685964",
+  "dimensions": {
+    "height": 0.2274,
+    "width": 0.1613,
+    "depth": 0.1545,
+    "unit": "m",
+    "source": "glb"
+  }
+}

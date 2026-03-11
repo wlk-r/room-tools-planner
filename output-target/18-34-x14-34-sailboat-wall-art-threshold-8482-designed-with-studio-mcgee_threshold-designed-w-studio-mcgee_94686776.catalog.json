@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "94686776",
+      "name": "18&#34;x14&#34; Sailboat Wall Art - Threshold&#8482; designed with Studio McGee",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94686776",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "wall-art"
+      ],
+      "tags": [
+        "coastal",
+        "warm",
+        "serene",
+        "nautical"
+      ]
+    }
+  ]
+}

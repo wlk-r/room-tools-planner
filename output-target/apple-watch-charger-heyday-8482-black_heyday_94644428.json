@@ -1,0 +1,24 @@
+{
+  "tcin": "94644428",
+  "name": "Apple Watch Charger - heyday&#8482; Black",
+  "brand": "Heyday",
+  "price": "$19.99",
+  "currency": "USD",
+  "description": "The Apple Watch Charger from heyday™ offers a convenient magnetic mount for easy charging. With a 6-foot cable, it provides flexibility in placement and easy setup. The charger delivers a 5-watt output and connects via USB-C, ensuring efficient power delivery. The compact design makes it easy to carry, making it a practical choice for keeping your Apple Watches powered up.<br /><br />heyday™: Let your style speak volumes.",
+  "categories": [
+    "Electronics",
+    "Tech Accessories",
+    "Chargers",
+    "Wireless Chargers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_daeab345-71d2-469c-8f22-3959554e3f5c",
+  "glb_url": "https://digitalcontent.target.com/vault/1762214400/CLOUD_36f13e62-e022-4fb4-9c4d-04eec3cacfc1.glb",
+  "product_url": "https://www.target.com/p/-/A-94644428",
+  "dimensions": {
+    "height": 0.1483,
+    "width": 0.103,
+    "depth": 0.0187,
+    "unit": "m",
+    "source": "glb"
+  }
+}

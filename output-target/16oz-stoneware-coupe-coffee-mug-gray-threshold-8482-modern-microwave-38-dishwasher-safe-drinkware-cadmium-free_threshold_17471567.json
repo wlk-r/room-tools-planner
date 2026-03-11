@@ -1,0 +1,25 @@
+{
+  "tcin": "17471567",
+  "name": "16oz Stoneware Coupe Coffee Mug Gray - Threshold&#8482;: Modern Microwave &#38; Dishwasher-Safe Drinkware, Cadmium-Free",
+  "brand": "Threshold",
+  "price": "$3.00",
+  "currency": "USD",
+  "description": "Enjoy iced tea on hot sunny days or a steaming cup of joe by the evening fire in style with this 16-Ounce Stoneware Avesta Mug from Threshold™. Crafted from shiny glazed finished stoneware, this mug features a simple yet stylish look that makes it easy to mix in with the rest of your drinkware. The mug holds 16 fluid ounces — perfect for a satisfying serving of coffee, tea, cocoa or any other drink. Best of all, the stoneware mug is microwave- and dishwasher-safe for easy reheating and cleanup for added convenience.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e7c9f913-50c3-404e-bcce-16442256b009",
+  "glb_url": "https://digitalcontent.target.com/vault/1659484800/CLOUD_253e240a-33e9-46ba-a069-fba9c4b3577d.glb",
+  "product_url": "https://www.target.com/p/-/A-17471567",
+  "dimensions": {
+    "height": 0.1397,
+    "width": 0.108,
+    "depth": 0.0889,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

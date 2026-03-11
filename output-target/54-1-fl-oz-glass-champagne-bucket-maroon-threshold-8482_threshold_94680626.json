@@ -1,0 +1,25 @@
+{
+  "tcin": "94680626",
+  "name": "54.1 fl oz Glass Champagne Bucket Maroon - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$17.00",
+  "currency": "USD",
+  "description": "Keep your favorite drinks cool and fresh with this Glass Champagne Bucket from Threshold™. This glass champagne bucket is designed like a flower bud and features a wavy edge to bring a refined, artistic touch to any celebration. With a capacity of 54.1 fluid ounces, this maroon bucket is perfect for holidays, dinner parties and more.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Bar & Wine",
+    "Bar & Wine Tools"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3273abc8-b814-4a42-9494-095e92f95e64",
+  "glb_url": "https://digitalcontent.target.com/vault/1757635200/CLOUD_e03c3c91-9276-442f-90e2-7714cf260611.glb",
+  "product_url": "https://www.target.com/p/-/A-94680626",
+  "dimensions": {
+    "height": 0.2245,
+    "width": 0.2046,
+    "depth": 0.2031,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Maroon",
+  "color_source": "parsed"
+}

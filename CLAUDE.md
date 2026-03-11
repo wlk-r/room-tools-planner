@@ -24,7 +24,7 @@ Quantized floor plan + product catalog pipeline for LLM-generated furniture layo
 
 ## Pipeline
 
-The pipeline transforms raw floor plan geometry + vendor product data into furnished room layouts via three scripts and a viewer. Each stage produces intermediate files consumed by the next.
+The pipeline transforms raw floor plan geometry + vendor product data into furnished room layouts via four scripts and a viewer. Each stage produces intermediate files consumed by the next.
 
 ```
 floor_plan.sample/*.json ──┐
@@ -32,9 +32,15 @@ floor_plan.sample/*.json ──┐
 products/**/*.catalog.json ─┘                   └──► quantize_room.output/*_catalog.json
                                                           │
                                                           ▼
-                                                   generate_placement.py
-                                                     Stage 1: curate (whole plan)
-                                                     Stage 2: arrange (per room)
+                                                   generate_curation.py
+                                                     curate (whole plan)
+                                                          │
+                                                          ▼
+                                                   *_curation.json
+                                                          │
+                                                          ▼
+                                                   generate_arrangement.py
+                                                     arrange (per room)
                                                           │
                                                           ▼
                                                *_placement.json  (*_report.json)
@@ -63,33 +69,56 @@ Converts floor plan JSON (meters, Y-up) to a 256x256 pixel grid in CSS format (Y
 - Rasterizes room polygons to determine pixel-level room/obstacle membership.
 - Batch mode: pass a directory of JSON files to process all at once.
 
-### 3. generate_placement.py (LLM furniture placement)
+### 3. generate_curation.py (product curation)
 
-Two-stage LLM pipeline using `claude --print` to generate placement coordinates.
+LLM selects products from catalog and assigns to rooms using `claude --print`. Uses `prompts/curate.md`.
 
 **Inputs:** `*_plan.css` + `*_catalog.json` from `quantize_room.output/`
-**Output:** `<stem>_placement.json` conforming to `placement.schema.json`
+**Output:** `<stem>_curation.json`
 
-#### Stage 1 — Curate (`prompts/curate.md`)
 - **Scope:** Whole plan (all rooms + full catalog)
 - **Role:** Interior designer / shopping curator
 - **Sees:** Plan CSS (room sizes, names, layout) + catalog products/profiles (names, tiers, tags, colors). Does NOT see footprint dimensions.
-- **Produces:** JSON array of roles — each has a functional label (e.g. `dining-table`), target room, quantity, and 2-3 ranked candidate `item_no`s.
+- **Produces:** JSON array of roles — each has `room`, `role` (functional label e.g. `dining-table`), `qty`, and `candidates` (2-3 ranked `item_no`s).
 - **Goal:** Cast a wide net for candidates; the arrange stage narrows down based on spatial fit. Ensures stylistic coherence across rooms. Caps at 4-8 roles per small room, 8-12 for large.
+- **Validation:** Checks required keys (`room`, `role`, `qty`, `candidates`) and types before writing.
 
-#### Stage 2 — Arrange (`prompts/arrange.md`)
+**Flags:**
+- `--model`: Model for LLM calls (default: sonnet).
+- `--vibe`: Style brief (e.g. `'warm scandinavian, earth tones'`).
+- `--timeout`: LLM call timeout in seconds (default: 300).
+- `--verbose` / `-v`: Prints raw LLM responses (first 1000 chars) to console.
+- `--report` / `-r`: Writes `<stem>_report.json` with diagnostics.
+- `--force`: Regenerates curation even if `*_curation.json` already exists.
+
+### 4. generate_arrangement.py (spatial placement)
+
+LLM places curated items per room with exact coordinates using `claude --print`. Uses `prompts/arrange.md`.
+
+**Inputs:** `*_plan.css` + `*_catalog.json` + `*_curation.json` from `quantize_room.output/`
+**Output:** `<stem>_placement.json` conforming to `placement.schema.json`
+
 - **Scope:** One room at a time (isolated LLM call per room)
 - **Role:** Spatial reasoning engine
 - **Sees:** Room-specific CSS geometry (room components + adjacent obstacles/doors/windows extracted via bounding-box intersection) + candidates with footprints (width/height in px).
 - **Produces:** JSON array of `{ item_no, x, y, r }` placements — one entry per physical instance.
 - **Goal:** Pick one candidate per role based on spatial fit, place at exact grid coordinates. Respects obstacle/door clearances, maintains walkable pathways, groups furniture functionally.
 
-**Diagnostics:**
+**Flags:**
+- `--model`: Model for LLM calls (default: sonnet). Can use a faster model (e.g. haiku) since this stage is spatial constraint satisfaction, not aesthetic judgment.
+- `--room r1`: Re-run only specific room(s). Merges results into existing placement file, replacing only the specified room's items.
+- `--timeout`: LLM call timeout in seconds (default: 300).
 - `--verbose` / `-v`: Prints raw LLM responses (first 1000 chars) to console.
-- `--report` / `-r`: Writes `<stem>_report.json` with full prompt sizes, timings, raw responses, parsed results, and errors for each LLM call.
+- `--report` / `-r`: Writes `<stem>_report.json` with diagnostics.
 - `--force`: Regenerates placement even if `*_placement.json` already exists.
 
-### 4. viewer.html (visual verification)
+### Shared: llm_utils.py
+
+Common utilities used by both `generate_curation.py` and `generate_arrangement.py`:
+- `call_llm(prompt, model, verbose, timeout)` — calls `claude --print` via subprocess.
+- `extract_json(text)` — extracts JSON from LLM response text (handles direct parse, bracket matching, markdown fences).
+
+### 5. viewer.html (visual verification)
 
 Browser-based viewer that loads CSS plan files as rendered floor plans and overlays placement data.
 
@@ -102,8 +131,8 @@ Browser-based viewer that loads CSS plan files as rendered floor plans and overl
 
 - `floor_plan.sample/` — Source floor plan JSON files (meters, Y-up coordinate system)
 - `products/` — Vendor product directories: metadata JSON, images, GLB models, `.catalog.json` profiles
-- `quantize_room.output/` — All pipeline output: `*_plan.css`, `*_catalog.json`, `*_placement.json`, `*_report.json`
-- `prompts/` — LLM prompt templates: `profile.md` (catalog profiling), `curate.md` (stage 1), `arrange.md` (stage 2)
+- `quantize_room.output/` — All pipeline output: `*_plan.css`, `*_catalog.json`, `*_curation.json`, `*_placement.json`, `*_report.json`
+- `prompts/` — LLM prompt templates: `profile.md` (catalog profiling), `curate.md` (curation), `arrange.md` (arrangement)
 
 ## Product Footprints
 

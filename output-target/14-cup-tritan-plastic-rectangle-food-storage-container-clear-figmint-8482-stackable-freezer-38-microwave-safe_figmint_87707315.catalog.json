@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "87707315",
+      "name": "14 Cup Tritan Plastic Rectangle Food Storage Container Clear - Figmint&#8482;: Stackable, Freezer &#38; Microwave Safe",
+      "color": "Clear"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "87707315",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "kitchen-storage",
+        "food-storage"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "clean"
+      ]
+    }
+  ]
+}

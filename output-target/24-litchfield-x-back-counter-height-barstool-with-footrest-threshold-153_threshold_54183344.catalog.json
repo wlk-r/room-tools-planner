@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "54183344",
+      "name": "24\" Litchfield X-Back Counter Height Barstool with Footrest - Threshold&#153;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "54183344",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "bar-seating"
+      ],
+      "tags": [
+        "rustic",
+        "farmhouse",
+        "warm",
+        "wooden"
+      ]
+    }
+  ]
+}

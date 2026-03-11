@@ -1,0 +1,25 @@
+{
+  "tcin": "94256795",
+  "name": "28&#34; Round Metal Mirror Black - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$50.00",
+  "currency": "USD",
+  "description": "Add a touch of elegant charm to your home aesthetics with this Round Metal Mirror from Room Essentials™. This wall mirror features a metal frame in black to bring minimalist vibes to your space. It's designed in a round shape and features a wall-mount style for easy installation. Perfectly sized to balance function and style, this mirror instantly uplifts interiors with its artisanal appeal.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Mirrors"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c89dd42a-40e9-4142-9565-790f8892b711",
+  "glb_url": "https://digitalcontent.target.com/vault/1755734400/CLOUD_a8a56854-48a5-48d9-a114-ae21014cccc5.glb",
+  "product_url": "https://www.target.com/p/-/A-94256795",
+  "dimensions": {
+    "height": 0.7109,
+    "width": 0.7109,
+    "depth": 0.0211,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

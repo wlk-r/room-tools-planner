@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "90010038",
+      "name": "12pk Mixed Bower Tumbler Set Gray - Threshold&#8482;",
+      "color": "Gray"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90010038",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "glassware",
+        "tabletop",
+        "dining"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "clean"
+      ]
+    }
+  ]
+}

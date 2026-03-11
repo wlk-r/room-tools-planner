@@ -1,0 +1,26 @@
+{
+  "tcin": "80880772",
+  "name": "8&#34; x 4&#34; LED Flameless Black Wick Candle Cream - Threshold&#8482;: Wax, Home Decor, No Flame",
+  "brand": "Threshold",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Whether it's a special occasion or routine day, this LED Flameless Black Wick Candle from Threshold™ will illuminate your home in elegance. This flameless candle looks like a pillar candle, with an LED bulb fitted inside. With a realistic black wick, this LED candle will add a warm and inviting touch to your decor. Pair with candles of different heights and mix it in with other decorative elements.<br /><br />Threshold™: Quality & Design / Casual classics for house and home.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Candles & Home Fragrances",
+    "Flameless Candles"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4544e69e-aafd-4b71-b043-166b9b39d474",
+  "glb_url": "https://digitalcontent.target.com/vault/1656892800/CLOUD_b3451ff3-7fda-45cc-965b-5f03dd9fb154.glb",
+  "product_url": "https://www.target.com/p/-/A-80880772",
+  "dimensions": {
+    "height": 0.2032,
+    "width": 0.1016,
+    "depth": 0.0843,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Cream",
+  "color_source": "parsed"
+}

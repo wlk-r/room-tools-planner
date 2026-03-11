@@ -1,0 +1,26 @@
+{
+  "tcin": "90594233",
+  "name": "Brown Table Lamp (Set of 2) - 24 Inch Height - LIT4451 - Grey/Gold - Safavieh",
+  "brand": "Safavieh",
+  "price": "$149.99",
+  "currency": "USD",
+  "description": "Illuminate your space with style and sophistication using our brown table lamp in a captivating blend of gray, gold, and black. Designed to complement any decor, this lamp effortlessly bridges modern aesthetics with timeless charm. Featuring a graceful grey and gold finish, its understated elegance is matched by its versatility. Whether placed in your living room or bedroom, this lamp is sure to enhance the ambiance with its warm, inviting glow. Constructed with attention to detail, it serves as both a functional light source and a stunning decor piece. Its neutral tones make it a perfect match for various color schemes, adding a touch of refinement to any setting. Transform your space and experience the seamless blend of form and function with this exquisite table lamp.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c9d5a74d-bc27-419a-b60b-8ac55c08059b",
+  "glb_url": "https://digitalcontent.target.com/vault/1769472000/CLOUD_89daeb3e-56d3-428d-9348-e3ff08cbe386.glb",
+  "product_url": "https://www.target.com/p/-/A-90594233",
+  "dimensions": {
+    "height": 0.6096,
+    "width": 0.3556,
+    "depth": 0.3556,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Grey/Gold",
+  "color_source": "parsed"
+}

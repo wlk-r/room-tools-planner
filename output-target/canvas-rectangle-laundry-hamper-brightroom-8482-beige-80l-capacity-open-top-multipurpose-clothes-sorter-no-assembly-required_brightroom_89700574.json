@@ -1,0 +1,24 @@
+{
+  "tcin": "89700574",
+  "name": "Canvas Rectangle Laundry Hamper - Brightroom&#8482;: Beige, 80L Capacity, Open-Top, Multipurpose Clothes Sorter, No Assembly Required",
+  "brand": "Brightroom",
+  "price": "$13.00",
+  "currency": "USD",
+  "description": "Upgrade your laundry setup with this Rectangle Laundry Hamper from Brightroom™. This laundry hamper showcases a cream-color silhouette and two wooden handles in light brown for easy lifting and carrying from room to room. The open-top design allows for quick and easy access when loading and unloading, while the deep rectangular shape provides ample space for holding dirty clothes, offering a clean aesthetic.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Laundry Room Organization",
+    "Hampers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_afeac4da-73b2-4022-8cad-e0d5e6af6259",
+  "glb_url": "https://digitalcontent.target.com/vault/1721174400/CLOUD_49eed08d-7160-4916-b3e1-5d06f025cc5c.glb",
+  "product_url": "https://www.target.com/p/-/A-89700574",
+  "dimensions": {
+    "height": 0.5698,
+    "width": 0.4652,
+    "depth": 0.3437,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "91972793",
+  "name": "Ribbed Soap Pump Blue - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$8.00",
+  "currency": "USD",
+  "description": "Add an artisanal touch to your bath space with the Ribbed Soap Pump from Room Essentials™. This soap pump features an allover ribbed design for a classic look you'll love. Made of plastic with an easy-to-press lid, this BPA-free soap pump is compatible with lotion, dish and gel soaps. <br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4afd6972-a5fb-400b-aaeb-361fd71650f9",
+  "glb_url": "https://digitalcontent.target.com/vault/1749081600/CLOUD_37400915-af7d-4806-b28a-e8da96baded3.glb",
+  "product_url": "https://www.target.com/p/-/A-91972793",
+  "color": "Blue",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.1777,
+    "width": 0.0774,
+    "depth": 0.0774,
+    "unit": "m",
+    "source": "glb"
+  }
+}

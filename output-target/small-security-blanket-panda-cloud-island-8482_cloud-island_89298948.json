@@ -1,0 +1,24 @@
+{
+  "tcin": "89298948",
+  "name": "Small Security Blanket - Panda - Cloud Island&#8482;",
+  "brand": "Cloud Island",
+  "price": "$9.99",
+  "currency": "USD",
+  "description": "Add some stu-panda-ous charm to your little one's nursery with this Small Security Blanket Crib Toy from cloud island™. Crafted from soft, fuzzy fabric, this beige security blanket is fashioned in a handkerchief style with matching satin trim. It showcases an adorable panda soft toy in beige and charcoal gray at the top with outstretched arms to captivate your little one's attention right away. Perfectly sized for stroller rides and car trips, this blanket makes a cozy companion for your child during playtime and beyond.<br /><br />cloud island™: Designed with love. Made without compromise.",
+  "categories": [
+    "Baby",
+    "Nursery",
+    "Baby Bedding",
+    "Baby Blankets & Quilts"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_81727e05-898d-404a-be0c-858482827c73",
+  "glb_url": "https://digitalcontent.target.com/vault/1714348800/CLOUD_38ee5f56-b12f-45c6-bab4-972f9165f1ff.glb",
+  "product_url": "https://www.target.com/p/-/A-89298948",
+  "dimensions": {
+    "height": 0.3227,
+    "width": 0.2636,
+    "depth": 0.1056,
+    "unit": "m",
+    "source": "glb"
+  }
+}

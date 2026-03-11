@@ -1,0 +1,27 @@
+{
+  "tcin": "91119188",
+  "name": "Haldea 6.25\" Wall Sconce - SCN4071 - Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$64.99",
+  "currency": "USD",
+  "description": "Elevate your home ambiance with the HALDEA wall sconce. Measuring 6.25 inches, this piece blends sophistication and charm to enhance any space. Its brass color finish creates a warm, inviting glow that complements both modern and traditional interiors. Crafted from durable iron, it offers a timeless style that effortlessly catches the eye. \n\nThe HALDEA wall sconce transforms your living room, bedroom, or hallway with its elegant silhouette and refined design. Its subtle brass finish perfectly balances simplicity with elegance. Experience an ambiance shift with this uniquely designed fixture that brings a sense of calm and refinement to your home. \n\nEasy to install, this sconce is your go-to choice for adding character and functionality to your decor. Illuminate your surroundings with a touch of elegance and a hint of tradition through the stunning HALDEA wall sconce.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Wall Lights",
+    "Wall Sconces"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_55eb140f-bdcc-470b-9366-af7eb475825c",
+  "glb_url": "https://digitalcontent.target.com/vault/1769558400/CLOUD_e3aa9c17-2f6a-4b43-96db-79921c03a22c.glb",
+  "product_url": "https://www.target.com/p/-/A-91119188",
+  "dimensions": {
+    "height": 0.2794,
+    "width": 0.1538,
+    "depth": 0.1461,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brass",
+  "color_source": "parsed"
+}

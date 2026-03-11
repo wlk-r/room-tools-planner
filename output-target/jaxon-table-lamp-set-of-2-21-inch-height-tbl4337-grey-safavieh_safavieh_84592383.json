@@ -1,0 +1,26 @@
+{
+  "tcin": "84592383",
+  "name": "Jaxon Table Lamp (Set of 2) - 21 Inch Height - TBL4337 - Grey - Safavieh",
+  "brand": "Safavieh",
+  "price": "$109.99",
+  "currency": "USD",
+  "description": "Elevate your living space with the Jaxon 21 inch grey ceramic table lamp set of two. Each lamp features a sleek grey ceramic body beautifully complemented by a sturdy iron neck. This harmonious blend of 80 percent ceramic and 20 percent iron creates an elegant, modern look that seamlessly fits into any decor style. The lamp socket is compatible with E26 bulbs, making it both functional and stylish. Whether you are lighting up a cozy reading nook or adding a touch of sophistication to your office, the Jaxon lamps offer a versatile lighting solution. Make a statement in your home with these meticulously crafted lamps that combine artistic design with effortless charm. Illuminate your world with a touch of flair and add warmth to your surroundings with this stunning lamp set.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f130dd02-1b6c-4c4b-b2ce-9c63322f93d7",
+  "glb_url": "https://digitalcontent.target.com/vault/1764720000/CLOUD_fbe13502-ff2c-49be-84f5-bda736051638.glb",
+  "product_url": "https://www.target.com/p/-/A-84592383",
+  "color": "Grey",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5312,
+    "width": 0.3016,
+    "depth": 0.3011,
+    "unit": "m",
+    "source": "glb"
+  }
+}

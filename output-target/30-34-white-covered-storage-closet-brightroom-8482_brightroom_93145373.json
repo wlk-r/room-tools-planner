@@ -1,0 +1,24 @@
+{
+  "tcin": "93145373",
+  "name": "30&#34; White Covered Storage Closet - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Add extra storage to any space in your home with this Covered Storage Closet from Brightroom™. Designed in solid white for easy integration into any decor scheme, this covered storage closet stands 30 inches tall and holds up to 22 pounds. Great for storing a wide variety of clothing and accessories, the zipper closure helps keep everything covered and secured.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Closet Storage",
+    "Closet Systems"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_485e086e-1481-460f-92d3-5b675dbd9055",
+  "glb_url": "https://digitalcontent.target.com/vault/1753660800/CLOUD_656c3419-a1cd-48fd-909e-abf224f050d9.glb",
+  "product_url": "https://www.target.com/p/-/A-93145373",
+  "dimensions": {
+    "height": 1.6644,
+    "width": 0.7812,
+    "depth": 0.5285,
+    "unit": "m",
+    "source": "glb"
+  }
+}

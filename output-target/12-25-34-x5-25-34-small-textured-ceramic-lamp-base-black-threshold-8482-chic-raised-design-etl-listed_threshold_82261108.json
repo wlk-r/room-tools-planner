@@ -1,0 +1,26 @@
+{
+  "tcin": "82261108",
+  "name": "12.25&#34;x5.25&#34; Small Textured Ceramic Lamp Base Black - Threshold&#8482;: Chic Raised Design, ETL Listed",
+  "brand": "Threshold",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Illuminate your home in style with this Small Black Textured Ceramic Lamp Base from Threshold™. This table lamp base makes a great complement to your indoor lighting. Made from ceramic, it features a chic raised design for a textured look, and a solid black color that coordinates with any decor. This stylish lamp base comes with a simple on/off switch for effortless illumination. Plus, it's compatible with small lampshades. Place it on a side table in your living room, lounge room or on the console table for endless display potential around your home.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Lamp Bases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_ee7d958d-b7ff-43a6-a873-f6c25c82ddb6",
+  "glb_url": "https://digitalcontent.target.com/vault/1628640000/CLOUD_2ec25fd7-daec-43b5-9704-3f7e48566573.glb",
+  "product_url": "https://www.target.com/p/-/A-82261108",
+  "dimensions": {
+    "height": 0.3861,
+    "width": 0.2625,
+    "depth": 0.1324,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

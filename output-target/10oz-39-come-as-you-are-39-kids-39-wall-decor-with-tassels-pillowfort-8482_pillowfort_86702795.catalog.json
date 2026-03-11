@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "86702795",
+      "name": "10oz &#39;Come as you are&#39; Kids&#39; Wall Decor with Tassels - Pillowfort&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "86702795",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "wall-decor",
+        "textile"
+      ],
+      "tags": [
+        "playful",
+        "colorful",
+        "whimsical",
+        "cheerful"
+      ]
+    }
+  ]
+}

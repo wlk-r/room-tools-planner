@@ -1,0 +1,25 @@
+{
+  "tcin": "91251206",
+  "name": "Azorella Nightstand Oak Brown - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$230.00",
+  "currency": "USD",
+  "description": "Enhance the elegance and functionality of your bedroom with this Azorella Oak Nightstand from Threshold™ designed with Studio McGee. The square nightstand strikes a clean-lined silhouette with carved, knotted detailing on the front that complements a wide range of design aesthetics and color palettes. The tabletop and lower shelf are perfect for placing decorative items, framed photographs and more, while the pull-out drawer provides room for nighttime essentials.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Bedroom Furniture",
+    "Nightstands"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_dcb03187-6e1b-47cd-9ea7-7aceedae6c6c",
+  "glb_url": "https://digitalcontent.target.com/vault/1740528000/CLOUD_91774f88-cf32-4f73-8f7b-d0da03cc955b.glb",
+  "product_url": "https://www.target.com/p/-/A-91251206",
+  "dimensions": {
+    "height": 0.6096,
+    "width": 0.6096,
+    "depth": 0.381,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brown",
+  "color_source": "parsed"
+}

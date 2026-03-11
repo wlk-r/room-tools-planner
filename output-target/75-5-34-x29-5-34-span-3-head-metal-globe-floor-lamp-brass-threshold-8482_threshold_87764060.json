@@ -1,0 +1,26 @@
+{
+  "tcin": "87764060",
+  "name": "75.5&#34;x29.5&#34; Span 3-Head Metal Globe Floor Lamp Brass - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$200.00",
+  "currency": "USD",
+  "description": "Add a stylish lighting accent to your home with the Span 3-Head Metal Globe Floor Lamp from Threshold™. This brass-finish floor lamp features three globe-shape shades with a round white base for a modern look that will suit a variety of decor aesthetics. Made from metal, this floor lamp lights up with an electrical outlet to fill any space with a warm glow.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e3e50a4c-a1f7-4327-80ff-f207372fe7a1",
+  "glb_url": "https://digitalcontent.target.com/vault/1688428800/CLOUD_697433d0-9525-4574-b74d-5305ad8d700c.glb",
+  "product_url": "https://www.target.com/p/-/A-87764060",
+  "dimensions": {
+    "height": 1.8622,
+    "width": 1.006,
+    "depth": 0.3132,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brass",
+  "color_source": "parsed"
+}

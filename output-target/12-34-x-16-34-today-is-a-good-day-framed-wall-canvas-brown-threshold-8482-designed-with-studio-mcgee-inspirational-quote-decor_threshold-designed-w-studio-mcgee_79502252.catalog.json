@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "79502252",
+      "name": "12&#34; x 16&#34; Today is a Good Day Framed Wall Canvas Brown - Threshold&#8482; designed with Studio McGee: Inspirational Quote Decor",
+      "color": "Brown"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "79502252",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "wall-art",
+        "decor"
+      ],
+      "tags": [
+        "minimal",
+        "scandinavian",
+        "contemporary",
+        "clean"
+      ]
+    }
+  ]
+}

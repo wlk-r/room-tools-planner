@@ -1,0 +1,25 @@
+{
+  "tcin": "94229224",
+  "name": "90&#34;x20&#34; Table Runner Blue Striped - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$30.00",
+  "currency": "USD",
+  "description": "Upgrade your dining table setting with this Striped Table Runner from Threshold™. The rectangular table runner features a white and blue striped pattern, adding a sophisticated style you'll love. The 100% cotton table runner helps protect your surface against scratches, spills and messes. Pair with coordinating napkins and placemats to create a stylish dining setup.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen & Table Linens",
+    "Table Runners"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b320355e-c0d3-411c-b7e3-b21db6a2bd1b",
+  "glb_url": "https://digitalcontent.target.com/vault/1752796800/CLOUD_907b4e34-c09a-444f-9089-ba9ee0c75a8e.glb",
+  "product_url": "https://www.target.com/p/-/A-94229224",
+  "dimensions": {
+    "height": 2.2873,
+    "width": 0.5077,
+    "depth": 0.0112,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

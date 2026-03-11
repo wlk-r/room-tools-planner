@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "88677908",
+      "name": "14&#34;x72&#34; Floral Table Runner - Threshold&#8482; designed with Studio McGee: Modern Cotton Botanical Table Linens, Spring Decor",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "88677908",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "textile",
+        "decor"
+      ],
+      "tags": [
+        "botanical",
+        "contemporary",
+        "organic",
+        "fresh"
+      ]
+    }
+  ]
+}

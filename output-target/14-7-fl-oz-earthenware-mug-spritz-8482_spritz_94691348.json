@@ -1,0 +1,23 @@
+{
+  "tcin": "94691348",
+  "name": "14.7 fl oz Earthenware Mug - Spritz&#8482;",
+  "brand": "Spritz",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Sip your favorite drinks in style with the 14.7 fl oz Earthenware Mug from Spritz™. Crafted from durable stoneware, its dog-themed design and crisp finish make it a delightful choice for your drinkware collection. The mug comfortably holds up to 14.7 ounces, perfect for keeping your beverages warm or cool, whether you're starting your morning or taking a moment to unwind.<br /><br />Spritz™: Pops of joy that make the moment™<br /><br />",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f1cf410f-5df5-40f2-9f8d-06a0442a30dd",
+  "glb_url": "https://digitalcontent.target.com/vault/1771891200/CLOUD_f4a593c1-0a2d-44d0-8271-036137c07295.glb",
+  "product_url": "https://www.target.com/p/-/A-94691348",
+  "dimensions": {
+    "height": 0.1461,
+    "width": 0.1113,
+    "depth": 0.1092,
+    "unit": "m",
+    "source": "glb"
+  }
+}

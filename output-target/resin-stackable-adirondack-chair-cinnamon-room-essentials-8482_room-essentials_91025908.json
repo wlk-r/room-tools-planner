@@ -1,0 +1,24 @@
+{
+  "tcin": "91025908",
+  "name": "Resin Stackable Adirondack Chair Cinnamon - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Elevate your outdoor seating space with this Stackable Adirondack Chair from Room Essentials™. Supported by a resin frame, this Adirondack chair features a long backrest for maximum comfort. Featuring a stackable design for storage in compact spaces, this wide-arm chair has two holders for extra convenience. Plus, it's resistant to weather and rust, making it ideal for outdoor use.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Chairs",
+    "Adirondack Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_bbed7a75-e11f-4356-a447-7fef6bc3aef3",
+  "glb_url": "https://digitalcontent.target.com/vault/1733184000/CLOUD_56b44227-2ef7-4741-b357-1efe539a520b.glb",
+  "product_url": "https://www.target.com/p/-/A-91025908",
+  "dimensions": {
+    "height": 0.9131,
+    "width": 0.8029,
+    "depth": 0.7027,
+    "unit": "m",
+    "source": "glb"
+  }
+}

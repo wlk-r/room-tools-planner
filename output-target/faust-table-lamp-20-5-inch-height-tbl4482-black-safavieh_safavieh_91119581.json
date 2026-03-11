@@ -1,0 +1,26 @@
+{
+  "tcin": "91119581",
+  "name": "Faust Table Lamp - 20.5 Inch Height - TBL4482 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$63.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the sophisticated charm of the Faust table lamp. Standing at 20.5 inches, this elegant lamp brings a touch of modern grace to any room. Crafted from sturdy iron, its sleek black finish complements a variety of decor styles, adding both functionality and style to your home. Whether placed on a desk or a bedside table, the Faust table lamp offers an inviting glow that transforms your environment into a cozy sanctuary. Its clean lines and minimalist design effortlessly create a calm and elegant ambiance. Discover how this versatile lamp can enhance your living space with its timeless appeal.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a4ca9883-30f8-4115-ab2b-8b372ad60159",
+  "glb_url": "https://digitalcontent.target.com/vault/1764201600/CLOUD_c7023576-ff3d-4426-b243-d3f6aeba5075.glb",
+  "product_url": "https://www.target.com/p/-/A-91119581",
+  "dimensions": {
+    "height": 0.5262,
+    "width": 0.2509,
+    "depth": 0.2509,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

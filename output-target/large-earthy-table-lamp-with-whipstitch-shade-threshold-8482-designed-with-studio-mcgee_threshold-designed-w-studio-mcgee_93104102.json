@@ -1,0 +1,24 @@
+{
+  "tcin": "93104102",
+  "name": "Large Earthy Table Lamp with Whipstitch Shade - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$95.00",
+  "currency": "USD",
+  "description": "Add a fantastic style to your home decor by lighting the space with the Large Earthy Table Lamp with Whipstitch Shade from Threshold™ designed with Studio McGee. This large table lamp features a round, brown ceramic base that accompanies an empire-shape shade with whipstitch detailing for a gorgeous look. Designed with a socket turn knob rotary switch, this table lamp has a one-way on-and-off light setting.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f82461bc-ae3e-47b5-afca-533a29ecfe88",
+  "glb_url": "https://digitalcontent.target.com/vault/1764201600/CLOUD_53ae2be6-b8a0-495b-9511-ef4abb462440.glb",
+  "product_url": "https://www.target.com/p/-/A-93104102",
+  "dimensions": {
+    "height": 0.4608,
+    "width": 0.4608,
+    "depth": 0.4572,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "91972524",
+  "name": "2 Tier Corner Shelf Clear - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$15.00",
+  "currency": "USD",
+  "description": "Maximize the corner space of your vanity with the 2 Tier Corner Shelf from Brightroom™. This clear shelf features a two-tiered design to give you ample space for cosmetics, skincare, bath canisters and more. Made of sturdy plastic, this corner shelf adds a fun addition to your bath space, vanity or any other area you'd like to have a bit more storage space.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Laundry Room Organization",
+    "Laundry Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_35536715-e7e9-4d9c-8269-233b4c80708b",
+  "glb_url": "https://digitalcontent.target.com/vault/1749427200/CLOUD_ddd71381-abe4-40dd-9726-bcb66eb4bc7c.glb",
+  "product_url": "https://www.target.com/p/-/A-91972524",
+  "dimensions": {
+    "height": 0.3048,
+    "width": 0.2286,
+    "depth": 0.2286,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Clear",
+  "color_source": "parsed"
+}

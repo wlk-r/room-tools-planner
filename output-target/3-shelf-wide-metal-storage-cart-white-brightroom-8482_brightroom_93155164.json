@@ -1,0 +1,25 @@
+{
+  "tcin": "93155164",
+  "name": "3 Shelf Wide Metal Storage Cart White - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$28.00",
+  "currency": "USD",
+  "description": "Organize your kitchen, bath, or other essentials in a modern style with the 3 Shelf Storage Cart from Brightroom™. This white storage cart features three open shelves, giving you ample space for books, photos, vases and other essentials. It's made with a metal frame and has rolling wheels and side handles for easy movement around spaces.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Carts & Drawer Units"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_305e547e-6ce0-4c68-b1d5-0dd2dbce3a9a",
+  "glb_url": "https://digitalcontent.target.com/vault/1752019200/CLOUD_c3d262ea-4c98-4d8b-a3f8-ef26bd71e204.glb",
+  "product_url": "https://www.target.com/p/-/A-93155164",
+  "dimensions": {
+    "height": 0.8107,
+    "width": 0.6454,
+    "depth": 0.3159,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

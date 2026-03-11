@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "90057545",
+      "name": "2&#39;6&#34;x4&#39; Handloom Striped Woven Accent Rug Black/Gray - Room Essentials&#8482;: Entryway Rug, Indoor Use, Rug Pad Recommended",
+      "color": "Black/Gray"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90057545",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile",
+        "decor"
+      ],
+      "tags": [
+        "scandinavian",
+        "bohemian",
+        "organic"
+      ]
+    }
+  ]
+}

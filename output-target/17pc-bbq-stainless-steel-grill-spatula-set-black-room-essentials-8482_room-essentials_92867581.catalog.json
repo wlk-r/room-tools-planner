@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "92867581",
+      "name": "17pc BBQ Stainless Steel Grill Spatula Set Black - Room Essentials&#8482;",
+      "color": "Black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "92867581",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "grilling-tools",
+        "cooking-accessories",
+        "storage"
+      ],
+      "tags": [
+        "utilitarian",
+        "contemporary",
+        "industrial",
+        "modular"
+      ]
+    }
+  ]
+}

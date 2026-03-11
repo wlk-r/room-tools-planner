@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "90022220",
+      "name": "24&#34;x36&#34; Chenille Bath Rug Ivory with Black Boarder - Threshold&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90022220",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "geometric",
+        "neutral"
+      ]
+    }
+  ]
+}

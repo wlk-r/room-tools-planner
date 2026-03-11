@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "90022245",
+      "name": "17&#34;x24&#34; Double Dash Flannel Cushion Bath Rug - Room Essentials&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90022245",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "bathroom",
+        "textile"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "geometric",
+        "neutral"
+      ]
+    }
+  ]
+}

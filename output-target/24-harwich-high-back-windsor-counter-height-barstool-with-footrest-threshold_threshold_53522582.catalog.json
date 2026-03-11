@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "53522582",
+      "name": "24\" Harwich High Back Windsor Counter Height Barstool with Footrest - Threshold\u00e2\u201e\u00a2",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "53522582",
+      "tier": "accent",
+      "placement": "floor",
+      "categories": [
+        "seating",
+        "barstool"
+      ],
+      "tags": [
+        "traditional",
+        "farmhouse",
+        "airy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "93035913",
+  "name": "Nalani 62\" Floor Lamp - FLL3007 - Natural - Safavieh",
+  "brand": "Safavieh",
+  "price": "$317.99",
+  "currency": "USD",
+  "description": "Introducing the Nalani Floor Lamp: a harmonious blend of natural elements and modern design. Crafted with an eye for detail, this striking lamp features a sturdy iron base, while the warmth of wood and the organic texture of cane come together to create a lampshade that imbues any space with a serene and inviting glow. Step into a world where elegance meets simplicity with the understated charm of the Nalani Floor Lamp, designed to complement any decor with its timeless natural finish.\r\n\r\nThe image provided doesn't offer details on the Nalani Floor Lamp itself but shows a black, round switch that appears to be part of an electrical device, perhaps related to lighting. The switch suggests functionality and ease of use, but for a complete description of the lamp, images of the entire product would be necessary.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3a99a832-889b-4d1f-80a6-59dc9ab2cea6",
+  "glb_url": "https://digitalcontent.target.com/vault/1771459200/CLOUD_c8e73911-9db0-4865-bff8-2f3a9eed0ccc.glb",
+  "product_url": "https://www.target.com/p/-/A-93035913",
+  "color": "Natural",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.594,
+    "width": 0.4898,
+    "depth": 0.4806,
+    "unit": "m",
+    "source": "glb"
+  }
+}

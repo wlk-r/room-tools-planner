@@ -1,0 +1,26 @@
+{
+  "tcin": "90594370",
+  "name": "Park Table Lamp W/ USB Port - 24 Inch Height - TBL4462 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$66.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the sleek and modern Park table lamp. Standing at 24 inches, this black resin lamp exudes sophistication while seamlessly fitting into any decor. The bold finish and clean lines make it a versatile addition to your living room, bedroom, or office. Designed with convenience in mind, it features an integrated USB port for easy device charging without clutter. Its understated elegance and practical design provide both style and functionality. \n\nBring a touch of contemporary charm to your home with this black resin table lamp. Whether you need to charge your phone or create an inviting ambiance, the Park table lamp is a stylish solution. Its thoughtful design not only enhances your decor but also keeps your space organized and efficient. Embrace the blend of form and function with this essential lighting piece.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_60978119-e025-4968-82f9-e5598865443d",
+  "glb_url": "https://digitalcontent.target.com/vault/1763337600/CLOUD_ad0b0977-4c02-4b52-b8be-330d23c09c7b.glb",
+  "product_url": "https://www.target.com/p/-/A-90594370",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6097,
+    "width": 0.2841,
+    "depth": 0.2841,
+    "unit": "m",
+    "source": "glb"
+  }
+}

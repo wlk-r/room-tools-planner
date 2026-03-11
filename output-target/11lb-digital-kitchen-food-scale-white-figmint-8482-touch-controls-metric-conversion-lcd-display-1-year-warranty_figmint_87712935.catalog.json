@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "87712935",
+      "name": "11lb Digital Kitchen Food Scale White - Figmint&#8482;: Touch Controls, Metric Conversion, LCD Display, 1 Year Warranty",
+      "color": "White"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "87712935",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "kitchen-scale",
+        "appliance"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "functional",
+        "sleek"
+      ]
+    }
+  ]
+}

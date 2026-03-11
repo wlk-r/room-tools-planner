@@ -1,0 +1,26 @@
+{
+  "tcin": "94257282",
+  "name": "5&#39;x7&#39; Wool Handtufted Area Rug Tan - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$150.00",
+  "currency": "USD",
+  "description": "Add lovely style to any room in your home with this Wool Handtufted Area Rug from Threshold™. This rectangular hand-tufted area rug showcases a floral pattern in tan on a checkered backdrop for a charming look that blends well with any decor aesthetic. Featuring a wool construction for soft underfoot comfort, the medium-pile area rug is ideal for use in a variety of areas within your home.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Area Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f0dfa217-4726-4a31-b2ec-6e96e6ad46cf",
+  "glb_url": "https://digitalcontent.target.com/vault/1755302400/CLOUD_305b483e-b019-4006-ac5d-9776b19f2a53.glb",
+  "product_url": "https://www.target.com/p/-/A-94257282",
+  "dimensions": {
+    "height": 2.1353,
+    "width": 1.5247,
+    "depth": 0.0059,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Tan",
+  "color_source": "parsed"
+}

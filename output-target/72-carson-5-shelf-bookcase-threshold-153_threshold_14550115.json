@@ -1,0 +1,23 @@
+{
+  "tcin": "14550115",
+  "name": "72\" Carson 5 Shelf Bookcase - Threshold&#153;",
+  "brand": "Threshold",
+  "price": "$152.00 - $190.00",
+  "currency": "USD",
+  "description": "The Carson 5-Shelf Bookcase from Threshold is the perfect size and fit for any room in the home. Made from durable wood, this bookshelf features five spacious shelves for displaying your favorite books, art and collectibles. Clean, modern lines make this piece easy to mix in with any style of decor, whether in your bedroom, living room or home office. <br /><br />Depth at top of frame: 13.6&#34<br />Overall width: 30.6&#34<br />Overall height: 72&#34<br />Overall depth (at floor): 12.2&#34<br />Distance between shelves: 11.2&#34<br />Distance between side frames: 26.7&#34<br />Depth of top shelf: 12.2&#34<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Home Office Furniture",
+    "Bookshelves & Bookcases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_94f39e91-db28-4a20-8c60-9395f3ea4ac4",
+  "glb_url": "https://digitalcontent.target.com/vault/1645747200/CLOUD_e33f3829-63bd-4866-be2f-4ed1e2ce45a6.glb",
+  "product_url": "https://www.target.com/p/-/A-14550115",
+  "dimensions": {
+    "height": 1.8288,
+    "width": 0.7777,
+    "depth": 0.3459,
+    "unit": "m",
+    "source": "glb"
+  }
+}

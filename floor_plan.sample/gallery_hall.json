@@ -1,0 +1,60 @@
+{
+  "defaults": {
+    "exterior_wall_thickness": 0.0762,
+    "ceiling_height": 3.0
+  },
+  "rooms": [
+    {
+      "id": "r1",
+      "name": "Gallery",
+      "interior_polygon": [[0.0381, 0.0381], [8.0381, 0.0381], [8.0381, 3.0381], [0.0381, 3.0381]]
+    },
+    {
+      "id": "r2",
+      "name": "Office",
+      "interior_polygon": [[0.0381, 3.1651], [3.5381, 3.1651], [3.5381, 6.1651], [0.0381, 6.1651]]
+    }
+  ],
+  "openings": [
+    {
+      "id": "o1",
+      "center": [0.0381, 1.5381],
+      "width": 0.9,
+      "height": 2.1
+    },
+    {
+      "id": "o2",
+      "center": [1.7881, 3.1016],
+      "width": 0.9,
+      "height": 2.1
+    },
+    {
+      "id": "o3",
+      "center": [4.0381, 0.0381],
+      "width": 1.8,
+      "height": 1.6,
+      "elevation": 0.8
+    },
+    {
+      "id": "o4",
+      "center": [6.5381, 0.0381],
+      "width": 1.4,
+      "height": 1.4,
+      "elevation": 0.8
+    },
+    {
+      "id": "o5",
+      "center": [1.7881, 6.1651],
+      "width": 1.2,
+      "height": 1.2,
+      "elevation": 0.9
+    }
+  ],
+  "features": [
+    { "id": "f1", "anchor": "o1", "type": "door", "swing_dir": "r1", "hinge": "right" },
+    { "id": "f2", "anchor": "o2", "type": "door", "swing_dir": "r2", "hinge": "left" },
+    { "id": "f3", "anchor": "o3", "type": "window" },
+    { "id": "f4", "anchor": "o4", "type": "window" },
+    { "id": "f5", "anchor": "o5", "type": "window" }
+  ]
+}

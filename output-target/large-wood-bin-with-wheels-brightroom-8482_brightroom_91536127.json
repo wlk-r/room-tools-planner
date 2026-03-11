@@ -1,0 +1,23 @@
+{
+  "tcin": "91536127",
+  "name": "Large Wood Bin with Wheels - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$32.00",
+  "currency": "USD",
+  "description": "Decluttering your home will be a breeze with this Large Wood Bin with Wheels from Brightroom™. Made of wood, this open-top bin has slats on the sides plus cutouts for easy holding. Designed in a rectangular shape, this wooden bin is great for storing bags, toys, clothes, books and more, and the wheels allow you to maneuver it easily from room to room.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Garage Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_75e931c2-2cf7-4ce9-b7cc-b0d54384626d",
+  "glb_url": "https://digitalcontent.target.com/vault/1739923200/CLOUD_a0e685d2-f2d0-4ba1-87ee-58dfdb94ad49.glb",
+  "product_url": "https://www.target.com/p/-/A-91536127",
+  "dimensions": {
+    "height": 0.6096,
+    "width": 0.3243,
+    "depth": 0.2731,
+    "unit": "m",
+    "source": "glb"
+  }
+}

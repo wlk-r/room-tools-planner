@@ -1,0 +1,26 @@
+{
+  "tcin": "90594362",
+  "name": "Raye Table Lamp - 20 Inch Height - TBL4485 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$51.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Raye table lamp. Standing at 20.5 inches, this lamp features a sleek black design that suits any decor. Crafted with a resin and iron base, it offers a sturdy presence while the cotton shade provides a soft, ambient glow. Perfect for your bedroom, living room, or office, this lamp brings a touch of elegance to everyday lighting. Its understated design effortlessly complements various styles, making it a versatile addition to your home. Whether reading, relaxing, or working, the Raye table lamp supports any activity with style and grace. Make it a centerpiece on a side table or enhance your desk setup, redefining how you light up your surroundings.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_eaf825b0-ffcb-4eb2-86e5-4fb8f0c51d58",
+  "glb_url": "https://digitalcontent.target.com/vault/1765238400/CLOUD_3c906317-913b-4318-af4c-03f2c85ea2f4.glb",
+  "product_url": "https://www.target.com/p/-/A-90594362",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5263,
+    "width": 0.2509,
+    "depth": 0.2509,
+    "unit": "m",
+    "source": "glb"
+  }
+}

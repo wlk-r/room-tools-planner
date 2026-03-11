@@ -1,0 +1,23 @@
+{
+  "tcin": "94639722",
+  "name": "Holiday Wood Crate - Bullseye&#39;s Playground&#8482;",
+  "brand": "Bullseye's Playground",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Storage Bins & Boxes"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7dde46af-202e-457a-bb33-f79784be4b52",
+  "glb_url": "https://digitalcontent.target.com/vault/1762128000/CLOUD_8ce3b313-7b71-4b61-ba12-3306207267cb.glb",
+  "product_url": "https://www.target.com/p/-/A-94639722",
+  "dimensions": {
+    "height": 0.3556,
+    "width": 0.2667,
+    "depth": 0.1041,
+    "unit": "m",
+    "source": "glb"
+  }
+}

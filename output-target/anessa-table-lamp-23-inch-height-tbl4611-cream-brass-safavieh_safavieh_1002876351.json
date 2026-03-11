@@ -1,0 +1,26 @@
+{
+  "tcin": "1002876351",
+  "name": "Anessa Table Lamp - 23 Inch Height - TBL4611 - Cream/Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$79.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the serene elegance of the Anessa ceramic table lamp. Standing at 23 inches, this lamp brings a touch of sophistication to your home decor. Its cream hue, paired with a sleek brass accent, complements a variety of interior styles, adding a warm and inviting glow to any room.\n\nThe lamp features a beautifully crafted ceramic body that exudes timeless charm. Topped with a fabric shade, it softens the light to create a cozy and welcoming ambiance. Whether placed on a side table in the living room or as a bedside companion, the Anessa lamp is designed to enhance your space with its classic appeal.\n\nPerfect for those who appreciate understated elegance, the Anessa table lamp offers both functionality and aesthetic appeal. Its neutral color palette ensures seamless integration into your existing decor, making it a versatile choice for any setting. Embrace the subtle beauty and charm that the Anessa table lamp brings to your living space.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d0ef3679-ad08-4d64-8245-7647de46b420",
+  "glb_url": "https://digitalcontent.target.com/vault/1765152000/CLOUD_a142f41f-dec6-4441-bdc4-b04a78ff1988.glb",
+  "product_url": "https://www.target.com/p/-/A-1002876351",
+  "dimensions": {
+    "height": 0.5838,
+    "width": 0.3715,
+    "depth": 0.3715,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Cream/Brass",
+  "color_source": "parsed"
+}

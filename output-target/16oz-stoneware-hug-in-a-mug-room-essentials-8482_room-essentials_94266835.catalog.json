@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "94266835",
+      "name": "16oz Stoneware HUG IN A MUG - Room Essentials&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94266835",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "decor"
+      ],
+      "tags": [
+        "minimal",
+        "warm",
+        "cozy",
+        "contemporary",
+        "organic"
+      ]
+    }
+  ]
+}

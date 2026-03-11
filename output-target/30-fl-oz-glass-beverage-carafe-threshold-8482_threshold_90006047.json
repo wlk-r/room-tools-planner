@@ -1,0 +1,23 @@
+{
+  "tcin": "90006047",
+  "name": "30 fl oz Glass Beverage Carafe - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$16.00",
+  "currency": "USD",
+  "description": "Serve up your favorite wine spritzer and more in modern style with the 30-Ounce Glass Beverage Carafe from Threshold™. This beverage carafe has a transparent design to help you easily see the contents, while the lid helps keep the beverage nicely contained. Made of glass, this lidded beverage carafe is suitable for cold beverages, and it is dishwasher safe for easy cleanup.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Serveware",
+    "Pitchers & Carafes"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_16f84f69-8a57-4fc9-93cc-50d99d625803",
+  "glb_url": "https://digitalcontent.target.com/vault/1736121600/CLOUD_c427aa61-54ec-4bf9-928e-335aa1f0abff.glb",
+  "product_url": "https://www.target.com/p/-/A-90006047",
+  "dimensions": {
+    "height": 0.2438,
+    "width": 0.0991,
+    "depth": 0.0991,
+    "unit": "m",
+    "source": "glb"
+  }
+}

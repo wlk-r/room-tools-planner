@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "91536131",
+      "name": "13&#34; Cube Storage Bag - Brightroom&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "91536131",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "storage"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "utilitarian",
+        "clean"
+      ]
+    }
+  ]
+}

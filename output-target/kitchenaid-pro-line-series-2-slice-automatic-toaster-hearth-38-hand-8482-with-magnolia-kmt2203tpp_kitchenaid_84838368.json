@@ -1,0 +1,23 @@
+{
+  "tcin": "84838368",
+  "name": "KitchenAid Pro Line Series 2-Slice Automatic Toaster - Hearth &#38; Hand&#8482; with Magnolia - KMT2203TPP",
+  "brand": "KitchenAid",
+  "price": "$299.99",
+  "currency": "USD",
+  "description": "Introducing the KitchenAid® Pro Line® Series 2-Slice Automatic Toaster in Pebbled Palm, made by KitchenAid in partnership with Hearth & Hand™. Make everyday simply delicious and easily toast your favorite breads, bagels and more with our most advanced 2-Slice Toaster. This automatic toaster features extra-wide slots to toast a variety of shapes and sizes, including homemade or craft breads. For added convenience enjoy the automatic lift & lower feature that senses bread in the slot, auto keep warm, and 7 shade settings for toast just the way you like it, light or dark.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen Appliances",
+    "Toasters"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7154c9d5-7b7d-41ec-88ac-5001d4069044",
+  "glb_url": "https://digitalcontent.target.com/vault/1668038400/CLOUD_ef264c58-4d23-4a7f-83d0-33c81c56954b.glb",
+  "product_url": "https://www.target.com/p/-/A-84838368",
+  "dimensions": {
+    "height": 0.348,
+    "width": 0.2261,
+    "depth": 0.1803,
+    "unit": "m",
+    "source": "glb"
+  }
+}

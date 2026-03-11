@@ -1,0 +1,23 @@
+{
+  "tcin": "94639764",
+  "name": "16.9 fl oz Novelty Clear Glass Mugs - Bullseye&#39;s Playground&#8482;",
+  "brand": "Bullseye's Playground",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Enjoy your favorite beverages in style with the 16.9 fl oz Novelty Clear Glass Mug from Bullseye's Playground. Crafted from durable glass, this mug offers a generous capacity, perfect for your morning coffee or evening tea. Its clear design adds a touch of elegance to your drinkware collection, while the comfortable handle ensures a secure grip. Ideal for personal use, this mug is a delightful addition to any kitchen.",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_28f5eb7d-bd66-40b4-8d5f-65cdcd60b5c6",
+  "glb_url": "https://digitalcontent.target.com/vault/1769558400/CLOUD_d3488940-0fa0-4e20-bf98-7c5389eda6ab.glb",
+  "product_url": "https://www.target.com/p/-/A-94639764",
+  "dimensions": {
+    "height": 0.1347,
+    "width": 0.1105,
+    "depth": 0.1016,
+    "unit": "m",
+    "source": "glb"
+  }
+}

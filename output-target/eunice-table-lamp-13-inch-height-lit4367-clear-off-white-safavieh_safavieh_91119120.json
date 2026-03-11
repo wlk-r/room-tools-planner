@@ -1,0 +1,26 @@
+{
+  "tcin": "91119120",
+  "name": "Eunice Table Lamp - 13 Inch Height - LIT4367 - Clear/Off White - Safavieh",
+  "brand": "Safavieh",
+  "price": "$82.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the eunice table lamp. Crafted with precision from crystal, this lamp showcases a clear and off white palette that seamlessly blends with any decor. Its elegant design adds sophistication to living rooms, bedrooms, or offices. The smooth finish and refined curves of the base create a striking contrast with the off white shade, offering a balance of style and function. Bask in the subtle light this lamp provides, creating a warm and inviting ambiance for every occasion. Whether for reading or relaxation, the eunice table lamp is a true companion in your daily journey toward comfort and style. Its timeless appeal ensures it will always be in fashion, making it an essential element of your interior design. Embrace the beauty of simplicity and let this lamp become a part of your home.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4427974d-7772-4d0f-9cae-9b36ddc1832c",
+  "glb_url": "https://digitalcontent.target.com/vault/1763683200/CLOUD_dc34afcb-bc69-4fdb-bd33-ff7f20431d98.glb",
+  "product_url": "https://www.target.com/p/-/A-91119120",
+  "dimensions": {
+    "height": 0.3317,
+    "width": 0.2212,
+    "depth": 0.2212,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Off White",
+  "color_source": "parsed"
+}

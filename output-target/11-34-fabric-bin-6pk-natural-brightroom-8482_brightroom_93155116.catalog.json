@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "93155116",
+      "name": "11&#34; Fabric Bin 6pk - Natural - Brightroom&#8482;",
+      "color": "Natural"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "93155116",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "organizer"
+      ],
+      "tags": [
+        "minimal",
+        "scandinavian",
+        "warm",
+        "organic"
+      ]
+    }
+  ]
+}

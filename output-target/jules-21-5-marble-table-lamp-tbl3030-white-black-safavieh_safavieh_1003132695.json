@@ -1,0 +1,26 @@
+{
+  "tcin": "1003132695",
+  "name": "Jules 21.5\" Marble Table Lamp - TBL3030 - White/Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$154.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Jules Table Lamp, featuring a striking design that effortlessly combines modern elegance with classic charm. The lamp's white and black color scheme makes it a versatile choice for any interior decor, providing a sophisticated touch to your living room, bedroom, or office. Crafted with a solid marble body, this lamp offers a unique and stylish base that draws the eye. The fabric shade adds a soft, ambient glow that enhances the room's atmosphere while providing functional lighting for reading or relaxing. Whether you're highlighting a specific area of your home or creating a cozy ambiance, the Jules Table Lamp is the perfect addition to elevate your space.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b388325e-9516-468b-a015-703b8b42814a",
+  "glb_url": "https://digitalcontent.target.com/vault/1769040000/CLOUD_062a2f81-1e42-467c-b08f-390c821c0217.glb",
+  "product_url": "https://www.target.com/p/-/A-1003132695",
+  "color": "White/Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5461,
+    "width": 0.3048,
+    "depth": 0.3048,
+    "unit": "m",
+    "source": "glb"
+  }
+}

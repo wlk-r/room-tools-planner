@@ -1,0 +1,25 @@
+{
+  "tcin": "94257255",
+  "name": "120&#34;x60&#34; Tablecloth Navy Striped - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$26.00",
+  "currency": "USD",
+  "description": "Dress your dining table in charm with this Navy Striped Tablecloth from Threshold™. Made from 100% cotton, this rectangular tablecloth offers protection against spills, stains, and scratches. Featuring a striped print in navy on a white background, this decorative tablecloth adds timeless charm to your space, while the machine-washable design makes cleanup a breeze.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen & Table Linens",
+    "Tablecloths"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7ab82591-3a63-4894-9e9e-bc3604374be1",
+  "glb_url": "https://digitalcontent.target.com/vault/1755734400/CLOUD_ad32cb5a-9c59-4b26-a7bd-8cc5be3a5cbd.glb",
+  "product_url": "https://www.target.com/p/-/A-94257255",
+  "dimensions": {
+    "height": 2.0595,
+    "width": 1.1674,
+    "depth": 0.7728,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Navy",
+  "color_source": "parsed"
+}

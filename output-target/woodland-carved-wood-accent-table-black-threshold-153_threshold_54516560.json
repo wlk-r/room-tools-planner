@@ -1,0 +1,25 @@
+{
+  "tcin": "54516560",
+  "name": "Woodland Carved Wood Accent Table - Black - Threshold&#153;",
+  "brand": "Threshold",
+  "price": "$65.00 - $75.00",
+  "currency": "USD",
+  "description": "Create an inviting space to kick up your feet with the Woodland Carved Wood Accent Table Black from Threshold™. With its combination of solid color, clean lines and homey appeal, this wooden end table fits with a variety of decor schemes, making it a breeze to style. Set it up next to an armchair in your reading nook or on either side of a loveseat to create the perfect spot for a beverage and a book so you can relax in style.<br /><br />If you’re not satisfied with any Target Owned Brand item, return it within one year with a receipt for an exchange or a refund.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "End & Side Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_028d936f-c1e9-49b0-a030-2e6b1194a496",
+  "glb_url": "https://digitalcontent.target.com/vault/1621209600/CLOUD_06514aa0-aaca-402e-b9c1-2270e9dd61f9.glb",
+  "product_url": "https://www.target.com/p/-/A-54516560",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4572,
+    "width": 0.4571,
+    "depth": 0.254,
+    "unit": "m",
+    "source": "glb"
+  }
+}

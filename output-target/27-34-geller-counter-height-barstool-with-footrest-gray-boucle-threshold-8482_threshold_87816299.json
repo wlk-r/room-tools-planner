@@ -1,0 +1,25 @@
+{
+  "tcin": "87816299",
+  "name": "27&#34; Geller Counter Height Barstool with Footrest Gray Boucle - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$280.00",
+  "currency": "USD",
+  "description": "Bring comfort and high style to your seating options with the Geller Counter Height Bar Stool in Milano Elephant from Threshold™. It features an armless design with a subtly angled backrest for comfortable sitting, along with a well-padded seat and footrest bars for the perfect place to sit and enjoy conversation over food or drinks. Complete with a dark finish on the rubberwood frame, and upholstery with a boucle texture for a soft feel and chic look you’ll love. <br /><br />Threshold™: Quality & Design / Casual classics for house and home.<br /><br />Overall Width: 21 Inches <br />Overall Height: 38 Inches <br />Overall Depth: 22 Inches",
+  "categories": [
+    "Furniture",
+    "Kitchen & Dining Furniture",
+    "Bar Furniture"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_884903d4-a197-4fc1-91f3-50da0688c2e8",
+  "glb_url": "https://digitalcontent.target.com/vault/1674950400/CLOUD_83c63253-e325-4d87-94db-18b08e877b9c.glb",
+  "product_url": "https://www.target.com/p/-/A-87816299",
+  "dimensions": {
+    "height": 0.9652,
+    "width": 0.5588,
+    "depth": 0.5334,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

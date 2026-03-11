@@ -1,0 +1,24 @@
+{
+  "tcin": "1003132700",
+  "name": "Emina 22\" Marble Table Lamp - TBL2018 - Grey Marble - Safavieh",
+  "brand": "Safavieh",
+  "price": "$173.99",
+  "currency": "USD",
+  "description": "Product Ships in 2 Seperate Boxes. Introducing the Emina Table Lamp, an elegant addition to any room. With its sophisticated grey marble body, this lamp brings a touch of natural beauty and artistry to your space. The marble's inherent patterns provide a unique visual appeal, ensuring that no two lamps are exactly alike, offering a bespoke lighting experience. This lamp is paired with a fabric shade featuring a stylish pattern that creates a warm and inviting diffusion of light. Add a touch of natural elegance to your home with the Emina Table Lamp.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_ecdd6c08-4ddc-4bad-a112-5664cd5a34d5",
+  "glb_url": "https://digitalcontent.target.com/vault/1769040000/CLOUD_8ab9d62b-e586-4005-9275-a79a9213b784.glb",
+  "product_url": "https://www.target.com/p/-/A-1003132700",
+  "dimensions": {
+    "height": 0.5588,
+    "width": 0.3556,
+    "depth": 0.3556,
+    "unit": "m",
+    "source": "glb"
+  }
+}

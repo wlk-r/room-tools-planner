@@ -1,0 +1,26 @@
+{
+  "tcin": "90594418",
+  "name": "Garrick Table Lamp - 22 Inch Height - TBL9016 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$65.99",
+  "currency": "USD",
+  "description": "Discover elegance with the Garrick 22 inch black mop table lamp. Designed to enhance any space, its sleek black finish combined with the rich texture of mop material creates a striking centerpiece for your room. Perfect for adding warmth and ambiance, this lamp blends style and function seamlessly. Whether placed on a bedside table or a living room console, its versatile design complements both modern and classic decor. Embrace the sophisticated charm of the Garrick lamp and illuminate your home with grace.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4cea2c93-d846-4a58-96d8-9bae8370893d",
+  "glb_url": "https://digitalcontent.target.com/vault/1769990400/CLOUD_0a987f13-5da5-4c31-b3a1-127676a2ade6.glb",
+  "product_url": "https://www.target.com/p/-/A-90594418",
+  "dimensions": {
+    "height": 0.5588,
+    "width": 0.3556,
+    "depth": 0.3556,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

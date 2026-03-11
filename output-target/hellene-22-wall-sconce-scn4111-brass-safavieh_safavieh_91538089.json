@@ -1,0 +1,27 @@
+{
+  "tcin": "91538089",
+  "name": "Hellene 22\" Wall Sconce - SCN4111 - Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$121.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the captivating HELLENE 22 inch brass iron wall sconce. Crafted with a sleek metal body and shade, this stunning fixture combines functionality with artistic elegance. Its brass finish adds a touch of sophistication to any room, seamlessly blending with various decor styles. Whether you are accentuating a cozy corner or highlighting a grand hallway, the HELLENE sconce offers versatile placement opportunities. The durable construction ensures reliable performance, making it a stylish choice for enhancing your ambient lighting. Elevate your home decor with the remarkable design of the HELLENE wall sconce, a perfect addition to modern and classic spaces alike. Add character and warmth to your interior with this elegant lighting solution.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Wall Lights",
+    "Wall Sconces"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7a84b3a5-322a-42a3-b2fb-d84eb68e8e6f",
+  "glb_url": "https://digitalcontent.target.com/vault/1770076800/CLOUD_438291fb-d848-47cf-a3fc-320e3571c629.glb",
+  "product_url": "https://www.target.com/p/-/A-91538089",
+  "dimensions": {
+    "height": 1.5957,
+    "width": 0.5075,
+    "depth": 0.1397,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brass",
+  "color_source": "parsed"
+}

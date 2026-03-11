@@ -1,0 +1,26 @@
+{
+  "tcin": "90022240",
+  "name": "20&#34;x30&#34; Tufted Non-Skid Arc Bath Rug Dark Gray - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$20.00",
+  "currency": "USD",
+  "description": "Elevate the look and feel of your bath space with this Tufted Non-Skid Arc Bath Rug from Threshold™. The rectangular bath rug features a textured arc pattern in a dark gray finish for a modern look that blends well with a variety of decor schemes. The tufted cotton fabric feels soft underneath your feet and works to keep your floors dry as you step out of the bath or shower, while the non-skid backing helps keep it in place. Plus, it can be machine washed as needed for quick and easy cleaning.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Rugs & Mats",
+    "Bathroom Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_970f5201-5a9d-4ef1-a74e-d123c9f1e447",
+  "glb_url": "https://digitalcontent.target.com/vault/1735257600/CLOUD_4263d1a0-4133-4466-ae09-23b38cbdcd9a.glb",
+  "product_url": "https://www.target.com/p/-/A-90022240",
+  "dimensions": {
+    "height": 0.762,
+    "width": 0.5081,
+    "depth": 0.0071,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Dark Gray",
+  "color_source": "parsed"
+}

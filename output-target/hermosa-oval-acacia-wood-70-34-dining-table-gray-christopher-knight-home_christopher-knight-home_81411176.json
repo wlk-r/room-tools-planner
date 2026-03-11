@@ -1,0 +1,26 @@
+{
+  "tcin": "81411176",
+  "name": "Hermosa Oval Acacia Wood 70&#34; Dining Table - Gray - Christopher Knight Home",
+  "brand": "Christopher Knight Home",
+  "price": "$242.99",
+  "currency": "USD",
+  "description": "Enjoy this stylish outdoor acacia wood table, prefect for any patio set up. Feature a beautiful teak finish, this oval table is a wonderful addition. The smooth lines of the legs give the table a calm, stylish look that complements the perpendicular wooden slats featured on the table top.<br />Some assembly required.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Tables",
+    "Outdoor Dining Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_83e2807b-f651-4483-8a49-1b6f7382c8e7",
+  "glb_url": "https://digitalcontent.target.com/vault/1656028800/CLOUD_8d1ad2dc-b1c3-48b3-940b-415e339f7660.glb",
+  "product_url": "https://www.target.com/p/-/A-81411176",
+  "dimensions": {
+    "height": 1.778,
+    "width": 0.8827,
+    "depth": 0.762,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

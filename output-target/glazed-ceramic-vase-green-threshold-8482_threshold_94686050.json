@@ -1,0 +1,26 @@
+{
+  "tcin": "94686050",
+  "name": "Glazed Ceramic Vase Green - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$22.00",
+  "currency": "USD",
+  "description": "Add a touch of nature to your decor with this Medium Reactive Glaze Vase from Threshold™. Made of ceramic with reactive glaze finish, this tall vase is designed in a green hue to add a vibrant touch to your space. You can fill this watertight vase with fresh blooms or your favorite faux flowers to create a centerpiece for any cozy nook in your home. <br /><br />Flowing glazes with shifting tones and varied surface effects are the natural result of this handcrafted ceramic vase, offering each piece naturally imperfect charm — no two vases are alike, celebrating the beauty of handmade tradition.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Decorative Objects",
+    "Vases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0dd5ae26-9e00-4f20-a829-78ac66aaaec9",
+  "glb_url": "https://digitalcontent.target.com/vault/1762300800/CLOUD_1ee830d9-a3dd-410e-a8f6-c0fcebeac09d.glb",
+  "product_url": "https://www.target.com/p/-/A-94686050",
+  "dimensions": {
+    "height": 0.256,
+    "width": 0.1441,
+    "depth": 0.1437,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Green",
+  "color_source": "parsed"
+}

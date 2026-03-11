@@ -1,0 +1,24 @@
+{
+  "tcin": "89618620",
+  "name": "LED Mirror - Room Essentials&#8482;: Rectangular Vanity Mirror with Lights, 1X Magnification, Spot Clean, Lithium Ion Battery Included",
+  "brand": "Room Essentials",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Bring convenience to anytime grooming or touch-ups with this LED Mirror from Room Essentials™. Designed in a rectangular shape with rounded corners, this lighted mirror features a plastic shell that lights up with a touch button on the front. Featuring an adjustable design that allows you to change the viewing angle, it runs on an in-built lithium ion battery with a back USB port for easy charging.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Beauty",
+    "Makeup",
+    "Makeup Tools & Brushes",
+    "Makeup Mirrors"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c0ea91a0-05ba-4e97-b161-4a7ae56b4441",
+  "glb_url": "https://digitalcontent.target.com/vault/1726617600/CLOUD_286662c7-867a-47ff-a5da-1dce425fd676.glb",
+  "product_url": "https://www.target.com/p/-/A-89618620",
+  "dimensions": {
+    "height": 0.2533,
+    "width": 0.1775,
+    "depth": 0.1215,
+    "unit": "m",
+    "source": "glb"
+  }
+}

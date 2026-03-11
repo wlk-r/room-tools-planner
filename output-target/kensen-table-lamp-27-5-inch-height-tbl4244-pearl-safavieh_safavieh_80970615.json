@@ -1,0 +1,24 @@
+{
+  "tcin": "80970615",
+  "name": "Kensen Table Lamp - 27.5 Inch Height - TBL4244 - Pearl - Safavieh",
+  "brand": "Safavieh",
+  "price": "$77.99",
+  "currency": "USD",
+  "description": "Introducing the Kensen 27.5 inch pearl table lamp, a stunning addition to any room. Crafted from polyresin, this lamp combines elegance and modern design to light up your space in style. The soft pearl color complements a variety of decor themes, adding a touch of sophistication without overpowering. Its sleek form is not just a lighting solution but a statement piece. Whether placed in your living room or bedroom, the Kensen table lamp provides the perfect glow for relaxation or reading. Elevate your home decor with this finely crafted piece that promises to be a center of attention.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0e2e2c05-fbf9-4c57-b958-4b4444df1169",
+  "glb_url": "https://digitalcontent.target.com/vault/1764720000/CLOUD_5a6b3c21-3b1f-4060-9957-48d974172bcf.glb",
+  "product_url": "https://www.target.com/p/-/A-80970615",
+  "dimensions": {
+    "height": 0.6871,
+    "width": 0.3573,
+    "depth": 0.3573,
+    "unit": "m",
+    "source": "glb"
+  }
+}

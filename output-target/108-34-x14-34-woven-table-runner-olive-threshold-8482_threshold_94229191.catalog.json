@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "94229191",
+      "name": "108&#34;x14&#34; Woven Table Runner Olive - Threshold&#8482;",
+      "color": "Olive"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94229191",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "table-runner",
+        "textile",
+        "dining"
+      ],
+      "tags": [
+        "woven",
+        "organic",
+        "warm",
+        "rustic"
+      ]
+    }
+  ]
+}

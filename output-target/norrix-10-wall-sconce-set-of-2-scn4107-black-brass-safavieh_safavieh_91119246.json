@@ -1,0 +1,27 @@
+{
+  "tcin": "91119246",
+  "name": "Norrix 10\" Wall Sconce (Set of 2) - SCN4107 - Black/Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$121.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Norrix wall sconce set. This pair of 10-inch fixtures combines the timeless elegance of black and brass to create a striking visual impact. Crafted from durable iron, these sconces offer a sleek, modern design that fits seamlessly into any decor. Whether placed in a living room, bedroom, or hallway, Norrix adds a touch of sophistication and warmth, enhancing the atmosphere of your home. \n\nThe blend of strong lines and subtle curves in the Norrix design ensures that these sconces stand out while complementing your existing aesthetic. Easy to install, they provide an ideal lighting solution that enhances both style and functionality in your space. Experience the perfect balance of form and function with the Norrix iron wall sconce set, a stunning addition to any room.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Wall Lights",
+    "Wall Sconces"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_52718911-02a4-4f6f-8838-86cd509be7c4",
+  "glb_url": "https://digitalcontent.target.com/vault/1765324800/CLOUD_37d52dd8-2f4b-488b-ab88-72ce291f4d77.glb",
+  "product_url": "https://www.target.com/p/-/A-91119246",
+  "color": "Black/Brass",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.2549,
+    "width": 0.2286,
+    "depth": 0.1802,
+    "unit": "m",
+    "source": "glb"
+  }
+}

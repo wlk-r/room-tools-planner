@@ -1,0 +1,27 @@
+{
+  "tcin": "81646067",
+  "name": "Glass Semi Flushmount Ceiling Light Black - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$85.00",
+  "currency": "USD",
+  "description": "Bring contemporary, modern lighting to your wall space with this Glass Semi Flushmount Ceiling Light from Threshold™ designed with Studio McGee. This semi flush mount fixed light features a glass shade attached to a sleek metal base that mounts to the wall for a more interesting look. This sconce light brightens up your space whether you want to add a dash of glowing appeal to your welcoming entryway or illuminate your bedside for nightly reading.<br /><br />Meet Shea McGee, the designer and stylist behind the brand Studio McGee. Founded alongside her husband, Syd, the studio is known for Shea’s design of beautifully elevated spaces that encourage clients to surround themselves with the things and people they love. Now she’s partnering with Threshold to offer Studio McGee’s classic design in a new collection for inspired homes, everywhere.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Ceiling Lights",
+    "Semi-Flush Ceiling Lights"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3c2ecda0-15f2-45d6-9c6b-f1d72a290250",
+  "glb_url": "https://digitalcontent.target.com/vault/1643155200/CLOUD_91a3d7c2-0115-46f4-83d4-4919d63ef2a9.glb",
+  "product_url": "https://www.target.com/p/-/A-81646067",
+  "dimensions": {
+    "height": 0.3302,
+    "width": 0.3302,
+    "depth": 0.2349,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

@@ -1,0 +1,23 @@
+{
+  "tcin": "86104758",
+  "name": "Silver Buffalo Disney Princess Ceramic Soup Mug with Vented Lid | Holds 24 Ounces",
+  "brand": "Disney",
+  "price": "$17.99",
+  "currency": "USD",
+  "description": "Enjoy your favorite beverage or soup in style with this fun Disney Princess mug with vented lid! Fun and functional, this mug is great for using around the house, at the office, parties, and more! Officially licensed. Produced by Silver Buffalo, a trendsetting housewares and home decor company based in the heart of New York City. A Toynk exclusive!",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f3fabc24-b4a4-4c7d-a519-94cf9524743d",
+  "glb_url": "https://digitalcontent.target.com/vault/1717632000/CLOUD_7374b67d-c09e-4592-a8b3-accac3d6e019.glb",
+  "product_url": "https://www.target.com/p/-/A-86104758",
+  "dimensions": {
+    "height": 0.1647,
+    "width": 0.1314,
+    "depth": 0.0936,
+    "unit": "m",
+    "source": "glb"
+  }
+}

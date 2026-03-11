@@ -1,0 +1,23 @@
+{
+  "tcin": "94704719",
+  "name": "Rectangle Stoneware Food Storage Container - Figmint&#8482;",
+  "brand": "Figmint",
+  "price": "$14.00",
+  "currency": "USD",
+  "description": "Storing leftovers or unused ingredients will be easier than ever with this Rectangle Stoneware Food Storage Container from Figmint™. It is designed with a stoneware base that pairs with a secure plastic lid to keep ingredients fresh. It can be easily cleaned up in the dishwasher and can be used in the microwave or oven, without the lid, for quick reheating.<br /><br />Figmint™: Mixing up a taste of adventure every day.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen Storage",
+    "Food Storage Containers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_08acbad3-1ca4-4066-918b-2d98b53369ba",
+  "glb_url": "https://digitalcontent.target.com/vault/1768176000/CLOUD_557602df-4355-4bae-9fd6-09fe879258db.glb",
+  "product_url": "https://www.target.com/p/-/A-94704719",
+  "dimensions": {
+    "height": 0.2031,
+    "width": 0.1515,
+    "depth": 0.0634,
+    "unit": "m",
+    "source": "glb"
+  }
+}

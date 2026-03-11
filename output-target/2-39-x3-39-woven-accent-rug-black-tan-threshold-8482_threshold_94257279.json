@@ -1,0 +1,26 @@
+{
+  "tcin": "94257279",
+  "name": "2&#39;x3&#39; Woven Accent Rug Black/Tan - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$35.00",
+  "currency": "USD",
+  "description": "Add a touch of elegant style to your floor with this 2-Foot x 3-Foot Woven Accent Rug from Threshold™. This rectangular accent rug showcases a tan surface framed by a black border. It's adorned with two oversized diamonds at the center and surrounded by other geometric designs, all in a contrasting black shade. Plus, it features a low-pile construction.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Accent Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_8d2f2b5f-013f-4f4a-8bf7-a6c1b4d7e54a",
+  "glb_url": "https://digitalcontent.target.com/vault/1754524800/CLOUD_0c83289c-f39f-4a03-9eb3-29b804adb202.glb",
+  "product_url": "https://www.target.com/p/-/A-94257279",
+  "dimensions": {
+    "height": 0.9159,
+    "width": 0.6112,
+    "depth": 0.0058,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black/Tan",
+  "color_source": "parsed"
+}

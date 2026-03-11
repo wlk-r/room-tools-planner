@@ -1,0 +1,26 @@
+{
+  "tcin": "93035918",
+  "name": "Zaire 65\" Floor Lamp - FLL4132 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$93.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the sleek and modern Zaire Floor Lamp. This elegant lighting solution features a strong metal body finished in a versatile black hue, providing a blend of durability and style that seamlessly integrates with any decor. Topped with a tasteful fabric shade, this lamp casts a warm, inviting glow for both ambient and task lighting.\r\n\r\nThe ZAIRE Floor Lamp stands an impressive 72 inches tall, ensuring a substantial and commanding presence in any room. The base measures 10 inches in diameter, offering stability without compromising floor space. With an 18-inch shade diameter, it disperses light evenly, making it ideal for reading areas, living rooms, or any corner that requires a touch of sophistication.\r\n\r\nEasy to set up and built to accommodate a variety of light bulbs, the Zaire Floor Lamp is designed for convenience and versatility. The slender profile makes it a perfect choice for cozy spaces, while the black finish and classic design allow it to stand out in more spacious interiors. Whether you're aiming for a minimalist aesthetic or adding to a more eclectic mix of decor, this floor lamp is sure to elevate the ambiance of your environment.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7ae13c3b-3b32-43e0-a777-152ceb75f7b2",
+  "glb_url": "https://digitalcontent.target.com/vault/1765497600/CLOUD_7a34dae2-cdf9-4f05-95e5-7b727cd300fe.glb",
+  "product_url": "https://www.target.com/p/-/A-93035918",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.7247,
+    "width": 0.4572,
+    "depth": 0.4572,
+    "unit": "m",
+    "source": "glb"
+  }
+}

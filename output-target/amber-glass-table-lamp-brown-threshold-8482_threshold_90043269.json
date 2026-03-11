@@ -1,0 +1,26 @@
+{
+  "tcin": "90043269",
+  "name": "Amber Glass Table Lamp Brown - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$65.00",
+  "currency": "USD",
+  "description": "Update your table lamp collection with the Amber Glass Table Lamp from Threshold™. This table lamp features a white drum-shaped shade and an amber-hue glass base with a translucent design for an appealing look. This table lamp has a rotary turn knob with a one-way light setting for quick on and off.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_6f8ac245-ef17-43e1-acec-cb7402ba2a86",
+  "glb_url": "https://digitalcontent.target.com/vault/1725321600/CLOUD_8d7e7713-0d7a-4109-b489-b953637665c3.glb",
+  "product_url": "https://www.target.com/p/-/A-90043269",
+  "dimensions": {
+    "height": 0.4189,
+    "width": 0.4087,
+    "depth": 0.2988,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brown",
+  "color_source": "parsed"
+}

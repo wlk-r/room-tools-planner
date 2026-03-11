@@ -1,0 +1,26 @@
+{
+  "tcin": "90022234",
+  "name": "Diamond Dot Print Shower Curtain Cream/Pink - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Fill your bath routine with elegant style with this Printed Shower Curtain from Threshold™. This decorative shower curtain features diamond-shaped print in muted hues on a cream background for classic style, while tassels at the trim lend extra flair. Made from 100% cotton, this printed shower curtain features a buttonhole top for quick installation, while the machine-washable design allows for easy cleaning when needed. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Shower Curtains & Accessories",
+    "Shower Curtains"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_196bb6c2-aadf-4a0d-9ee7-7c2143f6fb7f",
+  "glb_url": "https://digitalcontent.target.com/vault/1737331200/CLOUD_414601b7-d2f6-40b3-a312-b6aa9ca06c0a.glb",
+  "product_url": "https://www.target.com/p/-/A-90022234",
+  "dimensions": {
+    "height": 2.8595,
+    "width": 1.8288,
+    "depth": 1.8288,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Cream/Pink",
+  "color_source": "parsed"
+}

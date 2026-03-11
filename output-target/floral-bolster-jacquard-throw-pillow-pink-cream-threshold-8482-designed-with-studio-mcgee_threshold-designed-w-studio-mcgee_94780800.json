@@ -1,0 +1,25 @@
+{
+  "tcin": "94780800",
+  "name": "Floral Bolster Jacquard Throw Pillow Pink/Cream - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Elevate the look of your indoor space with this Bolster Jacquard Throw Pillow from Threshold™ designed with Studio McGee. This bolster throw pillow is covered with floral patterning on a textured backdrop with flange corners for an elegant look. Made with a 100% cotton slub exterior and polyester filling, this bolster pillow feels soft and comfortable, and it's finished with a neat sewn-seam closure.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Throw Pillows"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b4080860-d31d-4abc-9a7f-b131cf4e2662",
+  "glb_url": "https://digitalcontent.target.com/vault/1766534400/CLOUD_af2f8d0b-a803-4801-9572-109670bb8ca2.glb",
+  "product_url": "https://www.target.com/p/-/A-94780800",
+  "dimensions": {
+    "height": 0.4572,
+    "width": 0.2011,
+    "depth": 0.1951,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Pink/Cream",
+  "color_source": "parsed"
+}

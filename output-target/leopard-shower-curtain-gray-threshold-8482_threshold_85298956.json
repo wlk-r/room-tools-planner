@@ -1,0 +1,26 @@
+{
+  "tcin": "85298956",
+  "name": "Leopard Shower Curtain Gray - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Dress up your bath space with a fun, fierce look with this Leopard Glam Shower Curtain from Threshold™. The white shower curtain is adorned with a leopard-spot print in ombre gray for a modern, playful twist. This cotton shower curtain beautifully screens your bathtub for added privacy, and it comes with a buttonhole top that allows for easy installation.<br /><br />Threshold™: Quality & Design / Casual classics for house and home.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Shower Curtains & Accessories",
+    "Shower Curtains"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_783d09dd-f656-49af-b9e5-8275263b8356",
+  "glb_url": "https://digitalcontent.target.com/vault/1672185600/CLOUD_d1fe6181-135b-4838-a83d-0625f7435238.glb",
+  "product_url": "https://www.target.com/p/-/A-85298956",
+  "color": "Gray",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 3.2827,
+    "width": 1.8288,
+    "depth": 1.8288,
+    "unit": "m",
+    "source": "glb"
+  }
+}

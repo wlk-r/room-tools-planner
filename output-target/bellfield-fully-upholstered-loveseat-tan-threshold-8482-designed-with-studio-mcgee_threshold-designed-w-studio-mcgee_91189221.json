@@ -1,0 +1,25 @@
+{
+  "tcin": "91189221",
+  "name": "Bellfield Fully Upholstered Loveseat Tan - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$448.00",
+  "currency": "USD",
+  "description": "Enjoy moments with a loved one in comfort with the Bellfield Fully Upholstered Loveseat from Threshold™ designed with Studio McGee. This blush-hue loveseat made with a plywood frame easily integrates into your existing decor. Fully upholstered with polyester material, this loveseat helps you sit in comfort whether you're watching your favorite show, lounging or catching up with friends. <br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Loveseats"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_414c9f6c-3009-4b4f-90de-4effd1705bee",
+  "glb_url": "https://digitalcontent.target.com/vault/1740960000/CLOUD_c620bf03-6b06-4d70-b655-1abc4be52874.glb",
+  "product_url": "https://www.target.com/p/-/A-91189221",
+  "dimensions": {
+    "height": 1.5327,
+    "width": 0.9,
+    "depth": 0.8142,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Tan",
+  "color_source": "parsed"
+}

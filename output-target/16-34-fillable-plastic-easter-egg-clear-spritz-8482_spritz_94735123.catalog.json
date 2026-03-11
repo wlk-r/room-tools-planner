@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94735123",
+      "name": "16&#34; Fillable Plastic Easter Egg Clear - Spritz&#8482;",
+      "color": "Clear"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94735123",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "decor",
+        "holiday-decor"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "playful",
+        "festive"
+      ]
+    }
+  ]
+}

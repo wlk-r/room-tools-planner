@@ -1,0 +1,26 @@
+{
+  "tcin": "75003136",
+  "name": "Glass Table Lamp (Includes LED Light Bulb) - Pink - Cloud Island&#8482;",
+  "brand": "Cloud Island",
+  "price": "$41.99",
+  "currency": "USD",
+  "description": "Add a beautiful glow to any nightstand, dresser or reading nook with this Pink Glass Table Lamp from cloud island™. In soft pink, this charming table lamp showcases a lovely glass construction on a sturdy metal pedestal base. With a crisp drum shade and a beautifully shaped silhouette, this elegant glass lamp is an accent piece that'll brighten up any space in your home.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_9241fb09-34f4-4555-97fc-d20997dbed61",
+  "glb_url": "https://digitalcontent.target.com/vault/1763078400/CLOUD_b9006be8-1d3c-4ef4-9f02-916b6a9fa78e.glb",
+  "product_url": "https://www.target.com/p/-/A-75003136",
+  "dimensions": {
+    "height": 0.4064,
+    "width": 0.254,
+    "depth": 0.254,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Pink",
+  "color_source": "parsed"
+}

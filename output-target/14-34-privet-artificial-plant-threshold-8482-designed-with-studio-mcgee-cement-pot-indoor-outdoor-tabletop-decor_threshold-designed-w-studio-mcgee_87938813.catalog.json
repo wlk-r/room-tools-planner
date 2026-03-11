@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "87938813",
+      "name": "14&#34; Privet Artificial Plant - Threshold&#8482; designed with Studio McGee: Cement Pot, Indoor/Outdoor, Tabletop Decor",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "87938813",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "plant",
+        "decor"
+      ],
+      "tags": [
+        "scandinavian",
+        "minimal",
+        "organic",
+        "botanical"
+      ]
+    }
+  ]
+}

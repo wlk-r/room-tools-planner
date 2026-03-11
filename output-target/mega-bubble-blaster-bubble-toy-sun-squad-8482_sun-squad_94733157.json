@@ -1,0 +1,23 @@
+{
+  "tcin": "94733157",
+  "name": "Mega Bubble Blaster Bubble Toy - Sun Squad&#8482;",
+  "brand": "Sun Squad",
+  "price": "$10.00",
+  "currency": "USD",
+  "description": "Explore a world of fun with the mega bubble blaster from sun squad. This bubble toy is crafted with durable material, making it a thoughtful choice for playtime. Measuring 7.93 inches in height and weighing 1.66 pounds, it's easy for kids to handle. Its compact dimensions ensure it fits comfortably in little hands, promising endless bubble-blowing adventures. <br /><br />Sun Squad™: Ready for fun. ",
+  "categories": [
+    "Toys",
+    "Outdoor Toys",
+    "Bubbles"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_69b71480-adbc-46d0-aca5-5bc65c27aaaf",
+  "glb_url": "https://digitalcontent.target.com/vault/1771459200/CLOUD_88c0a620-ada1-4c80-b8d1-1e50a09dcd3a.glb",
+  "product_url": "https://www.target.com/p/-/A-94733157",
+  "dimensions": {
+    "height": 0.3507,
+    "width": 0.2014,
+    "depth": 0.1297,
+    "unit": "m",
+    "source": "glb"
+  }
+}

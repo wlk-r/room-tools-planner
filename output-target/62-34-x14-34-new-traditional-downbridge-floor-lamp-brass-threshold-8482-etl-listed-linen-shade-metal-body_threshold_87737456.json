@@ -1,0 +1,26 @@
+{
+  "tcin": "87737456",
+  "name": "62&#34;x14&#34; New Traditional Downbridge Floor Lamp Brass - Threshold&#8482;: ETL Listed, Linen Shade, Metal Body",
+  "brand": "Threshold",
+  "price": "$100.00",
+  "currency": "USD",
+  "description": "Illuminate any indoor setting in elegant style with this New Traditional Downbridge Floor Lamp from Threshold™. This floor lamp features a slim metal column atop a round pedestal base and a white downward-facing drum shade that's perfect for task lighting. Its gold-tone brass finish adds shine and effortlessly complements a range of decor styles. Place it next to a sofa in your living room or next to your favorite reading chair to decorate and illuminate your space. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_c48c20f6-a339-42c8-85de-8333463aecb8",
+  "glb_url": "https://digitalcontent.target.com/vault/1687305600/CLOUD_506f7783-2eed-4643-a7c8-c16765f979ed.glb",
+  "product_url": "https://www.target.com/p/-/A-87737456",
+  "dimensions": {
+    "height": 1.5684,
+    "width": 0.5654,
+    "depth": 0.3884,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brass",
+  "color_source": "parsed"
+}

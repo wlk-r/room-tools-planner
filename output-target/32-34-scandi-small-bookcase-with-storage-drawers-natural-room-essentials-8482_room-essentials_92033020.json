@@ -1,0 +1,25 @@
+{
+  "tcin": "92033020",
+  "name": "32&#34; Scandi Small Bookcase with Storage Drawers Natural - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$120.00",
+  "currency": "USD",
+  "description": "Put together a perfectly polished work or study area with this Scandi Small Bookcase from Room Essentials™. Standing at about 32 inches high, this small bookcase features mix of open shelving and closed compartments to offer room to display books or small accent items while concealing stationery and other essentials. Designed in a natural hue, this small bookcase will blend seamlessly with any existing decor style.<br /><br />Room Essentials™: Everyday Value<br /><br />Detailed Dimensions:<br />Overall Width: 38 inches<br />Overall Height: 32-1/4 inches<br />Overall Depth: 15-1/2 inches<br />Distance from floor to bottom of apron: 2-1/4 inches<br />Distance from bottom frame to shelf panel: 8-7/8 inches<br />Distance from shelf panel to top panel: 8-7/8 inches<br />Depth of top panel: 14 inches<br />Thickness of top panel: 5/8 inches<br />Width of drawer front panel: 16-5/8 inches<br />Height of drawer front panel: 8-1/4 inches<br />Width of drawer box: 15-3/4 inches<br />Height of drawer box: 5-1/8  inches<br />Depth of drawer box: 11-3/4 inches ",
+  "categories": [
+    "Furniture",
+    "Home Office Furniture",
+    "Bookshelves & Bookcases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a61f97ab-58b2-41e4-b82d-7dafd28f4adf",
+  "glb_url": "https://digitalcontent.target.com/vault/1742256000/CLOUD_9bb162f8-7c9c-42cf-ad56-9fa038d08423.glb",
+  "product_url": "https://www.target.com/p/-/A-92033020",
+  "dimensions": {
+    "height": 0.9585,
+    "width": 0.8128,
+    "depth": 0.3886,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Natural",
+  "color_source": "parsed"
+}

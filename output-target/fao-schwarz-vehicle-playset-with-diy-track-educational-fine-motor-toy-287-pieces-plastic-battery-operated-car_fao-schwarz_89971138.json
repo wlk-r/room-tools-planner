@@ -1,0 +1,23 @@
+{
+  "tcin": "89971138",
+  "name": "FAO Schwarz Vehicle Playset with DIY Track: Educational Fine Motor Toy, 287 Pieces, Plastic Battery-Operated Car",
+  "brand": "FAO Schwarz",
+  "price": "$35.49",
+  "currency": "USD",
+  "description": "Spark your child's imagination and love for racing with the FAO Schwarz® Build & Race Roadway 287-Piece Flex Track Set. This extensive set includes everything needed to create one-of-a-kind twisting roadways with over 12 feet of flexible track. With 270 flex track pieces, 4 bridge pieces, 2 track switches, and 9 road signs, kids can design and build endlessly customizable circuits. The self-driving car, featuring real working lights, brings an exciting level of realism to the play experience. Each piece is easy to assemble and take apart, with flex pieces that bend left or right, allowing for dynamic and creative track designs. Suitable for children aged 3 and up, this flex track set encourages imaginative play, building skills, and provides hours of fun and entertainment.",
+  "categories": [
+    "Toys",
+    "Vehicles & Remote Control",
+    "Racetracks & Playsets"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2e9f7f23-a0e7-4528-b97d-a7adc8cdb1f9",
+  "glb_url": "https://digitalcontent.target.com/vault/1726272000/CLOUD_16b4ee83-2944-4395-8650-d70e05d6d757.glb",
+  "product_url": "https://www.target.com/p/-/A-89971138",
+  "dimensions": {
+    "height": 0.7646,
+    "width": 0.6621,
+    "depth": 0.3994,
+    "unit": "m",
+    "source": "glb"
+  }
+}

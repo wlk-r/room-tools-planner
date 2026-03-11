@@ -1,0 +1,26 @@
+{
+  "tcin": "91119580",
+  "name": "Jayson Table Lamp - 23.25 Inch Height - TBL4524 - Black/Amber - Safavieh",
+  "brand": "Safavieh",
+  "price": "$104.99",
+  "currency": "USD",
+  "description": "Transform your space with the Jayson 23.25 inch table lamp in black and amber. This striking lamp blends sleek metal and smooth glass to create a captivating centerpiece for any room. The sophisticated black frame complements the warm amber glass, offering a balanced aesthetic that suits both modern and classic styles. Its 23.25 inch height is perfect for adding dimension to side tables, desks, or living areas. Whether you are reading, working, or relaxing, this lamp provides the ideal illumination for your needs. Elevate your decor with this stylish blend of glass and metal, designed to enhance your home with a timeless touch. Illuminate your world with Jayson.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_bb564adc-7a52-4e6c-b170-56c4758aaff6",
+  "glb_url": "https://digitalcontent.target.com/vault/1765411200/CLOUD_9022c8f1-fcfa-4f07-a8ec-5f386a920e69.glb",
+  "product_url": "https://www.target.com/p/-/A-91119580",
+  "color": "Black/Amber",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5905,
+    "width": 0.2551,
+    "depth": 0.1843,
+    "unit": "m",
+    "source": "glb"
+  }
+}

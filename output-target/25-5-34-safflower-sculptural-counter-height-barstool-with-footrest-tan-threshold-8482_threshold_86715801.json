@@ -1,0 +1,25 @@
+{
+  "tcin": "86715801",
+  "name": "25.5&#34; Safflower Sculptural Counter Height Barstool with Footrest Tan - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$135.00",
+  "currency": "USD",
+  "description": "Elevate your kitchen island or living room seating with this Safflower Sculptural Counter Stool from Threshold™. Built on a metal frame, this fixed-height armless counter stool strikes a luxe pose with a fully upholstered silhouette in dark tan as well as a cushioned seat and padded backrest. The black footrest and stylish sculptural accents on the sides put attractive finishing touches on the elegant design.<br /><br />Threshold™: Quality & Design / Casual classics for house and home.",
+  "categories": [
+    "Furniture",
+    "Kitchen & Dining Furniture",
+    "Bar Furniture"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_25f782e4-92f7-4bd3-a791-80e579003f9c",
+  "glb_url": "https://digitalcontent.target.com/vault/1675987200/CLOUD_aa45a200-9091-4e29-bf6a-284581c31cca.glb",
+  "product_url": "https://www.target.com/p/-/A-86715801",
+  "dimensions": {
+    "height": 0.9525,
+    "width": 0.4826,
+    "depth": 0.4826,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Tan",
+  "color_source": "parsed"
+}

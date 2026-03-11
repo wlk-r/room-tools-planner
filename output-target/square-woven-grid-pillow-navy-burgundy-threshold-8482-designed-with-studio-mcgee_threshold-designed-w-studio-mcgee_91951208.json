@@ -1,0 +1,25 @@
+{
+  "tcin": "91951208",
+  "name": "Square Woven Grid Pillow Navy/Burgundy - Threshold&#8482; designed with Studio McGee",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$22.00",
+  "currency": "USD",
+  "description": "Add a classic touch to your space with the Square Woven Grid Pillow from Threshold™ designed with Studio McGee. This square pillow showcases a woven grid pattern in burgundy and navy hues for a beautiful look. Made with a 100% cotton exterior and polyester filling, this woven pillow feels soft and comfortable as you rest. The hidden zipper helps create a finished look, while the removable cover allows for easy maintenance.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Throw Pillows"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_5b3d2793-de47-482b-9664-885e3be4c8a2",
+  "glb_url": "https://digitalcontent.target.com/vault/1739318400/CLOUD_921e16e4-7996-4c7f-af77-b6ba7ea4c3d1.glb",
+  "product_url": "https://www.target.com/p/-/A-91951208",
+  "color": "Navy/Burgundy",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4572,
+    "width": 0.4572,
+    "depth": 0.1993,
+    "unit": "m",
+    "source": "glb"
+  }
+}

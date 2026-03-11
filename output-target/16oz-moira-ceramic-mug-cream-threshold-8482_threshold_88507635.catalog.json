@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "88507635",
+      "name": "16oz Moira Ceramic Mug Cream - Threshold&#8482;",
+      "color": "Cream"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "88507635",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "tabletop"
+      ],
+      "tags": [
+        "japandi",
+        "contemporary",
+        "minimal",
+        "warm"
+      ]
+    }
+  ]
+}

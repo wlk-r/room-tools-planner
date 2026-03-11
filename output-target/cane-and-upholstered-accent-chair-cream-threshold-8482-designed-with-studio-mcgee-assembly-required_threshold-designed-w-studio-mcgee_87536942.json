@@ -1,0 +1,26 @@
+{
+  "tcin": "87536942",
+  "name": "Cane and Upholstered Accent Chair Cream - Threshold&#8482; designed with Studio McGee Assembly Required",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$266.00",
+  "currency": "USD",
+  "description": "Spruce up your living room decor with this Cane Accent Chair from Threshold™ designed with Studio McGee. Constructed from rubberwood in a lacquered finish, this beautiful accent chair features removable seat and back cushions to keep you comfortable whether you're reading, watching TV or just hanging out. Whether you pair it with your couch or your favorite ottoman, you'll love the style and functionality it adds to your space.<br /><br />Overall Height: 31 inches<br />Overall Width: 26 inches<br />Overall Depth: 30 inches<br />Back Height: 28 inches<br />Seat Height: 18 inches<br />Seat Width: 22-3/4 inches<br />Seat Depth: 19 inches<br />Arm Height: 23 inches",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Chairs",
+    "Accent Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_6831b326-ed1f-4edc-95fd-4af6fa2fb221",
+  "glb_url": "https://digitalcontent.target.com/vault/1693440000/CLOUD_b9d9ed48-13b0-44d1-8444-79e86c45d5f5.glb",
+  "product_url": "https://www.target.com/p/-/A-87536942",
+  "dimensions": {
+    "height": 0.7874,
+    "width": 0.762,
+    "depth": 0.6604,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Cream",
+  "color_source": "parsed"
+}

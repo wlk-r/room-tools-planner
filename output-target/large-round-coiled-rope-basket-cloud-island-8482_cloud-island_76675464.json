@@ -1,0 +1,24 @@
+{
+  "tcin": "76675464",
+  "name": "Large Round Coiled Rope Basket - Cloud Island&#8482;",
+  "brand": "Cloud Island",
+  "price": "$34.99",
+  "currency": "USD",
+  "description": "Keep their space organized in style with the Large Round Coiled Rope Basket from cloud island™. This gray rope basket brings practical organization to your baby's nursery or child's playroom decor. Featuring a coiled construction for sturdy use, it comes with bold rope handles to add a fun pop of design and texture. This round rope basket can be used for storage of toys, craft supplies, baby accessories, small clothing items, linens and more. Plus, it can be easily lifted with the attached handles, and spot cleaned for easy care.",
+  "categories": [
+    "Baby",
+    "Nursery",
+    "Nursery Decor",
+    "Nursery Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_8e28ef15-ada5-4f7b-8a2c-c8640d1e8a4a",
+  "glb_url": "https://digitalcontent.target.com/vault/1763078400/CLOUD_4839612e-e041-4341-87d6-ea87764a6d76.glb",
+  "product_url": "https://www.target.com/p/-/A-76675464",
+  "dimensions": {
+    "height": 0.4719,
+    "width": 0.4623,
+    "depth": 0.2986,
+    "unit": "m",
+    "source": "glb"
+  }
+}

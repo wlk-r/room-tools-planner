@@ -1,0 +1,23 @@
+{
+  "tcin": "94639703",
+  "name": "Peppermint Pillow - Bullseye&#39;s Playground&#8482;",
+  "brand": "Bullseye's Playground",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Add a touch of whimsy to your home with the Peppermint Pillow from Bullseye's Playground. This round, candy-patterned pillow is crafted from soft polyester, offering a cozy feel. Its multicolored design adds a playful pop to any room, while the sewn seam closure ensures durability. Perfect for indoor use, this novelty plush pillow is a delightful addition to your decor, bringing comfort and charm to your space.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Throw Pillows"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_aa0b1d6c-b6e4-479d-8362-ff38acee775c",
+  "glb_url": "https://digitalcontent.target.com/vault/1762732800/CLOUD_c31486b1-3041-470e-b10f-53394835b633.glb",
+  "product_url": "https://www.target.com/p/-/A-94639703",
+  "dimensions": {
+    "height": 0.3556,
+    "width": 0.1983,
+    "depth": 0.0858,
+    "unit": "m",
+    "source": "glb"
+  }
+}

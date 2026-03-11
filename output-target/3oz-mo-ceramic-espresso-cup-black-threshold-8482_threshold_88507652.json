@@ -1,0 +1,25 @@
+{
+  "tcin": "88507652",
+  "name": "3oz Mo Ceramic Espresso Cup Black - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$8.00",
+  "currency": "USD",
+  "description": "Whether it's time for black tea, coffee or any other drink, enjoy it in elegant style with the 3-Ounce Mo Ceramic Espresso Cup from Threshold™. This black espresso cup features a broad ribbed design for textured appeal you'll love. Suitable for hot or cold beverages, this ceramic cup is both microwave and dishwasher safe for quick reheating and cleaning.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e8b7923d-fd61-483c-a0e9-cce9beaabc9f",
+  "glb_url": "https://digitalcontent.target.com/vault/1698364800/CLOUD_c14bd018-3aee-4543-af7b-1dea79d975ae.glb",
+  "product_url": "https://www.target.com/p/-/A-88507652",
+  "dimensions": {
+    "height": 0.0639,
+    "width": 0.0546,
+    "depth": 0.0541,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

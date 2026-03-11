@@ -1,0 +1,25 @@
+{
+  "tcin": "93273030",
+  "name": "13&#34; Fabric Bin 6pk Black - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$30.00",
+  "currency": "USD",
+  "description": "Neatly stash clothing, toys and other items out of sight with the 6-Pack of Fabric Bins from Brightroom™. The bins in this pack of six are designed in a cube shape with an open top for easy organization. Made of fabric, these black bins also have cutout handles to make them easy to pull them out. Place them on any tabletop or shelf or tuck them into a closet for space-saving storage.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Garage Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_ec2ff1a2-4a6c-4d1e-937d-d67624da5b10",
+  "glb_url": "https://digitalcontent.target.com/vault/1751328000/CLOUD_bb0b608e-0453-48fb-9809-a26e2084b5d6.glb",
+  "product_url": "https://www.target.com/p/-/A-93273030",
+  "dimensions": {
+    "height": 0.3302,
+    "width": 0.3302,
+    "depth": 0.3302,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

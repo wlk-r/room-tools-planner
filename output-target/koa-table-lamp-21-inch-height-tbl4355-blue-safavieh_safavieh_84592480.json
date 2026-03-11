@@ -1,0 +1,26 @@
+{
+  "tcin": "84592480",
+  "name": "Koa Table Lamp - 21 Inch Height - TBL4355 - Blue - Safavieh",
+  "brand": "Safavieh",
+  "price": "$63.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the KOA 21 inch blue ceramic table lamp. This elegant piece brings a touch of serenity to your decor with its calming blue hue and artful design. The lamp is crafted with a ceramic body making up 80 percent and a 20 percent iron neck, offering a sleek and sturdy composition. It features an E26 socket providing versatile lighting options for any room. Whether placed in a living room, bedroom or office, the KOA table lamp adds a stylish focal point. Its ceramic design pairs beautifully with the warm glow it emits, creating a cozy ambiance. Enhance your home with this charming lighting solution, blending function and aesthetic to elevate your interior.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_77631bbc-9688-4d8b-b4b0-4b9426bcd736",
+  "glb_url": "https://digitalcontent.target.com/vault/1770249600/CLOUD_69304d8f-5dc3-4725-a202-3c437318b131.glb",
+  "product_url": "https://www.target.com/p/-/A-84592480",
+  "color": "Blue",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3652,
+    "width": 0.2032,
+    "depth": 0.2032,
+    "unit": "m",
+    "source": "glb"
+  }
+}

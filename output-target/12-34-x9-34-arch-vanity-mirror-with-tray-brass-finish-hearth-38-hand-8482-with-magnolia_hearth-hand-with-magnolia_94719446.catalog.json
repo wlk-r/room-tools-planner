@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94719446",
+      "name": "12&#34;x9&#34; Arch Vanity Mirror with Tray Brass Finish - Hearth &#38; Hand&#8482; with Magnolia",
+      "color": "Brass Finish"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94719446",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "vanity-mirror",
+        "decor"
+      ],
+      "tags": [
+        "elegant",
+        "brass",
+        "mid-century",
+        "warm"
+      ]
+    }
+  ]
+}

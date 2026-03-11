@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "93551211",
+      "name": "19oz Tall Recycled Pint Glass Brown - Hearth &#38; Hand&#8482; with Magnolia",
+      "color": "Brown"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "93551211",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware"
+      ],
+      "tags": [
+        "warm",
+        "organic",
+        "contemporary",
+        "minimal"
+      ]
+    }
+  ]
+}

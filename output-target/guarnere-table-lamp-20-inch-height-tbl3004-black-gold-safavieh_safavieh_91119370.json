@@ -1,0 +1,26 @@
+{
+  "tcin": "91119370",
+  "name": "Guarnere Table Lamp - 20 Inch Height - TBL3004 - Black/Gold - Safavieh",
+  "brand": "Safavieh",
+  "price": "$92.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the sophisticated design of the Guarnere table lamp. Standing at 20 inches, this elegant lamp blends effortlessly into any room decor. The striking black and gold color scheme adds a touch of modern luxury, making it a versatile addition to your living room, bedroom, or office. Crafted from durable metal, its sleek iron and fabric construction exudes timeless charm while providing optimal lighting. Whether you are reading your favorite book or setting the perfect mood, the Guarnere lamp delivers style and function. Transform your environment with the subtle yet distinctive glow of this exquisite lighting solution. Embrace elegance and function in one beautiful package with the black and gold Guarnere lamp.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_333f089f-b55c-477c-8d57-7392d5e43a72",
+  "glb_url": "https://digitalcontent.target.com/vault/1763683200/CLOUD_8a276c28-e83c-4566-a696-25284b4d653f.glb",
+  "product_url": "https://www.target.com/p/-/A-91119370",
+  "dimensions": {
+    "height": 0.5119,
+    "width": 0.2532,
+    "depth": 0.1538,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black/Gold",
+  "color_source": "parsed"
+}

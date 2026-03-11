@@ -1,0 +1,27 @@
+{
+  "tcin": "91119135",
+  "name": "Barrett 2 Light 7.5\" Wall Sconce - SCN4033 - Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$80.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Barrett 2 Light 7.5 Inch Brass Iron Wall Sconce. This elegant fixture combines a sleek brass finish with sturdy iron craftsmanship. Its refined design effortlessly enhances any room, offering both style and function. The warm glow cast by the dual lights creates an inviting ambiance, perfect for living rooms, hallways, or bedrooms. Measuring 7.5 inches, it is compact yet impactful, fitting comfortably in various settings. Whether you are updating your home or completing a new design, the Barrett Wall Sconce is a stunning addition that brings an air of sophistication. Add a touch of elegance to your decor with this timeless piece.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Wall Lights",
+    "Wall Sconces"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_27c00bd1-a965-456e-b7cf-aba00ab40559",
+  "glb_url": "https://digitalcontent.target.com/vault/1769558400/CLOUD_f66a2db9-a000-4afb-a913-c2e14dfd5b25.glb",
+  "product_url": "https://www.target.com/p/-/A-91119135",
+  "dimensions": {
+    "height": 0.3128,
+    "width": 0.3048,
+    "depth": 0.1538,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brass",
+  "color_source": "parsed"
+}

@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "93273030",
+      "name": "13&#34; Fabric Bin 6pk Black - Brightroom&#8482;",
+      "color": "Black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "93273030",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "textile"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "utilitarian"
+      ]
+    }
+  ]
+}

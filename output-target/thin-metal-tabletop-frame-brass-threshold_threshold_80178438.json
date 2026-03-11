@@ -1,0 +1,25 @@
+{
+  "tcin": "80178438",
+  "name": "Thin Metal Tabletop Frame Brass - Threshold™",
+  "brand": "Threshold",
+  "price": "$12.00",
+  "currency": "USD",
+  "description": "Enhance the look of any photo with this Brass Thin Metal Tabletop Frame from Threshold™. Showcasing a subtle gold metal finish, this rectangular picture frame has a clean-lined border to offer a modern display for a photo in your home or office space. The sawtooth and easel back fittings allow for quick and easy display on any wall or table, while the glass front helps protect your photo from day-to-day dust or damage. Just mount this metal photo frame on any wall or set it on your desk, mantelpiece or shelf for an instant decor update. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Picture Frames"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_464c9346-a2a8-4e6c-9114-9fd30994865b",
+  "glb_url": "https://digitalcontent.target.com/vault/1618272000/CLOUD_fdc330dc-7eff-4b2a-b5aa-8e19cc14e690.glb",
+  "product_url": "https://www.target.com/p/-/A-80178438",
+  "color": "Brass",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.2388,
+    "width": 0.188,
+    "depth": 0.0189,
+    "unit": "m",
+    "source": "glb"
+  }
+}

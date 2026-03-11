@@ -1,0 +1,26 @@
+{
+  "tcin": "89972720",
+  "name": "Twin Stripe Cotton Hand Towel Beige/Rust - Hearth &#38; Hand&#8482; with Magnolia: Lightweight, Farmhouse, OEKO-TEX Certified",
+  "brand": "Hearth & Hand with Magnolia",
+  "price": "$11.04",
+  "currency": "USD",
+  "description": "Meet your everyday needs in simple style with the Twin Stripe Cotton Hand Towel from Hearth & Hand™ with Magnolia. This beige hand towel features twin stripes in orange hues for a contrasting look that complements your existing decor and is adorned with fringe to elevate the look. Made with 100% cotton fabric, this lightweight hand towel feels soft and is great for wiping hands or performing cleaning tasks.<br /><br />Hearth & Hand™ with Magnolia: Gather • Create • Enjoy",
+  "categories": [
+    "Home",
+    "Bath",
+    "Towels",
+    "Hand Towels"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_69b502be-bbed-4e3f-b122-69e1a5f6a572",
+  "glb_url": "https://digitalcontent.target.com/vault/1740700800/CLOUD_05c40114-5dd7-4b5a-a3d0-58b34cedf861.glb",
+  "product_url": "https://www.target.com/p/-/A-89972720",
+  "color": "Beige/Rust",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.7531,
+    "width": 0.4064,
+    "depth": 0.0406,
+    "unit": "m",
+    "source": "glb"
+  }
+}

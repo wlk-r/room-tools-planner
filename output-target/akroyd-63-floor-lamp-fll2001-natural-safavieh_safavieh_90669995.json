@@ -1,0 +1,26 @@
+{
+  "tcin": "90669995",
+  "name": "Akroyd 63\" Floor Lamp - FLL2001 - Natural - Safavieh",
+  "brand": "Safavieh",
+  "price": "$221.99",
+  "currency": "USD",
+  "description": "Discover the charm of simplicity with the Akroyd floor lamp. Standing at 63 inches, this lamp seamlessly blends functionality and design, providing a gentle natural glow to any room. The lamp features a natural wood finish that complements a variety of interiors, making it a versatile addition to your decor. Crafted from wood, its sleek design adds a touch of elegance and warmth to your home. Whether you are reading or relaxing, the Akroyd floor lamp offers the perfect lighting solution to create an inviting atmosphere. Illuminate your space with style and simplicity by choosing this elegant wood floor lamp. Let it be the centerpiece that enhances your living area, adding both light and beauty.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_92b9ba38-ae53-4c39-b9f7-34bc0d6853bc",
+  "glb_url": "https://digitalcontent.target.com/vault/1771459200/CLOUD_a9d6f11a-3a62-4fe9-844d-bd4051be5dbe.glb",
+  "product_url": "https://www.target.com/p/-/A-90669995",
+  "dimensions": {
+    "height": 1.6012,
+    "width": 0.7235,
+    "depth": 0.642,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Natural",
+  "color_source": "parsed"
+}

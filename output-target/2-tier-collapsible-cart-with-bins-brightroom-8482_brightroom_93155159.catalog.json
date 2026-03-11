@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "93155159",
+      "name": "2 Tier Collapsible Cart with Bins - Brightroom&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "93155159",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "storage",
+        "utility"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "scandinavian"
+      ]
+    }
+  ]
+}

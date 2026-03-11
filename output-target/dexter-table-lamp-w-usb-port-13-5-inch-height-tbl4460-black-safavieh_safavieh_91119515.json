@@ -1,0 +1,26 @@
+{
+  "tcin": "91119515",
+  "name": "Dexter Table Lamp W/ USB Port - 13.5 Inch Height - TBL4460 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$43.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Dexter table lamp, measuring 13.5 inches. This black iron lamp offers a sleek and modern touch to any room. Its compact design makes it perfect for your desk, bedside, or living area. Crafted from durable iron, this lamp features a fabric shade that diffuses light softly, creating a warm and inviting atmosphere. The Dexter lamp also includes a built-in USB port, ensuring your devices can be charged conveniently without cluttering your space. Its minimalist style allows it to blend effortlessly with various decor styles, adding a touch of elegance. Enjoy the blend of functionality and style with this versatile lamp, and keep your surroundings well-lit while staying connected.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_bf6e874d-cb4e-41ab-8102-98c509fbe74f",
+  "glb_url": "https://digitalcontent.target.com/vault/1770854400/CLOUD_5e56d9d1-a8dd-4470-9fac-d2eba84e961b.glb",
+  "product_url": "https://www.target.com/p/-/A-91119515",
+  "dimensions": {
+    "height": 0.3429,
+    "width": 0.2286,
+    "depth": 0.2286,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

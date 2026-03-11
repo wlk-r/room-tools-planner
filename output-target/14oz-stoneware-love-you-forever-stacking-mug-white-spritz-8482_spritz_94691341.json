@@ -1,0 +1,25 @@
+{
+  "tcin": "94691341",
+  "name": "14oz Stoneware Love You Forever Stacking Mug White - Spritz&#8482;",
+  "brand": "Spritz",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Express your love to someone special with this Love You Forever Stacking Mug from Spritz™. Made of stoneware, this white mug features \"Love You Forever\" text in shiny gold lettering for a sweet look that will make them smile during their morning coffee. The mug also boasts a stackable design for convenient, space-saving storage. Plus, it's microwave and dishwasher safe for easy reheating and cleaning. ",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_48bf3f33-4eda-41f6-9ed1-75369d903ccc",
+  "glb_url": "https://digitalcontent.target.com/vault/1769558400/CLOUD_4243e8f9-a658-4811-a70e-8304ef52dbfa.glb",
+  "product_url": "https://www.target.com/p/-/A-94691341",
+  "dimensions": {
+    "height": 0.1278,
+    "width": 0.1021,
+    "depth": 0.0914,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "87389898",
+  "name": "Ribbed Glass Carafe Clear - Threshold&#8482;: Dishwasher-Safe Beverage Server, 50oz Cold Drink Pitcher, Cadmium-Free Glass",
+  "brand": "Threshold",
+  "price": "$16.00",
+  "currency": "USD",
+  "description": "Elevate your drinkware collection with this Ribbed Glass Carafe from Threshold™. This clear glass carafe features a modern bottle shape with a ribbed design for a textured look. With a capacity of 50 ounces, this beverages container is perfect for serving juice, water, ice tea and other cold beverages in style. Plus, it's safe to put in the dishwasher for easy cleaning.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Serveware",
+    "Pitchers & Carafes"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_42b15a4d-3d54-4e0d-8e6b-41d5054514c3",
+  "glb_url": "https://digitalcontent.target.com/vault/1684800000/CLOUD_6f0e68e0-7aea-4c84-b5a1-67942c8ab9a9.glb",
+  "product_url": "https://www.target.com/p/-/A-87389898",
+  "color": "Clear",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.27,
+    "width": 0.098,
+    "depth": 0.098,
+    "unit": "m",
+    "source": "glb"
+  }
+}

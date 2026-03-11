@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "92164043",
+      "name": "2.5L 2pk Sort it Storage Containers with 6 Shallow Cups - Brightroom&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "92164043",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "storage",
+        "organizer"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "neutral"
+      ]
+    }
+  ]
+}

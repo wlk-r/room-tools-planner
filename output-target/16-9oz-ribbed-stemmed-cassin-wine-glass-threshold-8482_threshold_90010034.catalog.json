@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "90010034",
+      "name": "16.9oz Ribbed Stemmed Cassin Wine Glass - Threshold&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90010034",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "barware"
+      ],
+      "tags": [
+        "contemporary",
+        "elegant",
+        "refined",
+        "minimal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "tcin": "80675908",
+  "name": "Semi Flushmount Kids&#39; Ceiling Light Black/Gold - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$90.00",
+  "currency": "USD",
+  "description": "Illuminate your kid's room in style with this Semi Flush Mount Ceiling Light from Pillowfort™. Set on a gold base, this flush mount ceiling light has black exterior and white interior to lend a modern appeal to the ceiling. With the dimmable light setting, this black and gold ceiling light helps them adjust the lighting according to their need.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Ceiling Lights",
+    "Semi-Flush Ceiling Lights"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_ec7f6f72-7e80-407c-a646-72c12814a15d",
+  "glb_url": "https://digitalcontent.target.com/vault/1631836800/CLOUD_c604b8d8-6203-4d97-bf55-fe3796f26c4d.glb",
+  "product_url": "https://www.target.com/p/-/A-80675908",
+  "color": "Black/Gold",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3556,
+    "width": 0.3556,
+    "depth": 0.1524,
+    "unit": "m",
+    "source": "glb"
+  }
+}

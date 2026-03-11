@@ -1,0 +1,26 @@
+{
+  "tcin": "90594384",
+  "name": "Vernelle Table Lamp - 21 Inch Height - TBL4494 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$58.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Vernelle 21 inch black iron table lamp. This striking piece brings elegance and modern flair to any room with its sleek black finish and sturdy iron construction. The clean lines and contemporary design make it a versatile addition to your home, seamlessly blending with various decor styles. \n\nPosition this lamp on a side table in your living room to create a warm and inviting ambiance, or place it on your desk for a sophisticated touch to your workspace. The lamp's compact size makes it ideal for small areas while still delivering the perfect amount of light for your needs. \n\nEmbrace the understated beauty of the Vernelle table lamp and let it enhance the atmosphere of your surroundings. With its simple yet eye-catching design, this lamp is the ideal choice for those who appreciate style and functionality.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_0f3a66f0-6f61-4af4-a360-56656a72469f",
+  "glb_url": "https://digitalcontent.target.com/vault/1765238400/CLOUD_688bfb86-ca36-476c-af44-2516c6dac9e5.glb",
+  "product_url": "https://www.target.com/p/-/A-90594384",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5267,
+    "width": 0.2531,
+    "depth": 0.2531,
+    "unit": "m",
+    "source": "glb"
+  }
+}

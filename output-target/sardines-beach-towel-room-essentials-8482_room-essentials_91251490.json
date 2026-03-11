@@ -1,0 +1,23 @@
+{
+  "tcin": "91251490",
+  "name": "Sardines Beach Towel - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$10.00",
+  "currency": "USD",
+  "description": "Enhance your beach towel collection with this Sardines Beach Towel from Room Essentials™. Made of 100% cotton terry fabric, this beach towel helps you dry off quickly, and it features a graphic of sardines with green stripes and black borders for an eye-catching look. It makes a perfect pick for beach vacations, pool parties and beyond.<br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Home",
+    "Bath",
+    "Beach Towels"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_eef1c252-8b4d-46df-8398-d5f811786447",
+  "glb_url": "https://digitalcontent.target.com/vault/1748995200/CLOUD_94561cb5-d524-49c1-8256-f8f9d7ed703e.glb",
+  "product_url": "https://www.target.com/p/-/A-91251490",
+  "dimensions": {
+    "height": 1.8288,
+    "width": 0.9144,
+    "depth": 0.0123,
+    "unit": "m",
+    "source": "glb"
+  }
+}

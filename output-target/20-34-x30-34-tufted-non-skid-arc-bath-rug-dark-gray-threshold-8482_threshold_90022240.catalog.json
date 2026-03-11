@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "90022240",
+      "name": "20&#34;x30&#34; Tufted Non-Skid Arc Bath Rug Dark Gray - Threshold&#8482;",
+      "color": "Dark Gray"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90022240",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile"
+      ],
+      "tags": [
+        "modern",
+        "geometric",
+        "neutral",
+        "minimalist"
+      ]
+    }
+  ]
+}

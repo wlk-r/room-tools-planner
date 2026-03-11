@@ -1,0 +1,26 @@
+{
+  "tcin": "94351238",
+  "name": "Hanging Travel Organizer Pink - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$14.00",
+  "currency": "USD",
+  "description": "Sort your travel essentials and keep them safe with this Hanging Travel Organizer from Brightroom™. This pink travel organizer features a zippered transparent pouch to hold your toiletries, makeup, and other essentials, and also has a zippered mesh pocket for extra storage. It comes with a metal hook to securely pack the bag, which can also be hung on a towel rack or door knob for ease of use. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Clothing, Shoes & Accessories",
+    "Accessories",
+    "Jewelry",
+    "Jewelry Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7e7cd79d-8285-4279-a25a-4c2fb05eaefa",
+  "glb_url": "https://digitalcontent.target.com/vault/1771286400/CLOUD_0d5be631-bbde-44f3-b693-134541fb294c.glb",
+  "product_url": "https://www.target.com/p/-/A-94351238",
+  "dimensions": {
+    "height": 0.3048,
+    "width": 0.1923,
+    "depth": 0.079,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Pink",
+  "color_source": "parsed"
+}

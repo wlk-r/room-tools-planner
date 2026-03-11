@@ -1,0 +1,26 @@
+{
+  "tcin": "91119516",
+  "name": "Kremp Table Lamp W/ USB Port - 23 Inch Height - TBL4409 - Grey - Safavieh",
+  "brand": "Safavieh",
+  "price": "$84.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the stylish KREMP table lamp, a modern addition to any room with its sleek grey finish. Standing at 23 inches, this resin-crafted beauty blends functionality with flair. Featuring a convenient USB port, the lamp is perfect for charging your devices, merging practicality with contemporary design. The ceramic material adds a touch of elegance, complementing any decor from classic to minimalist. The KREMP table lamp not only brightens your surroundings but also adds a sophisticated touch to your home or office space. Transform your environment with this chic and versatile lighting solution. Whether placed on a nightstand or an office desk, this lamp is designed to meet both aesthetic and functional needs, enhancing your daily routine with ease and style.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_da8cb6cf-8248-47d3-86a1-7e1502996cfa",
+  "glb_url": "https://digitalcontent.target.com/vault/1763683200/CLOUD_d8f88fa9-5241-4f25-9865-3efc0be8a42c.glb",
+  "product_url": "https://www.target.com/p/-/A-91119516",
+  "color": "Grey",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5904,
+    "width": 0.3495,
+    "depth": 0.3495,
+    "unit": "m",
+    "source": "glb"
+  }
+}

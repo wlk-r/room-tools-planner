@@ -1,0 +1,26 @@
+{
+  "tcin": "90594355",
+  "name": "Mulaney Table Lamp W/ USB Port - 22 Inch Height - TBL4458 - Black/Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$86.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Mulaney table lamp, a fusion of style and functionality. Standing at 22 inches, this striking lamp combines black and brass accents, adding an elegant touch to any room. Crafted from iron, its sleek design complements both modern and classic decor. The addition of a USB port elevates its practicality, making it perfect for busy lifestyles. Ideal for your living room, bedroom, or office, this lamp provides perfect lighting while keeping your devices charged. Elevate your decor with the Mulaney table lamp, where style meets utility.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3f30e05c-66fa-453e-b73b-2a56fb604742",
+  "glb_url": "https://digitalcontent.target.com/vault/1763683200/CLOUD_99370fea-e418-483a-9ccd-b4009ae6f3fb.glb",
+  "product_url": "https://www.target.com/p/-/A-90594355",
+  "color": "Black/Brass",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3732,
+    "width": 0.3539,
+    "depth": 0.1206,
+    "unit": "m",
+    "source": "glb"
+  }
+}

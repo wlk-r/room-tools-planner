@@ -1,0 +1,25 @@
+{
+  "tcin": "53134471",
+  "name": "Bathroom Wastebasket Gold - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$23.00",
+  "currency": "USD",
+  "description": "Keep unsightly waste concealed while adding a sleek touch to any room in your home with this Solid Faceted Wastebasket from Threshold™. With a wide, open top that lets you empty the inside contents with ease and a solid metal design for sleek flair, this solid bathroom wastebasket makes a practical addition to any space. This metallic bathroom wastebasket features a cool, faceted design that lends your space a touch of modern style, and is the perfect way to keep unsightly waste concealed. Simply add it to your bathroom or any other room in your home that needs a place to stow away trash.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3214013e-5f4b-47ee-add4-34f18ec60e65",
+  "glb_url": "https://digitalcontent.target.com/vault/1663286400/CLOUD_23099046-c76f-4927-ba0b-bd0f01abe3a3.glb",
+  "product_url": "https://www.target.com/p/-/A-53134471",
+  "dimensions": {
+    "height": 0.256,
+    "width": 0.207,
+    "depth": 0.207,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gold",
+  "color_source": "parsed"
+}

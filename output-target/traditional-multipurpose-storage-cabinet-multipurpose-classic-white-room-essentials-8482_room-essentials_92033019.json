@@ -1,0 +1,25 @@
+{
+  "tcin": "92033019",
+  "name": "Traditional Multipurpose Storage Cabinet Multipurpose Classic White - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$96.00",
+  "currency": "USD",
+  "description": "Transform the look and functionality of any space with this Multipurpose Traditional Cabinet from Room Essentials™. Made of wood, this traditional cabinet has a spacious adjustable shelf behind paneled doors, offering convenient storage for a variety of items, while the tabletop allows you to display vases, framed photos, decorative trays and more. Plus, it's designed in a classic white tone for easy integration into any room's decor scheme.<br /><br />Room Essentials™: Everyday Value<br /><br />Detailed Dimensions: <br />Overall Width: 31.97 inches<br />Overall Height: 30.20 inches<br />Overall Depth: 15 inches<br />Distance from floor to bottom: 3.35  inches<br />Distance between front legs: 28.3 inches<br />Distance between front leg and back leg: 11.3 inches<br />Width of door: 14 inches<br />Height of door: 23.1 inches<br />Distance between shelf on top and bottom: 11.3 inches",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Storage Furniture"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f07d6af2-1075-4a48-8527-c1abff08465c",
+  "glb_url": "https://digitalcontent.target.com/vault/1748304000/CLOUD_965e90f7-4931-484b-a702-52c32ad92764.glb",
+  "product_url": "https://www.target.com/p/-/A-92033019",
+  "color": "White",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.8132,
+    "width": 0.7666,
+    "depth": 0.3867,
+    "unit": "m",
+    "source": "glb"
+  }
+}

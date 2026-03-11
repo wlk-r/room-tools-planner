@@ -1,0 +1,25 @@
+{
+  "tcin": "14521077",
+  "name": "Office Chair Bonded Leather Black - Room Essentials&#8482;: Ergonomic Swivel, Adjustable Height, Foam Padding",
+  "brand": "Room Essentials",
+  "price": "$75.00",
+  "currency": "USD",
+  "description": "Sit comfortably in your home office or workspace with this Bonded Leather Office Chair from Room Essentials™. This padded office chair has a sturdy steel frame for durability and is upholstered with a bonded leather fabric for a simple, sophisticated look. The chair rolls on five wheels for easy movement, can swivel 360-degrees and has an adjustable height so you can get just the right fit at any desk or table. With armrests for additional comfort and a well-padded design, this bonded leather swivel office chair is the perfect seating solution for your home office.Overall max height: 40.75 inches Overall min height: 37 inches Overall width:  26.5 inches Overall depth: 26.75 inches ",
+  "categories": [
+    "Furniture",
+    "Home Office Furniture",
+    "Office Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_9bba0261-1a73-4fb5-8ea2-882465d4c9e4",
+  "glb_url": "https://digitalcontent.target.com/vault/1763078400/CLOUD_fde21dc3-7f58-4ce2-8a63-7db390916e7c.glb",
+  "product_url": "https://www.target.com/p/-/A-14521077",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.0351,
+    "width": 0.6816,
+    "depth": 0.6731,
+    "unit": "m",
+    "source": "glb"
+  }
+}

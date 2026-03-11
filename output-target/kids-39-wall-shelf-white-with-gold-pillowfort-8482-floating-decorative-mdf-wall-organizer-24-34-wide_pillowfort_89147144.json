@@ -1,0 +1,26 @@
+{
+  "tcin": "89147144",
+  "name": "Kids&#39; Wall Shelf White with Gold - Pillowfort&#8482;: Floating Decorative MDF Wall Organizer, 24&#34; Wide",
+  "brand": "Pillowfort",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Decorate your kid's space with the Wall Shelf from Pillowfort™. This white wall shelf is designed in a rectangle shape with a gold-tone metal bar for an appealing contrast that blends well with their existing decor. Made with wood, this wall shelf offers ample space for plants, books and other decorative items.",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Furniture",
+    "Kids’ Bookcases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2e104ad7-2e7b-4b32-9c62-43f6e59d429b",
+  "glb_url": "https://digitalcontent.target.com/vault/1721174400/CLOUD_a95e771d-e8b9-41c8-a1d2-022b3fa1b23a.glb",
+  "product_url": "https://www.target.com/p/-/A-89147144",
+  "color": "Gold",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.6096,
+    "width": 0.1174,
+    "depth": 0.1016,
+    "unit": "m",
+    "source": "glb"
+  }
+}

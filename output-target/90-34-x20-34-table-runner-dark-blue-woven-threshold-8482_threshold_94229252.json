@@ -1,0 +1,25 @@
+{
+  "tcin": "94229252",
+  "name": "90&#34;x20&#34; Table Runner Dark Blue Woven - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$30.00",
+  "currency": "USD",
+  "description": "Give your dining table an understated, casual look with this Woven Table Runner from Threshold™. The rectangular table runner features a woven stripe pattern in blue hue that's complemented by fringed edges, adding a sophisticated touch you'll love. The 100% cotton table runner helps protect your surface against scratches, spills and messes. Pair with coordinating napkins and placemats to create an elegant dining setup.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen & Table Linens",
+    "Table Runners"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_86c09a09-e77d-4c12-a777-95c0ebbccb9e",
+  "glb_url": "https://digitalcontent.target.com/vault/1758499200/CLOUD_5072d12f-47fd-49b0-a6e7-24865337bd31.glb",
+  "product_url": "https://www.target.com/p/-/A-94229252",
+  "dimensions": {
+    "height": 1.3664,
+    "width": 0.7742,
+    "depth": 0.7061,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Dark Blue",
+  "color_source": "parsed"
+}

@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "90022272",
+      "name": "20&#34;x30&#34; Modern Colorblock Tufted Bath Rug - Threshold&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90022272",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug"
+      ],
+      "tags": [
+        "modern",
+        "geometric",
+        "warm",
+        "cozy"
+      ]
+    }
+  ]
+}

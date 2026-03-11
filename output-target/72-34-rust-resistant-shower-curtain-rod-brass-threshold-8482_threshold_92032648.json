@@ -1,0 +1,26 @@
+{
+  "tcin": "92032648",
+  "name": "72&#34; Rust Resistant Shower Curtain Rod Brass - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$18.00",
+  "currency": "USD",
+  "description": "Add a touch of luxury to your bath space with this Rust-Resistant Shower Curtain Rod from Threshold™. Made of metal, this shower rod is resistant to rust to help keep it looking like new for longer. This 41.9-inch curtain rod can be extended to 72 inches, making it adaptable to a wide range of room sizes. Plus, it's designed in a brass finish to complement a variety of decor styles. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Shower Curtains & Accessories",
+    "Shower Curtain Rods"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4fe829e4-a251-4524-8fb0-8f58a3d36e95",
+  "glb_url": "https://digitalcontent.target.com/vault/1749600000/CLOUD_7a7ee565-2dda-43c2-a930-81e4db08d052.glb",
+  "product_url": "https://www.target.com/p/-/A-92032648",
+  "dimensions": {
+    "height": 1.8288,
+    "width": 0.0667,
+    "depth": 0.0667,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brass",
+  "color_source": "parsed"
+}

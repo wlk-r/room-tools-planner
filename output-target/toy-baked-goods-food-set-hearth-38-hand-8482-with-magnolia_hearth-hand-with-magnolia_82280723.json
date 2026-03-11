@@ -1,0 +1,24 @@
+{
+  "tcin": "82280723",
+  "name": "Toy Baked Goods Food Set - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand with Magnolia",
+  "price": "$33.99",
+  "currency": "USD",
+  "description": "Get your kiddo involved in the festivities with this Toy Baked Goods Food Set from Hearth & Hand™ with Magnolia. This toy baked goods set includes a dessert basket with wooden muffins, croissants, cinnamon rolls and biscotti to keep your kiddo engaged with fun role play, especially when combined with other Hearth & Hand™ with Magnolia wooden toy sets. As cute as they are fun to play with, these wooden baked goods also make a great kitchen decoration.<br /><br />Celebrate the everyday with Hearth & Hand — created exclusively for Target in collaboration with Magnolia, a home and lifestyle brand by Chip & Joanna Gaines. Built upon our shared commitment to giving back to our communities, these pieces reveal the beauty of everyday moments shared with family and friends.",
+  "categories": [
+    "Toys",
+    "Dress Up & Pretend Play",
+    "Pretend Play",
+    "Play Kitchens & Pretend Food"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_044dc23c-42d4-4099-8e70-b00ffe31be4a",
+  "glb_url": "https://digitalcontent.target.com/vault/1648684800/CLOUD_5c545579-52b3-41db-af7b-f23173c9e60b.glb",
+  "product_url": "https://www.target.com/p/-/A-82280723",
+  "dimensions": {
+    "height": 0.3175,
+    "width": 0.254,
+    "depth": 0.2032,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "82102156",
+  "name": "Cecelia Traditional Fabric Recliner Navy Blue - Christopher Knight Home: Studded, Pushback, for Small Spaces",
+  "brand": "Christopher Knight Home",
+  "price": "$215.99",
+  "currency": "USD",
+  "description": "Turn your space from ordinary to extraordinary. With plush upholstery and an exquisite nailhead trim, this recliner isn't just comfortable but stylishly chic. Enjoy cozy movie marathons or relax with the assurance that your interior space remains trendy. Finished with a reclining pushback function, this chair offers quality, comfort, and style all rolled into one. You'll be hard-pressed to move from this cozy spot!<br /><br />CONTEMPORARY STYLE: With a plush backrest contrasted by clean lines, this recliner brings out a simplistic style that emphasizes comfort and functionality.<br /><br />UPHOLSTERED: Our recliner is generously upholstered, giving any room a refined appearance.<br /><br />NAILHEAD ACCENTS: Expertly styled, this recliner features a nailhead trim bordering the edges. Each nailhead is individually applied for a beautiful, handmade touch.<br /><br />PUSHBACK: This chair uses a manual pushback function. It requires a self-reclining motion to reach the fully reclined position.<br /><br />DIMENSIONS: This recliner is 27.50\" W x 34.75\" D x 41.25\" H in its upright position and 27.50\" W x 61.00\" D x 32.00\" H when fully reclined.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Chairs",
+    "Recliners"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_6f4689ae-3e78-4df9-a7e0-ea2eb952109b",
+  "glb_url": "https://digitalcontent.target.com/vault/1623110400/CLOUD_78f394d6-e8b3-4fb3-8f5d-ee866b9ed528.glb",
+  "product_url": "https://www.target.com/p/-/A-82102156",
+  "dimensions": {
+    "height": 1.0476,
+    "width": 0.8825,
+    "depth": 0.6983,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Navy Blue",
+  "color_source": "parsed"
+}

@@ -1,0 +1,24 @@
+{
+  "tcin": "94688483",
+  "name": "10.5&#34; Recycled Glass Vase - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand with Magnolia",
+  "price": "$24.99",
+  "currency": "USD",
+  "description": "Upgrade your living space with this Recycled Glass Vase from Hearth & Hand™ with Magnolia. Made of 100% recycled glass, this transparent vase is shaped like a jar to bring a modern charm to your home decor. Fill it with water and style various fresh blooms or artificial stems to create a stunning, natural-looking arrangement anywhere in your home.<br /><br />Hearth & Hand™ with Magnolia: Gather • Create • Enjoy",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Decorative Objects",
+    "Vases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e83f45b1-7401-4e76-9cf3-889baeda2835",
+  "glb_url": "https://digitalcontent.target.com/vault/1768867200/CLOUD_a27ae04c-fd1b-4543-a4b4-37a3f34acfae.glb",
+  "product_url": "https://www.target.com/p/-/A-94688483",
+  "dimensions": {
+    "height": 0.2794,
+    "width": 0.1501,
+    "depth": 0.1501,
+    "unit": "m",
+    "source": "glb"
+  }
+}

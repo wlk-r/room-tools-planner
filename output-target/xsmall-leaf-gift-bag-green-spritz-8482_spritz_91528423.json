@@ -1,0 +1,25 @@
+{
+  "tcin": "91528423",
+  "name": "XSmall Leaf Gift Bag Green - Spritz&#8482;",
+  "brand": "Spritz",
+  "price": "$2.00",
+  "currency": "USD",
+  "description": "Give your gifts an extra touch of elegance with the 6.23\"x6.5\"x0.79\" Green Leaf with Mirror Ink XL Gift Bag from Spritz™. In an assortment of light green color, they feature beautiful patterns of leaf all over. It’s perfect for small presents, or you can even fill it with goodies as party favors. Strong handles make it easy to carry around, and you can add colorful tissue paper for the perfect finish.<br /><br />Spritz™: Pops of joy that make the moment.",
+  "categories": [
+    "Party Supplies",
+    "Gift Wrap, Bags & Accessories",
+    "Gift Bags"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_6f3f282a-fd67-43bc-81e9-9c2d1e5c01d2",
+  "glb_url": "https://digitalcontent.target.com/vault/1742860800/CLOUD_220ce9ef-8d2a-4f65-bd23-6313fbbabab5.glb",
+  "product_url": "https://www.target.com/p/-/A-91528423",
+  "color": "Green",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.1587,
+    "width": 0.1288,
+    "depth": 0.127,
+    "unit": "m",
+    "source": "glb"
+  }
+}

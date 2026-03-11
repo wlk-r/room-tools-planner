@@ -1,0 +1,26 @@
+{
+  "tcin": "94259146",
+  "name": "2&#39;x3&#39; Striped Accent Rug Olive Green - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Bring comfort and style to any room in your house with this Striped Accent Rug from Threshold™. This woven accent rug features a striped pattern in an olive green hue for cool style and versatility. The rectangular area rug also features a flat-pile construction, making it perfect for high-traffic areas like your living room or entryway.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Accent Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b5bd1ffb-28a1-42c1-afdb-c7b503f1a3ec",
+  "glb_url": "https://digitalcontent.target.com/vault/1752019200/CLOUD_d23aa47c-8772-4545-b77f-d216cfad6bf8.glb",
+  "product_url": "https://www.target.com/p/-/A-94259146",
+  "dimensions": {
+    "height": 0.9158,
+    "width": 0.6112,
+    "depth": 0.0059,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Olive Green",
+  "color_source": "parsed"
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "90594366",
+  "name": "Weyn Table Lamp - 24 Inch Height - TBL4498 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$64.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the sleek and stylish WEYN table lamp. Standing at 24 inches tall, this black iron lamp brings a touch of sophistication and charm to any room. Its minimalist design complements modern and classic decor alike, making it a versatile addition to your home. Perfect for reading nooks, bedside tables, or your office desk, the WEYN table lamp delivers effortless elegance and functionality. Let its warm glow enhance your ambiance and create an inviting atmosphere. Crafted with sturdy iron, this lamp is built to effortlessly blend durability with style. Transform your space with the modern simplicity of the WEYN table lamp and experience lighting like never before.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_81e4933c-1702-418c-aae6-481424549a74",
+  "glb_url": "https://digitalcontent.target.com/vault/1765238400/CLOUD_c4a5f745-b6a6-43c2-b3cf-3d23ae019a92.glb",
+  "product_url": "https://www.target.com/p/-/A-90594366",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.587,
+    "width": 0.2814,
+    "depth": 0.2797,
+    "unit": "m",
+    "source": "glb"
+  }
+}

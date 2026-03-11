@@ -1,0 +1,24 @@
+{
+  "tcin": "83223423",
+  "name": "Small Brass Vase - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$10.00",
+  "currency": "USD",
+  "description": "Amp up your interior display with this Small Brass Vase from Threshold™. This small brass vase makes a great table accent. It features a modern cylindrical shape in a lacquered gold finish for chic and shiny flair. This stylish piece looks beautiful displayed solo or filled with long-stemmed arrangements of your favorite flowers or leafy branches. Set this watertight vase atop your mantel, console table, sideboard or shelf with other accent pieces to decorate your space in style.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Decorative Objects",
+    "Vases"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e267a29d-8b12-4aac-9cd1-53886bfc7b0b",
+  "glb_url": "https://digitalcontent.target.com/vault/1638835200/CLOUD_310c4876-0153-4fa9-9acb-300d56ebecd2.glb",
+  "product_url": "https://www.target.com/p/-/A-83223423",
+  "dimensions": {
+    "height": 0.1778,
+    "width": 0.1016,
+    "depth": 0.1016,
+    "unit": "m",
+    "source": "glb"
+  }
+}

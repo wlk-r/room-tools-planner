@@ -1,0 +1,22 @@
+{
+  "tcin": "88768541",
+  "name": "14&#34; Gold Plastic Easter Egg - Spritz&#8482;",
+  "brand": "Spritz",
+  "price": "$12.00",
+  "currency": "USD",
+  "description": "Bring easter joy to your home with the 14\" Gold Plastic Easter Egg - Spritz™. With a golden glazed cover on the egg, it’s the perfect addition to your easter basket decorations. Ideal for an indoor environment, you can mix and match these golden easter eggs from Spritz with other easter décor to brighten up your festive ambiance.",
+  "categories": [
+    "Holiday Shop",
+    "Easter"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_cccbc290-102f-4fcb-8a4d-80eb6c505966",
+  "glb_url": "https://digitalcontent.target.com/vault/1743897600/CLOUD_b050317d-abc9-499c-955e-d620ba48876e.glb",
+  "product_url": "https://www.target.com/p/-/A-88768541",
+  "dimensions": {
+    "height": 0.3556,
+    "width": 0.2449,
+    "depth": 0.2449,
+    "unit": "m",
+    "source": "glb"
+  }
+}

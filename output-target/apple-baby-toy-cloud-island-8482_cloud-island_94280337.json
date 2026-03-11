@@ -1,0 +1,23 @@
+{
+  "tcin": "94280337",
+  "name": "Apple Baby Toy - Cloud Island&#8482;",
+  "brand": "Cloud Island",
+  "price": "$10.00",
+  "currency": "USD",
+  "description": "Add a cute and delightful piece to your little one's nursery with the Apple Plush Toy for Baby from Cloud Island™. This plush toy features a snail emerging from an apple with a green leaf, creating a charming appearance. Made of soft fabric, this baby toy looks great displayed on a shelf, windowsill or tabletop.<br /><br />Cloud Island™: Designed with love. Made without compromise.",
+  "categories": [
+    "Toys",
+    "Learning & Educational Toys",
+    "Baby Learning Toys"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3ebe3a7b-cc74-44e0-a0d7-cbc1ab072e47",
+  "glb_url": "https://digitalcontent.target.com/vault/1770595200/CLOUD_b4f018af-29df-4d6a-b7ef-d863a6a2a4a5.glb",
+  "product_url": "https://www.target.com/p/-/A-94280337",
+  "dimensions": {
+    "height": 0.2701,
+    "width": 0.1993,
+    "depth": 0.1905,
+    "unit": "m",
+    "source": "glb"
+  }
+}

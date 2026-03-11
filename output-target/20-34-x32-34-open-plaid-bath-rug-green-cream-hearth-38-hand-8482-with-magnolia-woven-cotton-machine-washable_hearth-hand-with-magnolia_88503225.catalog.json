@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "88503225",
+      "name": "20&#34;x32&#34; Open Plaid Bath Rug Green/Cream - Hearth &#38; Hand&#8482; with Magnolia: Woven Cotton, Machine Washable",
+      "color": "Green/Cream"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "88503225",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "textile"
+      ],
+      "tags": [
+        "warm",
+        "natural",
+        "rustic",
+        "farmhouse"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "94258917",
+  "name": "4&#39;x5&#39;6&#34; Persian Area Rug Blue - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$60.00",
+  "currency": "USD",
+  "description": "Bring understated elegance to your indoor space with this Printed Persian Area Rug from Threshold™. This rectangular area rug features a Persian pattern in blue with finished edges for a beautiful look that will coordinate easily with any room's aesthetic. The polyester fabric provides soft underfoot comfort, while latex backing helps to keep it in place. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Area Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_296350e1-c5ee-46e6-aada-0bcc4ecf8fc4",
+  "glb_url": "https://digitalcontent.target.com/vault/1755820800/CLOUD_e5a27b2c-29ec-4660-866b-532ce89c9d04.glb",
+  "product_url": "https://www.target.com/p/-/A-94258917",
+  "dimensions": {
+    "height": 1.8303,
+    "width": 1.2208,
+    "depth": 0.0058,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

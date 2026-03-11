@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94096097",
+      "name": "13.5&#34; Christmas Metal Wreath Hanger Black - Wondershop&#8482;",
+      "color": "Black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94096097",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "wreath-hanger",
+        "seasonal-decor"
+      ],
+      "tags": [
+        "minimal",
+        "festive",
+        "metal",
+        "contemporary"
+      ]
+    }
+  ]
+}

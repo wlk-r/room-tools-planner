@@ -1,0 +1,25 @@
+{
+  "tcin": "89529720",
+  "name": "Sandpoint 2 Door Cabinet Natural - Threshold&#8482; designed with Studio McGee: Brass-Finish Handles, Wood Frame",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$280.00",
+  "currency": "USD",
+  "description": "The Sandpoint 2-Door Cabinet from Threshold™ designed with Studio McGee blends style and function to upgrade any room in your home. Made from MDF with a wood frame in a natural hue, this cabinet pairs easily with a variety of other decor. It features two doors with brass-finish handles plus a lower shelf to offer you plenty of storage and display space, and anti-tip anchoring hardware helps keep it upright.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "Storage Furniture"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_36bbee03-40f7-4cf5-95b9-84417881b7de",
+  "glb_url": "https://digitalcontent.target.com/vault/1701907200/CLOUD_e89853ed-b00d-4298-9935-8d039e7ff774.glb",
+  "product_url": "https://www.target.com/p/-/A-89529720",
+  "color": "Natural",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.9144,
+    "width": 0.762,
+    "depth": 0.491,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "84592424",
+  "name": "Arlia Table Lamp (Set of 2) - 24 Inch Height - TBL4363 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$113.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the sleek and modern ARLIA 24 inch black resin table lamp set of 2. Crafted with an 80 percent resin body and 20 percent iron neck, these lamps bring a touch of elegance to any room. The smooth black finish complements various decor styles, making them a versatile addition to your home. Whether placed on a bedside table or in your living room, ARLIA lamps provide the perfect ambient lighting. Enjoy the blend of contemporary design and functional beauty that enhances your everyday living. With ARLIA, elegance and style easily brighten your home environment.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_fe8aeb00-3752-4dab-b6e5-da0530790b68",
+  "glb_url": "https://digitalcontent.target.com/vault/1765152000/CLOUD_ec4c6a06-06e5-481e-a173-a1807768ffe8.glb",
+  "product_url": "https://www.target.com/p/-/A-84592424",
+  "dimensions": {
+    "height": 0.6093,
+    "width": 0.2671,
+    "depth": 0.2671,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "90594390",
+  "name": "Nobel Table Lamp W/ USB Port - 17.5 Inch Height - TBL4453 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$58.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Nobel table lamp, a blend of style and utility. With its sleek 17.5 inch design, this lamp becomes a statement piece on any table or desk. Crafted from sturdy iron, it showcases a refined black finish that suits any decor from classic to contemporary. But the Nobel lamp is more than just a light; it features a built-in USB port, ensuring your devices remain charged and ready while you work or relax.\n\nDive into the perfect ambiance with light that complements your room's mood, whether you are reading, working, or simply unwinding. The Nobel table lamp's modern edge makes it a versatile addition, perfect for enhancing home or office settings. Choose the Nobel table lamp for an impressive and functional lighting solution that adds a touch of elegance to your environment.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_35cd6807-6269-4f34-bf5e-de63b3312867",
+  "glb_url": "https://digitalcontent.target.com/vault/1763683200/CLOUD_5981407b-2487-45a4-8aee-51f7d8990acd.glb",
+  "product_url": "https://www.target.com/p/-/A-90594390",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4058,
+    "width": 0.2484,
+    "depth": 0.136,
+    "unit": "m",
+    "source": "glb"
+  }
+}

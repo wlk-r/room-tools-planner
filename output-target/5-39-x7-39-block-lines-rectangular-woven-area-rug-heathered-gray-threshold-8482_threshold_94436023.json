@@ -1,0 +1,26 @@
+{
+  "tcin": "94436023",
+  "name": "5&#39;x7&#39; Block Lines Rectangular Woven Area Rug Heathered Gray - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$70.00",
+  "currency": "USD",
+  "description": "Refresh your indoor or outdoor decor with this Block Lines Rectangular Woven Area Rug from Threshold™. This rug showcases a maze-like pattern of nested geometric blocks in heathered gray and ivory tones, creating a subtle 3D-like effect on your flooring. Designed with a flat-pile construction and spray latex backing, it’s a great choice for high-traffic areas. Plus, it can be easily cleaned with a hose for effortless upkeep.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Rugs",
+    "Area Rugs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_36a31d6b-9c0a-4384-9217-683f18145eed",
+  "glb_url": "https://digitalcontent.target.com/vault/1764633600/CLOUD_384c8fe6-4b17-48a8-8745-aeb450712303.glb",
+  "product_url": "https://www.target.com/p/-/A-94436023",
+  "dimensions": {
+    "height": 2.1402,
+    "width": 1.5328,
+    "depth": 0.0059,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gray",
+  "color_source": "parsed"
+}

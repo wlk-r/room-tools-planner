@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "51076185",
+      "name": "1pc Light Filtering Solid Window Curtain Panel - Threshold\u00e2\u201e\u00a2",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "51076185",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "window-treatment",
+        "decor"
+      ],
+      "tags": [
+        "minimal",
+        "organic",
+        "natural",
+        "contemporary"
+      ]
+    }
+  ]
+}

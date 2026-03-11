@@ -1,0 +1,26 @@
+{
+  "tcin": "92762537",
+  "name": "Cassie Table Lamp - 20 Inch Height - TBL4587 - Natural - Safavieh",
+  "brand": "Safavieh",
+  "price": "$89.99",
+  "currency": "USD",
+  "description": "Introducing the Cassie Table Lamp, a harmonious blend of natural aesthetics and functional design. Crafted with care, this lamp features a unique paper body and shade, offering a soft, welcoming glow to any room. The texture and warm coloration of the lamp make it a versatile addition to your living space, creating an ambient focal point that seamlessly complements a variety of decor styles.\n\nThe Cassie Table Lamp stands at an overall height of 20? inches, with a shade width of 16 inches, which provides ample illumination for reading, working, or relaxation. The base diameter of 7 inches adds stability and balances the design, ensuring it rests securely on any table or desk surface.\n\nDesigned with practicality in mind, this lamp includes a 60-inch cord, allowing flexible placement away from power sources, with easy access to lighting where you need it most. Experience the natural charm and inviting atmosphere the Cassie Table Lamp brings to your home, enhancing your living experience with a touch of simplicity and elegance.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2774f94e-e4e5-4905-9ae2-e9752d987bec",
+  "glb_url": "https://digitalcontent.target.com/vault/1765411200/CLOUD_3e41ed59-70db-44c6-920c-238c8012a613.glb",
+  "product_url": "https://www.target.com/p/-/A-92762537",
+  "dimensions": {
+    "height": 0.5075,
+    "width": 0.3677,
+    "depth": 0.3677,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Natural",
+  "color_source": "parsed"
+}

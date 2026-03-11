@@ -1,0 +1,26 @@
+{
+  "tcin": "84674797",
+  "name": "Wall Hanging Storage with Slub Stitching - Gray - Cloud Island&#8482;",
+  "brand": "Cloud Island",
+  "price": "$14.99",
+  "currency": "USD",
+  "description": "Hold a variety of baby items in this Wall Hanging Storage with Slub Stitching from cloud island™. This wall hanging storage is decorated with white slub stitching on a gray backdrop for sweet and dainty style. This multipurpose fabric storage rack designed with five pocket compartments is great for stowing soft toys, clothing, bath items, and other baby essentials. Plus, it comes with an attached top handle allows for easy hanging.<br /><br />cloud island™: Designed with love. Made without compromise.",
+  "categories": [
+    "Baby",
+    "Nursery",
+    "Nursery Decor",
+    "Nursery Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f83acb34-1938-4c7e-b17c-b170b07ee6cf",
+  "glb_url": "https://digitalcontent.target.com/vault/1663804800/CLOUD_0fd93060-ba64-4ea5-8869-35b1c39a0914.glb",
+  "product_url": "https://www.target.com/p/-/A-84674797",
+  "color": "Gray",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.618,
+    "width": 0.4064,
+    "depth": 0.0508,
+    "unit": "m",
+    "source": "glb"
+  }
+}

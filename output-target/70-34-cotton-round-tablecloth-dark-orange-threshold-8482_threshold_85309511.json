@@ -1,0 +1,25 @@
+{
+  "tcin": "85309511",
+  "name": "70&#34; Cotton Round Tablecloth Dark Orange - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$20.00",
+  "currency": "USD",
+  "description": "Create an eye-catching look on the table with the 70-Inch Cotton Round Tablecloth from Threshold™. Designed to fit a round table, this dark orange tablecloth is perfect for both everyday use and special occasions. The 100% cotton fabric offers quick drying, while the washable construction make cleanup easier. Simply add white plates and bowls, and decorate the table with a vase to create a beautiful dining set up for your meals.<br /><br />Threshold™: Quality & Design / Casual classics for house and home.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen & Table Linens",
+    "Tablecloths"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_5f9910fe-0b9b-4da6-b47e-4aee683b4e68",
+  "glb_url": "https://digitalcontent.target.com/vault/1670371200/CLOUD_64fc85bf-2051-458a-bc42-cb9b33f46d8b.glb",
+  "product_url": "https://www.target.com/p/-/A-85309511",
+  "dimensions": {
+    "height": 0.6386,
+    "width": 0.4686,
+    "depth": 0.0485,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Orange",
+  "color_source": "parsed"
+}

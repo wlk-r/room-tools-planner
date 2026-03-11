@@ -1,0 +1,26 @@
+{
+  "tcin": "84592475",
+  "name": "Barli Table Lamp - 25.25 Inch Height - TBL4415 - Antique White - Safavieh",
+  "brand": "Safavieh",
+  "price": "$54.99",
+  "currency": "USD",
+  "description": "Elevate your living space with the Barli ceramic table lamp. Standing at 25.25 inches, this lamp features a beautiful antique white finish that complements any decor. Crafted from durable poly materials, Barli offers a stylish blend of functionality and elegance. The intricate ceramic design enhances a room with a subtle yet eye-catching touch, making it perfect for any setting from modern to traditional. Whether placed on a bedside table or an entryway console, Barli creates inviting warmth and illumination. Discover the art of lighting with Barli, where classic aesthetics meet modern design.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_725e3b60-8251-4342-9ba5-fa3fdd100b0e",
+  "glb_url": "https://digitalcontent.target.com/vault/1769040000/CLOUD_41b84631-5848-46f4-a864-87e2b841b303.glb",
+  "product_url": "https://www.target.com/p/-/A-84592475",
+  "dimensions": {
+    "height": 0.6413,
+    "width": 0.3302,
+    "depth": 0.3302,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Antique White",
+  "color_source": "parsed"
+}

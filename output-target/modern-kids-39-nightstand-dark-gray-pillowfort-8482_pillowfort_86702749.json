@@ -1,0 +1,25 @@
+{
+  "tcin": "86702749",
+  "name": "Modern Kids&#39; Nightstand Dark Gray - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$120.00",
+  "currency": "USD",
+  "description": "Fully load your kid's space with modern style using the Modern Nightstand from Pillowfort™. This dark gray nightstand features two drawers with integrated handles to provide ample space for organization of their storybooks, art supplies and more, while the tabletop provides a convenient spot for a lamp and clock. Made with wood, this square nightstand stands on slanted four legs in natural shade for easy integration into a wide variety of decor styles. ",
+  "categories": [
+    "Furniture",
+    "Bedroom Furniture",
+    "Nightstands"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b03bdf78-dbfa-44ce-af5e-bf579ec2d4f7",
+  "glb_url": "https://digitalcontent.target.com/vault/1676419200/CLOUD_6e050c54-25b2-4975-9525-b7117285e384.glb",
+  "product_url": "https://www.target.com/p/-/A-86702749",
+  "color": "Dark Gray",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5819,
+    "width": 0.4,
+    "depth": 0.4,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "94229249",
+  "name": "120&#34;x60&#34; Tablecloth White - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$26.00",
+  "currency": "USD",
+  "description": "Grace your table with the timeless elegance of this White Tablecloth from Threshold™. Made from 100% cotton, this rectangular tablecloth offers protection against spills, stains, and scratches. Designed in a white hue, it complements a variety of table settings, dinnerware, and decor styles, while the machine-washable design makes cleaning a breeze.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen & Table Linens",
+    "Tablecloths"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_f50dfc67-6c63-4f96-99ac-83cc94462150",
+  "glb_url": "https://digitalcontent.target.com/vault/1755820800/CLOUD_9bc2d8b8-7340-4d16-9676-ff917d8adcab.glb",
+  "product_url": "https://www.target.com/p/-/A-94229249",
+  "dimensions": {
+    "height": 3.0519,
+    "width": 1.528,
+    "depth": 0.0055,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

@@ -1,0 +1,24 @@
+{
+  "tcin": "81898695",
+  "name": "Sensory Friendly Kids' Bean Bag - Pillowfort™",
+  "brand": "Pillowfort",
+  "price": "$80.00",
+  "currency": "USD",
+  "description": "Whether they're reading a book, watching a movie or just hanging out, this Sensory Friendly Bean Bag from Pillowfort™ gives your kiddo a delightfully comfy spot they'll love to call their own. A soft velvet cover gives this kids bean bag a cozy feel that's perfect for snuggling up in, and its machine-washable cover lends easy upkeep alongside the water-resistant liner to help keep it in great condition longer. The sensory bean bag features a wide seat that provides enhanced comfort, complete with a snuggly, filled design lending the perfect amount of cushioned comfort. There's even a top handle that makes it a breeze to move from room to room so they always have a comfy spot to chill.",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Furniture",
+    "Kids’ Chairs & Seating"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_4f31272a-2be9-41f0-a5a3-e2fbd2de781f",
+  "glb_url": "https://digitalcontent.target.com/vault/1631836800/CLOUD_af0e3c17-1cbf-41a1-9edc-0428a087ae6e.glb",
+  "product_url": "https://www.target.com/p/-/A-81898695",
+  "dimensions": {
+    "height": 0.8128,
+    "width": 0.8128,
+    "depth": 0.6991,
+    "unit": "m",
+    "source": "glb"
+  }
+}

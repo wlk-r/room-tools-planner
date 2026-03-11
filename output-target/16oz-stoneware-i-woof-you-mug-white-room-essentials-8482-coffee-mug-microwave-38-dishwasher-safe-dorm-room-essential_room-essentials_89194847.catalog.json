@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "89194847",
+      "name": "16oz Stoneware I Woof You Mug White - Room Essentials&#8482;: Coffee Mug, Microwave &#38; Dishwasher Safe, Dorm Room Essential",
+      "color": "White"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "89194847",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "decor"
+      ],
+      "tags": [
+        "playful",
+        "casual",
+        "contemporary",
+        "cute"
+      ]
+    }
+  ]
+}

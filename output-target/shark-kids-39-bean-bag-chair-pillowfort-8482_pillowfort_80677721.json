@@ -1,0 +1,24 @@
+{
+  "tcin": "80677721",
+  "name": "Shark Kids&#39; Bean Bag Chair - Pillowfort&#8482;",
+  "brand": "Pillowfort",
+  "price": "$75.00",
+  "currency": "USD",
+  "description": "Add a playful, whimsical look to their space with this Shark Bean Bag Chair from Pillowfort™. This upholstered bean bag chair gives them a fun spot for comfortable lounging as they enjoy their favorite activities. It features a cute character shape for an adorable look. The light and fluffy fill material helps to retain the shape and offers cushioned comfort, while the soft upholstery surrounds them in cozy style as they sit back to read a book, watch TV or just chill. Add this chair to their bedroom or playroom area and it will become a favorite shark friend in no time.",
+  "categories": [
+    "Home",
+    "Kids’ Home",
+    "Kids’ Furniture",
+    "Kids’ Chairs & Seating"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_d14362b1-3d73-4b15-8f17-c0b8f0b0694f",
+  "glb_url": "https://digitalcontent.target.com/vault/1615766400/CLOUD_f9659715-5f81-4df7-9d41-e8ef92f6ef36.glb",
+  "product_url": "https://www.target.com/p/-/A-80677721",
+  "dimensions": {
+    "height": 0.9156,
+    "width": 0.7403,
+    "depth": 0.5576,
+    "unit": "m",
+    "source": "glb"
+  }
+}

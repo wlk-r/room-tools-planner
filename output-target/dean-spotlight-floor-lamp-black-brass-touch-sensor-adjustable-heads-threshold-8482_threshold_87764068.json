@@ -1,0 +1,26 @@
+{
+  "tcin": "87764068",
+  "name": "Dean Spotlight Floor Lamp Black/Brass: Touch Sensor, Adjustable Heads - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$125.00",
+  "currency": "USD",
+  "description": "Add simple, stylish lighting to your home decor with the Dean Spotlight Floor Lamp (Includes LED Light Bulb) from Threshold™. This black floor lamp features four cylindrical shades in a brass finish for a contemporary look. Easy to light up with the touch-activated sensor, this floor lamp uses an electric outlet power source and makes a great pick for your living room, bedroom or any other space.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_262c2302-bfaf-4593-92d6-b020a1f8c2b6",
+  "glb_url": "https://digitalcontent.target.com/vault/1692230400/CLOUD_96541f00-eb23-40d6-9517-3f5182f2729c.glb",
+  "product_url": "https://www.target.com/p/-/A-87764068",
+  "dimensions": {
+    "height": 1.6575,
+    "width": 0.3671,
+    "depth": 0.232,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black/Brass",
+  "color_source": "parsed"
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "91518733",
+  "name": "Ezekiel Floor Lamp - FLL4063 - Brass - Safavieh",
+  "brand": "Safavieh",
+  "price": "$133.99",
+  "currency": "USD",
+  "description": "Introducing the Ezekiel 62 Inch Brass Iron Floor Lamp, a stunning addition that brings elegance and functionality to your living space. Crafted from durable brass and iron, this lamp offers an inviting glow that enhances any room's ambiance. The sleek design and warm brass finish make it an ideal choice for both contemporary and classic interiors. Standing tall at 62 inches, the Ezekiel lamp provides ample lighting for reading or relaxing. Its clean lines and understated charm make it a perfect fit for your living room, bedroom, or study. Illuminate your home with style and sophistication, making everyday moments shine brighter.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_38c680d2-38fb-4252-95c1-a436e3d91ec8",
+  "glb_url": "https://digitalcontent.target.com/vault/1770336000/CLOUD_51f782c4-fae3-4cf3-813b-d085ab5e24b9.glb",
+  "product_url": "https://www.target.com/p/-/A-91518733",
+  "dimensions": {
+    "height": 1.5748,
+    "width": 0.3683,
+    "depth": 0.3683,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Brass",
+  "color_source": "parsed"
+}

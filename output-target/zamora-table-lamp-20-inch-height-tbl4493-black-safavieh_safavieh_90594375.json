@@ -1,0 +1,26 @@
+{
+  "tcin": "90594375",
+  "name": "Zamora Table Lamp - 20 Inch Height - TBL4493 - Black - Safavieh",
+  "brand": "Safavieh",
+  "price": "$69.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Zamora 23.5 inch black iron table lamp, a perfect blend of elegance and modern style. Its sturdy iron base brings a sense of solidity and strength to your room, while the sleek black finish adds a touch of sophistication. Topped with a cotton shade, this lamp offers a soft and welcoming glow, ideal for any living room, bedroom, or office setting. The thoughtful design of Zamora makes it not only a source of light but a striking piece of decor. Whether you are reading, relaxing, or working late into the evening, this lamp provides the right ambiance. Add the Zamora table lamp to your home and experience the subtle charm it introduces to your decor.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a7b3608b-a0ca-4c32-b5e3-79ee461b446b",
+  "glb_url": "https://digitalcontent.target.com/vault/1770940800/CLOUD_532360a8-b288-4ed3-8272-ed0ffe1110c8.glb",
+  "product_url": "https://www.target.com/p/-/A-90594375",
+  "color": "Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.508,
+    "width": 0.254,
+    "depth": 0.254,
+    "unit": "m",
+    "source": "glb"
+  }
+}

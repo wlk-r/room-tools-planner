@@ -1,0 +1,26 @@
+{
+  "tcin": "79404549",
+  "name": "Malibu 2pk Acacia Wood Adirondack Rocking Chair Dark Gray - Christopher Knight Home",
+  "brand": "Christopher Knight Home",
+  "price": "$308.99",
+  "currency": "USD",
+  "description": "<br />These slat-backed outdoor Adirondack rocking chairs combine ultimate comfort with timeless style. Made from the highest quality acacia wood, they are designed to hold up to the elements and look great. A perfect addition to your patio, backyard, or garden.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Outdoor Furniture",
+    "Outdoor Chairs",
+    "Adirondack Chairs"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_867b7e76-e351-4896-a884-08cf08a32ade",
+  "glb_url": "https://digitalcontent.target.com/vault/1626998400/CLOUD_80abdeb5-c312-4a7e-8c3e-267f38c16c7c.glb",
+  "product_url": "https://www.target.com/p/-/A-79404549",
+  "color": "Dark Gray",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.9842,
+    "width": 0.9714,
+    "depth": 0.7493,
+    "unit": "m",
+    "source": "glb"
+  }
+}

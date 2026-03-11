@@ -1,0 +1,23 @@
+{
+  "tcin": "93551114",
+  "name": "Wooden Abacus Toy - Hearth &#38; Hand&#8482; with Magnolia",
+  "brand": "Hearth & Hand with Magnolia",
+  "price": "$24.99",
+  "currency": "USD",
+  "description": "This Wooden Abacus Toy from Hearth & Hand™ with Magnolia will keep your little one entertained during playtime. This toy features a wooden abacus that stands 12.5 inches high, complete with over 100 multicolored plastic beads to help develop problem-solving and fine motor skills. With its simple yet engaging design, the wooden abacus toy is suitable for ages 0-12 years.<br /><br />Hearth & Hand™ with Magnolia: Gather • Create • Enjoy",
+  "categories": [
+    "Toys",
+    "Learning & Educational Toys",
+    "Baby Learning Toys"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b36e941d-3bc0-4a41-8bc7-328110342300",
+  "glb_url": "https://digitalcontent.target.com/vault/1753747200/CLOUD_e24b8f00-da95-425f-987c-49bf58411b9c.glb",
+  "product_url": "https://www.target.com/p/-/A-93551114",
+  "dimensions": {
+    "height": 0.3427,
+    "width": 0.3174,
+    "depth": 0.1278,
+    "unit": "m",
+    "source": "glb"
+  }
+}

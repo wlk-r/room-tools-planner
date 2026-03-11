@@ -11,13 +11,14 @@ Use this document to workshop `prompts/profile.md` in a separate context window.
 
 - **Path**: `prompts/profile.md`
 - **Called by**: `build_catalog.py`
-- **Method**: `claude --print --model sonnet --allowedTools Read --json-schema {schema}`
+- **Method**: `claude --print --model sonnet --allowedTools Read`
 - **Execution**: One call per product, isolated (no cross-product context)
 
 ## Template Variables
 
 - `{image_path}` — Absolute path to product thumbnail (.jpg)
 - `{metadata_path}` — Absolute path to vendor metadata (.json)
+- `{metadata_content}` — Raw JSON content of the vendor metadata file (inlined into prompt)
 
 ## Vendor Metadata Shape
 
@@ -39,7 +40,7 @@ Use this document to workshop `prompts/profile.md` in a separate context window.
 
 ## Output Schema
 
-Enforced by `--json-schema` flag — constrains output structure automatically.
+Enforced by the prompt instructions (not by `--json-schema` flag).
 
 ```json
 {

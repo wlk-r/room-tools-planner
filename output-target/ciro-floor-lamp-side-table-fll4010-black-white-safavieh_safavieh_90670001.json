@@ -1,0 +1,26 @@
+{
+  "tcin": "90670001",
+  "name": "Ciro Floor Lamp Side Table - FLL4010 - Black/White - Safavieh",
+  "brand": "Safavieh",
+  "price": "$151.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the stylish CIRO 58 inch floor lamp, designed to bring a touch of elegance to any room. The sleek black and white combination effortlessly complements modern and classic decor alike. Its sturdy black metal base ensures stability, while the glass table offers a convenient surface for your essentials like books or gadgets.\n\nTopped with a graceful white linen shade, the lamp provides a warm, inviting glow that enhances your environment. Whether placed beside your favorite chair or next to the sofa, CIRO serves as both a functional and decorative piece, tying together style and utility. \n\nElevate your home ambiance with this sophisticated addition that brings light and refinement to your living space.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_82a5117c-47bf-4452-bbf9-1c4abdc2decb",
+  "glb_url": "https://digitalcontent.target.com/vault/1764028800/CLOUD_5a38475c-9680-46e3-a6ec-10559da40907.glb",
+  "product_url": "https://www.target.com/p/-/A-90670001",
+  "dimensions": {
+    "height": 1.4741,
+    "width": 0.5501,
+    "depth": 0.5501,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black/White",
+  "color_source": "parsed"
+}

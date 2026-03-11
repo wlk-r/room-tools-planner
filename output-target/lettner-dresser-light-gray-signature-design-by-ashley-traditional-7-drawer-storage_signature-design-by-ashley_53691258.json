@@ -1,0 +1,25 @@
+{
+  "tcin": "53691258",
+  "name": "Lettner Dresser Light Gray - Signature Design by Ashley: Traditional 7-Drawer Storage",
+  "brand": "Signature Design by Ashley",
+  "price": "$849.99",
+  "currency": "USD",
+  "description": "Satisfying your taste for tradition, this dresser sports serene sophistication. Forever classic design details-inlaid panels, silvertone patina hardware and bun feet-are so easy to love. Burnished light gray finish elevates the look with modern sensibility. Seven roomy drawers keep your wardrobe organized in style. <br>Signature Design by Ashley is a registered trademark of Ashley Furniture Industries, Inc.",
+  "categories": [
+    "Furniture",
+    "Bedroom Furniture",
+    "Dressers"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_54dfbefa-6024-41f7-9814-2aa68820dcb4",
+  "glb_url": "https://digitalcontent.target.com/vault/1622073600/CLOUD_33bb337a-38b1-429b-9873-7a5453647975.glb",
+  "product_url": "https://www.target.com/p/-/A-53691258",
+  "color": "Light Gray",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.6684,
+    "width": 1.0107,
+    "depth": 0.4699,
+    "unit": "m",
+    "source": "glb"
+  }
+}

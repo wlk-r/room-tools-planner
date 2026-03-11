@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94266820",
+      "name": "16.4oz Tall Hammered Glass - Threshold&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94266820",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "drinkware",
+        "tabletop"
+      ],
+      "tags": [
+        "contemporary",
+        "minimal",
+        "scandinavian",
+        "artisan"
+      ]
+    }
+  ]
+}

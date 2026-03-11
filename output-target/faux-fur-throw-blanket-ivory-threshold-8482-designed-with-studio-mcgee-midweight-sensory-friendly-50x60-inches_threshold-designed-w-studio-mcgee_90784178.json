@@ -1,0 +1,25 @@
+{
+  "tcin": "90784178",
+  "name": "Faux Fur Throw Blanket Ivory - Threshold&#8482; designed with Studio McGee: Midweight, Sensory Friendly, 50x60 inches",
+  "brand": "Threshold designed w/Studio McGee",
+  "price": "$40.00",
+  "currency": "USD",
+  "description": "Cozy up on chilly nights with this Faux-Fur Throw Blanket from Threshold™ designed with Studio McGee. The throw blanket features a plush faux-fur construction made from recycled polyester for added warmth and texture, while the solid ivory-color design pairs easily with a variety of throw pillows and other blankets. Drape it over your favorite armchair or toss it on the back of your sofa to quickly grab and wrap yourself up when the temperature drops.<br /><br />Threshold™ designed with Studio McGee: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Bedding",
+    "Bed Blankets"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_e81ee84d-398e-4a49-80dd-ae0522025800",
+  "glb_url": "https://digitalcontent.target.com/vault/1735603200/CLOUD_3cd7eff8-b7cc-4619-9461-6e7d275a7478.glb",
+  "product_url": "https://www.target.com/p/-/A-90784178",
+  "dimensions": {
+    "height": 1.524,
+    "width": 1.27,
+    "depth": 0.0532,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Ivory",
+  "color_source": "parsed"
+}

@@ -1,0 +1,23 @@
+{
+  "tcin": "94733174",
+  "name": "Bubble Basket Bubble Toy - Sun Squad&#8482;",
+  "brand": "Sun Squad",
+  "price": "$3.00",
+  "currency": "USD",
+  "description": "Turn playtime into a magical adventure with the Bubble Basket Bubble Toy from Sun Squad™. Designed to create endless streams of shimmering bubbles, it’s perfect for backyard fun, picnics or park days. The easy-to-use wand and convenient basket holder make bubble play simple and mess-free. Lightweight and durable, it’s ideal for kids to carry around and enjoy anywhere. Add excitement to outdoor activities with this colorful, engaging bubble toy.<br /><br />Sun Squad™: Ready for fun. ",
+  "categories": [
+    "Toys",
+    "Outdoor Toys",
+    "Bubbles"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_46fdd12a-aaa9-4bad-a8c4-52957dd1963e",
+  "glb_url": "https://digitalcontent.target.com/vault/1769040000/CLOUD_7d1c89a3-0953-4f3d-b898-763ff64b07bd.glb",
+  "product_url": "https://www.target.com/p/-/A-94733174",
+  "dimensions": {
+    "height": 0.1743,
+    "width": 0.1365,
+    "depth": 0.135,
+    "unit": "m",
+    "source": "glb"
+  }
+}

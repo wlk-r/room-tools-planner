@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "94688486",
+      "name": "18&#34;x24&#34; Large Landscape Wall Art - Hearth &#38; Hand&#8482; with Magnolia",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94688486",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "wall-art"
+      ],
+      "tags": [
+        "warm",
+        "rustic",
+        "serene",
+        "organic"
+      ]
+    }
+  ]
+}

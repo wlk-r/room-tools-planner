@@ -1,0 +1,24 @@
+{
+  "tcin": "93145391",
+  "name": "Jewelry Box Storage Tower - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$45.00",
+  "currency": "USD",
+  "description": "Dressing up for the day will be a breeze with your jewelry sorted and organized in one spot with the Jewelry Box Storage Tower from Brightroom™. This jewelry box comes with multiple compartments, rods, and pegs to give you ample space for your earrings, rings, bracelets, and more, and the built-in mirror makes getting ready much easier. Made with a wooden frame, this storage tower makes a perfect addition to your vanity.<br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Clothing, Shoes & Accessories",
+    "Accessories",
+    "Jewelry",
+    "Jewelry Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_87e8e6cd-debf-4d8e-9661-8aedbc2a764f",
+  "glb_url": "https://digitalcontent.target.com/vault/1752796800/CLOUD_917b9bc0-801f-4b3c-8c4c-e7c116fe24da.glb",
+  "product_url": "https://www.target.com/p/-/A-93145391",
+  "dimensions": {
+    "height": 0.2928,
+    "width": 0.2086,
+    "depth": 0.1446,
+    "unit": "m",
+    "source": "glb"
+  }
+}

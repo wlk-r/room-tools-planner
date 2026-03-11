@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "item_no": "86735885",
+      "name": "20&#34; x 16&#34; The Thankful Poor by Henry Ossawa Tanner Vintage Framed Wall Cotton Canvas Gold - Threshold&#8482;",
+      "color": "Gold"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "86735885",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "wall-art"
+      ],
+      "tags": [
+        "warm",
+        "cozy",
+        "vintage",
+        "rustic"
+      ]
+    }
+  ]
+}

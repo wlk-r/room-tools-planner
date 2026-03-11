@@ -1,0 +1,23 @@
+{
+  "tcin": "91536111",
+  "name": "Open Front Bin - Brightroom&#8482;",
+  "brand": "Brightroom",
+  "price": "$12.00",
+  "currency": "USD",
+  "description": "Elevate the look and feel of your home by keeping it organized with the help of this Open Front Bin from Brightroom™. This wooden storage bin has an open-top to stack items and features a cutout at the front to easily access the stored items. It is designed with slats and cutouts for convenient carrying, and the small size makes it great for keeping plush toys, books, bags, and more. <br /><br />Brightroom™: See your space in a new light.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Garage Storage"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_bffd9c65-f5a6-41db-9c28-f1dca265ab66",
+  "glb_url": "https://digitalcontent.target.com/vault/1739404800/CLOUD_d97e65a0-ebec-4dba-8dd1-6e4d13eb3f65.glb",
+  "product_url": "https://www.target.com/p/-/A-91536111",
+  "dimensions": {
+    "height": 0.3155,
+    "width": 0.2944,
+    "depth": 0.16,
+    "unit": "m",
+    "source": "glb"
+  }
+}

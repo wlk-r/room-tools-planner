@@ -1,0 +1,26 @@
+{
+  "tcin": "91119392",
+  "name": "Callum Table Lamp - 30 Inch Height - TBL4073 - Gold - Safavieh",
+  "brand": "Safavieh",
+  "price": "$136.99",
+  "currency": "USD",
+  "description": "Illuminate your space with the Callum Table Lamp. Designed with a stunning combination of gold and crystal, this lamp adds a touch of elegance to any room. Its gold frame catches the eye, while the crystal accents create a beautiful play of light. Topped with a white linen shade, the lamp offers a soft, warm glow that blends seamlessly into various decor styles. Whether placed in a living room, bedroom, or office, the Callum Table Lamp brings sophistication and charm. Its timeless design makes it a wonderful choice for those looking to enhance their home with a stylish lighting option. Elevate your decor effortlessly with this exquisite piece that beautifully marries form and function.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_74e70948-5048-4d02-a5b4-fadd3008f2c5",
+  "glb_url": "https://digitalcontent.target.com/vault/1770076800/CLOUD_f8634cbd-4af1-410e-a2a6-8ade30b8d79b.glb",
+  "product_url": "https://www.target.com/p/-/A-91119392",
+  "dimensions": {
+    "height": 0.762,
+    "width": 0.3683,
+    "depth": 0.2667,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gold",
+  "color_source": "parsed"
+}

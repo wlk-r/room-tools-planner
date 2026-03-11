@@ -1,0 +1,26 @@
+{
+  "tcin": "94434239",
+  "name": "3.5&#34; Handled Planter Blue - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$12.00",
+  "currency": "USD",
+  "description": "Liven up the decor of any space with this Handled Planter from Threshold™. The stoneware planter features a round shape in blue color with side handles for a stunning look. Great for displaying real or faux plants indoors or outdoors, you can place it solo or with other planters.<br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Outdoor Living & Garden",
+    "Lawn & Garden",
+    "Planters",
+    "Floor Planters"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_8b70d212-238d-4a2c-b6ad-78e49afe1cfa",
+  "glb_url": "https://digitalcontent.target.com/vault/1758240000/CLOUD_7981229c-5eb4-4f0a-a397-ec635f0e16b7.glb",
+  "product_url": "https://www.target.com/p/-/A-94434239",
+  "dimensions": {
+    "height": 0.16,
+    "width": 0.1391,
+    "depth": 0.0983,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

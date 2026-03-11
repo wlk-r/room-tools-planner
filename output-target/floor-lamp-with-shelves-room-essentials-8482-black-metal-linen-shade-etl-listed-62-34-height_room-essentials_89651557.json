@@ -1,0 +1,24 @@
+{
+  "tcin": "89651557",
+  "name": "Floor lamp with Shelves - Room Essentials&#8482;: Black Metal, Linen Shade, ETL Listed, 62&#34; Height",
+  "brand": "Room Essentials",
+  "price": "$60.00",
+  "currency": "USD",
+  "description": "Light up your living room or dining area with this Floor Lamp with Shelves from Room Essentials™. This floor lamp features a cylindrical shade and a black metal body for a stylish look, and features two-tiered shelves that can be used to display photographs and other decorative accents. The white linen shade brightens up your space with a soft glow, while the one-way light setting with a rotary-socket switch allows for easy operation. <br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_40346b15-a777-4b6d-9706-93b9d56208fb",
+  "glb_url": "https://digitalcontent.target.com/vault/1719532800/CLOUD_24c97d86-1205-414e-979c-c9e0289b2e26.glb",
+  "product_url": "https://www.target.com/p/-/A-89651557",
+  "dimensions": {
+    "height": 1.6301,
+    "width": 0.6593,
+    "depth": 0.4713,
+    "unit": "m",
+    "source": "glb"
+  }
+}

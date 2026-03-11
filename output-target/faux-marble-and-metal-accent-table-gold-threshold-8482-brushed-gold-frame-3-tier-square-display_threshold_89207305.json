@@ -1,0 +1,25 @@
+{
+  "tcin": "89207305",
+  "name": "Faux Marble and Metal Accent Table Gold - Threshold&#8482;: Brushed Gold Frame, 3-Tier Square Display",
+  "brand": "Threshold",
+  "price": "$150.00",
+  "currency": "USD",
+  "description": "Add stylish functionality with a touch of glam to your space with this Faux-Marble and Metal Accent Table from Threshold™. With a three-tiered square silhouette, this accent table looks stunning with its white faux-marble shelves and gleaming gold-tone metal frame. The three open shelves provide ample display space for decor, books, photo frame or plants, elevating the overall aesthetic of your room.<br /><br />Threshold™: Looks like home, feels like you.<br /><br />OVERALL WIDTH – 18” <br />OVERALL HEIGHT – 24”<br />OVERALL DEPTH – 18”<br />DISTANCE FROM FLOOR TO BOTTOM SHELF – 4”<br />DISTANCE BETWEEN SHELFS – 9.05”<br />DEPTH OF FAUX MARBLE BOARD – 16.8”<br />LEG THICKNESS - .63”",
+  "categories": [
+    "Furniture",
+    "Living Room Furniture",
+    "End & Side Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2ebb28e9-cf6d-425f-be94-a948bd5afe33",
+  "glb_url": "https://digitalcontent.target.com/vault/1710374400/CLOUD_722a72d0-c66f-49a6-971c-64ade0bad9b2.glb",
+  "product_url": "https://www.target.com/p/-/A-89207305",
+  "dimensions": {
+    "height": 0.6096,
+    "width": 0.4572,
+    "depth": 0.4572,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Gold",
+  "color_source": "parsed"
+}

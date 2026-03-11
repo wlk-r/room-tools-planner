@@ -1,0 +1,25 @@
+{
+  "tcin": "94691347",
+  "name": "14.7 fl oz Stoneware Mug Pink - Spritz&#8482;",
+  "brand": "Spritz",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Sip your favorite drinks in style with the 14.7 fl oz Stoneware Mug Pink from Spritz™. Crafted from durable stoneware, its fun design and soft pink finish make it a delightful choice for your drinkware collection. The mug comfortably holds up to 14.7 ounces, perfect for keeping your beverages warm or cool, whether you're starting your morning or taking a moment to unwind.<br /><br />Spritz™: Pops of joy that make the moment™<br /><br />",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_2d62e13c-821a-4b12-a146-e613813418e4",
+  "glb_url": "https://digitalcontent.target.com/vault/1769990400/CLOUD_6f1c087d-0e57-4469-9a58-1042bc4d4e34.glb",
+  "product_url": "https://www.target.com/p/-/A-94691347",
+  "dimensions": {
+    "height": 0.1346,
+    "width": 0.0986,
+    "depth": 0.0889,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Pink",
+  "color_source": "parsed"
+}

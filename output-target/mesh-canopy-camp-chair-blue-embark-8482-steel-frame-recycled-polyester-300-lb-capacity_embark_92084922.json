@@ -1,0 +1,25 @@
+{
+  "tcin": "92084922",
+  "name": "Mesh Canopy Camp Chair Blue - Embark&#8482;: Steel Frame, Recycled Polyester, 300 lb Capacity",
+  "brand": "Embark",
+  "price": "$40.00",
+  "currency": "USD",
+  "description": "Whether going to the beach or camping, this Canopy Camp Chair from Embark™ will be a perfect fit. Supported by a gray metal frame, this blue camp chair features a collapsible canopy to provide shade on sunny days. Plus, it comes with mesh holders to keep your cups and glasses and side pockets beside the seat to store other camping gears. Resistant to UV rays, it's ideal for beaches, your patio and other outdoor areas. <br /><br />Embark™: Find Wonder As You Wander",
+  "categories": [
+    "Sports & Outdoors",
+    "Camping Gear",
+    "Camping Chairs & Furniture"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_162fe204-6585-48a5-8d9e-fc38d45e70ac",
+  "glb_url": "https://digitalcontent.target.com/vault/1744675200/CLOUD_c20402ed-c922-46d5-9945-dbc9620226ae.glb",
+  "product_url": "https://www.target.com/p/-/A-92084922",
+  "color": "Blue",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.3344,
+    "width": 0.8056,
+    "depth": 0.7093,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "tcin": "82472155",
+  "name": "Anemoon Floor Lamp Black - Signature Design by Ashley: Adjustable Height, Drum Shade, Metal Base",
+  "brand": "Signature Design by Ashley",
+  "price": "$184.99",
+  "currency": "USD",
+  "description": "Up your style with this floor lamp that takes a charmingly unique stance on lighting. Simply turn the pair of knobs on the sculptural metal base to adjust the light to the perfect height. How delightful. Black finished metal floor lamp. Drum hardback shade. Adjustable Arm. On/off switch. (1) E26 socket, type A bulb recommended - 100 watts max or 23 watts wax CFL recommended. Matching table lamp - L734252. Signature Design by Ashley is a registered trademark of Ashley Furniture Industries, Inc.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Floor Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_38ce3276-034b-437d-82ac-2f8345b49ddb",
+  "glb_url": "https://digitalcontent.target.com/vault/1621296000/CLOUD_1ce86377-a3e8-4e31-b13f-b505830fa9f8.glb",
+  "product_url": "https://www.target.com/p/-/A-82472155",
+  "dimensions": {
+    "height": 1.6631,
+    "width": 0.5249,
+    "depth": 0.3554,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}

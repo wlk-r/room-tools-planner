@@ -1,0 +1,27 @@
+{
+  "tcin": "80675817",
+  "name": "Natural House Kids&#39; Shelf Pink - Pillowfort&#8482;: Wooden House Shaped Wall Shelf with Mounting Hardware",
+  "brand": "Pillowfort",
+  "price": "$25.00",
+  "currency": "USD",
+  "description": "Add extra storage space while curating an effortless wall display for your kid's items with the Natural House Shelf from Pillowfort™. Shaped like a house, this wall shelf's wooden construction features a pink finish to add pretty style to their room. Simply mount it on the wall and let them use it to display books, toys and decorative items to keep their room look beautiful.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Wall Decor",
+    "Wall Art",
+    "Wood Wall Art"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_8b8d16f4-a893-4959-b6cb-9d981f68ada0",
+  "glb_url": "https://digitalcontent.target.com/vault/1631664000/CLOUD_1565044b-ec31-4d40-a750-be2ed3f97f56.glb",
+  "product_url": "https://www.target.com/p/-/A-80675817",
+  "color": "Pink",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.4064,
+    "width": 0.3048,
+    "depth": 0.127,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "94691331",
+  "name": "16oz Stoneware Neutral Hearts Can Mug White - Spritz&#8482;",
+  "brand": "Spritz",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Sip your favorite drinks in style with the 16oz Stoneware Neutral Hearts Can Mug White from Spritz™. Crafted from durable stoneware, its charming heart design and crisp white finish make it a delightful choice for your drinkware collection. The mug comfortably holds up to 15 ounces, perfect for keeping your beverages warm or cool, whether you're starting your morning or taking a moment to unwind.<br /><br />Spritz™: Pops of joy that make the moment™",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_aee780eb-e767-4bbb-8769-4d2766456081",
+  "glb_url": "https://digitalcontent.target.com/vault/1769558400/CLOUD_f8934cc0-f27a-4dec-854c-5d9eb86dbf55.glb",
+  "product_url": "https://www.target.com/p/-/A-94691331",
+  "dimensions": {
+    "height": 0.1361,
+    "width": 0.0983,
+    "depth": 0.0831,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "White",
+  "color_source": "parsed"
+}

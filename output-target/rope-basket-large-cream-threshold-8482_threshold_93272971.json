@@ -1,0 +1,25 @@
+{
+  "tcin": "93272971",
+  "name": "Rope Basket Large Cream - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$30.00",
+  "currency": "USD",
+  "description": "Artfully accent your home with the Rope Basket from Threshold™. This cream basket features a round shape and a rope design for a rustic look, and it offers ample space for your throws, pillows and more. Made of fabric and steel, this round basket comes with side handles for easy movement from one place to another. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Storage & Organization",
+    "Storage Baskets"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_76788f41-0d3f-4c2f-bb74-a829ba046f6c",
+  "glb_url": "https://digitalcontent.target.com/vault/1746403200/CLOUD_0fa002f3-e4ea-4e22-8bed-98857ead912d.glb",
+  "product_url": "https://www.target.com/p/-/A-93272971",
+  "color": "Cream",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.3964,
+    "width": 0.3719,
+    "depth": 0.3482,
+    "unit": "m",
+    "source": "glb"
+  }
+}

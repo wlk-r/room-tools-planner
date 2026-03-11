@@ -1,0 +1,25 @@
+{
+  "tcin": "82707075",
+  "name": "15oz Stoneware Tilley Mug Dark Gray - Threshold&#8482;: Traditional Coffee Mug, Dishwasher &#38; Microwave Safe, 15.21oz Capacity",
+  "brand": "Threshold",
+  "price": "$5.00",
+  "currency": "USD",
+  "description": "Sip your favorite beverage in fun style with this 15-Ounce Stoneware Tilley Mug from Threshold™. In a classic design with a round handle for a comfy grip, this stoneware mug showcases an allover textured detailing for a charming look you'll appreciate. It’s microwave safe so you can reheat your beverages, and also dishwasher safe for easy cleaning. Great for everything from your morning cup of coffee to a soothing serving of evening tea, this stoneware mug is a must-have beverage companion.",
+  "categories": [
+    "Kitchen & Dining",
+    "Glassware & Drinkware",
+    "Coffee Mugs & Tea Cups"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_526c49d8-60c2-4464-8cf4-9845628b5dd4",
+  "glb_url": "https://digitalcontent.target.com/vault/1669766400/CLOUD_342306c2-99ea-49eb-afa5-8da56e4e8dac.glb",
+  "product_url": "https://www.target.com/p/-/A-82707075",
+  "dimensions": {
+    "height": 0.1331,
+    "width": 0.0946,
+    "depth": 0.0935,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Dark Gray",
+  "color_source": "parsed"
+}

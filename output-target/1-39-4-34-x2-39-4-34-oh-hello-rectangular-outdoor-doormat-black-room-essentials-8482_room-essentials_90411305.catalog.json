@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "90411305",
+      "name": "1&#39;4&#34;x2&#39;4&#34; Oh Hello Rectangular Outdoor Doormat Black - Room Essentials&#8482;",
+      "color": "Black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "90411305",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "entryway"
+      ],
+      "tags": [
+        "organic",
+        "warm",
+        "minimal",
+        "rustic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "93179435",
+      "name": "20ct Christmas Tinsel Lights Gold with Warm White Lights with Green Wire - Wondershop&#8482;",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "93179435",
+      "tier": "fill",
+      "placement": "wall",
+      "categories": [
+        "string-lights",
+        "lighting",
+        "decor"
+      ],
+      "tags": [
+        "warm",
+        "festive",
+        "cozy",
+        "sparkly"
+      ]
+    }
+  ]
+}

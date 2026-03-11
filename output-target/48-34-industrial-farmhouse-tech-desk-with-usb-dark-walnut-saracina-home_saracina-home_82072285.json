@@ -1,0 +1,25 @@
+{
+  "tcin": "82072285",
+  "name": "48&#34; Industrial Farmhouse Tech Desk with USB Dark Walnut - Saracina Home",
+  "brand": "Saracina Home",
+  "price": "$399.99",
+  "currency": "USD",
+  "description": "Transform your workspace with the versatile Innovative 48’’ Industrial Tech Desk with USB by Saracina Home. Multilevel shelving, an outlet, USB port, and drop-down keyboard tray make it essential to the urban, tech-savvy worker. Never run out of space with the wide, long-lasting MDF desk and shelving, and save room with its small-space friendly design. Industrial wood finishes and modern matte-black steel legs make this a durable yet stylish piece.",
+  "categories": [
+    "Furniture",
+    "Home Office Furniture",
+    "Desks"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_212e14fc-8238-4838-b6ac-ee6320ff4086",
+  "glb_url": "https://digitalcontent.target.com/vault/1623196800/CLOUD_980ac82b-dd16-4236-87de-020084098c93.glb",
+  "product_url": "https://www.target.com/p/-/A-82072285",
+  "dimensions": {
+    "height": 1.214,
+    "width": 0.762,
+    "depth": 0.6088,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Walnut",
+  "color_source": "parsed"
+}

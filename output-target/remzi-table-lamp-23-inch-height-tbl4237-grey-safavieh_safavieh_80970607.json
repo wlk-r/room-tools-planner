@@ -1,0 +1,26 @@
+{
+  "tcin": "80970607",
+  "name": "Remzi Table Lamp - 23 Inch Height - TBL4237 - Grey - Safavieh",
+  "brand": "Safavieh",
+  "price": "$50.99",
+  "currency": "USD",
+  "description": "Enhance your living space with the REMZI 23 inch glass table lamp. With its sleek design, this grey lamp adds a touch of elegance to any room. The glass base gently reflects light, creating a warm and inviting atmosphere. Standing at 23 inches, REMZI is the perfect height to complement your decor without overwhelming. Its neutral grey color offers versatility, effortlessly blending with various styles. This lamp provides both functionality and style, making it an ideal choice for living rooms, bedrooms, or offices. Illuminate your world with the timeless charm of REMZI and let its presence transform your space.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Lamps & Lighting",
+    "Desk Lamps"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_a6b45a3c-1a7d-46c4-9ca1-a085055e1d42",
+  "glb_url": "https://digitalcontent.target.com/vault/1771545600/CLOUD_d72538c6-41d8-45e7-b17d-739a95b43296.glb",
+  "product_url": "https://www.target.com/p/-/A-80970607",
+  "color": "Grey",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.5842,
+    "width": 0.3048,
+    "depth": 0.3048,
+    "unit": "m",
+    "source": "glb"
+  }
+}

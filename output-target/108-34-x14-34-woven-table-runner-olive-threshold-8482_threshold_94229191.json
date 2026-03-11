@@ -1,0 +1,25 @@
+{
+  "tcin": "94229191",
+  "name": "108&#34;x14&#34; Woven Table Runner Olive - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$26.00",
+  "currency": "USD",
+  "description": "Add warmth and character to everyday meals and casual gatherings with the Woven Table Runner from Threshold™. This rectangular table runner features a woven striped pattern in an olive hue that's complemented by fringed edges, adding a sophisticated touch you'll love. The 100% cotton table runner helps protect your surface against scratches and spills, and you can pair it with coordinating napkins and placemats to put together a stylish dining setup. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Kitchen & Dining",
+    "Kitchen & Table Linens",
+    "Table Runners"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_1e3930e6-d2fc-4ddc-9420-bd3da5b33da2",
+  "glb_url": "https://digitalcontent.target.com/vault/1758499200/CLOUD_51637d3d-b242-47f0-8c7c-6796d939f09f.glb",
+  "product_url": "https://www.target.com/p/-/A-94229191",
+  "dimensions": {
+    "height": 2.2357,
+    "width": 0.9648,
+    "depth": 0.7718,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Olive",
+  "color_source": "parsed"
+}

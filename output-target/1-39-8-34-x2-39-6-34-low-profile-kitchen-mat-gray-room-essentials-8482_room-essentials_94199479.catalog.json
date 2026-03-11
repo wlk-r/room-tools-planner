@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "94199479",
+      "name": "1&#39;8&#34;x2&#39;6&#34; Low Profile Kitchen Mat Gray - Room Essentials&#8482;",
+      "color": "Gray"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94199479",
+      "tier": "fill",
+      "placement": "floor",
+      "categories": [
+        "rug",
+        "kitchen-mat"
+      ],
+      "tags": [
+        "minimal",
+        "contemporary",
+        "neutral",
+        "practical"
+      ]
+    }
+  ]
+}

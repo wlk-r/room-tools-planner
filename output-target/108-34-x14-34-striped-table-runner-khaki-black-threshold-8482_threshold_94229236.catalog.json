@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "item_no": "94229236",
+      "name": "108&#34;x14&#34; Striped Table Runner Khaki/Black - Threshold&#8482;",
+      "color": "Khaki/Black"
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "94229236",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "textile",
+        "table-runner",
+        "decor"
+      ],
+      "tags": [
+        "striped",
+        "neutral",
+        "classic",
+        "minimal"
+      ]
+    }
+  ]
+}

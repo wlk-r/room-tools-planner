@@ -1,0 +1,23 @@
+{
+  "tcin": "89890986",
+  "name": "Toynk Cuphead 8-Inch Collector Plush Toy | Cuphead",
+  "brand": "Toynk",
+  "price": "$22.99",
+  "currency": "USD",
+  "description": "Show off your love of Cuphead with this officially licensed plush collectible! Made from soft, huggable material, this 8-inch plush is the perfect size for play or display! Add this plush to your personal collection or gift it to the Cuphead video game lover in your life! Officially licensed. A Toynk exclusive!",
+  "categories": [
+    "Toys",
+    "Dolls & Dollhouses",
+    "Cloth & Rag Dolls"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_8753003c-dcc4-400f-9947-e914c8e1673b",
+  "glb_url": "https://digitalcontent.target.com/vault/1717545600/CLOUD_ce775f57-b5f2-43f5-9eb5-087e5f98b0a6.glb",
+  "product_url": "https://www.target.com/p/-/A-89890986",
+  "dimensions": {
+    "height": 0.2031,
+    "width": 0.1689,
+    "depth": 0.1103,
+    "unit": "m",
+    "source": "glb"
+  }
+}

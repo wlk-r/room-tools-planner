@@ -1,0 +1,25 @@
+{
+  "tcin": "52446378",
+  "name": "Recycled Glass Soap Dish Clear - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$10.00",
+  "currency": "USD",
+  "description": "Keep a bar of soap within easy reach with the charming Recycled Glass Soap Dish from Threshold™. This soap dish is made from 100% recycled glass and features a nonslip design so your soap stays put, while the beautiful green tint adds a dash of soft color to your decor. It's perfect for preventing slippery, soapy messes from forming on your countertops, and it can be hand washed as needed for easy cleaning.<br /><br />Threshold™: Quality & Design / Casual classics for house and home.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b48b8335-87f7-4b74-8dd4-4e895f4d6694",
+  "glb_url": "https://digitalcontent.target.com/vault/1646870400/CLOUD_ff0ec4bb-c561-44bd-8d9e-33d7462faa60.glb",
+  "product_url": "https://www.target.com/p/-/A-52446378",
+  "color": "Clear",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.1258,
+    "width": 0.0955,
+    "depth": 0.0322,
+    "unit": "m",
+    "source": "glb"
+  }
+}

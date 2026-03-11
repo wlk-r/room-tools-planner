@@ -1,0 +1,23 @@
+{
+  "tcin": "14517908",
+  "name": "Paulo Wood Writing Desk with Drawer - Threshold™",
+  "brand": "Threshold",
+  "price": "$150.00",
+  "currency": "USD",
+  "description": "Maintain your modern style with the Paulo Wood Writing Desk with Drawer from Threshold™. This writing desk has one drawer for storing writing materials and other office supplies and keeping the tabletop clutter-free. The narrow style is perfect for smaller spaces to make the most of the room you have.<br /><br />Threshold™: Looks like home, feels like you.<br /><br />Tabletop Depth: 20.00 inches<br />Tabletop Width: 42.01 inches<br />Overall Height: 29.95 inches<br />Drawer Width: 33.78 inches<br />Drawer Depth: 14.85 inches<br />Drawer Height: 1.67 inches<br />Distance from Floor to Bottom of Drawer: 25.27 inches<br />Max Drawer Weight: 25 lbs<br />Max Top Panel Weight: 75 lbs",
+  "categories": [
+    "Furniture",
+    "Home Office Furniture",
+    "Desks"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_16e8497e-334a-44a9-b997-2d8380c6dc6a",
+  "glb_url": "https://digitalcontent.target.com/vault/1645747200/CLOUD_3814443b-231d-4a56-a221-d16b497e711e.glb",
+  "product_url": "https://www.target.com/p/-/A-14517908",
+  "dimensions": {
+    "height": 1.0668,
+    "width": 0.762,
+    "depth": 0.508,
+    "unit": "m",
+    "source": "glb"
+  }
+}

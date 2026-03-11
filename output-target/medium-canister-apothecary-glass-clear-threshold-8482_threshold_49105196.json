@@ -1,0 +1,25 @@
+{
+  "tcin": "49105196",
+  "name": "Medium Canister Apothecary Glass Clear - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$13.00",
+  "currency": "USD",
+  "description": "Bring sleek storage to your bathroom countertop with the Medium Glass Apothecary Canister from Threshold™. This clear round glass canister comes with a lid, keeping whatever you stash inside protected from moisture and dust. The rounded glass knob on the lid makes it easy to take on and off, and the clear glass construction lets you see what you've stored inside and blends in easily with your existing bathroom decor. It's perfect for storing and organizing cotton swabs, cotton balls, bandages and any other small items.<br /><br />Threshold™: Quality & Design / Casual classics for house and home.",
+  "categories": [
+    "Home",
+    "Bath",
+    "Bathroom Accessories"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_3d4f3af4-a3e6-4f4f-bb9f-10fbdb65b712",
+  "glb_url": "https://digitalcontent.target.com/vault/1666656000/CLOUD_dc649359-89a6-441d-958c-7c20b34897dd.glb",
+  "product_url": "https://www.target.com/p/-/A-49105196",
+  "color": "Clear",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 0.1692,
+    "width": 0.11,
+    "depth": 0.11,
+    "unit": "m",
+    "source": "glb"
+  }
+}

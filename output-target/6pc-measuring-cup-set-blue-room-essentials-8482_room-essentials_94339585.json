@@ -1,0 +1,25 @@
+{
+  "tcin": "94339585",
+  "name": "6pc Measuring Cup Set Blue - Room Essentials&#8482;",
+  "brand": "Room Essentials",
+  "price": "$3.00",
+  "currency": "USD",
+  "description": "Precisely measure out a variety of ingredients while cooking or baking with this 6-Piece Measuring Cup Set from Room Essentials™. Made from plastic, these measuring cups are designed in an attractive blue shade. Featuring graduating sizes ranging from 1/4 cup to a full one cup, all the pieces in the set are dishwasher safe for easy cleaning. <br /><br />Room Essentials™: Everyday Value",
+  "categories": [
+    "Kitchen & Dining",
+    "Bakeware",
+    "Measuring Cups & Measuring Spoons"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7dbf653a-8716-48df-8e1e-c56a993dbbfa",
+  "glb_url": "https://digitalcontent.target.com/vault/1760400000/CLOUD_2e37a924-52f0-4512-8d52-98cf4ed4d65c.glb",
+  "product_url": "https://www.target.com/p/-/A-94339585",
+  "dimensions": {
+    "height": 0.5196,
+    "width": 0.2127,
+    "depth": 0.0665,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Blue",
+  "color_source": "parsed"
+}

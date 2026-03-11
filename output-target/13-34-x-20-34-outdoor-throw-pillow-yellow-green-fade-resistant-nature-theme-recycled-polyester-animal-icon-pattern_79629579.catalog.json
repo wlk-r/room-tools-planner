@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "item_no": "79629579",
+      "name": "13&#34;x 20&#34; Outdoor Throw Pillow Yellow/Green: Fade-Resistant, Nature Theme, Recycled Polyester, Animal Icon Pattern",
+      "color": ""
+    }
+  ],
+  "profiles": [
+    {
+      "item_no": "79629579",
+      "tier": "fill",
+      "placement": "surface",
+      "categories": [
+        "pillow",
+        "textile",
+        "decor"
+      ],
+      "tags": [
+        "tropical",
+        "playful",
+        "nature"
+      ]
+    }
+  ]
+}

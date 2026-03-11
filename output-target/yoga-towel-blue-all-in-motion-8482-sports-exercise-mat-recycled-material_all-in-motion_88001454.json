@@ -1,0 +1,26 @@
+{
+  "tcin": "88001454",
+  "name": "Yoga Towel Blue - All In Motion&#8482;: Sports Exercise Mat, Recycled Material",
+  "brand": "All In Motion",
+  "price": "$30.00",
+  "currency": "USD",
+  "description": "Why we’re ALL IN:<br /><br />Yoga towel is designed to help you cool off after working out. The blue yoga towel is designed to soak up the sweat between your sets, and the grip back helps keep your mat from getting wet or slippery. Knitted detailing along the edges give it a neat look, while the foldable design makes for easy storage and carrying. <br /><br />All in Motion™: Made for every move, priced for every day.",
+  "categories": [
+    "Sports & Outdoors",
+    "Exercise & Fitness",
+    "Yoga & Pilates",
+    "Yoga Towels"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_078560e3-3add-42b2-ab0b-751b70b9f197",
+  "glb_url": "https://digitalcontent.target.com/vault/1721260800/CLOUD_f6143033-958e-4682-94d8-c35a1d215735.glb",
+  "product_url": "https://www.target.com/p/-/A-88001454",
+  "color": "Blue",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.778,
+    "width": 0.6604,
+    "depth": 0.0039,
+    "unit": "m",
+    "source": "glb"
+  }
+}

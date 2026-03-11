@@ -1,0 +1,25 @@
+{
+  "tcin": "53715239",
+  "name": "Tyler Creek Rectangular Dining Room Table Brown/Black - Signature Design by Ashley",
+  "brand": "Signature Design by Ashley",
+  "price": "$573.99",
+  "currency": "USD",
+  "description": "Invite your family into the heart of your home with this rectangular dining room table. Tapered legs are a sturdy foundation. Black finish is beautifully textured. Timeworn planked oak top creates a unique two-tone contrast. Store away smaller items in the drawers. This is trend-right urban farmhouse style. Signature Design by Ashley is a registered trademark of Ashley Furniture Industries, Inc.",
+  "categories": [
+    "Furniture",
+    "Kitchen & Dining Furniture",
+    "Dining Tables"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_7af5930b-aca4-449b-9a17-01b71df99828",
+  "glb_url": "https://digitalcontent.target.com/vault/1619740800/CLOUD_6e569406-4c0f-44e6-9ff5-196486754513.glb",
+  "product_url": "https://www.target.com/p/-/A-53715239",
+  "color": "Brown/Black",
+  "color_source": "parsed",
+  "dimensions": {
+    "height": 1.8258,
+    "width": 1.013,
+    "depth": 0.7842,
+    "unit": "m",
+    "source": "glb"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "tcin": "94568981",
+  "name": "25&#34;x65&#34; Decorative Forged Metal Floor Mirror Black - Threshold&#8482;",
+  "brand": "Threshold",
+  "price": "$140.00",
+  "currency": "USD",
+  "description": "This Decorative Forged Floor Mirror from Threshold™ makes an elegant addition to any space. This leaning floor mirror features a metal frame powder coated in a black finish for a subtle yet sophisticated touch. Designed in a rectangular shape, this mirror gives your space a welcoming look as well as a place to check your appearance before you head out the door. <br /><br />Threshold™: Looks like home, feels like you.",
+  "categories": [
+    "Home",
+    "Home Decor",
+    "Mirrors"
+  ],
+  "image_url": "https://target.scene7.com/is/image/Target/GUEST_b8a5e88a-8137-4095-b585-2f65d9440b30",
+  "glb_url": "https://digitalcontent.target.com/vault/1756944000/CLOUD_902ddacf-99d1-4e46-9a26-01b264b19cc9.glb",
+  "product_url": "https://www.target.com/p/-/A-94568981",
+  "dimensions": {
+    "height": 1.651,
+    "width": 0.635,
+    "depth": 0.0307,
+    "unit": "m",
+    "source": "glb"
+  },
+  "color": "Black",
+  "color_source": "parsed"
+}
