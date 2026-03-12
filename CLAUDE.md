@@ -93,12 +93,12 @@ LLM selects products from catalog and assigns to rooms using `claude --print`. U
 
 ### 4. generate_arrangement.py (spatial placement)
 
-LLM places curated items per room with exact coordinates using `claude --print`. Uses `prompts/arrange.md`.
+LLM places curated items per room with exact coordinates using `claude --print`. Uses `prompts/arrange.md`. Rooms are arranged **in parallel** (one LLM call per room, all fired concurrently via ThreadPoolExecutor). Surface items (placement: "surface") are resolved deterministically — placed at anchor coordinates without an LLM call.
 
 **Inputs:** `*_plan.css` + `*_catalog.json` + `*_curation.json` from `quantize_room.output/`
 **Output:** `<stem>_placement.json` conforming to `placement.schema.json`
 
-- **Scope:** One room at a time (isolated LLM call per room)
+- **Scope:** One room at a time (isolated LLM call per room, all rooms in parallel)
 - **Role:** Spatial reasoning engine
 - **Sees:** Room-specific CSS geometry (room components + adjacent obstacles/doors/windows extracted via bounding-box intersection) + candidates with footprints (width/height in px).
 - **Produces:** JSON array of `{ item_no, x, y, r }` placements — one entry per physical instance.
@@ -107,10 +107,12 @@ LLM places curated items per room with exact coordinates using `claude --print`.
 **Flags:**
 - `--model`: Model for LLM calls (default: sonnet). Can use a faster model (e.g. haiku) since this stage is spatial constraint satisfaction, not aesthetic judgment.
 - `--room r1`: Re-run only specific room(s). Merges results into existing placement file, replacing only the specified room's items.
-- `--timeout`: LLM call timeout in seconds (default: 300).
+- `--timeout`: LLM call timeout in seconds (default: 600). Generous since rooms run in parallel — a slow room only blocks itself.
 - `--verbose` / `-v`: Prints raw LLM responses (first 1000 chars) to console.
 - `--report` / `-r`: Writes `<stem>_report.json` with diagnostics.
 - `--force`: Regenerates placement even if `*_placement.json` already exists.
+
+**Architecture note:** The module retains unused tier-splitting utilities (`group_roles_by_tier`, `build_occupied_block`, `format_occupied_css`) that support a two-pass arrangement strategy (anchor+accent first, then fill seeing occupied zones). This was tested but found slower than single-call due to ~50s fixed overhead per `claude --print` invocation. If the LLM backend switches to direct API calls (sub-second overhead), re-enabling tier splitting would improve placement quality on rooms with 10+ items.
 
 ### Shared: llm_utils.py
 

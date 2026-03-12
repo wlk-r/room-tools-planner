@@ -11,7 +11,7 @@ Usage:
 
 Reads:   quantize_room.output/<stem>_plan.css, <stem>_catalog.json
 Writes:  quantize_room.output/<stem>_curation.json
-         quantize_room.output/<stem>_report.json  (with --report)
+         quantize_room.output/<stem>_report.curation.json  (with --report)
 """
 
 import json
@@ -153,7 +153,7 @@ def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False
 
 def _write_report(output_dir, plan_stem, report):
     """Write report JSON."""
-    report_path = output_dir / f"{plan_stem}_report.json"
+    report_path = output_dir / f"{plan_stem}_report.curation.json"
     with open(report_path, "w") as f:
         json.dump(report, f, indent=2)
     print(f"  -> {report_path}")

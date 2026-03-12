@@ -62,6 +62,24 @@
             "type": "integer",
             "enum": [0, 90, 180, 270],
             "description": "Rotation in degrees clockwise. 0 = footprint as-is, 90 = rotated 90 degrees clockwise (width and height swap)"
+          },
+          "placement_type": {
+            "type": "string",
+            "enum": ["floor", "surface", "wall"],
+            "description": "Placement category override (derived from catalog profile when omitted)"
+          },
+          "group_id": {
+            "type": "string",
+            "description": "Shared cluster ID for functionally grouped items (e.g. r2_workstation_1). Only present when grouped."
+          },
+          "group_role": {
+            "type": "string",
+            "enum": ["anchor", "dependent", "surface"],
+            "description": "Role within the group: anchor is the primary piece, dependent orbits it, surface sits on top of it"
+          },
+          "anchor_item_no": {
+            "type": "string",
+            "description": "Item number of the group's anchor. Only present for dependent and surface members."
           }
         }
       }

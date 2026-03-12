@@ -1,7 +1,6 @@
 """Stage 2: Arrange curated items in each room with exact coordinates.
 
-Uses sequential tier-based placement: anchors first, then accents (seeing
-placed anchors as occupied zones), then fill (seeing all prior placements).
+Rooms are arranged in parallel (one LLM call per room, all fired concurrently).
 Surface items are resolved deterministically without an LLM call.
 
 Usage:
@@ -13,13 +12,25 @@ Usage:
 
 Reads:   quantize_room.output/<stem>_plan.css, <stem>_catalog.json, <stem>_curation.json
 Writes:  quantize_room.output/<stem>_placement.json
-         quantize_room.output/<stem>_report.json  (with --report)
+         quantize_room.output/<stem>_report.arrange.json  (with --report)
+
+Architecture note:
+    This module contains unused tier-splitting and occupied-zone utilities
+    (group_roles_by_tier, build_occupied_block, format_occupied_css). These
+    support a two-pass arrangement strategy (anchor+accent first, then fill
+    seeing occupied zones) that was implemented and tested but found to be
+    slower than single-call due to ~50s fixed overhead per `claude --print`
+    invocation. The code is retained for future use — if the LLM backend
+    switches to direct API calls (sub-second overhead), re-enabling tier
+    splitting would improve placement quality on rooms with 10+ items.
+    See arrange_room() for the integration point.
 """
 
 import json
 import random
 import re
 import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
 
@@ -37,7 +48,7 @@ MODEL_TAGS = {
     "claude-haiku-4-5-20251001": "haiku",
 }
 
-TIER_ORDER = ["anchor", "accent", "fill"]
+DEFAULT_TIMEOUT = 600  # seconds — generous since rooms run in parallel
 
 
 def gen_id(model):
@@ -243,13 +254,86 @@ def resolve_surface_items(surface_roles, placed_items, profiles):
         for _ in range(role.get("qty", 1)):
             anchor = anchors[idx % len(anchors)]
             idx += 1
-            result.append({
+            entry = {
                 "item_no": item_no,
                 "x": anchor["x"],
                 "y": anchor["y"],
                 "r": 0,
-            })
+                "placement_type": "surface",
+                "group_role": "surface",
+                "anchor_item_no": anchor["item_no"],
+            }
+            # Inherit group_id from anchor if it has one
+            if "group_id" in anchor:
+                entry["group_id"] = anchor["group_id"]
+            result.append(entry)
     return result
+
+
+# ---------- Post-processing ----------
+
+def postprocess_items(items, profiles):
+    """Validate and fix grouping invariants on placed items (in-place).
+
+    - Ensures each group_id has exactly one anchor
+    - Fixes missing anchor_item_no on dependents/surface members
+    - Sets placement_type from catalog profile when non-default
+    - Strips malformed group fields rather than propagating bad data
+    """
+    # Index items by group
+    groups = {}  # group_id -> list of items
+    item_by_no = {}  # item_no -> item (last wins, fine for anchor lookup)
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        item_by_no[item["item_no"]] = item
+        gid = item.get("group_id")
+        if gid:
+            groups.setdefault(gid, []).append(item)
+
+    for gid, members in groups.items():
+        anchors = [m for m in members if m.get("group_role") == "anchor"]
+
+        # No anchor: promote first member
+        if not anchors:
+            members[0]["group_role"] = "anchor"
+            members[0].pop("anchor_item_no", None)
+            anchors = [members[0]]
+
+        # Multiple anchors: keep first, demote rest
+        if len(anchors) > 1:
+            for extra in anchors[1:]:
+                extra["group_role"] = "dependent"
+                extra["anchor_item_no"] = anchors[0]["item_no"]
+
+        anchor = anchors[0]
+        anchor.pop("anchor_item_no", None)  # anchors never reference another
+
+        # Ensure all non-anchors reference the anchor
+        for m in members:
+            if m is anchor:
+                continue
+            if m.get("group_role") not in ("dependent", "surface"):
+                m["group_role"] = "dependent"
+            if not m.get("anchor_item_no"):
+                m["anchor_item_no"] = anchor["item_no"]
+
+    # Enrich placement_type from catalog profiles (only when non-default)
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        if "placement_type" not in item:
+            pt = profiles.get(item["item_no"], {}).get("placement", "floor")
+            if pt != "floor":
+                item["placement_type"] = pt
+
+    # Strip orphaned group fields (group_role without group_id)
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        if item.get("group_role") and not item.get("group_id"):
+            item.pop("group_role", None)
+            item.pop("anchor_item_no", None)
 
 
 # ---------- Item JSON builder ----------
@@ -282,9 +366,9 @@ def build_tier_items_json(roles, footprints, products, profiles):
     return json.dumps(items, indent=2)
 
 
-# ---------- Stage 2 (per tier) ----------
+# ---------- LLM call ----------
 
-def stage_arrange(room_id, room_name, room_css, items_json, occupied_block, tier, model, verbose=False, timeout=300):
+def stage_arrange(room_id, room_name, room_css, items_json, occupied_block, tier, model, verbose=False, timeout=DEFAULT_TIMEOUT):
     """LLM arranges items for a single tier in a single room."""
     prompt_template = (PROMPTS_DIR / "arrange.md").read_text(encoding="utf-8")
     prompt = prompt_template.format(
@@ -325,9 +409,54 @@ def stage_arrange(room_id, room_name, room_css, items_json, occupied_block, tier
     return parsed, report
 
 
+# ---------- Per-room arrangement ----------
+
+def arrange_room(room_id, room_name, room_css, room_roles,
+                 footprints, products, profiles,
+                 model, verbose, timeout):
+    """Arrange one room with a single LLM call. Surface items resolved deterministically.
+
+    Returns (placed_items, reports, surface_count).
+
+    Note: tier-splitting utilities (group_roles_by_tier, build_occupied_block)
+    are retained in this module for future use with low-overhead LLM backends.
+    To re-enable two-pass arrangement, split non_surface by tier here and call
+    stage_arrange twice, passing build_occupied_block output from pass 1 into pass 2.
+    """
+    tier_groups, surface_roles = group_roles_by_tier(room_roles, profiles)
+
+    # All non-surface roles in a single call
+    non_surface = tier_groups["anchor"] + tier_groups["accent"] + tier_groups["fill"]
+
+    if not non_surface:
+        surface_items = resolve_surface_items(surface_roles, [], profiles)
+        return surface_items, [], len(surface_items)
+
+    placed = []
+    reports = []
+
+    items_json = build_tier_items_json(non_surface, footprints, products, profiles)
+    if items_json:
+        result, report = stage_arrange(
+            room_id, room_name, room_css, items_json,
+            "", "all", model, verbose, timeout,
+        )
+        reports.append(report)
+        placed.extend(item for item in result if isinstance(item, dict))
+
+    # Resolve surface items deterministically
+    surface_items = resolve_surface_items(surface_roles, placed, profiles)
+    placed.extend(surface_items)
+
+    # Fix up grouping invariants and enrich placement_type
+    postprocess_items(placed, profiles)
+
+    return placed, reports, len(surface_items)
+
+
 # ---------- Main pipeline ----------
 
-def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False, room_filter=None, timeout=300):
+def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False, room_filter=None, timeout=DEFAULT_TIMEOUT):
     """Generate arrangement for a single plan. Returns True on success."""
     plan_css_path = output_dir / f"{plan_stem}_plan.css"
     catalog_path = output_dir / f"{plan_stem}_catalog.json"
@@ -374,13 +503,25 @@ def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False
     products = {p["item_no"]: p for p in catalog["products"]}
     profiles = {p["item_no"]: p for p in catalog.get("profiles", [])}
 
-    print(f"  {meta['width']}x{meta['height']}, {len(room_ids)} room(s), {len(curation)} roles")
+    # Prepare per-room tasks
+    room_tasks = {}
+    for room_id in room_ids:
+        room_roles = [c for c in curation if c["room"] == room_id]
+        if not room_roles:
+            continue
+        room_name = get_room_name(rules, room_id)
+        room_css = extract_room_css(plan_css, meta, rules, room_id)
+        room_tasks[room_id] = (room_name, room_css, room_roles)
+
+    parallel = len(room_tasks) > 1
+    print(f"  {meta['width']}x{meta['height']}, {len(room_tasks)} room(s), {len(curation)} roles"
+          + (" (parallel)" if parallel else ""))
 
     report = {
         "plan": plan_stem,
         "model": model,
         "timestamp": datetime.now().isoformat(),
-        "rooms": len(room_ids),
+        "rooms": len(room_tasks),
         "stage": "arrange",
         "stage2": [],
     }
@@ -396,52 +537,40 @@ def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False
 
     all_items = list(existing_items)
 
-    for room_id in room_ids:
-        room_name = get_room_name(rules, room_id)
-        room_css = extract_room_css(plan_css, meta, rules, room_id)
-
-        # Get all roles for this room
-        room_roles = [c for c in curation if c["room"] == room_id]
-        if not room_roles:
-            print(f"  [{room_id} {room_name}]: no items assigned, skipping")
-            continue
-
-        # Group by tier, separate surface items
-        tier_groups, surface_roles = group_roles_by_tier(room_roles, profiles)
-
-        placed_in_room = []
-
-        # Sequential tier placement: anchor → accent → fill
-        for tier in TIER_ORDER:
-            tier_roles = tier_groups.get(tier, [])
-            if not tier_roles:
-                continue
-
-            items_json = build_tier_items_json(tier_roles, footprints, products, profiles)
-            if not items_json:
-                continue
-
-            occupied_block = build_occupied_block(placed_in_room, footprints, products)
-
-            placed, s2_report = stage_arrange(
-                room_id, room_name, room_css, items_json,
-                occupied_block, tier, model, verbose, timeout,
+    # Dispatch rooms in parallel
+    with ThreadPoolExecutor(max_workers=max(len(room_tasks), 1)) as pool:
+        futures = {}
+        for room_id, (room_name, room_css, room_roles) in room_tasks.items():
+            fut = pool.submit(
+                arrange_room,
+                room_id, room_name, room_css, room_roles,
+                footprints, products, profiles,
+                model, verbose, timeout,
             )
-            report["stage2"].append(s2_report)
+            futures[fut] = room_id
+
+        for fut in as_completed(futures):
+            room_id = futures[fut]
+            try:
+                placed, room_reports, surface_count = fut.result()
+            except Exception as e:
+                print(f"  [{room_id}] ERROR: {e}")
+                report["stage2"].append({
+                    "room": room_id,
+                    "error": str(e),
+                })
+                continue
+
+            report["stage2"].extend(room_reports)
+
+            if surface_count:
+                room_name = room_tasks[room_id][0]
+                print(f"  [{room_id} {room_name}] surface: {surface_count} items placed on anchors")
 
             for item in placed:
                 if isinstance(item, dict):
-                    item["room"] = room_id
-                    placed_in_room.append(item)
+                    item.setdefault("room", room_id)
                     all_items.append(item)
-
-        # Resolve surface items deterministically
-        surface_items = resolve_surface_items(surface_roles, placed_in_room, profiles)
-        if surface_items:
-            print(f"  [{room_id} {room_name}] surface: {len(surface_items)} items placed on anchors")
-            for item in surface_items:
-                item["room"] = room_id
-                all_items.append(item)
 
     # Build final placement
     gen = gen_id(model)
@@ -462,7 +591,7 @@ def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False
     report["gen"] = gen
     report["total_items"] = len(all_items)
     report["total_duration_s"] = round(
-        sum(s["duration_s"] or 0 for s in report["stage2"]),
+        sum(s.get("duration_s") or 0 for s in report["stage2"]),
         1,
     )
 
@@ -475,7 +604,7 @@ def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False
 
 def _write_report(output_dir, plan_stem, report):
     """Write report JSON."""
-    report_path = output_dir / f"{plan_stem}_report.json"
+    report_path = output_dir / f"{plan_stem}_report.arrange.json"
     with open(report_path, "w") as f:
         json.dump(report, f, indent=2)
     print(f"  -> {report_path}")
@@ -489,7 +618,7 @@ def main():
     parser.add_argument("--output-dir", default=DEFAULT_OUTPUT_DIR, help=f"Output directory (default: {DEFAULT_OUTPUT_DIR})")
     parser.add_argument("--model", default="sonnet", help="Model for LLM calls (default: sonnet)")
     parser.add_argument("--room", action="append", dest="rooms", help="Only arrange specific room(s), e.g. --room r1 --room r3")
-    parser.add_argument("--timeout", type=int, default=300, help="LLM call timeout in seconds (default: 300)")
+    parser.add_argument("--timeout", type=int, default=DEFAULT_TIMEOUT, help=f"LLM call timeout in seconds (default: {DEFAULT_TIMEOUT})")
     parser.add_argument("--force", action="store_true", help="Regenerate existing placement")
     parser.add_argument("--verbose", "-v", action="store_true", help="Print raw LLM responses")
     parser.add_argument("--report", "-r", action="store_true", help="Write report JSON with diagnostics")
