@@ -1,0 +1,6 @@
+# Optional: faster Claude API calls (no subprocess overhead)
+anthropic>=0.42.0
+# Optional: Gemini model support
+google-genai>=1.0.0
+# Optional: NVIDIA NIM support (OpenAI-compatible endpoint)
+openai>=1.0.0

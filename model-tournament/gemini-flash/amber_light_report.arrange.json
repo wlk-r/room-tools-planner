@@ -1,0 +1,168 @@
+{
+  "plan": "amber_light",
+  "model": "gemini-flash",
+  "timestamp": "2026-03-12T12:18:04.404582",
+  "rooms": 2,
+  "stage": "arrange",
+  "stage2": [
+    {
+      "room": "r2",
+      "room_name": "Bathroom",
+      "tier": "all",
+      "prompt_chars": 5360,
+      "duration_s": 12.2,
+      "raw_response": "[\n  {\n    \"item_no\": \"30472951\",\n    \"x\": 66,\n    \"y\": 37,\n    \"r\": 0\n  },\n  {\n    \"item_no\": \"70433364\",\n    \"x\": 97,\n    \"y\": 6,\n    \"r\": 0\n  }\n]",
+      "error": null,
+      "parsed": [
+        {
+          "item_no": "30472951",
+          "x": 66,
+          "y": 37,
+          "r": 0,
+          "room": "r2"
+        },
+        {
+          "item_no": "70433364",
+          "x": 97,
+          "y": 6,
+          "r": 0,
+          "room": "r2"
+        }
+      ]
+    },
+    {
+      "room": "r1",
+      "room_name": "Studio",
+      "tier": "all",
+      "prompt_chars": 13804,
+      "duration_s": 43.5,
+      "raw_response": "```json\n[\n  {\n    \"item_no\": \"30249551\",\n    \"x\": 186,\n    \"y\": 233,\n    \"r\": 0,\n    \"group_id\": \"r1_sleeping_1\",\n    \"group_role\": \"anchor\"\n  },\n  {\n    \"item_no\": \"80489322\",\n    \"x\": 154,\n    \"y\": 233,\n    \"r\": 0,\n    \"group_id\": \"r1_sleeping_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"30249551\"\n  },\n  {\n    \"item_no\": \"40586117\",\n    \"x\": 164,\n    \"y\": 89,\n    \"r\": 180,\n    \"group_id\": \"r1_seating_1\",\n    \"group_role\": \"anchor\"\n  },\n  {\n    \"item_no\": \"94693418\",\n    \"x\": 164,\n    \"y\": 119,\n    \"r\": 0,\n    \"group_id\": \"r1_seating_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"40586117\"\n  },\n  {\n    \"item_no\": \"40594754\",\n    \"x\": 130,\n    \"y\": 119,\n    \"r\": 180,\n    \"group_id\": \"r1_seating_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"40586117\"\n  },\n  {\n    \"item_no\": \"94688409\",\n    \"x\": 106,\n    \"y\": 119,\n    \"r\": 0,\n    \"group_id\": \"r1_seating_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"40586117\"\n  },\n  {\n    \"item_no\": \"94436023\",\n    \"x\": 141,\n    \"y\": 115,\n    \"r\": 0,\n    \"group_id\": \"r1_seating_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"40586117\"\n  },\n  {\n    \"item_no\": \"30299070\",\n    \"x\": 39,\n    \"y\": 220,\n    \"r\": 90,\n    \"group_id\": \"r1_workstation_1\",\n    \"group_role\": \"anchor\"\n  },\n  {\n    \"item_no\": \"91309355\",\n    \"x\": 68,\n    \"y\": 220,\n    \"r\": 270,\n    \"group_id\": \"r1_workstation_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"30299070\"\n  },\n  {\n    \"item_no\": \"93145365\",\n    \"x\": 219,\n    \"y\": 107,\n    \"r\": 270,\n    \"group_id\": \"r1_storage_1\",\n    \"group_role\": \"anchor\"\n  },\n  {\n    \"item_no\": \"90587770\",\n    \"x\": 200,\n    \"y\": 107,\n    \"r\": 0,\n    \"group_id\": \"r1_storage_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"93145365\"\n  },\n  {\n    \"item_no\": \"00606891\",\n    \"x\": 89,\n    \"y\": 90,\n    \"r\": 0\n  },\n  {\n    \"item_no\": \"88117850\",\n    \"x\": 218,\n    \"y\": 222,\n    \"r\": 270\n  }\n]\n```",
+      "error": null,
+      "parsed": [
+        {
+          "item_no": "30249551",
+          "x": 186,
+          "y": 233,
+          "r": 0,
+          "group_id": "r1_sleeping_1",
+          "group_role": "anchor",
+          "room": "r1"
+        },
+        {
+          "item_no": "80489322",
+          "x": 154,
+          "y": 233,
+          "r": 0,
+          "group_id": "r1_sleeping_1",
+          "group_role": "dependent",
+          "anchor_item_no": "30249551",
+          "room": "r1"
+        },
+        {
+          "item_no": "40586117",
+          "x": 164,
+          "y": 89,
+          "r": 180,
+          "group_id": "r1_seating_1",
+          "group_role": "anchor",
+          "room": "r1"
+        },
+        {
+          "item_no": "94693418",
+          "x": 164,
+          "y": 119,
+          "r": 0,
+          "group_id": "r1_seating_1",
+          "group_role": "dependent",
+          "anchor_item_no": "40586117",
+          "room": "r1"
+        },
+        {
+          "item_no": "40594754",
+          "x": 130,
+          "y": 119,
+          "r": 180,
+          "group_id": "r1_seating_1",
+          "group_role": "dependent",
+          "anchor_item_no": "40586117",
+          "room": "r1"
+        },
+        {
+          "item_no": "94688409",
+          "x": 106,
+          "y": 119,
+          "r": 0,
+          "group_id": "r1_seating_1",
+          "group_role": "dependent",
+          "anchor_item_no": "40586117",
+          "room": "r1"
+        },
+        {
+          "item_no": "94436023",
+          "x": 141,
+          "y": 115,
+          "r": 0,
+          "group_id": "r1_seating_1",
+          "group_role": "dependent",
+          "anchor_item_no": "40586117",
+          "room": "r1"
+        },
+        {
+          "item_no": "30299070",
+          "x": 39,
+          "y": 220,
+          "r": 90,
+          "group_id": "r1_workstation_1",
+          "group_role": "anchor",
+          "room": "r1"
+        },
+        {
+          "item_no": "91309355",
+          "x": 68,
+          "y": 220,
+          "r": 270,
+          "group_id": "r1_workstation_1",
+          "group_role": "dependent",
+          "anchor_item_no": "30299070",
+          "room": "r1"
+        },
+        {
+          "item_no": "93145365",
+          "x": 219,
+          "y": 107,
+          "r": 270,
+          "group_id": "r1_storage_1",
+          "group_role": "anchor",
+          "room": "r1"
+        },
+        {
+          "item_no": "90587770",
+          "x": 200,
+          "y": 107,
+          "r": 0,
+          "group_id": "r1_storage_1",
+          "group_role": "dependent",
+          "anchor_item_no": "93145365",
+          "room": "r1"
+        },
+        {
+          "item_no": "00606891",
+          "x": 89,
+          "y": 90,
+          "r": 0,
+          "room": "r1"
+        },
+        {
+          "item_no": "88117850",
+          "x": 218,
+          "y": 222,
+          "r": 270,
+          "room": "r1"
+        }
+      ]
+    }
+  ],
+  "gen": "20260312-2f78-flash",
+  "total_items": 21,
+  "total_duration_s": 55.7
+}

@@ -4,6 +4,7 @@
 *.avif
 *.blend
 __pycache__/
+.env
 .claude/
 .claude_cache/
 products/

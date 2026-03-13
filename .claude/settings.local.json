@@ -16,7 +16,22 @@
       "Bash(magick --version 2>/dev/null || convert --version 2>/dev/null)",
       "Bash(find /c/Users/Walker/Dev/room-tools-demo -name \"*_catalog.json\" -type f 2>/dev/null | head -1)",
       "Bash(find /c/Users/Walker/Dev/room-tools-demo -name \"*_curation.json\" -type f 2>/dev/null | head -1)",
-      "Bash(find /c/Users/Walker/Dev/room-tools-demo -name \"*_placement.json\" -type f 2>/dev/null | head -1)"
+      "Bash(find /c/Users/Walker/Dev/room-tools-demo -name \"*_placement.json\" -type f 2>/dev/null | head -1)",
+      "Bash(python3 -c \"from pathlib import Path; p = Path\\('C:/Users/Walker/Dev/room-tools-demo/output'\\) / 'sonnet/artists_loft_placement.json'; print\\(p, p.exists\\(\\)\\)\")",
+      "Bash(for d:*)",
+      "Read(//c/Users/Walker/Dev/room-tools-planner/**)",
+      "Bash(done)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:8000/output/sonnet/artists_loft_placement.json\")",
+      "Bash(curl -s \"http://localhost:8000/api/output\" | python -m json.tool | head -30)",
+      "Bash(curl -s \"http://localhost:8000/api/output\" | python -c \"import json,sys; data=json.load\\(sys.stdin\\); print\\([e['name'] for e in data if e['is_dir']]\\)\")",
+      "Bash(curl -s \"http://localhost:8000/output/sonnet/artists_loft_placement.json\" | head -5)",
+      "Bash(curl -s \"http://localhost:8000/plan\" | grep -c \"autoLoadPlacements\")",
+      "Bash(curl -s \"http://localhost:8000/plan\" | grep \"api/output\")",
+      "Bash(curl -s \"http://localhost:8000/plan\" | grep -n \"renderGalleryTournament\\\\|setActiveView\\\\|view-toggle\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:8000/output/artists_loft_plan.css\")",
+      "Bash(curl -s \"http://localhost:8000/output/artists_loft_tournament.json\" | head -5)",
+      "Bash(curl -s \"http://localhost:8000/plan\" | grep \"const OUTPUT_DIR\")",
+      "Bash(curl -s \"http://localhost:8000/plan\" | grep -n \"style.display\")"
     ]
   }
 }

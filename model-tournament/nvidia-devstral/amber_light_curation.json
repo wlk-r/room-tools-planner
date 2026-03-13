@@ -1,0 +1,245 @@
+{
+  "plan": "amber_light",
+  "model": "nvidia-devstral",
+  "roles": [
+    {
+      "role": "dining-table",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "91136977",
+        "40416498",
+        "70389356"
+      ]
+    },
+    {
+      "role": "dining-chair",
+      "room": "r1",
+      "qty": 4,
+      "candidates": [
+        "83823586",
+        "20566752",
+        "90606820"
+      ]
+    },
+    {
+      "role": "accent-chair",
+      "room": "r1",
+      "qty": 2,
+      "candidates": [
+        "94688434",
+        "30533493",
+        "80425641"
+      ]
+    },
+    {
+      "role": "coffee-table",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "94688375",
+        "93750415",
+        "78312348"
+      ]
+    },
+    {
+      "role": "side-table",
+      "room": "r1",
+      "qty": 2,
+      "candidates": [
+        "94688409",
+        "80587718",
+        "30515314"
+      ]
+    },
+    {
+      "role": "floor-lamp",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "94688339",
+        "60405941",
+        "00606891"
+      ]
+    },
+    {
+      "role": "table-lamp",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "92762531",
+        "91119575",
+        "1003132702"
+      ]
+    },
+    {
+      "role": "accent-rug",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "94435988",
+        "10603335",
+        "60578017"
+      ]
+    },
+    {
+      "role": "wall-art",
+      "room": "r1",
+      "qty": 2,
+      "candidates": [
+        "87933101",
+        "81785398",
+        "90570656"
+      ]
+    },
+    {
+      "role": "plant",
+      "room": "r1",
+      "qty": 2,
+      "candidates": [
+        "90570883",
+        "88656991"
+      ]
+    },
+    {
+      "role": "storage-cabinet",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "87523641",
+        "90586488",
+        "70586639"
+      ]
+    },
+    {
+      "role": "desk",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "91127866",
+        "54364953",
+        "70590472"
+      ]
+    },
+    {
+      "role": "desk-chair",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "70308685",
+        "10503454",
+        "00507589"
+      ]
+    },
+    {
+      "role": "mirror",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "88117850",
+        "90042577",
+        "10569096"
+      ]
+    },
+    {
+      "role": "sleeper-sofa",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "00575451",
+        "80551234",
+        "70585079"
+      ]
+    },
+    {
+      "role": "ottoman",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "49147300",
+        "20586175",
+        "90531660"
+      ]
+    },
+    {
+      "role": "storage-shelving",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "00439468",
+        "60409294",
+        "90324509"
+      ]
+    },
+    {
+      "role": "wardrobe",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "00439468",
+        "30439476",
+        "60409294"
+      ]
+    },
+    {
+      "role": "vanity",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "90496398",
+        "10496401",
+        "20345633"
+      ]
+    },
+    {
+      "role": "bathroom-storage",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "30396448",
+        "90452304",
+        "20345633"
+      ]
+    },
+    {
+      "role": "bathroom-mirror",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "10569096",
+        "88117850",
+        "90042577"
+      ]
+    },
+    {
+      "role": "bathroom-rug",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "60615109",
+        "10561788",
+        "50555281"
+      ]
+    },
+    {
+      "role": "bathroom-decor",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "90555825",
+        "60590496",
+        "50591929"
+      ]
+    },
+    {
+      "role": "waste-bin",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "60595385",
+        "70595403",
+        "20511217"
+      ]
+    }
+  ]
+}

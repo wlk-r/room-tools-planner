@@ -1,0 +1,184 @@
+{
+  "plan": "amber_light",
+  "gen": "20260312-bf01-gpro",
+  "m_per_px": 0.027939,
+  "curate_model": "gemini-pro",
+  "arrange_model": "gemini-pro",
+  "items": [
+    {
+      "item_no": "82226610",
+      "x": 65,
+      "y": 17,
+      "r": 90,
+      "room": "r2"
+    },
+    {
+      "item_no": "60595385",
+      "x": 95,
+      "y": 67,
+      "r": 0,
+      "room": "r2"
+    },
+    {
+      "item_no": "10569096",
+      "x": 30,
+      "y": 6,
+      "r": 0,
+      "placement_type": "wall",
+      "mount_height": 1.7,
+      "room": "r2"
+    },
+    {
+      "item_no": "30458907",
+      "x": 180,
+      "y": 97,
+      "r": 0,
+      "group_id": "r1_sleeping_1",
+      "group_role": "anchor",
+      "room": "r1"
+    },
+    {
+      "item_no": "80489322",
+      "x": 146,
+      "y": 97,
+      "r": 0,
+      "group_id": "r1_sleeping_1",
+      "group_role": "dependent",
+      "anchor_item_no": "30458907",
+      "room": "r1"
+    },
+    {
+      "item_no": "80489322",
+      "x": 214,
+      "y": 97,
+      "r": 0,
+      "group_id": "r1_sleeping_1",
+      "group_role": "dependent",
+      "anchor_item_no": "30458907",
+      "room": "r1"
+    },
+    {
+      "item_no": "90324509",
+      "x": 130,
+      "y": 128,
+      "r": 90,
+      "group_id": "r1_sleeping_1",
+      "group_role": "dependent",
+      "anchor_item_no": "30458907",
+      "room": "r1"
+    },
+    {
+      "item_no": "80551234",
+      "x": 45,
+      "y": 165,
+      "r": 90,
+      "group_id": "r1_seating_1",
+      "group_role": "anchor",
+      "room": "r1"
+    },
+    {
+      "item_no": "70542749",
+      "x": 115,
+      "y": 165,
+      "r": 270,
+      "group_id": "r1_seating_1",
+      "group_role": "dependent",
+      "anchor_item_no": "80551234",
+      "room": "r1"
+    },
+    {
+      "item_no": "70239710",
+      "x": 80,
+      "y": 165,
+      "r": 0,
+      "group_id": "r1_seating_1",
+      "group_role": "dependent",
+      "anchor_item_no": "80551234",
+      "room": "r1"
+    },
+    {
+      "item_no": "80425641",
+      "x": 70,
+      "y": 210,
+      "r": 180,
+      "group_id": "r1_seating_1",
+      "group_role": "dependent",
+      "anchor_item_no": "80551234",
+      "room": "r1"
+    },
+    {
+      "item_no": "50555281",
+      "x": 80,
+      "y": 165,
+      "r": 90,
+      "group_id": "r1_seating_1",
+      "group_role": "dependent",
+      "anchor_item_no": "80551234",
+      "room": "r1"
+    },
+    {
+      "item_no": "30507465",
+      "x": 95,
+      "y": 110,
+      "r": 0,
+      "group_id": "r1_dining_1",
+      "group_role": "anchor",
+      "room": "r1"
+    },
+    {
+      "item_no": "10422504",
+      "x": 95,
+      "y": 96,
+      "r": 0,
+      "group_id": "r1_dining_1",
+      "group_role": "dependent",
+      "anchor_item_no": "30507465",
+      "room": "r1"
+    },
+    {
+      "item_no": "10422504",
+      "x": 95,
+      "y": 124,
+      "r": 180,
+      "group_id": "r1_dining_1",
+      "group_role": "dependent",
+      "anchor_item_no": "30507465",
+      "room": "r1"
+    },
+    {
+      "item_no": "30299070",
+      "x": 90,
+      "y": 244,
+      "r": 180,
+      "group_id": "r1_workstation_1",
+      "group_role": "anchor",
+      "room": "r1"
+    },
+    {
+      "item_no": "91309355",
+      "x": 90,
+      "y": 226,
+      "r": 0,
+      "group_id": "r1_workstation_1",
+      "group_role": "dependent",
+      "anchor_item_no": "30299070",
+      "room": "r1"
+    },
+    {
+      "item_no": "70216544",
+      "x": 40,
+      "y": 246,
+      "r": 0,
+      "room": "r1"
+    },
+    {
+      "item_no": "81785398",
+      "x": 30,
+      "y": 77,
+      "r": 0,
+      "placement_type": "wall",
+      "mount_height": 1.7,
+      "room": "r1"
+    }
+  ]
+}

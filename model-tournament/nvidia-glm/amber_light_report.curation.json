@@ -1,0 +1,150 @@
+{
+  "plan": "amber_light",
+  "model": "nvidia-glm",
+  "timestamp": "2026-03-12T12:20:46.199014",
+  "catalog_products": 293,
+  "stage": "curate",
+  "prompt_chars": 125105,
+  "duration_s": 110.8,
+  "raw_response": "```json\n[\n  {\n    \"role\": \"bed-frame\",\n    \"room\": \"r1\",\n    \"qty\": 1,\n    \"candidates\": [\n      \"60489144\",\n      \"30249551\",\n      \"30458907\"\n    ]\n  },\n  {\n    \"role\": \"sofa\",\n    \"room\": \"r1\",\n    \"qty\": 1,\n    \"candidates\": [\n      \"40586117\",\n      \"00575451\",\n      \"70585079\"\n    ]\n  },\n  {\n    \"role\": \"dining-table\",\n    \"room\": \"r1\",\n    \"qty\": 1,\n    \"candidates\": [\n      \"91136977\",\n      \"40416498\",\n      \"70419264\"\n    ]\n  },\n  {\n    \"role\": \"dining-chair\",\n    \"room\": \"r1\",\n    \"qty\": 2,\n    \"candidates\": [\n      \"83823586\",\n      \"70308685\",\n      \"10422504\"\n    ]\n  },\n  {\n    \"role\": \"storage-cabinet\",\n    \"room\": \"r1\",\n    \"qty\": 1,\n    \"candidates\": [\n      \"00439468\",\n      \"90324509\",\n      \"90496398\"\n    ]\n  },\n  {\n    \"role\": \"coffee-table\",\n    \"room\": \"r1\",\n    \"qty\": 1,\n    \"candidates\": [\n      \"94688375\",\n      \"70389356\",\n      \"20586552\"\n    ]\n  },\n  {\n    \"role\": \"side-table\",\n    \"room\": \"r1\",\n    \"qty\": 1,\n    \"candidates\": [\n      \"80528470\",\n      \"87277064\",\n      \"94688409\"\n    ]\n  },\n  {\n    \"role\": \"area-rug\",\n    \"room\": \"r1\",\n    \"qty\": 1,\n    \"candidates\": [\n      \"94436023\",\n      \"94435988\",\n      \"80482132\"\n    ]\n  },\n  {\n    \"role\": \"floor-lamp\",\n    \"room\": \"r1\",\n    \"qty\": 1,\n    \"candidates\": [\n      \"94688339\",\n      \"70216544\",\n      \"60357916\"\n    ]\n  },\n  {\n    \"role\": \"table-lamp\",\n    \"room\": \"r1\",\n    \"qty\": 1,\n    \"candidates\": [\n      \"1002876352\",\n      \"93104102\",\n      \"92762531\"\n    ]\n  },\n  {\n    \"role\": \"storage-cart\",\n    \"room\": \"r2\",\n    \"qty\": 1,\n    \"candidates\": [\n      \"40585801\",\n      \"90591767\"\n    ]\n  },\n  {\n    \"role\": \"stool\",\n    \"room\": \"r2\",\n    \"qty\": 1,\n    \"candidates\": [\n      \"60416925\",\n      \"60554380\"\n    ]\n  },\n  {\n    \"role\": \"waste-bin\",\n    \"room\": \"r2\",\n    \"qty\": 1,\n    \"candidates\": [\n      \"60595385\",\n      \"70595403\"\n    ]\n  },\n  {\n    \"role\": \"wall-mirror\",\n    \"room\": \"r2\",\n    \"qty\": 1,\n    \"candidates\": [\n      \"90042577\",\n      \"10569096\"\n    ]\n  }\n]\n```",
+  "error": null,
+  "parsed": [
+    {
+      "role": "bed-frame",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "60489144",
+        "30249551",
+        "30458907"
+      ]
+    },
+    {
+      "role": "sofa",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "40586117",
+        "00575451",
+        "70585079"
+      ]
+    },
+    {
+      "role": "dining-table",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "91136977",
+        "40416498",
+        "70419264"
+      ]
+    },
+    {
+      "role": "dining-chair",
+      "room": "r1",
+      "qty": 2,
+      "candidates": [
+        "83823586",
+        "70308685",
+        "10422504"
+      ]
+    },
+    {
+      "role": "storage-cabinet",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "00439468",
+        "90324509",
+        "90496398"
+      ]
+    },
+    {
+      "role": "coffee-table",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "94688375",
+        "70389356",
+        "20586552"
+      ]
+    },
+    {
+      "role": "side-table",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "80528470",
+        "87277064",
+        "94688409"
+      ]
+    },
+    {
+      "role": "area-rug",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "94436023",
+        "94435988",
+        "80482132"
+      ]
+    },
+    {
+      "role": "floor-lamp",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "94688339",
+        "70216544",
+        "60357916"
+      ]
+    },
+    {
+      "role": "table-lamp",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "1002876352",
+        "93104102",
+        "92762531"
+      ]
+    },
+    {
+      "role": "storage-cart",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "40585801",
+        "90591767"
+      ]
+    },
+    {
+      "role": "stool",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "60416925",
+        "60554380"
+      ]
+    },
+    {
+      "role": "waste-bin",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "60595385",
+        "70595403"
+      ]
+    },
+    {
+      "role": "wall-mirror",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "90042577",
+        "10569096"
+      ]
+    }
+  ],
+  "cleaned_removed": 0
+}

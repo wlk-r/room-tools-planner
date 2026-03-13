@@ -46,6 +46,18 @@ MODEL_TAGS = {
     "claude-opus-4-6": "opus",
     "claude-sonnet-4-6": "sonnet",
     "claude-haiku-4-5-20251001": "haiku",
+    "gemini-flash": "flash",
+    "gemini-pro": "gpro",
+    "gemini-2.0-flash": "flash",
+    "gemini-2.5-pro-preview-06-05": "gpro",
+    "nvidia-glm": "nglm",
+    "z-ai/glm4.7": "nglm",
+    "nvidia-deepseek": "nds",
+    "deepseek-ai/deepseek-v3.2": "nds",
+    "nvidia-devstral": "ndvs",
+    "mistralai/devstral-2-123b-instruct-2512": "ndvs",
+    "nvidia-kimi": "nkimi",
+    "moonshotai/kimi-k2.5": "nkimi",
 }
 
 DEFAULT_TIMEOUT = 600  # seconds — generous since rooms run in parallel
@@ -186,20 +198,38 @@ def get_role_placement_type(role, profiles):
     return "floor"
 
 
-def group_roles_by_tier(roles, profiles):
-    """Split roles into tier buckets + separate surface items.
+def _is_plant_role(role, profiles):
+    """Check if a role's candidates are plants (by category)."""
+    for item_no in role.get("candidates", []):
+        cats = profiles.get(item_no, {}).get("categories", [])
+        if "plant" in cats:
+            return True
+    return False
 
-    Returns ({"anchor": [...], "accent": [...], "fill": [...]}, surface_roles).
+
+def group_roles_by_tier(roles, profiles):
+    """Split roles into tier buckets + separate surface, plant, and wall items.
+
+    Returns (tiers_dict, surface_roles, plant_roles, wall_roles).
     """
     tiers = {"anchor": [], "accent": [], "fill": []}
     surface_roles = []
+    plant_roles = []
+    wall_roles = []
     for role in roles:
-        if get_role_placement_type(role, profiles) == "surface":
+        pt = get_role_placement_type(role, profiles)
+        if pt == "surface":
             surface_roles.append(role)
+            continue
+        if pt == "wall":
+            wall_roles.append(role)
+            continue
+        if _is_plant_role(role, profiles):
+            plant_roles.append(role)
             continue
         tier = get_role_tier(role, profiles)
         tiers.get(tier, tiers["fill"]).append(role)
-    return tiers, surface_roles
+    return tiers, surface_roles, plant_roles, wall_roles
 
 
 # ---------- Occupied zones ----------
@@ -229,19 +259,26 @@ def build_occupied_block(placed_items, footprints, products):
 
 # ---------- Surface resolution ----------
 
-def resolve_surface_items(surface_roles, placed_items, profiles):
-    """Deterministically place surface items on anchor-tier placed items.
+def _has_tabletop(item_no, profiles):
+    """Check if an item has a flat surface suitable for placing things on."""
+    cats = profiles.get(item_no, {}).get("categories", [])
+    return "tabletop" in cats
 
-    Round-robins across anchors. Falls back to any placed item if no anchors.
+
+def resolve_surface_items(surface_roles, placed_items, profiles):
+    """Deterministically place surface items on tabletop-category placed items.
+
+    Round-robins across valid targets. Falls back to any placed item only
+    if no tabletop items exist (unlikely but safe).
     Picks the first candidate for each surface role.
     """
     if not surface_roles or not placed_items:
         return []
 
-    # Prefer anchor-tier items as surfaces
-    anchors = [item for item in placed_items
-               if profiles.get(item["item_no"], {}).get("tier") == "anchor"]
+    # Only place surface items on things with a flat top (desks, tables, TV units)
+    anchors = [item for item in placed_items if _has_tabletop(item["item_no"], profiles)]
     if not anchors:
+        # Last resort: any placed item (avoids dropping surface items entirely)
         anchors = list(placed_items)
 
     result = []
@@ -267,6 +304,300 @@ def resolve_surface_items(surface_roles, placed_items, profiles):
             if "group_id" in anchor:
                 entry["group_id"] = anchor["group_id"]
             result.append(entry)
+    return result
+
+
+# ---------- Plant resolution ----------
+
+def _rect_from_rule(rule):
+    """Extract (left, top, right, bottom) from a parsed CSS rule."""
+    l = int(rule["props"]["left"])
+    t = int(rule["props"]["top"])
+    w = int(rule["props"]["width"])
+    h = int(rule["props"]["height"])
+    return (l, t, l + w, t + h)
+
+
+def _rects_overlap(ax, ay, aw, ah, bx1, by1, bx2, by2):
+    """Check if a centered rect (ax,ay,aw,ah) overlaps an LTRB rect."""
+    return (ax - aw // 2 < bx2 and ax + aw // 2 > bx1 and
+            ay - ah // 2 < by2 and ay + ah // 2 > by1)
+
+
+def resolve_plant_items(plant_roles, placed_items, room_css, footprints, profiles):
+    """Place plants along walls and in corners, away from doors and placed items.
+
+    Strategy: generate candidate positions along room edges, score them by
+    corner proximity and distance from existing items, then greedily assign
+    plants largest-first.
+    """
+    if not plant_roles:
+        return []
+
+    # Parse room geometry from the room-specific CSS
+    _, rules = parse_plan_css(room_css)
+    room_rects = [_rect_from_rule(r) for r in rules if r["cls"] == "room"]
+    door_rects = [_rect_from_rule(r) for r in rules if r["cls"] == "door"]
+
+    if not room_rects:
+        return []
+
+    # Room bounding box
+    r_min_x = min(r[0] for r in room_rects)
+    r_min_y = min(r[1] for r in room_rects)
+    r_max_x = max(r[2] for r in room_rects)
+    r_max_y = max(r[3] for r in room_rects)
+
+    # Build occupied rectangles (LTRB) from placed items with padding
+    PAD = 8
+    occupied = []
+    for item in placed_items:
+        fp = footprints.get(item["item_no"], {"width": 10, "height": 10})
+        w, h = fp["width"], fp["height"]
+        if item.get("r", 0) in (90, 270):
+            w, h = h, w
+        occupied.append((item["x"] - w // 2 - PAD, item["y"] - h // 2 - PAD,
+                         item["x"] + w // 2 + PAD, item["y"] + h // 2 + PAD))
+
+    # Generate candidate positions along room edges
+    STEP = 8
+    candidates = set()
+
+    for rl, rt, rr, rb in room_rects:
+        # Top and bottom edges
+        for x in range(rl, rr, STEP):
+            candidates.add((x, rt))  # top wall
+            candidates.add((x, rb))  # bottom wall
+        # Left and right edges
+        for y in range(rt, rb, STEP):
+            candidates.add((rl, y))  # left wall
+            candidates.add((rr, y))  # right wall
+
+    # Identify corner positions (room bounding box corners)
+    corners = {
+        (r_min_x, r_min_y), (r_max_x, r_min_y),
+        (r_min_x, r_max_y), (r_max_x, r_max_y),
+    }
+
+    def near_door(x, y, margin=25):
+        for dl, dt, dr, db in door_rects:
+            if dl - margin <= x <= dr + margin and dt - margin <= y <= db + margin:
+                return True
+        return False
+
+    def hits_occupied(cx, cy, pw, ph):
+        for ol, ot, or_, ob in occupied:
+            if _rects_overlap(cx, cy, pw, ph, ol, ot, or_, ob):
+                return True
+        return False
+
+    def dist_to_nearest(x, y, items):
+        if not items:
+            return 9999
+        return min(((x - it["x"]) ** 2 + (y - it["y"]) ** 2) ** 0.5 for it in items)
+
+    def corner_dist(x, y):
+        return min(((x - cx) ** 2 + (y - cy) ** 2) ** 0.5 for cx, cy in corners)
+
+    # Collect plants to place, sorted largest footprint first
+    plants_to_place = []
+    for role in plant_roles:
+        cands = role.get("candidates", [])
+        if not cands:
+            continue
+        item_no = cands[0]
+        fp = footprints.get(item_no, {"width": 10, "height": 10})
+        for _ in range(role.get("qty", 1)):
+            plants_to_place.append((item_no, fp["width"], fp["height"]))
+    plants_to_place.sort(key=lambda p: p[1] * p[2], reverse=True)
+
+    result = []
+    placed_plants = []  # track to keep plants spread apart
+
+    for item_no, pw, ph in plants_to_place:
+        inset_x = pw // 2 + 2
+        inset_y = ph // 2 + 2
+
+        best = None
+        best_score = -1
+
+        for wx, wy in candidates:
+            # Inset from wall so the plant footprint doesn't poke outside
+            # Determine which edge this point is on and inset inward
+            cx, cy = wx, wy
+            if wx == r_min_x or any(wx == rl for rl, _, _, _ in room_rects):
+                cx = wx + inset_x
+            elif wx == r_max_x or any(wx == rr for _, _, rr, _ in room_rects):
+                cx = wx - inset_x
+            if wy == r_min_y or any(wy == rt for _, rt, _, _ in room_rects):
+                cy = wy + inset_y
+            elif wy == r_max_y or any(wy == rb for _, _, _, rb in room_rects):
+                cy = wy - inset_y
+
+            if near_door(cx, cy):
+                continue
+            if hits_occupied(cx, cy, pw, ph):
+                continue
+
+            # Score: prefer corners, prefer distance from other plants,
+            # moderate distance from furniture (near groups but not on top)
+            cd = corner_dist(cx, cy)
+            corner_score = max(0, 50 - cd)  # bonus for being near corners
+            furniture_dist = dist_to_nearest(cx, cy, placed_items)
+            plant_dist = dist_to_nearest(cx, cy, placed_plants) if placed_plants else 200
+            # Don't place too close to other plants (want spread)
+            if plant_dist < 30:
+                continue
+            # Want moderate furniture distance: not on top (>20) but not isolated (penalty past 80)
+            proximity_score = min(furniture_dist, 80)
+            spread_score = min(plant_dist, 100)
+
+            score = corner_score + proximity_score + spread_score
+            if score > best_score:
+                best_score = score
+                best = (cx, cy)
+
+        if best:
+            entry = {"item_no": item_no, "x": best[0], "y": best[1], "r": 0}
+            result.append(entry)
+            placed_plants.append(entry)
+            # Add to occupied so next plant avoids this spot
+            occupied.append((best[0] - pw // 2 - PAD, best[1] - ph // 2 - PAD,
+                             best[0] + pw // 2 + PAD, best[1] + ph // 2 + PAD))
+
+    return result
+
+
+# ---------- Wall item resolution ----------
+
+# Rotation by edge: front (z+ in GLB, +y in CSS at r=0) faces into the room
+_EDGE_ROTATION = {"top": 0, "bottom": 180, "left": 90, "right": 270}
+
+# Default mount height (center of item, meters above floor)
+_DEFAULT_MOUNT_HEIGHT = 1.7
+
+
+def resolve_wall_items(wall_roles, placed_items, room_css, footprints, profiles):
+    """Place wall items flush against room edges, facing inward.
+
+    Rotation is deterministic: determined by which edge the item is placed on.
+    Avoids doors, windows, and other placed/wall items.
+    """
+    if not wall_roles:
+        return []
+
+    _, rules = parse_plan_css(room_css)
+    room_rects = [_rect_from_rule(r) for r in rules if r["cls"] == "room"]
+    door_rects = [_rect_from_rule(r) for r in rules if r["cls"] == "door"]
+    window_rects = [_rect_from_rule(r) for r in rules if r["cls"] == "window"]
+    avoid_rects = door_rects + window_rects
+
+    if not room_rects:
+        return []
+
+    # Build occupied rectangles from placed items
+    PAD = 5
+    occupied = []
+    for item in placed_items:
+        fp = footprints.get(item["item_no"], {"width": 10, "height": 10})
+        w, h = fp["width"], fp["height"]
+        if item.get("r", 0) in (90, 270):
+            w, h = h, w
+        occupied.append((item["x"] - w // 2 - PAD, item["y"] - h // 2 - PAD,
+                         item["x"] + w // 2 + PAD, item["y"] + h // 2 + PAD))
+
+    # Generate candidate positions along room edges, tagged with edge direction
+    STEP = 6
+    candidates = []  # (x, y, edge_name)
+
+    for rl, rt, rr, rb in room_rects:
+        for x in range(rl, rr, STEP):
+            candidates.append((x, rt, "top"))
+            candidates.append((x, rb, "bottom"))
+        for y in range(rt, rb, STEP):
+            candidates.append((rl, y, "left"))
+            candidates.append((rr, y, "right"))
+
+    def near_avoid(x, y, margin=10):
+        """Check if position is too close to a door or window."""
+        for al, at, ar, ab in avoid_rects:
+            if al - margin <= x <= ar + margin and at - margin <= y <= ab + margin:
+                return True
+        return False
+
+    def hits_occupied(cx, cy, w, h):
+        for ol, ot, or_, ob in occupied:
+            if _rects_overlap(cx, cy, w, h, ol, ot, or_, ob):
+                return True
+        return False
+
+    # Collect wall items to place
+    items_to_place = []
+    for role in wall_roles:
+        cands = role.get("candidates", [])
+        if not cands:
+            continue
+        item_no = cands[0]
+        fp = footprints.get(item_no, {"width": 10, "height": 10})
+        for _ in range(role.get("qty", 1)):
+            items_to_place.append((item_no, fp["width"], fp["height"]))
+
+    result = []
+
+    for item_no, fw, fh in items_to_place:
+        best = None
+        best_score = -1
+
+        for wx, wy, edge in candidates:
+            r = _EDGE_ROTATION[edge]
+
+            # At r=0/180 (top/bottom walls): footprint is fw wide, fh deep
+            # At r=90/270 (left/right walls): footprint is fh wide, fw deep
+            if r in (90, 270):
+                draw_w, draw_h = fh, fw
+            else:
+                draw_w, draw_h = fw, fh
+
+            # Inset center so footprint is flush against the wall
+            half_w, half_h = draw_w // 2, draw_h // 2
+            if edge == "top":
+                cx, cy = wx, wy + half_h
+            elif edge == "bottom":
+                cx, cy = wx, wy - half_h
+            elif edge == "left":
+                cx, cy = wx + half_w, wy
+            else:  # right
+                cx, cy = wx - half_w, wy
+
+            if near_avoid(cx, cy):
+                continue
+            if hits_occupied(cx, cy, draw_w, draw_h):
+                continue
+
+            # Score: prefer distance from existing wall items (spread them out)
+            if result:
+                min_d = min(((cx - p["x"]) ** 2 + (cy - p["y"]) ** 2) ** 0.5 for p in result)
+                if min_d < 20:
+                    continue
+                score = min(min_d, 100)
+            else:
+                score = 100
+
+            if score > best_score:
+                best_score = score
+                best = (cx, cy, r, draw_w, draw_h)
+
+        if best:
+            cx, cy, r, dw, dh = best
+            entry = {
+                "item_no": item_no, "x": cx, "y": cy, "r": r,
+                "placement_type": "wall",
+                "mount_height": _DEFAULT_MOUNT_HEIGHT,
+            }
+            result.append(entry)
+            occupied.append((cx - dw // 2 - PAD, cy - dh // 2 - PAD,
+                             cx + dw // 2 + PAD, cy + dh // 2 + PAD))
+
     return result
 
 
@@ -381,7 +712,7 @@ def stage_arrange(room_id, room_name, room_css, items_json, occupied_block, tier
     )
 
     print(f"  [{room_id} {room_name}] {tier}: arranging ({len(prompt)} chars)...", end="", flush=True)
-    parsed, raw, duration, error = call_llm(prompt, model, verbose, timeout)
+    parsed, raw, duration, error, usage = call_llm(prompt, model, verbose, timeout)
 
     report = {
         "room": room_id,
@@ -392,6 +723,8 @@ def stage_arrange(room_id, room_name, room_css, items_json, occupied_block, tier
         "raw_response": raw,
         "error": error,
     }
+    if usage:
+        report["usage"] = usage
 
     if error:
         print(f" {error} ({duration}s)")
@@ -414,44 +747,50 @@ def stage_arrange(room_id, room_name, room_css, items_json, occupied_block, tier
 def arrange_room(room_id, room_name, room_css, room_roles,
                  footprints, products, profiles,
                  model, verbose, timeout):
-    """Arrange one room with a single LLM call. Surface items resolved deterministically.
+    """Arrange one room: LLM for floor furniture, deterministic for surface/plant/wall.
 
-    Returns (placed_items, reports, surface_count).
-
-    Note: tier-splitting utilities (group_roles_by_tier, build_occupied_block)
-    are retained in this module for future use with low-overhead LLM backends.
-    To re-enable two-pass arrangement, split non_surface by tier here and call
-    stage_arrange twice, passing build_occupied_block output from pass 1 into pass 2.
+    Returns (placed_items, reports, det_counts) where det_counts is a dict
+    of deterministically-placed item counts by type.
     """
-    tier_groups, surface_roles = group_roles_by_tier(room_roles, profiles)
+    tier_groups, surface_roles, plant_roles, wall_roles = group_roles_by_tier(room_roles, profiles)
 
-    # All non-surface roles in a single call
+    # All non-extracted roles in a single LLM call
     non_surface = tier_groups["anchor"] + tier_groups["accent"] + tier_groups["fill"]
-
-    if not non_surface:
-        surface_items = resolve_surface_items(surface_roles, [], profiles)
-        return surface_items, [], len(surface_items)
 
     placed = []
     reports = []
 
-    items_json = build_tier_items_json(non_surface, footprints, products, profiles)
-    if items_json:
-        result, report = stage_arrange(
-            room_id, room_name, room_css, items_json,
-            "", "all", model, verbose, timeout,
-        )
-        reports.append(report)
-        placed.extend(item for item in result if isinstance(item, dict))
+    if non_surface:
+        items_json = build_tier_items_json(non_surface, footprints, products, profiles)
+        if items_json:
+            result, report = stage_arrange(
+                room_id, room_name, room_css, items_json,
+                "", "all", model, verbose, timeout,
+            )
+            reports.append(report)
+            placed.extend(item for item in result if isinstance(item, dict))
 
-    # Resolve surface items deterministically
+    # Deterministic passes — each sees everything placed before it
     surface_items = resolve_surface_items(surface_roles, placed, profiles)
     placed.extend(surface_items)
 
-    # Fix up grouping invariants and enrich placement_type
+    wall_items = resolve_wall_items(wall_roles, placed, room_css, footprints, profiles)
+    placed.extend(wall_items)
+
+    plant_items = resolve_plant_items(plant_roles, placed, room_css, footprints, profiles)
+    placed.extend(plant_items)
+
     postprocess_items(placed, profiles)
 
-    return placed, reports, len(surface_items)
+    det_counts = {}
+    if surface_items:
+        det_counts["surface"] = len(surface_items)
+    if wall_items:
+        det_counts["wall"] = len(wall_items)
+    if plant_items:
+        det_counts["plant"] = len(plant_items)
+
+    return placed, reports, det_counts
 
 
 # ---------- Main pipeline ----------
@@ -552,7 +891,7 @@ def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False
         for fut in as_completed(futures):
             room_id = futures[fut]
             try:
-                placed, room_reports, surface_count = fut.result()
+                placed, room_reports, det_counts = fut.result()
             except Exception as e:
                 print(f"  [{room_id}] ERROR: {e}")
                 report["stage2"].append({
@@ -563,9 +902,10 @@ def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False
 
             report["stage2"].extend(room_reports)
 
-            if surface_count:
+            if det_counts:
                 room_name = room_tasks[room_id][0]
-                print(f"  [{room_id} {room_name}] surface: {surface_count} items placed on anchors")
+                parts = [f"{v} {k}" for k, v in det_counts.items()]
+                print(f"  [{room_id} {room_name}] deterministic: {', '.join(parts)}")
 
             for item in placed:
                 if isinstance(item, dict):

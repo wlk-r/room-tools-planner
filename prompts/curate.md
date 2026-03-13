@@ -41,6 +41,8 @@ Array of item_no strings from the catalog that could fill this role. Rank best m
 - Do NOT consider footprint dimensions — just focus on style, function, and category fit.
 - Cast a wide net: for each role, provide 2-4 candidate item_nos ranked by fit. The placement stage will narrow down based on spatial constraints.
 - Think holistically: ensure stylistic coherence across all rooms. Prefer items with compatible tags.
+- Prefer product-line cohesion: items sharing a name prefix (e.g. "STOCKHOLM 2025 loveseat" + "STOCKHOLM 2025 side table") are designed as a collection. When a product line covers multiple roles in a room, lean toward same-line pairings.
+- Coordinate colors within each room: pick candidates whose colors share a palette (e.g. warm naturals together, cool grays together). Avoid mixing clashing color families unless the style brief calls for contrast.
 - If a style brief is provided, prioritize candidates that match the described aesthetic. Deprioritize items that clash with the brief.
 - Be practical: every room needs functional anchors first (seating, tables, desks), then accents (side tables, chairs), then fill (rugs, lamps, decor).
 - Do not assign surface-placement items (vases, lamps, small decor) unless the room has an anchor they can sit on.

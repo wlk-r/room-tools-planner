@@ -106,6 +106,57 @@
     line-height: 1;
   }
   .placement-gen { font-size: 10px; color: #666; margin-top: 2px; }
+
+  /* View toggle */
+  .view-toggle {
+    display: inline-flex; border-radius: 3px; overflow: hidden; margin-left: 0;
+  }
+  .view-toggle button {
+    padding: 4px 10px; background: #ddd; color: #333; border: none;
+    cursor: pointer; font-family: monospace; font-size: 11px;
+  }
+  .view-toggle button:hover { background: #ccc; }
+  .view-toggle button.active { background: #333; color: #fff; }
+
+  /* Model tab bar */
+  .model-tabs {
+    display: flex; gap: 2px; margin: 4px 0; flex-wrap: wrap;
+  }
+  .model-tabs button {
+    padding: 2px 8px; background: #ddd; color: #333; border: none;
+    border-radius: 3px 3px 0 0; cursor: pointer; font-family: monospace; font-size: 10px;
+  }
+  .model-tabs button:hover { background: #bbb; }
+  .model-tabs button.active { background: #333; color: #fff; }
+  .model-stats {
+    font-size: 10px; color: #666; margin-top: 2px;
+  }
+
+  /* Matrix view */
+  #matrix-view { display: none; }
+  .matrix-plan { margin-bottom: 24px; }
+  .matrix-plan h2 { margin: 10px 0 8px; }
+  .matrix-row {
+    display: flex; flex-wrap: wrap; gap: 12px;
+  }
+  .matrix-cell {
+    flex: 0 0 auto;
+    text-align: center;
+  }
+  .matrix-cell-label {
+    font-size: 10px; font-weight: bold; margin-bottom: 2px;
+    max-width: 260px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .matrix-cell-stats {
+    font-size: 9px; color: #666; margin-top: 2px;
+  }
+  .matrix-canvas-wrapper {
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+  .matrix-canvas-wrapper .canvas {
+    border: none;
+  }
 </style>
 </head>
 <body>
@@ -120,6 +171,10 @@
   <span style="background:rgba(251,188,4,0.5);border:1px solid rgba(251,188,4,0.8);margin-left:12px"></span> Fill
 </div>
 <div class="placement-controls">
+  <div class="view-toggle" id="view-toggle" style="display:none">
+    <button class="active" data-view="gallery">Gallery</button>
+    <button data-view="matrix">Matrix</button>
+  </div>
   <button class="choose-btn" onclick="document.getElementById('placement-input').click()">Choose folder</button>
   <button class="choose-btn" onclick="document.getElementById('layout-input').click()">Add layout</button>
   <button class="chevron-btn" id="chevron-btn" onclick="toggleFilePanel()">&#9664;</button>
@@ -129,7 +184,10 @@
 <div class="file-panel" id="file-panel">
   <div class="file-empty">No placements loaded</div>
 </div>
-<div id="plans"></div>
+<div id="gallery-view">
+  <div id="plans"></div>
+</div>
+<div id="matrix-view"></div>
 <div class="tooltip" id="tooltip"></div>
 
 <script>
@@ -141,11 +199,19 @@ const PLAN_STEMS = [
   "open_loft",
   "townhouse",
 ];
-const PLANS = PLAN_STEMS.map(s => `${OUTPUT_DIR}/${s}_plan.css`);
+
+const KNOWN_MODELS = new Set([
+  "sonnet", "opus", "haiku",
+  "gemini-flash", "gemini-pro",
+  "nvidia-glm", "nvidia-deepseek", "nvidia-devstral", "nvidia-kimi",
+]);
 
 const tooltip = document.getElementById("tooltip");
+const planCanvases = {};
 
 function px(v) { return v + "px"; }
+
+// ── CSS parsing ──
 
 function parsePolygonPointsPx(clipPath, width, height, insetPx = 0) {
   const m = clipPath && clipPath.match(/polygon\((.+)\)/i);
@@ -183,13 +249,11 @@ function parsePolygonPointsPx(clipPath, width, height, insetPx = 0) {
 }
 
 function parseCssPlan(text) {
-  // Parse the header comment for metadata
   const headerMatch = text.match(/\/\*\s*(\d+)x(\d+)\s+grid\s*\|\s*1px\s*=\s*([\d.]+)m\s*\|\s*ceiling:\s*(\d+)px\s*\*\//);
   const meta = headerMatch
     ? { width: +headerMatch[1], height: +headerMatch[2], m_per_px: +headerMatch[3], ceiling: +headerMatch[4] }
     : { width: 256, height: 256, m_per_px: 0, ceiling: 0 };
 
-  // Parse each CSS rule: #id.class { left: N; top: N; width: N; height: N; ... }
   const ruleRe = /#([\w]+)\.(room|obstacle|door|window)\s*\{([^}]+)\}/g;
   const items = [];
   let m;
@@ -200,13 +264,14 @@ function parseCssPlan(text) {
       const kv = pair.trim().match(/^([\w-]+)\s*:\s*(.+)/);
       if (kv) props[kv[1]] = kv[2].trim();
     }
-    // Extract comment
     const commentMatch = body.match(/\/\*\s*(.+?)\s*\*\//);
     const comment = commentMatch ? commentMatch[1] : "";
     items.push({ id, cls, props, comment });
   }
   return { meta, items };
 }
+
+// ── DOM builders ──
 
 function makeDiv(cls, item) {
   const el = document.createElement("div");
@@ -236,7 +301,6 @@ function makeDiv(cls, item) {
       svg.setAttribute("class", cls === "room" ? "room-polygon-outline" : "obstacle-polygon-outline");
       svg.setAttribute("viewBox", `0 0 ${item.width} ${item.height}`);
       svg.setAttribute("preserveAspectRatio", "none");
-
       const poly = document.createElementNS(svgNS, "polygon");
       poly.setAttribute("points", points);
       poly.setAttribute("fill", "none");
@@ -246,7 +310,6 @@ function makeDiv(cls, item) {
       poly.setAttribute("stroke-linecap", "butt");
       poly.setAttribute("stroke-linejoin", "miter");
       poly.setAttribute("vector-effect", "non-scaling-stroke");
-
       svg.appendChild(poly);
       el.appendChild(svg);
     }
@@ -255,32 +318,13 @@ function makeDiv(cls, item) {
   return el;
 }
 
-async function loadPlan(path) {
-  const resp = await fetch(path);
-  const text = await resp.text();
-  const { meta, items } = parseCssPlan(text);
-
-  const container = document.createElement("div");
-  container.className = "plan-container";
-
-  const title = document.createElement("h2");
-  title.textContent = path.replace(`${OUTPUT_DIR}/`, "").replace("_plan.css", "");
-  container.appendChild(title);
-
-  const metaDiv = document.createElement("div");
-  metaDiv.style.fontSize = "11px";
-  metaDiv.style.marginBottom = "5px";
-  metaDiv.textContent = `${meta.width}x${meta.height}  |  ${meta.m_per_px} m/px  |  ceiling: ${meta.ceiling} px`;
-  container.appendChild(metaDiv);
-
+function buildCanvas(meta, items) {
   const canvas = document.createElement("div");
   canvas.className = "canvas";
   canvas.style.width  = px(meta.width);
   canvas.style.height = px(meta.height);
 
-  // Track rooms for labeling (first component per base room id)
   const roomLabeled = new Set();
-
   for (const item of items) {
     const data = {
       id: item.id,
@@ -302,7 +346,6 @@ async function loadPlan(path) {
     }
     canvas.appendChild(el);
 
-    // Add label for first component of each room
     if (item.cls === "room") {
       const baseId = item.id.replace(/_\d+$/, "");
       if (!roomLabeled.has(baseId)) {
@@ -316,27 +359,12 @@ async function loadPlan(path) {
       }
     }
   }
-
-  container.appendChild(canvas);
-  container.dataset.planStem = path.replace(`${OUTPUT_DIR}/`, "").replace("_plan.css", "");
-  canvas.dataset.planStem = path.replace(`${OUTPUT_DIR}/`, "").replace("_plan.css", "");
-  document.getElementById("plans").appendChild(container);
+  return canvas;
 }
 
-// --- Placement overlay ---
-
-// Map plan stem → canvas element (populated after plans load)
-const planCanvases = {};
-
-async function initPlans() {
-  await Promise.all(PLANS.map(loadPlan));
-  for (const c of document.querySelectorAll(".canvas[data-plan-stem]")) {
-    planCanvases[c.dataset.planStem] = c;
-  }
-}
+// ── Catalog + placement helpers ──
 
 function parseFootprint(snippet) {
-  // "#i40608242 { width: 41; height: 33; --elevation: 105; /* BERGSHYTTAN table */ }"
   const m = snippet.match(/#i(\d+)\s*\{([^}]+)\}/);
   if (!m) return null;
   const item_no = m[1], body = m[2];
@@ -346,60 +374,24 @@ function parseFootprint(snippet) {
   return { item_no, width: w ? +w[1] : 8, height: h ? +h[1] : 8, elevation: el ? +el[1] : 0 };
 }
 
-async function loadPlacement(json, { append = false } = {}) {
-  const planStem = json.plan;
-  const canvas = planCanvases[planStem];
-  if (!canvas) {
-    console.warn(`No plan canvas found for "${planStem}"`);
-    return;
-  }
-
-  // Clear previous placements on this canvas (unless appending)
-  if (!append) canvas.querySelectorAll(".placement-item").forEach(el => el.remove());
-
-  // Load catalog for footprints + product info
-  const catalogPath = `${OUTPUT_DIR}/${planStem}_catalog.json`;
-  let catalog = null;
-  try {
-    const resp = await fetch(catalogPath);
-    if (resp.ok) catalog = await resp.json();
-  } catch (e) { /* no catalog */ }
-
-  // Build lookup maps
-  const footprints = {};
-  const products = {};
-  const profiles = {};
+function buildCatalogMaps(catalog) {
+  const footprints = {}, products = {}, profiles = {};
   if (catalog) {
-    if (catalog.footprints) {
-      for (const fp of catalog.footprints) {
-        const parsed = parseFootprint(fp);
-        if (parsed) footprints[parsed.item_no] = parsed;
-      }
+    if (catalog.footprints) for (const fp of catalog.footprints) {
+      const p = parseFootprint(fp);
+      if (p) footprints[p.item_no] = p;
     }
-    if (catalog.products) {
-      for (const p of catalog.products) products[p.item_no] = p;
-    }
-    if (catalog.profiles) {
-      for (const p of catalog.profiles) profiles[p.item_no] = p;
-    }
+    if (catalog.products) for (const p of catalog.products) products[p.item_no] = p;
+    if (catalog.profiles) for (const p of catalog.profiles) profiles[p.item_no] = p;
   }
+  return { footprints, products, profiles };
+}
 
-  // Add gen label to the plan container
-  const container = canvas.closest(".plan-container");
-  let genLabel = container.querySelector(".placement-gen");
-  if (!genLabel) {
-    genLabel = document.createElement("div");
-    genLabel.className = "placement-gen";
-    container.insertBefore(genLabel, canvas);
-  }
-  const models = json.curate_model && json.arrange_model
-    ? `curate: ${json.curate_model} → arrange: ${json.arrange_model}`
-    : json.gen.split("-").pop();
-  const vibe = json.curate_vibe ? `  vibe: "${json.curate_vibe}"` : "";
-  genLabel.textContent = `${json.gen}  ${models}  (${json.items.length} items)${vibe}`;
+function renderPlacementItems(canvas, placementJson, catalogMaps) {
+  const { footprints, products, profiles } = catalogMaps;
+  canvas.querySelectorAll(".placement-item").forEach(el => el.remove());
 
-  // Render each placed item
-  for (const item of json.items) {
+  for (const item of placementJson.items) {
     const fp = footprints[item.item_no];
     const prod = products[item.item_no];
     const prof = profiles[item.item_no];
@@ -414,13 +406,11 @@ async function loadPlacement(json, { append = false } = {}) {
     el.className = "placement-item";
     if (prof) el.classList.add(`tier-${prof.tier}`);
 
-    // Position at center
     el.style.left   = px(item.x - drawW / 2);
     el.style.top    = px(item.y - drawH / 2);
     el.style.width  = px(drawW);
     el.style.height = px(drawH);
 
-    // Label inside the box
     const name = prod ? prod.name : item.item_no;
     if (drawW > 14 && drawH > 8) {
       const lbl = document.createElement("div");
@@ -429,7 +419,6 @@ async function loadPlacement(json, { append = false } = {}) {
       el.appendChild(lbl);
     }
 
-    // Tooltip
     const lines = [
       name + (prod && prod.color ? ` (${prod.color})` : ""),
       `item: ${item.item_no}`,
@@ -442,22 +431,63 @@ async function loadPlacement(json, { append = false } = {}) {
       if (prof.tags) lines.push(`tags: ${prof.tags.join(", ")}`);
     }
     const info = lines.join("\n");
-
-    el.addEventListener("mouseenter", () => {
-      tooltip.textContent = info;
-      tooltip.style.display = "block";
-    });
-    el.addEventListener("mousemove", e => {
-      tooltip.style.left = (e.clientX + 12) + "px";
-      tooltip.style.top  = (e.clientY + 12) + "px";
-    });
+    el.addEventListener("mouseenter", () => { tooltip.textContent = info; tooltip.style.display = "block"; });
+    el.addEventListener("mousemove", e => { tooltip.style.left = (e.clientX+12)+"px"; tooltip.style.top = (e.clientY+12)+"px"; });
     el.addEventListener("mouseleave", () => { tooltip.style.display = "none"; });
 
     canvas.appendChild(el);
   }
 }
 
-// Track loaded placement files
+function formatStats(stats, itemCount) {
+  const parts = [`${itemCount} items`];
+  if (stats) {
+    if (stats.total_time != null) parts.push(`${stats.total_time.toFixed(1)}s`);
+    if (stats.total_input_tokens != null) parts.push(`in:${stats.total_input_tokens}`);
+    if (stats.total_output_tokens != null) parts.push(`out:${stats.total_output_tokens}`);
+  }
+  return parts.join("  ");
+}
+
+// Legacy: load placement onto a plan canvas via fetch (for flat folder / Add layout)
+async function loadPlacement(json, { append = false } = {}) {
+  const canvas = planCanvases[json.plan];
+  if (!canvas) return;
+  if (!append) canvas.querySelectorAll(".placement-item").forEach(el => el.remove());
+
+  let catalog = null;
+  try {
+    const resp = await fetch(`${OUTPUT_DIR}/${json.plan}_catalog.json`);
+    if (resp.ok) catalog = await resp.json();
+  } catch (e) {}
+
+  const maps = buildCatalogMaps(catalog);
+  if (append) {
+    // Append mode: just add items without clearing
+    const tmpJson = { items: json.items };
+    renderPlacementItems(canvas, tmpJson, maps);
+    // Re-add the items that were already there (renderPlacementItems clears first)
+    // Actually, for append we should not use renderPlacementItems. Just add directly.
+  } else {
+    renderPlacementItems(canvas, json, maps);
+  }
+
+  const container = canvas.closest(".plan-container");
+  let genLabel = container.querySelector(".placement-gen");
+  if (!genLabel) {
+    genLabel = document.createElement("div");
+    genLabel.className = "placement-gen";
+    container.insertBefore(genLabel, canvas);
+  }
+  const models = json.curate_model && json.arrange_model
+    ? `curate: ${json.curate_model} → arrange: ${json.arrange_model}`
+    : json.gen ? json.gen.split("-").pop() : "";
+  const vibe = json.curate_vibe ? `  vibe: "${json.curate_vibe}"` : "";
+  genLabel.textContent = `${json.gen || ""}  ${models}  (${json.items.length} items)${vibe}`;
+}
+
+// ── File panel ──
+
 const loadedPlacements = [];
 const filePanelEl = document.getElementById("file-panel");
 const chevronBtn = document.getElementById("chevron-btn");
@@ -482,26 +512,293 @@ function updateActiveLabel() {
   }
 }
 
-// File input handler
-document.getElementById("placement-input").addEventListener("change", async (e) => {
-  for (const file of e.target.files) {
-    if (!file.name.endsWith("_placement.json")) continue;
-    const text = await file.text();
-    try {
-      const json = JSON.parse(text);
-      if (json.items && json.plan) {
-        await loadPlacement(json);
-        if (!loadedPlacements.includes(file.name)) loadedPlacements.push(file.name);
-        console.log(`Loaded placement: ${json.gen} on ${json.plan}`);
-      }
-    } catch (err) {
-      console.error(`Failed to parse ${file.name}:`, err);
-    }
+// ── View toggle ──
+
+function setActiveView(viewName) {
+  document.getElementById("gallery-view").style.display = viewName === "gallery" ? "block" : "none";
+  document.getElementById("matrix-view").style.display = viewName === "matrix" ? "block" : "none";
+  for (const btn of document.querySelectorAll("#view-toggle button")) {
+    btn.classList.toggle("active", btn.dataset.view === viewName);
   }
-  updateActiveLabel();
+}
+
+document.getElementById("view-toggle").addEventListener("click", (e) => {
+  if (e.target.tagName !== "BUTTON") return;
+  setActiveView(e.target.dataset.view);
 });
 
-// Single-file "Add layout" handler — appends to existing placements
+// ── Unified boot ──
+// 1. Discover model subdirs (if /api/output available)
+// 2. For each stem, fetch plan CSS + catalog + stats + placements (all parallel)
+// 3. Render gallery (with tabs if multi-model) + matrix view
+
+async function discoverModels() {
+  try {
+    const resp = await fetch("/api/output");
+    if (!resp.ok) return {};
+    const entries = await resp.json();
+    const modelDirs = entries.filter(e => e.is_dir && KNOWN_MODELS.has(e.name)).map(e => e.name);
+    if (modelDirs.length === 0) return {};
+
+    // List each model dir in parallel to know exactly which files exist
+    const modelFiles = {};
+    await Promise.all(modelDirs.map(async (m) => {
+      try {
+        const r = await fetch(`/api/output/${m}`);
+        if (r.ok) modelFiles[m] = new Set((await r.json()).map(f => f.name));
+      } catch (e) {}
+    }));
+    return modelFiles;
+  } catch (e) { return {}; }
+}
+
+async function boot() {
+  const modelFiles = await discoverModels();
+  const activeModels = Object.keys(modelFiles).filter(m =>
+    [...modelFiles[m]].some(f => f.endsWith("_placement.json"))
+  );
+  const hasModels = activeModels.length > 0;
+
+  // Fetch everything per stem in parallel
+  const stemResults = await Promise.all(PLAN_STEMS.map(async (stem) => {
+    const fetches = [
+      fetch(`${OUTPUT_DIR}/${stem}_plan.css`).catch(() => null),
+      fetch(`${OUTPUT_DIR}/${stem}_catalog.json`).catch(() => null),
+    ];
+
+    let placementSources = [];
+    if (hasModels) {
+      fetches.push(fetch(`${OUTPUT_DIR}/${stem}_tournament.json`).catch(() => null));
+      for (const m of activeModels) {
+        if (modelFiles[m].has(`${stem}_placement.json`)) {
+          placementSources.push(m);
+          fetches.push(fetch(`${OUTPUT_DIR}/${m}/${stem}_placement.json`).catch(() => null));
+        }
+      }
+    } else {
+      fetches.push(fetch(`${OUTPUT_DIR}/${stem}_placement.json`).catch(() => null));
+    }
+
+    const responses = await Promise.all(fetches);
+    const [cssResp, catResp, ...rest] = responses;
+
+    if (!cssResp || !cssResp.ok) return null;
+    const cssText = await cssResp.text();
+    const { meta, items } = parseCssPlan(cssText);
+    if (!meta || !items) return null;
+
+    let catalog = null;
+    try { if (catResp && catResp.ok) catalog = await catResp.json(); } catch (e) {}
+
+    const result = { stem, meta, items, catalog, catalogMaps: buildCatalogMaps(catalog), models: {} };
+
+    if (hasModels) {
+      const statsResp = rest[0];
+      let statsData = null;
+      try { if (statsResp && statsResp.ok) statsData = await statsResp.json(); } catch (e) {}
+
+      for (let i = 0; i < placementSources.length; i++) {
+        const resp = rest[1 + i];
+        if (!resp || !resp.ok) continue;
+        try {
+          const placement = await resp.json();
+          if (!placement.items || !placement.plan) continue;
+          let modelStats = null;
+          if (statsData) {
+            const arr = Array.isArray(statsData) ? statsData : (Array.isArray(statsData.models) ? statsData.models : [statsData]);
+            modelStats = arr.find(s => s.model === placementSources[i]) || null;
+          }
+          result.models[placementSources[i]] = { placement, stats: modelStats };
+        } catch (e) {}
+      }
+    } else {
+      const placementResp = rest[0];
+      if (placementResp && placementResp.ok) {
+        try {
+          const placement = await placementResp.json();
+          if (placement.items && placement.plan) {
+            result.models["_default"] = { placement, stats: null };
+          }
+        } catch (e) {}
+      }
+    }
+
+    return result;
+  }));
+
+  // Render
+  const plansDiv = document.getElementById("plans");
+  const matrixDiv = document.getElementById("matrix-view");
+  const allModels = [];
+  let multiModel = false;
+
+  for (const r of stemResults) {
+    if (!r) continue;
+    const names = Object.keys(r.models);
+    if (names.length > 1 || (names.length === 1 && names[0] !== "_default")) multiModel = true;
+    for (const m of names) if (m !== "_default" && !allModels.includes(m)) allModels.push(m);
+  }
+
+  // Gallery
+  for (const r of stemResults) {
+    if (!r) continue;
+    const modelNames = Object.keys(r.models);
+
+    const container = document.createElement("div");
+    container.className = "plan-container";
+
+    const title = document.createElement("h2");
+    title.textContent = r.stem;
+    container.appendChild(title);
+
+    const metaDiv = document.createElement("div");
+    metaDiv.style.fontSize = "11px";
+    metaDiv.style.marginBottom = "5px";
+    metaDiv.textContent = `${r.meta.width}x${r.meta.height}  |  ${r.meta.m_per_px} m/px  |  ceiling: ${r.meta.ceiling} px`;
+    container.appendChild(metaDiv);
+
+    const canvas = buildCanvas(r.meta, r.items);
+
+    if (modelNames.length === 1 && modelNames[0] === "_default") {
+      // Single placement — no tabs
+      const md = r.models["_default"];
+      const genLabel = document.createElement("div");
+      genLabel.className = "placement-gen";
+      const p = md.placement;
+      const mStr = p.curate_model && p.arrange_model ? `curate: ${p.curate_model} → arrange: ${p.arrange_model}` : "";
+      genLabel.textContent = `${p.gen || ""}  ${mStr}  (${p.items.length} items)`;
+      container.appendChild(genLabel);
+      container.appendChild(canvas);
+      renderPlacementItems(canvas, md.placement, r.catalogMaps);
+    } else if (modelNames.length > 0) {
+      // Multi-model — tabs
+      const tabBar = document.createElement("div");
+      tabBar.className = "model-tabs";
+      container.appendChild(tabBar);
+      container.appendChild(canvas);
+
+      const statsDiv = document.createElement("div");
+      statsDiv.className = "model-stats";
+      container.appendChild(statsDiv);
+
+      let activeTab = null;
+      for (const modelName of modelNames) {
+        const btn = document.createElement("button");
+        btn.textContent = modelName;
+        btn.addEventListener("click", () => {
+          if (activeTab) activeTab.classList.remove("active");
+          btn.classList.add("active");
+          activeTab = btn;
+          renderPlacementItems(canvas, r.models[modelName].placement, r.catalogMaps);
+          statsDiv.textContent = formatStats(r.models[modelName].stats, r.models[modelName].placement.items.length);
+        });
+        tabBar.appendChild(btn);
+      }
+      tabBar.children[0].click();
+    } else {
+      // No placements — just show plan
+      container.appendChild(canvas);
+    }
+
+    canvas.dataset.planStem = r.stem;
+    container.dataset.planStem = r.stem;
+    plansDiv.appendChild(container);
+    planCanvases[r.stem] = canvas;
+  }
+
+  // Matrix (only if multi-model)
+  if (multiModel && allModels.length > 0) {
+    document.getElementById("view-toggle").style.display = "";
+
+    for (const r of stemResults) {
+      if (!r) continue;
+      const modelNames = Object.keys(r.models).filter(m => m !== "_default");
+      if (modelNames.length === 0) continue;
+
+      const section = document.createElement("div");
+      section.className = "matrix-plan";
+
+      const title = document.createElement("h2");
+      title.textContent = r.stem;
+      section.appendChild(title);
+
+      const row = document.createElement("div");
+      row.className = "matrix-row";
+
+      for (const modelName of allModels) {
+        const md = r.models[modelName];
+        if (!md) continue;
+
+        const cell = document.createElement("div");
+        cell.className = "matrix-cell";
+
+        const label = document.createElement("div");
+        label.className = "matrix-cell-label";
+        label.textContent = modelName;
+        cell.appendChild(label);
+
+        const wrapper = document.createElement("div");
+        wrapper.className = "matrix-canvas-wrapper";
+        wrapper.style.width = px(r.meta.width);
+        wrapper.style.height = px(r.meta.height);
+
+        const cv = buildCanvas(r.meta, r.items);
+        renderPlacementItems(cv, md.placement, r.catalogMaps);
+        wrapper.appendChild(cv);
+        cell.appendChild(wrapper);
+
+        const stats = document.createElement("div");
+        stats.className = "matrix-cell-stats";
+        stats.textContent = formatStats(md.stats, md.placement.items.length);
+        cell.appendChild(stats);
+
+        row.appendChild(cell);
+      }
+
+      section.appendChild(row);
+      matrixDiv.appendChild(section);
+    }
+  }
+
+  console.log(`Loaded ${stemResults.filter(Boolean).length} plans` +
+    (allModels.length > 0 ? `, ${allModels.length} models: ${allModels.join(", ")}` : ""));
+}
+
+// ── File input handlers ──
+
+document.getElementById("placement-input").addEventListener("change", async (e) => {
+  const fileList = e.target.files;
+  if (!fileList || fileList.length === 0) return;
+
+  // Check if subfolder placements exist
+  let hasSubfolderPlacements = false;
+  for (const file of fileList) {
+    if (file.name.endsWith("_placement.json") && file.webkitRelativePath.split("/").length === 3) {
+      hasSubfolderPlacements = true;
+      break;
+    }
+  }
+
+  if (hasSubfolderPlacements) {
+    // For uploaded folder with subfolders, just reload — the server will handle it
+    // (This path is mainly for the standalone viewer without server API)
+    location.reload();
+  } else {
+    for (const file of fileList) {
+      if (!file.name.endsWith("_placement.json")) continue;
+      try {
+        const json = JSON.parse(await file.text());
+        if (json.items && json.plan) {
+          await loadPlacement(json);
+          if (!loadedPlacements.includes(file.name)) loadedPlacements.push(file.name);
+        }
+      } catch (err) {}
+    }
+    updateActiveLabel();
+  }
+  e.target.value = "";
+});
+
 document.getElementById("layout-input").addEventListener("change", async (e) => {
   const file = e.target.files[0];
   if (!file) return;
@@ -510,36 +807,13 @@ document.getElementById("layout-input").addEventListener("change", async (e) => 
     if (json.items && json.plan) {
       await loadPlacement(json, { append: true });
       if (!loadedPlacements.includes(file.name)) loadedPlacements.push(file.name);
-      console.log(`Appended layout: ${json.gen} on ${json.plan}`);
     }
-  } catch (err) {
-    console.error(`Failed to parse ${file.name}:`, err);
-  }
+  } catch (err) {}
   e.target.value = "";
   updateActiveLabel();
 });
 
-// Auto-load all placement files from output dir
-async function autoLoadPlacements() {
-  for (const stem of PLAN_STEMS) {
-    const url = `${OUTPUT_DIR}/${stem}_placement.json`;
-    try {
-      const resp = await fetch(url);
-      if (resp.ok) {
-        const json = await resp.json();
-        if (json.items && json.plan) {
-          await loadPlacement(json);
-          const name = `${stem}_placement.json`;
-          if (!loadedPlacements.includes(name)) loadedPlacements.push(name);
-          console.log(`Auto-loaded: ${name}`);
-        }
-      }
-    } catch (e) { /* not found */ }
-  }
-  updateActiveLabel();
-}
-
-initPlans().then(autoLoadPlacements);
+boot();
 </script>
 </body>
 </html>

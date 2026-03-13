@@ -298,7 +298,7 @@ def clamp_box(left, top, width, height, canvas_w, canvas_h):
 
 
 def quantize_floor_plan(plan_path, grid_size=GRID_SIZE):
-    with open(plan_path) as f:
+    with open(plan_path, encoding="utf-8") as f:
         plan = json.load(f)
 
     wall_t = plan["defaults"]["exterior_wall_thickness"]
@@ -502,7 +502,7 @@ def merge_catalog_templates(products_dir):
     products = []
     profiles = []
     for template_path in sorted(Path(products_dir).glob("*.catalog.json")):
-        with open(template_path) as f:
+        with open(template_path, encoding="utf-8") as f:
             t = json.load(f)
         products.extend(t["products"])
         profiles.extend(t["profiles"])
@@ -537,10 +537,11 @@ def build_footprints(products, products_dir, scale):
     # Index vendor metadata by item_no
     vendor = {}
     for path in sorted(Path(products_dir).glob("*.json")):
-        with open(path) as f:
+        with open(path, encoding="utf-8") as f:
             data = json.load(f)
-        if "dimensions" in data and "item_no" in data:
-            vendor[data["item_no"]] = data
+        item_key = data.get("item_no") or data.get("tcin")
+        if "dimensions" in data and item_key:
+            vendor[item_key] = data
 
     footprints = []
     for p in products:
@@ -637,7 +638,7 @@ def process_plan(plan_path, products_dir, output_dir):
         products = []
         profiles = []
         for path in sorted(products_dir.glob("*.json")):
-            with open(path) as f:
+            with open(path, encoding="utf-8") as f:
                 data = json.load(f)
             if "dimensions" not in data:
                 continue

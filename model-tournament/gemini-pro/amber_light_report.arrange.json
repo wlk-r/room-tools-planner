@@ -1,0 +1,191 @@
+{
+  "plan": "amber_light",
+  "model": "gemini-pro",
+  "timestamp": "2026-03-12T12:19:46.976056",
+  "rooms": 2,
+  "stage": "arrange",
+  "stage2": [
+    {
+      "room": "r2",
+      "room_name": "Bathroom",
+      "tier": "all",
+      "prompt_chars": 4972,
+      "duration_s": 24.4,
+      "raw_response": "```json\n[\n  {\n    \"item_no\": \"82226610\",\n    \"x\": 65,\n    \"y\": 17,\n    \"r\": 90\n  },\n  {\n    \"item_no\": \"60595385\",\n    \"x\": 95,\n    \"y\": 67,\n    \"r\": 0\n  }\n]\n```",
+      "error": null,
+      "parsed": [
+        {
+          "item_no": "82226610",
+          "x": 65,
+          "y": 17,
+          "r": 90,
+          "room": "r2"
+        },
+        {
+          "item_no": "60595385",
+          "x": 95,
+          "y": 67,
+          "r": 0,
+          "room": "r2"
+        }
+      ]
+    },
+    {
+      "room": "r1",
+      "room_name": "Studio",
+      "tier": "all",
+      "prompt_chars": 12714,
+      "duration_s": 54.5,
+      "raw_response": "```json\n[\n  {\n    \"item_no\": \"30458907\",\n    \"x\": 180,\n    \"y\": 97,\n    \"r\": 0,\n    \"group_id\": \"r1_sleeping_1\",\n    \"group_role\": \"anchor\"\n  },\n  {\n    \"item_no\": \"80489322\",\n    \"x\": 146,\n    \"y\": 97,\n    \"r\": 0,\n    \"group_id\": \"r1_sleeping_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"30458907\"\n  },\n  {\n    \"item_no\": \"80489322\",\n    \"x\": 214,\n    \"y\": 97,\n    \"r\": 0,\n    \"group_id\": \"r1_sleeping_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"30458907\"\n  },\n  {\n    \"item_no\": \"90324509\",\n    \"x\": 130,\n    \"y\": 128,\n    \"r\": 90,\n    \"group_id\": \"r1_sleeping_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"30458907\"\n  },\n  {\n    \"item_no\": \"80551234\",\n    \"x\": 45,\n    \"y\": 165,\n    \"r\": 90,\n    \"group_id\": \"r1_seating_1\",\n    \"group_role\": \"anchor\"\n  },\n  {\n    \"item_no\": \"70542749\",\n    \"x\": 115,\n    \"y\": 165,\n    \"r\": 270,\n    \"group_id\": \"r1_seating_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"80551234\"\n  },\n  {\n    \"item_no\": \"70239710\",\n    \"x\": 80,\n    \"y\": 165,\n    \"r\": 0,\n    \"group_id\": \"r1_seating_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"80551234\"\n  },\n  {\n    \"item_no\": \"80425641\",\n    \"x\": 70,\n    \"y\": 210,\n    \"r\": 180,\n    \"group_id\": \"r1_seating_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"80551234\"\n  },\n  {\n    \"item_no\": \"50555281\",\n    \"x\": 80,\n    \"y\": 165,\n    \"r\": 90,\n    \"group_id\": \"r1_seating_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"80551234\"\n  },\n  {\n    \"item_no\": \"30507465\",\n    \"x\": 95,\n    \"y\": 110,\n    \"r\": 0,\n    \"group_id\": \"r1_dining_1\",\n    \"group_role\": \"anchor\"\n  },\n  {\n    \"item_no\": \"10422504\",\n    \"x\": 95,\n    \"y\": 96,\n    \"r\": 0,\n    \"group_id\": \"r1_dining_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"30507465\"\n  },\n  {\n    \"item_no\": \"10422504\",\n    \"x\": 95,\n    \"y\": 124,\n    \"r\": 180,\n    \"group_id\": \"r1_dining_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"30507465\"\n  },\n  {\n    \"item_no\": \"30299070\",\n    \"x\": 90,\n    \"y\": 244,\n    \"r\": 180,\n    \"group_id\": \"r1_workstation_1\",\n    \"group_role\": \"anchor\"\n  },\n  {\n    \"item_no\": \"91309355\",\n    \"x\": 90,\n    \"y\": 226,\n    \"r\": 0,\n    \"group_id\": \"r1_workstation_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"30299070\"\n  },\n  {\n    \"item_no\": \"70216544\",\n    \"x\": 40,\n    \"y\": 246,\n    \"r\": 0\n  }\n]\n```",
+      "error": null,
+      "parsed": [
+        {
+          "item_no": "30458907",
+          "x": 180,
+          "y": 97,
+          "r": 0,
+          "group_id": "r1_sleeping_1",
+          "group_role": "anchor",
+          "room": "r1"
+        },
+        {
+          "item_no": "80489322",
+          "x": 146,
+          "y": 97,
+          "r": 0,
+          "group_id": "r1_sleeping_1",
+          "group_role": "dependent",
+          "anchor_item_no": "30458907",
+          "room": "r1"
+        },
+        {
+          "item_no": "80489322",
+          "x": 214,
+          "y": 97,
+          "r": 0,
+          "group_id": "r1_sleeping_1",
+          "group_role": "dependent",
+          "anchor_item_no": "30458907",
+          "room": "r1"
+        },
+        {
+          "item_no": "90324509",
+          "x": 130,
+          "y": 128,
+          "r": 90,
+          "group_id": "r1_sleeping_1",
+          "group_role": "dependent",
+          "anchor_item_no": "30458907",
+          "room": "r1"
+        },
+        {
+          "item_no": "80551234",
+          "x": 45,
+          "y": 165,
+          "r": 90,
+          "group_id": "r1_seating_1",
+          "group_role": "anchor",
+          "room": "r1"
+        },
+        {
+          "item_no": "70542749",
+          "x": 115,
+          "y": 165,
+          "r": 270,
+          "group_id": "r1_seating_1",
+          "group_role": "dependent",
+          "anchor_item_no": "80551234",
+          "room": "r1"
+        },
+        {
+          "item_no": "70239710",
+          "x": 80,
+          "y": 165,
+          "r": 0,
+          "group_id": "r1_seating_1",
+          "group_role": "dependent",
+          "anchor_item_no": "80551234",
+          "room": "r1"
+        },
+        {
+          "item_no": "80425641",
+          "x": 70,
+          "y": 210,
+          "r": 180,
+          "group_id": "r1_seating_1",
+          "group_role": "dependent",
+          "anchor_item_no": "80551234",
+          "room": "r1"
+        },
+        {
+          "item_no": "50555281",
+          "x": 80,
+          "y": 165,
+          "r": 90,
+          "group_id": "r1_seating_1",
+          "group_role": "dependent",
+          "anchor_item_no": "80551234",
+          "room": "r1"
+        },
+        {
+          "item_no": "30507465",
+          "x": 95,
+          "y": 110,
+          "r": 0,
+          "group_id": "r1_dining_1",
+          "group_role": "anchor",
+          "room": "r1"
+        },
+        {
+          "item_no": "10422504",
+          "x": 95,
+          "y": 96,
+          "r": 0,
+          "group_id": "r1_dining_1",
+          "group_role": "dependent",
+          "anchor_item_no": "30507465",
+          "room": "r1"
+        },
+        {
+          "item_no": "10422504",
+          "x": 95,
+          "y": 124,
+          "r": 180,
+          "group_id": "r1_dining_1",
+          "group_role": "dependent",
+          "anchor_item_no": "30507465",
+          "room": "r1"
+        },
+        {
+          "item_no": "30299070",
+          "x": 90,
+          "y": 244,
+          "r": 180,
+          "group_id": "r1_workstation_1",
+          "group_role": "anchor",
+          "room": "r1"
+        },
+        {
+          "item_no": "91309355",
+          "x": 90,
+          "y": 226,
+          "r": 0,
+          "group_id": "r1_workstation_1",
+          "group_role": "dependent",
+          "anchor_item_no": "30299070",
+          "room": "r1"
+        },
+        {
+          "item_no": "70216544",
+          "x": 40,
+          "y": 246,
+          "r": 0,
+          "room": "r1"
+        }
+      ]
+    }
+  ],
+  "gen": "20260312-bf01-gpro",
+  "total_items": 19,
+  "total_duration_s": 78.9
+}

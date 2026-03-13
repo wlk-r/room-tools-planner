@@ -1,0 +1,127 @@
+{
+  "plan": "amber_light",
+  "model": "nvidia-deepseek",
+  "timestamp": "2026-03-12T12:28:19.094733",
+  "rooms": 2,
+  "stage": "arrange",
+  "stage2": [
+    {
+      "room": "r2",
+      "room_name": "Bathroom",
+      "tier": "all",
+      "prompt_chars": 4612,
+      "duration_s": 31.5,
+      "raw_response": "[\n  {\n    \"item_no\": \"70433364\",\n    \"x\": 54,\n    \"y\": 54,\n    \"r\": 0,\n    \"group_id\": \"r2_bathroom_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"r2_wall\"\n  }\n]",
+      "error": null,
+      "parsed": [
+        {
+          "item_no": "70433364",
+          "x": 54,
+          "y": 54,
+          "r": 0,
+          "group_id": "r2_bathroom_1",
+          "group_role": "anchor",
+          "room": "r2"
+        }
+      ]
+    },
+    {
+      "room": "r1",
+      "room_name": "Studio",
+      "tier": "all",
+      "prompt_chars": 9843,
+      "duration_s": 55.2,
+      "raw_response": "[\n  {\n    \"item_no\": \"30249551\",\n    \"x\": 68,\n    \"y\": 162,\n    \"r\": 0,\n    \"group_id\": \"r1_bed_1\",\n    \"group_role\": \"anchor\"\n  },\n  {\n    \"item_no\": \"80489322\",\n    \"x\": 56,\n    \"y\": 162,\n    \"r\": 0,\n    \"group_id\": \"r1_bed_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"30249551\"\n  },\n  {\n    \"item_no\": \"80489322\",\n    \"x\": 80,\n    \"y\": 162,\n    \"r\": 0,\n    \"group_id\": \"r1_bed_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"30249551\"\n  },\n  {\n    \"item_no\": \"70586639\",\n    \"x\": 48,\n    \"y\": 118,\n    \"r\": 0,\n    \"group_id\": \"r1_storage_1\",\n    \"group_role\": \"anchor\"\n  },\n  {\n    \"item_no\": \"40586117\",\n    \"x\": 148,\n    \"y\": 162,\n    \"r\": 0,\n    \"group_id\": \"r1_seating_1\",\n    \"group_role\": \"anchor\"\n  },\n  {\n    \"item_no\": \"20586552\",\n    \"x\": 148,\n    \"y\": 140,\n    \"r\": 0,\n    \"group_id\": \"r1_seating_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"40586117\"\n  },\n  {\n    \"item_no\": \"30533493\",\n    \"x\": 176,\n    \"y\": 162,\n    \"r\": 270,\n    \"group_id\": \"r1_seating_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"40586117\"\n  },\n  {\n    \"item_no\": \"94436023\",\n    \"x\": 148,\n    \"y\": 155,\n    \"r\": 0,\n    \"group_id\": \"r1_seating_1\",\n    \"group_role\": \"dependent\",\n    \"anchor_item_no\": \"40586117\"\n  },\n  {\n    \"item_no\": \"50437773\",\n    \"x\": 170,\n    \"y\": 140,\n    \"r\": 0\n  }\n]",
+      "error": null,
+      "parsed": [
+        {
+          "item_no": "30249551",
+          "x": 68,
+          "y": 162,
+          "r": 0,
+          "group_id": "r1_bed_1",
+          "group_role": "anchor",
+          "room": "r1"
+        },
+        {
+          "item_no": "80489322",
+          "x": 56,
+          "y": 162,
+          "r": 0,
+          "group_id": "r1_bed_1",
+          "group_role": "dependent",
+          "anchor_item_no": "30249551",
+          "room": "r1"
+        },
+        {
+          "item_no": "80489322",
+          "x": 80,
+          "y": 162,
+          "r": 0,
+          "group_id": "r1_bed_1",
+          "group_role": "dependent",
+          "anchor_item_no": "30249551",
+          "room": "r1"
+        },
+        {
+          "item_no": "70586639",
+          "x": 48,
+          "y": 118,
+          "r": 0,
+          "group_id": "r1_storage_1",
+          "group_role": "anchor",
+          "room": "r1"
+        },
+        {
+          "item_no": "40586117",
+          "x": 148,
+          "y": 162,
+          "r": 0,
+          "group_id": "r1_seating_1",
+          "group_role": "anchor",
+          "room": "r1"
+        },
+        {
+          "item_no": "20586552",
+          "x": 148,
+          "y": 140,
+          "r": 0,
+          "group_id": "r1_seating_1",
+          "group_role": "dependent",
+          "anchor_item_no": "40586117",
+          "room": "r1"
+        },
+        {
+          "item_no": "30533493",
+          "x": 176,
+          "y": 162,
+          "r": 270,
+          "group_id": "r1_seating_1",
+          "group_role": "dependent",
+          "anchor_item_no": "40586117",
+          "room": "r1"
+        },
+        {
+          "item_no": "94436023",
+          "x": 148,
+          "y": 155,
+          "r": 0,
+          "group_id": "r1_seating_1",
+          "group_role": "dependent",
+          "anchor_item_no": "40586117",
+          "room": "r1"
+        },
+        {
+          "item_no": "50437773",
+          "x": 170,
+          "y": 140,
+          "r": 0,
+          "room": "r1"
+        }
+      ]
+    }
+  ],
+  "gen": "20260312-5061-nds",
+  "total_items": 17,
+  "total_duration_s": 86.7
+}

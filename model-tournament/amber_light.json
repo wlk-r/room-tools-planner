@@ -1,0 +1,60 @@
+{
+  "defaults": {
+    "exterior_wall_thickness": 0.0762,
+    "ceiling_height": 2.7
+  },
+  "rooms": [
+    {
+      "id": "r1",
+      "name": "Studio",
+      "interior_polygon": [[0, 0], [5.5, 0], [5.5, 4.94285], [0, 4.94285]]
+    },
+    {
+      "id": "r2",
+      "name": "Bathroom",
+      "interior_polygon": [[0, 5.05715], [2, 5.05715], [2, 7], [0, 7]]
+    }
+  ],
+  "openings": [
+    {
+      "id": "o1",
+      "center": [2.75, 0],
+      "width": 0.9,
+      "height": 2.1
+    },
+    {
+      "id": "o2",
+      "center": [1.0, 5.0],
+      "width": 0.7,
+      "height": 2.1
+    },
+    {
+      "id": "o3",
+      "center": [5.5, 2.47],
+      "width": 1.5,
+      "height": 1.5,
+      "elevation": 0.8
+    },
+    {
+      "id": "o4",
+      "center": [0, 2.47],
+      "width": 1.2,
+      "height": 1.2,
+      "elevation": 0.9
+    },
+    {
+      "id": "o5",
+      "center": [0, 6.03],
+      "width": 0.6,
+      "height": 0.6,
+      "elevation": 1.5
+    }
+  ],
+  "features": [
+    { "id": "f1", "anchor": "o1", "type": "door", "swing_dir": "r1", "hinge": "left" },
+    { "id": "f2", "anchor": "o2", "type": "door", "swing_dir": "r2", "hinge": "right" },
+    { "id": "f3", "anchor": "o3", "type": "window" },
+    { "id": "f4", "anchor": "o4", "type": "window" },
+    { "id": "f5", "anchor": "o5", "type": "window" }
+  ]
+}

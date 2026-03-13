@@ -1,0 +1,763 @@
+{
+  "plan": "amber_light",
+  "gen": "20260312-5491-ndvs",
+  "m_per_px": 0.027939,
+  "items": [
+    {
+      "item_no": "60615109",
+      "position": {
+        "x": -1.7602,
+        "y": 0.0,
+        "z": -2.8777
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/rugs-home-textiles_rugs_natt-g-kitchen-mat_beige-check_60615109.glb",
+      "group_id": "r2_bath_1",
+      "group_role": "anchor"
+    },
+    {
+      "item_no": "70433364",
+      "position": {
+        "x": -1.6205,
+        "y": 0.0,
+        "z": -2.4586
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/laundry-cleaning_waste-sorting_brogrund-touch-top-trash-can_stainless-steel_70433364.glb",
+      "group_id": "r2_bath_1",
+      "group_role": "dependent",
+      "anchor_item_no": "60615109"
+    },
+    {
+      "item_no": "90555825",
+      "position": {
+        "x": -1.7602,
+        "y": 0.0,
+        "z": -2.8777
+      },
+      "rotation_y": 0.0,
+      "surface_type": "surface",
+      "glb": "products/home-decor-accessories_candle-holders-candles_fruktskog-scented-candle-in-ceramic-jar_vetiver-geranium-black-turquoise_90555825.glb",
+      "group_id": "r2_bath_1",
+      "group_role": "surface",
+      "anchor_item_no": "60615109"
+    },
+    {
+      "item_no": "90555825",
+      "position": {
+        "x": -1.6205,
+        "y": 0.0,
+        "z": -2.4586
+      },
+      "rotation_y": 0.0,
+      "surface_type": "surface",
+      "glb": "products/home-decor-accessories_candle-holders-candles_fruktskog-scented-candle-in-ceramic-jar_vetiver-geranium-black-turquoise_90555825.glb",
+      "group_id": "r2_bath_1",
+      "group_role": "surface",
+      "anchor_item_no": "70433364"
+    },
+    {
+      "item_no": "10569096",
+      "position": {
+        "x": -2.5199,
+        "y": 1.6459,
+        "z": -3.2035
+      },
+      "rotation_y": 0.0,
+      "surface_type": "wall",
+      "glb": "products/bathroom-furniture-supplies-more_bathroom-mirrors_iv-sj-n-mirror-cabinet-with-1-door_green_10569096.glb",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "corrected",
+        "rotation_reason": "wall_attachment",
+        "placement_type": "wall",
+        "geometry_source": "glb",
+        "input_r": 0.0,
+        "wall_attachment": {
+          "normal_x": 1.0,
+          "normal_y": 0.0,
+          "slide_distance": 0.205,
+          "wall_clearance": 0.2301,
+          "segment_start": [
+            0,
+            7
+          ],
+          "segment_end": [
+            0,
+            5.0572
+          ]
+        }
+      }
+    },
+    {
+      "item_no": "10569096",
+      "position": {
+        "x": -0.9801,
+        "y": 1.6459,
+        "z": -1.8536
+      },
+      "rotation_y": 180.0,
+      "surface_type": "wall",
+      "glb": "products/bathroom-furniture-supplies-more_bathroom-mirrors_iv-sj-n-mirror-cabinet-with-1-door_green_10569096.glb",
+      "placement_debug": {
+        "resolved_r": 180.0,
+        "rotation_source": "corrected",
+        "rotation_reason": "wall_attachment",
+        "placement_type": "wall",
+        "geometry_source": "glb",
+        "input_r": 270.0,
+        "wall_attachment": {
+          "normal_x": -1.0,
+          "normal_y": 0.0,
+          "slide_distance": 0.2052,
+          "wall_clearance": 0.2301,
+          "segment_start": [
+            2,
+            5.0572
+          ],
+          "segment_end": [
+            2,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "item_no": "91136977",
+      "position": {
+        "x": -0.7823,
+        "y": 0.0,
+        "z": 0.6147
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/dowel-leg-wooden-dining-table-brown-hearth-38-hand-8482-with-magnolia_hearth-hand-w-magnolia-furniture_91136977.glb",
+      "group_id": "r1_dining_1",
+      "group_role": "anchor"
+    },
+    {
+      "item_no": "83823586",
+      "position": {
+        "x": -1.0617,
+        "y": 0.0,
+        "z": 1.3041
+      },
+      "rotation_y": 180.0,
+      "surface_type": "floor",
+      "glb": "products/kenova-upholstered-dining-chair-with-wood-dowel-legs-cream-threshold-8482-mid-century-modern-polyester-rubberwood_threshold_83823586.glb",
+      "group_id": "r1_dining_1",
+      "group_role": "dependent",
+      "anchor_item_no": "91136977",
+      "placement_debug": {
+        "resolved_r": 180.0,
+        "rotation_source": "corrected",
+        "rotation_reason": "chair_faces_anchor",
+        "placement_type": "floor",
+        "geometry_source": "glb",
+        "group_translation": {
+          "x": 0.0,
+          "y": -0.2703
+        },
+        "rotation_corrected": true,
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "83823586",
+      "position": {
+        "x": -0.4014,
+        "y": 0.0,
+        "z": 1.3041
+      },
+      "rotation_y": 180.0,
+      "surface_type": "floor",
+      "glb": "products/kenova-upholstered-dining-chair-with-wood-dowel-legs-cream-threshold-8482-mid-century-modern-polyester-rubberwood_threshold_83823586.glb",
+      "group_id": "r1_dining_1",
+      "group_role": "dependent",
+      "anchor_item_no": "91136977",
+      "placement_debug": {
+        "resolved_r": 180.0,
+        "rotation_source": "corrected",
+        "rotation_reason": "chair_faces_anchor",
+        "placement_type": "floor",
+        "geometry_source": "glb",
+        "group_translation": {
+          "x": 0.1015,
+          "y": -0.2703
+        },
+        "rotation_corrected": true,
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "83823586",
+      "position": {
+        "x": -1.0617,
+        "y": 0.0,
+        "z": -0.0748
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/kenova-upholstered-dining-chair-with-wood-dowel-legs-cream-threshold-8482-mid-century-modern-polyester-rubberwood_threshold_83823586.glb",
+      "group_id": "r1_dining_1",
+      "group_role": "dependent",
+      "anchor_item_no": "91136977",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "corrected",
+        "rotation_reason": "chair_faces_anchor",
+        "placement_type": "floor",
+        "geometry_source": "glb",
+        "group_translation": {
+          "x": 0.0,
+          "y": 0.2703
+        },
+        "rotation_corrected": true,
+        "input_r": 180.0
+      }
+    },
+    {
+      "item_no": "83823586",
+      "position": {
+        "x": -0.4014,
+        "y": 0.0,
+        "z": -0.0748
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/kenova-upholstered-dining-chair-with-wood-dowel-legs-cream-threshold-8482-mid-century-modern-polyester-rubberwood_threshold_83823586.glb",
+      "group_id": "r1_dining_1",
+      "group_role": "dependent",
+      "anchor_item_no": "91136977",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "corrected",
+        "rotation_reason": "chair_faces_anchor",
+        "placement_type": "floor",
+        "geometry_source": "glb",
+        "group_translation": {
+          "x": 0.1015,
+          "y": 0.2703
+        },
+        "rotation_corrected": true,
+        "input_r": 180.0
+      }
+    },
+    {
+      "item_no": "94693418",
+      "position": {
+        "x": -0.7823,
+        "y": 0.0,
+        "z": -0.6275
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/15-98-34-organic-coffee-table-natural-wood-threshold-8482_threshold_94693418.glb",
+      "group_id": "r1_dining_1",
+      "group_role": "dependent",
+      "anchor_item_no": "91136977",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "glb",
+        "group_translation": {
+          "x": 0.0,
+          "y": 0.404
+        },
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "90586488",
+      "position": {
+        "x": 2.0116,
+        "y": 0.0,
+        "z": -0.7823
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/storage-organization_display-storage-cabinets_stockholm-2025-cabinet-with-2-doors_oak-veneer_90586488.glb",
+      "group_id": "r1_storage_1",
+      "group_role": "anchor"
+    },
+    {
+      "item_no": "30538198",
+      "position": {
+        "x": 0.6147,
+        "y": 0.0,
+        "z": -0.7823
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/desks-desk-chairs_desks-computer-desks_tonstad-desk_oak-veneer_30538198.glb",
+      "group_id": "r1_workstation_1",
+      "group_role": "anchor"
+    },
+    {
+      "item_no": "70308685",
+      "position": {
+        "x": 0.6147,
+        "y": 0.0,
+        "z": -0.1385
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/desks-desk-chairs_desk-chairs_odger-swivel-chair_white-beige_70308685.glb",
+      "group_id": "r1_workstation_1",
+      "group_role": "dependent",
+      "anchor_item_no": "30538198",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "catalog",
+        "group_translation": {
+          "x": 0.0,
+          "y": -0.085
+        },
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "94688409",
+      "position": {
+        "x": 0.1524,
+        "y": 0.0,
+        "z": -0.2449
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/soft-edged-dovetail-accent-table-hearth-38-hand-8482-with-magnolia_hearth-hand-w-magnolia-furniture_94688409.glb",
+      "group_id": "r1_workstation_1",
+      "group_role": "dependent",
+      "anchor_item_no": "30538198",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "glb",
+        "group_translation": {
+          "x": -0.0432,
+          "y": -0.5374
+        },
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "94688409",
+      "position": {
+        "x": 1.0769,
+        "y": 0.0,
+        "z": -0.2449
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/soft-edged-dovetail-accent-table-hearth-38-hand-8482-with-magnolia_hearth-hand-w-magnolia-furniture_94688409.glb",
+      "group_id": "r1_workstation_1",
+      "group_role": "dependent",
+      "anchor_item_no": "30538198",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "glb",
+        "group_translation": {
+          "x": 0.0432,
+          "y": -0.5374
+        },
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "94688434",
+      "position": {
+        "x": 1.4528,
+        "y": 0.0,
+        "z": 0.6147
+      },
+      "rotation_y": 270.0,
+      "surface_type": "floor",
+      "glb": "products/dowel-leg-accent-chair-hearth-38-hand-8482-with-magnolia_hearth-hand-w-magnolia-furniture_94688434.glb",
+      "group_id": "r1_seating_1",
+      "group_role": "anchor",
+      "placement_debug": {
+        "resolved_r": 90.0,
+        "rotation_source": "corrected",
+        "rotation_reason": "chair_faces_anchor",
+        "placement_type": "floor",
+        "geometry_source": "glb",
+        "rotation_corrected": true,
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "94688434",
+      "position": {
+        "x": 0.4977,
+        "y": 0.0,
+        "z": 0.6147
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/dowel-leg-accent-chair-hearth-38-hand-8482-with-magnolia_hearth-hand-w-magnolia-furniture_94688434.glb",
+      "group_id": "r1_seating_1",
+      "group_role": "dependent",
+      "anchor_item_no": "94688434",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "glb",
+        "group_translation": {
+          "x": 0.4418,
+          "y": 0.0
+        },
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "94688409",
+      "position": {
+        "x": 0.0861,
+        "y": 0.0,
+        "z": 1.2089
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/soft-edged-dovetail-accent-table-hearth-38-hand-8482-with-magnolia_hearth-hand-w-magnolia-furniture_94688409.glb",
+      "group_id": "r1_seating_1",
+      "group_role": "dependent",
+      "anchor_item_no": "94688434",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "glb",
+        "group_translation": {
+          "x": 0.3096,
+          "y": -0.5942
+        },
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "94688409",
+      "position": {
+        "x": 1.2234,
+        "y": 0.0,
+        "z": 1.1327
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/soft-edged-dovetail-accent-table-hearth-38-hand-8482-with-magnolia_hearth-hand-w-magnolia-furniture_94688409.glb",
+      "group_id": "r1_seating_1",
+      "group_role": "dependent",
+      "anchor_item_no": "94688434",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "glb",
+        "group_translation": {
+          "x": -0.1577,
+          "y": -0.518
+        },
+        "relaxed_from": {
+          "x": 3.9234,
+          "y": 2.8853
+        },
+        "relaxed_to": {
+          "x": 3.9734,
+          "y": 2.3673
+        },
+        "relax_reason": "minimum_axis_overlap_resolve",
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "00439468",
+      "position": {
+        "x": -2.1023,
+        "y": 0.0,
+        "z": -0.7184
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/storage-organization_armoires-wardrobes_nordkisa-open-wardrobe-with-sliding-door_bamboo_00439468.glb",
+      "group_id": "r1_wardrobe_1",
+      "group_role": "anchor",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "catalog",
+        "group_translation": {
+          "x": 0.0769,
+          "y": -0.0639
+        },
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "94688339",
+      "position": {
+        "x": 2.2744,
+        "y": 0.0,
+        "z": 1.404
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/sour-cream-brass-hinge-floor-lamp-hearth-38-hand-8482-with-magnolia_hearth-hand-with-magnolia_94688339.glb",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "glb",
+        "group_translation": {
+          "x": -0.296,
+          "y": 0.0489
+        },
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "94688339",
+      "position": {
+        "x": -1.3411,
+        "y": 0.0,
+        "z": 1.7585
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/sour-cream-brass-hinge-floor-lamp-hearth-38-hand-8482-with-magnolia_hearth-hand-with-magnolia_94688339.glb",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "glb",
+        "group_translation": {
+          "x": 0.0,
+          "y": -0.3057
+        },
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "80594648",
+      "position": {
+        "x": -0.7823,
+        "y": 0.0,
+        "z": 0.6147
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/rugs-home-textiles_rugs_ommj-nge-rug-flatwoven_multicolor_80594648.glb",
+      "group_id": "r1_dining_1",
+      "group_role": "dependent",
+      "anchor_item_no": "91136977"
+    },
+    {
+      "item_no": "90042577",
+      "position": {
+        "x": 2.7214,
+        "y": 1.6459,
+        "z": -1.1345
+      },
+      "rotation_y": 270.0,
+      "surface_type": "wall",
+      "glb": "products/24-34-x-30-34-scalloped-wall-mirror-natural-wood-threshold-8482-modern-style-rectangle-shape-wood-frame-wall-mount_threshold_90042577.glb",
+      "placement_debug": {
+        "resolved_r": 90.0,
+        "rotation_source": "corrected",
+        "rotation_reason": "wall_attachment",
+        "placement_type": "wall",
+        "geometry_source": "glb",
+        "input_r": 0.0,
+        "wall_attachment": {
+          "normal_x": -1.0,
+          "normal_y": 0.0,
+          "slide_distance": -0.3083,
+          "wall_clearance": 0.0286,
+          "segment_start": [
+            5.5,
+            0
+          ],
+          "segment_end": [
+            5.5,
+            4.9428
+          ]
+        }
+      }
+    },
+    {
+      "item_no": "1002876337",
+      "position": {
+        "x": -0.7823,
+        "y": 0.0,
+        "z": 0.6147
+      },
+      "rotation_y": 0.0,
+      "surface_type": "surface",
+      "glb": "products/jace-rechargeable-table-lamp-13-inch-height-tbl4614-black-safavieh_safavieh_1002876337.glb",
+      "group_id": "r1_dining_1",
+      "group_role": "surface",
+      "anchor_item_no": "91136977"
+    },
+    {
+      "item_no": "1002876337",
+      "position": {
+        "x": -0.7823,
+        "y": 0.0,
+        "z": -0.2235
+      },
+      "rotation_y": 0.0,
+      "surface_type": "surface",
+      "glb": "products/jace-rechargeable-table-lamp-13-inch-height-tbl4614-black-safavieh_safavieh_1002876337.glb",
+      "group_id": "r1_dining_1",
+      "group_role": "surface",
+      "anchor_item_no": "94693418"
+    },
+    {
+      "item_no": "88656991",
+      "position": {
+        "x": 2.0116,
+        "y": 0.0,
+        "z": -0.7823
+      },
+      "rotation_y": 0.0,
+      "surface_type": "surface",
+      "glb": "products/large-artificial-snake-plant-threshold-8482-21-34-faux-flora-in-stoneware-pot-for-indoor-decor_threshold_88656991.glb",
+      "group_id": "r1_storage_1",
+      "group_role": "surface",
+      "anchor_item_no": "90586488"
+    },
+    {
+      "item_no": "88656991",
+      "position": {
+        "x": 0.6147,
+        "y": 0.0,
+        "z": -0.7823
+      },
+      "rotation_y": 0.0,
+      "surface_type": "surface",
+      "glb": "products/large-artificial-snake-plant-threshold-8482-21-34-faux-flora-in-stoneware-pot-for-indoor-decor_threshold_88656991.glb",
+      "group_id": "r1_workstation_1",
+      "group_role": "surface",
+      "anchor_item_no": "30538198"
+    },
+    {
+      "item_no": "81785398",
+      "position": {
+        "x": -2.7209,
+        "y": 1.6459,
+        "z": -1.138
+      },
+      "rotation_y": 90.0,
+      "surface_type": "wall",
+      "glb": "products/24-34-x-30-34-neutral-abstract-lines-framed-canvas-threshold-8482-designed-with-studio-mcgee_threshold-designed-w-studio-mcgee_81785398.glb",
+      "placement_debug": {
+        "resolved_r": 270.0,
+        "rotation_source": "corrected",
+        "rotation_reason": "wall_attachment",
+        "placement_type": "wall",
+        "geometry_source": "glb",
+        "input_r": 0.0,
+        "wall_attachment": {
+          "normal_x": 1.0,
+          "normal_y": 0.0,
+          "slide_distance": 0.2868,
+          "wall_clearance": 0.0291,
+          "segment_start": [
+            0,
+            4.9428
+          ],
+          "segment_end": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "item_no": "81785398",
+      "position": {
+        "x": -2.7209,
+        "y": 1.6459,
+        "z": 3.1952
+      },
+      "rotation_y": 90.0,
+      "surface_type": "wall",
+      "glb": "products/24-34-x-30-34-neutral-abstract-lines-framed-canvas-threshold-8482-designed-with-studio-mcgee_threshold-designed-w-studio-mcgee_81785398.glb",
+      "placement_debug": {
+        "resolved_r": 270.0,
+        "rotation_source": "corrected",
+        "rotation_reason": "wall_attachment",
+        "placement_type": "wall",
+        "geometry_source": "glb",
+        "input_r": 180.0,
+        "wall_attachment": {
+          "normal_x": 1.0,
+          "normal_y": 0.0,
+          "slide_distance": -0.2692,
+          "wall_clearance": 0.0291,
+          "segment_start": [
+            0,
+            4.9428
+          ],
+          "segment_end": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "item_no": "81785398",
+      "position": {
+        "x": 0.1118,
+        "y": 1.6459,
+        "z": -1.4138
+      },
+      "rotation_y": 0.0,
+      "surface_type": "wall",
+      "glb": "products/24-34-x-30-34-neutral-abstract-lines-framed-canvas-threshold-8482-designed-with-studio-mcgee_threshold-designed-w-studio-mcgee_81785398.glb",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "corrected",
+        "rotation_reason": "wall_attachment",
+        "placement_type": "wall",
+        "geometry_source": "glb",
+        "input_r": 0.0,
+        "wall_attachment": {
+          "normal_x": -0.0,
+          "normal_y": -1.0,
+          "slide_distance": 0.0,
+          "wall_clearance": 0.0291,
+          "segment_start": [
+            5.5,
+            4.9428
+          ],
+          "segment_end": [
+            0,
+            4.9428
+          ]
+        }
+      }
+    }
+  ],
+  "curate_model": "nvidia-devstral",
+  "arrange_model": "nvidia-devstral"
+}

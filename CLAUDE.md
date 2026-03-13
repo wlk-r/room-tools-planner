@@ -88,7 +88,7 @@ LLM selects products from catalog and assigns to rooms using `claude --print`. U
 - `--vibe`: Style brief (e.g. `'warm scandinavian, earth tones'`).
 - `--timeout`: LLM call timeout in seconds (default: 300).
 - `--verbose` / `-v`: Prints raw LLM responses (first 1000 chars) to console.
-- `--report` / `-r`: Writes `<stem>_report.json` with diagnostics.
+- `--report` / `-r`: Writes `<stem>_report.curation.json` with diagnostics.
 - `--force`: Regenerates curation even if `*_curation.json` already exists.
 
 ### 4. generate_arrangement.py (spatial placement)
@@ -109,16 +109,18 @@ LLM places curated items per room with exact coordinates using `claude --print`.
 - `--room r1`: Re-run only specific room(s). Merges results into existing placement file, replacing only the specified room's items.
 - `--timeout`: LLM call timeout in seconds (default: 600). Generous since rooms run in parallel — a slow room only blocks itself.
 - `--verbose` / `-v`: Prints raw LLM responses (first 1000 chars) to console.
-- `--report` / `-r`: Writes `<stem>_report.json` with diagnostics.
+- `--report` / `-r`: Writes `<stem>_report.arrange.json` with diagnostics.
 - `--force`: Regenerates placement even if `*_placement.json` already exists.
 
 **Architecture note:** The module retains unused tier-splitting utilities (`group_roles_by_tier`, `build_occupied_block`, `format_occupied_css`) that support a two-pass arrangement strategy (anchor+accent first, then fill seeing occupied zones). This was tested but found slower than single-call due to ~50s fixed overhead per `claude --print` invocation. If the LLM backend switches to direct API calls (sub-second overhead), re-enabling tier splitting would improve placement quality on rooms with 10+ items.
 
 ### Shared: llm_utils.py
 
-Common utilities used by both `generate_curation.py` and `generate_arrangement.py`:
-- `call_llm(prompt, model, verbose, timeout)` — calls `claude --print` via subprocess.
+Common utilities used by `generate_curation.py`, `generate_arrangement.py`, and `build_catalog.py`:
+- `call_llm(prompt, model, verbose, timeout)` — routes text prompts to the appropriate backend (CLI, Anthropic SDK, or Gemini SDK).
+- `call_llm_vision(prompt, image_path, model, verbose, timeout)` — routes multimodal (text+image) prompts. SDK backends send images directly; CLI backend uses the Read tool approach.
 - `extract_json(text)` — extracts JSON from LLM response text (handles direct parse, bracket matching, markdown fences).
+- `resolve_model(name)` — resolves aliases/full IDs to `(provider, full_model_id)`.
 
 ### 5. viewer.html (visual verification)
 
@@ -133,8 +135,39 @@ Browser-based viewer that loads CSS plan files as rendered floor plans and overl
 
 - `floor_plan.sample/` — Source floor plan JSON files (meters, Y-up coordinate system)
 - `products/` — Vendor product directories: metadata JSON, images, GLB models, `.catalog.json` profiles
-- `quantize_room.output/` — All pipeline output: `*_plan.css`, `*_catalog.json`, `*_curation.json`, `*_placement.json`, `*_report.json`
+- `quantize_room.output/` — All pipeline output: `*_plan.css`, `*_catalog.json`, `*_curation.json`, `*_placement.json`, `*_report.curation.json`, `*_report.arrange.json`
 - `prompts/` — LLM prompt templates: `profile.md` (catalog profiling), `curate.md` (curation), `arrange.md` (arrangement)
+
+## Multi-LLM Support
+
+`llm_utils.py` routes LLM calls to three backends based on model name and available API keys:
+
+| Model alias | Provider | Full model ID |
+|---|---|---|
+| `sonnet` | Anthropic | `claude-sonnet-4-6` |
+| `opus` | Anthropic | `claude-opus-4-6` |
+| `haiku` | Anthropic | `claude-haiku-4-5-20251001` |
+| `gemini-flash` | Gemini | `gemini-2.0-flash` |
+| `gemini-pro` | Gemini | `gemini-2.5-pro-preview-06-05` |
+
+Full model IDs (e.g. `claude-sonnet-4-6`, `gemini-2.0-flash`) are also accepted directly.
+
+**Routing logic:**
+```
+model contains "gemini"  →  Google genai SDK  (requires GEMINI_API_KEY)
+model is Claude + ANTHROPIC_API_KEY set  →  Anthropic SDK  (faster, no subprocess overhead)
+else  →  claude --print subprocess  (default fallback)
+```
+
+**Environment variables:**
+| Variable | When needed |
+|---|---|
+| `ANTHROPIC_API_KEY` | Optional — enables Anthropic SDK for Claude models. Falls back to `claude --print` if unset. |
+| `GEMINI_API_KEY` | Required when using `--model gemini-flash` or `--model gemini-pro`. |
+
+**Vision calls (`call_llm_vision`):** Used by `build_catalog.py` for multimodal product profiling. SDK backends send the image directly in the API call and strip the CLI-specific "Use your Read tool..." instruction from the prompt. The CLI backend passes the prompt as-is.
+
+**Dependencies:** `pip install anthropic` and/or `pip install google-genai` as needed. Both are optional — the CLI fallback works without either.
 
 ## Product Footprints
 

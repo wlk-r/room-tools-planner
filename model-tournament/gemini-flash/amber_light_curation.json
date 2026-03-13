@@ -1,0 +1,193 @@
+{
+  "plan": "amber_light",
+  "model": "gemini-flash",
+  "roles": [
+    {
+      "role": "bed",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "60489144",
+        "30458907",
+        "30249551"
+      ]
+    },
+    {
+      "role": "nightstand",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "80489322",
+        "40489319",
+        "94693395"
+      ]
+    },
+    {
+      "role": "sofa",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "40586117",
+        "70585079",
+        "80551234"
+      ]
+    },
+    {
+      "role": "coffee-table",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "94693418",
+        "94688375",
+        "20586552"
+      ]
+    },
+    {
+      "role": "accent-chair",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "94688434",
+        "30533493",
+        "40594754"
+      ]
+    },
+    {
+      "role": "side-table",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "94688409",
+        "94688466",
+        "80619880"
+      ]
+    },
+    {
+      "role": "desk",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "30299070",
+        "91136977",
+        "30538198"
+      ]
+    },
+    {
+      "role": "desk-chair",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "91309355",
+        "70308685",
+        "83823586"
+      ]
+    },
+    {
+      "role": "storage-cabinet",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "93780891",
+        "70586639",
+        "93145365"
+      ]
+    },
+    {
+      "role": "area-rug",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "94435988",
+        "94436023",
+        "80345239"
+      ]
+    },
+    {
+      "role": "floor-lamp",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "60405941",
+        "94688339",
+        "00606891"
+      ]
+    },
+    {
+      "role": "table-lamp",
+      "room": "r1",
+      "qty": 2,
+      "candidates": [
+        "92762531",
+        "1002876352",
+        "93104102"
+      ]
+    },
+    {
+      "role": "wall-art",
+      "room": "r1",
+      "qty": 2,
+      "candidates": [
+        "81785398",
+        "83345800",
+        "87933101"
+      ]
+    },
+    {
+      "role": "floor-mirror",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "88117850",
+        "90042577"
+      ]
+    },
+    {
+      "role": "storage-basket",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "86383691",
+        "94860129",
+        "90587770"
+      ]
+    },
+    {
+      "role": "mirror-cabinet",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "10569096"
+      ]
+    },
+    {
+      "role": "waste-bin",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "60595385",
+        "70433364",
+        "70595403"
+      ]
+    },
+    {
+      "role": "bathroom-rug",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "30472951",
+        "60615109",
+        "82226610"
+      ]
+    },
+    {
+      "role": "plant",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "60587154",
+        "20600850",
+        "94419981"
+      ]
+    }
+  ]
+}

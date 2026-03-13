@@ -15,6 +15,7 @@ Writes:  quantize_room.output/<stem>_curation.json
 """
 
 import json
+import re
 import argparse
 from datetime import datetime
 from pathlib import Path
@@ -48,6 +49,83 @@ def validate_curation(parsed):
     return parsed, []
 
 
+def clean_curation(roles, catalog, plan_css):
+    """Remove candidates/roles that arrangement cannot use.
+
+    Filters:
+    1. Candidates with item_nos not in the catalog
+    2. Roles targeting rooms not in the plan CSS
+    3. Candidates whose smallest footprint dim > room's largest dim (can't fit)
+    4. Roles left with zero valid candidates
+    Returns (cleaned_roles, removed_count).
+    """
+    valid_items = {p["item_no"] for p in catalog["products"]}
+
+    # Parse footprints from catalog
+    footprints = {}
+    for fp in catalog.get("footprints", []):
+        m = re.match(r"#i(\d+)\s*\{([^}]+)\}", fp)
+        if m:
+            body = m.group(2)
+            w = re.search(r"width:\s*(\d+)", body)
+            h = re.search(r"height:\s*(\d+)", body)
+            if w and h:
+                footprints[m.group(1)] = (int(w.group(1)), int(h.group(1)))
+
+    # Parse room bounding boxes from plan CSS
+    room_bounds = {}
+    for m in re.finditer(r"#(r\d+(?:_\d+)?)\.room\s*\{([^}]+)\}", plan_css):
+        room_base = re.sub(r"_\d+$", "", m.group(1))
+        body = m.group(2)
+        l = re.search(r"left:\s*(\d+)", body)
+        t = re.search(r"top:\s*(\d+)", body)
+        w = re.search(r"width:\s*(\d+)", body)
+        h = re.search(r"height:\s*(\d+)", body)
+        if l and t and w and h:
+            left, top = int(l.group(1)), int(t.group(1))
+            width, height = int(w.group(1)), int(h.group(1))
+            if room_base in room_bounds:
+                b = room_bounds[room_base]
+                b[0] = min(b[0], left)
+                b[1] = min(b[1], top)
+                b[2] = max(b[2], left + width)
+                b[3] = max(b[3], top + height)
+            else:
+                room_bounds[room_base] = [left, top, left + width, top + height]
+
+    room_sizes = {rid: (b[2] - b[0], b[3] - b[1]) for rid, b in room_bounds.items()}
+    valid_rooms = set(room_sizes.keys())
+
+    cleaned = []
+    removed = 0
+    for role in roles:
+        if role["room"] not in valid_rooms:
+            removed += 1
+            continue
+
+        room_w, room_h = room_sizes[role["room"]]
+        room_max = max(room_w, room_h)
+
+        valid_candidates = []
+        for item_no in role["candidates"]:
+            if item_no not in valid_items:
+                continue
+            if item_no in footprints:
+                fw, fh = footprints[item_no]
+                if min(fw, fh) > room_max:
+                    continue
+            valid_candidates.append(item_no)
+
+        if not valid_candidates:
+            removed += 1
+            continue
+
+        role["candidates"] = valid_candidates
+        cleaned.append(role)
+
+    return cleaned, removed
+
+
 def stage_curate(plan_css, catalog, model, verbose=False, vibe="", timeout=300):
     """LLM curates products from catalog and assigns to rooms."""
     catalog_view = {
@@ -65,7 +143,7 @@ def stage_curate(plan_css, catalog, model, verbose=False, vibe="", timeout=300):
     )
 
     print(f"  Curating products ({len(prompt)} chars)...", end="", flush=True)
-    parsed, raw, duration, error = call_llm(prompt, model, verbose, timeout)
+    parsed, raw, duration, error, usage = call_llm(prompt, model, verbose, timeout)
 
     report = {
         "prompt_chars": len(prompt),
@@ -73,6 +151,8 @@ def stage_curate(plan_css, catalog, model, verbose=False, vibe="", timeout=300):
         "raw_response": raw,
         "error": error,
     }
+    if usage:
+        report["usage"] = usage
 
     if error:
         print(f" {error} ({duration}s)")
@@ -127,6 +207,11 @@ def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False
         if write_report:
             _write_report(output_dir, plan_stem, report)
         return False
+
+    curation, removed = clean_curation(curation, catalog, plan_css)
+    if removed:
+        print(f"  cleaned: {removed} unusable role(s) removed")
+    report["cleaned_removed"] = removed
 
     for role in curation:
         print(f"    {role['room']} {role.get('role','?')} x{role.get('qty',1)}: {role.get('candidates', [])}")

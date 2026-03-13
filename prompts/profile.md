@@ -31,7 +31,8 @@ Identify functional placement categories for spatial reasoning.
 - **CRITICAL**: Do NOT simply copy the vendor's merchandising categories from the metadata. You must generate your own functional categories based on how the item is used in a room.
 - Use short lowercase strings. Hyphenate compound terms (e.g. "dining-table" not "dining table", "accent-chair" not "accent chair", "side-table" not "side table").
 - Do NOT use "surface" as a category — it conflicts with the placement enum. Use "tabletop" for items that provide a usable top surface.
-- Examples: seating, tabletop, storage, lighting, decor, rug, shelving, textile, dining-table, dining-chair, accent-chair, side-table, coffee-table.
+- Examples: seating, tabletop, storage, lighting, decor, rug, shelving, textile, plant, dining-table, dining-chair, accent-chair, side-table, coffee-table.
+- Use "plant" for any live or artificial plant/planter. Use "tabletop" for any item that provides a usable flat top surface (desks, tables, TV units, dressers).
 </field>
 
 <field name="tags" type="string[]" count="2-5">

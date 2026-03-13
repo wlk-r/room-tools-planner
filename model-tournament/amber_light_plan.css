@@ -1,0 +1,18 @@
+/* 256x256 grid | 1px = 0.027939m | ceiling: 97px */
+
+#r1.room                    { left:  30; top:  76; width: 196; height: 177; /* Studio */ }
+#r2.room                    { left:  30; top:   3; width:  71; height:  69; /* Bathroom */ }
+
+#structure_0.obstacle       { left:   0; top:   0; width: 256; height:   3; }
+#structure_1.obstacle       { left:   0; top:   3; width:  30; height: 253; }
+#structure_2.obstacle       { left: 101; top:   3; width: 155; height:  73; }
+#structure_3.obstacle       { left:  30; top:  72; width:  71; height:   4; }
+#structure_4.obstacle       { left: 226; top:  76; width:  30; height: 180; }
+#structure_5.obstacle       { left:  30; top: 253; width: 196; height:   3; }
+#door_o1_clearance.door     { left: 111; top: 224; width:  34; height:  29; }
+#door_o2_clearance_r1.door  { left:  52; top:  74; width:  26; height:  29; }
+#door_o2_clearance_r2.door  { left:  52; top:  45; width:  26; height:  29; }
+
+#window_o3.window           { left: 215; top: 137; width:  11; height:  54; --sill: 29; }
+#window_o4.window           { left:  29; top: 142; width:  11; height:  44; --sill: 33; }
+#window_o5.window           { left:  29; top:  26; width:  11; height:  22; --sill: 54; }

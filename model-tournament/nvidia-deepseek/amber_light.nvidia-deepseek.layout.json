@@ -1,0 +1,381 @@
+{
+  "plan": "amber_light",
+  "gen": "20260312-5061-nds",
+  "m_per_px": 0.027939,
+  "items": [
+    {
+      "item_no": "70433364",
+      "position": {
+        "x": -2.0675,
+        "y": 0.0,
+        "z": -2.0675
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/laundry-cleaning_waste-sorting_brogrund-touch-top-trash-can_stainless-steel_70433364.glb",
+      "group_id": "r2_bathroom_1",
+      "group_role": "anchor"
+    },
+    {
+      "item_no": "10569096",
+      "position": {
+        "x": -2.5199,
+        "y": 1.6459,
+        "z": -3.2035
+      },
+      "rotation_y": 0.0,
+      "surface_type": "wall",
+      "glb": "products/bathroom-furniture-supplies-more_bathroom-mirrors_iv-sj-n-mirror-cabinet-with-1-door_green_10569096.glb",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "corrected",
+        "rotation_reason": "wall_attachment",
+        "placement_type": "wall",
+        "geometry_source": "glb",
+        "input_r": 0.0,
+        "wall_attachment": {
+          "normal_x": 1.0,
+          "normal_y": 0.0,
+          "slide_distance": 0.205,
+          "wall_clearance": 0.2301,
+          "segment_start": [
+            0,
+            7
+          ],
+          "segment_end": [
+            0,
+            5.0572
+          ]
+        }
+      }
+    },
+    {
+      "item_no": "30249551",
+      "position": {
+        "x": -1.6763,
+        "y": 0.0,
+        "z": 0.9499
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/beds-mattresses_beds_hemnes-bed-frame_black-brown_30249551.glb",
+      "group_id": "r1_bed_1",
+      "group_role": "anchor"
+    },
+    {
+      "item_no": "80489322",
+      "position": {
+        "x": -2.4319,
+        "y": 0.0,
+        "z": 0.9499
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/storage-organization_dressers-storage-drawers_tonstad-nightstand_oak-veneer_80489322.glb",
+      "group_id": "r1_bed_1",
+      "group_role": "dependent",
+      "anchor_item_no": "30249551",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "catalog",
+        "group_translation": {
+          "x": -0.4203,
+          "y": 0.0
+        },
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "80489322",
+      "position": {
+        "x": -0.9208,
+        "y": 0.0,
+        "z": 0.9499
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/storage-organization_dressers-storage-drawers_tonstad-nightstand_oak-veneer_80489322.glb",
+      "group_id": "r1_bed_1",
+      "group_role": "dependent",
+      "anchor_item_no": "30249551",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "catalog",
+        "group_translation": {
+          "x": 0.4203,
+          "y": 0.0
+        },
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "70586639",
+      "position": {
+        "x": -2.0625,
+        "y": 0.0,
+        "z": -0.2956
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/storage-organization_display-storage-cabinets_stockholm-2025-cabinet-with-sliding-doors_rattan-pine_70586639.glb",
+      "group_id": "r1_storage_1",
+      "group_role": "anchor",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "glb",
+        "group_translation": {
+          "x": 0.1726,
+          "y": 0.0162
+        },
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "40586117",
+      "position": {
+        "x": 0.5588,
+        "y": 0.0,
+        "z": 0.9499
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/sofas-armchairs_sofas-sectionals_stockholm-2025-loveseat_alhamn-beige_40586117.glb",
+      "group_id": "r1_seating_1",
+      "group_role": "anchor"
+    },
+    {
+      "item_no": "20586552",
+      "position": {
+        "x": 0.5588,
+        "y": 0.0,
+        "z": 0.248
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/tables-chairs_accent-tables_stockholm-2025-coffee-table_oak-veneer-glass_20586552.glb",
+      "group_id": "r1_seating_1",
+      "group_role": "dependent",
+      "anchor_item_no": "40586117",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "catalog",
+        "group_translation": {
+          "x": 0.0,
+          "y": 0.0873
+        },
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "30533493",
+      "position": {
+        "x": 1.7911,
+        "y": 0.0,
+        "z": 0.9499
+      },
+      "rotation_y": 90.0,
+      "surface_type": "floor",
+      "glb": "products/sofas-armchairs_armchairs-accent-chairs_eken-set-armchair_kilanda-light-beige_30533493.glb",
+      "group_id": "r1_seating_1",
+      "group_role": "dependent",
+      "anchor_item_no": "40586117",
+      "placement_debug": {
+        "resolved_r": 270.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "catalog",
+        "group_translation": {
+          "x": 0.45,
+          "y": 0.0
+        },
+        "input_r": 270.0
+      }
+    },
+    {
+      "item_no": "94436023",
+      "position": {
+        "x": 0.5588,
+        "y": 0.0,
+        "z": 0.7544
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/5-39-x7-39-block-lines-rectangular-woven-area-rug-heathered-gray-threshold-8482_threshold_94436023.glb",
+      "group_id": "r1_seating_1",
+      "group_role": "dependent",
+      "anchor_item_no": "40586117"
+    },
+    {
+      "item_no": "50437773",
+      "position": {
+        "x": 1.2249,
+        "y": 0.0,
+        "z": 0.2688
+      },
+      "rotation_y": 0.0,
+      "surface_type": "floor",
+      "glb": "products/lighting_lamps-light-fixtures_simrishamn-floor-lamp_chrome-plated-opal-glass_50437773.glb",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "floor",
+        "geometry_source": "catalog",
+        "group_translation": {
+          "x": 0.0514,
+          "y": 0.0665
+        },
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "92762531",
+      "position": {
+        "x": -2.0116,
+        "y": 0.0,
+        "z": 0.9499
+      },
+      "rotation_y": 0.0,
+      "surface_type": "surface",
+      "glb": "products/fabi-table-lamp-19-inch-height-tbl4575-black-natural-safavieh_safavieh_92762531.glb",
+      "group_id": "r1_bed_1",
+      "group_role": "surface",
+      "anchor_item_no": "80489322"
+    },
+    {
+      "item_no": "92762531",
+      "position": {
+        "x": -1.3411,
+        "y": 0.0,
+        "z": 0.9499
+      },
+      "rotation_y": 0.0,
+      "surface_type": "surface",
+      "glb": "products/fabi-table-lamp-19-inch-height-tbl4575-black-natural-safavieh_safavieh_92762531.glb",
+      "group_id": "r1_bed_1",
+      "group_role": "surface",
+      "anchor_item_no": "80489322"
+    },
+    {
+      "item_no": "88656991",
+      "position": {
+        "x": -2.0625,
+        "y": 0.0,
+        "z": -0.1784
+      },
+      "rotation_y": 0.0,
+      "surface_type": "surface",
+      "glb": "products/large-artificial-snake-plant-threshold-8482-21-34-faux-flora-in-stoneware-pot-for-indoor-decor_threshold_88656991.glb",
+      "group_id": "r1_storage_1",
+      "group_role": "surface",
+      "anchor_item_no": "70586639",
+      "placement_debug": {
+        "resolved_r": 0.0,
+        "rotation_source": "input",
+        "rotation_reason": "explicit_input",
+        "placement_type": "surface",
+        "geometry_source": "glb",
+        "group_translation": {
+          "x": 0.1726,
+          "y": -0.101
+        },
+        "input_r": 0.0
+      }
+    },
+    {
+      "item_no": "88656991",
+      "position": {
+        "x": 0.5588,
+        "y": 0.0,
+        "z": 0.3353
+      },
+      "rotation_y": 0.0,
+      "surface_type": "surface",
+      "glb": "products/large-artificial-snake-plant-threshold-8482-21-34-faux-flora-in-stoneware-pot-for-indoor-decor_threshold_88656991.glb",
+      "group_id": "r1_seating_1",
+      "group_role": "surface",
+      "anchor_item_no": "20586552"
+    },
+    {
+      "item_no": "81785398",
+      "position": {
+        "x": -2.7209,
+        "y": 1.6459,
+        "z": -1.138
+      },
+      "rotation_y": 90.0,
+      "surface_type": "wall",
+      "glb": "products/24-34-x-30-34-neutral-abstract-lines-framed-canvas-threshold-8482-designed-with-studio-mcgee_threshold-designed-w-studio-mcgee_81785398.glb",
+      "placement_debug": {
+        "resolved_r": 270.0,
+        "rotation_source": "corrected",
+        "rotation_reason": "wall_attachment",
+        "placement_type": "wall",
+        "geometry_source": "glb",
+        "input_r": 0.0,
+        "wall_attachment": {
+          "normal_x": 1.0,
+          "normal_y": 0.0,
+          "slide_distance": 0.2868,
+          "wall_clearance": 0.0291,
+          "segment_start": [
+            0,
+            4.9428
+          ],
+          "segment_end": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "item_no": "81785398",
+      "position": {
+        "x": -2.7209,
+        "y": 1.6459,
+        "z": 3.1952
+      },
+      "rotation_y": 90.0,
+      "surface_type": "wall",
+      "glb": "products/24-34-x-30-34-neutral-abstract-lines-framed-canvas-threshold-8482-designed-with-studio-mcgee_threshold-designed-w-studio-mcgee_81785398.glb",
+      "placement_debug": {
+        "resolved_r": 270.0,
+        "rotation_source": "corrected",
+        "rotation_reason": "wall_attachment",
+        "placement_type": "wall",
+        "geometry_source": "glb",
+        "input_r": 180.0,
+        "wall_attachment": {
+          "normal_x": 1.0,
+          "normal_y": 0.0,
+          "slide_distance": -0.2692,
+          "wall_clearance": 0.0291,
+          "segment_start": [
+            0,
+            4.9428
+          ],
+          "segment_end": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "curate_model": "nvidia-deepseek",
+  "arrange_model": "nvidia-deepseek"
+}

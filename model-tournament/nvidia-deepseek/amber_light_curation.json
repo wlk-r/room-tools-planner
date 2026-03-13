@@ -1,0 +1,136 @@
+{
+  "plan": "amber_light",
+  "model": "nvidia-deepseek",
+  "roles": [
+    {
+      "role": "bed",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "60489144",
+        "30458907",
+        "30249551"
+      ]
+    },
+    {
+      "role": "bedside-table",
+      "room": "r1",
+      "qty": 2,
+      "candidates": [
+        "80489322",
+        "40489319",
+        "30515314"
+      ]
+    },
+    {
+      "role": "seating-sofa",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "40586117",
+        "40586122",
+        "70585079"
+      ]
+    },
+    {
+      "role": "coffee-table",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "94688375",
+        "70389356",
+        "20586552"
+      ]
+    },
+    {
+      "role": "accent-chair",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "94688434",
+        "20361897",
+        "30533493"
+      ]
+    },
+    {
+      "role": "floor-lamp",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "70216544",
+        "60357916",
+        "50437773"
+      ]
+    },
+    {
+      "role": "area-rug",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "94435988",
+        "94436023",
+        "80541481"
+      ]
+    },
+    {
+      "role": "storage-cabinet",
+      "room": "r1",
+      "qty": 1,
+      "candidates": [
+        "93780891",
+        "90586488",
+        "70586639"
+      ]
+    },
+    {
+      "role": "table-lamp",
+      "room": "r1",
+      "qty": 2,
+      "candidates": [
+        "92762531",
+        "1002876352",
+        "10464283"
+      ]
+    },
+    {
+      "role": "wall-art",
+      "room": "r1",
+      "qty": 2,
+      "candidates": [
+        "81785398",
+        "87933101",
+        "70554902"
+      ]
+    },
+    {
+      "role": "plant-decor",
+      "room": "r1",
+      "qty": 2,
+      "candidates": [
+        "88656991",
+        "40568892",
+        "94434248"
+      ]
+    },
+    {
+      "role": "bathroom-mirror-cabinet",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "10569096",
+        "90042577",
+        "88117850"
+      ]
+    },
+    {
+      "role": "bathroom-storage",
+      "room": "r2",
+      "qty": 1,
+      "candidates": [
+        "70433364",
+        "60595385",
+        "70595403"
+      ]
+    }
+  ]
+}

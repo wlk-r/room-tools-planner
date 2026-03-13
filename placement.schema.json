@@ -80,6 +80,11 @@
           "anchor_item_no": {
             "type": "string",
             "description": "Item number of the group's anchor. Only present for dependent and surface members."
+          },
+          "mount_height": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "description": "Center height above floor in meters. Only present for wall-mounted items."
           }
         }
       }

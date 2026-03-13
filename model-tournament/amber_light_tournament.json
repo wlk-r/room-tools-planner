@@ -1,0 +1,22 @@
+[
+  {
+    "model": "nvidia-devstral",
+    "curate_time": 41.1,
+    "arrange_time": 32.3,
+    "place_time": 1.3,
+    "total_time": 74.7,
+    "roles": 24,
+    "rooms_curated": 2,
+    "items_placed": 31,
+    "rooms_placed": 2,
+    "curate_llm_time": 39.8,
+    "curate_prompt_chars": 125105,
+    "curate_input_tokens": 39793,
+    "curate_output_tokens": 1524,
+    "arrange_llm_time": 35.7,
+    "arrange_input_tokens": 7363,
+    "arrange_output_tokens": 1365,
+    "total_input_tokens": 47156,
+    "total_output_tokens": 2889
+  }
+]

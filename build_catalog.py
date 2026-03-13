@@ -15,15 +15,16 @@ Output:        products/<stem>.catalog.json (alongside vendor files)
 Templates are merged automatically by quantize_plan.py at plan quantization time.
 """
 
-import json
-import os
-import subprocess
-import sys
 import argparse
+import json
+import sys
 from pathlib import Path
+
+from llm_utils import call_llm_vision, extract_json
 
 
 DEFAULT_SOURCE = "products"
+REQUIRED_PROFILE_KEYS = {"tier", "placement", "categories", "tags"}
 
 PROFILE_SCHEMA = json.dumps({
     "type": "object",
@@ -76,18 +77,38 @@ def extract_product(metadata_path):
     with open(metadata_path, encoding="utf-8") as f:
         data = json.load(f)
     if "dimensions" not in data:
-        return None, None
+        return None
     return {
         "item_no": data.get("item_no") or data.get("tcin"),
         "name": data["name"],
         "color": data.get("color", ""),
-    }, data
+    }
+
+
+def validate_profile(profile):
+    """Validate profile shape before writing template output."""
+    if not isinstance(profile, dict):
+        return False, "not an object"
+
+    missing = REQUIRED_PROFILE_KEYS - set(profile.keys())
+    if missing:
+        return False, f"missing keys {missing}"
+
+    if profile["tier"] not in {"anchor", "accent", "fill"}:
+        return False, f"invalid tier: {profile['tier']}"
+    if profile["placement"] not in {"floor", "wall", "surface"}:
+        return False, f"invalid placement: {profile['placement']}"
+    if not isinstance(profile["categories"], list) or not all(isinstance(x, str) for x in profile["categories"]):
+        return False, "categories must be a string array"
+    if not isinstance(profile["tags"], list) or not all(isinstance(x, str) for x in profile["tags"]):
+        return False, "tags must be a string array"
+
+    return True, None
 
 
 def generate_profile(metadata_path, image_path, item_no, model="sonnet"):
-    """Call Claude Code CLI to generate a product profile from image + metadata."""
-    # Read metadata and inline it so the model only needs Read for the image
-    with open(metadata_path) as f:
+    """Generate a product profile from image + metadata via LLM vision call."""
+    with open(metadata_path, encoding="utf-8") as f:
         metadata_content = f.read()
 
     prompt_template = PROMPT_PATH.read_text(encoding="utf-8")
@@ -97,83 +118,39 @@ def generate_profile(metadata_path, image_path, item_no, model="sonnet"):
         metadata_content=metadata_content,
     )
 
-    cmd = [
-        "claude", "--print",
-        "--model", model,
-        "--allowedTools", "Read",
-    ]
+    parsed, raw, duration, error = call_llm_vision(
+        prompt, image_path, model=model, timeout=120,
+    )
 
-    try:
-        result = subprocess.run(
-            cmd,
-            input=prompt,
-            capture_output=True,
-            text=True,
-            timeout=120,
-        )
-    except subprocess.TimeoutExpired:
-        print(f"  TIMEOUT: {item_no}")
+    if error:
+        print(f"  {error} ({item_no}, {duration}s)")
         return None
-
-    if result.returncode != 0:
-        print(f"  ERROR ({item_no}) exit={result.returncode}")
-        print(f"    stderr: {result.stderr.strip()[:300]}")
-        print(f"    stdout: {result.stdout.strip()[:300]}")
-        return None
-
-    text = result.stdout.strip()
-    if not text:
-        print(f"  EMPTY RESPONSE ({item_no})")
-        print(f"    stderr: {result.stderr.strip()[:300]}")
-        return None
-
-    def _extract_json(s):
-        """Try to parse JSON, or find a JSON object within a string."""
-        try:
-            return json.loads(s)
-        except (json.JSONDecodeError, TypeError):
-            pass
-        if isinstance(s, str):
-            start = s.find("{")
-            end = s.rfind("}") + 1
-            if start >= 0 and end > start:
-                try:
-                    return json.loads(s[start:end])
-                except json.JSONDecodeError:
-                    pass
-        return None
-
-    parsed = _extract_json(text)
-
-    # --output-format json wraps in {"type":"result", "result": ...}
-    if isinstance(parsed, dict) and "result" in parsed and "tier" not in parsed:
-        inner = parsed["result"]
-        parsed = _extract_json(inner)
 
     if parsed and isinstance(parsed, dict) and "tier" in parsed:
         return parsed
 
-    # Last resort: scan the full text for a JSON object with "tier"
-    for candidate_start in range(len(text)):
-        if text[candidate_start] == "{":
-            for candidate_end in range(len(text), candidate_start, -1):
-                if text[candidate_end - 1] == "}":
-                    try:
-                        obj = json.loads(text[candidate_start:candidate_end])
-                        if isinstance(obj, dict) and "tier" in obj:
-                            return obj
-                    except json.JSONDecodeError:
-                        continue
-            break
+    # Fallback: brute-force search for a JSON object with "tier"
+    if raw:
+        for candidate_start in range(len(raw)):
+            if raw[candidate_start] == "{":
+                for candidate_end in range(len(raw), candidate_start, -1):
+                    if raw[candidate_end - 1] == "}":
+                        try:
+                            obj = json.loads(raw[candidate_start:candidate_end])
+                            if isinstance(obj, dict) and "tier" in obj:
+                                return obj
+                        except json.JSONDecodeError:
+                            continue
+                break
 
     print(f"  PARSE ERROR ({item_no})")
-    print(f"    stdout: {text[:300]}")
-    print(f"    stderr: {result.stderr.strip()[:300]}")
+    if raw:
+        print(f"    response: {raw[:300]}")
     return None
 
 
 def write_template(source_dir, item_no, stem, product, profile):
-    """Write per-product <stem>_catalog.json alongside vendor files."""
+    """Write per-product <stem>.catalog.json alongside vendor files."""
     template = {
         "products": [product],
         "profiles": [{
@@ -183,10 +160,9 @@ def write_template(source_dir, item_no, stem, product, profile):
     }
 
     path = source_dir / f"{stem}.catalog.json"
-    with open(path, "w") as f:
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(template, f, indent=2)
     return path
-
 
 
 def main():
@@ -232,8 +208,7 @@ def main():
             skipped += 1
             continue
 
-        # Stage 1: deterministic product extraction
-        product, raw_data = extract_product(files["metadata"])
+        product = extract_product(files["metadata"])
         if product is None:
             print(f"  [{item_no}] skip (no dimensions)")
             skipped += 1
@@ -241,40 +216,49 @@ def main():
 
         print(f"  [{item_no}] {product['name']}")
 
-        # Stage 2: VLM profile generation
         if files["image"] is None:
-            print(f"    no image — skipping profile generation")
+            print("    no image - skipping profile generation")
             failed += 1
             continue
 
         print(f"    generating profile ({args.model})...", end="", flush=True)
-        profile = generate_profile(
-            files["metadata"], files["image"], item_no, model=args.model,
-        )
+
+        profile = None
+        for attempt in range(2):
+            result = generate_profile(
+                files["metadata"], files["image"], item_no, model=args.model,
+            )
+            if result is None:
+                if attempt == 0:
+                    print(" retrying...", end="", flush=True)
+                continue
+            # Unwrap nested result wrapper if present
+            if "result" in result and "tier" not in result:
+                result = result["result"]
+            valid, validation_error = validate_profile(result)
+            if valid:
+                profile = result
+                break
+            if attempt == 0:
+                print(f" invalid ({validation_error}), retrying...", end="", flush=True)
 
         if profile is None:
             print(" failed")
             failed += 1
             continue
 
-        print(f" done")
-        print(f"    raw: {json.dumps(profile)[:300]}")
-
-        # Unwrap if nested (e.g. --output-format json wraps in {"result": ...})
-        if "result" in profile and "tier" not in profile:
-            profile = profile["result"]
+        print(" done")
 
         print(f"    tier={profile['tier']}  placement={profile['placement']}  categories={profile['categories']}  tags={profile['tags']}")
 
-        # Write template
         path = write_template(source_dir, item_no, stem, product, profile)
-        print(f"    → {path}")
+        print(f"    -> {path}")
         built += 1
 
     print(f"\nDone: {built} built, {skipped} skipped, {failed} failed")
 
     if built > 0 or skipped > 0:
-        print(f"Run quantize_plan.py to merge templates and generate footprints")
+        print("Run quantize_plan.py to merge templates and generate footprints")
 
 
 if __name__ == "__main__":
