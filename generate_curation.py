@@ -226,6 +226,13 @@ def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False
         curation_doc["vibe"] = vibe
 
     out_path = output_dir / f"{plan_stem}_curation.json"
+    # Preserve previous curation before overwriting
+    if out_path.exists():
+        import shutil
+        n = 2
+        while (output_dir / f"{plan_stem}_curation_{n}.json").exists():
+            n += 1
+        shutil.copy2(str(out_path), str(output_dir / f"{plan_stem}_curation_{n}.json"))
     with open(out_path, "w") as f:
         json.dump(curation_doc, f, indent=2)
     print(f"  -> {out_path} ({len(curation)} roles)")

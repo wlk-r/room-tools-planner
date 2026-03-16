@@ -725,6 +725,9 @@ def stage_arrange(room_id, room_name, room_css, items_json, occupied_block, tier
     }
     if usage:
         report["usage"] = usage
+        tok_in = usage.get("input_tokens") or usage.get("prompt_tokens", "?")
+        tok_out = usage.get("output_tokens") or usage.get("completion_tokens", "?")
+        print(f" tokens: {tok_in} in / {tok_out} out", end="", flush=True)
 
     if error:
         print(f" {error} ({duration}s)")
@@ -737,7 +740,7 @@ def stage_arrange(room_id, room_name, room_css, items_json, occupied_block, tier
         report["parsed"] = parsed
         return [], report
 
-    print(f" done ({len(parsed)} items, {duration}s)")
+    print(f" done ({len(parsed)} items, {duration:.1f}s)")
     report["parsed"] = parsed
     return parsed, report
 
@@ -757,6 +760,12 @@ def arrange_room(room_id, room_name, room_css, room_roles,
     # All non-extracted roles in a single LLM call
     non_surface = tier_groups["anchor"] + tier_groups["accent"] + tier_groups["fill"]
 
+    n_anchor = len(tier_groups["anchor"])
+    n_accent = len(tier_groups["accent"])
+    n_fill = len(tier_groups["fill"])
+    print(f"  [{room_id} {room_name}] roles: {n_anchor} anchor, {n_accent} accent, {n_fill} fill"
+          f" + {len(surface_roles)} surface, {len(wall_roles)} wall, {len(plant_roles)} plant", flush=True)
+
     placed = []
     reports = []
 
@@ -769,16 +778,45 @@ def arrange_room(room_id, room_name, room_css, room_roles,
             )
             reports.append(report)
             placed.extend(item for item in result if isinstance(item, dict))
+            # Log placed items with product names
+            for item in placed:
+                p = products.get(item.get("item_no", ""))
+                name = p["name"] if p else item.get("item_no", "?")
+                gr = item.get("group_role", "")
+                gid = item.get("group_id", "")
+                grp = f" [{gr}->{gid}]" if gr and gid else ""
+                print(f"    | ({item.get('x',0):>3},{item.get('y',0):>3}) r={item.get('r',0):>3}deg  {name}{grp}", flush=True)
 
     # Deterministic passes — each sees everything placed before it
+    if surface_roles:
+        print(f"  [{room_id} {room_name}] placing surface items...", flush=True)
     surface_items = resolve_surface_items(surface_roles, placed, profiles)
     placed.extend(surface_items)
+    for item in surface_items:
+        p = products.get(item.get("item_no", ""))
+        name = p["name"] if p else item.get("item_no", "?")
+        anc = products.get(item.get("anchor_item_no", ""))
+        anc_name = anc["name"] if anc else "?"
+        print(f"    | {name} -> on {anc_name}", flush=True)
 
+    if wall_roles:
+        print(f"  [{room_id} {room_name}] placing wall items...", flush=True)
     wall_items = resolve_wall_items(wall_roles, placed, room_css, footprints, profiles)
     placed.extend(wall_items)
+    for item in wall_items:
+        p = products.get(item.get("item_no", ""))
+        name = p["name"] if p else item.get("item_no", "?")
+        edge = {0: "top", 180: "bottom", 90: "left", 270: "right"}.get(item.get("r", 0), "?")
+        print(f"    | {name} -> {edge} wall ({item.get('x',0)},{item.get('y',0)})", flush=True)
 
+    if plant_roles:
+        print(f"  [{room_id} {room_name}] placing plants...", flush=True)
     plant_items = resolve_plant_items(plant_roles, placed, room_css, footprints, profiles)
     placed.extend(plant_items)
+    for item in plant_items:
+        p = products.get(item.get("item_no", ""))
+        name = p["name"] if p else item.get("item_no", "?")
+        print(f"    | {name} -> ({item.get('x',0)},{item.get('y',0)})", flush=True)
 
     postprocess_items(placed, profiles)
 
@@ -853,8 +891,15 @@ def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False
         room_tasks[room_id] = (room_name, room_css, room_roles)
 
     parallel = len(room_tasks) > 1
-    print(f"  {meta['width']}x{meta['height']}, {len(room_tasks)} room(s), {len(curation)} roles"
+    scale = meta.get('m_per_px', '?')
+    print(f"  {meta['width']}x{meta['height']}px, scale: {scale} m/px, {len(room_tasks)} room(s), {len(curation)} roles"
           + (" (parallel)" if parallel else ""))
+    for room_id, (room_name, room_css, room_roles) in room_tasks.items():
+        _, r_rules = parse_plan_css(room_css)
+        rooms = [r for r in r_rules if r["cls"] == "room"]
+        doors = [r for r in r_rules if r["cls"] == "door"]
+        windows = [r for r in r_rules if r["cls"] == "window"]
+        print(f"  [{room_id} {room_name}] {len(rooms)} zone(s), {len(doors)} door(s), {len(windows)} window(s)", flush=True)
 
     report = {
         "plan": plan_stem,
@@ -923,7 +968,16 @@ def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False
     }
     if curate_vibe:
         placement["curate_vibe"] = curate_vibe
+    placement["curation_roles"] = curation
     placement["items"] = all_items
+
+    # Preserve previous placement before overwriting
+    if placement_path.exists() and not room_filter:
+        n = 2
+        while (output_dir / f"{plan_stem}_placement_{n}.json").exists():
+            n += 1
+        import shutil
+        shutil.copy2(str(placement_path), str(output_dir / f"{plan_stem}_placement_{n}.json"))
 
     with open(placement_path, "w") as f:
         json.dump(placement, f, indent=2)

@@ -612,14 +612,28 @@ async function boot() {
         } catch (e) {}
       }
     } else {
+      // Load base placement + any enumerated placements (_placement_2.json, _3, etc.)
       const placementResp = rest[0];
       if (placementResp && placementResp.ok) {
         try {
           const placement = await placementResp.json();
           if (placement.items && placement.plan) {
-            result.models["_default"] = { placement, stats: null };
+            const label = placement.gen || placement.arrange_model || '_default';
+            result.models[label] = { placement, stats: null };
           }
         } catch (e) {}
+      }
+      // Probe for enumerated placements
+      for (let n = 2; n <= 20; n++) {
+        try {
+          const resp = await fetch(`${OUTPUT_DIR}/${stem}_placement_${n}.json`);
+          if (!resp || !resp.ok) break;
+          const placement = await resp.json();
+          if (placement.items && placement.plan) {
+            const label = placement.gen || placement.arrange_model || `run_${n}`;
+            result.models[label] = { placement, stats: null };
+          }
+        } catch (e) { break; }
       }
     }
 
