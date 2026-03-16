@@ -1,0 +1,6 @@
+# Auto-detect text files and normalize to CRLF on checkout (Windows)
+* text=auto eol=crlf
+
+# Force CRLF line endings for Windows batch files
+*.bat text eol=crlf
+*.cmd text eol=crlf

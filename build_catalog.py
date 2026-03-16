@@ -17,7 +17,9 @@ Templates are merged automatically by quantize_plan.py at plan quantization time
 
 import argparse
 import json
+import os
 import sys
+import time
 from pathlib import Path
 
 from llm_utils import call_llm_vision, extract_json
@@ -149,6 +151,67 @@ def generate_profile(metadata_path, image_path, item_no, model="sonnet"):
     return None
 
 
+EMBEDDING_MODEL = "models/gemini-embedding-2-preview"
+EMBEDDING_DIMENSIONS = 768
+
+
+def generate_embedding(metadata_path, image_path):
+    """Generate a multimodal embedding from product image + metadata via Gemini.
+
+    Returns (embedding_list, duration_s, error).
+    """
+    try:
+        from google import genai
+        from google.genai import types as genai_types
+    except ImportError:
+        return None, 0, "Google genai SDK not installed. Run: pip install google-genai"
+
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        return None, 0, "GEMINI_API_KEY not set"
+
+    with open(metadata_path, encoding="utf-8") as f:
+        metadata_text = f.read()
+
+    with open(image_path, "rb") as f:
+        image_bytes = f.read()
+
+    client = genai.Client(api_key=api_key)
+    t0 = time.time()
+    try:
+        response = client.models.embed_content(
+            model=EMBEDDING_MODEL,
+            contents=[
+                genai_types.Part.from_bytes(data=image_bytes, mime_type="image/jpeg"),
+                metadata_text,
+            ],
+            config=genai_types.EmbedContentConfig(
+                output_dimensionality=EMBEDDING_DIMENSIONS,
+            ),
+        )
+    except Exception as e:
+        return None, round(time.time() - t0, 1), f"EMBEDDING_ERROR: {e}"
+
+    duration = round(time.time() - t0, 1)
+    if response.embeddings and response.embeddings[0].values:
+        return list(response.embeddings[0].values), duration, None
+    return None, duration, "EMBEDDING_EMPTY"
+
+
+def write_embedding(source_dir, item_no, stem, embedding):
+    """Write per-product <stem>.embeddings.json alongside vendor files."""
+    data = {
+        "item_no": item_no,
+        "model": EMBEDDING_MODEL,
+        "dimensions": len(embedding),
+        "embedding": [round(v, 6) for v in embedding],
+    }
+    path = source_dir / f"{stem}.embeddings.json"
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+    return path
+
+
 def write_template(source_dir, item_no, stem, product, profile):
     """Write per-product <stem>.catalog.json alongside vendor files."""
     template = {
@@ -181,6 +244,10 @@ def main():
         "--model", default="sonnet",
         help="Model for VLM profile generation (default: sonnet)",
     )
+    parser.add_argument(
+        "--skip-embeddings", action="store_true",
+        help="Skip embedding generation (profile only)",
+    )
     args = parser.parse_args()
 
     source_dir = Path(args.source)
@@ -203,8 +270,24 @@ def main():
         stem = files["stem"]
         template_path = source_dir / f"{stem}.catalog.json"
 
+        emb_path = source_dir / f"{stem}.embeddings.json"
+        needs_embedding = (not args.skip_embeddings and not emb_path.exists()
+                           and files["image"] is not None)
+
         if template_path.exists() and not args.force:
-            print(f"  [{item_no}] skip (exists)")
+            if needs_embedding:
+                # Profile exists but embedding missing — generate embedding only
+                print(f"  [{item_no}] embedding only...", end="", flush=True)
+                embedding, emb_duration, emb_error = generate_embedding(
+                    files["metadata"], files["image"],
+                )
+                if emb_error:
+                    print(f" {emb_error} ({emb_duration}s)")
+                elif embedding:
+                    write_embedding(source_dir, item_no, stem, embedding)
+                    print(f" done ({len(embedding)}d, {emb_duration}s)")
+            else:
+                print(f"  [{item_no}] skip (exists)")
             skipped += 1
             continue
 
@@ -253,9 +336,46 @@ def main():
 
         path = write_template(source_dir, item_no, stem, product, profile)
         print(f"    -> {path}")
+
+        # Generate multimodal embedding (requires GEMINI_API_KEY)
+        if not args.skip_embeddings:
+            emb_path = source_dir / f"{stem}.embeddings.json"
+            if emb_path.exists() and not args.force:
+                print(f"    embedding: skip (exists)")
+            else:
+                print(f"    embedding...", end="", flush=True)
+                embedding, emb_duration, emb_error = generate_embedding(
+                    files["metadata"], files["image"],
+                )
+                if emb_error:
+                    print(f" {emb_error} ({emb_duration}s)")
+                elif embedding:
+                    emb_out = write_embedding(source_dir, item_no, stem, embedding)
+                    print(f" done ({len(embedding)}d, {emb_duration}s)")
+                    print(f"    -> {emb_out}")
+
         built += 1
 
     print(f"\nDone: {built} built, {skipped} skipped, {failed} failed")
+
+    # Merge all per-product embeddings into a single catalog-level file
+    if not args.skip_embeddings:
+        emb_files = sorted(source_dir.glob("*.embeddings.json"))
+        if emb_files:
+            merged = {}
+            for emb_path in emb_files:
+                data = json.loads(emb_path.read_text(encoding="utf-8"))
+                item_no = data.get("item_no")
+                if item_no:
+                    merged[item_no] = {
+                        "model": data.get("model", ""),
+                        "dimensions": data.get("dimensions", 0),
+                        "embedding": data.get("embedding", []),
+                    }
+            merged_path = source_dir / "catalog.embeddings.json"
+            with open(merged_path, "w", encoding="utf-8") as f:
+                json.dump(merged, f)
+            print(f"\n-> {merged_path} ({len(merged)} embeddings)")
 
     if built > 0 or skipped > 0:
         print("Run quantize_plan.py to merge templates and generate footprints")

@@ -471,11 +471,6 @@ def resolve_plant_items(plant_roles, placed_items, room_css, footprints, profile
 # ---------- Wall item resolution ----------
 
 # Rotation by edge: front (z+ in GLB, +y in CSS at r=0) faces into the room
-_EDGE_ROTATION = {"top": 0, "bottom": 180, "left": 90, "right": 270}
-
-# Default mount height (center of item, meters above floor)
-_DEFAULT_MOUNT_HEIGHT = 1.7
-
 
 def _wall_segments(room_rects):
     """Build wall segments from room rectangles.
@@ -590,9 +585,12 @@ def resolve_wall_items(wall_roles, placed_items, room_css, footprints, profiles)
 
     # Build wall segments and split by openings
     raw_segments = _wall_segments(room_rects)
-    wall_candidates = []  # (cx, cy, edge)
+    wall_candidates = []  # (cx, cy, edge, wall_t)
 
     for seg_start, seg_end, fixed, edge in raw_segments:
+        seg_len = seg_end - seg_start
+        if seg_len <= 0:
+            continue
         # Find openings that overlap this segment
         openings = []
         for ol, ot, or_, ob in opening_rects:
@@ -611,10 +609,11 @@ def resolve_wall_items(wall_roles, placed_items, room_css, footprints, profiles)
             # width check happens during placement
             pts = _candidate_points_on_segment(sub_s, sub_e, has_opening, 0)
             for p in pts:
+                wt = (p - seg_start) / seg_len  # 0.0–1.0 parametric
                 if edge in ("top", "bottom"):
-                    wall_candidates.append((p, fixed, edge))
+                    wall_candidates.append((p, fixed, edge, wt))
                 else:
-                    wall_candidates.append((fixed, p, edge))
+                    wall_candidates.append((fixed, p, edge, wt))
 
     # Track which item_nos have been used so roles pick different products
     used_item_nos = set()
@@ -644,12 +643,9 @@ def resolve_wall_items(wall_roles, placed_items, room_css, footprints, profiles)
         best = None
         best_score = -1
 
-        for wx, wy, edge in wall_candidates:
-            r = _EDGE_ROTATION[edge]
-
-            # At r=0/180 (top/bottom walls): footprint is fw wide, fh deep
-            # At r=90/270 (left/right walls): footprint is fh wide, fw deep
-            if r in (90, 270):
+        for wx, wy, edge, wt in wall_candidates:
+            # Determine drawn footprint size based on edge orientation
+            if edge in ("left", "right"):
                 draw_w, draw_h = fh, fw
             else:
                 draw_w, draw_h = fw, fh
@@ -679,15 +675,15 @@ def resolve_wall_items(wall_roles, placed_items, room_css, footprints, profiles)
 
             if score > best_score:
                 best_score = score
-                best = (cx, cy, r, draw_w, draw_h, edge)
+                best = (cx, cy, draw_w, draw_h, edge, wt)
 
         if best:
-            cx, cy, r, dw, dh, edge = best
+            cx, cy, dw, dh, edge, wt = best
             entry = {
-                "item_no": item_no, "x": cx, "y": cy, "r": r,
+                "item_no": item_no, "x": cx, "y": cy,
                 "placement_type": "wall",
                 "wall_edge": edge,
-                "mount_height": _DEFAULT_MOUNT_HEIGHT,
+                "wall_t": round(wt, 4),
             }
             result.append(entry)
             occupied.append((cx - dw // 2 - PAD, cy - dh // 2 - PAD,
@@ -901,8 +897,9 @@ def arrange_room(room_id, room_name, room_css, room_roles,
     for item in wall_items:
         p = products.get(item.get("item_no", ""))
         name = p["name"] if p else item.get("item_no", "?")
-        edge = {0: "top", 180: "bottom", 90: "left", 270: "right"}.get(item.get("r", 0), "?")
-        print(f"    | {name} -> {edge} wall ({item.get('x',0)},{item.get('y',0)})", flush=True)
+        edge = item.get("wall_edge", "?")
+        wt = item.get("wall_t", "?")
+        print(f"    | {name} -> {edge} wall t={wt} ({item.get('x',0)},{item.get('y',0)})", flush=True)
 
     if plant_roles:
         print(f"  [{room_id} {room_name}] placing plants...", flush=True)

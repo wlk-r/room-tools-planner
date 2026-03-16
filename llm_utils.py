@@ -266,15 +266,15 @@ def _call_gemini(prompt, model_id, timeout, stage_cfg=None):
     if cfg["temperature"] is not None:
         gen_config["temperature"] = cfg["temperature"]
     # Gemini 2.5 models use thinking tokens that count against max_output_tokens.
-    # Cap thinking budget so output tokens aren't starved, and raise max_output_tokens
-    # to accommodate both thinking + output.
+    # Raise max_output_tokens to accommodate both thinking + output.
+    # Optionally cap thinking budget to control cost/speed.
     thinking_budget, thinking_max = _get_gemini_thinking_config()
+    if thinking_max is not None:
+        gen_config["max_output_tokens"] = thinking_max
     if thinking_budget is not None:
         gen_config["thinking_config"] = genai.types.ThinkingConfig(
             thinking_budget=thinking_budget,
         )
-        if thinking_max is not None:
-            gen_config["max_output_tokens"] = thinking_max
 
     client = genai.Client(api_key=api_key)
     t0 = time.time()
@@ -467,12 +467,12 @@ def _call_gemini_vision(prompt, image_path, model_id, timeout, stage_cfg=None):
     if cfg["temperature"] is not None:
         gen_config["temperature"] = cfg["temperature"]
     thinking_budget, thinking_max = _get_gemini_thinking_config()
+    if thinking_max is not None:
+        gen_config["max_output_tokens"] = thinking_max
     if thinking_budget is not None:
         gen_config["thinking_config"] = genai.types.ThinkingConfig(
             thinking_budget=thinking_budget,
         )
-        if thinking_max is not None:
-            gen_config["max_output_tokens"] = thinking_max
 
     client = genai.Client(api_key=api_key)
     t0 = time.time()

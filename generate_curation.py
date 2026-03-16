@@ -21,6 +21,7 @@ from datetime import datetime
 from pathlib import Path
 
 from llm_utils import call_llm
+from rag_filter import filter_catalog
 
 DEFAULT_OUTPUT_DIR = "quantize_room.output"
 PROMPTS_DIR = Path(__file__).parent / "prompts"
@@ -173,7 +174,8 @@ def stage_curate(plan_css, catalog, model, verbose=False, vibe="", timeout=300):
     return roles, report
 
 
-def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False, vibe="", timeout=300):
+def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False, vibe="", timeout=300,
+                  products_dir=None, no_rag=False, rag_top=0):
     """Generate curation for a single plan. Returns True on success."""
     plan_css_path = output_dir / f"{plan_stem}_plan.css"
     catalog_path = output_dir / f"{plan_stem}_catalog.json"
@@ -199,7 +201,23 @@ def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False
         "stage": "curate",
     }
 
-    curation, s1_report = stage_curate(plan_css, catalog, model, verbose, vibe, timeout)
+    # RAG pre-filter for large catalogs
+    filtered_catalog = catalog
+    if not no_rag and len(catalog["products"]) > 300 and products_dir:
+        target = rag_top if rag_top > 0 else 150
+        result, rag_report = filter_catalog(catalog, plan_css, products_dir, vibe, target, verbose)
+        if result is not None:
+            filtered_catalog = result
+            print(f"  RAG: {len(catalog['products'])} -> {len(filtered_catalog['products'])} products")
+            report["rag_filter"] = rag_report
+            # Write standalone RAG report
+            if write_report and rag_report:
+                rag_report_path = output_dir / f"{plan_stem}_report.rag.json"
+                with open(rag_report_path, "w") as f:
+                    json.dump(rag_report, f, indent=2)
+                print(f"  -> {rag_report_path} ({len(rag_report.get('filtered_out', []))} filtered-out products scored)")
+
+    curation, s1_report = stage_curate(plan_css, filtered_catalog, model, verbose, vibe, timeout)
     report.update(s1_report)
 
     if curation is None:
@@ -263,6 +281,9 @@ def main():
     parser.add_argument("--force", action="store_true", help="Regenerate existing curation")
     parser.add_argument("--verbose", "-v", action="store_true", help="Print raw LLM responses")
     parser.add_argument("--report", "-r", action="store_true", help="Write report JSON with diagnostics")
+    parser.add_argument("--products", default=None, help="Path to catalog source dir (for RAG embedding lookup)")
+    parser.add_argument("--no-rag", action="store_true", help="Disable RAG filtering even for large catalogs")
+    parser.add_argument("--rag-top", type=int, default=0, help="Override target product count for RAG filter (default: auto)")
     args = parser.parse_args()
 
     output_dir = Path(args.output_dir)
@@ -289,7 +310,8 @@ def main():
             continue
 
         print(f"[{stem}]")
-        if process_plan(stem, output_dir, args.model, args.verbose, args.report, args.vibe, args.timeout):
+        if process_plan(stem, output_dir, args.model, args.verbose, args.report, args.vibe, args.timeout,
+                        products_dir=args.products, no_rag=args.no_rag, rag_top=args.rag_top):
             done += 1
         else:
             failed += 1

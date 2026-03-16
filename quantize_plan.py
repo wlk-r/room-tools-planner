@@ -509,6 +509,8 @@ def merge_catalog_templates(products_dir):
     return products, profiles
 
 
+
+
 def compute_footprint(item_no, name, dimensions, scale):
     """Compute a CSS footprint snippet from product dimensions at the given scale.
 
