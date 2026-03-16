@@ -712,7 +712,7 @@ def stage_arrange(room_id, room_name, room_css, items_json, occupied_block, tier
     )
 
     print(f"  [{room_id} {room_name}] {tier}: arranging ({len(prompt)} chars)...", end="", flush=True)
-    parsed, raw, duration, error, usage = call_llm(prompt, model, verbose, timeout)
+    parsed, raw, duration, error, usage = call_llm(prompt, model, verbose, timeout, stage="arrange")
 
     report = {
         "room": room_id,

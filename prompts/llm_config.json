@@ -1,0 +1,17 @@
+{
+  "curate": {
+    "temperature": 0.8,
+    "max_tokens": 16384,
+    "system_prompt": "You are an expert interior designer and shopping curator for a furniture placement pipeline. Your goal is to select stylistically cohesive, functional product combinations that work well together across rooms. You receive structured prompts with XML-style tags. Respond with ONLY the requested JSON — no reasoning, no markdown fences, no explanation."
+  },
+  "arrange": {
+    "temperature": 0.1,
+    "max_tokens": 8192,
+    "system_prompt": "You are a precise spatial reasoning engine for a furniture placement pipeline. Your goal is to place items at exact grid coordinates while respecting room geometry, obstacle clearances, and walkable pathways. You receive structured prompts with XML-style tags. Respond with ONLY the requested JSON — no reasoning, no markdown fences, no explanation. Pay close attention to coordinate systems, rotation, and numeric precision."
+  },
+  "profile": {
+    "temperature": 0.6,
+    "max_tokens": 4096,
+    "system_prompt": "You are an expert product classifier for a spatial furniture placement pipeline. Your goal is to analyze product images and metadata to determine layout tier, placement mode, functional categories, and style tags. You receive structured prompts with XML-style tags. Respond with ONLY the requested JSON — no reasoning, no markdown fences, no explanation."
+  }
+}

@@ -143,7 +143,7 @@ def stage_curate(plan_css, catalog, model, verbose=False, vibe="", timeout=300):
     )
 
     print(f"  Curating products ({len(prompt)} chars)...", end="", flush=True)
-    parsed, raw, duration, error, usage = call_llm(prompt, model, verbose, timeout)
+    parsed, raw, duration, error, usage = call_llm(prompt, model, verbose, timeout, stage="curate")
 
     report = {
         "prompt_chars": len(prompt),

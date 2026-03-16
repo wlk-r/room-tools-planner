@@ -61,9 +61,23 @@ MODEL_REGISTRY = {
 
 NVIDIA_BASE_URL = "https://integrate.api.nvidia.com/v1"
 
-# System prompt for SDK/API backends. The CLI path gets this from Claude Code's
-# own system prompt, but SDK calls need it explicitly.
-SYSTEM_PROMPT = (
+# ---------------------------------------------------------------------------
+# Stage config — loaded from prompts/llm_config.json
+# ---------------------------------------------------------------------------
+
+_LLM_CONFIG_PATH = Path(__file__).parent / "prompts" / "llm_config.json"
+_llm_config = {}
+
+def _load_llm_config():
+    """Load stage-specific LLM settings from prompts/llm_config.json."""
+    global _llm_config
+    if _LLM_CONFIG_PATH.exists():
+        _llm_config = json.loads(_LLM_CONFIG_PATH.read_text(encoding="utf-8"))
+
+_load_llm_config()
+
+# Fallback system prompt when no stage config is found
+_DEFAULT_SYSTEM_PROMPT = (
     "You are an expert assistant for a furniture placement pipeline. "
     "You receive structured prompts with XML-style tags describing tasks, inputs, and output formats. "
     "Follow the output format instructions exactly. Respond with ONLY the requested data "
@@ -71,6 +85,15 @@ SYSTEM_PROMPT = (
     "just the raw JSON. Pay close attention to coordinate systems, spatial constraints, "
     "and numeric precision when placing items."
 )
+
+def _get_stage_config(stage):
+    """Get config dict for a stage, with defaults."""
+    cfg = _llm_config.get(stage, {}) if stage else {}
+    return {
+        "system_prompt": cfg.get("system_prompt", _DEFAULT_SYSTEM_PROMPT),
+        "temperature": cfg.get("temperature"),
+        "max_tokens": cfg.get("max_tokens", 16384),
+    }
 
 
 def resolve_model(name):
@@ -154,7 +177,7 @@ def _call_claude_cli(prompt, model, timeout):
     return text, duration, None, None
 
 
-def _call_anthropic_sdk(prompt, model_id, timeout):
+def _call_anthropic_sdk(prompt, model_id, timeout, stage_cfg=None):
     """Call Anthropic SDK directly."""
     try:
         import anthropic
@@ -165,16 +188,21 @@ def _call_anthropic_sdk(prompt, model_id, timeout):
     if not api_key:
         return None, 0, "ANTHROPIC_API_KEY not set", None
 
+    cfg = stage_cfg or _get_stage_config(None)
+    kwargs = {
+        "model": model_id,
+        "max_tokens": cfg["max_tokens"],
+        "system": cfg["system_prompt"],
+        "messages": [{"role": "user", "content": prompt}],
+        "timeout": timeout,
+    }
+    if cfg["temperature"] is not None:
+        kwargs["temperature"] = cfg["temperature"]
+
     client = anthropic.Anthropic(api_key=api_key)
     t0 = time.time()
     try:
-        response = client.messages.create(
-            model=model_id,
-            max_tokens=16384,
-            system=SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": prompt}],
-            timeout=timeout,
-        )
+        response = client.messages.create(**kwargs)
     except Exception as e:
         return None, round(time.time() - t0, 1), f"ANTHROPIC_ERROR: {e}", None
 
@@ -191,7 +219,7 @@ def _call_anthropic_sdk(prompt, model_id, timeout):
     return text, duration, None, usage
 
 
-def _call_gemini(prompt, model_id, timeout):
+def _call_gemini(prompt, model_id, timeout, stage_cfg=None):
     """Call Google genai SDK."""
     try:
         from google import genai
@@ -202,16 +230,22 @@ def _call_gemini(prompt, model_id, timeout):
     if not api_key:
         return None, 0, "GEMINI_API_KEY not set", None
 
+    cfg = stage_cfg or _get_stage_config(None)
+    gen_config = {
+        "system_instruction": cfg["system_prompt"],
+        "httpOptions": {"timeout": timeout * 1000},
+        "max_output_tokens": cfg["max_tokens"],
+    }
+    if cfg["temperature"] is not None:
+        gen_config["temperature"] = cfg["temperature"]
+
     client = genai.Client(api_key=api_key)
     t0 = time.time()
     try:
         response = client.models.generate_content(
             model=model_id,
             contents=prompt,
-            config=genai.types.GenerateContentConfig(
-                system_instruction=SYSTEM_PROMPT,
-                httpOptions={"timeout": timeout * 1000},
-            ),
+            config=genai.types.GenerateContentConfig(**gen_config),
         )
     except Exception as e:
         return None, round(time.time() - t0, 1), f"GEMINI_ERROR: {e}", None
@@ -230,7 +264,7 @@ def _call_gemini(prompt, model_id, timeout):
     return text, duration, None, usage
 
 
-def _call_nvidia(prompt, model_id, timeout):
+def _call_nvidia(prompt, model_id, timeout, stage_cfg=None):
     """Call NVIDIA NIM endpoint (OpenAI-compatible)."""
     try:
         from openai import OpenAI
@@ -241,19 +275,23 @@ def _call_nvidia(prompt, model_id, timeout):
     if not api_key:
         return None, 0, "NVIDIA_API_KEY not set", None
 
+    cfg = stage_cfg or _get_stage_config(None)
+    kwargs = {
+        "model": model_id,
+        "messages": [
+            {"role": "system", "content": cfg["system_prompt"]},
+            {"role": "user", "content": prompt},
+        ],
+        "max_tokens": cfg["max_tokens"],
+        "timeout": timeout,
+    }
+    if cfg["temperature"] is not None:
+        kwargs["temperature"] = cfg["temperature"]
+
     client = OpenAI(base_url=NVIDIA_BASE_URL, api_key=api_key)
     t0 = time.time()
     try:
-        response = client.chat.completions.create(
-            model=model_id,
-            messages=[
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": prompt},
-            ],
-            max_tokens=16384,
-            temperature=0.6,
-            timeout=timeout,
-        )
+        response = client.chat.completions.create(**kwargs)
     except Exception as e:
         return None, round(time.time() - t0, 1), f"NVIDIA_ERROR: {e}", None
 
@@ -309,7 +347,7 @@ def _read_image_base64(image_path):
     return data, mime_type
 
 
-def _call_anthropic_sdk_vision(prompt, image_path, model_id, timeout):
+def _call_anthropic_sdk_vision(prompt, image_path, model_id, timeout, stage_cfg=None):
     """Call Anthropic SDK with an image."""
     try:
         import anthropic
@@ -320,34 +358,39 @@ def _call_anthropic_sdk_vision(prompt, image_path, model_id, timeout):
     if not api_key:
         return None, 0, "ANTHROPIC_API_KEY not set"
 
+    cfg = stage_cfg or _get_stage_config(None)
     image_data, media_type = _read_image_base64(image_path)
+
+    kwargs = {
+        "model": model_id,
+        "max_tokens": cfg["max_tokens"],
+        "system": cfg["system_prompt"],
+        "messages": [{
+            "role": "user",
+            "content": [
+                {
+                    "type": "image",
+                    "source": {
+                        "type": "base64",
+                        "media_type": media_type,
+                        "data": image_data,
+                    },
+                },
+                {
+                    "type": "text",
+                    "text": prompt,
+                },
+            ],
+        }],
+        "timeout": timeout,
+    }
+    if cfg["temperature"] is not None:
+        kwargs["temperature"] = cfg["temperature"]
 
     client = anthropic.Anthropic(api_key=api_key)
     t0 = time.time()
     try:
-        response = client.messages.create(
-            model=model_id,
-            max_tokens=16384,
-            system=SYSTEM_PROMPT,
-            messages=[{
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image",
-                        "source": {
-                            "type": "base64",
-                            "media_type": media_type,
-                            "data": image_data,
-                        },
-                    },
-                    {
-                        "type": "text",
-                        "text": prompt,
-                    },
-                ],
-            }],
-            timeout=timeout,
-        )
+        response = client.messages.create(**kwargs)
     except Exception as e:
         return None, round(time.time() - t0, 1), f"ANTHROPIC_ERROR: {e}"
 
@@ -358,7 +401,7 @@ def _call_anthropic_sdk_vision(prompt, image_path, model_id, timeout):
     return text, duration, None
 
 
-def _call_gemini_vision(prompt, image_path, model_id, timeout):
+def _call_gemini_vision(prompt, image_path, model_id, timeout, stage_cfg=None):
     """Call Google genai SDK with an image."""
     try:
         from google import genai
@@ -370,7 +413,16 @@ def _call_gemini_vision(prompt, image_path, model_id, timeout):
     if not api_key:
         return None, 0, "GEMINI_API_KEY not set"
 
+    cfg = stage_cfg or _get_stage_config(None)
     image_data, media_type = _read_image_base64(image_path)
+
+    gen_config = {
+        "system_instruction": cfg["system_prompt"],
+        "httpOptions": {"timeout": timeout * 1000},
+        "max_output_tokens": cfg["max_tokens"],
+    }
+    if cfg["temperature"] is not None:
+        gen_config["temperature"] = cfg["temperature"]
 
     client = genai.Client(api_key=api_key)
     t0 = time.time()
@@ -384,10 +436,7 @@ def _call_gemini_vision(prompt, image_path, model_id, timeout):
                 ),
                 prompt,
             ],
-            config=genai.types.GenerateContentConfig(
-                system_instruction=SYSTEM_PROMPT,
-                httpOptions={"timeout": timeout * 1000},
-            ),
+            config=genai.types.GenerateContentConfig(**gen_config),
         )
     except Exception as e:
         return None, round(time.time() - t0, 1), f"GEMINI_ERROR: {e}"
@@ -434,20 +483,25 @@ def _verbose_log(text, duration):
     print(f"    --- end ---")
 
 
-def call_llm(prompt, model="sonnet", verbose=False, timeout=300):
+def call_llm(prompt, model="sonnet", verbose=False, timeout=300, stage=None):
     """Call an LLM with a text prompt. Routes to the appropriate backend.
+
+    Args:
+        stage: Stage name (e.g. "curate", "arrange", "profile") to load
+               per-stage settings from prompts/llm_config.json.
 
     Returns (parsed, raw_response, duration_s, error, usage).
     usage is {"input_tokens": int, "output_tokens": int} or None.
     """
     backend, model_id = _pick_backend(model)
+    stage_cfg = _get_stage_config(stage)
 
     if backend == "gemini":
-        text, duration, error, usage = _call_gemini(prompt, model_id, timeout)
+        text, duration, error, usage = _call_gemini(prompt, model_id, timeout, stage_cfg)
     elif backend == "nvidia":
-        text, duration, error, usage = _call_nvidia(prompt, model_id, timeout)
+        text, duration, error, usage = _call_nvidia(prompt, model_id, timeout, stage_cfg)
     elif backend == "anthropic":
-        text, duration, error, usage = _call_anthropic_sdk(prompt, model_id, timeout)
+        text, duration, error, usage = _call_anthropic_sdk(prompt, model_id, timeout, stage_cfg)
     else:
         text, duration, error, usage = _call_claude_cli(prompt, model, timeout)
 
@@ -472,16 +526,21 @@ def call_llm(prompt, model="sonnet", verbose=False, timeout=300):
     return None, text, duration, "PARSE_ERROR", usage
 
 
-def call_llm_vision(prompt, image_path, model="sonnet", verbose=False, timeout=120):
+def call_llm_vision(prompt, image_path, model="sonnet", verbose=False, timeout=120, stage=None):
     """Call an LLM with a text prompt + image. Routes to the appropriate backend.
 
     For SDK backends, the image is sent directly in the API call and the
     "Use your Read tool..." line is stripped from the prompt.
     For the CLI backend, the prompt is sent as-is (it tells the LLM to Read the file).
 
+    Args:
+        stage: Stage name (e.g. "profile") to load per-stage settings
+               from prompts/llm_config.json.
+
     Returns (parsed, raw_response, duration_s, error).
     """
     backend, model_id = _pick_backend(model)
+    stage_cfg = _get_stage_config(stage)
 
     if backend == "nvidia":
         return None, None, 0, "NVIDIA NIM does not support vision. Use a Claude or Gemini model for image profiling."
@@ -495,9 +554,9 @@ def call_llm_vision(prompt, image_path, model="sonnet", verbose=False, timeout=1
         )
 
     if backend == "gemini":
-        text, duration, error = _call_gemini_vision(prompt, image_path, model_id, timeout)
+        text, duration, error = _call_gemini_vision(prompt, image_path, model_id, timeout, stage_cfg)
     elif backend == "anthropic":
-        text, duration, error = _call_anthropic_sdk_vision(prompt, image_path, model_id, timeout)
+        text, duration, error = _call_anthropic_sdk_vision(prompt, image_path, model_id, timeout, stage_cfg)
     else:
         text, duration, error = _call_claude_cli_vision(prompt, image_path, model, timeout)
 

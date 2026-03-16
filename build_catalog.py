@@ -119,7 +119,7 @@ def generate_profile(metadata_path, image_path, item_no, model="sonnet"):
     )
 
     parsed, raw, duration, error = call_llm_vision(
-        prompt, image_path, model=model, timeout=120,
+        prompt, image_path, model=model, timeout=120, stage="profile",
     )
 
     if error:
