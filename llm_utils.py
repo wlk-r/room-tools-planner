@@ -96,6 +96,36 @@ def _get_stage_config(stage):
     }
 
 
+def _get_gemini_thinking_config():
+    """Get Gemini thinking settings from config.
+
+    Returns (thinking_budget, max_tokens_override).
+    - thinking_budget: if set, caps thinking tokens. If absent/null, thinking is
+      unrestricted (model default).
+    - max_tokens_override: if set, replaces stage max_tokens for Gemini calls to
+      give headroom for thinking + output combined.
+    """
+    cfg = _llm_config.get("gemini_thinking", {})
+    return cfg.get("default_budget"), cfg.get("max_tokens_with_thinking")
+
+
+def _get_retry_config():
+    """Get retry settings from config."""
+    cfg = _llm_config.get("retry", {})
+    return {
+        "max_retries": cfg.get("max_retries", 0),
+        "backoff_seconds": cfg.get("backoff_seconds", 5),
+        "retryable_errors": set(cfg.get("retryable_errors", [])),
+    }
+
+
+def _is_retryable(error, retry_cfg):
+    """Check if an error string matches any retryable error prefix."""
+    if not error or not retry_cfg["retryable_errors"]:
+        return False
+    return any(error.startswith(prefix) for prefix in retry_cfg["retryable_errors"])
+
+
 def resolve_model(name):
     """Resolve a model name/alias to (provider, full_model_id).
 
@@ -122,6 +152,10 @@ def resolve_model(name):
 def extract_json(text):
     """Try to parse JSON from LLM response text."""
     text = text.strip()
+    # Strip markdown code fences (handles both complete and truncated fences)
+    text = re.sub(r"^```(?:json)?\s*\n?", "", text)
+    text = re.sub(r"\n?```\s*$", "", text)
+    text = text.strip()
     # Direct parse
     try:
         return json.loads(text)
@@ -138,13 +172,6 @@ def extract_json(text):
                 return json.loads(text[start:end + 1])
             except json.JSONDecodeError:
                 pass
-    # Unwrap markdown code fences
-    fenced = re.search(r"```(?:json)?\s*\n([\s\S]*?)\n```", text)
-    if fenced:
-        try:
-            return json.loads(fenced.group(1))
-        except json.JSONDecodeError:
-            pass
     return None
 
 
@@ -238,6 +265,16 @@ def _call_gemini(prompt, model_id, timeout, stage_cfg=None):
     }
     if cfg["temperature"] is not None:
         gen_config["temperature"] = cfg["temperature"]
+    # Gemini 2.5 models use thinking tokens that count against max_output_tokens.
+    # Cap thinking budget so output tokens aren't starved, and raise max_output_tokens
+    # to accommodate both thinking + output.
+    thinking_budget, thinking_max = _get_gemini_thinking_config()
+    if thinking_budget is not None:
+        gen_config["thinking_config"] = genai.types.ThinkingConfig(
+            thinking_budget=thinking_budget,
+        )
+        if thinking_max is not None:
+            gen_config["max_output_tokens"] = thinking_max
 
     client = genai.Client(api_key=api_key)
     t0 = time.time()
@@ -261,6 +298,12 @@ def _call_gemini(prompt, model_id, timeout, stage_cfg=None):
         }
     if not text:
         return "", duration, "EMPTY", usage
+    # Detect truncation via finish reason
+    finish = None
+    if response.candidates:
+        finish = getattr(response.candidates[0], "finish_reason", None)
+    if finish and str(finish) == "MAX_TOKENS":
+        return text, duration, f"TRUNCATED (hit max_output_tokens={cfg['max_tokens']})", usage
     return text, duration, None, usage
 
 
@@ -423,6 +466,13 @@ def _call_gemini_vision(prompt, image_path, model_id, timeout, stage_cfg=None):
     }
     if cfg["temperature"] is not None:
         gen_config["temperature"] = cfg["temperature"]
+    thinking_budget, thinking_max = _get_gemini_thinking_config()
+    if thinking_budget is not None:
+        gen_config["thinking_config"] = genai.types.ThinkingConfig(
+            thinking_budget=thinking_budget,
+        )
+        if thinking_max is not None:
+            gen_config["max_output_tokens"] = thinking_max
 
     client = genai.Client(api_key=api_key)
     t0 = time.time()
@@ -495,35 +545,51 @@ def call_llm(prompt, model="sonnet", verbose=False, timeout=300, stage=None):
     """
     backend, model_id = _pick_backend(model)
     stage_cfg = _get_stage_config(stage)
+    retry_cfg = _get_retry_config()
 
-    if backend == "gemini":
-        text, duration, error, usage = _call_gemini(prompt, model_id, timeout, stage_cfg)
-    elif backend == "nvidia":
-        text, duration, error, usage = _call_nvidia(prompt, model_id, timeout, stage_cfg)
-    elif backend == "anthropic":
-        text, duration, error, usage = _call_anthropic_sdk(prompt, model_id, timeout, stage_cfg)
-    else:
-        text, duration, error, usage = _call_claude_cli(prompt, model, timeout)
+    for attempt in range(1 + retry_cfg["max_retries"]):
+        if backend == "gemini":
+            text, duration, error, usage = _call_gemini(prompt, model_id, timeout, stage_cfg)
+        elif backend == "nvidia":
+            text, duration, error, usage = _call_nvidia(prompt, model_id, timeout, stage_cfg)
+        elif backend == "anthropic":
+            text, duration, error, usage = _call_anthropic_sdk(prompt, model_id, timeout, stage_cfg)
+        else:
+            text, duration, error, usage = _call_claude_cli(prompt, model, timeout)
 
-    if error:
+        if error:
+            if attempt < retry_cfg["max_retries"] and _is_retryable(error, retry_cfg):
+                wait = retry_cfg["backoff_seconds"] * (attempt + 1)
+                print(f" {error}, retrying in {wait}s...", end="", flush=True)
+                time.sleep(wait)
+                continue
+            return None, text, duration, error, usage
+
+        if not text:
+            return None, "", duration, "EMPTY", usage
+
+        if verbose:
+            _verbose_log(text, duration)
+
+        # Unwrap --output-format json envelope if present
+        parsed = extract_json(text)
+        if isinstance(parsed, dict) and "result" in parsed and "role" not in parsed and "item_no" not in parsed:
+            inner = parsed["result"]
+            parsed = extract_json(inner) if isinstance(inner, str) else inner
+
+        if parsed is not None:
+            return parsed, text, duration, None, usage
+
+        error = "PARSE_ERROR"
+        if attempt < retry_cfg["max_retries"] and _is_retryable(error, retry_cfg):
+            wait = retry_cfg["backoff_seconds"] * (attempt + 1)
+            print(f" {error}, retrying in {wait}s...", end="", flush=True)
+            time.sleep(wait)
+            continue
+
         return None, text, duration, error, usage
 
-    if not text:
-        return None, "", duration, "EMPTY", usage
-
-    if verbose:
-        _verbose_log(text, duration)
-
-    # Unwrap --output-format json envelope if present
-    parsed = extract_json(text)
-    if isinstance(parsed, dict) and "result" in parsed and "role" not in parsed and "item_no" not in parsed:
-        inner = parsed["result"]
-        parsed = extract_json(inner) if isinstance(inner, str) else inner
-
-    if parsed is not None:
-        return parsed, text, duration, None, usage
-
-    return None, text, duration, "PARSE_ERROR", usage
+    return None, text, duration, error, usage
 
 
 def call_llm_vision(prompt, image_path, model="sonnet", verbose=False, timeout=120, stage=None):
@@ -541,6 +607,7 @@ def call_llm_vision(prompt, image_path, model="sonnet", verbose=False, timeout=1
     """
     backend, model_id = _pick_backend(model)
     stage_cfg = _get_stage_config(stage)
+    retry_cfg = _get_retry_config()
 
     if backend == "nvidia":
         return None, None, 0, "NVIDIA NIM does not support vision. Use a Claude or Gemini model for image profiling."
@@ -553,29 +620,44 @@ def call_llm_vision(prompt, image_path, model="sonnet", verbose=False, timeout=1
             prompt,
         )
 
-    if backend == "gemini":
-        text, duration, error = _call_gemini_vision(prompt, image_path, model_id, timeout, stage_cfg)
-    elif backend == "anthropic":
-        text, duration, error = _call_anthropic_sdk_vision(prompt, image_path, model_id, timeout, stage_cfg)
-    else:
-        text, duration, error = _call_claude_cli_vision(prompt, image_path, model, timeout)
+    for attempt in range(1 + retry_cfg["max_retries"]):
+        if backend == "gemini":
+            text, duration, error = _call_gemini_vision(prompt, image_path, model_id, timeout, stage_cfg)
+        elif backend == "anthropic":
+            text, duration, error = _call_anthropic_sdk_vision(prompt, image_path, model_id, timeout, stage_cfg)
+        else:
+            text, duration, error = _call_claude_cli_vision(prompt, image_path, model, timeout)
 
-    if error:
+        if error:
+            if attempt < retry_cfg["max_retries"] and _is_retryable(error, retry_cfg):
+                wait = retry_cfg["backoff_seconds"] * (attempt + 1)
+                print(f" {error}, retrying in {wait}s...", end="", flush=True)
+                time.sleep(wait)
+                continue
+            return None, text, duration, error
+
+        if not text:
+            return None, "", duration, "EMPTY"
+
+        if verbose:
+            _verbose_log(text, duration)
+
+        # Unwrap envelope if present
+        parsed = extract_json(text)
+        if isinstance(parsed, dict) and "result" in parsed and "tier" not in parsed:
+            inner = parsed["result"]
+            parsed = extract_json(inner) if isinstance(inner, str) else inner
+
+        if parsed is not None:
+            return parsed, text, duration, None
+
+        error = "PARSE_ERROR"
+        if attempt < retry_cfg["max_retries"] and _is_retryable(error, retry_cfg):
+            wait = retry_cfg["backoff_seconds"] * (attempt + 1)
+            print(f" {error}, retrying in {wait}s...", end="", flush=True)
+            time.sleep(wait)
+            continue
+
         return None, text, duration, error
 
-    if not text:
-        return None, "", duration, "EMPTY"
-
-    if verbose:
-        _verbose_log(text, duration)
-
-    # Unwrap envelope if present
-    parsed = extract_json(text)
-    if isinstance(parsed, dict) and "result" in parsed and "tier" not in parsed:
-        inner = parsed["result"]
-        parsed = extract_json(inner) if isinstance(inner, str) else inner
-
-    if parsed is not None:
-        return parsed, text, duration, None
-
-    return None, text, duration, "PARSE_ERROR"
+    return None, text, duration, error

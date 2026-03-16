@@ -477,8 +477,84 @@ _EDGE_ROTATION = {"top": 0, "bottom": 180, "left": 90, "right": 270}
 _DEFAULT_MOUNT_HEIGHT = 1.7
 
 
+def _wall_segments(room_rects):
+    """Build wall segments from room rectangles.
+
+    Each segment is (start, end, fixed_coord, edge) where start/end are along
+    the variable axis and fixed_coord is the wall position on the other axis.
+    For top/bottom edges: variable axis = X.  For left/right: variable axis = Y.
+    """
+    segments = []
+    for rl, rt, rr, rb in room_rects:
+        segments.append((rl, rr, rt, "top"))
+        segments.append((rl, rr, rb, "bottom"))
+        segments.append((rt, rb, rl, "left"))
+        segments.append((rt, rb, rr, "right"))
+    return segments
+
+
+def _split_segment_by_openings(seg_start, seg_end, openings):
+    """Split a wall segment into sub-segments around openings.
+
+    openings: list of (open_start, open_end) along the segment axis.
+    Returns list of (sub_start, sub_end, has_adjacent_opening).
+    """
+    if not openings:
+        return [(seg_start, seg_end, False)]
+
+    # Sort and clamp openings to segment bounds
+    clipped = []
+    for os, oe in sorted(openings):
+        cs, ce = max(os, seg_start), min(oe, seg_end)
+        if cs < ce:
+            clipped.append((cs, ce))
+
+    # Merge overlapping openings
+    merged = [clipped[0]]
+    for cs, ce in clipped[1:]:
+        if cs <= merged[-1][1]:
+            merged[-1] = (merged[-1][0], max(merged[-1][1], ce))
+        else:
+            merged.append((cs, ce))
+
+    subs = []
+    cursor = seg_start
+    for os, oe in merged:
+        if cursor < os:
+            subs.append((cursor, os, True))  # free segment adjacent to opening
+        cursor = oe
+    if cursor < seg_end:
+        subs.append((cursor, seg_end, True))  # trailing segment after last opening
+
+    # If there's only one sub-segment spanning the full wall, it has no opening
+    if len(subs) == 1 and subs[0][0] == seg_start and subs[0][1] == seg_end:
+        subs[0] = (subs[0][0], subs[0][1], False)
+
+    return subs
+
+
+def _candidate_points_on_segment(sub_start, sub_end, has_opening, min_item_width):
+    """Generate candidate center-points along a wall sub-segment.
+
+    No-opening segments: place at 1/3 and 2/3 points.
+    Opening-adjacent segments: place at 1/2 point.
+    Skips if segment is too short for the item.
+    """
+    length = sub_end - sub_start
+    if length < min_item_width + 10:  # need some margin beyond item width
+        return []
+    if has_opening:
+        return [sub_start + length // 2]
+    else:
+        return [sub_start + length // 3, sub_start + 2 * length // 3]
+
+
 def resolve_wall_items(wall_roles, placed_items, room_css, footprints, profiles):
     """Place wall items flush against room edges, facing inward.
+
+    Candidate positions are at 1/3 and 2/3 along clear wall segments, or at
+    1/2 of segments adjacent to door/window openings.  Each role picks a
+    different product from its candidate list (rotating through used item_nos).
 
     Rotation is deterministic: determined by which edge the item is placed on.
     Avoids doors, windows, and other placed/wall items.
@@ -490,7 +566,7 @@ def resolve_wall_items(wall_roles, placed_items, room_css, footprints, profiles)
     room_rects = [_rect_from_rule(r) for r in rules if r["cls"] == "room"]
     door_rects = [_rect_from_rule(r) for r in rules if r["cls"] == "door"]
     window_rects = [_rect_from_rule(r) for r in rules if r["cls"] == "window"]
-    avoid_rects = door_rects + window_rects
+    opening_rects = door_rects + window_rects
 
     if not room_rects:
         return []
@@ -506,41 +582,61 @@ def resolve_wall_items(wall_roles, placed_items, room_css, footprints, profiles)
         occupied.append((item["x"] - w // 2 - PAD, item["y"] - h // 2 - PAD,
                          item["x"] + w // 2 + PAD, item["y"] + h // 2 + PAD))
 
-    # Generate candidate positions along room edges, tagged with edge direction
-    STEP = 6
-    candidates = []  # (x, y, edge_name)
-
-    for rl, rt, rr, rb in room_rects:
-        for x in range(rl, rr, STEP):
-            candidates.append((x, rt, "top"))
-            candidates.append((x, rb, "bottom"))
-        for y in range(rt, rb, STEP):
-            candidates.append((rl, y, "left"))
-            candidates.append((rr, y, "right"))
-
-    def near_avoid(x, y, margin=10):
-        """Check if position is too close to a door or window."""
-        for al, at, ar, ab in avoid_rects:
-            if al - margin <= x <= ar + margin and at - margin <= y <= ab + margin:
-                return True
-        return False
-
     def hits_occupied(cx, cy, w, h):
         for ol, ot, or_, ob in occupied:
             if _rects_overlap(cx, cy, w, h, ol, ot, or_, ob):
                 return True
         return False
 
-    # Collect wall items to place
-    items_to_place = []
+    # Build wall segments and split by openings
+    raw_segments = _wall_segments(room_rects)
+    wall_candidates = []  # (cx, cy, edge)
+
+    for seg_start, seg_end, fixed, edge in raw_segments:
+        # Find openings that overlap this segment
+        openings = []
+        for ol, ot, or_, ob in opening_rects:
+            if edge in ("top", "bottom"):
+                # Horizontal wall: check Y overlap with fixed coord
+                if ot - 5 <= fixed <= ob + 5:
+                    openings.append((ol, or_))
+            else:
+                # Vertical wall: check X overlap with fixed coord
+                if ol - 5 <= fixed <= or_ + 5:
+                    openings.append((ot, ob))
+
+        subs = _split_segment_by_openings(seg_start, seg_end, openings)
+        for sub_s, sub_e, has_opening in subs:
+            # Use a small min width for candidate generation; actual item
+            # width check happens during placement
+            pts = _candidate_points_on_segment(sub_s, sub_e, has_opening, 0)
+            for p in pts:
+                if edge in ("top", "bottom"):
+                    wall_candidates.append((p, fixed, edge))
+                else:
+                    wall_candidates.append((fixed, p, edge))
+
+    # Track which item_nos have been used so roles pick different products
+    used_item_nos = set()
+
+    # Collect wall items to place — rotate through candidates per role,
+    # and within qty > 1 pick a different product for each instance.
+    items_to_place = []  # (item_no, fw, fh)
     for role in wall_roles:
         cands = role.get("candidates", [])
         if not cands:
             continue
-        item_no = cands[0]
-        fp = footprints.get(item_no, {"width": 10, "height": 10})
-        for _ in range(role.get("qty", 1)):
+        qty = role.get("qty", 1)
+        for _ in range(qty):
+            # Pick the first unused candidate; fall back to first if all used
+            item_no = cands[0]
+            for c in cands:
+                if c not in used_item_nos and c in footprints:
+                    item_no = c
+                    break
+            fp = footprints.get(item_no, {"width": 10, "height": 10})
             items_to_place.append((item_no, fp["width"], fp["height"]))
+            used_item_nos.add(item_no)
 
     result = []
 
@@ -548,7 +644,7 @@ def resolve_wall_items(wall_roles, placed_items, room_css, footprints, profiles)
         best = None
         best_score = -1
 
-        for wx, wy, edge in candidates:
+        for wx, wy, edge in wall_candidates:
             r = _EDGE_ROTATION[edge]
 
             # At r=0/180 (top/bottom walls): footprint is fw wide, fh deep
@@ -569,8 +665,6 @@ def resolve_wall_items(wall_roles, placed_items, room_css, footprints, profiles)
             else:  # right
                 cx, cy = wx - half_w, wy
 
-            if near_avoid(cx, cy):
-                continue
             if hits_occupied(cx, cy, draw_w, draw_h):
                 continue
 
@@ -585,13 +679,14 @@ def resolve_wall_items(wall_roles, placed_items, room_css, footprints, profiles)
 
             if score > best_score:
                 best_score = score
-                best = (cx, cy, r, draw_w, draw_h)
+                best = (cx, cy, r, draw_w, draw_h, edge)
 
         if best:
-            cx, cy, r, dw, dh = best
+            cx, cy, r, dw, dh, edge = best
             entry = {
                 "item_no": item_no, "x": cx, "y": cy, "r": r,
                 "placement_type": "wall",
+                "wall_edge": edge,
                 "mount_height": _DEFAULT_MOUNT_HEIGHT,
             }
             result.append(entry)

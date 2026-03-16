@@ -31,7 +31,9 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://localhost:8000/output/artists_loft_plan.css\")",
       "Bash(curl -s \"http://localhost:8000/output/artists_loft_tournament.json\" | head -5)",
       "Bash(curl -s \"http://localhost:8000/plan\" | grep \"const OUTPUT_DIR\")",
-      "Bash(curl -s \"http://localhost:8000/plan\" | grep -n \"style.display\")"
+      "Bash(curl -s \"http://localhost:8000/plan\" | grep -n \"style.display\")",
+      "WebSearch",
+      "Bash(find:*)"
     ]
   }
 }

@@ -13,5 +13,13 @@
     "temperature": 0.6,
     "max_tokens": 4096,
     "system_prompt": "You are an expert product classifier for a spatial furniture placement pipeline. Your goal is to analyze product images and metadata to determine layout tier, placement mode, functional categories, and style tags. You receive structured prompts with XML-style tags. Respond with ONLY the requested JSON — no reasoning, no markdown fences, no explanation."
+  },
+  "gemini_thinking": {
+    "max_tokens_with_thinking": 32768
+  },
+  "retry": {
+    "max_retries": 1,
+    "backoff_seconds": 5,
+    "retryable_errors": ["PARSE_ERROR", "TRUNCATED"]
   }
 }
