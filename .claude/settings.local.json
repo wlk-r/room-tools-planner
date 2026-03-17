@@ -34,7 +34,9 @@
       "Bash(curl -s \"http://localhost:8000/plan\" | grep -n \"style.display\")",
       "WebSearch",
       "Bash(find:*)",
-      "Bash(xxd:*)"
+      "Bash(xxd:*)",
+      "Bash(pip install:*)",
+      "Bash(pip list:*)"
     ]
   }
 }

@@ -514,13 +514,24 @@ def merge_catalog_templates(products_dir):
 def compute_footprint(item_no, name, dimensions, scale):
     """Compute a CSS footprint snippet from product dimensions at the given scale.
 
-    Floor footprint is width x depth, elevation is height.
-    Exception: flat objects (depth < 1 inch / 0.0254m) like rugs and mats —
-    depth is thickness, so swap depth and height for the footprint.
+    Accepts two formats:
+    - measured_dimensions (GLB): {x, y, z} — floor footprint = X x Z, elevation = Y
+    - vendor dimensions: {width, depth, height} — floor footprint = width x depth, elevation = height
+
+    Exception: flat objects (floor depth < 0.0254m / 1 inch) like rugs —
+    swap depth and height so footprint represents floor coverage.
     """
-    w_m = dimensions["width"]
-    d_m = dimensions["depth"]
-    h_m = dimensions["height"]
+    if "x" in dimensions:
+        # GLB measured: X = left-right, Y = up, Z = front-back
+        w_m = dimensions["x"]
+        d_m = dimensions["z"]
+        h_m = dimensions["y"]
+    else:
+        # Vendor listed: width, depth, height
+        w_m = dimensions["width"]
+        d_m = dimensions["depth"]
+        h_m = dimensions["height"]
+
     if d_m < 0.0254:
         # Flat object: depth is thickness, height is the other floor dimension
         d_m, h_m = h_m, d_m
@@ -535,24 +546,39 @@ def compute_footprint(item_no, name, dimensions, scale):
 
 
 def build_footprints(products, products_dir, scale):
-    """Look up vendor metadata for each product and compute footprints."""
+    """Look up dimensions for each product and compute footprints.
+
+    Prefers measured_dimensions (from measure_glb.py) over vendor-listed
+    dimensions. Both live in the vendor metadata JSON.
+    """
     # Index vendor metadata by item_no
     vendor = {}
     for path in sorted(Path(products_dir).glob("*.json")):
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
         item_key = data.get("item_no") or data.get("tcin")
-        if "dimensions" in data and item_key:
+        if item_key and ("dimensions" in data or "measured_dimensions" in data):
             vendor[item_key] = data
 
     footprints = []
     for p in products:
         item_no = p["item_no"]
         if item_no not in vendor:
-            print(f"  WARNING: no vendor metadata for {item_no}, skipping footprint")
+            print(f"  WARNING: no dimensions for {item_no}, skipping footprint")
             continue
         v = vendor[item_no]
-        footprints.append(compute_footprint(item_no, v["name"], v["dimensions"], scale))
+        # Prefer measured_dimensions (from measure_glb.py), fall back to vendor dimensions
+        md = v.get("measured_dimensions")
+        vd = v.get("dimensions")
+        # measured_dimensions must be a dict with nonzero values
+        if isinstance(md, dict) and (md.get("x", 0) > 0 or md.get("y", 0) > 0):
+            dims = md
+        elif isinstance(vd, dict) and "width" in vd:
+            dims = vd
+        else:
+            print(f"  WARNING: no usable dimensions for {item_no}, skipping footprint")
+            continue
+        footprints.append(compute_footprint(item_no, v["name"], dims, scale))
     return footprints
 
 

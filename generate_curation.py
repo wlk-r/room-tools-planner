@@ -15,6 +15,7 @@ Writes:  quantize_room.output/<stem>_curation.json
 """
 
 import json
+import random
 import re
 import argparse
 from datetime import datetime
@@ -27,6 +28,48 @@ DEFAULT_OUTPUT_DIR = "quantize_room.output"
 PROMPTS_DIR = Path(__file__).parent / "prompts"
 
 REQUIRED_ROLE_KEYS = {"room", "role", "qty", "candidates"}
+
+RANDOM_VIBES = [
+    # Warm & natural
+    "warm scandinavian, light oak, soft linen textures",
+    "japandi, wabi-sabi, raw wood, stone gray, quiet warmth",
+    "earthy bohemian, terracotta, dried botanicals, woven textiles",
+    "rustic farmhouse, reclaimed wood, cream and sage",
+    "organic modern, warm walnut, boucle, soft curves",
+    # Cool & refined
+    "mid-century modern, teak, olive and mustard accents",
+    "contemporary minimalist, charcoal, glass, brushed metal",
+    "art deco revival, brass, emerald green, geometric patterns",
+    "coastal modern, driftwood, navy and white, natural fiber",
+    "french provincial, soft cream, distressed finishes, linen",
+    # Bold & expressive
+    "maximalist eclectic, rich jewel tones, layered patterns",
+    "industrial loft, black steel, exposed brick, Edison bulbs",
+    "desert modernism, sand, rust, concrete, agave green",
+    "nordic noir, black and charcoal, warm wood contrast",
+    "tropical contemporary, rattan, palm green, warm brass",
+    # Moody & atmospheric
+    "moody library, dark walnut, burgundy leather, brass reading lamps",
+    "gallery minimal, white walls, black frames, single statement piece",
+    "mountain lodge, pine, wool throws, stone fireplace tones",
+    "urban zen, bamboo, matte black, diffused natural light",
+    "vintage modern, cognac leather, smoked glass, aged brass",
+    # Playful & fresh
+    "california casual, whitewashed wood, sky blue, indoor plants",
+    "memphis revival, bold pastels, rounded shapes, playful geometry",
+    "cottagecore, floral prints, natural wood, soft pastels",
+    "studio apartment, multifunctional, warm gray, pops of color",
+    "retro 70s, amber, burnt orange, low-slung silhouettes",
+]
+
+
+def resolve_vibe(vibe):
+    """Resolve vibe string. 'random' picks from RANDOM_VIBES."""
+    if vibe.lower().strip() == "random":
+        picked = random.choice(RANDOM_VIBES)
+        print(f"  vibe (random): {picked}")
+        return picked
+    return vibe
 
 
 def validate_curation(parsed):
@@ -193,11 +236,15 @@ def process_plan(plan_stem, output_dir, model, verbose=False, write_report=False
 
     print(f"  {len(catalog['products'])} products")
 
+    # Resolve random vibe before anything uses it
+    vibe = resolve_vibe(vibe) if vibe else ""
+
     report = {
         "plan": plan_stem,
         "model": model,
         "timestamp": datetime.now().isoformat(),
         "catalog_products": len(catalog["products"]),
+        "vibe": vibe or None,
         "stage": "curate",
     }
 

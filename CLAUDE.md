@@ -212,3 +212,65 @@ else  →  claude --print subprocess  (default fallback)
 - Floor footprint = `width x depth` from vendor dimensions
 - Exception: flat objects (depth < 0.0254m / 1 inch) like rugs — swap depth and height so footprint = `width x height`
 - Elevation = the remaining dimension (object height above floor)
+
+## Prompt Tuning (`prompts/`)
+
+All LLM behavior is controlled by prompt templates and a shared config file in the `prompts/` directory. These are the primary knobs for tuning pipeline output quality.
+
+### `prompts/llm_config.json` — Per-stage LLM settings
+
+Central config for temperature, token limits, system prompts, and retry behavior. Loaded once at import time by `llm_utils.py`.
+
+**Stage settings** (`curate`, `arrange`, `profile`):
+
+| Key | Purpose | Tuning notes |
+|---|---|---|
+| `temperature` | Sampling randomness | Curation uses 0.8 (creative variety in product selection). Arrangement uses 0.1 (deterministic spatial precision). Profile uses 0.6 (balanced classification). |
+| `max_tokens` | Output token cap | Curate=16384 (large JSON arrays), Arrange=8192 (one room at a time), Profile=4096 (single object). Increase if outputs are truncating. |
+| `system_prompt` | Role/behavior instruction | Sets the LLM persona and output format constraints per stage. The system prompt is sent as the `system` parameter (Anthropic) or `system_instruction` (Gemini), separate from the user prompt template. |
+
+**Global settings:**
+
+| Key | Purpose | Tuning notes |
+|---|---|---|
+| `gemini_thinking.max_tokens_with_thinking` | Gemini 2.5 thinking budget | When set, overrides `max_tokens` for Gemini calls to give headroom for thinking + output tokens combined. Currently 32768. Set `default_budget` to cap thinking tokens specifically. |
+| `retry.max_retries` | Auto-retry on failure | Currently 1. Retries on `PARSE_ERROR` and `TRUNCATED` with backoff. |
+| `retry.backoff_seconds` | Delay between retries | Currently 5s, multiplied by attempt number. |
+| `retry.retryable_errors` | Error prefixes that trigger retry | `["PARSE_ERROR", "TRUNCATED"]` — add more prefixes to retry on other transient errors. |
+
+### `prompts/curate.md` — Curation prompt template
+
+Template variables: `{plan_css}`, `{catalog_json}`, `{vibe}`.
+
+**Key behavioral instructions to tune:**
+- Candidate count per role: currently "2-4 candidate item_nos" — wider net means more spatial options at arrangement time, but larger output
+- Room density caps: "4-8 roles per small room, 8-12 for large" — increase for denser furnishing
+- Product-line cohesion: explicitly encourages same-collection pairings (e.g. "STOCKHOLM 2025" loveseat + side table)
+- Color coordination: instructs palette-matching within rooms
+- Surface item gating: "Do not assign surface-placement items unless the room has an anchor they can sit on"
+
+### `prompts/arrange.md` — Arrangement prompt template
+
+Template variables: `{room_id}`, `{room_name}`, `{room_css}`, `{occupied_block}`, `{items_json}`.
+
+**Key behavioral instructions to tune:**
+- Group semantics: anchor/dependent/surface hierarchy with `group_id` naming convention (`ROOM_FUNCTION_N`)
+- Rotation facing: "at r=0 the FRONT faces downward (+y)" — rotations orient items toward functional context
+- Rug placement: "Rugs go under their group's anchor, centered on the cluster"
+- Wall items: "go against obstacle/structure edges"
+- Candidate selection: "pick ONE candidate from the list — the one whose footprint fits best"
+- Precision level: "Prefer plausible arrangements over pixel-perfect spacing — downstream geometry will adjust"
+
+### `prompts/profile.md` — Product classification prompt template
+
+Template variables: `{image_path}`, `{metadata_path}`, `{metadata_content}`.
+
+**Key behavioral instructions to tune:**
+- Tier definitions: anchor (independent root), accent (dependent on anchor), fill (terminal decor). "Based on spatial dependency and hierarchy, NOT physical size" — a massive rug is fill, not anchor
+- Placement definitions: floor/wall/surface based on physical mounting mode
+- Category generation: "Do NOT simply copy the vendor's merchandising categories" — forces functional categories over vendor taxonomy
+- Tag generation: 2-5 style/vibe descriptors from synthesizing image + metadata
+
+### `prompts/profile_context.md` — Prompt workshopping reference
+
+Not used at runtime. Contains vendor metadata shape examples and field definitions for iterating on `profile.md` in a separate context window.
